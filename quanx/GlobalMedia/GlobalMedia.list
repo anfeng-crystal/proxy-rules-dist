@@ -125,6 +125,7 @@ HOST-SUFFIX,atv-ps-eu.amazon.com,GlobalMedia
 HOST-SUFFIX,atv-ps-fe.amazon.co.jp,GlobalMedia
 HOST-SUFFIX,atv-ps-fe.amazon.com,GlobalMedia
 HOST-SUFFIX,atv-ps.amazon.com,GlobalMedia
+HOST-SUFFIX,avgle.com,GlobalMedia
 HOST-SUFFIX,avodmp4s3ww-a.akamaihd.net,GlobalMedia
 HOST-SUFFIX,babble.com,GlobalMedia
 HOST-SUFFIX,babyzone.com,GlobalMedia
@@ -148,6 +149,7 @@ HOST-SUFFIX,bbcverticals.com,GlobalMedia
 HOST-SUFFIX,bbg.gov,GlobalMedia
 HOST-SUFFIX,bcbolthboa-a.akamaihd.net,GlobalMedia
 HOST-SUFFIX,beautyandthebeastmusical.co.uk,GlobalMedia
+HOST-SUFFIX,beeg.com,GlobalMedia
 HOST-SUFFIX,bentobox.tv,GlobalMedia
 HOST-SUFFIX,bidi.net.uk,GlobalMedia
 HOST-SUFFIX,bigbigchannel.com.hk,GlobalMedia
@@ -161,6 +163,7 @@ HOST-SUFFIX,bowenpress.com,GlobalMedia
 HOST-SUFFIX,boxun.com,GlobalMedia
 HOST-SUFFIX,bravotv.com,GlobalMedia
 HOST-SUFFIX,braze.com,GlobalMedia
+HOST-SUFFIX,brazzers.com,GlobalMedia
 HOST-SUFFIX,bstarstatic.com,GlobalMedia
 HOST-SUFFIX,bucketeer.jp,GlobalMedia
 HOST-SUFFIX,byspotify.com,GlobalMedia
@@ -168,6 +171,7 @@ HOST-SUFFIX,byteoversea.com,GlobalMedia
 HOST-SUFFIX,c4assets.com,GlobalMedia
 HOST-SUFFIX,cabletv.com.hk,GlobalMedia
 HOST-SUFFIX,callhulu.com,GlobalMedia
+HOST-SUFFIX,cam4.com,GlobalMedia
 HOST-SUFFIX,casoneexchange.com,GlobalMedia
 HOST-SUFFIX,cbs.com,GlobalMedia
 HOST-SUFFIX,cbsaavideo.com,GlobalMedia
@@ -196,6 +200,7 @@ HOST-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net,GlobalMedia
 HOST-SUFFIX,challenges.cloudflare.com,GlobalMedia
 HOST-SUFFIX,channel4.com,GlobalMedia
 HOST-SUFFIX,channel5.com,GlobalMedia
+HOST-SUFFIX,chaturbate.com,GlobalMedia
 HOST-SUFFIX,chocotv.com.tw,GlobalMedia
 HOST-SUFFIX,cinemax.com,GlobalMedia
 HOST-SUFFIX,claude.ai,GlobalMedia
@@ -359,6 +364,7 @@ HOST-SUFFIX,dmxleo.com,GlobalMedia
 HOST-SUFFIX,dnitv.com,GlobalMedia
 HOST-SUFFIX,dogatch.jp,GlobalMedia
 HOST-SUFFIX,dokusho-ojikan.jp,GlobalMedia
+HOST-SUFFIX,drtuber.com,GlobalMedia
 HOST-SUFFIX,dssott.com,GlobalMedia
 HOST-SUFFIX,dtci.co,GlobalMedia
 HOST-SUFFIX,dtci.technology,GlobalMedia
@@ -373,6 +379,8 @@ HOST-SUFFIX,ehwiki.org,GlobalMedia
 HOST-SUFFIX,eluniverso.com,GlobalMedia
 HOST-SUFFIX,encoretvb.com,GlobalMedia
 HOST-SUFFIX,eonline.com,GlobalMedia
+HOST-SUFFIX,eporner.com,GlobalMedia
+HOST-SUFFIX,erome.com,GlobalMedia
 HOST-SUFFIX,espn.co.uk,GlobalMedia
 HOST-SUFFIX,espn.com,GlobalMedia
 HOST-SUFFIX,espn.hb.omtrdc.net,GlobalMedia
@@ -385,6 +393,7 @@ HOST-SUFFIX,ext-twitch.tv,GlobalMedia
 HOST-SUFFIX,f1esports.com,GlobalMedia
 HOST-SUFFIX,f1manager.com,GlobalMedia
 HOST-SUFFIX,f1play.com,GlobalMedia
+HOST-SUFFIX,fansly.com,GlobalMedia
 HOST-SUFFIX,fast.com,GlobalMedia
 HOST-SUFFIX,fetnet.net,GlobalMedia
 HOST-SUFFIX,findyourlimits.com,GlobalMedia
@@ -597,6 +606,7 @@ HOST-SUFFIX,grazie.aws.intellij.net,GlobalMedia
 HOST-SUFFIX,gvt1.com,GlobalMedia
 HOST-SUFFIX,gvt2.com,GlobalMedia
 HOST-SUFFIX,haiwaikan.com,GlobalMedia
+HOST-SUFFIX,hanime.tv,GlobalMedia
 HOST-SUFFIX,happyon.jp,GlobalMedia
 HOST-SUFFIX,hath.network,GlobalMedia
 HOST-SUFFIX,hayabusa.dev,GlobalMedia
@@ -622,6 +632,7 @@ HOST-SUFFIX,hbomax.com,GlobalMedia
 HOST-SUFFIX,hbomaxcdn.com,GlobalMedia
 HOST-SUFFIX,hbonow.com,GlobalMedia
 HOST-SUFFIX,hbounify-prod.evergent.com,GlobalMedia
+HOST-SUFFIX,hentaihaven.xxx,GlobalMedia
 HOST-SUFFIX,hentaiverse.org,GlobalMedia
 HOST-SUFFIX,himalaya.com,GlobalMedia
 HOST-SUFFIX,hinet.net,GlobalMedia
@@ -703,6 +714,7 @@ HOST-SUFFIX,italkbbtv.com,GlobalMedia
 HOST-SUFFIX,itv.com,GlobalMedia
 HOST-SUFFIX,itvstatic.com,GlobalMedia
 HOST-SUFFIX,iwara.tv,GlobalMedia
+HOST-SUFFIX,jable.tv,GlobalMedia
 HOST-SUFFIX,japonx.com,GlobalMedia
 HOST-SUFFIX,japonx.net,GlobalMedia
 HOST-SUFFIX,japonx.tv,GlobalMedia
@@ -711,6 +723,9 @@ HOST-SUFFIX,japronx.com,GlobalMedia
 HOST-SUFFIX,japronx.net,GlobalMedia
 HOST-SUFFIX,japronx.tv,GlobalMedia
 HOST-SUFFIX,japronx.vip,GlobalMedia
+HOST-SUFFIX,javbus.com,GlobalMedia
+HOST-SUFFIX,javdb.com,GlobalMedia
+HOST-SUFFIX,javhd.com,GlobalMedia
 HOST-SUFFIX,jetbrains.ai,GlobalMedia
 HOST-SUFFIX,joeswall.com,GlobalMedia
 HOST-SUFFIX,joinmaidez.com,GlobalMedia
@@ -742,6 +757,7 @@ HOST-SUFFIX,line-scdn.net,GlobalMedia
 HOST-SUFFIX,linetv.tw,GlobalMedia
 HOST-SUFFIX,litix.io,GlobalMedia
 HOST-SUFFIX,litv.tv,GlobalMedia
+HOST-SUFFIX,livejasmin.com,GlobalMedia
 HOST-SUFFIX,livestream.com,GlobalMedia
 HOST-SUFFIX,llnwd.net,GlobalMedia
 HOST-SUFFIX,logx.optimizely.com,GlobalMedia
@@ -749,6 +765,7 @@ HOST-SUFFIX,londonreal.tv,GlobalMedia
 HOST-SUFFIX,m-content-viki.s.llnwi.net,GlobalMedia
 HOST-SUFFIX,makersuite.google.com,GlobalMedia
 HOST-SUFFIX,manifest.prod.boltdns.net,GlobalMedia
+HOST-SUFFIX,manyvids.com,GlobalMedia
 HOST-SUFFIX,marvel.com,GlobalMedia
 HOST-SUFFIX,marvel10thanniversary.com,GlobalMedia
 HOST-SUFFIX,marveldimensionofheroes.com,GlobalMedia
@@ -766,9 +783,12 @@ HOST-SUFFIX,meridian.net,GlobalMedia
 HOST-SUFFIX,meta.ai,GlobalMedia
 HOST-SUFFIX,mewatch.sg,GlobalMedia
 HOST-SUFFIX,mickey.tv,GlobalMedia
+HOST-SUFFIX,missav.com,GlobalMedia
+HOST-SUFFIX,missav.ws,GlobalMedia
 HOST-SUFFIX,mistral.ai,GlobalMedia
 HOST-SUFFIX,mobile-collector.newrelic.com,GlobalMedia
 HOST-SUFFIX,moov.hk,GlobalMedia
+HOST-SUFFIX,motherless.com,GlobalMedia
 HOST-SUFFIX,moviesanywhere.com,GlobalMedia
 HOST-SUFFIX,msnbc.com,GlobalMedia
 HOST-SUFFIX,mtvnservices.com,GlobalMedia
@@ -806,6 +826,7 @@ HOST-SUFFIX,myfoxtampa.com,GlobalMedia
 HOST-SUFFIX,myfoxtampabay.com,GlobalMedia
 HOST-SUFFIX,myfoxtwincities.com,GlobalMedia
 HOST-SUFFIX,myfoxzone.com,GlobalMedia
+HOST-SUFFIX,myfreecams.com,GlobalMedia
 HOST-SUFFIX,myhulu.com,GlobalMedia
 HOST-SUFFIX,myq2.com,GlobalMedia
 HOST-SUFFIX,mytvsuper.com,GlobalMedia
@@ -827,6 +848,7 @@ HOST-SUFFIX,nbys.tv,GlobalMedia
 HOST-SUFFIX,nbys1.tv,GlobalMedia
 HOST-SUFFIX,nbyy.tv,GlobalMedia
 HOST-SUFFIX,nebula.app,GlobalMedia
+HOST-SUFFIX,netflav.com,GlobalMedia
 HOST-SUFFIX,netflix.ca,GlobalMedia
 HOST-SUFFIX,netflix.com,GlobalMedia
 HOST-SUFFIX,netflix.com.au,GlobalMedia
@@ -855,6 +877,7 @@ HOST-SUFFIX,nflxsearch.net,GlobalMedia
 HOST-SUFFIX,nflxso.net,GlobalMedia
 HOST-SUFFIX,nflxvideo.net,GlobalMedia
 HOST-SUFFIX,ngeo.com,GlobalMedia
+HOST-SUFFIX,nhentai.net,GlobalMedia
 HOST-SUFFIX,nicodic.jp,GlobalMedia
 HOST-SUFFIX,nicomanga.jp,GlobalMedia
 HOST-SUFFIX,niconico.com,GlobalMedia
@@ -896,6 +919,7 @@ HOST-SUFFIX,olevod.io,GlobalMedia
 HOST-SUFFIX,olevod.tv,GlobalMedia
 HOST-SUFFIX,olevodtv.com,GlobalMedia
 HOST-SUFFIX,onetrust.com,GlobalMedia
+HOST-SUFFIX,onlyfans.com,GlobalMedia
 HOST-SUFFIX,originalhulu.com,GlobalMedia
 HOST-SUFFIX,orlandohurricane.com,GlobalMedia
 HOST-SUFFIX,overcast.fm,GlobalMedia
@@ -920,6 +944,7 @@ HOST-SUFFIX,pluto.tv,GlobalMedia
 HOST-SUFFIX,polygon.com,GlobalMedia
 HOST-SUFFIX,pornhub.com,GlobalMedia
 HOST-SUFFIX,pornhubpremium.com,GlobalMedia
+HOST-SUFFIX,porntrex.com,GlobalMedia
 HOST-SUFFIX,potplayer.tv,GlobalMedia
 HOST-SUFFIX,pplusstatic.com,GlobalMedia
 HOST-SUFFIX,prime-video.com,GlobalMedia
@@ -969,10 +994,14 @@ HOST-SUFFIX,realamericanstories.org,GlobalMedia
 HOST-SUFFIX,realamericanstories.tv,GlobalMedia
 HOST-SUFFIX,realmilwaukeenow.com,GlobalMedia
 HOST-SUFFIX,recode.net,GlobalMedia
+HOST-SUFFIX,redgifs.com,GlobalMedia
+HOST-SUFFIX,redtube.com,GlobalMedia
 HOST-SUFFIX,registerhulu.com,GlobalMedia
 HOST-SUFFIX,rprimelab.com,GlobalMedia
 HOST-SUFFIX,rthk.hk,GlobalMedia
 HOST-SUFFIX,rthk.org.hk,GlobalMedia
+HOST-SUFFIX,rule34.xxx,GlobalMedia
+HOST-SUFFIX,rule34video.com,GlobalMedia
 HOST-SUFFIX,s-nbcnews.com,GlobalMedia
 HOST-SUFFIX,s.yimg.jp,GlobalMedia
 HOST-SUFFIX,sbnation.com,GlobalMedia
@@ -999,6 +1028,7 @@ HOST-SUFFIX,soundcloud.app.goo.gl,GlobalMedia
 HOST-SUFFIX,soundcloud.com,GlobalMedia
 HOST-SUFFIX,soundcloudmail.com,GlobalMedia
 HOST-SUFFIX,spaindisney.com,GlobalMedia
+HOST-SUFFIX,spankbang.com,GlobalMedia
 HOST-SUFFIX,speeddreamride.com,GlobalMedia
 HOST-SUFFIX,speedfantasybid.com,GlobalMedia
 HOST-SUFFIX,speedracegear.com,GlobalMedia
@@ -1023,6 +1053,8 @@ HOST-SUFFIX,starwarskids.com,GlobalMedia
 HOST-SUFFIX,static-qobuz.com,GlobalMedia
 HOST-SUFFIX,streaks.jp,GlobalMedia
 HOST-SUFFIX,streamingdisney.net,GlobalMedia
+HOST-SUFFIX,stripchat.com,GlobalMedia
+HOST-SUFFIX,supjav.com,GlobalMedia
 HOST-SUFFIX,syfy.com,GlobalMedia
 HOST-SUFFIX,teenchoice.com,GlobalMedia
 HOST-SUFFIX,telemundo.com,GlobalMedia
@@ -1036,6 +1068,7 @@ HOST-SUFFIX,themarvelexperiencetour.com,GlobalMedia
 HOST-SUFFIX,theplatform.com,GlobalMedia
 HOST-SUFFIX,thestationbymaker.com,GlobalMedia
 HOST-SUFFIX,theverge.com,GlobalMedia
+HOST-SUFFIX,thisav.com,GlobalMedia
 HOST-SUFFIX,thisispolaris.com,GlobalMedia
 HOST-SUFFIX,tidal.com,GlobalMedia
 HOST-SUFFIX,tidalhifi.com,GlobalMedia
@@ -1045,8 +1078,10 @@ HOST-SUFFIX,tiktok.us,GlobalMedia
 HOST-SUFFIX,tiktokcdn.com,GlobalMedia
 HOST-SUFFIX,tiktokv.com,GlobalMedia
 HOST-SUFFIX,timestalks.com,GlobalMedia
+HOST-SUFFIX,tnaflix.com,GlobalMedia
 HOST-SUFFIX,tospotify.com,GlobalMedia
 HOST-SUFFIX,ttvnw.net,GlobalMedia
+HOST-SUFFIX,tube8.com,GlobalMedia
 HOST-SUFFIX,tv.apple.com,GlobalMedia
 HOST-SUFFIX,tvb.com,GlobalMedia
 HOST-SUFFIX,tvb.com.au,GlobalMedia
@@ -1155,8 +1190,14 @@ HOST-SUFFIX,woflthenewsstation.com,GlobalMedia
 HOST-SUFFIX,wogx.com,GlobalMedia
 HOST-SUFFIX,wwwhuluplus.com,GlobalMedia
 HOST-SUFFIX,x.ai,GlobalMedia
+HOST-SUFFIX,xhamster.com,GlobalMedia
+HOST-SUFFIX,xhamsterlive.com,GlobalMedia
+HOST-SUFFIX,xnxx.com,GlobalMedia
+HOST-SUFFIX,xvideos.com,GlobalMedia
 HOST-SUFFIX,yb.uncn.jp,GlobalMedia
 HOST-SUFFIX,youboranqs01.com,GlobalMedia
+HOST-SUFFIX,youjizz.com,GlobalMedia
+HOST-SUFFIX,youporn.com,GlobalMedia
 HOST-SUFFIX,youtu.be,GlobalMedia
 HOST-SUFFIX,youtube,GlobalMedia
 HOST-SUFFIX,youtube-nocookie.com,GlobalMedia

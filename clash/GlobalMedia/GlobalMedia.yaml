@@ -125,6 +125,7 @@ payload:
   - DOMAIN-SUFFIX,atv-ps-fe.amazon.co.jp
   - DOMAIN-SUFFIX,atv-ps-fe.amazon.com
   - DOMAIN-SUFFIX,atv-ps.amazon.com
+  - DOMAIN-SUFFIX,avgle.com
   - DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
   - DOMAIN-SUFFIX,babble.com
   - DOMAIN-SUFFIX,babyzone.com
@@ -148,6 +149,7 @@ payload:
   - DOMAIN-SUFFIX,bbg.gov
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
   - DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk
+  - DOMAIN-SUFFIX,beeg.com
   - DOMAIN-SUFFIX,bentobox.tv
   - DOMAIN-SUFFIX,bidi.net.uk
   - DOMAIN-SUFFIX,bigbigchannel.com.hk
@@ -161,6 +163,7 @@ payload:
   - DOMAIN-SUFFIX,boxun.com
   - DOMAIN-SUFFIX,bravotv.com
   - DOMAIN-SUFFIX,braze.com
+  - DOMAIN-SUFFIX,brazzers.com
   - DOMAIN-SUFFIX,bstarstatic.com
   - DOMAIN-SUFFIX,bucketeer.jp
   - DOMAIN-SUFFIX,byspotify.com
@@ -168,6 +171,7 @@ payload:
   - DOMAIN-SUFFIX,c4assets.com
   - DOMAIN-SUFFIX,cabletv.com.hk
   - DOMAIN-SUFFIX,callhulu.com
+  - DOMAIN-SUFFIX,cam4.com
   - DOMAIN-SUFFIX,casoneexchange.com
   - DOMAIN-SUFFIX,cbs.com
   - DOMAIN-SUFFIX,cbsaavideo.com
@@ -196,6 +200,7 @@ payload:
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,channel4.com
   - DOMAIN-SUFFIX,channel5.com
+  - DOMAIN-SUFFIX,chaturbate.com
   - DOMAIN-SUFFIX,chocotv.com.tw
   - DOMAIN-SUFFIX,cinemax.com
   - DOMAIN-SUFFIX,claude.ai
@@ -359,6 +364,7 @@ payload:
   - DOMAIN-SUFFIX,dnitv.com
   - DOMAIN-SUFFIX,dogatch.jp
   - DOMAIN-SUFFIX,dokusho-ojikan.jp
+  - DOMAIN-SUFFIX,drtuber.com
   - DOMAIN-SUFFIX,dssott.com
   - DOMAIN-SUFFIX,dtci.co
   - DOMAIN-SUFFIX,dtci.technology
@@ -373,6 +379,8 @@ payload:
   - DOMAIN-SUFFIX,eluniverso.com
   - DOMAIN-SUFFIX,encoretvb.com
   - DOMAIN-SUFFIX,eonline.com
+  - DOMAIN-SUFFIX,eporner.com
+  - DOMAIN-SUFFIX,erome.com
   - DOMAIN-SUFFIX,espn.co.uk
   - DOMAIN-SUFFIX,espn.com
   - DOMAIN-SUFFIX,espn.hb.omtrdc.net
@@ -385,6 +393,7 @@ payload:
   - DOMAIN-SUFFIX,f1esports.com
   - DOMAIN-SUFFIX,f1manager.com
   - DOMAIN-SUFFIX,f1play.com
+  - DOMAIN-SUFFIX,fansly.com
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,fetnet.net
   - DOMAIN-SUFFIX,findyourlimits.com
@@ -597,6 +606,7 @@ payload:
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,haiwaikan.com
+  - DOMAIN-SUFFIX,hanime.tv
   - DOMAIN-SUFFIX,happyon.jp
   - DOMAIN-SUFFIX,hath.network
   - DOMAIN-SUFFIX,hayabusa.dev
@@ -622,6 +632,7 @@ payload:
   - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,hbounify-prod.evergent.com
+  - DOMAIN-SUFFIX,hentaihaven.xxx
   - DOMAIN-SUFFIX,hentaiverse.org
   - DOMAIN-SUFFIX,himalaya.com
   - DOMAIN-SUFFIX,hinet.net
@@ -703,6 +714,7 @@ payload:
   - DOMAIN-SUFFIX,itv.com
   - DOMAIN-SUFFIX,itvstatic.com
   - DOMAIN-SUFFIX,iwara.tv
+  - DOMAIN-SUFFIX,jable.tv
   - DOMAIN-SUFFIX,japonx.com
   - DOMAIN-SUFFIX,japonx.net
   - DOMAIN-SUFFIX,japonx.tv
@@ -711,6 +723,9 @@ payload:
   - DOMAIN-SUFFIX,japronx.net
   - DOMAIN-SUFFIX,japronx.tv
   - DOMAIN-SUFFIX,japronx.vip
+  - DOMAIN-SUFFIX,javbus.com
+  - DOMAIN-SUFFIX,javdb.com
+  - DOMAIN-SUFFIX,javhd.com
   - DOMAIN-SUFFIX,jetbrains.ai
   - DOMAIN-SUFFIX,joeswall.com
   - DOMAIN-SUFFIX,joinmaidez.com
@@ -742,6 +757,7 @@ payload:
   - DOMAIN-SUFFIX,linetv.tw
   - DOMAIN-SUFFIX,litix.io
   - DOMAIN-SUFFIX,litv.tv
+  - DOMAIN-SUFFIX,livejasmin.com
   - DOMAIN-SUFFIX,livestream.com
   - DOMAIN-SUFFIX,llnwd.net
   - DOMAIN-SUFFIX,logx.optimizely.com
@@ -749,6 +765,7 @@ payload:
   - DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
   - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN-SUFFIX,manifest.prod.boltdns.net
+  - DOMAIN-SUFFIX,manyvids.com
   - DOMAIN-SUFFIX,marvel.com
   - DOMAIN-SUFFIX,marvel10thanniversary.com
   - DOMAIN-SUFFIX,marveldimensionofheroes.com
@@ -766,9 +783,12 @@ payload:
   - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,mewatch.sg
   - DOMAIN-SUFFIX,mickey.tv
+  - DOMAIN-SUFFIX,missav.com
+  - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,mobile-collector.newrelic.com
   - DOMAIN-SUFFIX,moov.hk
+  - DOMAIN-SUFFIX,motherless.com
   - DOMAIN-SUFFIX,moviesanywhere.com
   - DOMAIN-SUFFIX,msnbc.com
   - DOMAIN-SUFFIX,mtvnservices.com
@@ -806,6 +826,7 @@ payload:
   - DOMAIN-SUFFIX,myfoxtampabay.com
   - DOMAIN-SUFFIX,myfoxtwincities.com
   - DOMAIN-SUFFIX,myfoxzone.com
+  - DOMAIN-SUFFIX,myfreecams.com
   - DOMAIN-SUFFIX,myhulu.com
   - DOMAIN-SUFFIX,myq2.com
   - DOMAIN-SUFFIX,mytvsuper.com
@@ -827,6 +848,7 @@ payload:
   - DOMAIN-SUFFIX,nbys1.tv
   - DOMAIN-SUFFIX,nbyy.tv
   - DOMAIN-SUFFIX,nebula.app
+  - DOMAIN-SUFFIX,netflav.com
   - DOMAIN-SUFFIX,netflix.ca
   - DOMAIN-SUFFIX,netflix.com
   - DOMAIN-SUFFIX,netflix.com.au
@@ -855,6 +877,7 @@ payload:
   - DOMAIN-SUFFIX,nflxso.net
   - DOMAIN-SUFFIX,nflxvideo.net
   - DOMAIN-SUFFIX,ngeo.com
+  - DOMAIN-SUFFIX,nhentai.net
   - DOMAIN-SUFFIX,nicodic.jp
   - DOMAIN-SUFFIX,nicomanga.jp
   - DOMAIN-SUFFIX,niconico.com
@@ -896,6 +919,7 @@ payload:
   - DOMAIN-SUFFIX,olevod.tv
   - DOMAIN-SUFFIX,olevodtv.com
   - DOMAIN-SUFFIX,onetrust.com
+  - DOMAIN-SUFFIX,onlyfans.com
   - DOMAIN-SUFFIX,originalhulu.com
   - DOMAIN-SUFFIX,orlandohurricane.com
   - DOMAIN-SUFFIX,overcast.fm
@@ -920,6 +944,7 @@ payload:
   - DOMAIN-SUFFIX,polygon.com
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,porntrex.com
   - DOMAIN-SUFFIX,potplayer.tv
   - DOMAIN-SUFFIX,pplusstatic.com
   - DOMAIN-SUFFIX,prime-video.com
@@ -969,10 +994,14 @@ payload:
   - DOMAIN-SUFFIX,realamericanstories.tv
   - DOMAIN-SUFFIX,realmilwaukeenow.com
   - DOMAIN-SUFFIX,recode.net
+  - DOMAIN-SUFFIX,redgifs.com
+  - DOMAIN-SUFFIX,redtube.com
   - DOMAIN-SUFFIX,registerhulu.com
   - DOMAIN-SUFFIX,rprimelab.com
   - DOMAIN-SUFFIX,rthk.hk
   - DOMAIN-SUFFIX,rthk.org.hk
+  - DOMAIN-SUFFIX,rule34.xxx
+  - DOMAIN-SUFFIX,rule34video.com
   - DOMAIN-SUFFIX,s-nbcnews.com
   - DOMAIN-SUFFIX,s.yimg.jp
   - DOMAIN-SUFFIX,sbnation.com
@@ -999,6 +1028,7 @@ payload:
   - DOMAIN-SUFFIX,soundcloud.com
   - DOMAIN-SUFFIX,soundcloudmail.com
   - DOMAIN-SUFFIX,spaindisney.com
+  - DOMAIN-SUFFIX,spankbang.com
   - DOMAIN-SUFFIX,speeddreamride.com
   - DOMAIN-SUFFIX,speedfantasybid.com
   - DOMAIN-SUFFIX,speedracegear.com
@@ -1023,6 +1053,8 @@ payload:
   - DOMAIN-SUFFIX,static-qobuz.com
   - DOMAIN-SUFFIX,streaks.jp
   - DOMAIN-SUFFIX,streamingdisney.net
+  - DOMAIN-SUFFIX,stripchat.com
+  - DOMAIN-SUFFIX,supjav.com
   - DOMAIN-SUFFIX,syfy.com
   - DOMAIN-SUFFIX,teenchoice.com
   - DOMAIN-SUFFIX,telemundo.com
@@ -1036,6 +1068,7 @@ payload:
   - DOMAIN-SUFFIX,theplatform.com
   - DOMAIN-SUFFIX,thestationbymaker.com
   - DOMAIN-SUFFIX,theverge.com
+  - DOMAIN-SUFFIX,thisav.com
   - DOMAIN-SUFFIX,thisispolaris.com
   - DOMAIN-SUFFIX,tidal.com
   - DOMAIN-SUFFIX,tidalhifi.com
@@ -1045,8 +1078,10 @@ payload:
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,timestalks.com
+  - DOMAIN-SUFFIX,tnaflix.com
   - DOMAIN-SUFFIX,tospotify.com
   - DOMAIN-SUFFIX,ttvnw.net
+  - DOMAIN-SUFFIX,tube8.com
   - DOMAIN-SUFFIX,tv.apple.com
   - DOMAIN-SUFFIX,tvb.com
   - DOMAIN-SUFFIX,tvb.com.au
@@ -1155,8 +1190,14 @@ payload:
   - DOMAIN-SUFFIX,wogx.com
   - DOMAIN-SUFFIX,wwwhuluplus.com
   - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,xhamsterlive.com
+  - DOMAIN-SUFFIX,xnxx.com
+  - DOMAIN-SUFFIX,xvideos.com
   - DOMAIN-SUFFIX,yb.uncn.jp
   - DOMAIN-SUFFIX,youboranqs01.com
+  - DOMAIN-SUFFIX,youjizz.com
+  - DOMAIN-SUFFIX,youporn.com
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,youtube
   - DOMAIN-SUFFIX,youtube-nocookie.com

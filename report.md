@@ -43,12 +43,12 @@
 - GameAll: 48
 - GitHub: 38
 - GitLab: 3
-- Global: 6883
+- Global: 6849
 - GlobalAI: 101
 - GlobalApps: 692
 - GlobalGame: 34
-- GlobalMedia: 2325
-- GlobalServices: 10040
+- GlobalMedia: 2366
+- GlobalServices: 10006
 - Go: 5
 - Google: 717
 - GoogleGemini: 6
@@ -87,7 +87,7 @@
 - PlayStation: 4
 - Poe: 3
 - Privacy: 2
-- ProxyAll: 14261
+- ProxyAll: 14271
 - PyPI: 3
 - Qwen: 4
 - Railway12306: 3
@@ -267,3 +267,40 @@
 - Advertising:domain_suffix:vortex.data.microsoft.com
 - Advertising:domain_suffix:watson.microsoft.com
 - Advertising:domain_suffix:ys-log-upload-os.hoyoverse.com
+
+## 已从宽泛分类移除的重分类规则 / Category Suppressions
+
+- Global:domain_suffix:avgle.com
+- Global:domain_suffix:beeg.com
+- Global:domain_suffix:brazzers.com
+- Global:domain_suffix:cam4.com
+- Global:domain_suffix:chaturbate.com
+- Global:domain_suffix:drtuber.com
+- Global:domain_suffix:eporner.com
+- Global:domain_suffix:hanime.tv
+- Global:domain_suffix:iwara.tv
+- Global:domain_suffix:jable.tv
+- Global:domain_suffix:javbus.com
+- Global:domain_suffix:javdb.com
+- Global:domain_suffix:javhd.com
+- Global:domain_suffix:livejasmin.com
+- Global:domain_suffix:missav.com
+- Global:domain_suffix:missav.ws
+- Global:domain_suffix:motherless.com
+- Global:domain_suffix:myfreecams.com
+- Global:domain_suffix:netflav.com
+- Global:domain_suffix:nhentai.net
+- Global:domain_suffix:phncdn.com
+- Global:domain_suffix:pornhub.com
+- Global:domain_suffix:redtube.com
+- Global:domain_suffix:rule34.xxx
+- Global:domain_suffix:rule34video.com
+- Global:domain_suffix:spankbang.com
+- Global:domain_suffix:thisav.com
+- Global:domain_suffix:tnaflix.com
+- Global:domain_suffix:tube8.com
+- Global:domain_suffix:xhamster.com
+- Global:domain_suffix:xnxx.com
+- Global:domain_suffix:xvideos.com
+- Global:domain_suffix:youjizz.com
+- Global:domain_suffix:youporn.com

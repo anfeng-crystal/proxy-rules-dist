@@ -4,6 +4,32 @@
 
 `proxy-rules` 用一份规范化源数据生成 QuanX、Loon、Clash 和 Mihomo 规则。叶子分类可以单独订阅，聚合分类只是方便快速选取的一层。仓库把上游规则当作原料，先合并本地 `overrides`，再应用防误杀例外，最后发布到 `dist/` 和公开 GitHub Pages。
 
+## 第一阶段维护约定
+
+第一阶段会同时兼容旧的 `sources/*.json` 结构和新的维护分层；**新结构优先，旧结构保留兼容**。后续新增和调整尽量先落到新结构里，再按需回填旧文件，避免把维护入口继续堆在单一大桶里。
+
+推荐把职责分开看：
+
+- `catalog`：只描述分类本身，包括叶子、家族和场景入口的关系、策略名、顺序和可用范围。
+- `upstream`：只登记远程来源，负责把外部规则带进来，不负责最终语义。
+- `groups`：只做组合视图，把若干叶子或家族拼成可订阅入口，便于快速使用和迁移。
+
+分类使用也按这个原则：
+
+- 叶子分类是真实维护源，适合精细排障和单独订阅。
+- 家族分类是同领域汇总，适合审计、归类和批量维护。
+- 场景入口是给客户端快速选取用的，`All` 类都属于这一层，不是精细维护源。
+
+重分类和保护规则统一走下面两类：
+
+- `category_suppressions`：当上游宽泛分类过早收走某个域名时，用它把域名从宽泛分类移出，交回更细的叶子或家族分类。
+- `exceptions.json`：放保护域名、误杀修正和长期固定例外，优先保证关键链路稳定。
+
+输出层保持不变：
+
+- `README.md`、`README.en.md`、`snippets/`、`dist/` 和公开 Pages 的现有地址保持兼容。
+- 新结构只影响维护方式，不改变对外订阅 URL 的用法。
+
 ## 公开入口
 
 - 站点首页：`https://anfeng-crystal.github.io/proxy-rules-dist/`
@@ -20,10 +46,10 @@
 sources/
   categories.json       叶子分类、策略名和输出顺序。
   composites.json       聚合规则，只 include 已有分类，不直接写域名。
-  upstream.json         远程上游规则源，默认 required=false。
+  upstream.json         远程上游规则源，第一阶段继续兼容，默认 required=false。
 overrides/
   *.json                必保手工规则，离线构建也会输出。
-  exceptions.json       永远不能进入 REJECT 的保护域名。
+  exceptions.json       永远不能进入 REJECT 的保护域名，以及从宽泛分类移出的重分类规则。
 src/ruleforge/
   build.py              构建编排。
   normalize.py          输入解析和规则归一化。
@@ -83,7 +109,7 @@ PYTHONPATH=src python3 -m ruleforge.cli build \
 
 ## 分类和聚合
 
-叶子分类是真实规则，可以单独订阅。聚合分类只 include 叶子分类或其他聚合，构建器负责递归展开和去重。排障和精细分流时，优先看叶子分类；聚合只负责快速入口。
+叶子分类是真实规则，可以单独订阅。家族分类用于把同领域服务收束到一起。场景入口只负责快速选取，不承担精细维护职责；`All` 类都应该按这个定位理解。构建器负责递归展开和去重，排障和精细分流时优先看叶子分类。
 
 常用叶子入口：
 
@@ -120,7 +146,8 @@ ChinaWhitelist
 ```
 
 `DirectAll` 只是一个方便入口，不会替代上面的叶子分类。  
-`DomesticAll` 也不承担内网职责，它更偏向大陆服务和区域直连。
+`DomesticAll` 也不承担内网职责，它更偏向大陆服务和区域直连。  
+`ProxyAll`、`AIAll`、`DirectAll` 这类 `All` 分类都属于场景入口，不是日常维护源。
 
 ### AI 订阅建议
 
@@ -157,10 +184,11 @@ FINAL 或 MATCH
 
 1. 先看客户端命中日志，确认域名、当前策略和失败类型。
 2. 能明确归属的域名，先加到对应 `overrides/<Category>.json`。
-3. 如果是新服务，先建叶子分类，再按需加入 `sources/composites.json`。
-4. 如果被广告或隐私规则误杀，先加入 `overrides/exceptions.json`。
-5. 离线构建确认无空分类，再联网构建观察 `dist/report.md`。
-6. 某个上游长期稳定后，再加入 `sources/upstream.json`；不确定的源保持 `required=false`。
+3. 如果是新服务，先建叶子分类，再按需加入 `sources/composites.json` 或新的 `groups` 组合视图。
+4. 如果域名被上游宽泛分类收走，在 `overrides/exceptions.json` 的 `category_suppressions` 里把它从宽泛分类移出。
+5. 如果被广告或隐私规则误杀，先加入 `overrides/exceptions.json`。
+6. 离线构建确认无空分类，再联网构建观察 `dist/report.md`。
+7. 某个上游长期稳定后，再加入 `sources/upstream.json`；不确定的源保持 `required=false`。
 
 这个流程比直接塞进 `ProxyAll` 更容易排查，也能避免本地内网、银行、政务、票务和上传链路被误代理或误拒绝。
 
