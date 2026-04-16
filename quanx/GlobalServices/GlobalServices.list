@@ -1844,6 +1844,9 @@ HOST-SUFFIX,drebyby.com,PROXY
 HOST-SUFFIX,dremonsterbeatsoutlets.com,PROXY
 HOST-SUFFIX,dreprobeats.com,PROXY
 HOST-SUFFIX,dreprofy.com,PROXY
+HOST-SUFFIX,dropbox.com,PROXY
+HOST-SUFFIX,dropboxapi.com,PROXY
+HOST-SUFFIX,dropboxusercontent.com,PROXY
 HOST-SUFFIX,dtsell.com,PROXY
 HOST-SUFFIX,dvdstudiopro.biz,PROXY
 HOST-SUFFIX,dvdstudiopro.com,PROXY
@@ -3036,7 +3039,9 @@ HOST-SUFFIX,launchpad.wang,PROXY
 HOST-SUFFIX,leecountytimes.com,PROXY
 HOST-SUFFIX,legra.ph,PROXY
 HOST-SUFFIX,lexuemei.com,PROXY
+HOST-SUFFIX,licdn.com,PROXY
 HOST-SUFFIX,like.com,PROXY
+HOST-SUFFIX,linkedin.com,PROXY
 HOST-SUFFIX,live-video.net,PROXY
 HOST-SUFFIX,live.cn,PROXY
 HOST-SUFFIX,live.com,PROXY
@@ -3052,6 +3057,7 @@ HOST-SUFFIX,liverail.tv,PROXY
 HOST-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net,PROXY
 HOST-SUFFIX,livingyourambition.com,PROXY
 HOST-SUFFIX,llnwd.net,PROXY
+HOST-SUFFIX,lnkd.in,PROXY
 HOST-SUFFIX,lnstagram-help.com,PROXY
 HOST-SUFFIX,localytics.com,PROXY
 HOST-SUFFIX,login-account.net,PROXY
@@ -3469,6 +3475,10 @@ HOST-SUFFIX,nextstop.com,PROXY
 HOST-SUFFIX,nflhotsalejerseys.com,PROXY
 HOST-SUFFIX,nicesshop.net,PROXY
 HOST-SUFFIX,nomulus.foo,PROXY
+HOST-SUFFIX,notion-static.com,PROXY
+HOST-SUFFIX,notion.com,PROXY
+HOST-SUFFIX,notion.site,PROXY
+HOST-SUFFIX,notion.so,PROXY
 HOST-SUFFIX,nuget.org,PROXY
 HOST-SUFFIX,nugettest.org,PROXY
 HOST-SUFFIX,nxta.org,PROXY
@@ -3760,6 +3770,9 @@ HOST-SUFFIX,skype.net,PROXY
 HOST-SUFFIX,skypeassets.com,PROXY
 HOST-SUFFIX,skypeassets.net,PROXY
 HOST-SUFFIX,skypeforbusiness.com,PROXY
+HOST-SUFFIX,slack-edge.com,PROXY
+HOST-SUFFIX,slack-imgs.com,PROXY
+HOST-SUFFIX,slack.com,PROXY
 HOST-SUFFIX,snapseed.com,PROXY
 HOST-SUFFIX,sneaker666.com,PROXY
 HOST-SUFFIX,sneakerpage.net,PROXY
@@ -4127,6 +4140,8 @@ HOST-SUFFIX,yogalayout.com,PROXY
 HOST-SUFFIX,yourmonsterbeats.com,PROXY
 HOST-SUFFIX,z.cn,PROXY
 HOST-SUFFIX,zappos,PROXY
+HOST-SUFFIX,zoom.com,PROXY
+HOST-SUFFIX,zoom.us,PROXY
 HOST-SUFFIX,zuckerberg.com,PROXY
 HOST-SUFFIX,zuckerberg.net,PROXY
 HOST-SUFFIX,zukunftswerkstatt.de,PROXY

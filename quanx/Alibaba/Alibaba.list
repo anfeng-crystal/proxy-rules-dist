@@ -2,9 +2,3 @@
 # 平台 / Platform: QuanX
 # 分类 / Category: Alibaba
 HOST-SUFFIX,alibaba.com,DIRECT
-HOST-SUFFIX,alibabacloud.com,DIRECT
-HOST-SUFFIX,alicdn.com,DIRECT
-HOST-SUFFIX,alipay.com,DIRECT
-HOST-SUFFIX,aliyuncs.com,DIRECT
-HOST-SUFFIX,taobao.com,DIRECT
-HOST-SUFFIX,tmall.com,DIRECT

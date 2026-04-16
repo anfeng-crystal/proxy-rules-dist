@@ -66,6 +66,8 @@ HOST-SUFFIX,jetbrains.com,Developer
 HOST-SUFFIX,jetbrains.space,Developer
 HOST-SUFFIX,maven.org,Developer
 HOST-SUFFIX,myoctocat.com,Developer
+HOST-SUFFIX,netlify.app,Developer
+HOST-SUFFIX,netlify.com,Developer
 HOST-SUFFIX,npm.community,Developer
 HOST-SUFFIX,npmjs.com,Developer
 HOST-SUFFIX,npmjs.org,Developer
@@ -83,5 +85,7 @@ HOST-SUFFIX,rustup.rs,Developer
 HOST-SUFFIX,sonatype.org,Developer
 HOST-SUFFIX,static.crates.io,Developer
 HOST-SUFFIX,thegithubshop.com,Developer
+HOST-SUFFIX,vercel.app,Developer
+HOST-SUFFIX,vercel.com,Developer
 HOST-SUFFIX,vscode-cdn.net,Developer
 HOST-SUFFIX,vscode.dev,Developer

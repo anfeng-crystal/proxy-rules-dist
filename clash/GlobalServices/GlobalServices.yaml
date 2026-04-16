@@ -1844,6 +1844,9 @@ payload:
   - DOMAIN-SUFFIX,dremonsterbeatsoutlets.com
   - DOMAIN-SUFFIX,dreprobeats.com
   - DOMAIN-SUFFIX,dreprofy.com
+  - DOMAIN-SUFFIX,dropbox.com
+  - DOMAIN-SUFFIX,dropboxapi.com
+  - DOMAIN-SUFFIX,dropboxusercontent.com
   - DOMAIN-SUFFIX,dtsell.com
   - DOMAIN-SUFFIX,dvdstudiopro.biz
   - DOMAIN-SUFFIX,dvdstudiopro.com
@@ -3036,7 +3039,9 @@ payload:
   - DOMAIN-SUFFIX,leecountytimes.com
   - DOMAIN-SUFFIX,legra.ph
   - DOMAIN-SUFFIX,lexuemei.com
+  - DOMAIN-SUFFIX,licdn.com
   - DOMAIN-SUFFIX,like.com
+  - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,live-video.net
   - DOMAIN-SUFFIX,live.cn
   - DOMAIN-SUFFIX,live.com
@@ -3052,6 +3057,7 @@ payload:
   - DOMAIN-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net
   - DOMAIN-SUFFIX,livingyourambition.com
   - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-SUFFIX,lnkd.in
   - DOMAIN-SUFFIX,lnstagram-help.com
   - DOMAIN-SUFFIX,localytics.com
   - DOMAIN-SUFFIX,login-account.net
@@ -3469,6 +3475,10 @@ payload:
   - DOMAIN-SUFFIX,nflhotsalejerseys.com
   - DOMAIN-SUFFIX,nicesshop.net
   - DOMAIN-SUFFIX,nomulus.foo
+  - DOMAIN-SUFFIX,notion-static.com
+  - DOMAIN-SUFFIX,notion.com
+  - DOMAIN-SUFFIX,notion.site
+  - DOMAIN-SUFFIX,notion.so
   - DOMAIN-SUFFIX,nuget.org
   - DOMAIN-SUFFIX,nugettest.org
   - DOMAIN-SUFFIX,nxta.org
@@ -3760,6 +3770,9 @@ payload:
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,skypeassets.net
   - DOMAIN-SUFFIX,skypeforbusiness.com
+  - DOMAIN-SUFFIX,slack-edge.com
+  - DOMAIN-SUFFIX,slack-imgs.com
+  - DOMAIN-SUFFIX,slack.com
   - DOMAIN-SUFFIX,snapseed.com
   - DOMAIN-SUFFIX,sneaker666.com
   - DOMAIN-SUFFIX,sneakerpage.net
@@ -4127,6 +4140,8 @@ payload:
   - DOMAIN-SUFFIX,yourmonsterbeats.com
   - DOMAIN-SUFFIX,z.cn
   - DOMAIN-SUFFIX,zappos
+  - DOMAIN-SUFFIX,zoom.com
+  - DOMAIN-SUFFIX,zoom.us
   - DOMAIN-SUFFIX,zuckerberg.com
   - DOMAIN-SUFFIX,zuckerberg.net
   - DOMAIN-SUFFIX,zukunftswerkstatt.de

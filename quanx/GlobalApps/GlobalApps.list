@@ -517,9 +517,12 @@ HOST-SUFFIX,jtvnw.net,PROXY
 HOST-SUFFIX,kingstagram.com,PROXY
 HOST-SUFFIX,klik.me,PROXY
 HOST-SUFFIX,legra.ph,PROXY
+HOST-SUFFIX,licdn.com,PROXY
+HOST-SUFFIX,linkedin.com,PROXY
 HOST-SUFFIX,live-video.net,PROXY
 HOST-SUFFIX,liverail.com,PROXY
 HOST-SUFFIX,liverail.tv,PROXY
+HOST-SUFFIX,lnkd.in,PROXY
 HOST-SUFFIX,lnstagram-help.com,PROXY
 HOST-SUFFIX,login-account.net,PROXY
 HOST-SUFFIX,m.me,PROXY
@@ -541,6 +544,10 @@ HOST-SUFFIX,myfbfans.com,PROXY
 HOST-SUFFIX,nbabot.net,PROXY
 HOST-SUFFIX,newsfeed.com,PROXY
 HOST-SUFFIX,nextstop.com,PROXY
+HOST-SUFFIX,notion-static.com,PROXY
+HOST-SUFFIX,notion.com,PROXY
+HOST-SUFFIX,notion.site,PROXY
+HOST-SUFFIX,notion.so,PROXY
 HOST-SUFFIX,ocul.us,PROXY
 HOST-SUFFIX,oculus-china.com,PROXY
 HOST-SUFFIX,oculus.com,PROXY
@@ -588,6 +595,9 @@ HOST-SUFFIX,rocksdb.net,PROXY
 HOST-SUFFIX,rocksdb.org,PROXY
 HOST-SUFFIX,sgpstatp.com,PROXY
 HOST-SUFFIX,shopfacebook.com,PROXY
+HOST-SUFFIX,slack-edge.com,PROXY
+HOST-SUFFIX,slack-imgs.com,PROXY
+HOST-SUFFIX,slack.com,PROXY
 HOST-SUFFIX,snssdk.com,PROXY
 HOST-SUFFIX,sportsfacebook.com,PROXY
 HOST-SUFFIX,sportstream.com,PROXY
@@ -675,6 +685,8 @@ HOST-SUFFIX,wwwinstagram.com,PROXY
 HOST-SUFFIX,wwwmfacebook.com,PROXY
 HOST-SUFFIX,x.com,PROXY
 HOST-SUFFIX,yogalayout.com,PROXY
+HOST-SUFFIX,zoom.com,PROXY
+HOST-SUFFIX,zoom.us,PROXY
 HOST-SUFFIX,zuckerberg.com,PROXY
 HOST-SUFFIX,zuckerberg.net,PROXY
 IP-CIDR,103.53.48.0/23,PROXY

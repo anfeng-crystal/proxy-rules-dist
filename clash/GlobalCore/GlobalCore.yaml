@@ -1755,6 +1755,9 @@ payload:
   - DOMAIN-SUFFIX,dremonsterbeatsoutlets.com
   - DOMAIN-SUFFIX,dreprobeats.com
   - DOMAIN-SUFFIX,dreprofy.com
+  - DOMAIN-SUFFIX,dropbox.com
+  - DOMAIN-SUFFIX,dropboxapi.com
+  - DOMAIN-SUFFIX,dropboxusercontent.com
   - DOMAIN-SUFFIX,dtsell.com
   - DOMAIN-SUFFIX,dvdstudiopro.biz
   - DOMAIN-SUFFIX,dvdstudiopro.com

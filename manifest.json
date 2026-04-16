@@ -3,697 +3,1282 @@
     {
       "name": "LocalNetwork",
       "policy": "DIRECT",
-      "rules": 18
+      "description": "Local, private, captive, and intranet addresses that should never use a proxy.",
+      "rules": 18,
+      "source_count": 0,
+      "manual_count": 18
     },
     {
       "name": "ConnectivityCheck",
       "policy": "DIRECT",
-      "rules": 9
+      "description": "Operating-system connectivity check and captive portal endpoints.",
+      "rules": 9,
+      "source_count": 0,
+      "manual_count": 9
     },
     {
       "name": "TestSites",
       "policy": "PROXY",
-      "rules": 10
+      "description": "Public IP, DNS leak, browser fingerprint, and network test endpoints.",
+      "rules": 10,
+      "source_count": 0,
+      "manual_count": 10
     },
     {
       "name": "OpenAI",
       "policy": "OpenAI",
-      "rules": 52
+      "description": "OpenAI and ChatGPT web, upload, auth, and safety checks.",
+      "rules": 52,
+      "source_count": 34,
+      "manual_count": 18
     },
     {
       "name": "AnthropicClaude",
       "policy": "GlobalAI",
-      "rules": 4
+      "description": "Anthropic Claude web and API endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "GoogleGemini",
       "policy": "GlobalAI",
-      "rules": 6
+      "description": "Google Gemini, AI Studio, and NotebookLM endpoints.",
+      "rules": 6,
+      "source_count": 0,
+      "manual_count": 6
     },
     {
       "name": "MicrosoftCopilot",
       "policy": "GlobalAI",
-      "rules": 5
+      "description": "Microsoft Copilot and Bing AI endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "Perplexity",
       "policy": "GlobalAI",
-      "rules": 3
+      "description": "Perplexity web and API endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "MistralAI",
       "policy": "GlobalAI",
-      "rules": 3
+      "description": "Mistral AI web and API endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "GrokXAI",
       "policy": "GlobalAI",
-      "rules": 4
+      "description": "xAI and Grok endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Poe",
       "policy": "GlobalAI",
-      "rules": 3
+      "description": "Poe web, creator, and API endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "HuggingFace",
       "policy": "GlobalAI",
-      "rules": 4
+      "description": "Hugging Face model, dataset, and inference endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Replicate",
       "policy": "GlobalAI",
-      "rules": 3
+      "description": "Replicate model and API endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "Midjourney",
       "policy": "GlobalAI",
-      "rules": 2
+      "description": "Midjourney web and CDN endpoints.",
+      "rules": 2,
+      "source_count": 0,
+      "manual_count": 2
     },
     {
       "name": "StabilityAI",
       "policy": "GlobalAI",
-      "rules": 3
+      "description": "Stability AI web and API endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "Runway",
       "policy": "GlobalAI",
-      "rules": 3
+      "description": "Runway web and API endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "Cursor",
       "policy": "GlobalAI",
-      "rules": 3
+      "description": "Cursor editor, docs, and API endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "Windsurf",
       "policy": "GlobalAI",
-      "rules": 3
+      "description": "Windsurf editor, docs, and API endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "DeepSeek",
       "policy": "DIRECT",
-      "rules": 3
+      "description": "DeepSeek web and API endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "MoonshotKimi",
       "policy": "DIRECT",
-      "rules": 6
+      "description": "Moonshot and Kimi web and API endpoints.",
+      "rules": 6,
+      "source_count": 0,
+      "manual_count": 6
     },
     {
       "name": "Qwen",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Qwen web, coder, and Alibaba model endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "ByteDanceDoubao",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Doubao and Volcano Engine AI endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Homebrew",
       "policy": "Homebrew",
-      "rules": 6
+      "description": "Homebrew metadata, bottle, and GitHub Packages download paths.",
+      "rules": 6,
+      "source_count": 0,
+      "manual_count": 6
     },
     {
       "name": "GitHub",
       "policy": "GitHub",
-      "rules": 38
+      "description": "GitHub web, API, raw content, release assets, and package endpoints.",
+      "rules": 38,
+      "source_count": 31,
+      "manual_count": 7
     },
     {
       "name": "GitLab",
       "policy": "Developer",
-      "rules": 3
+      "description": "GitLab web, API, and package endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "Docker",
       "policy": "Developer",
-      "rules": 5
+      "description": "Docker Hub, registry, and container image endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "NPM",
       "policy": "Developer",
-      "rules": 3
+      "description": "npm registry and package endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "PyPI",
       "policy": "Developer",
-      "rules": 3
+      "description": "Python Package Index and file download endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "Maven",
       "policy": "Developer",
-      "rules": 4
+      "description": "Maven Central and related artifact endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Go",
       "policy": "Developer",
-      "rules": 5
+      "description": "Go module proxy, checksum, docs, and download endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "Rust",
       "policy": "Developer",
-      "rules": 4
+      "description": "Rust crates, static assets, toolchain, and docs endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "RubyGems",
       "policy": "Developer",
-      "rules": 3
+      "description": "RubyGems package and CDN endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "Gradle",
       "policy": "Developer",
-      "rules": 4
+      "description": "Gradle plugin, service, and distribution endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "JetBrains",
       "policy": "Developer",
-      "rules": 4
+      "description": "JetBrains IDE, plugin, marketplace, and download endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "VSCode",
       "policy": "Developer",
-      "rules": 4
+      "description": "Visual Studio Code marketplace, update, and extension endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Cloudflare",
       "policy": "PROXY",
-      "rules": 5
+      "description": "Cloudflare web, challenge, and developer endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "PayPal",
       "policy": "Payment",
-      "rules": 248
+      "description": "PayPal web, API, checkout, and static endpoints.",
+      "rules": 248,
+      "source_count": 248,
+      "manual_count": 0
     },
     {
       "name": "Stripe",
       "policy": "Payment",
-      "rules": 4
+      "description": "Stripe web, API, JS, and checkout endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Apple",
       "policy": "Apple",
-      "rules": 1864
+      "description": "Apple services and static assets.",
+      "rules": 1864,
+      "source_count": 1863,
+      "manual_count": 1
     },
     {
       "name": "AppleCDN",
       "policy": "Apple",
-      "rules": 10
+      "description": "Apple CDN, software update, app store asset, and static endpoints.",
+      "rules": 10,
+      "source_count": 0,
+      "manual_count": 10
     },
     {
       "name": "ApplePush",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Apple push notification and device reachability endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "AppleMedia",
       "policy": "Apple",
-      "rules": 5
+      "description": "Apple Music, TV, podcasts, and media storefront endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "Google",
       "policy": "Google",
-      "rules": 717
+      "description": "Google services, APIs, and static assets.",
+      "rules": 717,
+      "source_count": 717,
+      "manual_count": 0
     },
     {
       "name": "Microsoft",
       "policy": "PROXY",
-      "rules": 711
+      "description": "Microsoft overseas services, auth, and CDN endpoints.",
+      "rules": 711,
+      "source_count": 711,
+      "manual_count": 0
     },
     {
       "name": "MicrosoftCloud",
       "policy": "PROXY",
-      "rules": 9
+      "description": "Azure, Office, OneDrive, SharePoint, and Microsoft cloud endpoints.",
+      "rules": 9,
+      "source_count": 0,
+      "manual_count": 9
     },
     {
       "name": "MicrosoftDev",
       "policy": "Developer",
-      "rules": 5
+      "description": "Microsoft developer, NuGet, Visual Studio, and package endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "Telegram",
       "policy": "Telegram",
-      "rules": 31
+      "description": "Telegram app and web endpoints.",
+      "rules": 31,
+      "source_count": 31,
+      "manual_count": 0
     },
     {
       "name": "YouTube",
       "policy": "PROXY",
-      "rules": 192
+      "description": "YouTube web, video, and static endpoints.",
+      "rules": 192,
+      "source_count": 192,
+      "manual_count": 0
     },
     {
       "name": "Netflix",
       "policy": "PROXY",
-      "rules": 1153
+      "description": "Netflix app, web, and video CDN endpoints.",
+      "rules": 1153,
+      "source_count": 1153,
+      "manual_count": 0
     },
     {
       "name": "DisneyPlus",
       "policy": "PROXY",
-      "rules": 5
+      "description": "Disney+ app, web, and video endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "Spotify",
       "policy": "PROXY",
-      "rules": 30
+      "description": "Spotify app, web, and CDN endpoints.",
+      "rules": 30,
+      "source_count": 30,
+      "manual_count": 0
     },
     {
       "name": "TikTok",
       "policy": "PROXY",
-      "rules": 32
+      "description": "TikTok overseas app, web, and CDN endpoints.",
+      "rules": 32,
+      "source_count": 32,
+      "manual_count": 0
     },
     {
       "name": "TwitterX",
       "policy": "PROXY",
-      "rules": 33
+      "description": "X/Twitter web, API, media, and static endpoints.",
+      "rules": 33,
+      "source_count": 33,
+      "manual_count": 0
     },
     {
       "name": "FacebookMeta",
       "policy": "PROXY",
-      "rules": 569
+      "description": "Facebook and Meta web, API, and CDN endpoints.",
+      "rules": 569,
+      "source_count": 569,
+      "manual_count": 0
     },
     {
       "name": "Instagram",
       "policy": "PROXY",
-      "rules": 4
+      "description": "Instagram app, web, API, and media endpoints.",
+      "rules": 4,
+      "source_count": 4,
+      "manual_count": 0
     },
     {
       "name": "Discord",
       "policy": "PROXY",
-      "rules": 29
+      "description": "Discord app, web, voice, and CDN endpoints.",
+      "rules": 29,
+      "source_count": 29,
+      "manual_count": 0
     },
     {
       "name": "Reddit",
       "policy": "PROXY",
-      "rules": 8
+      "description": "Reddit web, API, and static endpoints.",
+      "rules": 8,
+      "source_count": 8,
+      "manual_count": 0
     },
     {
       "name": "Twitch",
       "policy": "PROXY",
-      "rules": 20
+      "description": "Twitch web, video, and CDN endpoints.",
+      "rules": 20,
+      "source_count": 20,
+      "manual_count": 0
     },
     {
       "name": "Amazon",
       "policy": "PROXY",
-      "rules": 204
+      "description": "Amazon overseas web, AWS edge, and media endpoints.",
+      "rules": 204,
+      "source_count": 204,
+      "manual_count": 0
     },
     {
       "name": "Steam",
       "policy": "Game",
-      "rules": 6
+      "description": "Steam store, community, CDN, and game content endpoints.",
+      "rules": 6,
+      "source_count": 0,
+      "manual_count": 6
     },
     {
       "name": "EpicGames",
       "policy": "Game",
-      "rules": 4
+      "description": "Epic Games store, launcher, Unreal, and CDN endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "PlayStation",
       "policy": "Game",
-      "rules": 4
+      "description": "PlayStation Network, store, login, and CDN endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Xbox",
       "policy": "Game",
-      "rules": 4
+      "description": "Xbox Live, Microsoft gaming, and content endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Nintendo",
       "policy": "Game",
-      "rules": 4
+      "description": "Nintendo account, store, online, and CDN endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "BattleNet",
       "policy": "Game",
-      "rules": 4
+      "description": "Battle.net, Blizzard, and Activision endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "RiotGames",
       "policy": "Game",
-      "rules": 4
+      "description": "Riot Games, League, Valorant, and CDN endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "HoYoverse",
       "policy": "Game",
-      "rules": 4
+      "description": "HoYoverse global game, account, and CDN endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Alipay",
       "policy": "DIRECT",
-      "rules": 2
+      "description": "Alipay wallet, merchant, and payment endpoints.",
+      "rules": 2,
+      "source_count": 0,
+      "manual_count": 2
     },
     {
       "name": "TaobaoTmall",
       "policy": "DIRECT",
-      "rules": 3
+      "description": "Taobao and Tmall shopping endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "Alibaba",
       "policy": "DIRECT",
-      "rules": 7
+      "description": "Alibaba, Taobao, Tmall, Aliyun, and Alipay endpoints.",
+      "rules": 1,
+      "source_count": 0,
+      "manual_count": 1
     },
     {
       "name": "TencentCloud",
       "policy": "DIRECT",
-      "rules": 3
+      "description": "Tencent Cloud and API endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "QQ",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "QQ messaging and account endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Tencent",
       "policy": "DIRECT",
-      "rules": 6
+      "description": "Tencent, QQ, media, static, and payment endpoints.",
+      "rules": 6,
+      "source_count": 0,
+      "manual_count": 6
     },
     {
       "name": "WeChat",
       "policy": "DIRECT",
-      "rules": 5
+      "description": "WeChat web, auth, media, and payment endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "Baidu",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Baidu search, maps, cloud, and static endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "BaiduSearchMaps",
       "policy": "DIRECT",
-      "rules": 3
+      "description": "Baidu search, maps, and location endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "BaiduCloud",
       "policy": "DIRECT",
-      "rules": 2
+      "description": "Baidu cloud and object storage endpoints.",
+      "rules": 2,
+      "source_count": 0,
+      "manual_count": 2
     },
     {
       "name": "ByteDance",
       "policy": "DIRECT",
-      "rules": 5
+      "description": "ByteDance China services and static endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "ByteDanceCore",
       "policy": "DIRECT",
-      "rules": 5
+      "description": "ByteDance core, Toutiao, and static endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "Douyin",
       "policy": "DIRECT",
-      "rules": 5
+      "description": "Douyin app, web, and media endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "Bilibili",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Bilibili app, web, API, and media endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "BilibiliVideo",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Bilibili video and API endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "NetEase",
       "policy": "DIRECT",
-      "rules": 5
+      "description": "NetEase web, mail, music, and static endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "NetEaseMail",
       "policy": "DIRECT",
-      "rules": 3
+      "description": "NetEase mail and account endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "NetEaseMusic",
       "policy": "DIRECT",
-      "rules": 2
+      "description": "NetEase music and audio endpoints.",
+      "rules": 2,
+      "source_count": 0,
+      "manual_count": 2
     },
     {
       "name": "JD",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "JD.com retail, logistics, and static endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "JDRetail",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "JD retail, logistics, and checkout endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Meituan",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Meituan and Dianping app, web, and static endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "MeituanDianping",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Meituan and Dianping service endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Xiaomi",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Xiaomi, Mi, MIUI, and device service endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "XiaomiDevice",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Xiaomi device, MIUI, and home endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Huawei",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Huawei, VMall, cloud, and device service endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "HuaweiCloud",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Huawei Cloud and device cloud endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "Weibo",
       "policy": "DIRECT",
-      "rules": 3
+      "description": "Weibo app, web, API, and media endpoints.",
+      "rules": 2,
+      "source_count": 0,
+      "manual_count": 2
     },
     {
       "name": "Zhihu",
       "policy": "DIRECT",
-      "rules": 2
+      "description": "Zhihu app, web, API, and static endpoints.",
+      "rules": 1,
+      "source_count": 0,
+      "manual_count": 1
     },
     {
       "name": "ChinaCloud",
       "policy": "DIRECT",
-      "rules": 11
+      "description": "Mainland China cloud, object storage, CDN, and developer cloud endpoints.",
+      "rules": 11,
+      "source_count": 0,
+      "manual_count": 11
     },
     {
       "name": "ChinaCDN",
       "policy": "DIRECT",
-      "rules": 10
+      "description": "Mainland China CDN and static asset endpoints.",
+      "rules": 10,
+      "source_count": 0,
+      "manual_count": 10
     },
     {
       "name": "ChinaMedia",
       "policy": "DIRECT",
-      "rules": 10
+      "description": "Mainland China music, video, live, and media endpoints.",
+      "rules": 10,
+      "source_count": 0,
+      "manual_count": 10
     },
     {
       "name": "EducationCN",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Mainland China education, academic, and university endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "TencentGames",
       "policy": "DIRECT",
-      "rules": 5
+      "description": "Tencent China game, launcher, and CDN endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "NetEaseGames",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "NetEase China game, launcher, and CDN endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "MiHoYoCN",
       "policy": "DIRECT",
-      "rules": 5
+      "description": "miHoYo mainland China game and account endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "Railway12306",
       "policy": "DIRECT",
-      "rules": 3
+      "description": "China Railway 12306 ticketing endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "BankingCN",
       "policy": "DIRECT",
-      "rules": 7
+      "description": "Major mainland China banking endpoints.",
+      "rules": 7,
+      "source_count": 0,
+      "manual_count": 7
     },
     {
       "name": "GovCN",
       "policy": "DIRECT",
-      "rules": 5
+      "description": "Mainland China government and public-service endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "GlobalMedia",
       "policy": "GlobalMedia",
-      "rules": 2366
+      "description": "Streaming, overseas media, and adult media services.",
+      "rules": 2366,
+      "source_count": 2325,
+      "manual_count": 41
     },
     {
       "name": "Global",
       "policy": "Global",
-      "rules": 6849
+      "description": "General overseas services.",
+      "rules": 6849,
+      "source_count": 6849,
+      "manual_count": 0
     },
     {
       "name": "Direct",
       "policy": "DIRECT",
-      "rules": 9
+      "description": "Common domestic or local direct rules.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "China",
       "policy": "DIRECT",
-      "rules": 31
+      "description": "China region direct fallback.",
+      "rules": 31,
+      "source_count": 30,
+      "manual_count": 1
     },
     {
       "name": "Hijacking",
       "policy": "REJECT",
-      "rules": 5
+      "description": "DNS hijacking, bogus response, and captive ad endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "Advertising",
       "policy": "REJECT",
-      "rules": 256059
+      "description": "Advertising and tracking domains.",
+      "rules": 256059,
+      "source_count": 256056,
+      "manual_count": 3
     },
     {
       "name": "Privacy",
       "policy": "REJECT",
-      "rules": 2
+      "description": "Privacy-invasive telemetry rules.",
+      "rules": 2,
+      "source_count": 0,
+      "manual_count": 2
+    },
+    {
+      "name": "Aliyun",
+      "policy": "DIRECT",
+      "description": "Alibaba Cloud compute, storage, and service endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "AlibabaCDN",
+      "policy": "DIRECT",
+      "description": "Alibaba CDN and static asset endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "TencentMeeting",
+      "policy": "DIRECT",
+      "description": "Tencent Meeting and VooV collaboration endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "TencentVideo",
+      "policy": "DIRECT",
+      "description": "Tencent Video and video CDN endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "BaiduTieba",
+      "policy": "DIRECT",
+      "description": "Baidu Tieba community and forum endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "BaiduPan",
+      "policy": "DIRECT",
+      "description": "Baidu Netdisk and file storage endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "DouyinCDN",
+      "policy": "DIRECT",
+      "description": "Douyin media, image, and CDN endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "Pinduoduo",
+      "policy": "DIRECT",
+      "description": "Pinduoduo shopping and merchant endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
+    },
+    {
+      "name": "WeiboMedia",
+      "policy": "DIRECT",
+      "description": "Weibo media, images, and video endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "ZhihuContent",
+      "policy": "DIRECT",
+      "description": "Zhihu content, columns, and video endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "iQIYI",
+      "policy": "DIRECT",
+      "description": "iQIYI web, app, and video endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "Youku",
+      "policy": "DIRECT",
+      "description": "Youku and Tudou web and video endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "WhatsApp",
+      "policy": "PROXY",
+      "description": "WhatsApp web and messaging endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "Messenger",
+      "policy": "PROXY",
+      "description": "Messenger web and messaging endpoints.",
+      "rules": 2,
+      "source_count": 0,
+      "manual_count": 2
+    },
+    {
+      "name": "LinkedIn",
+      "policy": "PROXY",
+      "description": "LinkedIn web and API endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "Zoom",
+      "policy": "PROXY",
+      "description": "Zoom web and meeting endpoints.",
+      "rules": 2,
+      "source_count": 0,
+      "manual_count": 2
+    },
+    {
+      "name": "Slack",
+      "policy": "PROXY",
+      "description": "Slack web and collaboration endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "Notion",
+      "policy": "PROXY",
+      "description": "Notion web and workspace endpoints.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
+    },
+    {
+      "name": "Dropbox",
+      "policy": "PROXY",
+      "description": "Dropbox storage and file sync endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
+    },
+    {
+      "name": "Vercel",
+      "policy": "Developer",
+      "description": "Vercel deployment and hosting endpoints.",
+      "rules": 2,
+      "source_count": 0,
+      "manual_count": 2
+    },
+    {
+      "name": "Netlify",
+      "policy": "Developer",
+      "description": "Netlify deployment and hosting endpoints.",
+      "rules": 2,
+      "source_count": 0,
+      "manual_count": 2
     },
     {
       "name": "DirectAll",
       "policy": "DIRECT",
-      "rules": 176
+      "description": "Local network, connectivity checks, mainland China services, and domestic whitelist.",
+      "rules": 200,
+      "source_count": 30,
+      "manual_count": 170
     },
     {
       "name": "GlobalAI",
       "policy": "GlobalAI",
-      "rules": 101
+      "description": "Merged overseas AI services for a dedicated AI proxy policy.",
+      "rules": 101,
+      "source_count": 34,
+      "manual_count": 67
     },
     {
       "name": "ChinaAI",
       "policy": "DIRECT",
-      "rules": 17
+      "description": "Merged mainland China AI services for direct routing.",
+      "rules": 17,
+      "source_count": 0,
+      "manual_count": 17
     },
     {
       "name": "AIAll",
       "policy": "AIAll",
-      "rules": 118
+      "description": "Mixed AI catalog that includes both GlobalAI and ChinaAI.",
+      "rules": 118,
+      "source_count": 34,
+      "manual_count": 84
     },
     {
       "name": "ChinaPlatform",
       "policy": "DIRECT",
-      "rules": 69
+      "description": "Mainland China platform, commerce, and community services.",
+      "rules": 71,
+      "source_count": 0,
+      "manual_count": 71
     },
     {
       "name": "ChinaInfra",
       "policy": "DIRECT",
-      "rules": 23
+      "description": "Mainland China cloud and CDN services.",
+      "rules": 31,
+      "source_count": 0,
+      "manual_count": 31
     },
     {
       "name": "ChinaContent",
       "policy": "DIRECT",
-      "rules": 10
+      "description": "Mainland China media and content services.",
+      "rules": 23,
+      "source_count": 0,
+      "manual_count": 23
     },
     {
       "name": "ChinaFinance",
       "policy": "DIRECT",
-      "rules": 7
+      "description": "Mainland China financial services.",
+      "rules": 7,
+      "source_count": 0,
+      "manual_count": 7
     },
     {
       "name": "ChinaGovernment",
       "policy": "DIRECT",
-      "rules": 5
+      "description": "Mainland China government and public-service endpoints.",
+      "rules": 5,
+      "source_count": 0,
+      "manual_count": 5
     },
     {
       "name": "ChinaEducation",
       "policy": "DIRECT",
-      "rules": 4
+      "description": "Mainland China education services.",
+      "rules": 4,
+      "source_count": 0,
+      "manual_count": 4
     },
     {
       "name": "ChinaTransport",
       "policy": "DIRECT",
-      "rules": 3
+      "description": "Mainland China rail ticketing and travel services.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3
     },
     {
       "name": "DomesticAll",
       "policy": "DIRECT",
-      "rules": 153
+      "description": "Merged mainland China family buckets and domestic direct fallbacks.",
+      "rules": 177,
+      "source_count": 30,
+      "manual_count": 147
     },
     {
       "name": "ChinaWhitelist",
       "policy": "DIRECT",
-      "rules": 66
+      "description": "Auditable mainland whitelist for banking, government, education, media, cloud, CDN, and travel services.",
+      "rules": 85,
+      "source_count": 0,
+      "manual_count": 85
     },
     {
       "name": "AppleServices",
       "policy": "Apple",
-      "rules": 1873
+      "description": "Apple core, CDN, push, and media service bundle.",
+      "rules": 1873,
+      "source_count": 1863,
+      "manual_count": 10
     },
     {
       "name": "MicrosoftServices",
       "policy": "PROXY",
-      "rules": 717
+      "description": "Microsoft core, cloud, developer, Xbox, and Copilot service bundle.",
+      "rules": 717,
+      "source_count": 711,
+      "manual_count": 6
     },
     {
       "name": "GlobalCore",
       "policy": "PROXY",
-      "rules": 3514
+      "description": "Core overseas platform services for account, cloud, and infrastructure access.",
+      "rules": 3517,
+      "source_count": 3493,
+      "manual_count": 24
     },
     {
       "name": "GlobalCommunication",
       "policy": "PROXY",
-      "rules": 60
+      "description": "Overseas communication and collaboration services.",
+      "rules": 74,
+      "source_count": 60,
+      "manual_count": 14
     },
     {
       "name": "GlobalSocial",
       "policy": "PROXY",
-      "rules": 663
+      "description": "Overseas social and community services.",
+      "rules": 666,
+      "source_count": 663,
+      "manual_count": 3
     },
     {
       "name": "ChinaGame",
       "policy": "DIRECT",
-      "rules": 14
+      "description": "Mainland China game services that should usually be direct.",
+      "rules": 14,
+      "source_count": 0,
+      "manual_count": 14
     },
     {
       "name": "GlobalGame",
       "policy": "Game",
-      "rules": 34
+      "description": "Overseas game platforms and publishers.",
+      "rules": 34,
+      "source_count": 0,
+      "manual_count": 34
     },
     {
       "name": "GameAll",
       "policy": "GameAll",
-      "rules": 48
+      "description": "Mixed game catalog that includes both GlobalGame and ChinaGame.",
+      "rules": 48,
+      "source_count": 0,
+      "manual_count": 48
     },
     {
       "name": "GlobalServices",
       "policy": "PROXY",
-      "rules": 4237
+      "description": "Merged overseas platform and app services.",
+      "rules": 4252,
+      "source_count": 4211,
+      "manual_count": 41
     },
     {
       "name": "GlobalApps",
       "policy": "PROXY",
-      "rules": 723
+      "description": "Merged overseas social and application services.",
+      "rules": 735,
+      "source_count": 723,
+      "manual_count": 12
     },
     {
       "name": "Developer",
       "policy": "Developer",
-      "rules": 84
+      "description": "Merged developer ecosystem endpoints.",
+      "rules": 88,
+      "source_count": 31,
+      "manual_count": 57
     },
     {
       "name": "Payment",
       "policy": "Payment",
-      "rules": 252
+      "description": "Merged overseas payment endpoints.",
+      "rules": 252,
+      "source_count": 248,
+      "manual_count": 4
     },
     {
       "name": "RejectAll",
       "policy": "REJECT",
-      "rules": 256065
+      "description": "Advertising, privacy, and hijacking reject bundle.",
+      "rules": 256065,
+      "source_count": 256056,
+      "manual_count": 9
     },
     {
       "name": "ProxyAll",
       "policy": "PROXY",
-      "rules": 6982
+      "description": "Broad overseas proxy catalog for fallback subscriptions.",
+      "rules": 7001,
+      "source_count": 6773,
+      "manual_count": 228
     }
   ],
   "report": {
@@ -810,6 +1395,8 @@
         "error": ""
       }
     ],
+    "catalog_warnings": [],
+    "runtime_warnings": [],
     "warnings": [],
     "composites": [
       {
@@ -820,7 +1407,7 @@
           "DomesticAll",
           "ChinaWhitelist"
         ],
-        "rules": 176
+        "rules": 200
       },
       {
         "name": "GlobalAI",
@@ -864,6 +1451,9 @@
       {
         "name": "ChinaPlatform",
         "include": [
+          "TencentMeeting",
+          "BaiduTieba",
+          "Pinduoduo",
           "Alibaba",
           "Alipay",
           "TaobaoTmall",
@@ -890,24 +1480,33 @@
           "Weibo",
           "Zhihu"
         ],
-        "rules": 69
+        "rules": 71
       },
       {
         "name": "ChinaInfra",
         "include": [
+          "Aliyun",
+          "AlibabaCDN",
           "ChinaCloud",
           "ChinaCDN",
           "TencentCloud",
-          "BaiduCloud"
+          "BaiduCloud",
+          "BaiduPan",
+          "DouyinCDN"
         ],
-        "rules": 23
+        "rules": 31
       },
       {
         "name": "ChinaContent",
         "include": [
+          "TencentVideo",
+          "WeiboMedia",
+          "ZhihuContent",
+          "iQIYI",
+          "Youku",
           "ChinaMedia"
         ],
-        "rules": 10
+        "rules": 23
       },
       {
         "name": "ChinaFinance",
@@ -951,7 +1550,7 @@
           "Direct",
           "China"
         ],
-        "rules": 153
+        "rules": 177
       },
       {
         "name": "ChinaWhitelist",
@@ -964,7 +1563,7 @@
           "ChinaTransport",
           "ChinaGame"
         ],
-        "rules": 66
+        "rules": 85
       },
       {
         "name": "AppleServices",
@@ -990,25 +1589,32 @@
       {
         "name": "GlobalCore",
         "include": [
+          "Dropbox",
           "AppleServices",
           "Google",
           "MicrosoftServices",
           "Cloudflare",
           "Amazon"
         ],
-        "rules": 3514
+        "rules": 3517
       },
       {
         "name": "GlobalCommunication",
         "include": [
+          "WhatsApp",
+          "Messenger",
+          "Zoom",
+          "Slack",
+          "Notion",
           "Telegram",
           "Discord"
         ],
-        "rules": 60
+        "rules": 74
       },
       {
         "name": "GlobalSocial",
         "include": [
+          "LinkedIn",
           "TikTok",
           "TwitterX",
           "FacebookMeta",
@@ -1016,7 +1622,7 @@
           "Reddit",
           "Twitch"
         ],
-        "rules": 663
+        "rules": 666
       },
       {
         "name": "ChinaGame",
@@ -1056,7 +1662,7 @@
           "GlobalCommunication",
           "GlobalSocial"
         ],
-        "rules": 4237
+        "rules": 4252
       },
       {
         "name": "GlobalApps",
@@ -1064,11 +1670,13 @@
           "GlobalSocial",
           "GlobalCommunication"
         ],
-        "rules": 723
+        "rules": 735
       },
       {
         "name": "Developer",
         "include": [
+          "Vercel",
+          "Netlify",
           "GitHub",
           "GitLab",
           "Docker",
@@ -1083,7 +1691,7 @@
           "VSCode",
           "Homebrew"
         ],
-        "rules": 84
+        "rules": 88
       },
       {
         "name": "Payment",
@@ -1116,7 +1724,7 @@
           "Payment",
           "GlobalMedia"
         ],
-        "rules": 6982
+        "rules": 7001
       }
     ],
     "protected_reject_removals": [
@@ -1277,7 +1885,66 @@
       "Global:domain_suffix:xnxx.com",
       "Global:domain_suffix:xvideos.com",
       "Global:domain_suffix:youjizz.com",
-      "Global:domain_suffix:youporn.com"
-    ]
+      "Global:domain_suffix:youporn.com",
+      "Direct:domain_suffix:alicdn.com",
+      "Direct:domain_suffix:baidu.com",
+      "Direct:domain_suffix:qq.com",
+      "Direct:domain_suffix:taobao.com"
+    ],
+    "cross_category_conflicts": {
+      "categories_scanned": 133,
+      "duplicate_keys": 1160,
+      "duplicate_category_memberships": 2416,
+      "examples": [
+        {
+          "rule": "domain_suffix:fast.com",
+          "count": 4,
+          "categories": [
+            "TestSites",
+            "Netflix",
+            "GlobalMedia",
+            "Global"
+          ]
+        },
+        {
+          "rule": "domain_suffix:gvt2.com",
+          "count": 4,
+          "categories": [
+            "YouTube",
+            "GlobalMedia",
+            "Global",
+            "Advertising"
+          ]
+        },
+        {
+          "rule": "domain_suffix:snssdk.com",
+          "count": 4,
+          "categories": [
+            "TikTok",
+            "ByteDance",
+            "ByteDanceCore",
+            "GlobalMedia"
+          ]
+        },
+        {
+          "rule": "domain_keyword:spotify",
+          "count": 3,
+          "categories": [
+            "Spotify",
+            "GlobalMedia",
+            "Global"
+          ]
+        },
+        {
+          "rule": "domain_keyword:ttvnw",
+          "count": 3,
+          "categories": [
+            "Twitch",
+            "GlobalMedia",
+            "Global"
+          ]
+        }
+      ]
+    }
   }
 }

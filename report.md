@@ -4,8 +4,10 @@
 
 - AIAll: 118
 - Advertising: 256059
-- Alibaba: 7
+- Alibaba: 1
+- AlibabaCDN: 3
 - Alipay: 2
+- Aliyun: 3
 - Amazon: 204
 - AnthropicClaude: 4
 - Apple: 1864
@@ -15,7 +17,9 @@
 - AppleServices: 1873
 - Baidu: 4
 - BaiduCloud: 2
+- BaiduPan: 3
 - BaiduSearchMaps: 3
+- BaiduTieba: 3
 - BankingCN: 7
 - BattleNet: 4
 - Bilibili: 4
@@ -27,28 +31,30 @@
 - ChinaAI: 17
 - ChinaCDN: 10
 - ChinaCloud: 11
-- ChinaContent: 10
+- ChinaContent: 23
 - ChinaEducation: 4
 - ChinaFinance: 7
 - ChinaGame: 14
 - ChinaGovernment: 5
-- ChinaInfra: 23
+- ChinaInfra: 31
 - ChinaMedia: 10
-- ChinaPlatform: 69
+- ChinaPlatform: 71
 - ChinaTransport: 3
-- ChinaWhitelist: 66
+- ChinaWhitelist: 85
 - Cloudflare: 5
 - ConnectivityCheck: 9
 - Cursor: 3
 - DeepSeek: 3
-- Developer: 84
-- Direct: 9
-- DirectAll: 176
+- Developer: 88
+- Direct: 5
+- DirectAll: 200
 - Discord: 29
 - DisneyPlus: 5
 - Docker: 5
-- DomesticAll: 153
-- Douyin: 5
+- DomesticAll: 177
+- Douyin: 3
+- DouyinCDN: 3
+- Dropbox: 3
 - EducationCN: 4
 - EpicGames: 4
 - FacebookMeta: 569
@@ -57,13 +63,13 @@
 - GitLab: 3
 - Global: 6849
 - GlobalAI: 101
-- GlobalApps: 723
-- GlobalCommunication: 60
-- GlobalCore: 3514
+- GlobalApps: 735
+- GlobalCommunication: 74
+- GlobalCore: 3517
 - GlobalGame: 34
 - GlobalMedia: 2366
-- GlobalServices: 4237
-- GlobalSocial: 663
+- GlobalServices: 4252
+- GlobalSocial: 666
 - Go: 5
 - Google: 717
 - GoogleGemini: 6
@@ -80,10 +86,12 @@
 - JD: 4
 - JDRetail: 4
 - JetBrains: 4
+- LinkedIn: 3
 - LocalNetwork: 18
 - Maven: 4
 - Meituan: 4
 - MeituanDianping: 4
+- Messenger: 2
 - MiHoYoCN: 5
 - Microsoft: 711
 - MicrosoftCloud: 9
@@ -99,15 +107,18 @@
 - NetEaseMail: 3
 - NetEaseMusic: 2
 - Netflix: 1153
+- Netlify: 2
 - Nintendo: 4
+- Notion: 4
 - OpenAI: 52
 - PayPal: 248
 - Payment: 252
 - Perplexity: 3
+- Pinduoduo: 4
 - PlayStation: 4
 - Poe: 3
 - Privacy: 2
-- ProxyAll: 6982
+- ProxyAll: 7001
 - PyPI: 3
 - QQ: 4
 - Qwen: 4
@@ -119,6 +130,7 @@
 - RubyGems: 3
 - Runway: 3
 - Rust: 4
+- Slack: 3
 - Spotify: 30
 - StabilityAI: 3
 - Steam: 6
@@ -128,19 +140,40 @@
 - Tencent: 6
 - TencentCloud: 3
 - TencentGames: 5
+- TencentMeeting: 3
+- TencentVideo: 3
 - TestSites: 10
 - TikTok: 32
 - Twitch: 20
 - TwitterX: 33
 - VSCode: 4
+- Vercel: 2
 - WeChat: 5
-- Weibo: 3
+- Weibo: 2
+- WeiboMedia: 3
+- WhatsApp: 3
 - Windsurf: 3
 - Xbox: 4
 - Xiaomi: 4
 - XiaomiDevice: 4
 - YouTube: 192
-- Zhihu: 2
+- Youku: 3
+- Zhihu: 1
+- ZhihuContent: 3
+- Zoom: 2
+- iQIYI: 3
+
+## 跨分类重复 / Cross-Category Conflicts
+
+- categories scanned: 133
+- duplicate keys: 1160
+- duplicate category memberships: 2416
+- examples:
+  - domain_suffix:fast.com (4 categories): TestSites, Netflix, GlobalMedia, Global
+  - domain_suffix:gvt2.com (4 categories): YouTube, GlobalMedia, Global, Advertising
+  - domain_suffix:snssdk.com (4 categories): TikTok, ByteDance, ByteDanceCore, GlobalMedia
+  - domain_keyword:spotify (3 categories): Spotify, GlobalMedia, Global
+  - domain_keyword:ttvnw (3 categories): Twitch, GlobalMedia, Global
 
 ## 上游拉取结果 / Fetch Results
 
@@ -166,6 +199,10 @@
 - blackmatrix7-advertising-quanx: ok
 - blackmatrix7-china-clash: ok
 - acl4ssr-global-clash: ok
+
+## 目录告警 / Catalog Warnings
+
+- none
 
 ## 告警 / Warnings
 
@@ -332,3 +369,7 @@
 - Global:domain_suffix:xvideos.com
 - Global:domain_suffix:youjizz.com
 - Global:domain_suffix:youporn.com
+- Direct:domain_suffix:alicdn.com
+- Direct:domain_suffix:baidu.com
+- Direct:domain_suffix:qq.com
+- Direct:domain_suffix:taobao.com

@@ -2307,6 +2307,9 @@ DOMAIN-SUFFIX,drebyby.com,PROXY
 DOMAIN-SUFFIX,dremonsterbeatsoutlets.com,PROXY
 DOMAIN-SUFFIX,dreprobeats.com,PROXY
 DOMAIN-SUFFIX,dreprofy.com,PROXY
+DOMAIN-SUFFIX,dropbox.com,PROXY
+DOMAIN-SUFFIX,dropboxapi.com,PROXY
+DOMAIN-SUFFIX,dropboxusercontent.com,PROXY
 DOMAIN-SUFFIX,drtuber.com,PROXY
 DOMAIN-SUFFIX,dssott.com,PROXY
 DOMAIN-SUFFIX,dtci.co,PROXY
@@ -3929,10 +3932,12 @@ DOMAIN-SUFFIX,leagueoflegends.com,PROXY
 DOMAIN-SUFFIX,leecountytimes.com,PROXY
 DOMAIN-SUFFIX,legra.ph,PROXY
 DOMAIN-SUFFIX,lexuemei.com,PROXY
+DOMAIN-SUFFIX,licdn.com,PROXY
 DOMAIN-SUFFIX,like.com,PROXY
 DOMAIN-SUFFIX,line-cdn.net,PROXY
 DOMAIN-SUFFIX,line-scdn.net,PROXY
 DOMAIN-SUFFIX,linetv.tw,PROXY
+DOMAIN-SUFFIX,linkedin.com,PROXY
 DOMAIN-SUFFIX,litix.io,PROXY
 DOMAIN-SUFFIX,litv.tv,PROXY
 DOMAIN-SUFFIX,live-video.net,PROXY
@@ -3952,6 +3957,7 @@ DOMAIN-SUFFIX,livestream.com,PROXY
 DOMAIN-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net,PROXY
 DOMAIN-SUFFIX,livingyourambition.com,PROXY
 DOMAIN-SUFFIX,llnwd.net,PROXY
+DOMAIN-SUFFIX,lnkd.in,PROXY
 DOMAIN-SUFFIX,lnstagram-help.com,PROXY
 DOMAIN-SUFFIX,loanbuilder.com,PROXY
 DOMAIN-SUFFIX,localytics.com,PROXY
@@ -4464,6 +4470,8 @@ DOMAIN-SUFFIX,netflixdnstest9.com,PROXY
 DOMAIN-SUFFIX,netflixinvestor.com,PROXY
 DOMAIN-SUFFIX,netflixstudios.com,PROXY
 DOMAIN-SUFFIX,netflixtechblog.com,PROXY
+DOMAIN-SUFFIX,netlify.app,PROXY
+DOMAIN-SUFFIX,netlify.com,PROXY
 DOMAIN-SUFFIX,nettyinternet.com,PROXY
 DOMAIN-SUFFIX,neverware.com,PROXY
 DOMAIN-SUFFIX,newbeatsblackfriday.com,PROXY
@@ -4509,6 +4517,10 @@ DOMAIN-SUFFIX,nivodi.tv,PROXY
 DOMAIN-SUFFIX,nivodz.com,PROXY
 DOMAIN-SUFFIX,nomadlandmovie.ch,PROXY
 DOMAIN-SUFFIX,nomulus.foo,PROXY
+DOMAIN-SUFFIX,notion-static.com,PROXY
+DOMAIN-SUFFIX,notion.com,PROXY
+DOMAIN-SUFFIX,notion.site,PROXY
+DOMAIN-SUFFIX,notion.so,PROXY
 DOMAIN-SUFFIX,now-ashare.com,PROXY
 DOMAIN-SUFFIX,now-tv.com,PROXY
 DOMAIN-SUFFIX,now.com,PROXY
@@ -5124,6 +5136,9 @@ DOMAIN-SUFFIX,skype.net,PROXY
 DOMAIN-SUFFIX,skypeassets.com,PROXY
 DOMAIN-SUFFIX,skypeassets.net,PROXY
 DOMAIN-SUFFIX,skypeforbusiness.com,PROXY
+DOMAIN-SUFFIX,slack-edge.com,PROXY
+DOMAIN-SUFFIX,slack-imgs.com,PROXY
+DOMAIN-SUFFIX,slack.com,PROXY
 DOMAIN-SUFFIX,smartmediarep.com,PROXY
 DOMAIN-SUFFIX,snapseed.com,PROXY
 DOMAIN-SUFFIX,sndcdn.com,PROXY
@@ -5413,6 +5428,8 @@ DOMAIN-SUFFIX,venmo.info,PROXY
 DOMAIN-SUFFIX,venmo.net,PROXY
 DOMAIN-SUFFIX,venmo.org,PROXY
 DOMAIN-SUFFIX,venmo.s3.amazonaws.com,PROXY
+DOMAIN-SUFFIX,vercel.app,PROXY
+DOMAIN-SUFFIX,vercel.com,PROXY
 DOMAIN-SUFFIX,verily.com,PROXY
 DOMAIN-SUFFIX,verilylifesciences.com,PROXY
 DOMAIN-SUFFIX,verilystudyhub.com,PROXY
@@ -5888,6 +5905,8 @@ DOMAIN-SUFFIX,zeetv.co.uk,PROXY
 DOMAIN-SUFFIX,zeetv.com,PROXY
 DOMAIN-SUFFIX,zeeuk.com,PROXY
 DOMAIN-SUFFIX,zeriamerikes.com,PROXY
+DOMAIN-SUFFIX,zoom.com,PROXY
+DOMAIN-SUFFIX,zoom.us,PROXY
 DOMAIN-SUFFIX,zuckerberg.com,PROXY
 DOMAIN-SUFFIX,zuckerberg.net,PROXY
 DOMAIN-SUFFIX,zukunftswerkstatt.de,PROXY

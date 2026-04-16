@@ -2,9 +2,3 @@
 # 平台 / Platform: Loon
 # 分类 / Category: Alibaba
 DOMAIN-SUFFIX,alibaba.com,DIRECT
-DOMAIN-SUFFIX,alibabacloud.com,DIRECT
-DOMAIN-SUFFIX,alicdn.com,DIRECT
-DOMAIN-SUFFIX,alipay.com,DIRECT
-DOMAIN-SUFFIX,aliyuncs.com,DIRECT
-DOMAIN-SUFFIX,taobao.com,DIRECT
-DOMAIN-SUFFIX,tmall.com,DIRECT

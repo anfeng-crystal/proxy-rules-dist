@@ -155,3 +155,9 @@ https://anfeng-crystal.github.io/proxy-rules-dist/quanx/GlobalAI/GlobalAI.list
 https://anfeng-crystal.github.io/proxy-rules-dist/quanx/ChinaAI/ChinaAI.list
 https://anfeng-crystal.github.io/proxy-rules-dist/clash/ProxyAll/ProxyAll.yaml
 ```
+
+`.github/workflows/release-snapshot.yml` creates a dated GitHub Release snapshot after `Publish dist` succeeds. The archive bundles `dist/`, `snippets/`, `README.md`, `README.en.md`, and `site/index.html`, which makes rollback and comparison straightforward.
+
+Pages is the latest subscription surface. Releases are the rollback snapshot layer. Use Pages for daily consumption and Releases when you need to restore or compare a specific build day.
+
+The CI gate sequence is: unit tests, `compileall`, offline build, public Pages build, then snapshot publication after a successful publish run. That keeps structural and output issues out of the release trail.

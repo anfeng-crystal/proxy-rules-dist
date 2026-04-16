@@ -481,9 +481,12 @@ payload:
   - DOMAIN-SUFFIX,jtvnw.net
   - DOMAIN-SUFFIX,kingstagram.com
   - DOMAIN-SUFFIX,klik.me
+  - DOMAIN-SUFFIX,licdn.com
+  - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,live-video.net
   - DOMAIN-SUFFIX,liverail.com
   - DOMAIN-SUFFIX,liverail.tv
+  - DOMAIN-SUFFIX,lnkd.in
   - DOMAIN-SUFFIX,lnstagram-help.com
   - DOMAIN-SUFFIX,login-account.net
   - DOMAIN-SUFFIX,m.me

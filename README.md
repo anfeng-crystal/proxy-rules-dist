@@ -224,3 +224,9 @@ https://anfeng-crystal.github.io/proxy-rules-dist/quanx/ChinaAI/ChinaAI.list
 https://anfeng-crystal.github.io/proxy-rules-dist/quanx/DomesticAll/DomesticAll.list
 https://anfeng-crystal.github.io/proxy-rules-dist/clash/ProxyAll/ProxyAll.yaml
 ```
+
+`.github/workflows/release-snapshot.yml` 会在 `Publish dist` 成功后生成按日期命名的 GitHub Release 快照。快照里会打包 `dist/`、`snippets/`、`README.md`、`README.en.md` 和 `site/index.html`，适合回滚和版本对比。
+
+Pages 是最新订阅层，Release 是可回滚快照层。日常使用优先看 Pages；需要回退、比对或保留某天状态时，再看 Releases。
+
+CI 门禁按这个顺序跑：单测、`compileall`、离线构建、公开 Pages 构建、发布快照。这样可以先拦住结构和输出问题，再决定是否产出新的回滚点。

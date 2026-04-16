@@ -2,7 +2,5 @@
 # 平台 / Platform: Loon
 # 分类 / Category: Douyin
 DOMAIN-SUFFIX,douyin.com,DIRECT
-DOMAIN-SUFFIX,douyincdn.com,DIRECT
 DOMAIN-SUFFIX,douyinpic.com,DIRECT
-DOMAIN-SUFFIX,douyinstatic.com,DIRECT
 DOMAIN-SUFFIX,iesdouyin.com,DIRECT

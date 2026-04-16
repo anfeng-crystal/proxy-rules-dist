@@ -1844,6 +1844,9 @@ DOMAIN-SUFFIX,drebyby.com,PROXY
 DOMAIN-SUFFIX,dremonsterbeatsoutlets.com,PROXY
 DOMAIN-SUFFIX,dreprobeats.com,PROXY
 DOMAIN-SUFFIX,dreprofy.com,PROXY
+DOMAIN-SUFFIX,dropbox.com,PROXY
+DOMAIN-SUFFIX,dropboxapi.com,PROXY
+DOMAIN-SUFFIX,dropboxusercontent.com,PROXY
 DOMAIN-SUFFIX,dtsell.com,PROXY
 DOMAIN-SUFFIX,dvdstudiopro.biz,PROXY
 DOMAIN-SUFFIX,dvdstudiopro.com,PROXY
@@ -3036,7 +3039,9 @@ DOMAIN-SUFFIX,launchpad.wang,PROXY
 DOMAIN-SUFFIX,leecountytimes.com,PROXY
 DOMAIN-SUFFIX,legra.ph,PROXY
 DOMAIN-SUFFIX,lexuemei.com,PROXY
+DOMAIN-SUFFIX,licdn.com,PROXY
 DOMAIN-SUFFIX,like.com,PROXY
+DOMAIN-SUFFIX,linkedin.com,PROXY
 DOMAIN-SUFFIX,live-video.net,PROXY
 DOMAIN-SUFFIX,live.cn,PROXY
 DOMAIN-SUFFIX,live.com,PROXY
@@ -3052,6 +3057,7 @@ DOMAIN-SUFFIX,liverail.tv,PROXY
 DOMAIN-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net,PROXY
 DOMAIN-SUFFIX,livingyourambition.com,PROXY
 DOMAIN-SUFFIX,llnwd.net,PROXY
+DOMAIN-SUFFIX,lnkd.in,PROXY
 DOMAIN-SUFFIX,lnstagram-help.com,PROXY
 DOMAIN-SUFFIX,localytics.com,PROXY
 DOMAIN-SUFFIX,login-account.net,PROXY
@@ -3469,6 +3475,10 @@ DOMAIN-SUFFIX,nextstop.com,PROXY
 DOMAIN-SUFFIX,nflhotsalejerseys.com,PROXY
 DOMAIN-SUFFIX,nicesshop.net,PROXY
 DOMAIN-SUFFIX,nomulus.foo,PROXY
+DOMAIN-SUFFIX,notion-static.com,PROXY
+DOMAIN-SUFFIX,notion.com,PROXY
+DOMAIN-SUFFIX,notion.site,PROXY
+DOMAIN-SUFFIX,notion.so,PROXY
 DOMAIN-SUFFIX,nuget.org,PROXY
 DOMAIN-SUFFIX,nugettest.org,PROXY
 DOMAIN-SUFFIX,nxta.org,PROXY
@@ -3760,6 +3770,9 @@ DOMAIN-SUFFIX,skype.net,PROXY
 DOMAIN-SUFFIX,skypeassets.com,PROXY
 DOMAIN-SUFFIX,skypeassets.net,PROXY
 DOMAIN-SUFFIX,skypeforbusiness.com,PROXY
+DOMAIN-SUFFIX,slack-edge.com,PROXY
+DOMAIN-SUFFIX,slack-imgs.com,PROXY
+DOMAIN-SUFFIX,slack.com,PROXY
 DOMAIN-SUFFIX,snapseed.com,PROXY
 DOMAIN-SUFFIX,sneaker666.com,PROXY
 DOMAIN-SUFFIX,sneakerpage.net,PROXY
@@ -4127,6 +4140,8 @@ DOMAIN-SUFFIX,yogalayout.com,PROXY
 DOMAIN-SUFFIX,yourmonsterbeats.com,PROXY
 DOMAIN-SUFFIX,z.cn,PROXY
 DOMAIN-SUFFIX,zappos,PROXY
+DOMAIN-SUFFIX,zoom.com,PROXY
+DOMAIN-SUFFIX,zoom.us,PROXY
 DOMAIN-SUFFIX,zuckerberg.com,PROXY
 DOMAIN-SUFFIX,zuckerberg.net,PROXY
 DOMAIN-SUFFIX,zukunftswerkstatt.de,PROXY

@@ -66,6 +66,8 @@ DOMAIN-SUFFIX,jetbrains.com,Developer
 DOMAIN-SUFFIX,jetbrains.space,Developer
 DOMAIN-SUFFIX,maven.org,Developer
 DOMAIN-SUFFIX,myoctocat.com,Developer
+DOMAIN-SUFFIX,netlify.app,Developer
+DOMAIN-SUFFIX,netlify.com,Developer
 DOMAIN-SUFFIX,npm.community,Developer
 DOMAIN-SUFFIX,npmjs.com,Developer
 DOMAIN-SUFFIX,npmjs.org,Developer
@@ -83,5 +85,7 @@ DOMAIN-SUFFIX,rustup.rs,Developer
 DOMAIN-SUFFIX,sonatype.org,Developer
 DOMAIN-SUFFIX,static.crates.io,Developer
 DOMAIN-SUFFIX,thegithubshop.com,Developer
+DOMAIN-SUFFIX,vercel.app,Developer
+DOMAIN-SUFFIX,vercel.com,Developer
 DOMAIN-SUFFIX,vscode-cdn.net,Developer
 DOMAIN-SUFFIX,vscode.dev,Developer

@@ -2307,6 +2307,9 @@ payload:
   - DOMAIN-SUFFIX,dremonsterbeatsoutlets.com
   - DOMAIN-SUFFIX,dreprobeats.com
   - DOMAIN-SUFFIX,dreprofy.com
+  - DOMAIN-SUFFIX,dropbox.com
+  - DOMAIN-SUFFIX,dropboxapi.com
+  - DOMAIN-SUFFIX,dropboxusercontent.com
   - DOMAIN-SUFFIX,drtuber.com
   - DOMAIN-SUFFIX,dssott.com
   - DOMAIN-SUFFIX,dtci.co
@@ -3929,10 +3932,12 @@ payload:
   - DOMAIN-SUFFIX,leecountytimes.com
   - DOMAIN-SUFFIX,legra.ph
   - DOMAIN-SUFFIX,lexuemei.com
+  - DOMAIN-SUFFIX,licdn.com
   - DOMAIN-SUFFIX,like.com
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,linetv.tw
+  - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,litix.io
   - DOMAIN-SUFFIX,litv.tv
   - DOMAIN-SUFFIX,live-video.net
@@ -3952,6 +3957,7 @@ payload:
   - DOMAIN-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net
   - DOMAIN-SUFFIX,livingyourambition.com
   - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-SUFFIX,lnkd.in
   - DOMAIN-SUFFIX,lnstagram-help.com
   - DOMAIN-SUFFIX,loanbuilder.com
   - DOMAIN-SUFFIX,localytics.com
@@ -4464,6 +4470,8 @@ payload:
   - DOMAIN-SUFFIX,netflixinvestor.com
   - DOMAIN-SUFFIX,netflixstudios.com
   - DOMAIN-SUFFIX,netflixtechblog.com
+  - DOMAIN-SUFFIX,netlify.app
+  - DOMAIN-SUFFIX,netlify.com
   - DOMAIN-SUFFIX,nettyinternet.com
   - DOMAIN-SUFFIX,neverware.com
   - DOMAIN-SUFFIX,newbeatsblackfriday.com
@@ -4509,6 +4517,10 @@ payload:
   - DOMAIN-SUFFIX,nivodz.com
   - DOMAIN-SUFFIX,nomadlandmovie.ch
   - DOMAIN-SUFFIX,nomulus.foo
+  - DOMAIN-SUFFIX,notion-static.com
+  - DOMAIN-SUFFIX,notion.com
+  - DOMAIN-SUFFIX,notion.site
+  - DOMAIN-SUFFIX,notion.so
   - DOMAIN-SUFFIX,now-ashare.com
   - DOMAIN-SUFFIX,now-tv.com
   - DOMAIN-SUFFIX,now.com
@@ -5124,6 +5136,9 @@ payload:
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,skypeassets.net
   - DOMAIN-SUFFIX,skypeforbusiness.com
+  - DOMAIN-SUFFIX,slack-edge.com
+  - DOMAIN-SUFFIX,slack-imgs.com
+  - DOMAIN-SUFFIX,slack.com
   - DOMAIN-SUFFIX,smartmediarep.com
   - DOMAIN-SUFFIX,snapseed.com
   - DOMAIN-SUFFIX,sndcdn.com
@@ -5413,6 +5428,8 @@ payload:
   - DOMAIN-SUFFIX,venmo.net
   - DOMAIN-SUFFIX,venmo.org
   - DOMAIN-SUFFIX,venmo.s3.amazonaws.com
+  - DOMAIN-SUFFIX,vercel.app
+  - DOMAIN-SUFFIX,vercel.com
   - DOMAIN-SUFFIX,verily.com
   - DOMAIN-SUFFIX,verilylifesciences.com
   - DOMAIN-SUFFIX,verilystudyhub.com
@@ -5888,6 +5905,8 @@ payload:
   - DOMAIN-SUFFIX,zeetv.com
   - DOMAIN-SUFFIX,zeeuk.com
   - DOMAIN-SUFFIX,zeriamerikes.com
+  - DOMAIN-SUFFIX,zoom.com
+  - DOMAIN-SUFFIX,zoom.us
   - DOMAIN-SUFFIX,zuckerberg.com
   - DOMAIN-SUFFIX,zuckerberg.net
   - DOMAIN-SUFFIX,zukunftswerkstatt.de

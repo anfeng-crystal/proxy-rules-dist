@@ -111,6 +111,27 @@ rules:
   - RULE-SET,Hijacking,REJECT
   - RULE-SET,Advertising,REJECT
   - RULE-SET,Privacy,REJECT
+  - RULE-SET,Aliyun,DIRECT
+  - RULE-SET,AlibabaCDN,DIRECT
+  - RULE-SET,TencentMeeting,DIRECT
+  - RULE-SET,TencentVideo,DIRECT
+  - RULE-SET,BaiduTieba,DIRECT
+  - RULE-SET,BaiduPan,DIRECT
+  - RULE-SET,DouyinCDN,DIRECT
+  - RULE-SET,Pinduoduo,DIRECT
+  - RULE-SET,WeiboMedia,DIRECT
+  - RULE-SET,ZhihuContent,DIRECT
+  - RULE-SET,iQIYI,DIRECT
+  - RULE-SET,Youku,DIRECT
+  - RULE-SET,WhatsApp,PROXY
+  - RULE-SET,Messenger,PROXY
+  - RULE-SET,LinkedIn,PROXY
+  - RULE-SET,Zoom,PROXY
+  - RULE-SET,Slack,PROXY
+  - RULE-SET,Notion,PROXY
+  - RULE-SET,Dropbox,PROXY
+  - RULE-SET,Vercel,Developer
+  - RULE-SET,Netlify,Developer
   - RULE-SET,DirectAll,DIRECT
   - RULE-SET,GlobalAI,GlobalAI
   - RULE-SET,ChinaAI,DIRECT

@@ -66,6 +66,7 @@ payload:
   - DOMAIN-SUFFIX,iegcom.com
   - DOMAIN-SUFFIX,iesdouyin.com
   - DOMAIN-SUFFIX,iqiyi.com
+  - DOMAIN-SUFFIX,iqiyipic.com
   - DOMAIN-SUFFIX,jd.com
   - DOMAIN-SUFFIX,jd.hk
   - DOMAIN-SUFFIX,jdcloud.com
@@ -76,6 +77,7 @@ payload:
   - DOMAIN-SUFFIX,mail.126.com
   - DOMAIN-SUFFIX,mail.163.com
   - DOMAIN-SUFFIX,map.baidu.com
+  - DOMAIN-SUFFIX,meeting.tencent.com
   - DOMAIN-SUFFIX,meituan.com
   - DOMAIN-SUFFIX,meituan.net
   - DOMAIN-SUFFIX,meituanimg.com
@@ -93,41 +95,63 @@ payload:
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,neteasegame.com
   - DOMAIN-SUFFIX,nhsa.gov.cn
+  - DOMAIN-SUFFIX,pan.baidu.com
+  - DOMAIN-SUFFIX,pcs.baidu.com
+  - DOMAIN-SUFFIX,pdd.com
+  - DOMAIN-SUFFIX,pddpic.com
+  - DOMAIN-SUFFIX,pinduoduo.com
   - DOMAIN-SUFFIX,psbc.com
+  - DOMAIN-SUFFIX,pstatp.com
   - DOMAIN-SUFFIX,qcloud.com
   - DOMAIN-SUFFIX,qiyi.com
   - DOMAIN-SUFFIX,qlogo.cn
   - DOMAIN-SUFFIX,qpic.cn
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,qqmail.com
+  - DOMAIN-SUFFIX,qqvideo.gtimg.com
+  - DOMAIN-SUFFIX,qy.net
   - DOMAIN-SUFFIX,sinaimg.cn
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,tbcdn.cn
+  - DOMAIN-SUFFIX,tbcdn.com
   - DOMAIN-SUFFIX,tencentcloud.com
   - DOMAIN-SUFFIX,tencentcloudapi.com
   - DOMAIN-SUFFIX,tencentgames.com
+  - DOMAIN-SUFFIX,tencentmeeting.com
   - DOMAIN-SUFFIX,tenpay.com
+  - DOMAIN-SUFFIX,tieba.baidu.com
   - DOMAIN-SUFFIX,tmall.com
   - DOMAIN-SUFFIX,toutiao.com
   - DOMAIN-SUFFIX,toutiaostatic.com
+  - DOMAIN-SUFFIX,tudou.com
   - DOMAIN-SUFFIX,ucloud.cn
+  - DOMAIN-SUFFIX,v.qq.com
+  - DOMAIN-SUFFIX,video.qq.com
+  - DOMAIN-SUFFIX,video.weibo.com
+  - DOMAIN-SUFFIX,video.zhihu.com
   - DOMAIN-SUFFIX,vmall.com
+  - DOMAIN-SUFFIX,voovmeeting.com
   - DOMAIN-SUFFIX,wanfangdata.com.cn
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,wegame.com
   - DOMAIN-SUFFIX,wegame.com.cn
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN-SUFFIX,weibo.com
+  - DOMAIN-SUFFIX,weibocdn.com
   - DOMAIN-SUFFIX,weixin.qq.com
   - DOMAIN-SUFFIX,www.gov.cn
   - DOMAIN-SUFFIX,xiaomi.com
   - DOMAIN-SUFFIX,ximalaya.com
+  - DOMAIN-SUFFIX,yangkeduo.com
   - DOMAIN-SUFFIX,yeah.net
+  - DOMAIN-SUFFIX,ykimg.com
   - DOMAIN-SUFFIX,youku.com
   - DOMAIN-SUFFIX,yuanshen.com
+  - DOMAIN-SUFFIX,yun.baidu.com
   - DOMAIN-SUFFIX,zhihu.com
   - DOMAIN-SUFFIX,zhimg.com
+  - DOMAIN-SUFFIX,zhuanlan.zhihu.com
   - GEOIP,CN
   - IP-CIDR,1.255.62.0/24
   - IP-CIDR,10.0.0.0/8

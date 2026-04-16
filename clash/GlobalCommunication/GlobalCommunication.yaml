@@ -37,8 +37,17 @@ payload:
   - DOMAIN-SUFFIX,graph.org
   - DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
   - DOMAIN-SUFFIX,legra.ph
+  - DOMAIN-SUFFIX,m.me
   - DOMAIN-SUFFIX,mbrx.app
+  - DOMAIN-SUFFIX,messenger.com
+  - DOMAIN-SUFFIX,notion-static.com
+  - DOMAIN-SUFFIX,notion.com
+  - DOMAIN-SUFFIX,notion.site
+  - DOMAIN-SUFFIX,notion.so
   - DOMAIN-SUFFIX,quiz.directory
+  - DOMAIN-SUFFIX,slack-edge.com
+  - DOMAIN-SUFFIX,slack-imgs.com
+  - DOMAIN-SUFFIX,slack.com
   - DOMAIN-SUFFIX,stel.com
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tdesktop.com
@@ -54,7 +63,12 @@ payload:
   - DOMAIN-SUFFIX,tg.dev
   - DOMAIN-SUFFIX,tx.me
   - DOMAIN-SUFFIX,usercontent.dev
+  - DOMAIN-SUFFIX,wa.me
   - DOMAIN-SUFFIX,watchanimeattheoffice.com
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
+  - DOMAIN-SUFFIX,zoom.com
+  - DOMAIN-SUFFIX,zoom.us
   - IP-CIDR,109.239.140.0/24
   - IP-CIDR,139.59.210.98/32
   - IP-CIDR,149.154.160.0/20

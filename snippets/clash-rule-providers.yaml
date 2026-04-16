@@ -671,6 +671,132 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Privacy/Privacy.yaml
     path: ./ruleset/Privacy.yaml
     interval: 86400
+  Aliyun:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Aliyun/Aliyun.yaml
+    path: ./ruleset/Aliyun.yaml
+    interval: 86400
+  AlibabaCDN:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/AlibabaCDN/AlibabaCDN.yaml
+    path: ./ruleset/AlibabaCDN.yaml
+    interval: 86400
+  TencentMeeting:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/TencentMeeting/TencentMeeting.yaml
+    path: ./ruleset/TencentMeeting.yaml
+    interval: 86400
+  TencentVideo:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/TencentVideo/TencentVideo.yaml
+    path: ./ruleset/TencentVideo.yaml
+    interval: 86400
+  BaiduTieba:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/BaiduTieba/BaiduTieba.yaml
+    path: ./ruleset/BaiduTieba.yaml
+    interval: 86400
+  BaiduPan:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/BaiduPan/BaiduPan.yaml
+    path: ./ruleset/BaiduPan.yaml
+    interval: 86400
+  DouyinCDN:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/DouyinCDN/DouyinCDN.yaml
+    path: ./ruleset/DouyinCDN.yaml
+    interval: 86400
+  Pinduoduo:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Pinduoduo/Pinduoduo.yaml
+    path: ./ruleset/Pinduoduo.yaml
+    interval: 86400
+  WeiboMedia:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/WeiboMedia/WeiboMedia.yaml
+    path: ./ruleset/WeiboMedia.yaml
+    interval: 86400
+  ZhihuContent:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ZhihuContent/ZhihuContent.yaml
+    path: ./ruleset/ZhihuContent.yaml
+    interval: 86400
+  iQIYI:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/iQIYI/iQIYI.yaml
+    path: ./ruleset/iQIYI.yaml
+    interval: 86400
+  Youku:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Youku/Youku.yaml
+    path: ./ruleset/Youku.yaml
+    interval: 86400
+  WhatsApp:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/WhatsApp/WhatsApp.yaml
+    path: ./ruleset/WhatsApp.yaml
+    interval: 86400
+  Messenger:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Messenger/Messenger.yaml
+    path: ./ruleset/Messenger.yaml
+    interval: 86400
+  LinkedIn:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/LinkedIn/LinkedIn.yaml
+    path: ./ruleset/LinkedIn.yaml
+    interval: 86400
+  Zoom:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Zoom/Zoom.yaml
+    path: ./ruleset/Zoom.yaml
+    interval: 86400
+  Slack:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Slack/Slack.yaml
+    path: ./ruleset/Slack.yaml
+    interval: 86400
+  Notion:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Notion/Notion.yaml
+    path: ./ruleset/Notion.yaml
+    interval: 86400
+  Dropbox:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Dropbox/Dropbox.yaml
+    path: ./ruleset/Dropbox.yaml
+    interval: 86400
+  Vercel:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Vercel/Vercel.yaml
+    path: ./ruleset/Vercel.yaml
+    interval: 86400
+  Netlify:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Netlify/Netlify.yaml
+    path: ./ruleset/Netlify.yaml
+    interval: 86400
   DirectAll:
     type: http
     behavior: classical

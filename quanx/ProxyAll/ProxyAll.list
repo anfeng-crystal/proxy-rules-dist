@@ -2307,6 +2307,9 @@ HOST-SUFFIX,drebyby.com,PROXY
 HOST-SUFFIX,dremonsterbeatsoutlets.com,PROXY
 HOST-SUFFIX,dreprobeats.com,PROXY
 HOST-SUFFIX,dreprofy.com,PROXY
+HOST-SUFFIX,dropbox.com,PROXY
+HOST-SUFFIX,dropboxapi.com,PROXY
+HOST-SUFFIX,dropboxusercontent.com,PROXY
 HOST-SUFFIX,drtuber.com,PROXY
 HOST-SUFFIX,dssott.com,PROXY
 HOST-SUFFIX,dtci.co,PROXY
@@ -3929,10 +3932,12 @@ HOST-SUFFIX,leagueoflegends.com,PROXY
 HOST-SUFFIX,leecountytimes.com,PROXY
 HOST-SUFFIX,legra.ph,PROXY
 HOST-SUFFIX,lexuemei.com,PROXY
+HOST-SUFFIX,licdn.com,PROXY
 HOST-SUFFIX,like.com,PROXY
 HOST-SUFFIX,line-cdn.net,PROXY
 HOST-SUFFIX,line-scdn.net,PROXY
 HOST-SUFFIX,linetv.tw,PROXY
+HOST-SUFFIX,linkedin.com,PROXY
 HOST-SUFFIX,litix.io,PROXY
 HOST-SUFFIX,litv.tv,PROXY
 HOST-SUFFIX,live-video.net,PROXY
@@ -3952,6 +3957,7 @@ HOST-SUFFIX,livestream.com,PROXY
 HOST-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net,PROXY
 HOST-SUFFIX,livingyourambition.com,PROXY
 HOST-SUFFIX,llnwd.net,PROXY
+HOST-SUFFIX,lnkd.in,PROXY
 HOST-SUFFIX,lnstagram-help.com,PROXY
 HOST-SUFFIX,loanbuilder.com,PROXY
 HOST-SUFFIX,localytics.com,PROXY
@@ -4464,6 +4470,8 @@ HOST-SUFFIX,netflixdnstest9.com,PROXY
 HOST-SUFFIX,netflixinvestor.com,PROXY
 HOST-SUFFIX,netflixstudios.com,PROXY
 HOST-SUFFIX,netflixtechblog.com,PROXY
+HOST-SUFFIX,netlify.app,PROXY
+HOST-SUFFIX,netlify.com,PROXY
 HOST-SUFFIX,nettyinternet.com,PROXY
 HOST-SUFFIX,neverware.com,PROXY
 HOST-SUFFIX,newbeatsblackfriday.com,PROXY
@@ -4509,6 +4517,10 @@ HOST-SUFFIX,nivodi.tv,PROXY
 HOST-SUFFIX,nivodz.com,PROXY
 HOST-SUFFIX,nomadlandmovie.ch,PROXY
 HOST-SUFFIX,nomulus.foo,PROXY
+HOST-SUFFIX,notion-static.com,PROXY
+HOST-SUFFIX,notion.com,PROXY
+HOST-SUFFIX,notion.site,PROXY
+HOST-SUFFIX,notion.so,PROXY
 HOST-SUFFIX,now-ashare.com,PROXY
 HOST-SUFFIX,now-tv.com,PROXY
 HOST-SUFFIX,now.com,PROXY
@@ -5124,6 +5136,9 @@ HOST-SUFFIX,skype.net,PROXY
 HOST-SUFFIX,skypeassets.com,PROXY
 HOST-SUFFIX,skypeassets.net,PROXY
 HOST-SUFFIX,skypeforbusiness.com,PROXY
+HOST-SUFFIX,slack-edge.com,PROXY
+HOST-SUFFIX,slack-imgs.com,PROXY
+HOST-SUFFIX,slack.com,PROXY
 HOST-SUFFIX,smartmediarep.com,PROXY
 HOST-SUFFIX,snapseed.com,PROXY
 HOST-SUFFIX,sndcdn.com,PROXY
@@ -5413,6 +5428,8 @@ HOST-SUFFIX,venmo.info,PROXY
 HOST-SUFFIX,venmo.net,PROXY
 HOST-SUFFIX,venmo.org,PROXY
 HOST-SUFFIX,venmo.s3.amazonaws.com,PROXY
+HOST-SUFFIX,vercel.app,PROXY
+HOST-SUFFIX,vercel.com,PROXY
 HOST-SUFFIX,verily.com,PROXY
 HOST-SUFFIX,verilylifesciences.com,PROXY
 HOST-SUFFIX,verilystudyhub.com,PROXY
@@ -5888,6 +5905,8 @@ HOST-SUFFIX,zeetv.co.uk,PROXY
 HOST-SUFFIX,zeetv.com,PROXY
 HOST-SUFFIX,zeeuk.com,PROXY
 HOST-SUFFIX,zeriamerikes.com,PROXY
+HOST-SUFFIX,zoom.com,PROXY
+HOST-SUFFIX,zoom.us,PROXY
 HOST-SUFFIX,zuckerberg.com,PROXY
 HOST-SUFFIX,zuckerberg.net,PROXY
 HOST-SUFFIX,zukunftswerkstatt.de,PROXY

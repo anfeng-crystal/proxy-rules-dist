@@ -66,6 +66,8 @@ payload:
   - DOMAIN-SUFFIX,jetbrains.space
   - DOMAIN-SUFFIX,maven.org
   - DOMAIN-SUFFIX,myoctocat.com
+  - DOMAIN-SUFFIX,netlify.app
+  - DOMAIN-SUFFIX,netlify.com
   - DOMAIN-SUFFIX,npm.community
   - DOMAIN-SUFFIX,npmjs.com
   - DOMAIN-SUFFIX,npmjs.org
@@ -83,5 +85,7 @@ payload:
   - DOMAIN-SUFFIX,sonatype.org
   - DOMAIN-SUFFIX,static.crates.io
   - DOMAIN-SUFFIX,thegithubshop.com
+  - DOMAIN-SUFFIX,vercel.app
+  - DOMAIN-SUFFIX,vercel.com
   - DOMAIN-SUFFIX,vscode-cdn.net
   - DOMAIN-SUFFIX,vscode.dev
