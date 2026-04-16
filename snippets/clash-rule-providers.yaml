@@ -611,6 +611,48 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/AIAll/AIAll.yaml
     path: ./ruleset/AIAll.yaml
     interval: 86400
+  ChinaPlatform:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ChinaPlatform/ChinaPlatform.yaml
+    path: ./ruleset/ChinaPlatform.yaml
+    interval: 86400
+  ChinaInfra:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ChinaInfra/ChinaInfra.yaml
+    path: ./ruleset/ChinaInfra.yaml
+    interval: 86400
+  ChinaContent:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ChinaContent/ChinaContent.yaml
+    path: ./ruleset/ChinaContent.yaml
+    interval: 86400
+  ChinaFinance:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ChinaFinance/ChinaFinance.yaml
+    path: ./ruleset/ChinaFinance.yaml
+    interval: 86400
+  ChinaGovernment:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ChinaGovernment/ChinaGovernment.yaml
+    path: ./ruleset/ChinaGovernment.yaml
+    interval: 86400
+  ChinaEducation:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ChinaEducation/ChinaEducation.yaml
+    path: ./ruleset/ChinaEducation.yaml
+    interval: 86400
+  ChinaTransport:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ChinaTransport/ChinaTransport.yaml
+    path: ./ruleset/ChinaTransport.yaml
+    interval: 86400
   DomesticAll:
     type: http
     behavior: classical
@@ -634,6 +676,24 @@ rule-providers:
     behavior: classical
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/MicrosoftServices/MicrosoftServices.yaml
     path: ./ruleset/MicrosoftServices.yaml
+    interval: 86400
+  GlobalCore:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GlobalCore/GlobalCore.yaml
+    path: ./ruleset/GlobalCore.yaml
+    interval: 86400
+  GlobalCommunication:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GlobalCommunication/GlobalCommunication.yaml
+    path: ./ruleset/GlobalCommunication.yaml
+    interval: 86400
+  GlobalSocial:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GlobalSocial/GlobalSocial.yaml
+    path: ./ruleset/GlobalSocial.yaml
     interval: 86400
   ChinaGame:
     type: http

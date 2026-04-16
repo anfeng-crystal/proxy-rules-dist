@@ -21,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,bankcomm.com
   - DOMAIN-SUFFIX,bcebos.com
   - DOMAIN-SUFFIX,bdstatic.com
+  - DOMAIN-SUFFIX,bh3.com
   - DOMAIN-SUFFIX,biliapi.net
   - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,biliimg.com
@@ -39,7 +40,9 @@ payload:
   - DOMAIN-SUFFIX,douyinpic.com
   - DOMAIN-SUFFIX,douyinstatic.com
   - DOMAIN-SUFFIX,douyu.com
+  - DOMAIN-SUFFIX,easebar.com
   - DOMAIN-SUFFIX,edu.cn
+  - DOMAIN-SUFFIX,game.qq.com
   - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,gtimg.com
   - DOMAIN-SUFFIX,hicloud.com
@@ -47,6 +50,7 @@ payload:
   - DOMAIN-SUFFIX,huaweicloud.com
   - DOMAIN-SUFFIX,huya.com
   - DOMAIN-SUFFIX,icbc.com.cn
+  - DOMAIN-SUFFIX,iegcom.com
   - DOMAIN-SUFFIX,iesdouyin.com
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,jd.com
@@ -61,12 +65,16 @@ payload:
   - DOMAIN-SUFFIX,meituanimg.com
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,migu.cn
+  - DOMAIN-SUFFIX,mihoyo.com
+  - DOMAIN-SUFFIX,mihoyo.com.cn
   - DOMAIN-SUFFIX,miit.gov.cn
   - DOMAIN-SUFFIX,mijia.tech
   - DOMAIN-SUFFIX,miui.com
+  - DOMAIN-SUFFIX,miyoushe.com
   - DOMAIN-SUFFIX,music.163.com
   - DOMAIN-SUFFIX,myqcloud.com
   - DOMAIN-SUFFIX,netease.com
+  - DOMAIN-SUFFIX,neteasegame.com
   - DOMAIN-SUFFIX,nhsa.gov.cn
   - DOMAIN-SUFFIX,psbc.com
   - DOMAIN-SUFFIX,qcloud.com
@@ -78,6 +86,7 @@ payload:
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,tencentcloud.com
+  - DOMAIN-SUFFIX,tencentgames.com
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,tmall.com
   - DOMAIN-SUFFIX,toutiao.com
@@ -86,6 +95,8 @@ payload:
   - DOMAIN-SUFFIX,vmall.com
   - DOMAIN-SUFFIX,wanfangdata.com.cn
   - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,wegame.com
+  - DOMAIN-SUFFIX,wegame.com.cn
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN-SUFFIX,weibo.com
   - DOMAIN-SUFFIX,weixin.qq.com
@@ -94,5 +105,6 @@ payload:
   - DOMAIN-SUFFIX,ximalaya.com
   - DOMAIN-SUFFIX,yeah.net
   - DOMAIN-SUFFIX,youku.com
+  - DOMAIN-SUFFIX,yuanshen.com
   - DOMAIN-SUFFIX,zhihu.com
   - DOMAIN-SUFFIX,zhimg.com

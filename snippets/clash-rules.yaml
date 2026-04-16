@@ -101,10 +101,20 @@ rules:
   - RULE-SET,GlobalAI,GlobalAI
   - RULE-SET,ChinaAI,DIRECT
   - RULE-SET,AIAll,AIAll
+  - RULE-SET,ChinaPlatform,DIRECT
+  - RULE-SET,ChinaInfra,DIRECT
+  - RULE-SET,ChinaContent,DIRECT
+  - RULE-SET,ChinaFinance,DIRECT
+  - RULE-SET,ChinaGovernment,DIRECT
+  - RULE-SET,ChinaEducation,DIRECT
+  - RULE-SET,ChinaTransport,DIRECT
   - RULE-SET,DomesticAll,DIRECT
   - RULE-SET,ChinaWhitelist,DIRECT
   - RULE-SET,AppleServices,Apple
   - RULE-SET,MicrosoftServices,PROXY
+  - RULE-SET,GlobalCore,PROXY
+  - RULE-SET,GlobalCommunication,PROXY
+  - RULE-SET,GlobalSocial,PROXY
   - RULE-SET,ChinaGame,DIRECT
   - RULE-SET,GlobalGame,Game
   - RULE-SET,GameAll,GameAll

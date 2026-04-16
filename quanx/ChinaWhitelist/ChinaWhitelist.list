@@ -21,6 +21,7 @@ HOST-SUFFIX,baidustatic.com,DIRECT
 HOST-SUFFIX,bankcomm.com,DIRECT
 HOST-SUFFIX,bcebos.com,DIRECT
 HOST-SUFFIX,bdstatic.com,DIRECT
+HOST-SUFFIX,bh3.com,DIRECT
 HOST-SUFFIX,biliapi.net,DIRECT
 HOST-SUFFIX,bilibili.com,DIRECT
 HOST-SUFFIX,biliimg.com,DIRECT
@@ -39,7 +40,9 @@ HOST-SUFFIX,douyincdn.com,DIRECT
 HOST-SUFFIX,douyinpic.com,DIRECT
 HOST-SUFFIX,douyinstatic.com,DIRECT
 HOST-SUFFIX,douyu.com,DIRECT
+HOST-SUFFIX,easebar.com,DIRECT
 HOST-SUFFIX,edu.cn,DIRECT
+HOST-SUFFIX,game.qq.com,DIRECT
 HOST-SUFFIX,gov.cn,DIRECT
 HOST-SUFFIX,gtimg.com,DIRECT
 HOST-SUFFIX,hicloud.com,DIRECT
@@ -47,6 +50,7 @@ HOST-SUFFIX,huawei.com,DIRECT
 HOST-SUFFIX,huaweicloud.com,DIRECT
 HOST-SUFFIX,huya.com,DIRECT
 HOST-SUFFIX,icbc.com.cn,DIRECT
+HOST-SUFFIX,iegcom.com,DIRECT
 HOST-SUFFIX,iesdouyin.com,DIRECT
 HOST-SUFFIX,iqiyi.com,DIRECT
 HOST-SUFFIX,jd.com,DIRECT
@@ -61,12 +65,16 @@ HOST-SUFFIX,meituan.net,DIRECT
 HOST-SUFFIX,meituanimg.com,DIRECT
 HOST-SUFFIX,mi.com,DIRECT
 HOST-SUFFIX,migu.cn,DIRECT
+HOST-SUFFIX,mihoyo.com,DIRECT
+HOST-SUFFIX,mihoyo.com.cn,DIRECT
 HOST-SUFFIX,miit.gov.cn,DIRECT
 HOST-SUFFIX,mijia.tech,DIRECT
 HOST-SUFFIX,miui.com,DIRECT
+HOST-SUFFIX,miyoushe.com,DIRECT
 HOST-SUFFIX,music.163.com,DIRECT
 HOST-SUFFIX,myqcloud.com,DIRECT
 HOST-SUFFIX,netease.com,DIRECT
+HOST-SUFFIX,neteasegame.com,DIRECT
 HOST-SUFFIX,nhsa.gov.cn,DIRECT
 HOST-SUFFIX,psbc.com,DIRECT
 HOST-SUFFIX,qcloud.com,DIRECT
@@ -78,6 +86,7 @@ HOST-SUFFIX,sinaimg.cn,DIRECT
 HOST-SUFFIX,snssdk.com,DIRECT
 HOST-SUFFIX,taobao.com,DIRECT
 HOST-SUFFIX,tencentcloud.com,DIRECT
+HOST-SUFFIX,tencentgames.com,DIRECT
 HOST-SUFFIX,tenpay.com,DIRECT
 HOST-SUFFIX,tmall.com,DIRECT
 HOST-SUFFIX,toutiao.com,DIRECT
@@ -86,6 +95,8 @@ HOST-SUFFIX,ucloud.cn,DIRECT
 HOST-SUFFIX,vmall.com,DIRECT
 HOST-SUFFIX,wanfangdata.com.cn,DIRECT
 HOST-SUFFIX,wechat.com,DIRECT
+HOST-SUFFIX,wegame.com,DIRECT
+HOST-SUFFIX,wegame.com.cn,DIRECT
 HOST-SUFFIX,weibo.cn,DIRECT
 HOST-SUFFIX,weibo.com,DIRECT
 HOST-SUFFIX,weixin.qq.com,DIRECT
@@ -94,5 +105,6 @@ HOST-SUFFIX,xiaomi.com,DIRECT
 HOST-SUFFIX,ximalaya.com,DIRECT
 HOST-SUFFIX,yeah.net,DIRECT
 HOST-SUFFIX,youku.com,DIRECT
+HOST-SUFFIX,yuanshen.com,DIRECT
 HOST-SUFFIX,zhihu.com,DIRECT
 HOST-SUFFIX,zhimg.com,DIRECT

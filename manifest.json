@@ -511,6 +511,41 @@
       "rules": 118
     },
     {
+      "name": "ChinaPlatform",
+      "policy": "DIRECT",
+      "rules": 61
+    },
+    {
+      "name": "ChinaInfra",
+      "policy": "DIRECT",
+      "rules": 21
+    },
+    {
+      "name": "ChinaContent",
+      "policy": "DIRECT",
+      "rules": 10
+    },
+    {
+      "name": "ChinaFinance",
+      "policy": "DIRECT",
+      "rules": 7
+    },
+    {
+      "name": "ChinaGovernment",
+      "policy": "DIRECT",
+      "rules": 5
+    },
+    {
+      "name": "ChinaEducation",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "ChinaTransport",
+      "policy": "DIRECT",
+      "rules": 3
+    },
+    {
       "name": "DomesticAll",
       "policy": "DIRECT",
       "rules": 143
@@ -518,7 +553,7 @@
     {
       "name": "ChinaWhitelist",
       "policy": "DIRECT",
-      "rules": 95
+      "rules": 107
     },
     {
       "name": "AppleServices",
@@ -529,6 +564,21 @@
       "name": "MicrosoftServices",
       "policy": "PROXY",
       "rules": 717
+    },
+    {
+      "name": "GlobalCore",
+      "policy": "PROXY",
+      "rules": 3514
+    },
+    {
+      "name": "GlobalCommunication",
+      "policy": "PROXY",
+      "rules": 60
+    },
+    {
+      "name": "GlobalSocial",
+      "policy": "PROXY",
+      "rules": 663
     },
     {
       "name": "ChinaGame",
@@ -548,12 +598,12 @@
     {
       "name": "GlobalServices",
       "policy": "PROXY",
-      "rules": 10006
+      "rules": 10612
     },
     {
       "name": "GlobalApps",
       "policy": "PROXY",
-      "rules": 692
+      "rules": 723
     },
     {
       "name": "Developer",
@@ -573,7 +623,7 @@
     {
       "name": "ProxyAll",
       "policy": "PROXY",
-      "rules": 14271
+      "rules": 13194
     }
   ],
   "report": {
@@ -742,7 +792,7 @@
         "rules": 118
       },
       {
-        "name": "DomesticAll",
+        "name": "ChinaPlatform",
         "include": [
           "Alibaba",
           "Tencent",
@@ -757,17 +807,64 @@
           "Xiaomi",
           "Huawei",
           "Weibo",
-          "Zhihu",
-          "Railway12306",
-          "BankingCN",
-          "GovCN",
+          "Zhihu"
+        ],
+        "rules": 61
+      },
+      {
+        "name": "ChinaInfra",
+        "include": [
           "ChinaCloud",
-          "ChinaCDN",
-          "ChinaMedia",
-          "EducationCN",
-          "TencentGames",
-          "NetEaseGames",
-          "MiHoYoCN",
+          "ChinaCDN"
+        ],
+        "rules": 21
+      },
+      {
+        "name": "ChinaContent",
+        "include": [
+          "ChinaMedia"
+        ],
+        "rules": 10
+      },
+      {
+        "name": "ChinaFinance",
+        "include": [
+          "BankingCN"
+        ],
+        "rules": 7
+      },
+      {
+        "name": "ChinaGovernment",
+        "include": [
+          "GovCN"
+        ],
+        "rules": 5
+      },
+      {
+        "name": "ChinaEducation",
+        "include": [
+          "EducationCN"
+        ],
+        "rules": 4
+      },
+      {
+        "name": "ChinaTransport",
+        "include": [
+          "Railway12306"
+        ],
+        "rules": 3
+      },
+      {
+        "name": "DomesticAll",
+        "include": [
+          "ChinaPlatform",
+          "ChinaInfra",
+          "ChinaContent",
+          "ChinaFinance",
+          "ChinaGovernment",
+          "ChinaEducation",
+          "ChinaTransport",
+          "ChinaGame",
           "Direct",
           "China"
         ],
@@ -776,29 +873,16 @@
       {
         "name": "ChinaWhitelist",
         "include": [
-          "Alibaba",
-          "Tencent",
-          "WeChat",
-          "Baidu",
-          "ByteDance",
-          "Douyin",
-          "Bilibili",
-          "NetEase",
-          "JD",
-          "Meituan",
-          "Xiaomi",
-          "Huawei",
-          "Weibo",
-          "Zhihu",
-          "Railway12306",
-          "BankingCN",
-          "GovCN",
-          "ChinaCloud",
-          "ChinaCDN",
-          "ChinaMedia",
-          "EducationCN"
+          "ChinaPlatform",
+          "ChinaInfra",
+          "ChinaContent",
+          "ChinaFinance",
+          "ChinaGovernment",
+          "ChinaEducation",
+          "ChinaTransport",
+          "ChinaGame"
         ],
-        "rules": 95
+        "rules": 107
       },
       {
         "name": "AppleServices",
@@ -820,6 +904,37 @@
           "Xbox"
         ],
         "rules": 717
+      },
+      {
+        "name": "GlobalCore",
+        "include": [
+          "AppleServices",
+          "Google",
+          "MicrosoftServices",
+          "Cloudflare",
+          "Amazon"
+        ],
+        "rules": 3514
+      },
+      {
+        "name": "GlobalCommunication",
+        "include": [
+          "Telegram",
+          "Discord"
+        ],
+        "rules": 60
+      },
+      {
+        "name": "GlobalSocial",
+        "include": [
+          "TikTok",
+          "TwitterX",
+          "FacebookMeta",
+          "Instagram",
+          "Reddit",
+          "Twitch"
+        ],
+        "rules": 663
       },
       {
         "name": "ChinaGame",
@@ -855,29 +970,20 @@
       {
         "name": "GlobalServices",
         "include": [
-          "Apple",
-          "AppleServices",
-          "Google",
-          "MicrosoftServices",
-          "Telegram",
-          "Cloudflare",
-          "Amazon",
+          "GlobalCore",
+          "GlobalCommunication",
+          "GlobalSocial",
           "Global"
         ],
-        "rules": 10006
+        "rules": 10612
       },
       {
         "name": "GlobalApps",
         "include": [
-          "TikTok",
-          "TwitterX",
-          "FacebookMeta",
-          "Instagram",
-          "Discord",
-          "Reddit",
-          "Twitch"
+          "GlobalSocial",
+          "GlobalCommunication"
         ],
-        "rules": 692
+        "rules": 723
       },
       {
         "name": "Developer",
@@ -919,19 +1025,18 @@
         "name": "ProxyAll",
         "include": [
           "GlobalAI",
+          "GlobalCore",
+          "GlobalCommunication",
+          "GlobalSocial",
           "GlobalServices",
           "GlobalApps",
           "GlobalGame",
           "Developer",
           "Payment",
           "GlobalMedia",
-          "YouTube",
-          "Netflix",
-          "DisneyPlus",
-          "Spotify",
           "Global"
         ],
-        "rules": 14271
+        "rules": 13194
       }
     ],
     "protected_reject_removals": [
