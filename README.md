@@ -1,4 +1,4 @@
-# proxy-rules
+# 代理规则发布仓库
 
 中文 | [English](README.en.md)
 
