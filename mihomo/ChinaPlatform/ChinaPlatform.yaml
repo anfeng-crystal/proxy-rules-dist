@@ -10,7 +10,9 @@ payload:
   - DOMAIN-SUFFIX,alibabacloud.com
   - DOMAIN-SUFFIX,alicdn.com
   - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,alipayobjects.com
   - DOMAIN-SUFFIX,aliyuncs.com
+  - DOMAIN-SUFFIX,api.map.baidu.com
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,baidustatic.com
   - DOMAIN-SUFFIX,bcebos.com
@@ -34,21 +36,27 @@ payload:
   - DOMAIN-SUFFIX,jd.com
   - DOMAIN-SUFFIX,jd.hk
   - DOMAIN-SUFFIX,jdl.com
+  - DOMAIN-SUFFIX,mail.126.com
+  - DOMAIN-SUFFIX,mail.163.com
+  - DOMAIN-SUFFIX,map.baidu.com
   - DOMAIN-SUFFIX,meituan.com
   - DOMAIN-SUFFIX,meituan.net
   - DOMAIN-SUFFIX,meituanimg.com
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,mijia.tech
   - DOMAIN-SUFFIX,miui.com
+  - DOMAIN-SUFFIX,music.126.net
   - DOMAIN-SUFFIX,music.163.com
   - DOMAIN-SUFFIX,myqcloud.com
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,qlogo.cn
   - DOMAIN-SUFFIX,qpic.cn
   - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,qqmail.com
   - DOMAIN-SUFFIX,sinaimg.cn
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,tbcdn.cn
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,tmall.com
   - DOMAIN-SUFFIX,toutiao.com

@@ -336,9 +336,29 @@
       "rules": 4
     },
     {
+      "name": "Alipay",
+      "policy": "DIRECT",
+      "rules": 2
+    },
+    {
+      "name": "TaobaoTmall",
+      "policy": "DIRECT",
+      "rules": 3
+    },
+    {
       "name": "Alibaba",
       "policy": "DIRECT",
       "rules": 7
+    },
+    {
+      "name": "TencentCloud",
+      "policy": "DIRECT",
+      "rules": 3
+    },
+    {
+      "name": "QQ",
+      "policy": "DIRECT",
+      "rules": 4
     },
     {
       "name": "Tencent",
@@ -356,7 +376,22 @@
       "rules": 4
     },
     {
+      "name": "BaiduSearchMaps",
+      "policy": "DIRECT",
+      "rules": 3
+    },
+    {
+      "name": "BaiduCloud",
+      "policy": "DIRECT",
+      "rules": 2
+    },
+    {
       "name": "ByteDance",
+      "policy": "DIRECT",
+      "rules": 5
+    },
+    {
+      "name": "ByteDanceCore",
       "policy": "DIRECT",
       "rules": 5
     },
@@ -371,12 +406,32 @@
       "rules": 4
     },
     {
+      "name": "BilibiliVideo",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
       "name": "NetEase",
       "policy": "DIRECT",
       "rules": 5
     },
     {
+      "name": "NetEaseMail",
+      "policy": "DIRECT",
+      "rules": 3
+    },
+    {
+      "name": "NetEaseMusic",
+      "policy": "DIRECT",
+      "rules": 2
+    },
+    {
       "name": "JD",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "JDRetail",
       "policy": "DIRECT",
       "rules": 4
     },
@@ -386,12 +441,27 @@
       "rules": 4
     },
     {
+      "name": "MeituanDianping",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
       "name": "Xiaomi",
       "policy": "DIRECT",
       "rules": 4
     },
     {
+      "name": "XiaomiDevice",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
       "name": "Huawei",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "HuaweiCloud",
       "policy": "DIRECT",
       "rules": 4
     },
@@ -493,7 +563,7 @@
     {
       "name": "DirectAll",
       "policy": "DIRECT",
-      "rules": 166
+      "rules": 176
     },
     {
       "name": "GlobalAI",
@@ -513,12 +583,12 @@
     {
       "name": "ChinaPlatform",
       "policy": "DIRECT",
-      "rules": 61
+      "rules": 69
     },
     {
       "name": "ChinaInfra",
       "policy": "DIRECT",
-      "rules": 21
+      "rules": 23
     },
     {
       "name": "ChinaContent",
@@ -548,12 +618,12 @@
     {
       "name": "DomesticAll",
       "policy": "DIRECT",
-      "rules": 143
+      "rules": 153
     },
     {
       "name": "ChinaWhitelist",
       "policy": "DIRECT",
-      "rules": 107
+      "rules": 66
     },
     {
       "name": "AppleServices",
@@ -598,7 +668,7 @@
     {
       "name": "GlobalServices",
       "policy": "PROXY",
-      "rules": 10612
+      "rules": 4237
     },
     {
       "name": "GlobalApps",
@@ -623,7 +693,7 @@
     {
       "name": "ProxyAll",
       "policy": "PROXY",
-      "rules": 13194
+      "rules": 6982
     }
   ],
   "report": {
@@ -750,7 +820,7 @@
           "DomesticAll",
           "ChinaWhitelist"
         ],
-        "rules": 166
+        "rules": 176
       },
       {
         "name": "GlobalAI",
@@ -795,29 +865,42 @@
         "name": "ChinaPlatform",
         "include": [
           "Alibaba",
+          "Alipay",
+          "TaobaoTmall",
           "Tencent",
+          "QQ",
           "WeChat",
           "Baidu",
+          "BaiduSearchMaps",
           "ByteDance",
+          "ByteDanceCore",
           "Douyin",
           "Bilibili",
+          "BilibiliVideo",
           "NetEase",
+          "NetEaseMail",
+          "NetEaseMusic",
           "JD",
+          "JDRetail",
           "Meituan",
+          "MeituanDianping",
           "Xiaomi",
+          "XiaomiDevice",
           "Huawei",
           "Weibo",
           "Zhihu"
         ],
-        "rules": 61
+        "rules": 69
       },
       {
         "name": "ChinaInfra",
         "include": [
           "ChinaCloud",
-          "ChinaCDN"
+          "ChinaCDN",
+          "TencentCloud",
+          "BaiduCloud"
         ],
-        "rules": 21
+        "rules": 23
       },
       {
         "name": "ChinaContent",
@@ -868,12 +951,11 @@
           "Direct",
           "China"
         ],
-        "rules": 143
+        "rules": 153
       },
       {
         "name": "ChinaWhitelist",
         "include": [
-          "ChinaPlatform",
           "ChinaInfra",
           "ChinaContent",
           "ChinaFinance",
@@ -882,7 +964,7 @@
           "ChinaTransport",
           "ChinaGame"
         ],
-        "rules": 107
+        "rules": 66
       },
       {
         "name": "AppleServices",
@@ -972,10 +1054,9 @@
         "include": [
           "GlobalCore",
           "GlobalCommunication",
-          "GlobalSocial",
-          "Global"
+          "GlobalSocial"
         ],
-        "rules": 10612
+        "rules": 4237
       },
       {
         "name": "GlobalApps",
@@ -1033,10 +1114,9 @@
           "GlobalGame",
           "Developer",
           "Payment",
-          "GlobalMedia",
-          "Global"
+          "GlobalMedia"
         ],
-        "rules": 13194
+        "rules": 6982
       }
     ],
     "protected_reject_removals": [

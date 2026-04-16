@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,alicdn.com
   - DOMAIN-SUFFIX,aliyun.com
   - DOMAIN-SUFFIX,aliyuncs.com
+  - DOMAIN-SUFFIX,baidubce.com
   - DOMAIN-SUFFIX,bcebos.com
   - DOMAIN-SUFFIX,bdstatic.com
   - DOMAIN-SUFFIX,biliimg.com
@@ -20,5 +21,6 @@ payload:
   - DOMAIN-SUFFIX,qpic.cn
   - DOMAIN-SUFFIX,sinaimg.cn
   - DOMAIN-SUFFIX,tencentcloud.com
+  - DOMAIN-SUFFIX,tencentcloudapi.com
   - DOMAIN-SUFFIX,ucloud.cn
   - DOMAIN-SUFFIX,zhimg.com

@@ -4,9 +4,9 @@
 
 `proxy-rules` builds one normalized rule source into QuanX, Loon, Clash, and Mihomo outputs. The Chinese README is the canonical guide for the public repo; this file is the English companion. Upstream projects are treated as raw materials; local overrides and protection exceptions are applied before generated files are published.
 
-## Phase One Maintenance
+## Phase Two Maintenance
 
-Phase one keeps the legacy `sources/*.json` layout compatible while introducing a clearer maintenance split. **New structure first, legacy files kept for compatibility.** When adding or changing rules, prefer the new structure and only backfill legacy files when needed.
+Phase two keeps the legacy `sources/*.json` layout compatible while the new maintenance split becomes the primary path. **New structure first, legacy files kept for compatibility.** When adding or changing rules, prefer the new structure and only backfill legacy files when needed.
 
 Recommended responsibilities:
 
@@ -16,7 +16,7 @@ Recommended responsibilities:
 
 Category usage follows the same split:
 
-- Leaf categories are the real maintenance source and are suitable for precise troubleshooting and standalone subscription.
+- Service-level leaf categories are the real maintenance source and are suitable for precise troubleshooting and standalone subscription.
 - Family categories group related services together for auditing and bulk maintenance.
 - Scenario entries are convenience entry points for clients; every `All` class belongs here and should not be treated as a precise maintenance source.
 
@@ -85,7 +85,7 @@ Manual rules use a small canonical JSON format:
 }
 ```
 
-Leaf categories contain real rules and can be subscribed on their own. Family categories group related services. Scenario entries are convenience bundles for clients; every `All` class belongs here and should not be treated as a precise maintenance source. Composite categories never contain domains directly. They include leaf categories or other composites, and the builder expands and deduplicates them during generation.
+Service-level leaf categories contain real rules and can be subscribed on their own. Family categories group related services for auditing and bulk maintenance. Scenario entries are convenience bundles for clients; every `All` class belongs here and should not be treated as a precise maintenance source. Composite categories never contain domains directly. They include leaf categories or other composites, and the builder expands and deduplicates them during generation.
 
 Key leaf and composite entries:
 
@@ -96,7 +96,7 @@ Key leaf and composite entries:
 - `ChinaAI`: mainland China AI services.
 - `AIAll`: mixed AI catalog for auditing; avoid using it as the only routing entry unless that is intentional.
 - `DirectAll`: local network, connectivity checks, domestic services, and China whitelist.
-- `DomesticAll`: mainland China services, banks, government, education, cloud, CDN, games, and regional fallback.
+- `DomesticAll`: mainland China family aggregation, usually built from platform, infrastructure, content, finance, government, education, and transport families.
 - `AppleServices`: Apple core, CDN, push, and media services.
 - `MicrosoftServices`: Microsoft core, cloud, developer, Xbox, and Copilot services.
 - `Developer`: GitHub, GitLab, Docker, npm, PyPI, Maven, Go, Rust, RubyGems, Gradle, JetBrains, VSCode, and Homebrew.
@@ -111,6 +111,15 @@ Recommended usage:
 - Use `GlobalAI` for overseas AI, `ChinaAI` for domestic AI, and `AIAll` only when you want a full audit or migration view.
 - Use `DirectAll`, `DomesticAll`, and `ProxyAll` as convenience bundles, not as the only entry points.
 - Treat every `All` class as a scenario entry, not as a precise maintenance source.
+
+### Domestic and overseas families
+
+For day-to-day maintenance, first organize services into families, then use those families to compose scenario entries.
+
+- Domestic families can be grouped by platform, infrastructure, content, finance, government, education, and transport.
+- Overseas families can be grouped by core services, communication, social, media, games, development, and payment.
+- Service-level leaf categories sit under families and remain the true source for maintenance and troubleshooting.
+- `All` classes are kept for quick subscription and audit views only.
 
 ## Policy Templates
 
@@ -127,7 +136,7 @@ Replace `节点A/节点B/节点C` with real node names or existing proxy groups.
 
 1. Inspect client logs for domain, matched rule, and current policy.
 2. Add clear domains to the matching `overrides/<Category>.json`.
-3. Create a new leaf category if the service does not fit existing groups.
+3. Create a new service-level leaf category if the service does not fit existing groups.
 4. If an upstream broad category captures a domain too early, add a `category_suppressions` entry in `overrides/exceptions.json`.
 5. Add mistakenly rejected domains to `overrides/exceptions.json`.
 6. Run offline and online builds, then inspect `dist/report.md`.

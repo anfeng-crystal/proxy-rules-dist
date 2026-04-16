@@ -66,18 +66,32 @@ rules:
   - RULE-SET,BattleNet,Game
   - RULE-SET,RiotGames,Game
   - RULE-SET,HoYoverse,Game
+  - RULE-SET,Alipay,DIRECT
+  - RULE-SET,TaobaoTmall,DIRECT
   - RULE-SET,Alibaba,DIRECT
+  - RULE-SET,TencentCloud,DIRECT
+  - RULE-SET,QQ,DIRECT
   - RULE-SET,Tencent,DIRECT
   - RULE-SET,WeChat,DIRECT
   - RULE-SET,Baidu,DIRECT
+  - RULE-SET,BaiduSearchMaps,DIRECT
+  - RULE-SET,BaiduCloud,DIRECT
   - RULE-SET,ByteDance,DIRECT
+  - RULE-SET,ByteDanceCore,DIRECT
   - RULE-SET,Douyin,DIRECT
   - RULE-SET,Bilibili,DIRECT
+  - RULE-SET,BilibiliVideo,DIRECT
   - RULE-SET,NetEase,DIRECT
+  - RULE-SET,NetEaseMail,DIRECT
+  - RULE-SET,NetEaseMusic,DIRECT
   - RULE-SET,JD,DIRECT
+  - RULE-SET,JDRetail,DIRECT
   - RULE-SET,Meituan,DIRECT
+  - RULE-SET,MeituanDianping,DIRECT
   - RULE-SET,Xiaomi,DIRECT
+  - RULE-SET,XiaomiDevice,DIRECT
   - RULE-SET,Huawei,DIRECT
+  - RULE-SET,HuaweiCloud,DIRECT
   - RULE-SET,Weibo,DIRECT
   - RULE-SET,Zhihu,DIRECT
   - RULE-SET,ChinaCloud,DIRECT

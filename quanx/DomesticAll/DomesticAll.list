@@ -23,9 +23,12 @@ HOST-SUFFIX,alibaba.com,DIRECT
 HOST-SUFFIX,alibabacloud.com,DIRECT
 HOST-SUFFIX,alicdn.com,DIRECT
 HOST-SUFFIX,alipay.com,DIRECT
+HOST-SUFFIX,alipayobjects.com,DIRECT
 HOST-SUFFIX,aliyun.com,DIRECT
 HOST-SUFFIX,aliyuncs.com,DIRECT
+HOST-SUFFIX,api.map.baidu.com,DIRECT
 HOST-SUFFIX,baidu.com,DIRECT
+HOST-SUFFIX,baidubce.com,DIRECT
 HOST-SUFFIX,baidustatic.com,DIRECT
 HOST-SUFFIX,bankcomm.com,DIRECT
 HOST-SUFFIX,bcebos.com,DIRECT
@@ -70,6 +73,9 @@ HOST-SUFFIX,jdl.com,DIRECT
 HOST-SUFFIX,ksyun.com,DIRECT
 HOST-SUFFIX,kugou.com,DIRECT
 HOST-SUFFIX,kuwo.cn,DIRECT
+HOST-SUFFIX,mail.126.com,DIRECT
+HOST-SUFFIX,mail.163.com,DIRECT
+HOST-SUFFIX,map.baidu.com,DIRECT
 HOST-SUFFIX,meituan.com,DIRECT
 HOST-SUFFIX,meituan.net,DIRECT
 HOST-SUFFIX,meituanimg.com,DIRECT
@@ -81,6 +87,7 @@ HOST-SUFFIX,miit.gov.cn,DIRECT
 HOST-SUFFIX,mijia.tech,DIRECT
 HOST-SUFFIX,miui.com,DIRECT
 HOST-SUFFIX,miyoushe.com,DIRECT
+HOST-SUFFIX,music.126.net,DIRECT
 HOST-SUFFIX,music.163.com,DIRECT
 HOST-SUFFIX,myqcloud.com,DIRECT
 HOST-SUFFIX,netease.com,DIRECT
@@ -92,10 +99,13 @@ HOST-SUFFIX,qiyi.com,DIRECT
 HOST-SUFFIX,qlogo.cn,DIRECT
 HOST-SUFFIX,qpic.cn,DIRECT
 HOST-SUFFIX,qq.com,DIRECT
+HOST-SUFFIX,qqmail.com,DIRECT
 HOST-SUFFIX,sinaimg.cn,DIRECT
 HOST-SUFFIX,snssdk.com,DIRECT
 HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,tbcdn.cn,DIRECT
 HOST-SUFFIX,tencentcloud.com,DIRECT
+HOST-SUFFIX,tencentcloudapi.com,DIRECT
 HOST-SUFFIX,tencentgames.com,DIRECT
 HOST-SUFFIX,tenpay.com,DIRECT
 HOST-SUFFIX,tmall.com,DIRECT

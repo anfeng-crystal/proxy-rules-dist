@@ -5,6 +5,7 @@
 - AIAll: 118
 - Advertising: 256059
 - Alibaba: 7
+- Alipay: 2
 - Amazon: 204
 - AnthropicClaude: 4
 - Apple: 1864
@@ -13,10 +14,14 @@
 - ApplePush: 4
 - AppleServices: 1873
 - Baidu: 4
+- BaiduCloud: 2
+- BaiduSearchMaps: 3
 - BankingCN: 7
 - BattleNet: 4
 - Bilibili: 4
+- BilibiliVideo: 4
 - ByteDance: 5
+- ByteDanceCore: 5
 - ByteDanceDoubao: 4
 - China: 31
 - ChinaAI: 17
@@ -27,22 +32,22 @@
 - ChinaFinance: 7
 - ChinaGame: 14
 - ChinaGovernment: 5
-- ChinaInfra: 21
+- ChinaInfra: 23
 - ChinaMedia: 10
-- ChinaPlatform: 61
+- ChinaPlatform: 69
 - ChinaTransport: 3
-- ChinaWhitelist: 107
+- ChinaWhitelist: 66
 - Cloudflare: 5
 - ConnectivityCheck: 9
 - Cursor: 3
 - DeepSeek: 3
 - Developer: 84
 - Direct: 9
-- DirectAll: 166
+- DirectAll: 176
 - Discord: 29
 - DisneyPlus: 5
 - Docker: 5
-- DomesticAll: 143
+- DomesticAll: 153
 - Douyin: 5
 - EducationCN: 4
 - EpicGames: 4
@@ -57,7 +62,7 @@
 - GlobalCore: 3514
 - GlobalGame: 34
 - GlobalMedia: 2366
-- GlobalServices: 10612
+- GlobalServices: 4237
 - GlobalSocial: 663
 - Go: 5
 - Google: 717
@@ -69,13 +74,16 @@
 - HoYoverse: 4
 - Homebrew: 6
 - Huawei: 4
+- HuaweiCloud: 4
 - HuggingFace: 4
 - Instagram: 4
 - JD: 4
+- JDRetail: 4
 - JetBrains: 4
 - LocalNetwork: 18
 - Maven: 4
 - Meituan: 4
+- MeituanDianping: 4
 - MiHoYoCN: 5
 - Microsoft: 711
 - MicrosoftCloud: 9
@@ -88,6 +96,8 @@
 - NPM: 3
 - NetEase: 5
 - NetEaseGames: 4
+- NetEaseMail: 3
+- NetEaseMusic: 2
 - Netflix: 1153
 - Nintendo: 4
 - OpenAI: 52
@@ -97,8 +107,9 @@
 - PlayStation: 4
 - Poe: 3
 - Privacy: 2
-- ProxyAll: 13194
+- ProxyAll: 6982
 - PyPI: 3
+- QQ: 4
 - Qwen: 4
 - Railway12306: 3
 - Reddit: 8
@@ -112,8 +123,10 @@
 - StabilityAI: 3
 - Steam: 6
 - Stripe: 4
+- TaobaoTmall: 3
 - Telegram: 31
 - Tencent: 6
+- TencentCloud: 3
 - TencentGames: 5
 - TestSites: 10
 - TikTok: 32
@@ -125,6 +138,7 @@
 - Windsurf: 3
 - Xbox: 4
 - Xiaomi: 4
+- XiaomiDevice: 4
 - YouTube: 192
 - Zhihu: 2
 
@@ -152,6 +166,10 @@
 - blackmatrix7-advertising-quanx: ok
 - blackmatrix7-china-clash: ok
 - acl4ssr-global-clash: ok
+
+## 告警 / Warnings
+
+- none
 
 ## 已从拒绝规则移除的保护域名 / Protected Reject Removals
 
