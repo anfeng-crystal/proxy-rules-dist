@@ -1,0 +1,13 @@
+rules:
+  - RULE-SET,OpenAI,OpenAI
+  - RULE-SET,Homebrew,Homebrew
+  - RULE-SET,GitHub,GitHub
+  - RULE-SET,Apple,Apple
+  - RULE-SET,Google,Google
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,GlobalMedia,GlobalMedia
+  - RULE-SET,Global,Global
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,China,DIRECT
+  - RULE-SET,Advertising,REJECT
+  - RULE-SET,Privacy,REJECT

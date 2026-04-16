@@ -1,0 +1,120 @@
+{
+  "categories": [
+    {
+      "name": "OpenAI",
+      "policy": "OpenAI",
+      "rules": 44
+    },
+    {
+      "name": "Homebrew",
+      "policy": "Homebrew",
+      "rules": 6
+    },
+    {
+      "name": "GitHub",
+      "policy": "GitHub",
+      "rules": 38
+    },
+    {
+      "name": "Apple",
+      "policy": "Apple",
+      "rules": 1864
+    },
+    {
+      "name": "Google",
+      "policy": "Google",
+      "rules": 717
+    },
+    {
+      "name": "Telegram",
+      "policy": "Telegram",
+      "rules": 31
+    },
+    {
+      "name": "GlobalMedia",
+      "policy": "GlobalMedia",
+      "rules": 2325
+    },
+    {
+      "name": "Global",
+      "policy": "Global",
+      "rules": 6883
+    },
+    {
+      "name": "Direct",
+      "policy": "DIRECT",
+      "rules": 9
+    },
+    {
+      "name": "China",
+      "policy": "DIRECT",
+      "rules": 1
+    },
+    {
+      "name": "Advertising",
+      "policy": "REJECT",
+      "rules": 256173
+    },
+    {
+      "name": "Privacy",
+      "policy": "REJECT",
+      "rules": 2
+    }
+  ],
+  "report": {
+    "offline": false,
+    "fetches": [
+      {
+        "name": "blackmatrix7-openai-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-github-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-apple-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-google-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-telegram-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-globalmedia-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-advertising-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "acl4ssr-global-clash",
+        "ok": true,
+        "error": ""
+      }
+    ],
+    "warnings": [],
+    "protected_reject_removals": [
+      "Advertising:domain:api-iam.intercom.io",
+      "Advertising:domain:js.intercomcdn.com",
+      "Advertising:domain:widget.intercom.io",
+      "Advertising:domain_suffix:api.statsig.com",
+      "Advertising:domain_suffix:collector-cdn.github.com",
+      "Advertising:domain_suffix:collector.github.com",
+      "Advertising:domain_suffix:copilot-telemetry.githubusercontent.com",
+      "Advertising:domain_suffix:sentry.io"
+    ]
+  }
+}

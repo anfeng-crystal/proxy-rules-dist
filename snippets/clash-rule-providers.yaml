@@ -1,0 +1,73 @@
+rule-providers:
+  OpenAI:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/OpenAI/OpenAI.yaml
+    path: ./ruleset/OpenAI.yaml
+    interval: 86400
+  Homebrew:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Homebrew/Homebrew.yaml
+    path: ./ruleset/Homebrew.yaml
+    interval: 86400
+  GitHub:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GitHub/GitHub.yaml
+    path: ./ruleset/GitHub.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Apple/Apple.yaml
+    path: ./ruleset/Apple.yaml
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Google/Google.yaml
+    path: ./ruleset/Google.yaml
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Telegram/Telegram.yaml
+    path: ./ruleset/Telegram.yaml
+    interval: 86400
+  GlobalMedia:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GlobalMedia/GlobalMedia.yaml
+    path: ./ruleset/GlobalMedia.yaml
+    interval: 86400
+  Global:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Global/Global.yaml
+    path: ./ruleset/Global.yaml
+    interval: 86400
+  Direct:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Direct/Direct.yaml
+    path: ./ruleset/Direct.yaml
+    interval: 86400
+  China:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/China/China.yaml
+    path: ./ruleset/China.yaml
+    interval: 86400
+  Advertising:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Advertising/Advertising.yaml
+    path: ./ruleset/Advertising.yaml
+    interval: 86400
+  Privacy:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Privacy/Privacy.yaml
+    path: ./ruleset/Privacy.yaml
+    interval: 86400
