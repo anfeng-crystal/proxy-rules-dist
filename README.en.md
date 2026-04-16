@@ -34,11 +34,22 @@ Output URLs stay unchanged:
 
 The icon library is published on the same public Pages host. The manifest lives at `icons/manifest.json`. Pages refreshes keep the same icon URLs, and GitHub Release snapshots keep the same `icons/` path for rollback and comparison.
 
+The generated `icons/manifest.json` currently exposes these real fields: `id`, `label`, `symbol`, `background`, `foreground`, `description`, `categories`, `targets`, `file`, and `url`. The `url` field points at the stable Pages icon path and is what client snippets use by default.
+
+Recommended source metadata is split into two fields:
+
+- `source`: which upstream project, mirror, or curated source the icon came from.
+- `license`: which license applies, so you can tell whether the asset can be copied, recolored, and stored locally, or should stay as an external link and index entry only.
+
+Copyable open sources become local `dist/icons/*.svg` fallbacks. Link-only or index-only sources stay as source metadata and public URLs without a local mirror.
+
 Common client entry points:
 
 - QuanX: `snippets/quanx-policy-icons.conf`
 - Loon: `snippets/loon-policy-icons.conf`
 - Clash: `snippets/clash-icon-urls.yaml`
+
+The default client snippets continue to use the Pages icon URLs to keep the path stable. `source` and `license` remain maintenance-layer metadata and do not change the default URL.
 
 If the generator renames any of these files later, this repo will follow the published names, but the Pages and Release layers will still ship them together.
 
@@ -61,7 +72,7 @@ dist/
   loon/                 Generated Loon rules.
   clash/                Generated Clash classical providers.
   mihomo/               Generated Mihomo classical providers.
-  icons/                Icon manifest and icon assets.
+  icons/                Icon manifest, SVG assets, and source index.
 snippets/
   *.conf, *.yaml        Client subscription snippets and policy templates.
 site/

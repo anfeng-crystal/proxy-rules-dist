@@ -8,7 +8,10 @@
       "source_count": 0,
       "manual_count": 18,
       "icon_id": "local-network",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/local-network.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/local-network.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "local-network.svg"
     },
     {
       "name": "ConnectivityCheck",
@@ -18,7 +21,10 @@
       "source_count": 0,
       "manual_count": 9,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "TestSites",
@@ -28,7 +34,10 @@
       "source_count": 0,
       "manual_count": 10,
       "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "proxy.svg"
     },
     {
       "name": "OpenAI",
@@ -36,7 +45,15 @@
       "description": "OpenAI and ChatGPT web, upload, auth, and safety checks.",
       "rules": 52,
       "source_count": 34,
-      "manual_count": 18
+      "manual_count": 18,
+      "icon_id": "openai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/openai.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "openai.svg"
     },
     {
       "name": "AnthropicClaude",
@@ -46,7 +63,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "GoogleGemini",
@@ -55,8 +75,14 @@
       "rules": 6,
       "source_count": 0,
       "manual_count": 6,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_id": "gemini",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/gemini.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gemini.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "gemini.svg"
     },
     {
       "name": "MicrosoftCopilot",
@@ -66,7 +92,10 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "Perplexity",
@@ -76,7 +105,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "MistralAI",
@@ -86,7 +118,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "GrokXAI",
@@ -96,7 +131,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "Poe",
@@ -106,7 +144,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "HuggingFace",
@@ -116,7 +157,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "Replicate",
@@ -126,7 +170,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "Midjourney",
@@ -136,7 +183,10 @@
       "source_count": 0,
       "manual_count": 2,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "StabilityAI",
@@ -146,7 +196,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "Runway",
@@ -156,7 +209,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "Cursor",
@@ -166,7 +222,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "Windsurf",
@@ -176,7 +235,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "DeepSeek",
@@ -186,7 +248,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "MoonshotKimi",
@@ -196,7 +261,10 @@
       "source_count": 0,
       "manual_count": 6,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "Qwen",
@@ -206,7 +274,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "ByteDanceDoubao",
@@ -216,7 +287,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "Homebrew",
@@ -226,7 +300,13 @@
       "source_count": 0,
       "manual_count": 6,
       "icon_id": "homebrew",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/homebrew.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/homebrew.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/homebrew",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "homebrew.svg"
     },
     {
       "name": "GitHub",
@@ -236,7 +316,13 @@
       "source_count": 31,
       "manual_count": 7,
       "icon_id": "github",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/github.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/github.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/github",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "github.svg"
     },
     {
       "name": "GitLab",
@@ -245,8 +331,14 @@
       "rules": 3,
       "source_count": 0,
       "manual_count": 3,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_id": "gitlab",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/gitlab.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/gitlab",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "gitlab.svg"
     },
     {
       "name": "Docker",
@@ -255,8 +347,14 @@
       "rules": 5,
       "source_count": 0,
       "manual_count": 5,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_id": "docker",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/docker.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/docker",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "docker.svg"
     },
     {
       "name": "NPM",
@@ -265,8 +363,14 @@
       "rules": 3,
       "source_count": 0,
       "manual_count": 3,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_id": "npm",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/npm.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/npm",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "npm.svg"
     },
     {
       "name": "PyPI",
@@ -275,8 +379,14 @@
       "rules": 3,
       "source_count": 0,
       "manual_count": 3,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_id": "pypi",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/pypi.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/pypi",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "pypi.svg"
     },
     {
       "name": "Maven",
@@ -285,8 +395,14 @@
       "rules": 4,
       "source_count": 0,
       "manual_count": 4,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_id": "maven",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/maven.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/apachemaven",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "maven.svg"
     },
     {
       "name": "Go",
@@ -295,8 +411,14 @@
       "rules": 5,
       "source_count": 0,
       "manual_count": 5,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_id": "go",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/go.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/go",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "go.svg"
     },
     {
       "name": "Rust",
@@ -305,8 +427,14 @@
       "rules": 4,
       "source_count": 0,
       "manual_count": 4,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_id": "rust",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/rust.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/rust",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "rust.svg"
     },
     {
       "name": "RubyGems",
@@ -316,7 +444,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "developer.svg"
     },
     {
       "name": "Gradle",
@@ -326,7 +457,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "developer.svg"
     },
     {
       "name": "JetBrains",
@@ -335,8 +469,14 @@
       "rules": 4,
       "source_count": 0,
       "manual_count": 4,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_id": "jetbrains",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/jetbrains.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/jetbrains",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "jetbrains.svg"
     },
     {
       "name": "VSCode",
@@ -345,8 +485,14 @@
       "rules": 4,
       "source_count": 0,
       "manual_count": 4,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_id": "vscode",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/vscode.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/visualstudiocode",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "vscode.svg"
     },
     {
       "name": "Cloudflare",
@@ -355,8 +501,14 @@
       "rules": 5,
       "source_count": 0,
       "manual_count": 5,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "cloudflare",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/cloudflare.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/cloudflare",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "cloudflare.svg"
     },
     {
       "name": "PayPal",
@@ -365,8 +517,14 @@
       "rules": 248,
       "source_count": 248,
       "manual_count": 0,
-      "icon_id": "payment",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg"
+      "icon_id": "paypal",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/paypal.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/paypal",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "paypal.svg"
     },
     {
       "name": "Stripe",
@@ -375,8 +533,14 @@
       "rules": 4,
       "source_count": 0,
       "manual_count": 4,
-      "icon_id": "payment",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg"
+      "icon_id": "stripe",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/stripe.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/stripe",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "stripe.svg"
     },
     {
       "name": "Apple",
@@ -386,7 +550,13 @@
       "source_count": 1863,
       "manual_count": 1,
       "icon_id": "apple",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/apple",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "apple.svg"
     },
     {
       "name": "AppleCDN",
@@ -396,7 +566,13 @@
       "source_count": 0,
       "manual_count": 10,
       "icon_id": "apple",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/apple",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "apple.svg"
     },
     {
       "name": "ApplePush",
@@ -406,7 +582,13 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "apple",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/apple",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "apple.svg"
     },
     {
       "name": "AppleMedia",
@@ -416,7 +598,13 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "apple",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/apple",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "apple.svg"
     },
     {
       "name": "Google",
@@ -424,7 +612,15 @@
       "description": "Google services, APIs, and static assets.",
       "rules": 717,
       "source_count": 717,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "google",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/google.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/google",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "google.svg"
     },
     {
       "name": "Microsoft",
@@ -433,8 +629,14 @@
       "rules": 711,
       "source_count": 711,
       "manual_count": 0,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "microsoft",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/microsoft.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/microsoft",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "microsoft.svg"
     },
     {
       "name": "MicrosoftCloud",
@@ -444,7 +646,10 @@
       "source_count": 0,
       "manual_count": 9,
       "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "proxy.svg"
     },
     {
       "name": "MicrosoftDev",
@@ -454,7 +659,10 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "developer.svg"
     },
     {
       "name": "Telegram",
@@ -464,7 +672,13 @@
       "source_count": 31,
       "manual_count": 0,
       "icon_id": "telegram",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/telegram.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/telegram.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/telegram",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "telegram.svg"
     },
     {
       "name": "YouTube",
@@ -474,7 +688,13 @@
       "source_count": 192,
       "manual_count": 0,
       "icon_id": "youtube",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/youtube.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/youtube.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/youtube",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "youtube.svg"
     },
     {
       "name": "Netflix",
@@ -484,7 +704,13 @@
       "source_count": 1153,
       "manual_count": 0,
       "icon_id": "netflix",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/netflix.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/netflix.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/netflix",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "netflix.svg"
     },
     {
       "name": "DisneyPlus",
@@ -494,7 +720,10 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "proxy.svg"
     },
     {
       "name": "Spotify",
@@ -503,8 +732,14 @@
       "rules": 30,
       "source_count": 30,
       "manual_count": 0,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "spotify",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/spotify.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/spotify",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "spotify.svg"
     },
     {
       "name": "TikTok",
@@ -513,8 +748,14 @@
       "rules": 32,
       "source_count": 32,
       "manual_count": 0,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "tiktok",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/tiktok.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/tiktok",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "tiktok.svg"
     },
     {
       "name": "TwitterX",
@@ -523,8 +764,14 @@
       "rules": 33,
       "source_count": 33,
       "manual_count": 0,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "x-twitter",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/x-twitter.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/x",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "x-twitter.svg"
     },
     {
       "name": "FacebookMeta",
@@ -533,8 +780,14 @@
       "rules": 569,
       "source_count": 569,
       "manual_count": 0,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "facebook",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/facebook.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/facebook",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "facebook.svg"
     },
     {
       "name": "Instagram",
@@ -543,8 +796,14 @@
       "rules": 4,
       "source_count": 4,
       "manual_count": 0,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "instagram",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/instagram.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/instagram",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "instagram.svg"
     },
     {
       "name": "Discord",
@@ -553,8 +812,14 @@
       "rules": 29,
       "source_count": 29,
       "manual_count": 0,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "discord",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/discord.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/discord",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "discord.svg"
     },
     {
       "name": "Reddit",
@@ -563,8 +828,14 @@
       "rules": 8,
       "source_count": 8,
       "manual_count": 0,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "reddit",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reddit.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/reddit",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "reddit.svg"
     },
     {
       "name": "Twitch",
@@ -573,8 +844,14 @@
       "rules": 20,
       "source_count": 20,
       "manual_count": 0,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "twitch",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/twitch.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/twitch",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "twitch.svg"
     },
     {
       "name": "Amazon",
@@ -583,8 +860,14 @@
       "rules": 204,
       "source_count": 204,
       "manual_count": 0,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "amazon",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/amazon.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/amazon",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "amazon.svg"
     },
     {
       "name": "Steam",
@@ -593,8 +876,14 @@
       "rules": 6,
       "source_count": 0,
       "manual_count": 6,
-      "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
+      "icon_id": "steam",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/steam.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/steam",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "steam.svg"
     },
     {
       "name": "EpicGames",
@@ -604,7 +893,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "game.svg"
     },
     {
       "name": "PlayStation",
@@ -614,7 +906,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "game.svg"
     },
     {
       "name": "Xbox",
@@ -624,7 +919,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "game.svg"
     },
     {
       "name": "Nintendo",
@@ -634,7 +932,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "game.svg"
     },
     {
       "name": "BattleNet",
@@ -644,7 +945,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "game.svg"
     },
     {
       "name": "RiotGames",
@@ -654,7 +958,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "game.svg"
     },
     {
       "name": "HoYoverse",
@@ -664,7 +971,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "game.svg"
     },
     {
       "name": "Alipay",
@@ -673,8 +983,14 @@
       "rules": 2,
       "source_count": 0,
       "manual_count": 2,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "alipay",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/alipay.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/alipay",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "alipay.svg"
     },
     {
       "name": "TaobaoTmall",
@@ -683,8 +999,14 @@
       "rules": 3,
       "source_count": 0,
       "manual_count": 3,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "taobao",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/taobao.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/taobao.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "taobao.svg"
     },
     {
       "name": "Alibaba",
@@ -693,8 +1015,14 @@
       "rules": 1,
       "source_count": 0,
       "manual_count": 1,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "alibaba",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/alibaba.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/alibaba.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "alibaba.svg"
     },
     {
       "name": "TencentCloud",
@@ -703,8 +1031,14 @@
       "rules": 3,
       "source_count": 0,
       "manual_count": 3,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "tencentcloud",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/tencentcloud.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/tencentcloud.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "tencentcloud.svg"
     },
     {
       "name": "QQ",
@@ -713,8 +1047,12 @@
       "rules": 4,
       "source_count": 0,
       "manual_count": 4,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "qq",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/qq.svg",
+      "source_kind": "custom",
+      "source_url": "https://im.qq.com/",
+      "license": "unknown",
+      "local_fallback": "qq.svg"
     },
     {
       "name": "Tencent",
@@ -723,8 +1061,14 @@
       "rules": 6,
       "source_count": 0,
       "manual_count": 6,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "tencent",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/tencent.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/tencent.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "tencent.svg"
     },
     {
       "name": "WeChat",
@@ -733,8 +1077,12 @@
       "rules": 5,
       "source_count": 0,
       "manual_count": 5,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "wechat",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/wechat.svg",
+      "source_kind": "custom",
+      "source_url": "https://weixin.qq.com/",
+      "license": "unknown",
+      "local_fallback": "wechat.svg"
     },
     {
       "name": "Baidu",
@@ -743,8 +1091,14 @@
       "rules": 4,
       "source_count": 0,
       "manual_count": 4,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "baidu",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/baidu.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/baidu.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "baidu.svg"
     },
     {
       "name": "BaiduSearchMaps",
@@ -754,7 +1108,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "BaiduCloud",
@@ -764,7 +1121,10 @@
       "source_count": 0,
       "manual_count": 2,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "ByteDance",
@@ -774,7 +1134,10 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "ByteDanceCore",
@@ -784,7 +1147,10 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "Douyin",
@@ -793,8 +1159,14 @@
       "rules": 3,
       "source_count": 0,
       "manual_count": 3,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "douyin",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/douyin.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/douyin.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "douyin.svg"
     },
     {
       "name": "Bilibili",
@@ -803,8 +1175,14 @@
       "rules": 4,
       "source_count": 0,
       "manual_count": 4,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "bilibili",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/bilibili.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/bilibili.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "bilibili.svg"
     },
     {
       "name": "BilibiliVideo",
@@ -814,7 +1192,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "NetEase",
@@ -824,7 +1205,10 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "NetEaseMail",
@@ -834,7 +1218,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "NetEaseMusic",
@@ -844,7 +1231,10 @@
       "source_count": 0,
       "manual_count": 2,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "JD",
@@ -854,7 +1244,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "JDRetail",
@@ -864,7 +1257,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "Meituan",
@@ -874,7 +1270,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "MeituanDianping",
@@ -884,7 +1283,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "Xiaomi",
@@ -894,7 +1296,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "XiaomiDevice",
@@ -904,7 +1309,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "Huawei",
@@ -914,7 +1322,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "HuaweiCloud",
@@ -924,7 +1335,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "Weibo",
@@ -934,7 +1348,10 @@
       "source_count": 0,
       "manual_count": 2,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "Zhihu",
@@ -944,7 +1361,10 @@
       "source_count": 0,
       "manual_count": 1,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "ChinaCloud",
@@ -954,7 +1374,10 @@
       "source_count": 0,
       "manual_count": 11,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "ChinaCDN",
@@ -964,7 +1387,10 @@
       "source_count": 0,
       "manual_count": 10,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "ChinaMedia",
@@ -974,7 +1400,10 @@
       "source_count": 0,
       "manual_count": 10,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "EducationCN",
@@ -984,7 +1413,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "TencentGames",
@@ -994,7 +1426,10 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "NetEaseGames",
@@ -1004,7 +1439,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "MiHoYoCN",
@@ -1014,7 +1452,10 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "Railway12306",
@@ -1024,7 +1465,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "BankingCN",
@@ -1034,7 +1478,10 @@
       "source_count": 0,
       "manual_count": 7,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "GovCN",
@@ -1044,7 +1491,10 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "GlobalMedia",
@@ -1054,7 +1504,10 @@
       "source_count": 2325,
       "manual_count": 41,
       "icon_id": "global-media",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-media.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-media.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-media.svg"
     },
     {
       "name": "Global",
@@ -1064,7 +1517,10 @@
       "source_count": 6849,
       "manual_count": 0,
       "icon_id": "global",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global.svg"
     },
     {
       "name": "Direct",
@@ -1074,7 +1530,10 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "China",
@@ -1084,7 +1543,10 @@
       "source_count": 30,
       "manual_count": 1,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "Hijacking",
@@ -1094,7 +1556,10 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "reject",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "reject.svg"
     },
     {
       "name": "Advertising",
@@ -1104,7 +1569,10 @@
       "source_count": 256056,
       "manual_count": 3,
       "icon_id": "reject",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "reject.svg"
     },
     {
       "name": "Privacy",
@@ -1114,7 +1582,10 @@
       "source_count": 0,
       "manual_count": 2,
       "icon_id": "reject",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "reject.svg"
     },
     {
       "name": "Aliyun",
@@ -1124,7 +1595,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "AlibabaCDN",
@@ -1134,7 +1608,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "TencentMeeting",
@@ -1144,7 +1621,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "TencentVideo",
@@ -1154,7 +1634,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "BaiduTieba",
@@ -1164,7 +1647,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "BaiduPan",
@@ -1174,7 +1660,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "DouyinCDN",
@@ -1184,7 +1673,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "Pinduoduo",
@@ -1193,8 +1685,14 @@
       "rules": 4,
       "source_count": 0,
       "manual_count": 4,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "pinduoduo",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/pinduoduo.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/pinduoduo.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "pinduoduo.svg"
     },
     {
       "name": "WeiboMedia",
@@ -1204,7 +1702,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "ZhihuContent",
@@ -1214,7 +1715,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "iQIYI",
@@ -1223,8 +1727,14 @@
       "rules": 3,
       "source_count": 0,
       "manual_count": 3,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "iqiyi",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/iqiyi.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/iqiyi.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "iqiyi.svg"
     },
     {
       "name": "Youku",
@@ -1233,8 +1743,14 @@
       "rules": 3,
       "source_count": 0,
       "manual_count": 3,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_id": "youku",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/youku.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/youku.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "youku.svg"
     },
     {
       "name": "WhatsApp",
@@ -1243,8 +1759,14 @@
       "rules": 3,
       "source_count": 0,
       "manual_count": 3,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "whatsapp",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/whatsapp.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/whatsapp",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "whatsapp.svg"
     },
     {
       "name": "Messenger",
@@ -1254,7 +1776,10 @@
       "source_count": 0,
       "manual_count": 2,
       "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "proxy.svg"
     },
     {
       "name": "LinkedIn",
@@ -1263,8 +1788,14 @@
       "rules": 3,
       "source_count": 0,
       "manual_count": 3,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "linkedin",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/linkedin.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/linkedin",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "linkedin.svg"
     },
     {
       "name": "Zoom",
@@ -1273,8 +1804,14 @@
       "rules": 2,
       "source_count": 0,
       "manual_count": 2,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "zoom",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/zoom.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/zoom",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "zoom.svg"
     },
     {
       "name": "Slack",
@@ -1283,8 +1820,14 @@
       "rules": 3,
       "source_count": 0,
       "manual_count": 3,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "slack",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/slack.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/slack",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "slack.svg"
     },
     {
       "name": "Notion",
@@ -1293,8 +1836,14 @@
       "rules": 4,
       "source_count": 0,
       "manual_count": 4,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "notion",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/notion.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/notion",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "notion.svg"
     },
     {
       "name": "Dropbox",
@@ -1303,8 +1852,14 @@
       "rules": 3,
       "source_count": 0,
       "manual_count": 3,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "dropbox",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/dropbox.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/dropbox",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "dropbox.svg"
     },
     {
       "name": "Vercel",
@@ -1313,8 +1868,14 @@
       "rules": 2,
       "source_count": 0,
       "manual_count": 2,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_id": "vercel",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/vercel.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/vercel",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "vercel.svg"
     },
     {
       "name": "Netlify",
@@ -1323,8 +1884,14 @@
       "rules": 2,
       "source_count": 0,
       "manual_count": 2,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_id": "netlify",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/netlify.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/netlify",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "netlify.svg"
     },
     {
       "name": "DirectAll",
@@ -1334,7 +1901,10 @@
       "source_count": 30,
       "manual_count": 170,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "GlobalAI",
@@ -1344,7 +1914,10 @@
       "source_count": 34,
       "manual_count": 67,
       "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-ai.svg"
     },
     {
       "name": "ChinaAI",
@@ -1354,7 +1927,10 @@
       "source_count": 0,
       "manual_count": 17,
       "icon_id": "china-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-ai.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-ai.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "china-ai.svg"
     },
     {
       "name": "AIAll",
@@ -1364,7 +1940,10 @@
       "source_count": 34,
       "manual_count": 84,
       "icon_id": "ai-all",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/ai-all.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/ai-all.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "ai-all.svg"
     },
     {
       "name": "ChinaPlatform",
@@ -1374,7 +1953,10 @@
       "source_count": 0,
       "manual_count": 71,
       "icon_id": "china-platform",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-platform.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-platform.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "china-platform.svg"
     },
     {
       "name": "ChinaInfra",
@@ -1384,7 +1966,10 @@
       "source_count": 0,
       "manual_count": 31,
       "icon_id": "china-infra",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-infra.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-infra.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "china-infra.svg"
     },
     {
       "name": "ChinaContent",
@@ -1394,7 +1979,10 @@
       "source_count": 0,
       "manual_count": 23,
       "icon_id": "china-content",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-content.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-content.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "china-content.svg"
     },
     {
       "name": "ChinaFinance",
@@ -1404,7 +1992,10 @@
       "source_count": 0,
       "manual_count": 7,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "ChinaGovernment",
@@ -1414,7 +2005,10 @@
       "source_count": 0,
       "manual_count": 5,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "ChinaEducation",
@@ -1424,7 +2018,10 @@
       "source_count": 0,
       "manual_count": 4,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "ChinaTransport",
@@ -1434,7 +2031,10 @@
       "source_count": 0,
       "manual_count": 3,
       "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "direct.svg"
     },
     {
       "name": "DomesticAll",
@@ -1444,7 +2044,10 @@
       "source_count": 30,
       "manual_count": 147,
       "icon_id": "domestic-all",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "domestic-all.svg"
     },
     {
       "name": "ChinaWhitelist",
@@ -1454,7 +2057,10 @@
       "source_count": 0,
       "manual_count": 85,
       "icon_id": "china-whitelist",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-whitelist.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-whitelist.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "china-whitelist.svg"
     },
     {
       "name": "AppleServices",
@@ -1464,7 +2070,13 @@
       "source_count": 1863,
       "manual_count": 10,
       "icon_id": "apple",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/apple",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "apple.svg"
     },
     {
       "name": "MicrosoftServices",
@@ -1473,8 +2085,14 @@
       "rules": 717,
       "source_count": 711,
       "manual_count": 6,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "microsoft",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/microsoft.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/microsoft",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "microsoft.svg"
     },
     {
       "name": "GlobalCore",
@@ -1484,7 +2102,10 @@
       "source_count": 3493,
       "manual_count": 24,
       "icon_id": "global-core",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-core.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-core.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-core.svg"
     },
     {
       "name": "GlobalCommunication",
@@ -1493,8 +2114,14 @@
       "rules": 74,
       "source_count": 60,
       "manual_count": 14,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "whatsapp",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/whatsapp.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/whatsapp",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "whatsapp.svg"
     },
     {
       "name": "GlobalSocial",
@@ -1503,8 +2130,14 @@
       "rules": 666,
       "source_count": 663,
       "manual_count": 3,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_id": "linkedin",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/linkedin.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/linkedin",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "linkedin.svg"
     },
     {
       "name": "ChinaGame",
@@ -1514,7 +2147,10 @@
       "source_count": 0,
       "manual_count": 14,
       "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "game.svg"
     },
     {
       "name": "GlobalGame",
@@ -1524,7 +2160,10 @@
       "source_count": 0,
       "manual_count": 34,
       "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "game.svg"
     },
     {
       "name": "GameAll",
@@ -1534,7 +2173,10 @@
       "source_count": 0,
       "manual_count": 48,
       "icon_id": "game-all",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game-all.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game-all.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "game-all.svg"
     },
     {
       "name": "GlobalServices",
@@ -1544,7 +2186,10 @@
       "source_count": 4211,
       "manual_count": 41,
       "icon_id": "global-services",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-services.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-services.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-services.svg"
     },
     {
       "name": "GlobalApps",
@@ -1554,7 +2199,10 @@
       "source_count": 723,
       "manual_count": 12,
       "icon_id": "global-apps",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-apps.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-apps.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "global-apps.svg"
     },
     {
       "name": "Developer",
@@ -1564,7 +2212,10 @@
       "source_count": 31,
       "manual_count": 57,
       "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "developer.svg"
     },
     {
       "name": "Payment",
@@ -1574,7 +2225,10 @@
       "source_count": 248,
       "manual_count": 4,
       "icon_id": "payment",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "payment.svg"
     },
     {
       "name": "RejectAll",
@@ -1584,7 +2238,10 @@
       "source_count": 256056,
       "manual_count": 9,
       "icon_id": "reject",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "reject.svg"
     },
     {
       "name": "ProxyAll",
@@ -1594,13 +2251,16 @@
       "source_count": 6773,
       "manual_count": 228,
       "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "proxy.svg"
     }
   ],
   "icons": {
     "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons",
     "manifest_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/manifest.json",
-    "count": 27
+    "count": 105
   },
   "report": {
     "offline": false,
@@ -1717,9 +2377,115 @@
       }
     ],
     "catalog_warnings": [],
-    "icon_warnings": [],
+    "icon_warnings": [
+      "icon target duplicate: GlobalAI",
+      "icon target duplicate: AIAll",
+      "icon target duplicate: GlobalAI",
+      "icon target duplicate: AIAll",
+      "icon target duplicate: GlobalAI",
+      "icon target duplicate: AIAll",
+      "icon target duplicate: GlobalAI",
+      "icon target duplicate: AIAll",
+      "icon target duplicate: GlobalServices",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: GlobalServices",
+      "icon target duplicate: Payment",
+      "icon target duplicate: Payment",
+      "icon target duplicate: GlobalMedia",
+      "icon target duplicate: GlobalApps",
+      "icon target duplicate: GlobalApps",
+      "icon target duplicate: GlobalApps",
+      "icon target duplicate: GlobalApps",
+      "icon target duplicate: GlobalApps",
+      "icon target duplicate: GlobalApps",
+      "icon target duplicate: GlobalMedia",
+      "icon target duplicate: Game",
+      "icon target duplicate: GlobalServices",
+      "icon target duplicate: GlobalServices",
+      "icon target duplicate: GlobalCommunication",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Payment",
+      "icon target duplicate: ChinaPlatform",
+      "icon target duplicate: ChinaPlatform",
+      "icon target duplicate: ChinaPlatform",
+      "icon target duplicate: ChinaInfra",
+      "icon target duplicate: ChinaPlatform",
+      "icon target duplicate: ChinaContent",
+      "icon target duplicate: ChinaContent",
+      "icon target duplicate: ChinaContent",
+      "icon target duplicate: ChinaContent",
+      "icon target duplicate: ChinaPlatform",
+      "icon target duplicate: Tencent",
+      "icon target duplicate: Tencent"
+    ],
     "runtime_warnings": [],
-    "warnings": [],
+    "warnings": [
+      "icon target duplicate: GlobalAI",
+      "icon target duplicate: AIAll",
+      "icon target duplicate: GlobalAI",
+      "icon target duplicate: AIAll",
+      "icon target duplicate: GlobalAI",
+      "icon target duplicate: AIAll",
+      "icon target duplicate: GlobalAI",
+      "icon target duplicate: AIAll",
+      "icon target duplicate: GlobalServices",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: GlobalServices",
+      "icon target duplicate: Payment",
+      "icon target duplicate: Payment",
+      "icon target duplicate: GlobalMedia",
+      "icon target duplicate: GlobalApps",
+      "icon target duplicate: GlobalApps",
+      "icon target duplicate: GlobalApps",
+      "icon target duplicate: GlobalApps",
+      "icon target duplicate: GlobalApps",
+      "icon target duplicate: GlobalApps",
+      "icon target duplicate: GlobalMedia",
+      "icon target duplicate: Game",
+      "icon target duplicate: GlobalServices",
+      "icon target duplicate: GlobalServices",
+      "icon target duplicate: GlobalCommunication",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Developer",
+      "icon target duplicate: Payment",
+      "icon target duplicate: ChinaPlatform",
+      "icon target duplicate: ChinaPlatform",
+      "icon target duplicate: ChinaPlatform",
+      "icon target duplicate: ChinaInfra",
+      "icon target duplicate: ChinaPlatform",
+      "icon target duplicate: ChinaContent",
+      "icon target duplicate: ChinaContent",
+      "icon target duplicate: ChinaContent",
+      "icon target duplicate: ChinaContent",
+      "icon target duplicate: ChinaPlatform",
+      "icon target duplicate: Tencent",
+      "icon target duplicate: Tencent"
+    ],
     "composites": [
       {
         "name": "DirectAll",

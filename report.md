@@ -210,14 +210,77 @@
 
 ## 图标告警 / Icon Warnings
 
-- none
+- icon target duplicate: GlobalAI
+- icon target duplicate: AIAll
+- icon target duplicate: GlobalAI
+- icon target duplicate: AIAll
+- icon target duplicate: GlobalAI
+- icon target duplicate: AIAll
+- icon target duplicate: GlobalAI
+- icon target duplicate: AIAll
+- icon target duplicate: GlobalServices
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: GlobalServices
+- icon target duplicate: Payment
+- icon target duplicate: Payment
+- icon target duplicate: GlobalMedia
+- icon target duplicate: GlobalApps
+- icon target duplicate: GlobalApps
+- icon target duplicate: GlobalApps
+- icon target duplicate: GlobalApps
+- icon target duplicate: GlobalApps
+- icon target duplicate: GlobalApps
+- icon target duplicate: GlobalMedia
+- icon target duplicate: Game
+- icon target duplicate: GlobalServices
+- icon target duplicate: GlobalServices
+- icon target duplicate: GlobalCommunication
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: Developer
+- icon target duplicate: Payment
+- icon target duplicate: ChinaPlatform
+- icon target duplicate: ChinaPlatform
+- icon target duplicate: ChinaPlatform
+- icon target duplicate: ChinaInfra
+- icon target duplicate: ChinaPlatform
+- icon target duplicate: ChinaContent
+- icon target duplicate: ChinaContent
+- icon target duplicate: ChinaContent
+- icon target duplicate: ChinaContent
+- icon target duplicate: ChinaPlatform
+- icon target duplicate: Tencent
+- icon target duplicate: Tencent
 
 ## 图标库 / Icon Library
 
 - base url: https://anfeng-crystal.github.io/proxy-rules-dist/icons
-- catalog entries: 27
-- mapped names: 41
+- catalog entries: 105
+- mapped names: 130
 - manifest: https://anfeng-crystal.github.io/proxy-rules-dist/icons/manifest.json
+- sources:
+  - custom: 2
+  - external_index: 12
+  - generated: 21
+  - lobe-icons: 14
+  - selfhst-icons: 15
+  - simple-icons: 41
+- licenses:
+  - CC-BY-4.0: 15
+  - CC0-1.0: 41
+  - MIT: 14
+  - unknown: 35
 
 ## 已从拒绝规则移除的保护域名 / Protected Reject Removals
 

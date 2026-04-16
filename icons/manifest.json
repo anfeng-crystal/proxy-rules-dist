@@ -1,6 +1,6 @@
 {
   "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons",
-  "count": 27,
+  "count": 105,
   "icons": [
     {
       "id": "direct",
@@ -9,6 +9,12 @@
       "background": "#06b6d4",
       "foreground": "#082f49",
       "description": "Direct routing, local network, and connectivity checks.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "direct.svg",
       "categories": [
         "Direct",
         "DirectAll",
@@ -21,6 +27,7 @@
         "ConnectivityCheck"
       ],
       "file": "direct.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
@@ -30,6 +37,12 @@
       "background": "#2563eb",
       "foreground": "#ffffff",
       "description": "Generic proxy policy and proxy-all entry point.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "proxy.svg",
       "categories": [
         "ProxyAll"
       ],
@@ -38,6 +51,7 @@
         "ProxyAll"
       ],
       "file": "proxy.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
@@ -47,6 +61,12 @@
       "background": "#ef4444",
       "foreground": "#ffffff",
       "description": "Reject rules, privacy blocks, and hijacking filters.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "reject.svg",
       "categories": [
         "RejectAll",
         "Advertising",
@@ -61,6 +81,7 @@
         "Hijacking"
       ],
       "file": "reject.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg"
     },
     {
@@ -70,6 +91,12 @@
       "background": "#10b981",
       "foreground": "#ffffff",
       "description": "Overseas AI family bucket.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "global-ai.svg",
       "categories": [
         "GlobalAI"
       ],
@@ -77,6 +104,7 @@
         "GlobalAI"
       ],
       "file": "global-ai.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
@@ -86,6 +114,12 @@
       "background": "#22c55e",
       "foreground": "#ffffff",
       "description": "Mainland China AI family bucket.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "china-ai.svg",
       "categories": [
         "ChinaAI"
       ],
@@ -93,6 +127,7 @@
         "ChinaAI"
       ],
       "file": "china-ai.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-ai.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-ai.svg"
     },
     {
@@ -102,6 +137,12 @@
       "background": "#14b8a6",
       "foreground": "#ffffff",
       "description": "Mixed AI entry point.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "ai-all.svg",
       "categories": [
         "AIAll"
       ],
@@ -109,6 +150,7 @@
         "AIAll"
       ],
       "file": "ai-all.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/ai-all.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/ai-all.svg"
     },
     {
@@ -118,6 +160,12 @@
       "background": "#0f766e",
       "foreground": "#ffffff",
       "description": "Developer tooling, registries, and package services.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "developer.svg",
       "categories": [
         "Developer"
       ],
@@ -125,6 +173,7 @@
         "Developer"
       ],
       "file": "developer.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
@@ -134,6 +183,12 @@
       "background": "#f59e0b",
       "foreground": "#111827",
       "description": "Payment gateways and checkout services.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "payment.svg",
       "categories": [
         "Payment"
       ],
@@ -141,6 +196,7 @@
         "Payment"
       ],
       "file": "payment.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg"
     },
     {
@@ -150,6 +206,12 @@
       "background": "#db2777",
       "foreground": "#ffffff",
       "description": "Game platforms and publishers.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "game.svg",
       "categories": [
         "Game",
         "GlobalGame",
@@ -161,6 +223,7 @@
         "ChinaGame"
       ],
       "file": "game.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
     },
     {
@@ -170,6 +233,12 @@
       "background": "#fb7185",
       "foreground": "#ffffff",
       "description": "Mixed game entry point.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "game-all.svg",
       "categories": [
         "GameAll"
       ],
@@ -177,6 +246,7 @@
         "GameAll"
       ],
       "file": "game-all.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game-all.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game-all.svg"
     },
     {
@@ -186,6 +256,12 @@
       "background": "#111827",
       "foreground": "#ffffff",
       "description": "Apple services and media family.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/apple",
+      "local_fallback": "apple.svg",
       "categories": [
         "Apple",
         "AppleServices",
@@ -201,6 +277,7 @@
         "AppleMedia"
       ],
       "file": "apple.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg"
     },
     {
@@ -210,6 +287,12 @@
       "background": "#f97316",
       "foreground": "#ffffff",
       "description": "Overseas media and streaming family.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "global-media.svg",
       "categories": [
         "GlobalMedia"
       ],
@@ -217,6 +300,7 @@
         "GlobalMedia"
       ],
       "file": "global-media.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-media.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-media.svg"
     },
     {
@@ -226,6 +310,12 @@
       "background": "#1d4ed8",
       "foreground": "#ffffff",
       "description": "General overseas proxy bucket.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "global.svg",
       "categories": [
         "Global"
       ],
@@ -233,6 +323,7 @@
         "Global"
       ],
       "file": "global.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg"
     },
     {
@@ -242,6 +333,12 @@
       "background": "#0891b2",
       "foreground": "#ffffff",
       "description": "General overseas service bundle.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "global-services.svg",
       "categories": [
         "GlobalServices"
       ],
@@ -249,6 +346,7 @@
         "GlobalServices"
       ],
       "file": "global-services.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-services.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-services.svg"
     },
     {
@@ -258,6 +356,12 @@
       "background": "#ec4899",
       "foreground": "#ffffff",
       "description": "General overseas consumer app bundle.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "global-apps.svg",
       "categories": [
         "GlobalApps"
       ],
@@ -265,6 +369,7 @@
         "GlobalApps"
       ],
       "file": "global-apps.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-apps.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-apps.svg"
     },
     {
@@ -274,6 +379,12 @@
       "background": "#0284c7",
       "foreground": "#ffffff",
       "description": "Core overseas services and infrastructure.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "global-core.svg",
       "categories": [
         "GlobalCore"
       ],
@@ -281,6 +392,7 @@
         "GlobalCore"
       ],
       "file": "global-core.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-core.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-core.svg"
     },
     {
@@ -290,6 +402,12 @@
       "background": "#24292f",
       "foreground": "#ffffff",
       "description": "GitHub web, API, raw content, and package services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/github",
+      "local_fallback": "github.svg",
       "categories": [
         "GitHub"
       ],
@@ -297,6 +415,7 @@
         "GitHub"
       ],
       "file": "github.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/github.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/github.svg"
     },
     {
@@ -306,6 +425,12 @@
       "background": "#16a34a",
       "foreground": "#ffffff",
       "description": "Homebrew formula and bottle services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/homebrew",
+      "local_fallback": "homebrew.svg",
       "categories": [
         "Homebrew"
       ],
@@ -313,6 +438,7 @@
         "Homebrew"
       ],
       "file": "homebrew.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/homebrew.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/homebrew.svg"
     },
     {
@@ -322,6 +448,12 @@
       "background": "#0ea5e9",
       "foreground": "#ffffff",
       "description": "Telegram messaging services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/telegram",
+      "local_fallback": "telegram.svg",
       "categories": [
         "Telegram"
       ],
@@ -329,6 +461,7 @@
         "Telegram"
       ],
       "file": "telegram.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/telegram.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/telegram.svg"
     },
     {
@@ -338,6 +471,12 @@
       "background": "#dc2626",
       "foreground": "#ffffff",
       "description": "YouTube streaming and creator services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/youtube",
+      "local_fallback": "youtube.svg",
       "categories": [
         "YouTube"
       ],
@@ -345,6 +484,7 @@
         "YouTube"
       ],
       "file": "youtube.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/youtube.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/youtube.svg"
     },
     {
@@ -354,6 +494,12 @@
       "background": "#b91c1c",
       "foreground": "#ffffff",
       "description": "Netflix streaming services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/netflix",
+      "local_fallback": "netflix.svg",
       "categories": [
         "Netflix"
       ],
@@ -361,6 +507,7 @@
         "Netflix"
       ],
       "file": "netflix.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/netflix.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/netflix.svg"
     },
     {
@@ -370,6 +517,12 @@
       "background": "#0f766e",
       "foreground": "#ffffff",
       "description": "Mainland China family bundle.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "domestic-all.svg",
       "categories": [
         "DomesticAll"
       ],
@@ -377,6 +530,7 @@
         "DomesticAll"
       ],
       "file": "domestic-all.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg"
     },
     {
@@ -386,6 +540,12 @@
       "background": "#65a30d",
       "foreground": "#ffffff",
       "description": "Auditable mainland whitelist bundle.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "china-whitelist.svg",
       "categories": [
         "ChinaWhitelist"
       ],
@@ -393,6 +553,7 @@
         "ChinaWhitelist"
       ],
       "file": "china-whitelist.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-whitelist.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-whitelist.svg"
     },
     {
@@ -402,6 +563,12 @@
       "background": "#4ade80",
       "foreground": "#052e16",
       "description": "Local network and private address shortcuts.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "local-network.svg",
       "categories": [
         "LocalNetwork"
       ],
@@ -409,6 +576,7 @@
         "LocalNetwork"
       ],
       "file": "local-network.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/local-network.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/local-network.svg"
     },
     {
@@ -418,6 +586,12 @@
       "background": "#84cc16",
       "foreground": "#111827",
       "description": "Mainland China platform, commerce, and community bundle.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "china-platform.svg",
       "categories": [
         "ChinaPlatform"
       ],
@@ -425,6 +599,7 @@
         "ChinaPlatform"
       ],
       "file": "china-platform.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-platform.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-platform.svg"
     },
     {
@@ -434,6 +609,12 @@
       "background": "#14b8a6",
       "foreground": "#ffffff",
       "description": "Mainland China cloud and CDN bundle.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "china-infra.svg",
       "categories": [
         "ChinaInfra"
       ],
@@ -441,6 +622,7 @@
         "ChinaInfra"
       ],
       "file": "china-infra.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-infra.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-infra.svg"
     },
     {
@@ -450,6 +632,12 @@
       "background": "#f43f5e",
       "foreground": "#ffffff",
       "description": "Mainland China media and content bundle.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "china-content.svg",
       "categories": [
         "ChinaContent"
       ],
@@ -457,7 +645,1928 @@
         "ChinaContent"
       ],
       "file": "china-content.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-content.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-content.svg"
+    },
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "symbol": "OA",
+      "background": "#111827",
+      "foreground": "#ffffff",
+      "description": "OpenAI and ChatGPT services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg",
+      "local_fallback": "openai.svg",
+      "categories": [
+        "OpenAI",
+        "GlobalAI",
+        "AIAll"
+      ],
+      "targets": [
+        "OpenAI",
+        "GlobalAI",
+        "AIAll"
+      ],
+      "file": "openai.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/openai.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/openai.svg"
+    },
+    {
+      "id": "claude",
+      "label": "Claude",
+      "symbol": "CLD",
+      "background": "#d97706",
+      "foreground": "#ffffff",
+      "description": "Claude and Anthropic AI services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/claude.svg",
+      "local_fallback": "claude.svg",
+      "categories": [
+        "Claude",
+        "GlobalAI",
+        "AIAll"
+      ],
+      "targets": [
+        "Claude",
+        "GlobalAI",
+        "AIAll"
+      ],
+      "file": "claude.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/claude.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/claude.svg"
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "symbol": "ANT",
+      "background": "#1f2937",
+      "foreground": "#ffffff",
+      "description": "Anthropic AI services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/anthropic.svg",
+      "local_fallback": "anthropic.svg",
+      "categories": [
+        "Anthropic",
+        "GlobalAI",
+        "AIAll"
+      ],
+      "targets": [
+        "Anthropic",
+        "GlobalAI",
+        "AIAll"
+      ],
+      "file": "anthropic.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/anthropic.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/anthropic.svg"
+    },
+    {
+      "id": "gemini",
+      "label": "Gemini",
+      "symbol": "GEM",
+      "background": "#2563eb",
+      "foreground": "#ffffff",
+      "description": "Google Gemini AI services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gemini.svg",
+      "local_fallback": "gemini.svg",
+      "categories": [
+        "Gemini",
+        "GoogleGemini",
+        "GlobalAI",
+        "AIAll"
+      ],
+      "targets": [
+        "Gemini",
+        "GoogleGemini",
+        "GlobalAI",
+        "AIAll"
+      ],
+      "file": "gemini.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/gemini.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/gemini.svg"
+    },
+    {
+      "id": "google",
+      "label": "Google",
+      "symbol": "GOO",
+      "background": "#4285f4",
+      "foreground": "#ffffff",
+      "description": "Google services and infrastructure.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/google",
+      "local_fallback": "google.svg",
+      "categories": [
+        "Google",
+        "GlobalServices"
+      ],
+      "targets": [
+        "Google",
+        "GlobalServices"
+      ],
+      "file": "google.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/google.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/google.svg"
+    },
+    {
+      "id": "microsoft",
+      "label": "Microsoft",
+      "symbol": "MS",
+      "background": "#00a4ef",
+      "foreground": "#ffffff",
+      "description": "Microsoft services and cloud family.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/microsoft",
+      "local_fallback": "microsoft.svg",
+      "categories": [
+        "Microsoft",
+        "MicrosoftServices"
+      ],
+      "targets": [
+        "Microsoft",
+        "MicrosoftServices"
+      ],
+      "file": "microsoft.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/microsoft.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/microsoft.svg"
+    },
+    {
+      "id": "gitlab",
+      "label": "GitLab",
+      "symbol": "GL",
+      "background": "#fc6d26",
+      "foreground": "#ffffff",
+      "description": "GitLab source control and DevOps services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/gitlab",
+      "local_fallback": "gitlab.svg",
+      "categories": [
+        "GitLab",
+        "Developer"
+      ],
+      "targets": [
+        "GitLab",
+        "Developer"
+      ],
+      "file": "gitlab.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/gitlab.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/gitlab.svg"
+    },
+    {
+      "id": "docker",
+      "label": "Docker",
+      "symbol": "DKR",
+      "background": "#0db7ed",
+      "foreground": "#ffffff",
+      "description": "Docker images, registries, and container tooling.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/docker",
+      "local_fallback": "docker.svg",
+      "categories": [
+        "Docker",
+        "Developer"
+      ],
+      "targets": [
+        "Docker",
+        "Developer"
+      ],
+      "file": "docker.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/docker.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/docker.svg"
+    },
+    {
+      "id": "npm",
+      "label": "npm",
+      "symbol": "NPM",
+      "background": "#cb3837",
+      "foreground": "#ffffff",
+      "description": "npm registry and package tooling.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/npm",
+      "local_fallback": "npm.svg",
+      "categories": [
+        "NPM",
+        "Developer"
+      ],
+      "targets": [
+        "NPM",
+        "Developer"
+      ],
+      "file": "npm.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/npm.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/npm.svg"
+    },
+    {
+      "id": "python",
+      "label": "Python",
+      "symbol": "PY",
+      "background": "#3776ab",
+      "foreground": "#ffffff",
+      "description": "Python runtime and package ecosystem.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/python",
+      "local_fallback": "python.svg",
+      "categories": [
+        "Python",
+        "Developer"
+      ],
+      "targets": [
+        "Python",
+        "Developer"
+      ],
+      "file": "python.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/python.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/python.svg"
+    },
+    {
+      "id": "pypi",
+      "label": "PyPI",
+      "symbol": "PYPI",
+      "background": "#366da0",
+      "foreground": "#ffffff",
+      "description": "Python Package Index and package hosting.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/pypi",
+      "local_fallback": "pypi.svg",
+      "categories": [
+        "PyPI",
+        "Developer"
+      ],
+      "targets": [
+        "PyPI",
+        "Developer"
+      ],
+      "file": "pypi.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/pypi.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/pypi.svg"
+    },
+    {
+      "id": "maven",
+      "label": "Maven",
+      "symbol": "MVN",
+      "background": "#c71a36",
+      "foreground": "#ffffff",
+      "description": "Apache Maven build tooling.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/apachemaven",
+      "local_fallback": "maven.svg",
+      "categories": [
+        "Maven",
+        "Developer"
+      ],
+      "targets": [
+        "Maven",
+        "Developer"
+      ],
+      "file": "maven.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/maven.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/maven.svg"
+    },
+    {
+      "id": "go",
+      "label": "Go",
+      "symbol": "GO",
+      "background": "#00add8",
+      "foreground": "#ffffff",
+      "description": "Go language and tooling.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/go",
+      "local_fallback": "go.svg",
+      "categories": [
+        "Go",
+        "Developer"
+      ],
+      "targets": [
+        "Go",
+        "Developer"
+      ],
+      "file": "go.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/go.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/go.svg"
+    },
+    {
+      "id": "rust",
+      "label": "Rust",
+      "symbol": "RUST",
+      "background": "#dea584",
+      "foreground": "#111827",
+      "description": "Rust language and tooling.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/rust",
+      "local_fallback": "rust.svg",
+      "categories": [
+        "Rust",
+        "Developer"
+      ],
+      "targets": [
+        "Rust",
+        "Developer"
+      ],
+      "file": "rust.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/rust.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/rust.svg"
+    },
+    {
+      "id": "jetbrains",
+      "label": "JetBrains",
+      "symbol": "JB",
+      "background": "#000000",
+      "foreground": "#ffffff",
+      "description": "JetBrains IDEs and developer tooling.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/jetbrains",
+      "local_fallback": "jetbrains.svg",
+      "categories": [
+        "JetBrains",
+        "Developer"
+      ],
+      "targets": [
+        "JetBrains",
+        "Developer"
+      ],
+      "file": "jetbrains.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/jetbrains.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/jetbrains.svg"
+    },
+    {
+      "id": "vscode",
+      "label": "VS Code",
+      "symbol": "VS",
+      "background": "#007acc",
+      "foreground": "#ffffff",
+      "description": "Visual Studio Code editor and extensions.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/visualstudiocode",
+      "local_fallback": "vscode.svg",
+      "categories": [
+        "VSCode",
+        "Developer"
+      ],
+      "targets": [
+        "VSCode",
+        "Developer"
+      ],
+      "file": "vscode.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/vscode.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/vscode.svg"
+    },
+    {
+      "id": "cloudflare",
+      "label": "Cloudflare",
+      "symbol": "CF",
+      "background": "#f38020",
+      "foreground": "#ffffff",
+      "description": "Cloudflare CDN, DNS, and edge services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/cloudflare",
+      "local_fallback": "cloudflare.svg",
+      "categories": [
+        "Cloudflare",
+        "GlobalServices"
+      ],
+      "targets": [
+        "Cloudflare",
+        "GlobalServices"
+      ],
+      "file": "cloudflare.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/cloudflare.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/cloudflare.svg"
+    },
+    {
+      "id": "paypal",
+      "label": "PayPal",
+      "symbol": "PP",
+      "background": "#003087",
+      "foreground": "#ffffff",
+      "description": "PayPal payments and checkout.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/paypal",
+      "local_fallback": "paypal.svg",
+      "categories": [
+        "PayPal",
+        "Payment"
+      ],
+      "targets": [
+        "PayPal",
+        "Payment"
+      ],
+      "file": "paypal.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/paypal.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/paypal.svg"
+    },
+    {
+      "id": "stripe",
+      "label": "Stripe",
+      "symbol": "STR",
+      "background": "#635bff",
+      "foreground": "#ffffff",
+      "description": "Stripe payments and billing.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/stripe",
+      "local_fallback": "stripe.svg",
+      "categories": [
+        "Stripe",
+        "Payment"
+      ],
+      "targets": [
+        "Stripe",
+        "Payment"
+      ],
+      "file": "stripe.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/stripe.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/stripe.svg"
+    },
+    {
+      "id": "spotify",
+      "label": "Spotify",
+      "symbol": "SPOT",
+      "background": "#1db954",
+      "foreground": "#111827",
+      "description": "Spotify music streaming.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/spotify",
+      "local_fallback": "spotify.svg",
+      "categories": [
+        "Spotify",
+        "GlobalMedia"
+      ],
+      "targets": [
+        "Spotify",
+        "GlobalMedia"
+      ],
+      "file": "spotify.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/spotify.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/spotify.svg"
+    },
+    {
+      "id": "tiktok",
+      "label": "TikTok",
+      "symbol": "TT",
+      "background": "#111827",
+      "foreground": "#ffffff",
+      "description": "TikTok short-video services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/tiktok",
+      "local_fallback": "tiktok.svg",
+      "categories": [
+        "TikTok",
+        "GlobalApps"
+      ],
+      "targets": [
+        "TikTok",
+        "GlobalApps"
+      ],
+      "file": "tiktok.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/tiktok.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/tiktok.svg"
+    },
+    {
+      "id": "x-twitter",
+      "label": "X / Twitter",
+      "symbol": "X",
+      "background": "#000000",
+      "foreground": "#ffffff",
+      "description": "X / Twitter social services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/x",
+      "local_fallback": "x-twitter.svg",
+      "categories": [
+        "X",
+        "Twitter",
+        "TwitterX",
+        "GlobalApps"
+      ],
+      "targets": [
+        "X",
+        "Twitter",
+        "TwitterX",
+        "GlobalApps"
+      ],
+      "file": "x-twitter.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/x-twitter.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/x-twitter.svg"
+    },
+    {
+      "id": "facebook",
+      "label": "Facebook",
+      "symbol": "FB",
+      "background": "#1877f2",
+      "foreground": "#ffffff",
+      "description": "Facebook and Meta social services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/facebook",
+      "local_fallback": "facebook.svg",
+      "categories": [
+        "Facebook",
+        "FacebookMeta",
+        "GlobalApps"
+      ],
+      "targets": [
+        "Facebook",
+        "FacebookMeta",
+        "GlobalApps"
+      ],
+      "file": "facebook.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/facebook.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/facebook.svg"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "symbol": "IG",
+      "background": "#e1306c",
+      "foreground": "#ffffff",
+      "description": "Instagram social services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/instagram",
+      "local_fallback": "instagram.svg",
+      "categories": [
+        "Instagram",
+        "GlobalApps"
+      ],
+      "targets": [
+        "Instagram",
+        "GlobalApps"
+      ],
+      "file": "instagram.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/instagram.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/instagram.svg"
+    },
+    {
+      "id": "discord",
+      "label": "Discord",
+      "symbol": "DS",
+      "background": "#5865f2",
+      "foreground": "#ffffff",
+      "description": "Discord messaging and community services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/discord",
+      "local_fallback": "discord.svg",
+      "categories": [
+        "Discord",
+        "GlobalApps"
+      ],
+      "targets": [
+        "Discord",
+        "GlobalApps"
+      ],
+      "file": "discord.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/discord.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/discord.svg"
+    },
+    {
+      "id": "reddit",
+      "label": "Reddit",
+      "symbol": "RD",
+      "background": "#ff4500",
+      "foreground": "#ffffff",
+      "description": "Reddit discussion and community services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/reddit",
+      "local_fallback": "reddit.svg",
+      "categories": [
+        "Reddit",
+        "GlobalApps"
+      ],
+      "targets": [
+        "Reddit",
+        "GlobalApps"
+      ],
+      "file": "reddit.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reddit.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reddit.svg"
+    },
+    {
+      "id": "twitch",
+      "label": "Twitch",
+      "symbol": "TW",
+      "background": "#9146ff",
+      "foreground": "#ffffff",
+      "description": "Twitch live-streaming services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/twitch",
+      "local_fallback": "twitch.svg",
+      "categories": [
+        "Twitch",
+        "GlobalMedia"
+      ],
+      "targets": [
+        "Twitch",
+        "GlobalMedia"
+      ],
+      "file": "twitch.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/twitch.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/twitch.svg"
+    },
+    {
+      "id": "steam",
+      "label": "Steam",
+      "symbol": "STM",
+      "background": "#1b2838",
+      "foreground": "#ffffff",
+      "description": "Steam game store and platform.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/steam",
+      "local_fallback": "steam.svg",
+      "categories": [
+        "Steam",
+        "Game"
+      ],
+      "targets": [
+        "Steam",
+        "Game"
+      ],
+      "file": "steam.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/steam.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/steam.svg"
+    },
+    {
+      "id": "amazon",
+      "label": "Amazon",
+      "symbol": "AMZ",
+      "background": "#ff9900",
+      "foreground": "#111827",
+      "description": "Amazon shopping and cloud family.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/amazon",
+      "local_fallback": "amazon.svg",
+      "categories": [
+        "Amazon",
+        "GlobalServices"
+      ],
+      "targets": [
+        "Amazon",
+        "GlobalServices"
+      ],
+      "file": "amazon.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/amazon.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/amazon.svg"
+    },
+    {
+      "id": "aws",
+      "label": "AWS",
+      "symbol": "AWS",
+      "background": "#ff9900",
+      "foreground": "#111827",
+      "description": "Amazon Web Services cloud services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/amazonwebservices",
+      "local_fallback": "aws.svg",
+      "categories": [
+        "AWS",
+        "AmazonWebServices",
+        "GlobalServices"
+      ],
+      "targets": [
+        "AWS",
+        "AmazonWebServices",
+        "GlobalServices"
+      ],
+      "file": "aws.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/aws.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/aws.svg"
+    },
+    {
+      "id": "whatsapp",
+      "label": "WhatsApp",
+      "symbol": "WA",
+      "background": "#25d366",
+      "foreground": "#111827",
+      "description": "WhatsApp messaging services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/whatsapp",
+      "local_fallback": "whatsapp.svg",
+      "categories": [
+        "WhatsApp",
+        "GlobalCommunication"
+      ],
+      "targets": [
+        "WhatsApp",
+        "GlobalCommunication"
+      ],
+      "file": "whatsapp.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/whatsapp.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/whatsapp.svg"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "symbol": "IN",
+      "background": "#0a66c2",
+      "foreground": "#ffffff",
+      "description": "LinkedIn professional networking services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/linkedin",
+      "local_fallback": "linkedin.svg",
+      "categories": [
+        "LinkedIn",
+        "GlobalSocial"
+      ],
+      "targets": [
+        "LinkedIn",
+        "GlobalSocial"
+      ],
+      "file": "linkedin.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/linkedin.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/linkedin.svg"
+    },
+    {
+      "id": "zoom",
+      "label": "Zoom",
+      "symbol": "ZOOM",
+      "background": "#2d8cff",
+      "foreground": "#ffffff",
+      "description": "Zoom meeting and webinar services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/zoom",
+      "local_fallback": "zoom.svg",
+      "categories": [
+        "Zoom",
+        "GlobalCommunication"
+      ],
+      "targets": [
+        "Zoom",
+        "GlobalCommunication"
+      ],
+      "file": "zoom.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/zoom.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/zoom.svg"
+    },
+    {
+      "id": "slack",
+      "label": "Slack",
+      "symbol": "SLK",
+      "background": "#0f766e",
+      "foreground": "#ffffff",
+      "description": "Slack team collaboration services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/slack",
+      "local_fallback": "slack.svg",
+      "categories": [
+        "Slack",
+        "Developer"
+      ],
+      "targets": [
+        "Slack",
+        "Developer"
+      ],
+      "file": "slack.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/slack.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/slack.svg"
+    },
+    {
+      "id": "notion",
+      "label": "Notion",
+      "symbol": "NOT",
+      "background": "#ffffff",
+      "foreground": "#111827",
+      "description": "Notion workspace and notes.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/notion",
+      "local_fallback": "notion.svg",
+      "categories": [
+        "Notion",
+        "Developer"
+      ],
+      "targets": [
+        "Notion",
+        "Developer"
+      ],
+      "file": "notion.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/notion.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/notion.svg"
+    },
+    {
+      "id": "dropbox",
+      "label": "Dropbox",
+      "symbol": "DBX",
+      "background": "#0061ff",
+      "foreground": "#ffffff",
+      "description": "Dropbox storage and sync services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/dropbox",
+      "local_fallback": "dropbox.svg",
+      "categories": [
+        "Dropbox",
+        "Developer"
+      ],
+      "targets": [
+        "Dropbox",
+        "Developer"
+      ],
+      "file": "dropbox.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/dropbox.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/dropbox.svg"
+    },
+    {
+      "id": "vercel",
+      "label": "Vercel",
+      "symbol": "VRC",
+      "background": "#000000",
+      "foreground": "#ffffff",
+      "description": "Vercel deployment and hosting services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/vercel",
+      "local_fallback": "vercel.svg",
+      "categories": [
+        "Vercel",
+        "Developer"
+      ],
+      "targets": [
+        "Vercel",
+        "Developer"
+      ],
+      "file": "vercel.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/vercel.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/vercel.svg"
+    },
+    {
+      "id": "netlify",
+      "label": "Netlify",
+      "symbol": "NET",
+      "background": "#00ad9f",
+      "foreground": "#ffffff",
+      "description": "Netlify deployment and hosting services.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/netlify",
+      "local_fallback": "netlify.svg",
+      "categories": [
+        "Netlify",
+        "Developer"
+      ],
+      "targets": [
+        "Netlify",
+        "Developer"
+      ],
+      "file": "netlify.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/netlify.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/netlify.svg"
+    },
+    {
+      "id": "alipay",
+      "label": "Alipay",
+      "symbol": "ALP",
+      "background": "#1677ff",
+      "foreground": "#ffffff",
+      "description": "Alipay payments and checkout.",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "remote_icon_url": "https://cdn.simpleicons.org/alipay",
+      "local_fallback": "alipay.svg",
+      "categories": [
+        "Alipay",
+        "Payment"
+      ],
+      "targets": [
+        "Alipay",
+        "Payment"
+      ],
+      "file": "alipay.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/alipay.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/alipay.svg"
+    },
+    {
+      "id": "alibaba",
+      "label": "Alibaba",
+      "symbol": "ALB",
+      "background": "#ff6a00",
+      "foreground": "#ffffff",
+      "description": "Alibaba commerce and ecosystem services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/alibaba.svg",
+      "local_fallback": "alibaba.svg",
+      "categories": [
+        "Alibaba",
+        "ChinaPlatform"
+      ],
+      "targets": [
+        "Alibaba",
+        "ChinaPlatform"
+      ],
+      "file": "alibaba.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/alibaba.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/alibaba.svg"
+    },
+    {
+      "id": "taobao",
+      "label": "Taobao",
+      "symbol": "TB",
+      "background": "#ff5000",
+      "foreground": "#ffffff",
+      "description": "Taobao and Tmall commerce services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/taobao.svg",
+      "local_fallback": "taobao.svg",
+      "categories": [
+        "TaobaoTmall",
+        "ChinaPlatform"
+      ],
+      "targets": [
+        "TaobaoTmall",
+        "ChinaPlatform"
+      ],
+      "file": "taobao.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/taobao.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/taobao.svg"
+    },
+    {
+      "id": "tencent",
+      "label": "Tencent",
+      "symbol": "TC",
+      "background": "#00a0e9",
+      "foreground": "#ffffff",
+      "description": "Tencent services and ecosystem.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/tencent.svg",
+      "local_fallback": "tencent.svg",
+      "categories": [
+        "Tencent",
+        "ChinaPlatform"
+      ],
+      "targets": [
+        "Tencent",
+        "ChinaPlatform"
+      ],
+      "file": "tencent.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/tencent.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/tencent.svg"
+    },
+    {
+      "id": "tencentcloud",
+      "label": "Tencent Cloud",
+      "symbol": "TCLOUD",
+      "background": "#14b8a6",
+      "foreground": "#ffffff",
+      "description": "Tencent Cloud services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/tencentcloud.svg",
+      "local_fallback": "tencentcloud.svg",
+      "categories": [
+        "TencentCloud",
+        "ChinaInfra"
+      ],
+      "targets": [
+        "TencentCloud",
+        "ChinaInfra"
+      ],
+      "file": "tencentcloud.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/tencentcloud.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/tencentcloud.svg"
+    },
+    {
+      "id": "baidu",
+      "label": "Baidu",
+      "symbol": "BD",
+      "background": "#2932e1",
+      "foreground": "#ffffff",
+      "description": "Baidu search and ecosystem services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/baidu.svg",
+      "local_fallback": "baidu.svg",
+      "categories": [
+        "Baidu",
+        "ChinaPlatform"
+      ],
+      "targets": [
+        "Baidu",
+        "ChinaPlatform"
+      ],
+      "file": "baidu.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/baidu.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/baidu.svg"
+    },
+    {
+      "id": "bilibili",
+      "label": "Bilibili",
+      "symbol": "BILI",
+      "background": "#00a1d6",
+      "foreground": "#ffffff",
+      "description": "Bilibili video and community services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/bilibili.svg",
+      "local_fallback": "bilibili.svg",
+      "categories": [
+        "Bilibili",
+        "ChinaContent"
+      ],
+      "targets": [
+        "Bilibili",
+        "ChinaContent"
+      ],
+      "file": "bilibili.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/bilibili.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/bilibili.svg"
+    },
+    {
+      "id": "douyin",
+      "label": "Douyin",
+      "symbol": "DY",
+      "background": "#000000",
+      "foreground": "#ffffff",
+      "description": "Douyin short-video services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/douyin.svg",
+      "local_fallback": "douyin.svg",
+      "categories": [
+        "Douyin",
+        "ChinaContent"
+      ],
+      "targets": [
+        "Douyin",
+        "ChinaContent"
+      ],
+      "file": "douyin.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/douyin.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/douyin.svg"
+    },
+    {
+      "id": "iqiyi",
+      "label": "iQIYI",
+      "symbol": "IQ",
+      "background": "#09c15f",
+      "foreground": "#ffffff",
+      "description": "iQIYI video streaming services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/iqiyi.svg",
+      "local_fallback": "iqiyi.svg",
+      "categories": [
+        "iQIYI",
+        "ChinaContent"
+      ],
+      "targets": [
+        "iQIYI",
+        "ChinaContent"
+      ],
+      "file": "iqiyi.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/iqiyi.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/iqiyi.svg"
+    },
+    {
+      "id": "youku",
+      "label": "Youku",
+      "symbol": "YK",
+      "background": "#ff3d00",
+      "foreground": "#ffffff",
+      "description": "Youku video streaming services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/youku.svg",
+      "local_fallback": "youku.svg",
+      "categories": [
+        "Youku",
+        "ChinaContent"
+      ],
+      "targets": [
+        "Youku",
+        "ChinaContent"
+      ],
+      "file": "youku.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/youku.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/youku.svg"
+    },
+    {
+      "id": "pinduoduo",
+      "label": "Pinduoduo",
+      "symbol": "PDD",
+      "background": "#e02020",
+      "foreground": "#ffffff",
+      "description": "Pinduoduo commerce services.",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/pinduoduo.svg",
+      "local_fallback": "pinduoduo.svg",
+      "categories": [
+        "Pinduoduo",
+        "ChinaPlatform"
+      ],
+      "targets": [
+        "Pinduoduo",
+        "ChinaPlatform"
+      ],
+      "file": "pinduoduo.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/pinduoduo.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/pinduoduo.svg"
+    },
+    {
+      "id": "plex",
+      "label": "Plex",
+      "symbol": "PLX",
+      "background": "#e5a00d",
+      "foreground": "#111827",
+      "description": "Plex media server and streaming.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/plex.svg",
+      "local_fallback": "plex.svg",
+      "categories": [
+        "Plex"
+      ],
+      "targets": [
+        "Plex"
+      ],
+      "file": "plex.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/plex.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/plex.svg"
+    },
+    {
+      "id": "jellyfin",
+      "label": "Jellyfin",
+      "symbol": "JFN",
+      "background": "#00a4dc",
+      "foreground": "#ffffff",
+      "description": "Jellyfin media server and streaming.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/jellyfin.svg",
+      "local_fallback": "jellyfin.svg",
+      "categories": [
+        "Jellyfin"
+      ],
+      "targets": [
+        "Jellyfin"
+      ],
+      "file": "jellyfin.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/jellyfin.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/jellyfin.svg"
+    },
+    {
+      "id": "immich",
+      "label": "Immich",
+      "symbol": "IMC",
+      "background": "#2f6bff",
+      "foreground": "#ffffff",
+      "description": "Immich photo backup and management.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/immich.svg",
+      "local_fallback": "immich.svg",
+      "categories": [
+        "Immich"
+      ],
+      "targets": [
+        "Immich"
+      ],
+      "file": "immich.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/immich.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/immich.svg"
+    },
+    {
+      "id": "portainer",
+      "label": "Portainer",
+      "symbol": "PRT",
+      "background": "#13b3f0",
+      "foreground": "#ffffff",
+      "description": "Portainer container management.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/portainer.svg",
+      "local_fallback": "portainer.svg",
+      "categories": [
+        "Portainer"
+      ],
+      "targets": [
+        "Portainer"
+      ],
+      "file": "portainer.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/portainer.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/portainer.svg"
+    },
+    {
+      "id": "grafana",
+      "label": "Grafana",
+      "symbol": "GRA",
+      "background": "#f46800",
+      "foreground": "#ffffff",
+      "description": "Grafana dashboards and observability.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/grafana.svg",
+      "local_fallback": "grafana.svg",
+      "categories": [
+        "Grafana"
+      ],
+      "targets": [
+        "Grafana"
+      ],
+      "file": "grafana.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/grafana.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/grafana.svg"
+    },
+    {
+      "id": "prometheus",
+      "label": "Prometheus",
+      "symbol": "PRM",
+      "background": "#e6522c",
+      "foreground": "#ffffff",
+      "description": "Prometheus metrics and alerting.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/prometheus.svg",
+      "local_fallback": "prometheus.svg",
+      "categories": [
+        "Prometheus"
+      ],
+      "targets": [
+        "Prometheus"
+      ],
+      "file": "prometheus.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/prometheus.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/prometheus.svg"
+    },
+    {
+      "id": "uptime-kuma",
+      "label": "Uptime Kuma",
+      "symbol": "UKA",
+      "background": "#5c7cfa",
+      "foreground": "#ffffff",
+      "description": "Uptime Kuma monitoring.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/uptime-kuma.svg",
+      "local_fallback": "uptime-kuma.svg",
+      "categories": [
+        "UptimeKuma"
+      ],
+      "targets": [
+        "UptimeKuma"
+      ],
+      "file": "uptime-kuma.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/uptime-kuma.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/uptime-kuma.svg"
+    },
+    {
+      "id": "vaultwarden",
+      "label": "Vaultwarden",
+      "symbol": "VWD",
+      "background": "#175ddc",
+      "foreground": "#ffffff",
+      "description": "Vaultwarden password management.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/vaultwarden.svg",
+      "local_fallback": "vaultwarden.svg",
+      "categories": [
+        "Vaultwarden"
+      ],
+      "targets": [
+        "Vaultwarden"
+      ],
+      "file": "vaultwarden.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/vaultwarden.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/vaultwarden.svg"
+    },
+    {
+      "id": "home-assistant",
+      "label": "Home Assistant",
+      "symbol": "HASS",
+      "background": "#41bdf5",
+      "foreground": "#ffffff",
+      "description": "Home Assistant home automation.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/home-assistant.svg",
+      "local_fallback": "home-assistant.svg",
+      "categories": [
+        "HomeAssistant"
+      ],
+      "targets": [
+        "HomeAssistant"
+      ],
+      "file": "home-assistant.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/home-assistant.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/home-assistant.svg"
+    },
+    {
+      "id": "adguard-home",
+      "label": "AdGuard Home",
+      "symbol": "AGH",
+      "background": "#68c58f",
+      "foreground": "#ffffff",
+      "description": "AdGuard Home DNS filtering.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/adguard-home.svg",
+      "local_fallback": "adguard-home.svg",
+      "categories": [
+        "AdGuardHome"
+      ],
+      "targets": [
+        "AdGuardHome"
+      ],
+      "file": "adguard-home.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/adguard-home.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/adguard-home.svg"
+    },
+    {
+      "id": "nginx-proxy-manager",
+      "label": "Nginx Proxy Manager",
+      "symbol": "NPM",
+      "background": "#0891b2",
+      "foreground": "#ffffff",
+      "description": "Nginx Proxy Manager reverse proxy.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/nginx-proxy-manager.svg",
+      "local_fallback": "nginx-proxy-manager.svg",
+      "categories": [
+        "NginxProxyManager"
+      ],
+      "targets": [
+        "NginxProxyManager"
+      ],
+      "file": "nginx-proxy-manager.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/nginx-proxy-manager.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/nginx-proxy-manager.svg"
+    },
+    {
+      "id": "qbittorrent",
+      "label": "qBittorrent",
+      "symbol": "QBT",
+      "background": "#2c7a7b",
+      "foreground": "#ffffff",
+      "description": "qBittorrent torrent client.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/qbittorrent.svg",
+      "local_fallback": "qbittorrent.svg",
+      "categories": [
+        "qBittorrent"
+      ],
+      "targets": [
+        "qBittorrent"
+      ],
+      "file": "qbittorrent.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/qbittorrent.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/qbittorrent.svg"
+    },
+    {
+      "id": "emby",
+      "label": "Emby",
+      "symbol": "EMY",
+      "background": "#6151ae",
+      "foreground": "#ffffff",
+      "description": "Emby media server.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/emby.svg",
+      "local_fallback": "emby.svg",
+      "categories": [
+        "Emby"
+      ],
+      "targets": [
+        "Emby"
+      ],
+      "file": "emby.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/emby.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/emby.svg"
+    },
+    {
+      "id": "synology",
+      "label": "Synology",
+      "symbol": "SNY",
+      "background": "#b12525",
+      "foreground": "#ffffff",
+      "description": "Synology NAS and services.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/synology.svg",
+      "local_fallback": "synology.svg",
+      "categories": [
+        "Synology"
+      ],
+      "targets": [
+        "Synology"
+      ],
+      "file": "synology.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/synology.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/synology.svg"
+    },
+    {
+      "id": "proxmox",
+      "label": "Proxmox",
+      "symbol": "PXM",
+      "background": "#e57000",
+      "foreground": "#ffffff",
+      "description": "Proxmox virtualization platform.",
+      "source_kind": "selfhst-icons",
+      "source_url": "https://github.com/selfhst/icons",
+      "license": "CC-BY-4.0",
+      "license_url": "https://github.com/selfhst/icons/blob/main/LICENSE",
+      "remote_icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/proxmox.svg",
+      "local_fallback": "proxmox.svg",
+      "categories": [
+        "Proxmox"
+      ],
+      "targets": [
+        "Proxmox"
+      ],
+      "file": "proxmox.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxmox.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxmox.svg"
+    },
+    {
+      "id": "airport",
+      "label": "Airport",
+      "symbol": "APT",
+      "background": "#0f172a",
+      "foreground": "#ffffff",
+      "description": "Airport and panel index entry.",
+      "source_kind": "external_index",
+      "source_url": "https://github.com/Koolson/Qure",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png",
+      "local_fallback": "airport.svg",
+      "categories": [
+        "Airport"
+      ],
+      "targets": [
+        "Airport"
+      ],
+      "file": "airport.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/airport.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/airport.svg"
+    },
+    {
+      "id": "node",
+      "label": "Node",
+      "symbol": "NOD",
+      "background": "#1f2937",
+      "foreground": "#ffffff",
+      "description": "Proxy node index entry.",
+      "source_kind": "external_index",
+      "source_url": "https://github.com/Orz-3/mini",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "node.svg",
+      "categories": [
+        "Node"
+      ],
+      "targets": [
+        "Node"
+      ],
+      "file": "node.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/node.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/node.svg"
+    },
+    {
+      "id": "server",
+      "label": "Server",
+      "symbol": "SRV",
+      "background": "#334155",
+      "foreground": "#ffffff",
+      "description": "Server index entry.",
+      "source_kind": "external_index",
+      "source_url": "https://github.com/Koolson/Qure",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png",
+      "local_fallback": "server.svg",
+      "categories": [
+        "Server"
+      ],
+      "targets": [
+        "Server"
+      ],
+      "file": "server.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/server.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/server.svg"
+    },
+    {
+      "id": "shadowrocket",
+      "label": "Shadowrocket",
+      "symbol": "SRK",
+      "background": "#4b5563",
+      "foreground": "#ffffff",
+      "description": "Shadowrocket client index entry.",
+      "source_kind": "external_index",
+      "source_url": "https://github.com/Orz-3/mini",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "shadowrocket.svg",
+      "categories": [
+        "Shadowrocket"
+      ],
+      "targets": [
+        "Shadowrocket"
+      ],
+      "file": "shadowrocket.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/shadowrocket.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/shadowrocket.svg"
+    },
+    {
+      "id": "quantumultx",
+      "label": "Quantumult X",
+      "symbol": "QX",
+      "background": "#8b5cf6",
+      "foreground": "#ffffff",
+      "description": "Quantumult X client index entry.",
+      "source_kind": "external_index",
+      "source_url": "https://github.com/Koolson/Qure",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Quantumult_X.png",
+      "local_fallback": "quantumultx.svg",
+      "categories": [
+        "QuantumultX"
+      ],
+      "targets": [
+        "QuantumultX"
+      ],
+      "file": "quantumultx.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/quantumultx.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/quantumultx.svg"
+    },
+    {
+      "id": "loon",
+      "label": "Loon",
+      "symbol": "LOON",
+      "background": "#3b82f6",
+      "foreground": "#ffffff",
+      "description": "Loon client index entry.",
+      "source_kind": "external_index",
+      "source_url": "https://github.com/Orz-3/mini",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "loon.svg",
+      "categories": [
+        "Loon"
+      ],
+      "targets": [
+        "Loon"
+      ],
+      "file": "loon.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/loon.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/loon.svg"
+    },
+    {
+      "id": "clash-mihomo",
+      "label": "Clash / Mihomo",
+      "symbol": "CLM",
+      "background": "#0ea5e9",
+      "foreground": "#ffffff",
+      "description": "Clash and Mihomo client index entry.",
+      "source_kind": "external_index",
+      "source_url": "https://github.com/Orz-3/mini",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "clash-mihomo.svg",
+      "categories": [
+        "Clash",
+        "Mihomo"
+      ],
+      "targets": [
+        "Clash",
+        "Mihomo"
+      ],
+      "file": "clash-mihomo.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/clash-mihomo.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/clash-mihomo.svg"
+    },
+    {
+      "id": "singbox",
+      "label": "SingBox",
+      "symbol": "SBX",
+      "background": "#111827",
+      "foreground": "#ffffff",
+      "description": "SingBox client index entry.",
+      "source_kind": "external_index",
+      "source_url": "https://github.com/Orz-3/mini",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "singbox.svg",
+      "categories": [
+        "SingBox"
+      ],
+      "targets": [
+        "SingBox"
+      ],
+      "file": "singbox.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/singbox.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/singbox.svg"
+    },
+    {
+      "id": "ss-ssr",
+      "label": "SS / SSR",
+      "symbol": "SSR",
+      "background": "#64748b",
+      "foreground": "#ffffff",
+      "description": "Shadowsocks and SSR index entry.",
+      "source_kind": "external_index",
+      "source_url": "https://github.com/Koolson/Qure",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SS.png",
+      "local_fallback": "ss-ssr.svg",
+      "categories": [
+        "SS",
+        "SSR"
+      ],
+      "targets": [
+        "SS",
+        "SSR"
+      ],
+      "file": "ss-ssr.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/ss-ssr.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/ss-ssr.svg"
+    },
+    {
+      "id": "trojan",
+      "label": "Trojan",
+      "symbol": "TRJ",
+      "background": "#991b1b",
+      "foreground": "#ffffff",
+      "description": "Trojan protocol index entry.",
+      "source_kind": "external_index",
+      "source_url": "https://github.com/Koolson/Qure",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Trojan.png",
+      "local_fallback": "trojan.svg",
+      "categories": [
+        "Trojan"
+      ],
+      "targets": [
+        "Trojan"
+      ],
+      "file": "trojan.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/trojan.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/trojan.svg"
+    },
+    {
+      "id": "vmess-vless",
+      "label": "VMess / VLESS",
+      "symbol": "VV",
+      "background": "#0369a1",
+      "foreground": "#ffffff",
+      "description": "VMess and VLESS index entry.",
+      "source_kind": "external_index",
+      "source_url": "https://github.com/Koolson/Qure",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VMess.png",
+      "local_fallback": "vmess-vless.svg",
+      "categories": [
+        "VMess",
+        "VLESS"
+      ],
+      "targets": [
+        "VMess",
+        "VLESS"
+      ],
+      "file": "vmess-vless.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/vmess-vless.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/vmess-vless.svg"
+    },
+    {
+      "id": "iepl",
+      "label": "IEPL",
+      "symbol": "IEPL",
+      "background": "#1d4ed8",
+      "foreground": "#ffffff",
+      "description": "IEPL private line index entry.",
+      "source_kind": "external_index",
+      "source_url": "https://github.com/Koolson/Qure",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IEPL.png",
+      "local_fallback": "iepl.svg",
+      "categories": [
+        "IEPL"
+      ],
+      "targets": [
+        "IEPL"
+      ],
+      "file": "iepl.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/iepl.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/iepl.svg"
+    },
+    {
+      "id": "qq",
+      "label": "QQ",
+      "symbol": "QQ",
+      "background": "#12b7f5",
+      "foreground": "#ffffff",
+      "description": "QQ messaging services.",
+      "source_kind": "custom",
+      "source_url": "https://im.qq.com/",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "qq.svg",
+      "categories": [
+        "QQ",
+        "Tencent"
+      ],
+      "targets": [
+        "QQ",
+        "Tencent"
+      ],
+      "file": "qq.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/qq.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/qq.svg"
+    },
+    {
+      "id": "wechat",
+      "label": "WeChat",
+      "symbol": "WX",
+      "background": "#07c160",
+      "foreground": "#ffffff",
+      "description": "WeChat messaging and social services.",
+      "source_kind": "custom",
+      "source_url": "https://weixin.qq.com/",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "wechat.svg",
+      "categories": [
+        "WeChat",
+        "Tencent"
+      ],
+      "targets": [
+        "WeChat",
+        "Tencent"
+      ],
+      "file": "wechat.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/wechat.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/wechat.svg"
     }
   ]
 }

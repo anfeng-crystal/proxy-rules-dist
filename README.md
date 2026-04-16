@@ -60,7 +60,7 @@ dist/
   loon/                 Loon 规则。
   clash/                Clash classical rule-provider。
   mihomo/               Mihomo classical rule-provider。
-  icons/                图标清单和图标资源。
+  icons/                图标清单、SVG 资源和来源索引。
 snippets/
   *.conf, *.yaml        客户端订阅片段和多策略组模板。
 site/
@@ -195,11 +195,22 @@ FINAL 或 MATCH
 
 图标库和规则库共用同一套公开 Pages 地址，清单入口是 `icons/manifest.json`。公开 Pages 刷新后，图标 URL 会保持同一路径更新；需要回滚或比对时，GitHub Release 快照里也会保留 `icons/` 目录，路径不变。
 
+当前生成的 `icons/manifest.json` 真实字段是 `id`、`label`、`symbol`、`background`、`foreground`、`description`、`categories`、`targets`、`file`、`url`。这里的 `url` 指向本仓库 Pages 的稳定图标地址，默认给客户端片段使用。
+
+图标源维护建议分成两层：
+
+- `source`：记录图标来自哪个上游项目、镜像站或本地整理源，方便回溯和更新。
+- `license`：记录许可类型，判断是否允许复制、改色、落盘，还是只能做外链和索引。
+
+可复制的开源源会生成本地 `dist/icons/*.svg`，作为 fallback 图标直接发布。只适合外链或索引的源不做本地镜像，只保留来源信息和公开 URL。
+
 常见用法如下：
 
 - QuanX：订阅 `snippets/quanx-policy-icons.conf`。
 - Loon：订阅 `snippets/loon-policy-icons.conf`。
 - Clash：订阅 `snippets/clash-icon-urls.yaml`。
+
+默认客户端片段继续使用本仓库 Pages 图标 URL，保证稳定。`source` 和 `license` 属于维护层信息，后续即使扩展，也只作为补充，不改变默认 URL。
 
 如果后续图标生成器调整了文件名，这份文档和首页入口会同步适配，但发布层仍会同时覆盖 Pages 最新层和 Release 快照。
 
