@@ -6,7 +6,9 @@
       "description": "Local, private, captive, and intranet addresses that should never use a proxy.",
       "rules": 18,
       "source_count": 0,
-      "manual_count": 18
+      "manual_count": 18,
+      "icon_id": "local-network",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/local-network.svg"
     },
     {
       "name": "ConnectivityCheck",
@@ -14,7 +16,9 @@
       "description": "Operating-system connectivity check and captive portal endpoints.",
       "rules": 9,
       "source_count": 0,
-      "manual_count": 9
+      "manual_count": 9,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "TestSites",
@@ -22,7 +26,9 @@
       "description": "Public IP, DNS leak, browser fingerprint, and network test endpoints.",
       "rules": 10,
       "source_count": 0,
-      "manual_count": 10
+      "manual_count": 10,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "OpenAI",
@@ -38,7 +44,9 @@
       "description": "Anthropic Claude web and API endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "GoogleGemini",
@@ -46,7 +54,9 @@
       "description": "Google Gemini, AI Studio, and NotebookLM endpoints.",
       "rules": 6,
       "source_count": 0,
-      "manual_count": 6
+      "manual_count": 6,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "MicrosoftCopilot",
@@ -54,7 +64,9 @@
       "description": "Microsoft Copilot and Bing AI endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "Perplexity",
@@ -62,7 +74,9 @@
       "description": "Perplexity web and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "MistralAI",
@@ -70,7 +84,9 @@
       "description": "Mistral AI web and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "GrokXAI",
@@ -78,7 +94,9 @@
       "description": "xAI and Grok endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "Poe",
@@ -86,7 +104,9 @@
       "description": "Poe web, creator, and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "HuggingFace",
@@ -94,7 +114,9 @@
       "description": "Hugging Face model, dataset, and inference endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "Replicate",
@@ -102,7 +124,9 @@
       "description": "Replicate model and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "Midjourney",
@@ -110,7 +134,9 @@
       "description": "Midjourney web and CDN endpoints.",
       "rules": 2,
       "source_count": 0,
-      "manual_count": 2
+      "manual_count": 2,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "StabilityAI",
@@ -118,7 +144,9 @@
       "description": "Stability AI web and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "Runway",
@@ -126,7 +154,9 @@
       "description": "Runway web and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "Cursor",
@@ -134,7 +164,9 @@
       "description": "Cursor editor, docs, and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "Windsurf",
@@ -142,7 +174,9 @@
       "description": "Windsurf editor, docs, and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "DeepSeek",
@@ -150,7 +184,9 @@
       "description": "DeepSeek web and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "MoonshotKimi",
@@ -158,7 +194,9 @@
       "description": "Moonshot and Kimi web and API endpoints.",
       "rules": 6,
       "source_count": 0,
-      "manual_count": 6
+      "manual_count": 6,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Qwen",
@@ -166,7 +204,9 @@
       "description": "Qwen web, coder, and Alibaba model endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "ByteDanceDoubao",
@@ -174,7 +214,9 @@
       "description": "Doubao and Volcano Engine AI endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Homebrew",
@@ -182,7 +224,9 @@
       "description": "Homebrew metadata, bottle, and GitHub Packages download paths.",
       "rules": 6,
       "source_count": 0,
-      "manual_count": 6
+      "manual_count": 6,
+      "icon_id": "homebrew",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/homebrew.svg"
     },
     {
       "name": "GitHub",
@@ -190,7 +234,9 @@
       "description": "GitHub web, API, raw content, release assets, and package endpoints.",
       "rules": 38,
       "source_count": 31,
-      "manual_count": 7
+      "manual_count": 7,
+      "icon_id": "github",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/github.svg"
     },
     {
       "name": "GitLab",
@@ -198,7 +244,9 @@
       "description": "GitLab web, API, and package endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "Docker",
@@ -206,7 +254,9 @@
       "description": "Docker Hub, registry, and container image endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "NPM",
@@ -214,7 +264,9 @@
       "description": "npm registry and package endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "PyPI",
@@ -222,7 +274,9 @@
       "description": "Python Package Index and file download endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "Maven",
@@ -230,7 +284,9 @@
       "description": "Maven Central and related artifact endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "Go",
@@ -238,7 +294,9 @@
       "description": "Go module proxy, checksum, docs, and download endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "Rust",
@@ -246,7 +304,9 @@
       "description": "Rust crates, static assets, toolchain, and docs endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "RubyGems",
@@ -254,7 +314,9 @@
       "description": "RubyGems package and CDN endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "Gradle",
@@ -262,7 +324,9 @@
       "description": "Gradle plugin, service, and distribution endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "JetBrains",
@@ -270,7 +334,9 @@
       "description": "JetBrains IDE, plugin, marketplace, and download endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "VSCode",
@@ -278,7 +344,9 @@
       "description": "Visual Studio Code marketplace, update, and extension endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "Cloudflare",
@@ -286,7 +354,9 @@
       "description": "Cloudflare web, challenge, and developer endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "PayPal",
@@ -294,7 +364,9 @@
       "description": "PayPal web, API, checkout, and static endpoints.",
       "rules": 248,
       "source_count": 248,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "payment",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg"
     },
     {
       "name": "Stripe",
@@ -302,7 +374,9 @@
       "description": "Stripe web, API, JS, and checkout endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "payment",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg"
     },
     {
       "name": "Apple",
@@ -310,7 +384,9 @@
       "description": "Apple services and static assets.",
       "rules": 1864,
       "source_count": 1863,
-      "manual_count": 1
+      "manual_count": 1,
+      "icon_id": "apple",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg"
     },
     {
       "name": "AppleCDN",
@@ -318,7 +394,9 @@
       "description": "Apple CDN, software update, app store asset, and static endpoints.",
       "rules": 10,
       "source_count": 0,
-      "manual_count": 10
+      "manual_count": 10,
+      "icon_id": "apple",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg"
     },
     {
       "name": "ApplePush",
@@ -326,7 +404,9 @@
       "description": "Apple push notification and device reachability endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "apple",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg"
     },
     {
       "name": "AppleMedia",
@@ -334,7 +414,9 @@
       "description": "Apple Music, TV, podcasts, and media storefront endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "apple",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg"
     },
     {
       "name": "Google",
@@ -350,7 +432,9 @@
       "description": "Microsoft overseas services, auth, and CDN endpoints.",
       "rules": 711,
       "source_count": 711,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "MicrosoftCloud",
@@ -358,7 +442,9 @@
       "description": "Azure, Office, OneDrive, SharePoint, and Microsoft cloud endpoints.",
       "rules": 9,
       "source_count": 0,
-      "manual_count": 9
+      "manual_count": 9,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "MicrosoftDev",
@@ -366,7 +452,9 @@
       "description": "Microsoft developer, NuGet, Visual Studio, and package endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "Telegram",
@@ -374,7 +462,9 @@
       "description": "Telegram app and web endpoints.",
       "rules": 31,
       "source_count": 31,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "telegram",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/telegram.svg"
     },
     {
       "name": "YouTube",
@@ -382,7 +472,9 @@
       "description": "YouTube web, video, and static endpoints.",
       "rules": 192,
       "source_count": 192,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "youtube",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/youtube.svg"
     },
     {
       "name": "Netflix",
@@ -390,7 +482,9 @@
       "description": "Netflix app, web, and video CDN endpoints.",
       "rules": 1153,
       "source_count": 1153,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "netflix",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/netflix.svg"
     },
     {
       "name": "DisneyPlus",
@@ -398,7 +492,9 @@
       "description": "Disney+ app, web, and video endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Spotify",
@@ -406,7 +502,9 @@
       "description": "Spotify app, web, and CDN endpoints.",
       "rules": 30,
       "source_count": 30,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "TikTok",
@@ -414,7 +512,9 @@
       "description": "TikTok overseas app, web, and CDN endpoints.",
       "rules": 32,
       "source_count": 32,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "TwitterX",
@@ -422,7 +522,9 @@
       "description": "X/Twitter web, API, media, and static endpoints.",
       "rules": 33,
       "source_count": 33,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "FacebookMeta",
@@ -430,7 +532,9 @@
       "description": "Facebook and Meta web, API, and CDN endpoints.",
       "rules": 569,
       "source_count": 569,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Instagram",
@@ -438,7 +542,9 @@
       "description": "Instagram app, web, API, and media endpoints.",
       "rules": 4,
       "source_count": 4,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Discord",
@@ -446,7 +552,9 @@
       "description": "Discord app, web, voice, and CDN endpoints.",
       "rules": 29,
       "source_count": 29,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Reddit",
@@ -454,7 +562,9 @@
       "description": "Reddit web, API, and static endpoints.",
       "rules": 8,
       "source_count": 8,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Twitch",
@@ -462,7 +572,9 @@
       "description": "Twitch web, video, and CDN endpoints.",
       "rules": 20,
       "source_count": 20,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Amazon",
@@ -470,7 +582,9 @@
       "description": "Amazon overseas web, AWS edge, and media endpoints.",
       "rules": 204,
       "source_count": 204,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Steam",
@@ -478,7 +592,9 @@
       "description": "Steam store, community, CDN, and game content endpoints.",
       "rules": 6,
       "source_count": 0,
-      "manual_count": 6
+      "manual_count": 6,
+      "icon_id": "game",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
     },
     {
       "name": "EpicGames",
@@ -486,7 +602,9 @@
       "description": "Epic Games store, launcher, Unreal, and CDN endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "game",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
     },
     {
       "name": "PlayStation",
@@ -494,7 +612,9 @@
       "description": "PlayStation Network, store, login, and CDN endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "game",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
     },
     {
       "name": "Xbox",
@@ -502,7 +622,9 @@
       "description": "Xbox Live, Microsoft gaming, and content endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "game",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
     },
     {
       "name": "Nintendo",
@@ -510,7 +632,9 @@
       "description": "Nintendo account, store, online, and CDN endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "game",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
     },
     {
       "name": "BattleNet",
@@ -518,7 +642,9 @@
       "description": "Battle.net, Blizzard, and Activision endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "game",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
     },
     {
       "name": "RiotGames",
@@ -526,7 +652,9 @@
       "description": "Riot Games, League, Valorant, and CDN endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "game",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
     },
     {
       "name": "HoYoverse",
@@ -534,7 +662,9 @@
       "description": "HoYoverse global game, account, and CDN endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "game",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
     },
     {
       "name": "Alipay",
@@ -542,7 +672,9 @@
       "description": "Alipay wallet, merchant, and payment endpoints.",
       "rules": 2,
       "source_count": 0,
-      "manual_count": 2
+      "manual_count": 2,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "TaobaoTmall",
@@ -550,7 +682,9 @@
       "description": "Taobao and Tmall shopping endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Alibaba",
@@ -558,7 +692,9 @@
       "description": "Alibaba, Taobao, Tmall, Aliyun, and Alipay endpoints.",
       "rules": 1,
       "source_count": 0,
-      "manual_count": 1
+      "manual_count": 1,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "TencentCloud",
@@ -566,7 +702,9 @@
       "description": "Tencent Cloud and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "QQ",
@@ -574,7 +712,9 @@
       "description": "QQ messaging and account endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Tencent",
@@ -582,7 +722,9 @@
       "description": "Tencent, QQ, media, static, and payment endpoints.",
       "rules": 6,
       "source_count": 0,
-      "manual_count": 6
+      "manual_count": 6,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "WeChat",
@@ -590,7 +732,9 @@
       "description": "WeChat web, auth, media, and payment endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Baidu",
@@ -598,7 +742,9 @@
       "description": "Baidu search, maps, cloud, and static endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "BaiduSearchMaps",
@@ -606,7 +752,9 @@
       "description": "Baidu search, maps, and location endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "BaiduCloud",
@@ -614,7 +762,9 @@
       "description": "Baidu cloud and object storage endpoints.",
       "rules": 2,
       "source_count": 0,
-      "manual_count": 2
+      "manual_count": 2,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "ByteDance",
@@ -622,7 +772,9 @@
       "description": "ByteDance China services and static endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "ByteDanceCore",
@@ -630,7 +782,9 @@
       "description": "ByteDance core, Toutiao, and static endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Douyin",
@@ -638,7 +792,9 @@
       "description": "Douyin app, web, and media endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Bilibili",
@@ -646,7 +802,9 @@
       "description": "Bilibili app, web, API, and media endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "BilibiliVideo",
@@ -654,7 +812,9 @@
       "description": "Bilibili video and API endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "NetEase",
@@ -662,7 +822,9 @@
       "description": "NetEase web, mail, music, and static endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "NetEaseMail",
@@ -670,7 +832,9 @@
       "description": "NetEase mail and account endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "NetEaseMusic",
@@ -678,7 +842,9 @@
       "description": "NetEase music and audio endpoints.",
       "rules": 2,
       "source_count": 0,
-      "manual_count": 2
+      "manual_count": 2,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "JD",
@@ -686,7 +852,9 @@
       "description": "JD.com retail, logistics, and static endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "JDRetail",
@@ -694,7 +862,9 @@
       "description": "JD retail, logistics, and checkout endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Meituan",
@@ -702,7 +872,9 @@
       "description": "Meituan and Dianping app, web, and static endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "MeituanDianping",
@@ -710,7 +882,9 @@
       "description": "Meituan and Dianping service endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Xiaomi",
@@ -718,7 +892,9 @@
       "description": "Xiaomi, Mi, MIUI, and device service endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "XiaomiDevice",
@@ -726,7 +902,9 @@
       "description": "Xiaomi device, MIUI, and home endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Huawei",
@@ -734,7 +912,9 @@
       "description": "Huawei, VMall, cloud, and device service endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "HuaweiCloud",
@@ -742,7 +922,9 @@
       "description": "Huawei Cloud and device cloud endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Weibo",
@@ -750,7 +932,9 @@
       "description": "Weibo app, web, API, and media endpoints.",
       "rules": 2,
       "source_count": 0,
-      "manual_count": 2
+      "manual_count": 2,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Zhihu",
@@ -758,7 +942,9 @@
       "description": "Zhihu app, web, API, and static endpoints.",
       "rules": 1,
       "source_count": 0,
-      "manual_count": 1
+      "manual_count": 1,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "ChinaCloud",
@@ -766,7 +952,9 @@
       "description": "Mainland China cloud, object storage, CDN, and developer cloud endpoints.",
       "rules": 11,
       "source_count": 0,
-      "manual_count": 11
+      "manual_count": 11,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "ChinaCDN",
@@ -774,7 +962,9 @@
       "description": "Mainland China CDN and static asset endpoints.",
       "rules": 10,
       "source_count": 0,
-      "manual_count": 10
+      "manual_count": 10,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "ChinaMedia",
@@ -782,7 +972,9 @@
       "description": "Mainland China music, video, live, and media endpoints.",
       "rules": 10,
       "source_count": 0,
-      "manual_count": 10
+      "manual_count": 10,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "EducationCN",
@@ -790,7 +982,9 @@
       "description": "Mainland China education, academic, and university endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "TencentGames",
@@ -798,7 +992,9 @@
       "description": "Tencent China game, launcher, and CDN endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "NetEaseGames",
@@ -806,7 +1002,9 @@
       "description": "NetEase China game, launcher, and CDN endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "MiHoYoCN",
@@ -814,7 +1012,9 @@
       "description": "miHoYo mainland China game and account endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Railway12306",
@@ -822,7 +1022,9 @@
       "description": "China Railway 12306 ticketing endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "BankingCN",
@@ -830,7 +1032,9 @@
       "description": "Major mainland China banking endpoints.",
       "rules": 7,
       "source_count": 0,
-      "manual_count": 7
+      "manual_count": 7,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "GovCN",
@@ -838,7 +1042,9 @@
       "description": "Mainland China government and public-service endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "GlobalMedia",
@@ -846,7 +1052,9 @@
       "description": "Streaming, overseas media, and adult media services.",
       "rules": 2366,
       "source_count": 2325,
-      "manual_count": 41
+      "manual_count": 41,
+      "icon_id": "global-media",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-media.svg"
     },
     {
       "name": "Global",
@@ -854,7 +1062,9 @@
       "description": "General overseas services.",
       "rules": 6849,
       "source_count": 6849,
-      "manual_count": 0
+      "manual_count": 0,
+      "icon_id": "global",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg"
     },
     {
       "name": "Direct",
@@ -862,7 +1072,9 @@
       "description": "Common domestic or local direct rules.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "China",
@@ -870,7 +1082,9 @@
       "description": "China region direct fallback.",
       "rules": 31,
       "source_count": 30,
-      "manual_count": 1
+      "manual_count": 1,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Hijacking",
@@ -878,7 +1092,9 @@
       "description": "DNS hijacking, bogus response, and captive ad endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "reject",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg"
     },
     {
       "name": "Advertising",
@@ -886,7 +1102,9 @@
       "description": "Advertising and tracking domains.",
       "rules": 256059,
       "source_count": 256056,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "reject",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg"
     },
     {
       "name": "Privacy",
@@ -894,7 +1112,9 @@
       "description": "Privacy-invasive telemetry rules.",
       "rules": 2,
       "source_count": 0,
-      "manual_count": 2
+      "manual_count": 2,
+      "icon_id": "reject",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg"
     },
     {
       "name": "Aliyun",
@@ -902,7 +1122,9 @@
       "description": "Alibaba Cloud compute, storage, and service endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "AlibabaCDN",
@@ -910,7 +1132,9 @@
       "description": "Alibaba CDN and static asset endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "TencentMeeting",
@@ -918,7 +1142,9 @@
       "description": "Tencent Meeting and VooV collaboration endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "TencentVideo",
@@ -926,7 +1152,9 @@
       "description": "Tencent Video and video CDN endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "BaiduTieba",
@@ -934,7 +1162,9 @@
       "description": "Baidu Tieba community and forum endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "BaiduPan",
@@ -942,7 +1172,9 @@
       "description": "Baidu Netdisk and file storage endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "DouyinCDN",
@@ -950,7 +1182,9 @@
       "description": "Douyin media, image, and CDN endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Pinduoduo",
@@ -958,7 +1192,9 @@
       "description": "Pinduoduo shopping and merchant endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "WeiboMedia",
@@ -966,7 +1202,9 @@
       "description": "Weibo media, images, and video endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "ZhihuContent",
@@ -974,7 +1212,9 @@
       "description": "Zhihu content, columns, and video endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "iQIYI",
@@ -982,7 +1222,9 @@
       "description": "iQIYI web, app, and video endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "Youku",
@@ -990,7 +1232,9 @@
       "description": "Youku and Tudou web and video endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "WhatsApp",
@@ -998,7 +1242,9 @@
       "description": "WhatsApp web and messaging endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Messenger",
@@ -1006,7 +1252,9 @@
       "description": "Messenger web and messaging endpoints.",
       "rules": 2,
       "source_count": 0,
-      "manual_count": 2
+      "manual_count": 2,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "LinkedIn",
@@ -1014,7 +1262,9 @@
       "description": "LinkedIn web and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Zoom",
@@ -1022,7 +1272,9 @@
       "description": "Zoom web and meeting endpoints.",
       "rules": 2,
       "source_count": 0,
-      "manual_count": 2
+      "manual_count": 2,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Slack",
@@ -1030,7 +1282,9 @@
       "description": "Slack web and collaboration endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Notion",
@@ -1038,7 +1292,9 @@
       "description": "Notion web and workspace endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Dropbox",
@@ -1046,7 +1302,9 @@
       "description": "Dropbox storage and file sync endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "Vercel",
@@ -1054,7 +1312,9 @@
       "description": "Vercel deployment and hosting endpoints.",
       "rules": 2,
       "source_count": 0,
-      "manual_count": 2
+      "manual_count": 2,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "Netlify",
@@ -1062,7 +1322,9 @@
       "description": "Netlify deployment and hosting endpoints.",
       "rules": 2,
       "source_count": 0,
-      "manual_count": 2
+      "manual_count": 2,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "DirectAll",
@@ -1070,7 +1332,9 @@
       "description": "Local network, connectivity checks, mainland China services, and domestic whitelist.",
       "rules": 200,
       "source_count": 30,
-      "manual_count": 170
+      "manual_count": 170,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "GlobalAI",
@@ -1078,7 +1342,9 @@
       "description": "Merged overseas AI services for a dedicated AI proxy policy.",
       "rules": 101,
       "source_count": 34,
-      "manual_count": 67
+      "manual_count": 67,
+      "icon_id": "global-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
     },
     {
       "name": "ChinaAI",
@@ -1086,7 +1352,9 @@
       "description": "Merged mainland China AI services for direct routing.",
       "rules": 17,
       "source_count": 0,
-      "manual_count": 17
+      "manual_count": 17,
+      "icon_id": "china-ai",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-ai.svg"
     },
     {
       "name": "AIAll",
@@ -1094,7 +1362,9 @@
       "description": "Mixed AI catalog that includes both GlobalAI and ChinaAI.",
       "rules": 118,
       "source_count": 34,
-      "manual_count": 84
+      "manual_count": 84,
+      "icon_id": "ai-all",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/ai-all.svg"
     },
     {
       "name": "ChinaPlatform",
@@ -1102,7 +1372,9 @@
       "description": "Mainland China platform, commerce, and community services.",
       "rules": 71,
       "source_count": 0,
-      "manual_count": 71
+      "manual_count": 71,
+      "icon_id": "china-platform",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-platform.svg"
     },
     {
       "name": "ChinaInfra",
@@ -1110,7 +1382,9 @@
       "description": "Mainland China cloud and CDN services.",
       "rules": 31,
       "source_count": 0,
-      "manual_count": 31
+      "manual_count": 31,
+      "icon_id": "china-infra",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-infra.svg"
     },
     {
       "name": "ChinaContent",
@@ -1118,7 +1392,9 @@
       "description": "Mainland China media and content services.",
       "rules": 23,
       "source_count": 0,
-      "manual_count": 23
+      "manual_count": 23,
+      "icon_id": "china-content",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-content.svg"
     },
     {
       "name": "ChinaFinance",
@@ -1126,7 +1402,9 @@
       "description": "Mainland China financial services.",
       "rules": 7,
       "source_count": 0,
-      "manual_count": 7
+      "manual_count": 7,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "ChinaGovernment",
@@ -1134,7 +1412,9 @@
       "description": "Mainland China government and public-service endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5
+      "manual_count": 5,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "ChinaEducation",
@@ -1142,7 +1422,9 @@
       "description": "Mainland China education services.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "ChinaTransport",
@@ -1150,7 +1432,9 @@
       "description": "Mainland China rail ticketing and travel services.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "direct",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
     },
     {
       "name": "DomesticAll",
@@ -1158,7 +1442,9 @@
       "description": "Merged mainland China family buckets and domestic direct fallbacks.",
       "rules": 177,
       "source_count": 30,
-      "manual_count": 147
+      "manual_count": 147,
+      "icon_id": "domestic-all",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg"
     },
     {
       "name": "ChinaWhitelist",
@@ -1166,7 +1452,9 @@
       "description": "Auditable mainland whitelist for banking, government, education, media, cloud, CDN, and travel services.",
       "rules": 85,
       "source_count": 0,
-      "manual_count": 85
+      "manual_count": 85,
+      "icon_id": "china-whitelist",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-whitelist.svg"
     },
     {
       "name": "AppleServices",
@@ -1174,7 +1462,9 @@
       "description": "Apple core, CDN, push, and media service bundle.",
       "rules": 1873,
       "source_count": 1863,
-      "manual_count": 10
+      "manual_count": 10,
+      "icon_id": "apple",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg"
     },
     {
       "name": "MicrosoftServices",
@@ -1182,7 +1472,9 @@
       "description": "Microsoft core, cloud, developer, Xbox, and Copilot service bundle.",
       "rules": 717,
       "source_count": 711,
-      "manual_count": 6
+      "manual_count": 6,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "GlobalCore",
@@ -1190,7 +1482,9 @@
       "description": "Core overseas platform services for account, cloud, and infrastructure access.",
       "rules": 3517,
       "source_count": 3493,
-      "manual_count": 24
+      "manual_count": 24,
+      "icon_id": "global-core",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-core.svg"
     },
     {
       "name": "GlobalCommunication",
@@ -1198,7 +1492,9 @@
       "description": "Overseas communication and collaboration services.",
       "rules": 74,
       "source_count": 60,
-      "manual_count": 14
+      "manual_count": 14,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "GlobalSocial",
@@ -1206,7 +1502,9 @@
       "description": "Overseas social and community services.",
       "rules": 666,
       "source_count": 663,
-      "manual_count": 3
+      "manual_count": 3,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     },
     {
       "name": "ChinaGame",
@@ -1214,7 +1512,9 @@
       "description": "Mainland China game services that should usually be direct.",
       "rules": 14,
       "source_count": 0,
-      "manual_count": 14
+      "manual_count": 14,
+      "icon_id": "game",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
     },
     {
       "name": "GlobalGame",
@@ -1222,7 +1522,9 @@
       "description": "Overseas game platforms and publishers.",
       "rules": 34,
       "source_count": 0,
-      "manual_count": 34
+      "manual_count": 34,
+      "icon_id": "game",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
     },
     {
       "name": "GameAll",
@@ -1230,7 +1532,9 @@
       "description": "Mixed game catalog that includes both GlobalGame and ChinaGame.",
       "rules": 48,
       "source_count": 0,
-      "manual_count": 48
+      "manual_count": 48,
+      "icon_id": "game-all",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game-all.svg"
     },
     {
       "name": "GlobalServices",
@@ -1238,7 +1542,9 @@
       "description": "Merged overseas platform and app services.",
       "rules": 4252,
       "source_count": 4211,
-      "manual_count": 41
+      "manual_count": 41,
+      "icon_id": "global-services",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-services.svg"
     },
     {
       "name": "GlobalApps",
@@ -1246,7 +1552,9 @@
       "description": "Merged overseas social and application services.",
       "rules": 735,
       "source_count": 723,
-      "manual_count": 12
+      "manual_count": 12,
+      "icon_id": "global-apps",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-apps.svg"
     },
     {
       "name": "Developer",
@@ -1254,7 +1562,9 @@
       "description": "Merged developer ecosystem endpoints.",
       "rules": 88,
       "source_count": 31,
-      "manual_count": 57
+      "manual_count": 57,
+      "icon_id": "developer",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
     },
     {
       "name": "Payment",
@@ -1262,7 +1572,9 @@
       "description": "Merged overseas payment endpoints.",
       "rules": 252,
       "source_count": 248,
-      "manual_count": 4
+      "manual_count": 4,
+      "icon_id": "payment",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg"
     },
     {
       "name": "RejectAll",
@@ -1270,7 +1582,9 @@
       "description": "Advertising, privacy, and hijacking reject bundle.",
       "rules": 256065,
       "source_count": 256056,
-      "manual_count": 9
+      "manual_count": 9,
+      "icon_id": "reject",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg"
     },
     {
       "name": "ProxyAll",
@@ -1278,9 +1592,16 @@
       "description": "Broad overseas proxy catalog for fallback subscriptions.",
       "rules": 7001,
       "source_count": 6773,
-      "manual_count": 228
+      "manual_count": 228,
+      "icon_id": "proxy",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
     }
   ],
+  "icons": {
+    "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons",
+    "manifest_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/manifest.json",
+    "count": 27
+  },
   "report": {
     "offline": false,
     "fetches": [
@@ -1396,6 +1717,7 @@
       }
     ],
     "catalog_warnings": [],
+    "icon_warnings": [],
     "runtime_warnings": [],
     "warnings": [],
     "composites": [

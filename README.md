@@ -35,6 +35,7 @@
 - 站点首页：`https://anfeng-crystal.github.io/proxy-rules-dist/`
 - 中文主文档：`README.md`
 - 英文副本：`README.en.md`
+- 图标库：`icons/manifest.json`
 - QuanX 远程规则：`snippets/quanx-filter-remote.conf`
 - Loon 远程规则：`snippets/loon-remote-rule.conf`
 - Clash Providers：`snippets/clash-rule-providers.yaml`
@@ -59,6 +60,7 @@ dist/
   loon/                 Loon 规则。
   clash/                Clash classical rule-provider。
   mihomo/               Mihomo classical rule-provider。
+  icons/                图标清单和图标资源。
 snippets/
   *.conf, *.yaml        客户端订阅片段和多策略组模板。
 site/
@@ -189,6 +191,18 @@ FINAL 或 MATCH
 
 `AIAll`、`DirectAll`、`DomesticAll` 适合快速入口和审计入口；要做排障或精细分流时，优先用 `LocalNetwork`、`ConnectivityCheck`、`ChinaWhitelist`、`GlobalAI`、`ChinaAI`、`Developer`、`Payment`、`GlobalServices` 这些更细的入口。
 
+## 图标库
+
+图标库和规则库共用同一套公开 Pages 地址，清单入口是 `icons/manifest.json`。公开 Pages 刷新后，图标 URL 会保持同一路径更新；需要回滚或比对时，GitHub Release 快照里也会保留 `icons/` 目录，路径不变。
+
+常见用法如下：
+
+- QuanX：订阅 `snippets/quanx-policy-icons.conf`。
+- Loon：订阅 `snippets/loon-policy-icons.conf`。
+- Clash：订阅 `snippets/clash-icon-urls.yaml`。
+
+如果后续图标生成器调整了文件名，这份文档和首页入口会同步适配，但发布层仍会同时覆盖 Pages 最新层和 Release 快照。
+
 ## 漏网之鱼怎么处理
 
 1. 先看客户端命中日志，确认域名、当前策略和失败类型。
@@ -226,6 +240,8 @@ https://anfeng-crystal.github.io/proxy-rules-dist/clash/ProxyAll/ProxyAll.yaml
 ```
 
 `.github/workflows/release-snapshot.yml` 会在 `Publish dist` 成功后生成按日期命名的 GitHub Release 快照。快照里会打包 `dist/`、`snippets/`、`README.md`、`README.en.md` 和 `site/index.html`，适合回滚和版本对比。
+
+如果 `dist/` 里包含 `icons/`，公开 Pages 和 Release 快照都会自动带上对应目录，不需要额外的发布分支。
 
 Pages 是最新订阅层，Release 是可回滚快照层。日常使用优先看 Pages；需要回退、比对或保留某天状态时，再看 Releases。
 

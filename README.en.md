@@ -30,6 +30,18 @@ Output URLs stay unchanged:
 - Existing `README.md`, `README.en.md`, `snippets/`, `dist/`, and public Pages URLs remain compatible.
 - The new structure changes maintenance workflow only; it does not change subscription URL usage.
 
+## Icons
+
+The icon library is published on the same public Pages host. The manifest lives at `icons/manifest.json`. Pages refreshes keep the same icon URLs, and GitHub Release snapshots keep the same `icons/` path for rollback and comparison.
+
+Common client entry points:
+
+- QuanX: `snippets/quanx-policy-icons.conf`
+- Loon: `snippets/loon-policy-icons.conf`
+- Clash: `snippets/clash-icon-urls.yaml`
+
+If the generator renames any of these files later, this repo will follow the published names, but the Pages and Release layers will still ship them together.
+
 ## Layout
 
 ```text
@@ -49,6 +61,7 @@ dist/
   loon/                 Generated Loon rules.
   clash/                Generated Clash classical providers.
   mihomo/               Generated Mihomo classical providers.
+  icons/                Icon manifest and icon assets.
 snippets/
   *.conf, *.yaml        Client subscription snippets and policy templates.
 site/
@@ -157,6 +170,8 @@ https://anfeng-crystal.github.io/proxy-rules-dist/clash/ProxyAll/ProxyAll.yaml
 ```
 
 `.github/workflows/release-snapshot.yml` creates a dated GitHub Release snapshot after `Publish dist` succeeds. The archive bundles `dist/`, `snippets/`, `README.md`, `README.en.md`, and `site/index.html`, which makes rollback and comparison straightforward.
+
+If `dist/` contains `icons/`, Pages and Release snapshots pick it up automatically; no extra release lane is needed.
 
 Pages is the latest subscription surface. Releases are the rollback snapshot layer. Use Pages for daily consumption and Releases when you need to restore or compare a specific build day.
 

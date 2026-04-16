@@ -208,6 +208,17 @@
 
 - none
 
+## 图标告警 / Icon Warnings
+
+- none
+
+## 图标库 / Icon Library
+
+- base url: https://anfeng-crystal.github.io/proxy-rules-dist/icons
+- catalog entries: 27
+- mapped names: 41
+- manifest: https://anfeng-crystal.github.io/proxy-rules-dist/icons/manifest.json
+
 ## 已从拒绝规则移除的保护域名 / Protected Reject Removals
 
 - Advertising:domain:api-iam.intercom.io

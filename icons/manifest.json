@@ -1,0 +1,463 @@
+{
+  "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons",
+  "count": 27,
+  "icons": [
+    {
+      "id": "direct",
+      "label": "Direct",
+      "symbol": "DIR",
+      "background": "#06b6d4",
+      "foreground": "#082f49",
+      "description": "Direct routing, local network, and connectivity checks.",
+      "categories": [
+        "Direct",
+        "DirectAll",
+        "ConnectivityCheck"
+      ],
+      "targets": [
+        "DIRECT",
+        "Direct",
+        "DirectAll",
+        "ConnectivityCheck"
+      ],
+      "file": "direct.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg"
+    },
+    {
+      "id": "proxy",
+      "label": "Proxy",
+      "symbol": "PRX",
+      "background": "#2563eb",
+      "foreground": "#ffffff",
+      "description": "Generic proxy policy and proxy-all entry point.",
+      "categories": [
+        "ProxyAll"
+      ],
+      "targets": [
+        "PROXY",
+        "ProxyAll"
+      ],
+      "file": "proxy.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+    },
+    {
+      "id": "reject",
+      "label": "Reject",
+      "symbol": "RJT",
+      "background": "#ef4444",
+      "foreground": "#ffffff",
+      "description": "Reject rules, privacy blocks, and hijacking filters.",
+      "categories": [
+        "RejectAll",
+        "Advertising",
+        "Privacy",
+        "Hijacking"
+      ],
+      "targets": [
+        "REJECT",
+        "RejectAll",
+        "Advertising",
+        "Privacy",
+        "Hijacking"
+      ],
+      "file": "reject.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg"
+    },
+    {
+      "id": "global-ai",
+      "label": "Global AI",
+      "symbol": "AI",
+      "background": "#10b981",
+      "foreground": "#ffffff",
+      "description": "Overseas AI family bucket.",
+      "categories": [
+        "GlobalAI"
+      ],
+      "targets": [
+        "GlobalAI"
+      ],
+      "file": "global-ai.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg"
+    },
+    {
+      "id": "china-ai",
+      "label": "China AI",
+      "symbol": "CNAI",
+      "background": "#22c55e",
+      "foreground": "#ffffff",
+      "description": "Mainland China AI family bucket.",
+      "categories": [
+        "ChinaAI"
+      ],
+      "targets": [
+        "ChinaAI"
+      ],
+      "file": "china-ai.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-ai.svg"
+    },
+    {
+      "id": "ai-all",
+      "label": "AI All",
+      "symbol": "AIO",
+      "background": "#14b8a6",
+      "foreground": "#ffffff",
+      "description": "Mixed AI entry point.",
+      "categories": [
+        "AIAll"
+      ],
+      "targets": [
+        "AIAll"
+      ],
+      "file": "ai-all.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/ai-all.svg"
+    },
+    {
+      "id": "developer",
+      "label": "Developer",
+      "symbol": "DEV",
+      "background": "#0f766e",
+      "foreground": "#ffffff",
+      "description": "Developer tooling, registries, and package services.",
+      "categories": [
+        "Developer"
+      ],
+      "targets": [
+        "Developer"
+      ],
+      "file": "developer.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg"
+    },
+    {
+      "id": "payment",
+      "label": "Payment",
+      "symbol": "PAY",
+      "background": "#f59e0b",
+      "foreground": "#111827",
+      "description": "Payment gateways and checkout services.",
+      "categories": [
+        "Payment"
+      ],
+      "targets": [
+        "Payment"
+      ],
+      "file": "payment.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg"
+    },
+    {
+      "id": "game",
+      "label": "Game",
+      "symbol": "GAME",
+      "background": "#db2777",
+      "foreground": "#ffffff",
+      "description": "Game platforms and publishers.",
+      "categories": [
+        "Game",
+        "GlobalGame",
+        "ChinaGame"
+      ],
+      "targets": [
+        "Game",
+        "GlobalGame",
+        "ChinaGame"
+      ],
+      "file": "game.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
+    },
+    {
+      "id": "game-all",
+      "label": "Game All",
+      "symbol": "GALL",
+      "background": "#fb7185",
+      "foreground": "#ffffff",
+      "description": "Mixed game entry point.",
+      "categories": [
+        "GameAll"
+      ],
+      "targets": [
+        "GameAll"
+      ],
+      "file": "game-all.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game-all.svg"
+    },
+    {
+      "id": "apple",
+      "label": "Apple",
+      "symbol": "APL",
+      "background": "#111827",
+      "foreground": "#ffffff",
+      "description": "Apple services and media family.",
+      "categories": [
+        "Apple",
+        "AppleServices",
+        "AppleCDN",
+        "ApplePush",
+        "AppleMedia"
+      ],
+      "targets": [
+        "Apple",
+        "AppleServices",
+        "AppleCDN",
+        "ApplePush",
+        "AppleMedia"
+      ],
+      "file": "apple.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg"
+    },
+    {
+      "id": "global-media",
+      "label": "Global Media",
+      "symbol": "MEDIA",
+      "background": "#f97316",
+      "foreground": "#ffffff",
+      "description": "Overseas media and streaming family.",
+      "categories": [
+        "GlobalMedia"
+      ],
+      "targets": [
+        "GlobalMedia"
+      ],
+      "file": "global-media.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-media.svg"
+    },
+    {
+      "id": "global",
+      "label": "Global",
+      "symbol": "GLOB",
+      "background": "#1d4ed8",
+      "foreground": "#ffffff",
+      "description": "General overseas proxy bucket.",
+      "categories": [
+        "Global"
+      ],
+      "targets": [
+        "Global"
+      ],
+      "file": "global.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg"
+    },
+    {
+      "id": "global-services",
+      "label": "Global Services",
+      "symbol": "GSVC",
+      "background": "#0891b2",
+      "foreground": "#ffffff",
+      "description": "General overseas service bundle.",
+      "categories": [
+        "GlobalServices"
+      ],
+      "targets": [
+        "GlobalServices"
+      ],
+      "file": "global-services.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-services.svg"
+    },
+    {
+      "id": "global-apps",
+      "label": "Global Apps",
+      "symbol": "GAPP",
+      "background": "#ec4899",
+      "foreground": "#ffffff",
+      "description": "General overseas consumer app bundle.",
+      "categories": [
+        "GlobalApps"
+      ],
+      "targets": [
+        "GlobalApps"
+      ],
+      "file": "global-apps.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-apps.svg"
+    },
+    {
+      "id": "global-core",
+      "label": "Global Core",
+      "symbol": "GCORE",
+      "background": "#0284c7",
+      "foreground": "#ffffff",
+      "description": "Core overseas services and infrastructure.",
+      "categories": [
+        "GlobalCore"
+      ],
+      "targets": [
+        "GlobalCore"
+      ],
+      "file": "global-core.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-core.svg"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "symbol": "GH",
+      "background": "#24292f",
+      "foreground": "#ffffff",
+      "description": "GitHub web, API, raw content, and package services.",
+      "categories": [
+        "GitHub"
+      ],
+      "targets": [
+        "GitHub"
+      ],
+      "file": "github.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/github.svg"
+    },
+    {
+      "id": "homebrew",
+      "label": "Homebrew",
+      "symbol": "BREW",
+      "background": "#16a34a",
+      "foreground": "#ffffff",
+      "description": "Homebrew formula and bottle services.",
+      "categories": [
+        "Homebrew"
+      ],
+      "targets": [
+        "Homebrew"
+      ],
+      "file": "homebrew.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/homebrew.svg"
+    },
+    {
+      "id": "telegram",
+      "label": "Telegram",
+      "symbol": "TG",
+      "background": "#0ea5e9",
+      "foreground": "#ffffff",
+      "description": "Telegram messaging services.",
+      "categories": [
+        "Telegram"
+      ],
+      "targets": [
+        "Telegram"
+      ],
+      "file": "telegram.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/telegram.svg"
+    },
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "symbol": "YT",
+      "background": "#dc2626",
+      "foreground": "#ffffff",
+      "description": "YouTube streaming and creator services.",
+      "categories": [
+        "YouTube"
+      ],
+      "targets": [
+        "YouTube"
+      ],
+      "file": "youtube.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/youtube.svg"
+    },
+    {
+      "id": "netflix",
+      "label": "Netflix",
+      "symbol": "NFX",
+      "background": "#b91c1c",
+      "foreground": "#ffffff",
+      "description": "Netflix streaming services.",
+      "categories": [
+        "Netflix"
+      ],
+      "targets": [
+        "Netflix"
+      ],
+      "file": "netflix.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/netflix.svg"
+    },
+    {
+      "id": "domestic-all",
+      "label": "Domestic All",
+      "symbol": "DOM",
+      "background": "#0f766e",
+      "foreground": "#ffffff",
+      "description": "Mainland China family bundle.",
+      "categories": [
+        "DomesticAll"
+      ],
+      "targets": [
+        "DomesticAll"
+      ],
+      "file": "domestic-all.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg"
+    },
+    {
+      "id": "china-whitelist",
+      "label": "China Whitelist",
+      "symbol": "CNWL",
+      "background": "#65a30d",
+      "foreground": "#ffffff",
+      "description": "Auditable mainland whitelist bundle.",
+      "categories": [
+        "ChinaWhitelist"
+      ],
+      "targets": [
+        "ChinaWhitelist"
+      ],
+      "file": "china-whitelist.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-whitelist.svg"
+    },
+    {
+      "id": "local-network",
+      "label": "Local Network",
+      "symbol": "LAN",
+      "background": "#4ade80",
+      "foreground": "#052e16",
+      "description": "Local network and private address shortcuts.",
+      "categories": [
+        "LocalNetwork"
+      ],
+      "targets": [
+        "LocalNetwork"
+      ],
+      "file": "local-network.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/local-network.svg"
+    },
+    {
+      "id": "china-platform",
+      "label": "China Platform",
+      "symbol": "CNPLT",
+      "background": "#84cc16",
+      "foreground": "#111827",
+      "description": "Mainland China platform, commerce, and community bundle.",
+      "categories": [
+        "ChinaPlatform"
+      ],
+      "targets": [
+        "ChinaPlatform"
+      ],
+      "file": "china-platform.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-platform.svg"
+    },
+    {
+      "id": "china-infra",
+      "label": "China Infra",
+      "symbol": "CNINF",
+      "background": "#14b8a6",
+      "foreground": "#ffffff",
+      "description": "Mainland China cloud and CDN bundle.",
+      "categories": [
+        "ChinaInfra"
+      ],
+      "targets": [
+        "ChinaInfra"
+      ],
+      "file": "china-infra.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-infra.svg"
+    },
+    {
+      "id": "china-content",
+      "label": "China Content",
+      "symbol": "CNMED",
+      "background": "#f43f5e",
+      "foreground": "#ffffff",
+      "description": "Mainland China media and content bundle.",
+      "categories": [
+        "ChinaContent"
+      ],
+      "targets": [
+        "ChinaContent"
+      ],
+      "file": "china-content.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-content.svg"
+    }
+  ]
+}
