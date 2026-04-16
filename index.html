@@ -1,20 +1,565 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>proxy-rules</title>
+  <title>proxy-rules | 规则发布页</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1f1f1f;
+      --muted: #5f6368;
+      --line: #d7dde3;
+      --paper: #ffffff;
+      --page: #f5f7f8;
+      --accent: #0f766e;
+      --accent-2: #b45309;
+      --accent-3: #1d4ed8;
+      --danger: #b91c1c;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .wrap {
+      width: min(1140px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      position: relative;
+      min-height: 58vh;
+      display: flex;
+      align-items: end;
+      background:
+        linear-gradient(180deg, rgba(13, 18, 18, .08), rgba(13, 18, 18, .65)),
+        url("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1800&q=80") center/cover;
+      color: #fff;
+    }
+
+    .hero-inner {
+      position: relative;
+      padding: 72px 0 56px;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: #d7fffb;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: 44px;
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 16px 0 0;
+      color: #f5f5f5;
+      font-size: 18px;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .hero-pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 0 10px;
+      border: 1px solid rgba(255, 255, 255, .28);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .12);
+      font-size: 13px;
+      color: #fff;
+      backdrop-filter: blur(6px);
+    }
+
+    main {
+      padding: 28px 0 56px;
+    }
+
+    section {
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      letter-spacing: 0;
+    }
+
+    .section-lead {
+      margin: 0 0 16px;
+      color: var(--muted);
+      max-width: 820px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      display: block;
+      min-height: 122px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--paper);
+      transition: border-color .16s ease, transform .16s ease;
+    }
+
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .card strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 17px;
+    }
+
+    .card span {
+      display: block;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .soft {
+      background: #eefbf8;
+      border-color: #c7eee8;
+    }
+
+    .warm {
+      background: #fff8ec;
+      border-color: #f4deba;
+    }
+
+    .cool {
+      background: #eff6ff;
+      border-color: #cde0ff;
+    }
+
+    .danger {
+      background: #fff1f1;
+      border-color: #f5c8c8;
+    }
+
+    .group-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+    }
+
+    .group {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--paper);
+    }
+
+    .group h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 0 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      font-size: 13px;
+      color: var(--ink);
+      transition: border-color .16s ease, transform .16s ease;
+    }
+
+    .chip:hover {
+      border-color: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    .callout {
+      padding: 18px;
+      border: 1px solid #cbd5e1;
+      border-left: 4px solid var(--accent-2);
+      border-radius: 8px;
+      background: #fffaf3;
+    }
+
+    .callout p {
+      margin: 0;
+    }
+
+    .callout p + p {
+      margin-top: 10px;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 0 10px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .tone-green {
+      color: var(--accent);
+    }
+
+    .tone-blue {
+      color: var(--accent-3);
+    }
+
+    .tone-amber {
+      color: var(--accent-2);
+    }
+
+    .tone-red {
+      color: var(--danger);
+    }
+
+    footer {
+      padding: 28px 0 36px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 16px;
+      margin-top: 10px;
+    }
+
+    .footer-links a {
+      color: var(--accent);
+    }
+
+    @media (max-width: 680px) {
+      .wrap {
+        width: min(100% - 28px, 1140px);
+      }
+
+      .hero {
+        min-height: 64vh;
+      }
+
+      .hero-inner {
+        padding: 68px 0 46px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .lead {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>proxy-rules</h1>
-  <p>Generated proxy rule outputs for QuanX, Loon, Clash, and Mihomo.</p>
-  <ul>
-    <li><a href="snippets/quanx-filter-remote.conf">QuanX remote rules</a></li>
-    <li><a href="snippets/loon-remote-rule.conf">Loon remote rules</a></li>
-    <li><a href="snippets/clash-rule-providers.yaml">Clash rule providers</a></li>
-    <li><a href="snippets/clash-rules.yaml">Clash rules</a></li>
-    <li><a href="manifest.json">Manifest</a></li>
-    <li><a href="report.md">Build report</a></li>
-  </ul>
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">QuanX / Loon / Clash / Mihomo</p>
+      <h1>这是 QuanX / Loon / Clash / Mihomo 规则发布页。</h1>
+      <p class="lead">这里按叶子分类、聚合分类和客户端片段分层展示。内网、国内、海外、AI、开发、支付、媒体和游戏都可以单独订阅，也可以按聚合快速上手。</p>
+      <div class="hero-meta">
+        <span class="hero-pill">LocalNetwork</span>
+        <span class="hero-pill">GlobalAI</span>
+        <span class="hero-pill">ChinaAI</span>
+        <span class="hero-pill">DomesticAll</span>
+        <span class="hero-pill">ProxyAll</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="subscribe">
+      <h2>快速订阅</h2>
+      <p class="section-lead">先把客户端连起来。QuanX、Loon、Clash Providers 和 Clash Rules 都有现成入口，适合直接导入。</p>
+      <div class="grid">
+        <a class="card soft" href="snippets/quanx-filter-remote.conf">
+          <strong>QuanX</strong>
+          <span>远程分流订阅片段，直接引用公开 Pages 地址。</span>
+        </a>
+        <a class="card warm" href="snippets/loon-remote-rule.conf">
+          <strong>Loon</strong>
+          <span>Remote Rule 订阅片段，按策略组直接接入。</span>
+        </a>
+        <a class="card cool" href="snippets/clash-rule-providers.yaml">
+          <strong>Clash Providers</strong>
+          <span>classical rule-providers，适合按分类订阅。</span>
+        </a>
+        <a class="card danger" href="snippets/clash-rules.yaml">
+          <strong>Clash Rules</strong>
+          <span>RULE-SET 顺序片段，适合直接拼进现有配置。</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="start">
+      <h2>先从这些开始</h2>
+      <p class="section-lead">这些是最适合先装、也最适合拆分验证的入口。LocalNetwork 可以单独订阅，不会被 DomesticAll 或 AIAll 挤在一起。</p>
+      <div class="grid">
+        <a class="card soft" href="quanx/LocalNetwork/LocalNetwork.list">
+          <strong class="tone-green">LocalNetwork</strong>
+          <span>内网与局域网，能单独订阅；排障时最先看它。</span>
+        </a>
+        <a class="card cool" href="quanx/GlobalAI/GlobalAI.list">
+          <strong class="tone-blue">GlobalAI</strong>
+          <span>海外主流 AI 合并规则，日常优先入口。</span>
+        </a>
+        <a class="card soft" href="quanx/ChinaAI/ChinaAI.list">
+          <strong class="tone-green">ChinaAI</strong>
+          <span>国内 AI 直连规则，和海外 AI 分开看。</span>
+        </a>
+        <a class="card warm" href="quanx/DomesticAll/DomesticAll.list">
+          <strong class="tone-amber">DomesticAll</strong>
+          <span>大陆大站和区域直连的快速入口。</span>
+        </a>
+        <a class="card danger" href="quanx/ProxyAll/ProxyAll.list">
+          <strong class="tone-red">ProxyAll</strong>
+          <span>海外兜底大包，适合先保可用性。</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="detail">
+      <h2>细分规则</h2>
+      <p class="section-lead">内网与直连、国内服务、海外服务、AI、开发、支付、媒体和游戏都保留叶子入口。需要排障时，优先订阅叶子分类，而不是先上聚合。</p>
+      <div class="group-grid">
+        <article class="group">
+          <h3>内网与直连</h3>
+          <div class="links">
+            <a class="chip" href="quanx/LocalNetwork/LocalNetwork.list">LocalNetwork</a>
+            <a class="chip" href="quanx/ConnectivityCheck/ConnectivityCheck.list">ConnectivityCheck</a>
+            <a class="chip" href="quanx/ChinaWhitelist/ChinaWhitelist.list">ChinaWhitelist</a>
+            <a class="chip" href="quanx/DirectAll/DirectAll.list">DirectAll</a>
+          </div>
+        </article>
+        <article class="group">
+          <h3>国内服务</h3>
+          <div class="links">
+            <a class="chip" href="quanx/DomesticAll/DomesticAll.list">DomesticAll</a>
+            <a class="chip" href="quanx/Alibaba/Alibaba.list">Alibaba</a>
+            <a class="chip" href="quanx/Tencent/Tencent.list">Tencent</a>
+            <a class="chip" href="quanx/WeChat/WeChat.list">WeChat</a>
+            <a class="chip" href="quanx/Baidu/Baidu.list">Baidu</a>
+            <a class="chip" href="quanx/ByteDance/ByteDance.list">ByteDance</a>
+            <a class="chip" href="quanx/Douyin/Douyin.list">Douyin</a>
+            <a class="chip" href="quanx/Bilibili/Bilibili.list">Bilibili</a>
+            <a class="chip" href="quanx/NetEase/NetEase.list">NetEase</a>
+            <a class="chip" href="quanx/JD/JD.list">JD</a>
+            <a class="chip" href="quanx/Meituan/Meituan.list">Meituan</a>
+            <a class="chip" href="quanx/Xiaomi/Xiaomi.list">Xiaomi</a>
+            <a class="chip" href="quanx/Huawei/Huawei.list">Huawei</a>
+            <a class="chip" href="quanx/Weibo/Weibo.list">Weibo</a>
+            <a class="chip" href="quanx/Zhihu/Zhihu.list">Zhihu</a>
+            <a class="chip" href="quanx/Railway12306/Railway12306.list">Railway12306</a>
+            <a class="chip" href="quanx/BankingCN/BankingCN.list">BankingCN</a>
+            <a class="chip" href="quanx/GovCN/GovCN.list">GovCN</a>
+          </div>
+        </article>
+        <article class="group">
+          <h3>海外服务</h3>
+          <div class="links">
+            <a class="chip" href="quanx/GlobalServices/GlobalServices.list">GlobalServices</a>
+            <a class="chip" href="quanx/GlobalApps/GlobalApps.list">GlobalApps</a>
+            <a class="chip" href="quanx/AppleServices/AppleServices.list">AppleServices</a>
+            <a class="chip" href="quanx/MicrosoftServices/MicrosoftServices.list">MicrosoftServices</a>
+            <a class="chip" href="quanx/Google/Google.list">Google</a>
+            <a class="chip" href="quanx/Telegram/Telegram.list">Telegram</a>
+            <a class="chip" href="quanx/Cloudflare/Cloudflare.list">Cloudflare</a>
+            <a class="chip" href="quanx/GlobalMedia/GlobalMedia.list">GlobalMedia</a>
+          </div>
+        </article>
+        <article class="group">
+          <h3>AI</h3>
+          <div class="links">
+            <a class="chip" href="quanx/AIAll/AIAll.list">AIAll</a>
+            <a class="chip" href="quanx/GlobalAI/GlobalAI.list">GlobalAI</a>
+            <a class="chip" href="quanx/ChinaAI/ChinaAI.list">ChinaAI</a>
+            <a class="chip" href="quanx/OpenAI/OpenAI.list">OpenAI</a>
+            <a class="chip" href="quanx/AnthropicClaude/AnthropicClaude.list">AnthropicClaude</a>
+            <a class="chip" href="quanx/GoogleGemini/GoogleGemini.list">GoogleGemini</a>
+            <a class="chip" href="quanx/MicrosoftCopilot/MicrosoftCopilot.list">MicrosoftCopilot</a>
+            <a class="chip" href="quanx/Perplexity/Perplexity.list">Perplexity</a>
+            <a class="chip" href="quanx/MistralAI/MistralAI.list">MistralAI</a>
+            <a class="chip" href="quanx/GrokXAI/GrokXAI.list">GrokXAI</a>
+            <a class="chip" href="quanx/Poe/Poe.list">Poe</a>
+            <a class="chip" href="quanx/HuggingFace/HuggingFace.list">HuggingFace</a>
+            <a class="chip" href="quanx/Replicate/Replicate.list">Replicate</a>
+            <a class="chip" href="quanx/Midjourney/Midjourney.list">Midjourney</a>
+            <a class="chip" href="quanx/StabilityAI/StabilityAI.list">StabilityAI</a>
+            <a class="chip" href="quanx/Runway/Runway.list">Runway</a>
+            <a class="chip" href="quanx/Cursor/Cursor.list">Cursor</a>
+            <a class="chip" href="quanx/Windsurf/Windsurf.list">Windsurf</a>
+            <a class="chip" href="quanx/DeepSeek/DeepSeek.list">DeepSeek</a>
+            <a class="chip" href="quanx/MoonshotKimi/MoonshotKimi.list">MoonshotKimi</a>
+            <a class="chip" href="quanx/Qwen/Qwen.list">Qwen</a>
+            <a class="chip" href="quanx/ByteDanceDoubao/ByteDanceDoubao.list">ByteDanceDoubao</a>
+          </div>
+        </article>
+        <article class="group">
+          <h3>开发</h3>
+          <div class="links">
+            <a class="chip" href="quanx/Developer/Developer.list">Developer</a>
+            <a class="chip" href="quanx/GitHub/GitHub.list">GitHub</a>
+            <a class="chip" href="quanx/GitLab/GitLab.list">GitLab</a>
+            <a class="chip" href="quanx/Docker/Docker.list">Docker</a>
+            <a class="chip" href="quanx/NPM/NPM.list">NPM</a>
+            <a class="chip" href="quanx/PyPI/PyPI.list">PyPI</a>
+            <a class="chip" href="quanx/Maven/Maven.list">Maven</a>
+            <a class="chip" href="quanx/Go/Go.list">Go</a>
+            <a class="chip" href="quanx/Rust/Rust.list">Rust</a>
+            <a class="chip" href="quanx/RubyGems/RubyGems.list">RubyGems</a>
+            <a class="chip" href="quanx/Gradle/Gradle.list">Gradle</a>
+            <a class="chip" href="quanx/JetBrains/JetBrains.list">JetBrains</a>
+            <a class="chip" href="quanx/VSCode/VSCode.list">VSCode</a>
+            <a class="chip" href="quanx/Homebrew/Homebrew.list">Homebrew</a>
+          </div>
+        </article>
+        <article class="group">
+          <h3>支付</h3>
+          <div class="links">
+            <a class="chip" href="quanx/Payment/Payment.list">Payment</a>
+            <a class="chip" href="quanx/PayPal/PayPal.list">PayPal</a>
+            <a class="chip" href="quanx/Stripe/Stripe.list">Stripe</a>
+          </div>
+        </article>
+        <article class="group">
+          <h3>媒体 / 游戏</h3>
+          <div class="links">
+            <a class="chip" href="quanx/GlobalMedia/GlobalMedia.list">GlobalMedia</a>
+            <a class="chip" href="quanx/GameAll/GameAll.list">GameAll</a>
+            <a class="chip" href="quanx/YouTube/YouTube.list">YouTube</a>
+            <a class="chip" href="quanx/Netflix/Netflix.list">Netflix</a>
+            <a class="chip" href="quanx/DisneyPlus/DisneyPlus.list">DisneyPlus</a>
+            <a class="chip" href="quanx/Spotify/Spotify.list">Spotify</a>
+            <a class="chip" href="quanx/TikTok/TikTok.list">TikTok</a>
+            <a class="chip" href="quanx/TwitterX/TwitterX.list">TwitterX</a>
+            <a class="chip" href="quanx/FacebookMeta/FacebookMeta.list">FacebookMeta</a>
+            <a class="chip" href="quanx/Instagram/Instagram.list">Instagram</a>
+            <a class="chip" href="quanx/Discord/Discord.list">Discord</a>
+            <a class="chip" href="quanx/Reddit/Reddit.list">Reddit</a>
+            <a class="chip" href="quanx/Twitch/Twitch.list">Twitch</a>
+            <a class="chip" href="quanx/Amazon/Amazon.list">Amazon</a>
+            <a class="chip" href="quanx/Steam/Steam.list">Steam</a>
+            <a class="chip" href="quanx/EpicGames/EpicGames.list">EpicGames</a>
+            <a class="chip" href="quanx/PlayStation/PlayStation.list">PlayStation</a>
+            <a class="chip" href="quanx/Xbox/Xbox.list">Xbox</a>
+            <a class="chip" href="quanx/Nintendo/Nintendo.list">Nintendo</a>
+            <a class="chip" href="quanx/BattleNet/BattleNet.list">BattleNet</a>
+            <a class="chip" href="quanx/RiotGames/RiotGames.list">RiotGames</a>
+            <a class="chip" href="quanx/HoYoverse/HoYoverse.list">HoYoverse</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="bundle">
+      <h2>聚合规则不是唯一入口</h2>
+      <div class="callout">
+        <p>AIAll、DirectAll、DomesticAll 这类聚合适合快速订阅、审计和迁移，但它们不是唯一入口。要做排障或更精细的分流，优先用 LocalNetwork、ConnectivityCheck、ChinaWhitelist、GlobalAI、ChinaAI、Developer、Payment 这些叶子分类。</p>
+        <p>内网可以单独拿出来，AI 也可以拆成海外与国内两条线。这样当某条链路出问题时，能更快看清是内网、国内服务、海外服务，还是某个聚合桶过大。</p>
+      </div>
+      <div class="pill-row">
+        <span class="pill">LocalNetwork</span>
+        <span class="pill">ConnectivityCheck</span>
+        <span class="pill">ChinaWhitelist</span>
+        <span class="pill">GlobalAI</span>
+        <span class="pill">ChinaAI</span>
+        <span class="pill">Developer</span>
+        <span class="pill">Payment</span>
+        <span class="pill">AIAll</span>
+        <span class="pill">DirectAll</span>
+        <span class="pill">DomesticAll</span>
+        <span class="pill">ProxyAll</span>
+      </div>
+    </section>
+
+    <section id="status">
+      <h2>构建状态</h2>
+      <p class="section-lead">这里看生成结果、聚合数量和上游构建报告。</p>
+      <div class="grid">
+        <a class="card" href="manifest.json">
+          <strong>Manifest</strong>
+          <span>每个分类的策略名和规则数量。</span>
+        </a>
+        <a class="card" href="report.md">
+          <strong>Build Report</strong>
+          <span>上游拉取结果、聚合数量和保护剔除记录。</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>Generated by RuleForge. 发布层只包含生成产物，源码仓库保持私有。</div>
+      <div class="footer-links">
+        <a href="README.md">README.md 中文主文档</a>
+        <a href="README.en.md">README.en.md 英文副本</a>
+        <a href="snippets/quanx-filter-remote.conf">QuanX 片段</a>
+        <a href="snippets/clash-rule-providers.yaml">Clash Providers</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

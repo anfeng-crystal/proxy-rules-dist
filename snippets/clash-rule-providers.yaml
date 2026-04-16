@@ -1,4 +1,22 @@
 rule-providers:
+  LocalNetwork:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/LocalNetwork/LocalNetwork.yaml
+    path: ./ruleset/LocalNetwork.yaml
+    interval: 86400
+  ConnectivityCheck:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ConnectivityCheck/ConnectivityCheck.yaml
+    path: ./ruleset/ConnectivityCheck.yaml
+    interval: 86400
+  TestSites:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/TestSites/TestSites.yaml
+    path: ./ruleset/TestSites.yaml
+    interval: 86400
   OpenAI:
     type: http
     behavior: classical
@@ -155,6 +173,42 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Maven/Maven.yaml
     path: ./ruleset/Maven.yaml
     interval: 86400
+  Go:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Go/Go.yaml
+    path: ./ruleset/Go.yaml
+    interval: 86400
+  Rust:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Rust/Rust.yaml
+    path: ./ruleset/Rust.yaml
+    interval: 86400
+  RubyGems:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/RubyGems/RubyGems.yaml
+    path: ./ruleset/RubyGems.yaml
+    interval: 86400
+  Gradle:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Gradle/Gradle.yaml
+    path: ./ruleset/Gradle.yaml
+    interval: 86400
+  JetBrains:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/JetBrains/JetBrains.yaml
+    path: ./ruleset/JetBrains.yaml
+    interval: 86400
+  VSCode:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/VSCode/VSCode.yaml
+    path: ./ruleset/VSCode.yaml
+    interval: 86400
   Cloudflare:
     type: http
     behavior: classical
@@ -179,6 +233,24 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Apple/Apple.yaml
     path: ./ruleset/Apple.yaml
     interval: 86400
+  AppleCDN:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/AppleCDN/AppleCDN.yaml
+    path: ./ruleset/AppleCDN.yaml
+    interval: 86400
+  ApplePush:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ApplePush/ApplePush.yaml
+    path: ./ruleset/ApplePush.yaml
+    interval: 86400
+  AppleMedia:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/AppleMedia/AppleMedia.yaml
+    path: ./ruleset/AppleMedia.yaml
+    interval: 86400
   Google:
     type: http
     behavior: classical
@@ -190,6 +262,18 @@ rule-providers:
     behavior: classical
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Microsoft/Microsoft.yaml
     path: ./ruleset/Microsoft.yaml
+    interval: 86400
+  MicrosoftCloud:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/MicrosoftCloud/MicrosoftCloud.yaml
+    path: ./ruleset/MicrosoftCloud.yaml
+    interval: 86400
+  MicrosoftDev:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/MicrosoftDev/MicrosoftDev.yaml
+    path: ./ruleset/MicrosoftDev.yaml
     interval: 86400
   Telegram:
     type: http
@@ -268,6 +352,54 @@ rule-providers:
     behavior: classical
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Amazon/Amazon.yaml
     path: ./ruleset/Amazon.yaml
+    interval: 86400
+  Steam:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Steam/Steam.yaml
+    path: ./ruleset/Steam.yaml
+    interval: 86400
+  EpicGames:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/EpicGames/EpicGames.yaml
+    path: ./ruleset/EpicGames.yaml
+    interval: 86400
+  PlayStation:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/PlayStation/PlayStation.yaml
+    path: ./ruleset/PlayStation.yaml
+    interval: 86400
+  Xbox:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Xbox/Xbox.yaml
+    path: ./ruleset/Xbox.yaml
+    interval: 86400
+  Nintendo:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Nintendo/Nintendo.yaml
+    path: ./ruleset/Nintendo.yaml
+    interval: 86400
+  BattleNet:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/BattleNet/BattleNet.yaml
+    path: ./ruleset/BattleNet.yaml
+    interval: 86400
+  RiotGames:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/RiotGames/RiotGames.yaml
+    path: ./ruleset/RiotGames.yaml
+    interval: 86400
+  HoYoverse:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/HoYoverse/HoYoverse.yaml
+    path: ./ruleset/HoYoverse.yaml
     interval: 86400
   Alibaba:
     type: http
@@ -353,6 +485,48 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Zhihu/Zhihu.yaml
     path: ./ruleset/Zhihu.yaml
     interval: 86400
+  ChinaCloud:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ChinaCloud/ChinaCloud.yaml
+    path: ./ruleset/ChinaCloud.yaml
+    interval: 86400
+  ChinaCDN:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ChinaCDN/ChinaCDN.yaml
+    path: ./ruleset/ChinaCDN.yaml
+    interval: 86400
+  ChinaMedia:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ChinaMedia/ChinaMedia.yaml
+    path: ./ruleset/ChinaMedia.yaml
+    interval: 86400
+  EducationCN:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/EducationCN/EducationCN.yaml
+    path: ./ruleset/EducationCN.yaml
+    interval: 86400
+  TencentGames:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/TencentGames/TencentGames.yaml
+    path: ./ruleset/TencentGames.yaml
+    interval: 86400
+  NetEaseGames:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/NetEaseGames/NetEaseGames.yaml
+    path: ./ruleset/NetEaseGames.yaml
+    interval: 86400
+  MiHoYoCN:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/MiHoYoCN/MiHoYoCN.yaml
+    path: ./ruleset/MiHoYoCN.yaml
+    interval: 86400
   Railway12306:
     type: http
     behavior: classical
@@ -395,6 +569,12 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/China/China.yaml
     path: ./ruleset/China.yaml
     interval: 86400
+  Hijacking:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Hijacking/Hijacking.yaml
+    path: ./ruleset/Hijacking.yaml
+    interval: 86400
   Advertising:
     type: http
     behavior: classical
@@ -406,6 +586,12 @@ rule-providers:
     behavior: classical
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Privacy/Privacy.yaml
     path: ./ruleset/Privacy.yaml
+    interval: 86400
+  DirectAll:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/DirectAll/DirectAll.yaml
+    path: ./ruleset/DirectAll.yaml
     interval: 86400
   GlobalAI:
     type: http
@@ -431,6 +617,42 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/DomesticAll/DomesticAll.yaml
     path: ./ruleset/DomesticAll.yaml
     interval: 86400
+  ChinaWhitelist:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ChinaWhitelist/ChinaWhitelist.yaml
+    path: ./ruleset/ChinaWhitelist.yaml
+    interval: 86400
+  AppleServices:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/AppleServices/AppleServices.yaml
+    path: ./ruleset/AppleServices.yaml
+    interval: 86400
+  MicrosoftServices:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/MicrosoftServices/MicrosoftServices.yaml
+    path: ./ruleset/MicrosoftServices.yaml
+    interval: 86400
+  ChinaGame:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/ChinaGame/ChinaGame.yaml
+    path: ./ruleset/ChinaGame.yaml
+    interval: 86400
+  GlobalGame:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GlobalGame/GlobalGame.yaml
+    path: ./ruleset/GlobalGame.yaml
+    interval: 86400
+  GameAll:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GameAll/GameAll.yaml
+    path: ./ruleset/GameAll.yaml
+    interval: 86400
   GlobalServices:
     type: http
     behavior: classical
@@ -454,6 +676,12 @@ rule-providers:
     behavior: classical
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Payment/Payment.yaml
     path: ./ruleset/Payment.yaml
+    interval: 86400
+  RejectAll:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/RejectAll/RejectAll.yaml
+    path: ./ruleset/RejectAll.yaml
     interval: 86400
   ProxyAll:
     type: http

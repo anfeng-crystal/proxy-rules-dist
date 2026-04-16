@@ -1,0 +1,38 @@
+# RuleForge 多策略组模板。把 proxies 中的节点名替换成你的真实节点。
+proxy-groups:
+  - name: GlobalAI
+    type: select
+    proxies: [节点A, 节点B, 节点C, DIRECT]
+  - name: Developer
+    type: select
+    proxies: [节点A, 节点B, 节点C, DIRECT]
+  - name: Payment
+    type: select
+    proxies: [节点A, 节点B, 节点C, DIRECT]
+  - name: Game
+    type: select
+    proxies: [节点A, 节点B, 节点C, DIRECT]
+  - name: Apple
+    type: select
+    proxies: [DIRECT, 节点A, 节点B]
+  - name: GlobalMedia
+    type: select
+    proxies: [节点A, 节点B, 节点C, DIRECT]
+  - name: Global
+    type: select
+    proxies: [节点A, 节点B, 节点C, DIRECT]
+  - name: PROXY
+    type: select
+    proxies: [节点A, 节点B, 节点C, DIRECT]
+  - name: AIAll
+    type: select
+    proxies: [GlobalAI, DIRECT]
+  - name: GameAll
+    type: select
+    proxies: [Game, DIRECT]
+  - name: Homebrew
+    type: select
+    proxies: [Developer, PROXY, DIRECT]
+  - name: GitHub
+    type: select
+    proxies: [Developer, PROXY, DIRECT]

@@ -1,86 +1,124 @@
-# RuleForge Report
+# RuleForge 构建报告 / Build Report
 
-## Counts
+## 规则数量 / Counts
 
 - AIAll: 118
-- Advertising: 256131
+- Advertising: 256059
 - Alibaba: 7
 - Amazon: 204
 - AnthropicClaude: 4
 - Apple: 1864
+- AppleCDN: 10
+- AppleMedia: 5
+- ApplePush: 4
+- AppleServices: 1873
 - Baidu: 4
 - BankingCN: 7
+- BattleNet: 4
 - Bilibili: 4
 - ByteDance: 5
 - ByteDanceDoubao: 4
 - China: 31
 - ChinaAI: 17
+- ChinaCDN: 10
+- ChinaCloud: 11
+- ChinaGame: 14
+- ChinaMedia: 10
+- ChinaWhitelist: 95
 - Cloudflare: 5
+- ConnectivityCheck: 9
 - Cursor: 3
 - DeepSeek: 3
-- Developer: 61
+- Developer: 84
 - Direct: 9
+- DirectAll: 166
 - Discord: 29
 - DisneyPlus: 5
 - Docker: 5
-- DomesticAll: 112
+- DomesticAll: 143
 - Douyin: 5
+- EducationCN: 4
+- EpicGames: 4
 - FacebookMeta: 569
+- GameAll: 48
 - GitHub: 38
 - GitLab: 3
 - Global: 6883
 - GlobalAI: 101
 - GlobalApps: 692
+- GlobalGame: 34
 - GlobalMedia: 2325
-- GlobalServices: 10025
+- GlobalServices: 10040
+- Go: 5
 - Google: 717
 - GoogleGemini: 6
 - GovCN: 5
+- Gradle: 4
 - GrokXAI: 4
+- Hijacking: 5
+- HoYoverse: 4
 - Homebrew: 6
 - Huawei: 4
 - HuggingFace: 4
 - Instagram: 4
 - JD: 4
+- JetBrains: 4
+- LocalNetwork: 18
 - Maven: 4
 - Meituan: 4
+- MiHoYoCN: 5
 - Microsoft: 711
+- MicrosoftCloud: 9
 - MicrosoftCopilot: 5
+- MicrosoftDev: 5
+- MicrosoftServices: 717
 - Midjourney: 2
 - MistralAI: 3
 - MoonshotKimi: 6
 - NPM: 3
 - NetEase: 5
+- NetEaseGames: 4
 - Netflix: 1153
+- Nintendo: 4
 - OpenAI: 52
 - PayPal: 248
 - Payment: 252
 - Perplexity: 3
+- PlayStation: 4
 - Poe: 3
 - Privacy: 2
-- ProxyAll: 14210
+- ProxyAll: 14261
 - PyPI: 3
 - Qwen: 4
 - Railway12306: 3
 - Reddit: 8
+- RejectAll: 256065
 - Replicate: 3
+- RiotGames: 4
+- RubyGems: 3
 - Runway: 3
+- Rust: 4
 - Spotify: 30
 - StabilityAI: 3
+- Steam: 6
 - Stripe: 4
 - Telegram: 31
 - Tencent: 6
+- TencentGames: 5
+- TestSites: 10
 - TikTok: 32
 - Twitch: 20
 - TwitterX: 33
+- VSCode: 4
 - WeChat: 5
 - Weibo: 3
 - Windsurf: 3
+- Xbox: 4
 - Xiaomi: 4
 - YouTube: 192
 - Zhihu: 2
 
-## Fetch Results
+## 上游拉取结果 / Fetch Results
 
 - blackmatrix7-openai-quanx: ok
 - blackmatrix7-github-quanx: ok
@@ -105,51 +143,118 @@
 - blackmatrix7-china-clash: ok
 - acl4ssr-global-clash: ok
 
-## Protected Reject Removals
+## 已从拒绝规则移除的保护域名 / Protected Reject Removals
 
 - Advertising:domain:api-iam.intercom.io
+- Advertising:domain:api.edgeoffer.microsoft.com
 - Advertising:domain:c.paypal.com
+- Advertising:domain:corp.sts.microsoft.com
+- Advertising:domain:events.data.microsoft.com
 - Advertising:domain:js.intercomcdn.com
+- Advertising:domain:mobile.pipe.aria.microsoft.com
 - Advertising:domain:optanon.blob.core.windows.net
 - Advertising:domain:revboostprocdnadsprod.azureedge.net
+- Advertising:domain:settings-win-ppe.data.microsoft.com
+- Advertising:domain:settings-win.data.microsoft.com
+- Advertising:domain:teredo.ipv6.microsoft.com
+- Advertising:domain:vortex-win-sandbox.data.microsoft.com
 - Advertising:domain:widget.intercom.io
+- Advertising:domain:win10.ipv6.microsoft.com
+- Advertising:domain:win1710.ipv6.microsoft.com
+- Advertising:domain:win8.ipv6.microsoft.com
+- Advertising:domain:ztd.dds.microsoft.com
+- Advertising:domain_suffix:ad-log-upload-os.hoyoverse.com
 - Advertising:domain_suffix:adncdnend.azureedge.net
 - Advertising:domain_suffix:analytics-consent-manager-v2-prod.azureedge.net
 - Advertising:domain_suffix:api.statsig.com
+- Advertising:domain_suffix:apm-log-upload-os.hoyoverse.com
+- Advertising:domain_suffix:bingads.microsoft.com
 - Advertising:domain_suffix:browser-intake-datadoghq.com
+- Advertising:domain_suffix:browser.pipe.aria.microsoft.com
+- Advertising:domain_suffix:c.microsoft.com
+- Advertising:domain_suffix:c.xbox.com
 - Advertising:domain_suffix:cdnbigdata.azureedge.net
+- Advertising:domain_suffix:choice.microsoft.com
+- Advertising:domain_suffix:click.ccg.nintendo.com
+- Advertising:domain_suffix:click.em.blizzard.com
+- Advertising:domain_suffix:click.engage.xbox.com
+- Advertising:domain_suffix:clientlog.portal.office.com
 - Advertising:domain_suffix:cltgtstor001.blob.core.windows.net
 - Advertising:domain_suffix:collector-cdn.github.com
 - Advertising:domain_suffix:collector.github.com
 - Advertising:domain_suffix:connext-cdn.azureedge.net
+- Advertising:domain_suffix:contoso-my.sharepoint.com
 - Advertising:domain_suffix:copilot-telemetry.githubusercontent.com
+- Advertising:domain_suffix:crl.microsoft.com
 - Advertising:domain_suffix:csp-reporting.cloudflare.com
 - Advertising:domain_suffix:data.account.paypal.com
+- Advertising:domain_suffix:data.diagnostics.office.com
 - Advertising:domain_suffix:data.em2.cloudflare.com
 - Advertising:domain_suffix:data.fastlane-email.paypal.com
 - Advertising:domain_suffix:data.messaging.paypal.com
 - Advertising:domain_suffix:data.news.paypal.com
 - Advertising:domain_suffix:data.newsletter.paypal.com
+- Advertising:domain_suffix:devlog-upload-os.hoyoverse.com
+- Advertising:domain_suffix:diagnostics.support.microsoft.com
+- Advertising:domain_suffix:ekg.riotgames.com
+- Advertising:domain_suffix:eu-mobile.events.data.microsoft.com
 - Advertising:domain_suffix:events.launchdarkly.com
+- Advertising:domain_suffix:expbl2ro.xbox.com
 - Advertising:domain_suffix:exposeboxwallashops.blob.core.windows.net
 - Advertising:domain_suffix:featuregates.org
 - Advertising:domain_suffix:fp-cdn.azureedge.net
+- Advertising:domain_suffix:fpt.microsoft.com
 - Advertising:domain_suffix:g2insights-cdn.azureedge.net
+- Advertising:domain_suffix:geo.battle.net
+- Advertising:domain_suffix:glbdns.microsoft.com
+- Advertising:domain_suffix:hkrpg-log-upload-os.hoyoverse.com
 - Advertising:domain_suffix:i.paypal.com
+- Advertising:domain_suffix:i1.services.social.microsoft.com
+- Advertising:domain_suffix:ieonline.microsoft.com
 - Advertising:domain_suffix:insitez.blob.core.windows.net
 - Advertising:domain_suffix:ip-check-perf.radar.cloudflare.com
 - Advertising:domain_suffix:loader-cdn.azureedge.net
+- Advertising:domain_suffix:log-upload-os.hoyolab.com
+- Advertising:domain_suffix:log-upload-os.hoyoverse.com
+- Advertising:domain_suffix:logs.appsource.microsoft.com
+- Advertising:domain_suffix:measure.office.com
 - Advertising:domain_suffix:mediaserver.gvcaffiliates.com.cdn.cloudflare.net
+- Advertising:domain_suffix:metrics-config.icloud.com
+- Advertising:domain_suffix:metrics.aem.playstation.com
+- Advertising:domain_suffix:metrics.eu.playstation.com
+- Advertising:domain_suffix:metrics.mzstatic.com
+- Advertising:domain_suffix:metrics.nintendo.com
+- Advertising:domain_suffix:metrics.us.playstation.com
 - Advertising:domain_suffix:msadsscale.azureedge.net
+- Advertising:domain_suffix:msadsscale.microsoft.com
+- Advertising:domain_suffix:o.xbox.com
+- Advertising:domain_suffix:oca.microsoft.com
 - Advertising:domain_suffix:proxima.midjourney.com
+- Advertising:domain_suffix:rad.microsoft.com
+- Advertising:domain_suffix:redir.metaservices.microsoft.com
+- Advertising:domain_suffix:sdk-log-upload-os.hoyoverse.com
 - Advertising:domain_suffix:sdtagging.azureedge.net
+- Advertising:domain_suffix:securemetrics-z.v.aaplimg.com
+- Advertising:domain_suffix:sentry.eks.hoyoverse.com
 - Advertising:domain_suffix:sentry.io
+- Advertising:domain_suffix:settings-sandbox.data.microsoft.com
+- Advertising:domain_suffix:sg-public-data-api.hoyoverse.com
+- Advertising:domain_suffix:smetric.ads.microsoft.com
 - Advertising:domain_suffix:stats.paypal.com
+- Advertising:domain_suffix:statsfe1.ws.microsoft.com
+- Advertising:domain_suffix:statsfe2.ws.microsoft.com
 - Advertising:domain_suffix:statsig.anthropic.com
 - Advertising:domain_suffix:statsigapi.net
 - Advertising:domain_suffix:t.paypal.com
+- Advertising:domain_suffix:target.microsoft.com
 - Advertising:domain_suffix:targetemsecure.blob.core.windows.net
+- Advertising:domain_suffix:telemetry-in.battle.net
+- Advertising:domain_suffix:telemetry.api.playstation.com
+- Advertising:domain_suffix:telemetry.battle.net
+- Advertising:domain_suffix:telemetry.microsoft.com
+- Advertising:domain_suffix:telemetry.urs.microsoft.com
 - Advertising:domain_suffix:tr.www.cloudflare.com
+- Advertising:domain_suffix:tracking.epicgames.com
 - Advertising:domain_suffix:utiq.lamontagne.fr.cdn.cloudflare.net
 - Advertising:domain_suffix:utiq.larep.fr.cdn.cloudflare.net
 - Advertising:domain_suffix:utiq.le-pays.fr.cdn.cloudflare.net
@@ -157,3 +262,8 @@
 - Advertising:domain_suffix:utiq.lejdc.fr.cdn.cloudflare.net
 - Advertising:domain_suffix:utiq.lepopulaire.fr.cdn.cloudflare.net
 - Advertising:domain_suffix:voduscdn.azureedge.net
+- Advertising:domain_suffix:vortex-sandbox.data.microsoft.com
+- Advertising:domain_suffix:vortex-win.data.microsoft.com
+- Advertising:domain_suffix:vortex.data.microsoft.com
+- Advertising:domain_suffix:watson.microsoft.com
+- Advertising:domain_suffix:ys-log-upload-os.hoyoverse.com

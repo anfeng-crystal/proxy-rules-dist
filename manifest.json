@@ -1,6 +1,21 @@
 {
   "categories": [
     {
+      "name": "LocalNetwork",
+      "policy": "DIRECT",
+      "rules": 18
+    },
+    {
+      "name": "ConnectivityCheck",
+      "policy": "DIRECT",
+      "rules": 9
+    },
+    {
+      "name": "TestSites",
+      "policy": "PROXY",
+      "rules": 10
+    },
+    {
       "name": "OpenAI",
       "policy": "OpenAI",
       "rules": 52
@@ -131,6 +146,36 @@
       "rules": 4
     },
     {
+      "name": "Go",
+      "policy": "Developer",
+      "rules": 5
+    },
+    {
+      "name": "Rust",
+      "policy": "Developer",
+      "rules": 4
+    },
+    {
+      "name": "RubyGems",
+      "policy": "Developer",
+      "rules": 3
+    },
+    {
+      "name": "Gradle",
+      "policy": "Developer",
+      "rules": 4
+    },
+    {
+      "name": "JetBrains",
+      "policy": "Developer",
+      "rules": 4
+    },
+    {
+      "name": "VSCode",
+      "policy": "Developer",
+      "rules": 4
+    },
+    {
       "name": "Cloudflare",
       "policy": "PROXY",
       "rules": 5
@@ -151,6 +196,21 @@
       "rules": 1864
     },
     {
+      "name": "AppleCDN",
+      "policy": "Apple",
+      "rules": 10
+    },
+    {
+      "name": "ApplePush",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "AppleMedia",
+      "policy": "Apple",
+      "rules": 5
+    },
+    {
       "name": "Google",
       "policy": "Google",
       "rules": 717
@@ -159,6 +219,16 @@
       "name": "Microsoft",
       "policy": "PROXY",
       "rules": 711
+    },
+    {
+      "name": "MicrosoftCloud",
+      "policy": "PROXY",
+      "rules": 9
+    },
+    {
+      "name": "MicrosoftDev",
+      "policy": "Developer",
+      "rules": 5
     },
     {
       "name": "Telegram",
@@ -224,6 +294,46 @@
       "name": "Amazon",
       "policy": "PROXY",
       "rules": 204
+    },
+    {
+      "name": "Steam",
+      "policy": "Game",
+      "rules": 6
+    },
+    {
+      "name": "EpicGames",
+      "policy": "Game",
+      "rules": 4
+    },
+    {
+      "name": "PlayStation",
+      "policy": "Game",
+      "rules": 4
+    },
+    {
+      "name": "Xbox",
+      "policy": "Game",
+      "rules": 4
+    },
+    {
+      "name": "Nintendo",
+      "policy": "Game",
+      "rules": 4
+    },
+    {
+      "name": "BattleNet",
+      "policy": "Game",
+      "rules": 4
+    },
+    {
+      "name": "RiotGames",
+      "policy": "Game",
+      "rules": 4
+    },
+    {
+      "name": "HoYoverse",
+      "policy": "Game",
+      "rules": 4
     },
     {
       "name": "Alibaba",
@@ -296,6 +406,41 @@
       "rules": 2
     },
     {
+      "name": "ChinaCloud",
+      "policy": "DIRECT",
+      "rules": 11
+    },
+    {
+      "name": "ChinaCDN",
+      "policy": "DIRECT",
+      "rules": 10
+    },
+    {
+      "name": "ChinaMedia",
+      "policy": "DIRECT",
+      "rules": 10
+    },
+    {
+      "name": "EducationCN",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "TencentGames",
+      "policy": "DIRECT",
+      "rules": 5
+    },
+    {
+      "name": "NetEaseGames",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "MiHoYoCN",
+      "policy": "DIRECT",
+      "rules": 5
+    },
+    {
       "name": "Railway12306",
       "policy": "DIRECT",
       "rules": 3
@@ -331,14 +476,24 @@
       "rules": 31
     },
     {
+      "name": "Hijacking",
+      "policy": "REJECT",
+      "rules": 5
+    },
+    {
       "name": "Advertising",
       "policy": "REJECT",
-      "rules": 256131
+      "rules": 256059
     },
     {
       "name": "Privacy",
       "policy": "REJECT",
       "rules": 2
+    },
+    {
+      "name": "DirectAll",
+      "policy": "DIRECT",
+      "rules": 166
     },
     {
       "name": "GlobalAI",
@@ -358,12 +513,42 @@
     {
       "name": "DomesticAll",
       "policy": "DIRECT",
-      "rules": 112
+      "rules": 143
+    },
+    {
+      "name": "ChinaWhitelist",
+      "policy": "DIRECT",
+      "rules": 95
+    },
+    {
+      "name": "AppleServices",
+      "policy": "Apple",
+      "rules": 1873
+    },
+    {
+      "name": "MicrosoftServices",
+      "policy": "PROXY",
+      "rules": 717
+    },
+    {
+      "name": "ChinaGame",
+      "policy": "DIRECT",
+      "rules": 14
+    },
+    {
+      "name": "GlobalGame",
+      "policy": "Game",
+      "rules": 34
+    },
+    {
+      "name": "GameAll",
+      "policy": "GameAll",
+      "rules": 48
     },
     {
       "name": "GlobalServices",
       "policy": "PROXY",
-      "rules": 10025
+      "rules": 10040
     },
     {
       "name": "GlobalApps",
@@ -373,7 +558,7 @@
     {
       "name": "Developer",
       "policy": "Developer",
-      "rules": 61
+      "rules": 84
     },
     {
       "name": "Payment",
@@ -381,9 +566,14 @@
       "rules": 252
     },
     {
+      "name": "RejectAll",
+      "policy": "REJECT",
+      "rules": 256065
+    },
+    {
       "name": "ProxyAll",
       "policy": "PROXY",
-      "rules": 14210
+      "rules": 14261
     }
   ],
   "report": {
@@ -503,6 +693,16 @@
     "warnings": [],
     "composites": [
       {
+        "name": "DirectAll",
+        "include": [
+          "LocalNetwork",
+          "ConnectivityCheck",
+          "DomesticAll",
+          "ChinaWhitelist"
+        ],
+        "rules": 166
+      },
+      {
         "name": "GlobalAI",
         "include": [
           "OpenAI",
@@ -561,23 +761,110 @@
           "Railway12306",
           "BankingCN",
           "GovCN",
+          "ChinaCloud",
+          "ChinaCDN",
+          "ChinaMedia",
+          "EducationCN",
+          "TencentGames",
+          "NetEaseGames",
+          "MiHoYoCN",
           "Direct",
           "China"
         ],
-        "rules": 112
+        "rules": 143
+      },
+      {
+        "name": "ChinaWhitelist",
+        "include": [
+          "Alibaba",
+          "Tencent",
+          "WeChat",
+          "Baidu",
+          "ByteDance",
+          "Douyin",
+          "Bilibili",
+          "NetEase",
+          "JD",
+          "Meituan",
+          "Xiaomi",
+          "Huawei",
+          "Weibo",
+          "Zhihu",
+          "Railway12306",
+          "BankingCN",
+          "GovCN",
+          "ChinaCloud",
+          "ChinaCDN",
+          "ChinaMedia",
+          "EducationCN"
+        ],
+        "rules": 95
+      },
+      {
+        "name": "AppleServices",
+        "include": [
+          "Apple",
+          "AppleCDN",
+          "ApplePush",
+          "AppleMedia"
+        ],
+        "rules": 1873
+      },
+      {
+        "name": "MicrosoftServices",
+        "include": [
+          "Microsoft",
+          "MicrosoftCloud",
+          "MicrosoftDev",
+          "MicrosoftCopilot",
+          "Xbox"
+        ],
+        "rules": 717
+      },
+      {
+        "name": "ChinaGame",
+        "include": [
+          "TencentGames",
+          "NetEaseGames",
+          "MiHoYoCN"
+        ],
+        "rules": 14
+      },
+      {
+        "name": "GlobalGame",
+        "include": [
+          "Steam",
+          "EpicGames",
+          "PlayStation",
+          "Xbox",
+          "Nintendo",
+          "BattleNet",
+          "RiotGames",
+          "HoYoverse"
+        ],
+        "rules": 34
+      },
+      {
+        "name": "GameAll",
+        "include": [
+          "GlobalGame",
+          "ChinaGame"
+        ],
+        "rules": 48
       },
       {
         "name": "GlobalServices",
         "include": [
           "Apple",
+          "AppleServices",
           "Google",
-          "Microsoft",
+          "MicrosoftServices",
           "Telegram",
           "Cloudflare",
           "Amazon",
           "Global"
         ],
-        "rules": 10025
+        "rules": 10040
       },
       {
         "name": "GlobalApps",
@@ -601,9 +888,15 @@
           "NPM",
           "PyPI",
           "Maven",
+          "Go",
+          "Rust",
+          "RubyGems",
+          "Gradle",
+          "JetBrains",
+          "VSCode",
           "Homebrew"
         ],
-        "rules": 61
+        "rules": 84
       },
       {
         "name": "Payment",
@@ -614,11 +907,21 @@
         "rules": 252
       },
       {
+        "name": "RejectAll",
+        "include": [
+          "Advertising",
+          "Privacy",
+          "Hijacking"
+        ],
+        "rules": 256065
+      },
+      {
         "name": "ProxyAll",
         "include": [
           "GlobalAI",
           "GlobalServices",
           "GlobalApps",
+          "GlobalGame",
           "Developer",
           "Payment",
           "GlobalMedia",
@@ -628,60 +931,132 @@
           "Spotify",
           "Global"
         ],
-        "rules": 14210
+        "rules": 14261
       }
     ],
     "protected_reject_removals": [
       "Advertising:domain:api-iam.intercom.io",
+      "Advertising:domain:api.edgeoffer.microsoft.com",
       "Advertising:domain:c.paypal.com",
+      "Advertising:domain:corp.sts.microsoft.com",
+      "Advertising:domain:events.data.microsoft.com",
       "Advertising:domain:js.intercomcdn.com",
+      "Advertising:domain:mobile.pipe.aria.microsoft.com",
       "Advertising:domain:optanon.blob.core.windows.net",
       "Advertising:domain:revboostprocdnadsprod.azureedge.net",
+      "Advertising:domain:settings-win-ppe.data.microsoft.com",
+      "Advertising:domain:settings-win.data.microsoft.com",
+      "Advertising:domain:teredo.ipv6.microsoft.com",
+      "Advertising:domain:vortex-win-sandbox.data.microsoft.com",
       "Advertising:domain:widget.intercom.io",
+      "Advertising:domain:win10.ipv6.microsoft.com",
+      "Advertising:domain:win1710.ipv6.microsoft.com",
+      "Advertising:domain:win8.ipv6.microsoft.com",
+      "Advertising:domain:ztd.dds.microsoft.com",
+      "Advertising:domain_suffix:ad-log-upload-os.hoyoverse.com",
       "Advertising:domain_suffix:adncdnend.azureedge.net",
       "Advertising:domain_suffix:analytics-consent-manager-v2-prod.azureedge.net",
       "Advertising:domain_suffix:api.statsig.com",
+      "Advertising:domain_suffix:apm-log-upload-os.hoyoverse.com",
+      "Advertising:domain_suffix:bingads.microsoft.com",
       "Advertising:domain_suffix:browser-intake-datadoghq.com",
+      "Advertising:domain_suffix:browser.pipe.aria.microsoft.com",
+      "Advertising:domain_suffix:c.microsoft.com",
+      "Advertising:domain_suffix:c.xbox.com",
       "Advertising:domain_suffix:cdnbigdata.azureedge.net",
+      "Advertising:domain_suffix:choice.microsoft.com",
+      "Advertising:domain_suffix:click.ccg.nintendo.com",
+      "Advertising:domain_suffix:click.em.blizzard.com",
+      "Advertising:domain_suffix:click.engage.xbox.com",
+      "Advertising:domain_suffix:clientlog.portal.office.com",
       "Advertising:domain_suffix:cltgtstor001.blob.core.windows.net",
       "Advertising:domain_suffix:collector-cdn.github.com",
       "Advertising:domain_suffix:collector.github.com",
       "Advertising:domain_suffix:connext-cdn.azureedge.net",
+      "Advertising:domain_suffix:contoso-my.sharepoint.com",
       "Advertising:domain_suffix:copilot-telemetry.githubusercontent.com",
+      "Advertising:domain_suffix:crl.microsoft.com",
       "Advertising:domain_suffix:csp-reporting.cloudflare.com",
       "Advertising:domain_suffix:data.account.paypal.com",
+      "Advertising:domain_suffix:data.diagnostics.office.com",
       "Advertising:domain_suffix:data.em2.cloudflare.com",
       "Advertising:domain_suffix:data.fastlane-email.paypal.com",
       "Advertising:domain_suffix:data.messaging.paypal.com",
       "Advertising:domain_suffix:data.news.paypal.com",
       "Advertising:domain_suffix:data.newsletter.paypal.com",
+      "Advertising:domain_suffix:devlog-upload-os.hoyoverse.com",
+      "Advertising:domain_suffix:diagnostics.support.microsoft.com",
+      "Advertising:domain_suffix:ekg.riotgames.com",
+      "Advertising:domain_suffix:eu-mobile.events.data.microsoft.com",
       "Advertising:domain_suffix:events.launchdarkly.com",
+      "Advertising:domain_suffix:expbl2ro.xbox.com",
       "Advertising:domain_suffix:exposeboxwallashops.blob.core.windows.net",
       "Advertising:domain_suffix:featuregates.org",
       "Advertising:domain_suffix:fp-cdn.azureedge.net",
+      "Advertising:domain_suffix:fpt.microsoft.com",
       "Advertising:domain_suffix:g2insights-cdn.azureedge.net",
+      "Advertising:domain_suffix:geo.battle.net",
+      "Advertising:domain_suffix:glbdns.microsoft.com",
+      "Advertising:domain_suffix:hkrpg-log-upload-os.hoyoverse.com",
       "Advertising:domain_suffix:i.paypal.com",
+      "Advertising:domain_suffix:i1.services.social.microsoft.com",
+      "Advertising:domain_suffix:ieonline.microsoft.com",
       "Advertising:domain_suffix:insitez.blob.core.windows.net",
       "Advertising:domain_suffix:ip-check-perf.radar.cloudflare.com",
       "Advertising:domain_suffix:loader-cdn.azureedge.net",
+      "Advertising:domain_suffix:log-upload-os.hoyolab.com",
+      "Advertising:domain_suffix:log-upload-os.hoyoverse.com",
+      "Advertising:domain_suffix:logs.appsource.microsoft.com",
+      "Advertising:domain_suffix:measure.office.com",
       "Advertising:domain_suffix:mediaserver.gvcaffiliates.com.cdn.cloudflare.net",
+      "Advertising:domain_suffix:metrics-config.icloud.com",
+      "Advertising:domain_suffix:metrics.aem.playstation.com",
+      "Advertising:domain_suffix:metrics.eu.playstation.com",
+      "Advertising:domain_suffix:metrics.mzstatic.com",
+      "Advertising:domain_suffix:metrics.nintendo.com",
+      "Advertising:domain_suffix:metrics.us.playstation.com",
       "Advertising:domain_suffix:msadsscale.azureedge.net",
+      "Advertising:domain_suffix:msadsscale.microsoft.com",
+      "Advertising:domain_suffix:o.xbox.com",
+      "Advertising:domain_suffix:oca.microsoft.com",
       "Advertising:domain_suffix:proxima.midjourney.com",
+      "Advertising:domain_suffix:rad.microsoft.com",
+      "Advertising:domain_suffix:redir.metaservices.microsoft.com",
+      "Advertising:domain_suffix:sdk-log-upload-os.hoyoverse.com",
       "Advertising:domain_suffix:sdtagging.azureedge.net",
+      "Advertising:domain_suffix:securemetrics-z.v.aaplimg.com",
+      "Advertising:domain_suffix:sentry.eks.hoyoverse.com",
       "Advertising:domain_suffix:sentry.io",
+      "Advertising:domain_suffix:settings-sandbox.data.microsoft.com",
+      "Advertising:domain_suffix:sg-public-data-api.hoyoverse.com",
+      "Advertising:domain_suffix:smetric.ads.microsoft.com",
       "Advertising:domain_suffix:stats.paypal.com",
+      "Advertising:domain_suffix:statsfe1.ws.microsoft.com",
+      "Advertising:domain_suffix:statsfe2.ws.microsoft.com",
       "Advertising:domain_suffix:statsig.anthropic.com",
       "Advertising:domain_suffix:statsigapi.net",
       "Advertising:domain_suffix:t.paypal.com",
+      "Advertising:domain_suffix:target.microsoft.com",
       "Advertising:domain_suffix:targetemsecure.blob.core.windows.net",
+      "Advertising:domain_suffix:telemetry-in.battle.net",
+      "Advertising:domain_suffix:telemetry.api.playstation.com",
+      "Advertising:domain_suffix:telemetry.battle.net",
+      "Advertising:domain_suffix:telemetry.microsoft.com",
+      "Advertising:domain_suffix:telemetry.urs.microsoft.com",
       "Advertising:domain_suffix:tr.www.cloudflare.com",
+      "Advertising:domain_suffix:tracking.epicgames.com",
       "Advertising:domain_suffix:utiq.lamontagne.fr.cdn.cloudflare.net",
       "Advertising:domain_suffix:utiq.larep.fr.cdn.cloudflare.net",
       "Advertising:domain_suffix:utiq.le-pays.fr.cdn.cloudflare.net",
       "Advertising:domain_suffix:utiq.lechorepublicain.fr.cdn.cloudflare.net",
       "Advertising:domain_suffix:utiq.lejdc.fr.cdn.cloudflare.net",
       "Advertising:domain_suffix:utiq.lepopulaire.fr.cdn.cloudflare.net",
-      "Advertising:domain_suffix:voduscdn.azureedge.net"
+      "Advertising:domain_suffix:voduscdn.azureedge.net",
+      "Advertising:domain_suffix:vortex-sandbox.data.microsoft.com",
+      "Advertising:domain_suffix:vortex-win.data.microsoft.com",
+      "Advertising:domain_suffix:vortex.data.microsoft.com",
+      "Advertising:domain_suffix:watson.microsoft.com",
+      "Advertising:domain_suffix:ys-log-upload-os.hoyoverse.com"
     ]
   }
 }
