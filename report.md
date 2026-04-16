@@ -2,18 +2,83 @@
 
 ## Counts
 
-- Advertising: 256173
+- AIAll: 118
+- Advertising: 256131
+- Alibaba: 7
+- Amazon: 204
+- AnthropicClaude: 4
 - Apple: 1864
-- China: 1
+- Baidu: 4
+- BankingCN: 7
+- Bilibili: 4
+- ByteDance: 5
+- ByteDanceDoubao: 4
+- China: 31
+- ChinaAI: 17
+- Cloudflare: 5
+- Cursor: 3
+- DeepSeek: 3
+- Developer: 61
 - Direct: 9
+- Discord: 29
+- DisneyPlus: 5
+- Docker: 5
+- DomesticAll: 112
+- Douyin: 5
+- FacebookMeta: 569
 - GitHub: 38
+- GitLab: 3
 - Global: 6883
+- GlobalAI: 101
+- GlobalApps: 692
 - GlobalMedia: 2325
+- GlobalServices: 10025
 - Google: 717
+- GoogleGemini: 6
+- GovCN: 5
+- GrokXAI: 4
 - Homebrew: 6
-- OpenAI: 44
+- Huawei: 4
+- HuggingFace: 4
+- Instagram: 4
+- JD: 4
+- Maven: 4
+- Meituan: 4
+- Microsoft: 711
+- MicrosoftCopilot: 5
+- Midjourney: 2
+- MistralAI: 3
+- MoonshotKimi: 6
+- NPM: 3
+- NetEase: 5
+- Netflix: 1153
+- OpenAI: 52
+- PayPal: 248
+- Payment: 252
+- Perplexity: 3
+- Poe: 3
 - Privacy: 2
+- ProxyAll: 14210
+- PyPI: 3
+- Qwen: 4
+- Railway12306: 3
+- Reddit: 8
+- Replicate: 3
+- Runway: 3
+- Spotify: 30
+- StabilityAI: 3
+- Stripe: 4
 - Telegram: 31
+- Tencent: 6
+- TikTok: 32
+- Twitch: 20
+- TwitterX: 33
+- WeChat: 5
+- Weibo: 3
+- Windsurf: 3
+- Xiaomi: 4
+- YouTube: 192
+- Zhihu: 2
 
 ## Fetch Results
 
@@ -22,17 +87,73 @@
 - blackmatrix7-apple-quanx: ok
 - blackmatrix7-google-quanx: ok
 - blackmatrix7-telegram-quanx: ok
+- blackmatrix7-youtube-quanx: ok
+- blackmatrix7-netflix-quanx: ok
+- blackmatrix7-spotify-quanx: ok
+- blackmatrix7-tiktok-quanx: ok
+- blackmatrix7-twitter-quanx: ok
+- blackmatrix7-facebook-quanx: ok
+- blackmatrix7-instagram-quanx: ok
+- blackmatrix7-discord-quanx: ok
+- blackmatrix7-reddit-quanx: ok
+- blackmatrix7-twitch-quanx: ok
+- blackmatrix7-amazon-quanx: ok
+- blackmatrix7-microsoft-quanx: ok
+- blackmatrix7-paypal-quanx: ok
 - blackmatrix7-globalmedia-quanx: ok
 - blackmatrix7-advertising-quanx: ok
+- blackmatrix7-china-clash: ok
 - acl4ssr-global-clash: ok
 
 ## Protected Reject Removals
 
 - Advertising:domain:api-iam.intercom.io
+- Advertising:domain:c.paypal.com
 - Advertising:domain:js.intercomcdn.com
+- Advertising:domain:optanon.blob.core.windows.net
+- Advertising:domain:revboostprocdnadsprod.azureedge.net
 - Advertising:domain:widget.intercom.io
+- Advertising:domain_suffix:adncdnend.azureedge.net
+- Advertising:domain_suffix:analytics-consent-manager-v2-prod.azureedge.net
 - Advertising:domain_suffix:api.statsig.com
+- Advertising:domain_suffix:browser-intake-datadoghq.com
+- Advertising:domain_suffix:cdnbigdata.azureedge.net
+- Advertising:domain_suffix:cltgtstor001.blob.core.windows.net
 - Advertising:domain_suffix:collector-cdn.github.com
 - Advertising:domain_suffix:collector.github.com
+- Advertising:domain_suffix:connext-cdn.azureedge.net
 - Advertising:domain_suffix:copilot-telemetry.githubusercontent.com
+- Advertising:domain_suffix:csp-reporting.cloudflare.com
+- Advertising:domain_suffix:data.account.paypal.com
+- Advertising:domain_suffix:data.em2.cloudflare.com
+- Advertising:domain_suffix:data.fastlane-email.paypal.com
+- Advertising:domain_suffix:data.messaging.paypal.com
+- Advertising:domain_suffix:data.news.paypal.com
+- Advertising:domain_suffix:data.newsletter.paypal.com
+- Advertising:domain_suffix:events.launchdarkly.com
+- Advertising:domain_suffix:exposeboxwallashops.blob.core.windows.net
+- Advertising:domain_suffix:featuregates.org
+- Advertising:domain_suffix:fp-cdn.azureedge.net
+- Advertising:domain_suffix:g2insights-cdn.azureedge.net
+- Advertising:domain_suffix:i.paypal.com
+- Advertising:domain_suffix:insitez.blob.core.windows.net
+- Advertising:domain_suffix:ip-check-perf.radar.cloudflare.com
+- Advertising:domain_suffix:loader-cdn.azureedge.net
+- Advertising:domain_suffix:mediaserver.gvcaffiliates.com.cdn.cloudflare.net
+- Advertising:domain_suffix:msadsscale.azureedge.net
+- Advertising:domain_suffix:proxima.midjourney.com
+- Advertising:domain_suffix:sdtagging.azureedge.net
 - Advertising:domain_suffix:sentry.io
+- Advertising:domain_suffix:stats.paypal.com
+- Advertising:domain_suffix:statsig.anthropic.com
+- Advertising:domain_suffix:statsigapi.net
+- Advertising:domain_suffix:t.paypal.com
+- Advertising:domain_suffix:targetemsecure.blob.core.windows.net
+- Advertising:domain_suffix:tr.www.cloudflare.com
+- Advertising:domain_suffix:utiq.lamontagne.fr.cdn.cloudflare.net
+- Advertising:domain_suffix:utiq.larep.fr.cdn.cloudflare.net
+- Advertising:domain_suffix:utiq.le-pays.fr.cdn.cloudflare.net
+- Advertising:domain_suffix:utiq.lechorepublicain.fr.cdn.cloudflare.net
+- Advertising:domain_suffix:utiq.lejdc.fr.cdn.cloudflare.net
+- Advertising:domain_suffix:utiq.lepopulaire.fr.cdn.cloudflare.net
+- Advertising:domain_suffix:voduscdn.azureedge.net

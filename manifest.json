@@ -3,7 +3,97 @@
     {
       "name": "OpenAI",
       "policy": "OpenAI",
-      "rules": 44
+      "rules": 52
+    },
+    {
+      "name": "AnthropicClaude",
+      "policy": "GlobalAI",
+      "rules": 4
+    },
+    {
+      "name": "GoogleGemini",
+      "policy": "GlobalAI",
+      "rules": 6
+    },
+    {
+      "name": "MicrosoftCopilot",
+      "policy": "GlobalAI",
+      "rules": 5
+    },
+    {
+      "name": "Perplexity",
+      "policy": "GlobalAI",
+      "rules": 3
+    },
+    {
+      "name": "MistralAI",
+      "policy": "GlobalAI",
+      "rules": 3
+    },
+    {
+      "name": "GrokXAI",
+      "policy": "GlobalAI",
+      "rules": 4
+    },
+    {
+      "name": "Poe",
+      "policy": "GlobalAI",
+      "rules": 3
+    },
+    {
+      "name": "HuggingFace",
+      "policy": "GlobalAI",
+      "rules": 4
+    },
+    {
+      "name": "Replicate",
+      "policy": "GlobalAI",
+      "rules": 3
+    },
+    {
+      "name": "Midjourney",
+      "policy": "GlobalAI",
+      "rules": 2
+    },
+    {
+      "name": "StabilityAI",
+      "policy": "GlobalAI",
+      "rules": 3
+    },
+    {
+      "name": "Runway",
+      "policy": "GlobalAI",
+      "rules": 3
+    },
+    {
+      "name": "Cursor",
+      "policy": "GlobalAI",
+      "rules": 3
+    },
+    {
+      "name": "Windsurf",
+      "policy": "GlobalAI",
+      "rules": 3
+    },
+    {
+      "name": "DeepSeek",
+      "policy": "DIRECT",
+      "rules": 3
+    },
+    {
+      "name": "MoonshotKimi",
+      "policy": "DIRECT",
+      "rules": 6
+    },
+    {
+      "name": "Qwen",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "ByteDanceDoubao",
+      "policy": "DIRECT",
+      "rules": 4
     },
     {
       "name": "Homebrew",
@@ -16,6 +106,46 @@
       "rules": 38
     },
     {
+      "name": "GitLab",
+      "policy": "Developer",
+      "rules": 3
+    },
+    {
+      "name": "Docker",
+      "policy": "Developer",
+      "rules": 5
+    },
+    {
+      "name": "NPM",
+      "policy": "Developer",
+      "rules": 3
+    },
+    {
+      "name": "PyPI",
+      "policy": "Developer",
+      "rules": 3
+    },
+    {
+      "name": "Maven",
+      "policy": "Developer",
+      "rules": 4
+    },
+    {
+      "name": "Cloudflare",
+      "policy": "PROXY",
+      "rules": 5
+    },
+    {
+      "name": "PayPal",
+      "policy": "Payment",
+      "rules": 248
+    },
+    {
+      "name": "Stripe",
+      "policy": "Payment",
+      "rules": 4
+    },
+    {
       "name": "Apple",
       "policy": "Apple",
       "rules": 1864
@@ -26,9 +156,159 @@
       "rules": 717
     },
     {
+      "name": "Microsoft",
+      "policy": "PROXY",
+      "rules": 711
+    },
+    {
       "name": "Telegram",
       "policy": "Telegram",
       "rules": 31
+    },
+    {
+      "name": "YouTube",
+      "policy": "PROXY",
+      "rules": 192
+    },
+    {
+      "name": "Netflix",
+      "policy": "PROXY",
+      "rules": 1153
+    },
+    {
+      "name": "DisneyPlus",
+      "policy": "PROXY",
+      "rules": 5
+    },
+    {
+      "name": "Spotify",
+      "policy": "PROXY",
+      "rules": 30
+    },
+    {
+      "name": "TikTok",
+      "policy": "PROXY",
+      "rules": 32
+    },
+    {
+      "name": "TwitterX",
+      "policy": "PROXY",
+      "rules": 33
+    },
+    {
+      "name": "FacebookMeta",
+      "policy": "PROXY",
+      "rules": 569
+    },
+    {
+      "name": "Instagram",
+      "policy": "PROXY",
+      "rules": 4
+    },
+    {
+      "name": "Discord",
+      "policy": "PROXY",
+      "rules": 29
+    },
+    {
+      "name": "Reddit",
+      "policy": "PROXY",
+      "rules": 8
+    },
+    {
+      "name": "Twitch",
+      "policy": "PROXY",
+      "rules": 20
+    },
+    {
+      "name": "Amazon",
+      "policy": "PROXY",
+      "rules": 204
+    },
+    {
+      "name": "Alibaba",
+      "policy": "DIRECT",
+      "rules": 7
+    },
+    {
+      "name": "Tencent",
+      "policy": "DIRECT",
+      "rules": 6
+    },
+    {
+      "name": "WeChat",
+      "policy": "DIRECT",
+      "rules": 5
+    },
+    {
+      "name": "Baidu",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "ByteDance",
+      "policy": "DIRECT",
+      "rules": 5
+    },
+    {
+      "name": "Douyin",
+      "policy": "DIRECT",
+      "rules": 5
+    },
+    {
+      "name": "Bilibili",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "NetEase",
+      "policy": "DIRECT",
+      "rules": 5
+    },
+    {
+      "name": "JD",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "Meituan",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "Xiaomi",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "Huawei",
+      "policy": "DIRECT",
+      "rules": 4
+    },
+    {
+      "name": "Weibo",
+      "policy": "DIRECT",
+      "rules": 3
+    },
+    {
+      "name": "Zhihu",
+      "policy": "DIRECT",
+      "rules": 2
+    },
+    {
+      "name": "Railway12306",
+      "policy": "DIRECT",
+      "rules": 3
+    },
+    {
+      "name": "BankingCN",
+      "policy": "DIRECT",
+      "rules": 7
+    },
+    {
+      "name": "GovCN",
+      "policy": "DIRECT",
+      "rules": 5
     },
     {
       "name": "GlobalMedia",
@@ -48,17 +328,62 @@
     {
       "name": "China",
       "policy": "DIRECT",
-      "rules": 1
+      "rules": 31
     },
     {
       "name": "Advertising",
       "policy": "REJECT",
-      "rules": 256173
+      "rules": 256131
     },
     {
       "name": "Privacy",
       "policy": "REJECT",
       "rules": 2
+    },
+    {
+      "name": "GlobalAI",
+      "policy": "GlobalAI",
+      "rules": 101
+    },
+    {
+      "name": "ChinaAI",
+      "policy": "DIRECT",
+      "rules": 17
+    },
+    {
+      "name": "AIAll",
+      "policy": "AIAll",
+      "rules": 118
+    },
+    {
+      "name": "DomesticAll",
+      "policy": "DIRECT",
+      "rules": 112
+    },
+    {
+      "name": "GlobalServices",
+      "policy": "PROXY",
+      "rules": 10025
+    },
+    {
+      "name": "GlobalApps",
+      "policy": "PROXY",
+      "rules": 692
+    },
+    {
+      "name": "Developer",
+      "policy": "Developer",
+      "rules": 61
+    },
+    {
+      "name": "Payment",
+      "policy": "Payment",
+      "rules": 252
+    },
+    {
+      "name": "ProxyAll",
+      "policy": "PROXY",
+      "rules": 14210
     }
   ],
   "report": {
@@ -90,6 +415,71 @@
         "error": ""
       },
       {
+        "name": "blackmatrix7-youtube-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-netflix-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-spotify-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-tiktok-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-twitter-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-facebook-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-instagram-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-discord-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-reddit-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-twitch-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-amazon-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-microsoft-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-paypal-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
         "name": "blackmatrix7-globalmedia-quanx",
         "ok": true,
         "error": ""
@@ -100,21 +490,198 @@
         "error": ""
       },
       {
+        "name": "blackmatrix7-china-clash",
+        "ok": true,
+        "error": ""
+      },
+      {
         "name": "acl4ssr-global-clash",
         "ok": true,
         "error": ""
       }
     ],
     "warnings": [],
+    "composites": [
+      {
+        "name": "GlobalAI",
+        "include": [
+          "OpenAI",
+          "AnthropicClaude",
+          "GoogleGemini",
+          "MicrosoftCopilot",
+          "Perplexity",
+          "MistralAI",
+          "GrokXAI",
+          "Poe",
+          "HuggingFace",
+          "Replicate",
+          "Midjourney",
+          "StabilityAI",
+          "Runway",
+          "Cursor",
+          "Windsurf"
+        ],
+        "rules": 101
+      },
+      {
+        "name": "ChinaAI",
+        "include": [
+          "DeepSeek",
+          "MoonshotKimi",
+          "Qwen",
+          "ByteDanceDoubao"
+        ],
+        "rules": 17
+      },
+      {
+        "name": "AIAll",
+        "include": [
+          "GlobalAI",
+          "ChinaAI"
+        ],
+        "rules": 118
+      },
+      {
+        "name": "DomesticAll",
+        "include": [
+          "Alibaba",
+          "Tencent",
+          "WeChat",
+          "Baidu",
+          "ByteDance",
+          "Douyin",
+          "Bilibili",
+          "NetEase",
+          "JD",
+          "Meituan",
+          "Xiaomi",
+          "Huawei",
+          "Weibo",
+          "Zhihu",
+          "Railway12306",
+          "BankingCN",
+          "GovCN",
+          "Direct",
+          "China"
+        ],
+        "rules": 112
+      },
+      {
+        "name": "GlobalServices",
+        "include": [
+          "Apple",
+          "Google",
+          "Microsoft",
+          "Telegram",
+          "Cloudflare",
+          "Amazon",
+          "Global"
+        ],
+        "rules": 10025
+      },
+      {
+        "name": "GlobalApps",
+        "include": [
+          "TikTok",
+          "TwitterX",
+          "FacebookMeta",
+          "Instagram",
+          "Discord",
+          "Reddit",
+          "Twitch"
+        ],
+        "rules": 692
+      },
+      {
+        "name": "Developer",
+        "include": [
+          "GitHub",
+          "GitLab",
+          "Docker",
+          "NPM",
+          "PyPI",
+          "Maven",
+          "Homebrew"
+        ],
+        "rules": 61
+      },
+      {
+        "name": "Payment",
+        "include": [
+          "PayPal",
+          "Stripe"
+        ],
+        "rules": 252
+      },
+      {
+        "name": "ProxyAll",
+        "include": [
+          "GlobalAI",
+          "GlobalServices",
+          "GlobalApps",
+          "Developer",
+          "Payment",
+          "GlobalMedia",
+          "YouTube",
+          "Netflix",
+          "DisneyPlus",
+          "Spotify",
+          "Global"
+        ],
+        "rules": 14210
+      }
+    ],
     "protected_reject_removals": [
       "Advertising:domain:api-iam.intercom.io",
+      "Advertising:domain:c.paypal.com",
       "Advertising:domain:js.intercomcdn.com",
+      "Advertising:domain:optanon.blob.core.windows.net",
+      "Advertising:domain:revboostprocdnadsprod.azureedge.net",
       "Advertising:domain:widget.intercom.io",
+      "Advertising:domain_suffix:adncdnend.azureedge.net",
+      "Advertising:domain_suffix:analytics-consent-manager-v2-prod.azureedge.net",
       "Advertising:domain_suffix:api.statsig.com",
+      "Advertising:domain_suffix:browser-intake-datadoghq.com",
+      "Advertising:domain_suffix:cdnbigdata.azureedge.net",
+      "Advertising:domain_suffix:cltgtstor001.blob.core.windows.net",
       "Advertising:domain_suffix:collector-cdn.github.com",
       "Advertising:domain_suffix:collector.github.com",
+      "Advertising:domain_suffix:connext-cdn.azureedge.net",
       "Advertising:domain_suffix:copilot-telemetry.githubusercontent.com",
-      "Advertising:domain_suffix:sentry.io"
+      "Advertising:domain_suffix:csp-reporting.cloudflare.com",
+      "Advertising:domain_suffix:data.account.paypal.com",
+      "Advertising:domain_suffix:data.em2.cloudflare.com",
+      "Advertising:domain_suffix:data.fastlane-email.paypal.com",
+      "Advertising:domain_suffix:data.messaging.paypal.com",
+      "Advertising:domain_suffix:data.news.paypal.com",
+      "Advertising:domain_suffix:data.newsletter.paypal.com",
+      "Advertising:domain_suffix:events.launchdarkly.com",
+      "Advertising:domain_suffix:exposeboxwallashops.blob.core.windows.net",
+      "Advertising:domain_suffix:featuregates.org",
+      "Advertising:domain_suffix:fp-cdn.azureedge.net",
+      "Advertising:domain_suffix:g2insights-cdn.azureedge.net",
+      "Advertising:domain_suffix:i.paypal.com",
+      "Advertising:domain_suffix:insitez.blob.core.windows.net",
+      "Advertising:domain_suffix:ip-check-perf.radar.cloudflare.com",
+      "Advertising:domain_suffix:loader-cdn.azureedge.net",
+      "Advertising:domain_suffix:mediaserver.gvcaffiliates.com.cdn.cloudflare.net",
+      "Advertising:domain_suffix:msadsscale.azureedge.net",
+      "Advertising:domain_suffix:proxima.midjourney.com",
+      "Advertising:domain_suffix:sdtagging.azureedge.net",
+      "Advertising:domain_suffix:sentry.io",
+      "Advertising:domain_suffix:stats.paypal.com",
+      "Advertising:domain_suffix:statsig.anthropic.com",
+      "Advertising:domain_suffix:statsigapi.net",
+      "Advertising:domain_suffix:t.paypal.com",
+      "Advertising:domain_suffix:targetemsecure.blob.core.windows.net",
+      "Advertising:domain_suffix:tr.www.cloudflare.com",
+      "Advertising:domain_suffix:utiq.lamontagne.fr.cdn.cloudflare.net",
+      "Advertising:domain_suffix:utiq.larep.fr.cdn.cloudflare.net",
+      "Advertising:domain_suffix:utiq.le-pays.fr.cdn.cloudflare.net",
+      "Advertising:domain_suffix:utiq.lechorepublicain.fr.cdn.cloudflare.net",
+      "Advertising:domain_suffix:utiq.lejdc.fr.cdn.cloudflare.net",
+      "Advertising:domain_suffix:utiq.lepopulaire.fr.cdn.cloudflare.net",
+      "Advertising:domain_suffix:voduscdn.azureedge.net"
     ]
   }
 }

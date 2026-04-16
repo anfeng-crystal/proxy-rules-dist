@@ -3,10 +3,15 @@
 # Category: OpenAI
 DOMAIN,auth0.openai.com,OpenAI
 DOMAIN,browser-intake-datadoghq.com,OpenAI
+DOMAIN,cdn.workos.com,OpenAI
 DOMAIN,challenges.cloudflare.com,OpenAI
 DOMAIN,chat.openai.com.cdn.cloudflare.net,OpenAI
 DOMAIN,client-api.arkoselabs.com,OpenAI
 DOMAIN,events.statsigapi.net,OpenAI
+DOMAIN,files.oaiusercontent.com,OpenAI
+DOMAIN,forwarder.workos.com,OpenAI
+DOMAIN,js.intercomcdn.com,OpenAI
+DOMAIN,js.stripe.com,OpenAI
 DOMAIN,openai-api.arkoselabs.com,OpenAI
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,OpenAI
 DOMAIN,openaicomproductionae4b.blob.core.windows.net,OpenAI
@@ -15,12 +20,15 @@ DOMAIN,rum.browser-intake-datadoghq.com,OpenAI
 DOMAIN,setup.auth.openai.com,OpenAI
 DOMAIN,static.cloudflareinsights.com,OpenAI
 DOMAIN,statsigapi.net,OpenAI
+DOMAIN,workos.imgix.net,OpenAI
 DOMAIN-KEYWORD,openai,OpenAI
 DOMAIN-SUFFIX,ai.com,OpenAI
 DOMAIN-SUFFIX,algolia.net,OpenAI
 DOMAIN-SUFFIX,api.statsig.com,OpenAI
 DOMAIN-SUFFIX,auth.openai.com,OpenAI
 DOMAIN-SUFFIX,auth0.com,OpenAI
+DOMAIN-SUFFIX,azureedge.net,OpenAI
+DOMAIN-SUFFIX,blob.core.windows.net,OpenAI
 DOMAIN-SUFFIX,chatgpt.com,OpenAI
 DOMAIN-SUFFIX,chatgpt.livekit.cloud,OpenAI
 DOMAIN-SUFFIX,client-api.arkoselabs.com,OpenAI
