@@ -41,7 +41,7 @@
     },
     {
       "name": "OpenAI",
-      "policy": "OpenAI",
+      "policy": "AI",
       "description": "OpenAI and ChatGPT web, upload, auth, and safety checks.",
       "rules": 52,
       "source_count": 34,
@@ -57,20 +57,15 @@
     },
     {
       "name": "AnthropicClaude",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Anthropic Claude web and API endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 4
     },
     {
       "name": "GoogleGemini",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Google Gemini, AI Studio, and NotebookLM endpoints.",
       "rules": 6,
       "source_count": 0,
@@ -86,159 +81,99 @@
     },
     {
       "name": "MicrosoftCopilot",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Microsoft Copilot and Bing AI endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 5
     },
     {
       "name": "Perplexity",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Perplexity web and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 3
     },
     {
       "name": "MistralAI",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Mistral AI web and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 3
     },
     {
       "name": "GrokXAI",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "xAI and Grok endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 4
     },
     {
       "name": "Poe",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Poe web, creator, and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 3
     },
     {
       "name": "HuggingFace",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Hugging Face model, dataset, and inference endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 4
     },
     {
       "name": "Replicate",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Replicate model and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 3
     },
     {
       "name": "Midjourney",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Midjourney web and CDN endpoints.",
       "rules": 2,
       "source_count": 0,
-      "manual_count": 2,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 2
     },
     {
       "name": "StabilityAI",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Stability AI web and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 3
     },
     {
       "name": "Runway",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Runway web and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 3
     },
     {
       "name": "Cursor",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Cursor editor, docs, and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 3
     },
     {
       "name": "Windsurf",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Windsurf editor, docs, and API endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3,
-      "icon_id": "global-ai",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "manual_count": 3
     },
     {
       "name": "DeepSeek",
@@ -294,7 +229,7 @@
     },
     {
       "name": "Homebrew",
-      "policy": "Homebrew",
+      "policy": "开发",
       "description": "Homebrew metadata, bottle, and GitHub Packages download paths.",
       "rules": 6,
       "source_count": 0,
@@ -326,7 +261,7 @@
     },
     {
       "name": "GitLab",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "GitLab web, API, and package endpoints.",
       "rules": 3,
       "source_count": 0,
@@ -342,7 +277,7 @@
     },
     {
       "name": "Docker",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "Docker Hub, registry, and container image endpoints.",
       "rules": 5,
       "source_count": 0,
@@ -358,7 +293,7 @@
     },
     {
       "name": "NPM",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "npm registry and package endpoints.",
       "rules": 3,
       "source_count": 0,
@@ -374,7 +309,7 @@
     },
     {
       "name": "PyPI",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "Python Package Index and file download endpoints.",
       "rules": 3,
       "source_count": 0,
@@ -390,7 +325,7 @@
     },
     {
       "name": "Maven",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "Maven Central and related artifact endpoints.",
       "rules": 4,
       "source_count": 0,
@@ -406,7 +341,7 @@
     },
     {
       "name": "Go",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "Go module proxy, checksum, docs, and download endpoints.",
       "rules": 5,
       "source_count": 0,
@@ -422,7 +357,7 @@
     },
     {
       "name": "Rust",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "Rust crates, static assets, toolchain, and docs endpoints.",
       "rules": 4,
       "source_count": 0,
@@ -438,33 +373,23 @@
     },
     {
       "name": "RubyGems",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "RubyGems package and CDN endpoints.",
       "rules": 3,
       "source_count": 0,
-      "manual_count": 3,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "developer.svg"
+      "manual_count": 3
     },
     {
       "name": "Gradle",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "Gradle plugin, service, and distribution endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "developer.svg"
+      "manual_count": 4
     },
     {
       "name": "JetBrains",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "JetBrains IDE, plugin, marketplace, and download endpoints.",
       "rules": 4,
       "source_count": 0,
@@ -480,7 +405,7 @@
     },
     {
       "name": "VSCode",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "Visual Studio Code marketplace, update, and extension endpoints.",
       "rules": 4,
       "source_count": 0,
@@ -496,7 +421,7 @@
     },
     {
       "name": "Cloudflare",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Cloudflare web, challenge, and developer endpoints.",
       "rules": 5,
       "source_count": 0,
@@ -560,7 +485,7 @@
     },
     {
       "name": "AppleCDN",
-      "policy": "Apple",
+      "policy": "Apple更新",
       "description": "Apple CDN, software update, app store asset, and static endpoints.",
       "rules": 10,
       "source_count": 0,
@@ -576,7 +501,7 @@
     },
     {
       "name": "ApplePush",
-      "policy": "DIRECT",
+      "policy": "Apple更新",
       "description": "Apple push notification and device reachability endpoints.",
       "rules": 4,
       "source_count": 0,
@@ -624,7 +549,7 @@
     },
     {
       "name": "Microsoft",
-      "policy": "PROXY",
+      "policy": "Microsoft",
       "description": "Microsoft overseas services, auth, and CDN endpoints.",
       "rules": 711,
       "source_count": 711,
@@ -640,29 +565,27 @@
     },
     {
       "name": "MicrosoftCloud",
-      "policy": "PROXY",
+      "policy": "Microsoft",
       "description": "Azure, Office, OneDrive, SharePoint, and Microsoft cloud endpoints.",
       "rules": 9,
       "source_count": 0,
       "manual_count": 9,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "proxy.svg"
+      "icon_id": "microsoft",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/microsoft.svg",
+      "remote_icon_url": "https://cdn.simpleicons.org/microsoft",
+      "source_kind": "simple-icons",
+      "source_url": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0",
+      "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "local_fallback": "microsoft.svg"
     },
     {
       "name": "MicrosoftDev",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "Microsoft developer, NuGet, Visual Studio, and package endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5,
-      "icon_id": "developer",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "developer.svg"
+      "manual_count": 5
     },
     {
       "name": "Telegram",
@@ -682,7 +605,7 @@
     },
     {
       "name": "YouTube",
-      "policy": "PROXY",
+      "policy": "YouTube",
       "description": "YouTube web, video, and static endpoints.",
       "rules": 192,
       "source_count": 192,
@@ -698,7 +621,7 @@
     },
     {
       "name": "Netflix",
-      "policy": "PROXY",
+      "policy": "Netflix",
       "description": "Netflix app, web, and video CDN endpoints.",
       "rules": 1153,
       "source_count": 1153,
@@ -714,20 +637,15 @@
     },
     {
       "name": "DisneyPlus",
-      "policy": "PROXY",
+      "policy": "Disney+",
       "description": "Disney+ app, web, and video endpoints.",
       "rules": 5,
       "source_count": 0,
-      "manual_count": 5,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "proxy.svg"
+      "manual_count": 5
     },
     {
       "name": "Spotify",
-      "policy": "PROXY",
+      "policy": "GlobalMedia",
       "description": "Spotify app, web, and CDN endpoints.",
       "rules": 30,
       "source_count": 30,
@@ -743,7 +661,7 @@
     },
     {
       "name": "TikTok",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "TikTok overseas app, web, and CDN endpoints.",
       "rules": 32,
       "source_count": 32,
@@ -759,7 +677,7 @@
     },
     {
       "name": "TwitterX",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "X/Twitter web, API, media, and static endpoints.",
       "rules": 33,
       "source_count": 33,
@@ -775,7 +693,7 @@
     },
     {
       "name": "FacebookMeta",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Facebook and Meta web, API, and CDN endpoints.",
       "rules": 569,
       "source_count": 569,
@@ -791,7 +709,7 @@
     },
     {
       "name": "Instagram",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Instagram app, web, API, and media endpoints.",
       "rules": 4,
       "source_count": 4,
@@ -807,7 +725,7 @@
     },
     {
       "name": "Discord",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Discord app, web, voice, and CDN endpoints.",
       "rules": 29,
       "source_count": 29,
@@ -823,7 +741,7 @@
     },
     {
       "name": "Reddit",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Reddit web, API, and static endpoints.",
       "rules": 8,
       "source_count": 8,
@@ -839,7 +757,7 @@
     },
     {
       "name": "Twitch",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Twitch web, video, and CDN endpoints.",
       "rules": 20,
       "source_count": 20,
@@ -855,7 +773,7 @@
     },
     {
       "name": "Amazon",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Amazon overseas web, AWS edge, and media endpoints.",
       "rules": 204,
       "source_count": 204,
@@ -871,7 +789,7 @@
     },
     {
       "name": "Steam",
-      "policy": "Game",
+      "policy": "游戏",
       "description": "Steam store, community, CDN, and game content endpoints.",
       "rules": 6,
       "source_count": 0,
@@ -887,94 +805,59 @@
     },
     {
       "name": "EpicGames",
-      "policy": "Game",
+      "policy": "游戏",
       "description": "Epic Games store, launcher, Unreal, and CDN endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4,
-      "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "game.svg"
+      "manual_count": 4
     },
     {
       "name": "PlayStation",
-      "policy": "Game",
+      "policy": "游戏",
       "description": "PlayStation Network, store, login, and CDN endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4,
-      "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "game.svg"
+      "manual_count": 4
     },
     {
       "name": "Xbox",
-      "policy": "Game",
+      "policy": "游戏",
       "description": "Xbox Live, Microsoft gaming, and content endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4,
-      "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "game.svg"
+      "manual_count": 4
     },
     {
       "name": "Nintendo",
-      "policy": "Game",
+      "policy": "游戏",
       "description": "Nintendo account, store, online, and CDN endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4,
-      "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "game.svg"
+      "manual_count": 4
     },
     {
       "name": "BattleNet",
-      "policy": "Game",
+      "policy": "游戏",
       "description": "Battle.net, Blizzard, and Activision endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4,
-      "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "game.svg"
+      "manual_count": 4
     },
     {
       "name": "RiotGames",
-      "policy": "Game",
+      "policy": "游戏",
       "description": "Riot Games, League, Valorant, and CDN endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4,
-      "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "game.svg"
+      "manual_count": 4
     },
     {
       "name": "HoYoverse",
-      "policy": "Game",
+      "policy": "游戏",
       "description": "HoYoverse global game, account, and CDN endpoints.",
       "rules": 4,
       "source_count": 0,
-      "manual_count": 4,
-      "icon_id": "game",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "game.svg"
+      "manual_count": 4
     },
     {
       "name": "Alipay",
@@ -1394,16 +1277,11 @@
     },
     {
       "name": "ChinaMedia",
-      "policy": "DIRECT",
+      "policy": "国内流媒体",
       "description": "Mainland China music, video, live, and media endpoints.",
       "rules": 10,
       "source_count": 0,
-      "manual_count": 10,
-      "icon_id": "direct",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "direct.svg"
+      "manual_count": 10
     },
     {
       "name": "EducationCN",
@@ -1499,7 +1377,7 @@
     {
       "name": "GlobalMedia",
       "policy": "GlobalMedia",
-      "description": "Streaming, overseas media, and adult media services.",
+      "description": "Streaming and entertainment services.",
       "rules": 2366,
       "source_count": 2325,
       "manual_count": 41,
@@ -1511,7 +1389,7 @@
     },
     {
       "name": "Global",
-      "policy": "Global",
+      "policy": "海外网站",
       "description": "General overseas services.",
       "rules": 6849,
       "source_count": 6849,
@@ -1550,7 +1428,7 @@
     },
     {
       "name": "Hijacking",
-      "policy": "REJECT",
+      "policy": "广告",
       "description": "DNS hijacking, bogus response, and captive ad endpoints.",
       "rules": 5,
       "source_count": 0,
@@ -1563,7 +1441,7 @@
     },
     {
       "name": "Advertising",
-      "policy": "REJECT",
+      "policy": "广告",
       "description": "Advertising and tracking domains.",
       "rules": 256059,
       "source_count": 256056,
@@ -1576,7 +1454,7 @@
     },
     {
       "name": "Privacy",
-      "policy": "REJECT",
+      "policy": "广告",
       "description": "Privacy-invasive telemetry rules.",
       "rules": 2,
       "source_count": 0,
@@ -1754,7 +1632,7 @@
     },
     {
       "name": "WhatsApp",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "WhatsApp web and messaging endpoints.",
       "rules": 3,
       "source_count": 0,
@@ -1770,20 +1648,15 @@
     },
     {
       "name": "Messenger",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Messenger web and messaging endpoints.",
       "rules": 2,
       "source_count": 0,
-      "manual_count": 2,
-      "icon_id": "proxy",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg",
-      "source_kind": "generated",
-      "license": "unknown",
-      "local_fallback": "proxy.svg"
+      "manual_count": 2
     },
     {
       "name": "LinkedIn",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "LinkedIn web and API endpoints.",
       "rules": 3,
       "source_count": 0,
@@ -1799,7 +1672,7 @@
     },
     {
       "name": "Zoom",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Zoom web and meeting endpoints.",
       "rules": 2,
       "source_count": 0,
@@ -1815,7 +1688,7 @@
     },
     {
       "name": "Slack",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Slack web and collaboration endpoints.",
       "rules": 3,
       "source_count": 0,
@@ -1831,7 +1704,7 @@
     },
     {
       "name": "Notion",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Notion web and workspace endpoints.",
       "rules": 4,
       "source_count": 0,
@@ -1847,7 +1720,7 @@
     },
     {
       "name": "Dropbox",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Dropbox storage and file sync endpoints.",
       "rules": 3,
       "source_count": 0,
@@ -1863,7 +1736,7 @@
     },
     {
       "name": "Vercel",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "Vercel deployment and hosting endpoints.",
       "rules": 2,
       "source_count": 0,
@@ -1879,7 +1752,7 @@
     },
     {
       "name": "Netlify",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "Netlify deployment and hosting endpoints.",
       "rules": 2,
       "source_count": 0,
@@ -1908,7 +1781,7 @@
     },
     {
       "name": "GlobalAI",
-      "policy": "GlobalAI",
+      "policy": "AI",
       "description": "Merged overseas AI services for a dedicated AI proxy policy.",
       "rules": 101,
       "source_count": 34,
@@ -1934,7 +1807,7 @@
     },
     {
       "name": "AIAll",
-      "policy": "AIAll",
+      "policy": "AI",
       "description": "Mixed AI catalog that includes both GlobalAI and ChinaAI.",
       "rules": 118,
       "source_count": 34,
@@ -1973,7 +1846,7 @@
     },
     {
       "name": "ChinaContent",
-      "policy": "DIRECT",
+      "policy": "国内流媒体",
       "description": "Mainland China media and content services.",
       "rules": 23,
       "source_count": 0,
@@ -2038,7 +1911,7 @@
     },
     {
       "name": "DomesticAll",
-      "policy": "DIRECT",
+      "policy": "大陆网站",
       "description": "Merged mainland China family buckets and domestic direct fallbacks.",
       "rules": 177,
       "source_count": 30,
@@ -2051,7 +1924,7 @@
     },
     {
       "name": "ChinaWhitelist",
-      "policy": "DIRECT",
+      "policy": "大陆网站",
       "description": "Auditable mainland whitelist for banking, government, education, media, cloud, CDN, and travel services.",
       "rules": 85,
       "source_count": 0,
@@ -2080,7 +1953,7 @@
     },
     {
       "name": "MicrosoftServices",
-      "policy": "PROXY",
+      "policy": "Microsoft",
       "description": "Microsoft core, cloud, developer, Xbox, and Copilot service bundle.",
       "rules": 717,
       "source_count": 711,
@@ -2096,7 +1969,7 @@
     },
     {
       "name": "GlobalCore",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Core overseas platform services for account, cloud, and infrastructure access.",
       "rules": 3517,
       "source_count": 3493,
@@ -2109,7 +1982,7 @@
     },
     {
       "name": "GlobalCommunication",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Overseas communication and collaboration services.",
       "rules": 74,
       "source_count": 60,
@@ -2125,7 +1998,7 @@
     },
     {
       "name": "GlobalSocial",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Overseas social and community services.",
       "rules": 666,
       "source_count": 663,
@@ -2154,7 +2027,7 @@
     },
     {
       "name": "GlobalGame",
-      "policy": "Game",
+      "policy": "游戏",
       "description": "Overseas game platforms and publishers.",
       "rules": 34,
       "source_count": 0,
@@ -2167,7 +2040,7 @@
     },
     {
       "name": "GameAll",
-      "policy": "GameAll",
+      "policy": "游戏",
       "description": "Mixed game catalog that includes both GlobalGame and ChinaGame.",
       "rules": 48,
       "source_count": 0,
@@ -2180,7 +2053,7 @@
     },
     {
       "name": "GlobalServices",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Merged overseas platform and app services.",
       "rules": 4252,
       "source_count": 4211,
@@ -2193,7 +2066,7 @@
     },
     {
       "name": "GlobalApps",
-      "policy": "PROXY",
+      "policy": "境外服务",
       "description": "Merged overseas social and application services.",
       "rules": 735,
       "source_count": 723,
@@ -2206,7 +2079,7 @@
     },
     {
       "name": "Developer",
-      "policy": "Developer",
+      "policy": "开发",
       "description": "Merged developer ecosystem endpoints.",
       "rules": 88,
       "source_count": 31,
@@ -2232,7 +2105,7 @@
     },
     {
       "name": "RejectAll",
-      "policy": "REJECT",
+      "policy": "广告",
       "description": "Advertising, privacy, and hijacking reject bundle.",
       "rules": 256065,
       "source_count": 256056,
@@ -2245,7 +2118,7 @@
     },
     {
       "name": "ProxyAll",
-      "policy": "PROXY",
+      "policy": "兜底代理",
       "description": "Broad overseas proxy catalog for fallback subscriptions.",
       "rules": 7001,
       "source_count": 6773,

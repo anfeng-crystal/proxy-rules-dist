@@ -2,70 +2,70 @@ rules:
   - RULE-SET,LocalNetwork,DIRECT
   - RULE-SET,ConnectivityCheck,DIRECT
   - RULE-SET,TestSites,PROXY
-  - RULE-SET,OpenAI,OpenAI
-  - RULE-SET,AnthropicClaude,GlobalAI
-  - RULE-SET,GoogleGemini,GlobalAI
-  - RULE-SET,MicrosoftCopilot,GlobalAI
-  - RULE-SET,Perplexity,GlobalAI
-  - RULE-SET,MistralAI,GlobalAI
-  - RULE-SET,GrokXAI,GlobalAI
-  - RULE-SET,Poe,GlobalAI
-  - RULE-SET,HuggingFace,GlobalAI
-  - RULE-SET,Replicate,GlobalAI
-  - RULE-SET,Midjourney,GlobalAI
-  - RULE-SET,StabilityAI,GlobalAI
-  - RULE-SET,Runway,GlobalAI
-  - RULE-SET,Cursor,GlobalAI
-  - RULE-SET,Windsurf,GlobalAI
+  - RULE-SET,OpenAI,AI
+  - RULE-SET,AnthropicClaude,AI
+  - RULE-SET,GoogleGemini,AI
+  - RULE-SET,MicrosoftCopilot,AI
+  - RULE-SET,Perplexity,AI
+  - RULE-SET,MistralAI,AI
+  - RULE-SET,GrokXAI,AI
+  - RULE-SET,Poe,AI
+  - RULE-SET,HuggingFace,AI
+  - RULE-SET,Replicate,AI
+  - RULE-SET,Midjourney,AI
+  - RULE-SET,StabilityAI,AI
+  - RULE-SET,Runway,AI
+  - RULE-SET,Cursor,AI
+  - RULE-SET,Windsurf,AI
   - RULE-SET,DeepSeek,DIRECT
   - RULE-SET,MoonshotKimi,DIRECT
   - RULE-SET,Qwen,DIRECT
   - RULE-SET,ByteDanceDoubao,DIRECT
-  - RULE-SET,Homebrew,Homebrew
+  - RULE-SET,Homebrew,开发
   - RULE-SET,GitHub,GitHub
-  - RULE-SET,GitLab,Developer
-  - RULE-SET,Docker,Developer
-  - RULE-SET,NPM,Developer
-  - RULE-SET,PyPI,Developer
-  - RULE-SET,Maven,Developer
-  - RULE-SET,Go,Developer
-  - RULE-SET,Rust,Developer
-  - RULE-SET,RubyGems,Developer
-  - RULE-SET,Gradle,Developer
-  - RULE-SET,JetBrains,Developer
-  - RULE-SET,VSCode,Developer
-  - RULE-SET,Cloudflare,PROXY
+  - RULE-SET,GitLab,开发
+  - RULE-SET,Docker,开发
+  - RULE-SET,NPM,开发
+  - RULE-SET,PyPI,开发
+  - RULE-SET,Maven,开发
+  - RULE-SET,Go,开发
+  - RULE-SET,Rust,开发
+  - RULE-SET,RubyGems,开发
+  - RULE-SET,Gradle,开发
+  - RULE-SET,JetBrains,开发
+  - RULE-SET,VSCode,开发
+  - RULE-SET,Cloudflare,境外服务
   - RULE-SET,PayPal,Payment
   - RULE-SET,Stripe,Payment
   - RULE-SET,Apple,Apple
-  - RULE-SET,AppleCDN,Apple
-  - RULE-SET,ApplePush,DIRECT
+  - RULE-SET,AppleCDN,Apple更新
+  - RULE-SET,ApplePush,Apple更新
   - RULE-SET,AppleMedia,Apple
   - RULE-SET,Google,Google
-  - RULE-SET,Microsoft,PROXY
-  - RULE-SET,MicrosoftCloud,PROXY
-  - RULE-SET,MicrosoftDev,Developer
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,MicrosoftCloud,Microsoft
+  - RULE-SET,MicrosoftDev,开发
   - RULE-SET,Telegram,Telegram
-  - RULE-SET,YouTube,PROXY
-  - RULE-SET,Netflix,PROXY
-  - RULE-SET,DisneyPlus,PROXY
-  - RULE-SET,Spotify,PROXY
-  - RULE-SET,TikTok,PROXY
-  - RULE-SET,TwitterX,PROXY
-  - RULE-SET,FacebookMeta,PROXY
-  - RULE-SET,Instagram,PROXY
-  - RULE-SET,Discord,PROXY
-  - RULE-SET,Reddit,PROXY
-  - RULE-SET,Twitch,PROXY
-  - RULE-SET,Amazon,PROXY
-  - RULE-SET,Steam,Game
-  - RULE-SET,EpicGames,Game
-  - RULE-SET,PlayStation,Game
-  - RULE-SET,Xbox,Game
-  - RULE-SET,Nintendo,Game
-  - RULE-SET,BattleNet,Game
-  - RULE-SET,RiotGames,Game
-  - RULE-SET,HoYoverse,Game
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,DisneyPlus,Disney+
+  - RULE-SET,Spotify,GlobalMedia
+  - RULE-SET,TikTok,境外服务
+  - RULE-SET,TwitterX,境外服务
+  - RULE-SET,FacebookMeta,境外服务
+  - RULE-SET,Instagram,境外服务
+  - RULE-SET,Discord,境外服务
+  - RULE-SET,Reddit,境外服务
+  - RULE-SET,Twitch,境外服务
+  - RULE-SET,Amazon,境外服务
+  - RULE-SET,Steam,游戏
+  - RULE-SET,EpicGames,游戏
+  - RULE-SET,PlayStation,游戏
+  - RULE-SET,Xbox,游戏
+  - RULE-SET,Nintendo,游戏
+  - RULE-SET,BattleNet,游戏
+  - RULE-SET,RiotGames,游戏
+  - RULE-SET,HoYoverse,游戏
   - RULE-SET,Alipay,DIRECT
   - RULE-SET,TaobaoTmall,DIRECT
   - RULE-SET,Alibaba,DIRECT
@@ -96,7 +96,7 @@ rules:
   - RULE-SET,Zhihu,DIRECT
   - RULE-SET,ChinaCloud,DIRECT
   - RULE-SET,ChinaCDN,DIRECT
-  - RULE-SET,ChinaMedia,DIRECT
+  - RULE-SET,ChinaMedia,国内流媒体
   - RULE-SET,EducationCN,DIRECT
   - RULE-SET,TencentGames,DIRECT
   - RULE-SET,NetEaseGames,DIRECT
@@ -105,12 +105,12 @@ rules:
   - RULE-SET,BankingCN,DIRECT
   - RULE-SET,GovCN,DIRECT
   - RULE-SET,GlobalMedia,GlobalMedia
-  - RULE-SET,Global,Global
+  - RULE-SET,Global,海外网站
   - RULE-SET,Direct,DIRECT
   - RULE-SET,China,DIRECT
-  - RULE-SET,Hijacking,REJECT
-  - RULE-SET,Advertising,REJECT
-  - RULE-SET,Privacy,REJECT
+  - RULE-SET,Hijacking,广告
+  - RULE-SET,Advertising,广告
+  - RULE-SET,Privacy,广告
   - RULE-SET,Aliyun,DIRECT
   - RULE-SET,AlibabaCDN,DIRECT
   - RULE-SET,TencentMeeting,DIRECT
@@ -123,39 +123,39 @@ rules:
   - RULE-SET,ZhihuContent,DIRECT
   - RULE-SET,iQIYI,DIRECT
   - RULE-SET,Youku,DIRECT
-  - RULE-SET,WhatsApp,PROXY
-  - RULE-SET,Messenger,PROXY
-  - RULE-SET,LinkedIn,PROXY
-  - RULE-SET,Zoom,PROXY
-  - RULE-SET,Slack,PROXY
-  - RULE-SET,Notion,PROXY
-  - RULE-SET,Dropbox,PROXY
-  - RULE-SET,Vercel,Developer
-  - RULE-SET,Netlify,Developer
+  - RULE-SET,WhatsApp,境外服务
+  - RULE-SET,Messenger,境外服务
+  - RULE-SET,LinkedIn,境外服务
+  - RULE-SET,Zoom,境外服务
+  - RULE-SET,Slack,境外服务
+  - RULE-SET,Notion,境外服务
+  - RULE-SET,Dropbox,境外服务
+  - RULE-SET,Vercel,开发
+  - RULE-SET,Netlify,开发
   - RULE-SET,DirectAll,DIRECT
-  - RULE-SET,GlobalAI,GlobalAI
+  - RULE-SET,GlobalAI,AI
   - RULE-SET,ChinaAI,DIRECT
-  - RULE-SET,AIAll,AIAll
+  - RULE-SET,AIAll,AI
   - RULE-SET,ChinaPlatform,DIRECT
   - RULE-SET,ChinaInfra,DIRECT
-  - RULE-SET,ChinaContent,DIRECT
+  - RULE-SET,ChinaContent,国内流媒体
   - RULE-SET,ChinaFinance,DIRECT
   - RULE-SET,ChinaGovernment,DIRECT
   - RULE-SET,ChinaEducation,DIRECT
   - RULE-SET,ChinaTransport,DIRECT
-  - RULE-SET,DomesticAll,DIRECT
-  - RULE-SET,ChinaWhitelist,DIRECT
+  - RULE-SET,DomesticAll,大陆网站
+  - RULE-SET,ChinaWhitelist,大陆网站
   - RULE-SET,AppleServices,Apple
-  - RULE-SET,MicrosoftServices,PROXY
-  - RULE-SET,GlobalCore,PROXY
-  - RULE-SET,GlobalCommunication,PROXY
-  - RULE-SET,GlobalSocial,PROXY
+  - RULE-SET,MicrosoftServices,Microsoft
+  - RULE-SET,GlobalCore,境外服务
+  - RULE-SET,GlobalCommunication,境外服务
+  - RULE-SET,GlobalSocial,境外服务
   - RULE-SET,ChinaGame,DIRECT
-  - RULE-SET,GlobalGame,Game
-  - RULE-SET,GameAll,GameAll
-  - RULE-SET,GlobalServices,PROXY
-  - RULE-SET,GlobalApps,PROXY
-  - RULE-SET,Developer,Developer
+  - RULE-SET,GlobalGame,游戏
+  - RULE-SET,GameAll,游戏
+  - RULE-SET,GlobalServices,境外服务
+  - RULE-SET,GlobalApps,境外服务
+  - RULE-SET,Developer,开发
   - RULE-SET,Payment,Payment
-  - RULE-SET,RejectAll,REJECT
-  - RULE-SET,ProxyAll,PROXY
+  - RULE-SET,RejectAll,广告
+  - RULE-SET,ProxyAll,兜底代理
