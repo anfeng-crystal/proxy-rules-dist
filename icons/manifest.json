@@ -1,6 +1,6 @@
 {
   "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons",
-  "count": 105,
+  "count": 103,
   "icons": [
     {
       "id": "direct",
@@ -24,7 +24,8 @@
         "DIRECT",
         "Direct",
         "DirectAll",
-        "ConnectivityCheck"
+        "ConnectivityCheck",
+        "网络检测"
       ],
       "file": "direct.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
@@ -36,19 +37,16 @@
       "symbol": "PRX",
       "background": "#2563eb",
       "foreground": "#ffffff",
-      "description": "Generic proxy policy and proxy-all entry point.",
+      "description": "Generic overseas proxy policy entry point.",
       "source_kind": "generated",
       "source_url": "",
       "license": "unknown",
       "license_url": "",
       "remote_icon_url": null,
       "local_fallback": "proxy.svg",
-      "categories": [
-        "ProxyAll"
-      ],
+      "categories": [],
       "targets": [
-        "PROXY",
-        "ProxyAll"
+        "PROXY"
       ],
       "file": "proxy.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg",
@@ -75,6 +73,7 @@
       ],
       "targets": [
         "REJECT",
+        "Ads",
         "RejectAll",
         "Advertising",
         "Privacy",
@@ -101,7 +100,8 @@
         "GlobalAI"
       ],
       "targets": [
-        "GlobalAI"
+        "GlobalAI",
+        "AI"
       ],
       "file": "global-ai.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
@@ -131,29 +131,6 @@
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-ai.svg"
     },
     {
-      "id": "ai-all",
-      "label": "AI All",
-      "symbol": "AIO",
-      "background": "#14b8a6",
-      "foreground": "#ffffff",
-      "description": "Mixed AI entry point.",
-      "source_kind": "generated",
-      "source_url": "",
-      "license": "unknown",
-      "license_url": "",
-      "remote_icon_url": null,
-      "local_fallback": "ai-all.svg",
-      "categories": [
-        "AIAll"
-      ],
-      "targets": [
-        "AIAll"
-      ],
-      "file": "ai-all.svg",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/ai-all.svg",
-      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/ai-all.svg"
-    },
-    {
       "id": "developer",
       "label": "Developer",
       "symbol": "DEV",
@@ -170,7 +147,8 @@
         "Developer"
       ],
       "targets": [
-        "Developer"
+        "Developer",
+        "Dev"
       ],
       "file": "developer.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg",
@@ -227,29 +205,6 @@
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg"
     },
     {
-      "id": "game-all",
-      "label": "Game All",
-      "symbol": "GALL",
-      "background": "#fb7185",
-      "foreground": "#ffffff",
-      "description": "Mixed game entry point.",
-      "source_kind": "generated",
-      "source_url": "",
-      "license": "unknown",
-      "license_url": "",
-      "remote_icon_url": null,
-      "local_fallback": "game-all.svg",
-      "categories": [
-        "GameAll"
-      ],
-      "targets": [
-        "GameAll"
-      ],
-      "file": "game-all.svg",
-      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game-all.svg",
-      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game-all.svg"
-    },
-    {
       "id": "apple",
       "label": "Apple",
       "symbol": "APL",
@@ -264,14 +219,12 @@
       "local_fallback": "apple.svg",
       "categories": [
         "Apple",
-        "AppleServices",
         "AppleCDN",
         "ApplePush",
         "AppleMedia"
       ],
       "targets": [
         "Apple",
-        "AppleServices",
         "AppleCDN",
         "ApplePush",
         "AppleMedia"
@@ -294,10 +247,10 @@
       "remote_icon_url": null,
       "local_fallback": "global-media.svg",
       "categories": [
-        "GlobalMedia"
+        "DisneyPlus"
       ],
       "targets": [
-        "GlobalMedia"
+        "DisneyPlus"
       ],
       "file": "global-media.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-media.svg",
@@ -320,7 +273,8 @@
         "Global"
       ],
       "targets": [
-        "Global"
+        "Global",
+        "境外网站"
       ],
       "file": "global.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg",
@@ -527,7 +481,8 @@
         "DomesticAll"
       ],
       "targets": [
-        "DomesticAll"
+        "DomesticAll",
+        "国内应用"
       ],
       "file": "domestic-all.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg",
@@ -663,13 +618,11 @@
       "local_fallback": "openai.svg",
       "categories": [
         "OpenAI",
-        "GlobalAI",
-        "AIAll"
+        "GlobalAI"
       ],
       "targets": [
         "OpenAI",
-        "GlobalAI",
-        "AIAll"
+        "GlobalAI"
       ],
       "file": "openai.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/openai.svg",
@@ -690,13 +643,11 @@
       "local_fallback": "claude.svg",
       "categories": [
         "Claude",
-        "GlobalAI",
-        "AIAll"
+        "GlobalAI"
       ],
       "targets": [
         "Claude",
-        "GlobalAI",
-        "AIAll"
+        "GlobalAI"
       ],
       "file": "claude.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/claude.svg",
@@ -717,13 +668,11 @@
       "local_fallback": "anthropic.svg",
       "categories": [
         "Anthropic",
-        "GlobalAI",
-        "AIAll"
+        "GlobalAI"
       ],
       "targets": [
         "Anthropic",
-        "GlobalAI",
-        "AIAll"
+        "GlobalAI"
       ],
       "file": "anthropic.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/anthropic.svg",
@@ -745,14 +694,12 @@
       "categories": [
         "Gemini",
         "GoogleGemini",
-        "GlobalAI",
-        "AIAll"
+        "GlobalAI"
       ],
       "targets": [
         "Gemini",
         "GoogleGemini",
-        "GlobalAI",
-        "AIAll"
+        "GlobalAI"
       ],
       "file": "gemini.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/gemini.svg",
@@ -797,12 +744,10 @@
       "remote_icon_url": "https://cdn.simpleicons.org/microsoft",
       "local_fallback": "microsoft.svg",
       "categories": [
-        "Microsoft",
-        "MicrosoftServices"
+        "Microsoft"
       ],
       "targets": [
-        "Microsoft",
-        "MicrosoftServices"
+        "Microsoft"
       ],
       "file": "microsoft.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/microsoft.svg",
@@ -1097,12 +1042,10 @@
       "remote_icon_url": "https://cdn.simpleicons.org/paypal",
       "local_fallback": "paypal.svg",
       "categories": [
-        "PayPal",
-        "Payment"
+        "PayPal"
       ],
       "targets": [
-        "PayPal",
-        "Payment"
+        "PayPal"
       ],
       "file": "paypal.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/paypal.svg",
@@ -1122,12 +1065,10 @@
       "remote_icon_url": "https://cdn.simpleicons.org/stripe",
       "local_fallback": "stripe.svg",
       "categories": [
-        "Stripe",
-        "Payment"
+        "Stripe"
       ],
       "targets": [
-        "Stripe",
-        "Payment"
+        "Stripe"
       ],
       "file": "stripe.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/stripe.svg",
@@ -1147,12 +1088,10 @@
       "remote_icon_url": "https://cdn.simpleicons.org/spotify",
       "local_fallback": "spotify.svg",
       "categories": [
-        "Spotify",
-        "GlobalMedia"
+        "Spotify"
       ],
       "targets": [
-        "Spotify",
-        "GlobalMedia"
+        "Spotify"
       ],
       "file": "spotify.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/spotify.svg",
@@ -1328,12 +1267,10 @@
       "remote_icon_url": "https://cdn.simpleicons.org/twitch",
       "local_fallback": "twitch.svg",
       "categories": [
-        "Twitch",
-        "GlobalMedia"
+        "Twitch"
       ],
       "targets": [
-        "Twitch",
-        "GlobalMedia"
+        "Twitch"
       ],
       "file": "twitch.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/twitch.svg",
@@ -1353,12 +1290,10 @@
       "remote_icon_url": "https://cdn.simpleicons.org/steam",
       "local_fallback": "steam.svg",
       "categories": [
-        "Steam",
-        "Game"
+        "Steam"
       ],
       "targets": [
-        "Steam",
-        "Game"
+        "Steam"
       ],
       "file": "steam.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/steam.svg",
@@ -1630,12 +1565,10 @@
       "remote_icon_url": "https://cdn.simpleicons.org/alipay",
       "local_fallback": "alipay.svg",
       "categories": [
-        "Alipay",
-        "Payment"
+        "Alipay"
       ],
       "targets": [
-        "Alipay",
-        "Payment"
+        "Alipay"
       ],
       "file": "alipay.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/alipay.svg",

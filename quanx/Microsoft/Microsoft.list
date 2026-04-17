@@ -179,6 +179,7 @@ HOST-SUFFIX,biying.cn,Microsoft
 HOST-SUFFIX,biying.com,Microsoft
 HOST-SUFFIX,biying.com.cn,Microsoft
 HOST-SUFFIX,blazor.net,Microsoft
+HOST-SUFFIX,blob.core.windows.net,Microsoft
 HOST-SUFFIX,blueaggrestore.com,Microsoft
 HOST-SUFFIX,bluecloudprod.com,Microsoft
 HOST-SUFFIX,bluehatil.com,Microsoft
@@ -628,6 +629,7 @@ HOST-SUFFIX,sway.com,Microsoft
 HOST-SUFFIX,syncshop.cn,Microsoft
 HOST-SUFFIX,sysinternals.com,Microsoft
 HOST-SUFFIX,tailwindtraders.com,Microsoft
+HOST-SUFFIX,teams.microsoft.com,Microsoft
 HOST-SUFFIX,techhub.ms,Microsoft
 HOST-SUFFIX,tellmewhygame.com,Microsoft
 HOST-SUFFIX,tenor.com,Microsoft

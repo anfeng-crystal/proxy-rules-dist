@@ -1,0 +1,456 @@
+# RuleForge mihomo 完整规则配置模板。
+# 适用于基于 mihomo 内核的 Clash Party 和 Clash Verge Rev；将订阅导入客户端后，可作为本地配置或 Merge 模板使用。
+# rewrite/mitm 通常由客户端覆写、脚本、插件或外部模块承载，本 YAML 不混入 QuanX/Loon rewrite 语法。
+
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+ipv6: true
+
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 8.8.8.8
+    - 1.1.1.1
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+  fake-ip-filter:
+    - '*.lan'
+    - 'localhost.ptlogin2.qq.com'
+    - '+.wechat.com'
+    - '+.weixin.qq.com'
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+
+sniffer:
+  enable: true
+  parse-pure-ip: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+    TLS:
+      ports: [443, 8443]
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+proxy-providers: {}
+# paid:
+#   type: http
+#   url: https://example.invalid/paid-subscription.yaml
+#   path: ./proxy_provider/paid.yaml
+#   interval: 86400
+# free:
+#   type: http
+#   url: https://example.invalid/free-subscription.yaml
+#   path: ./proxy_provider/free.yaml
+#   interval: 21600
+
+proxies: []
+
+proxy-groups:
+  - name: "节点选择"
+    type: select
+    proxies: ["自动选择", "全部节点", "DIRECT"]
+  - name: "自动选择"
+    type: select
+    proxies: ["全部自动", "香港自动", "台湾自动", "日本自动", "新加坡自动", "美国自动", "韩国自动", "其他地区自动", "全部节点", "DIRECT"]
+  - name: "全部节点"
+    type: select
+    proxies: ["DIRECT"]
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+  - name: "全部自动"
+    type: url-test
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    url: "https://www.gstatic.com/generate_204"
+    interval: 600
+    tolerance: 50
+  - name: "香港"
+    type: select
+    proxies: ["香港节点", "香港自动", "全部节点", "DIRECT"]
+  - name: "台湾"
+    type: select
+    proxies: ["台湾节点", "台湾自动", "全部节点", "DIRECT"]
+  - name: "日本"
+    type: select
+    proxies: ["日本节点", "日本自动", "全部节点", "DIRECT"]
+  - name: "新加坡"
+    type: select
+    proxies: ["新加坡节点", "新加坡自动", "全部节点", "DIRECT"]
+  - name: "美国"
+    type: select
+    proxies: ["美国节点", "美国自动", "全部节点", "DIRECT"]
+  - name: "韩国"
+    type: select
+    proxies: ["韩国节点", "韩国自动", "全部节点", "DIRECT"]
+  - name: "其他地区"
+    type: select
+    proxies: ["其他地区节点", "其他地区自动", "全部节点", "DIRECT"]
+  - name: "香港节点"
+    type: select
+    proxies: ["DIRECT"]
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:香港|港澳|港区|Hong ?Kong|HongKong|HKG|HK|🇭🇰|港服|港线)).*"
+  - name: "台湾节点"
+    type: select
+    proxies: ["DIRECT"]
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:台湾|臺灣|台灣|Taiwan|TW|TPE|Taipei|台北|🇹🇼|Formosa)).*"
+  - name: "日本节点"
+    type: select
+    proxies: ["DIRECT"]
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:日本|Japan|JP|Tokyo|東京|大阪|Osaka|TYO|NRT|HND|🇯🇵)).*"
+  - name: "新加坡节点"
+    type: select
+    proxies: ["DIRECT"]
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:新加坡|Singapore|SG|SIN|SGP|狮城|獅城|星洲|🇸🇬)).*"
+  - name: "美国节点"
+    type: select
+    proxies: ["DIRECT"]
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:美国|美國|USA|US|United ?States|America|LAX|SFO|SEA|NYC|JFK|ORD|DFW|ATL|SJC|San ?Jose|Los ?Angeles|New ?York|🇺🇸)).*"
+  - name: "韩国节点"
+    type: select
+    proxies: ["DIRECT"]
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:韩国|韓國|Korea|KR|KOR|Seoul|首尔|首爾|ICN|🇰🇷)).*"
+  - name: "其他地区节点"
+    type: select
+    proxies: ["DIRECT"]
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads|(?:中国|中國|大陆|大陸|Mainland|北京|上海|广州|深圳|杭州|苏州|Beijing|Shanghai|Guangzhou|Shenzhen|Hangzhou|Suzhou)|(?:香港|港澳|港区|Hong ?Kong|HongKong|HKG|HK|🇭🇰|港服|港线)|(?:台湾|臺灣|台灣|Taiwan|TW|TPE|Taipei|台北|🇹🇼|Formosa)|(?:日本|Japan|JP|Tokyo|東京|大阪|Osaka|TYO|NRT|HND|🇯🇵)|(?:新加坡|Singapore|SG|SIN|SGP|狮城|獅城|星洲|🇸🇬)|(?:美国|美國|USA|US|United ?States|America|LAX|SFO|SEA|NYC|JFK|ORD|DFW|ATL|SJC|San ?Jose|Los ?Angeles|New ?York|🇺🇸)|(?:韩国|韓國|Korea|KR|KOR|Seoul|首尔|首爾|ICN|🇰🇷))).+"
+  - name: "香港自动"
+    type: url-test
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:香港|港澳|港区|Hong ?Kong|HongKong|HKG|HK|🇭🇰|港服|港线)).*"
+    url: "https://www.gstatic.com/generate_204"
+    interval: 600
+    tolerance: 50
+  - name: "台湾自动"
+    type: url-test
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:台湾|臺灣|台灣|Taiwan|TW|TPE|Taipei|台北|🇹🇼|Formosa)).*"
+    url: "https://www.gstatic.com/generate_204"
+    interval: 600
+    tolerance: 50
+  - name: "日本自动"
+    type: url-test
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:日本|Japan|JP|Tokyo|東京|大阪|Osaka|TYO|NRT|HND|🇯🇵)).*"
+    url: "https://www.gstatic.com/generate_204"
+    interval: 600
+    tolerance: 50
+  - name: "新加坡自动"
+    type: url-test
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:新加坡|Singapore|SG|SIN|SGP|狮城|獅城|星洲|🇸🇬)).*"
+    url: "https://www.gstatic.com/generate_204"
+    interval: 600
+    tolerance: 50
+  - name: "美国自动"
+    type: url-test
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:美国|美國|USA|US|United ?States|America|LAX|SFO|SEA|NYC|JFK|ORD|DFW|ATL|SJC|San ?Jose|Los ?Angeles|New ?York|🇺🇸)).*"
+    url: "https://www.gstatic.com/generate_204"
+    interval: 600
+    tolerance: 50
+  - name: "韩国自动"
+    type: url-test
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:韩国|韓國|Korea|KR|KOR|Seoul|首尔|首爾|ICN|🇰🇷)).*"
+    url: "https://www.gstatic.com/generate_204"
+    interval: 600
+    tolerance: 50
+  - name: "其他地区自动"
+    type: url-test
+    include-all-proxies: true
+    include-all-providers: true
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads|(?:中国|中國|大陆|大陸|Mainland|北京|上海|广州|深圳|杭州|苏州|Beijing|Shanghai|Guangzhou|Shenzhen|Hangzhou|Suzhou)|(?:香港|港澳|港区|Hong ?Kong|HongKong|HKG|HK|🇭🇰|港服|港线)|(?:台湾|臺灣|台灣|Taiwan|TW|TPE|Taipei|台北|🇹🇼|Formosa)|(?:日本|Japan|JP|Tokyo|東京|大阪|Osaka|TYO|NRT|HND|🇯🇵)|(?:新加坡|Singapore|SG|SIN|SGP|狮城|獅城|星洲|🇸🇬)|(?:美国|美國|USA|US|United ?States|America|LAX|SFO|SEA|NYC|JFK|ORD|DFW|ATL|SJC|San ?Jose|Los ?Angeles|New ?York|🇺🇸)|(?:韩国|韓國|Korea|KR|KOR|Seoul|首尔|首爾|ICN|🇰🇷))).+"
+    url: "https://www.gstatic.com/generate_204"
+    interval: 600
+    tolerance: 50
+  - name: "国内应用"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "网络检测"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "AI"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Apple"
+    type: select
+    proxies: ["DIRECT", "香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点"]
+  - name: "Microsoft"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Google"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "GitHub"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Dev"
+    type: select
+    proxies: ["GitHub", "香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Payment"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Game"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Telegram"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "YouTube"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Netflix"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "DisneyPlus"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Spotify"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "TikTok"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Twitter"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Facebook"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Instagram"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "境外网站"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Ads"
+    type: select
+    proxies: ["REJECT", "DIRECT"]
+  - name: "漏网之鱼"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+
+rule-providers:
+  Domestic:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Domestic/Domestic.yaml
+    path: ./ruleset/Domestic.yaml
+    interval: 86400
+  NetworkTest:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/NetworkTest/NetworkTest.yaml
+    path: ./ruleset/NetworkTest.yaml
+    interval: 86400
+  AI:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/AI/AI.yaml
+    path: ./ruleset/AI.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Apple/Apple.yaml
+    path: ./ruleset/Apple.yaml
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Microsoft/Microsoft.yaml
+    path: ./ruleset/Microsoft.yaml
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Google/Google.yaml
+    path: ./ruleset/Google.yaml
+    interval: 86400
+  GitHub:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GitHub/GitHub.yaml
+    path: ./ruleset/GitHub.yaml
+    interval: 86400
+  Dev:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Dev/Dev.yaml
+    path: ./ruleset/Dev.yaml
+    interval: 86400
+  Payment:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Payment/Payment.yaml
+    path: ./ruleset/Payment.yaml
+    interval: 86400
+  Game:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Game/Game.yaml
+    path: ./ruleset/Game.yaml
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Telegram/Telegram.yaml
+    path: ./ruleset/Telegram.yaml
+    interval: 86400
+  YouTube:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/YouTube/YouTube.yaml
+    path: ./ruleset/YouTube.yaml
+    interval: 86400
+  Netflix:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Netflix/Netflix.yaml
+    path: ./ruleset/Netflix.yaml
+    interval: 86400
+  DisneyPlus:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/DisneyPlus/DisneyPlus.yaml
+    path: ./ruleset/DisneyPlus.yaml
+    interval: 86400
+  Spotify:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Spotify/Spotify.yaml
+    path: ./ruleset/Spotify.yaml
+    interval: 86400
+  TikTok:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/TikTok/TikTok.yaml
+    path: ./ruleset/TikTok.yaml
+    interval: 86400
+  Twitter:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Twitter/Twitter.yaml
+    path: ./ruleset/Twitter.yaml
+    interval: 86400
+  Facebook:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Facebook/Facebook.yaml
+    path: ./ruleset/Facebook.yaml
+    interval: 86400
+  Instagram:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Instagram/Instagram.yaml
+    path: ./ruleset/Instagram.yaml
+    interval: 86400
+  GlobalSites:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GlobalSites/GlobalSites.yaml
+    path: ./ruleset/GlobalSites.yaml
+    interval: 86400
+  Ads:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Ads/Ads.yaml
+    path: ./ruleset/Ads.yaml
+    interval: 86400
+
+rules:
+  - DOMAIN,localhost,DIRECT
+  - DOMAIN-SUFFIX,home.arpa,DIRECT
+  - DOMAIN-SUFFIX,internal,DIRECT
+  - DOMAIN-SUFFIX,intranet,DIRECT
+  - DOMAIN-SUFFIX,lan,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,0.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,224.0.0.0/4,DIRECT,no-resolve
+  - IP-CIDR,255.255.255.255/32,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - RULE-SET,Domestic,国内应用
+  - RULE-SET,NetworkTest,网络检测
+  - RULE-SET,AI,AI
+  - RULE-SET,Apple,Apple
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,Google,Google
+  - RULE-SET,GitHub,GitHub
+  - RULE-SET,Dev,Dev
+  - RULE-SET,Payment,Payment
+  - RULE-SET,Game,Game
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,DisneyPlus,DisneyPlus
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,TikTok,TikTok
+  - RULE-SET,Twitter,Twitter
+  - RULE-SET,Facebook,Facebook
+  - RULE-SET,Instagram,Instagram
+  - RULE-SET,GlobalSites,境外网站
+  - RULE-SET,Ads,Ads
+  - GEOIP,CN,国内应用,no-resolve
+  - MATCH,漏网之鱼

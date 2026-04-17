@@ -179,6 +179,7 @@ payload:
   - DOMAIN-SUFFIX,biying.com
   - DOMAIN-SUFFIX,biying.com.cn
   - DOMAIN-SUFFIX,blazor.net
+  - DOMAIN-SUFFIX,blob.core.windows.net
   - DOMAIN-SUFFIX,blueaggrestore.com
   - DOMAIN-SUFFIX,bluecloudprod.com
   - DOMAIN-SUFFIX,bluehatil.com
@@ -628,6 +629,7 @@ payload:
   - DOMAIN-SUFFIX,syncshop.cn
   - DOMAIN-SUFFIX,sysinternals.com
   - DOMAIN-SUFFIX,tailwindtraders.com
+  - DOMAIN-SUFFIX,teams.microsoft.com
   - DOMAIN-SUFFIX,techhub.ms
   - DOMAIN-SUFFIX,tellmewhygame.com
   - DOMAIN-SUFFIX,tenor.com

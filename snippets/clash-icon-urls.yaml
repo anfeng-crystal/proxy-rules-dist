@@ -1,61 +1,13 @@
 # RuleForge 图标 URL 清单。
 icon_urls:
-  AdGuardHome:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/adguard-home.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/adguard-home.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  Advertising:
+  Ads:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg
     source_kind: generated
     license: unknown
-  AIAll:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/ai-all.svg
+  AI:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg
     source_kind: generated
     license: unknown
-  Airport:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/airport.svg
-    remote: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png
-    source_kind: external_index
-    source_url: https://github.com/Koolson/Qure
-    license: unknown
-  Alibaba:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/alibaba.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/alibaba.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
-  Alipay:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/alipay.svg
-    remote: https://cdn.simpleicons.org/alipay
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Amazon:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/amazon.svg
-    remote: https://cdn.simpleicons.org/amazon
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  AmazonWebServices:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/aws.svg
-    remote: https://cdn.simpleicons.org/amazonwebservices
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Anthropic:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/anthropic.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/anthropic.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   Apple:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg
     remote: https://cdn.simpleicons.org/apple
@@ -63,165 +15,15 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  AppleCDN:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg
-    remote: https://cdn.simpleicons.org/apple
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  AppleMedia:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg
-    remote: https://cdn.simpleicons.org/apple
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  ApplePush:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg
-    remote: https://cdn.simpleicons.org/apple
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  AppleServices:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg
-    remote: https://cdn.simpleicons.org/apple
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  AWS:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/aws.svg
-    remote: https://cdn.simpleicons.org/amazonwebservices
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Baidu:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/baidu.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/baidu.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
-  Bilibili:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/bilibili.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/bilibili.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
-  ChinaAI:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-ai.svg
-    source_kind: generated
-    license: unknown
-  ChinaContent:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-content.svg
-    source_kind: generated
-    license: unknown
-  ChinaGame:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg
-    source_kind: generated
-    license: unknown
-  ChinaInfra:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-infra.svg
-    source_kind: generated
-    license: unknown
-  ChinaPlatform:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-platform.svg
-    source_kind: generated
-    license: unknown
-  ChinaWhitelist:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/china-whitelist.svg
-    source_kind: generated
-    license: unknown
-  Clash:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/clash-mihomo.svg
-    source_kind: external_index
-    source_url: https://github.com/Orz-3/mini
-    license: unknown
-  Claude:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/claude.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/claude.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
-  Cloudflare:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/cloudflare.svg
-    remote: https://cdn.simpleicons.org/cloudflare
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  ConnectivityCheck:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg
-    source_kind: generated
-    license: unknown
-  Developer:
+  Dev:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg
     source_kind: generated
     license: unknown
-  Direct:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg
+  DisneyPlus:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-media.svg
     source_kind: generated
     license: unknown
-  DIRECT:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg
-    source_kind: generated
-    license: unknown
-  DirectAll:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg
-    source_kind: generated
-    license: unknown
-  Discord:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/discord.svg
-    remote: https://cdn.simpleicons.org/discord
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Docker:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/docker.svg
-    remote: https://cdn.simpleicons.org/docker
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  DomesticAll:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg
-    source_kind: generated
-    license: unknown
-  Douyin:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/douyin.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/douyin.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
-  Dropbox:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/dropbox.svg
-    remote: https://cdn.simpleicons.org/dropbox
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Emby:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/emby.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/emby.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
   Facebook:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/facebook.svg
-    remote: https://cdn.simpleicons.org/facebook
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  FacebookMeta:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/facebook.svg
     remote: https://cdn.simpleicons.org/facebook
     source_kind: simple-icons
@@ -232,76 +34,9 @@ icon_urls:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg
     source_kind: generated
     license: unknown
-  GameAll:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/game-all.svg
-    source_kind: generated
-    license: unknown
-  Gemini:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/gemini.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gemini.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   GitHub:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/github.svg
     remote: https://cdn.simpleicons.org/github
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  GitLab:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/gitlab.svg
-    remote: https://cdn.simpleicons.org/gitlab
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Global:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg
-    source_kind: generated
-    license: unknown
-  GlobalAI:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg
-    source_kind: generated
-    license: unknown
-  GlobalApps:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-apps.svg
-    source_kind: generated
-    license: unknown
-  GlobalCommunication:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/whatsapp.svg
-    remote: https://cdn.simpleicons.org/whatsapp
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  GlobalCore:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-core.svg
-    source_kind: generated
-    license: unknown
-  GlobalGame:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg
-    source_kind: generated
-    license: unknown
-  GlobalMedia:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-media.svg
-    source_kind: generated
-    license: unknown
-  GlobalServices:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-services.svg
-    source_kind: generated
-    license: unknown
-  GlobalSocial:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/linkedin.svg
-    remote: https://cdn.simpleicons.org/linkedin
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Go:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/go.svg
-    remote: https://cdn.simpleicons.org/go
     source_kind: simple-icons
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
@@ -313,98 +48,9 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  GoogleGemini:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/gemini.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gemini.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
-  Grafana:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/grafana.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/grafana.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  Hijacking:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg
-    source_kind: generated
-    license: unknown
-  HomeAssistant:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/home-assistant.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/home-assistant.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  Homebrew:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/homebrew.svg
-    remote: https://cdn.simpleicons.org/homebrew
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  IEPL:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/iepl.svg
-    remote: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IEPL.png
-    source_kind: external_index
-    source_url: https://github.com/Koolson/Qure
-    license: unknown
-  Immich:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/immich.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/immich.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
   Instagram:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/instagram.svg
     remote: https://cdn.simpleicons.org/instagram
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  iQIYI:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/iqiyi.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/iqiyi.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
-  Jellyfin:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/jellyfin.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/jellyfin.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  JetBrains:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/jetbrains.svg
-    remote: https://cdn.simpleicons.org/jetbrains
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  LinkedIn:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/linkedin.svg
-    remote: https://cdn.simpleicons.org/linkedin
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  LocalNetwork:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/local-network.svg
-    source_kind: generated
-    license: unknown
-  Loon:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/loon.svg
-    source_kind: external_index
-    source_url: https://github.com/Orz-3/mini
-    license: unknown
-  Maven:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/maven.svg
-    remote: https://cdn.simpleicons.org/apachemaven
     source_kind: simple-icons
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
@@ -416,18 +62,6 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  MicrosoftServices:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/microsoft.svg
-    remote: https://cdn.simpleicons.org/microsoft
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Mihomo:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/clash-mihomo.svg
-    source_kind: external_index
-    source_url: https://github.com/Orz-3/mini
-    license: unknown
   Netflix:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/netflix.svg
     remote: https://cdn.simpleicons.org/netflix
@@ -435,181 +69,10 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Netlify:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/netlify.svg
-    remote: https://cdn.simpleicons.org/netlify
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  NginxProxyManager:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/nginx-proxy-manager.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/nginx-proxy-manager.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  Node:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/node.svg
-    source_kind: external_index
-    source_url: https://github.com/Orz-3/mini
-    license: unknown
-  Notion:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/notion.svg
-    remote: https://cdn.simpleicons.org/notion
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  NPM:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/npm.svg
-    remote: https://cdn.simpleicons.org/npm
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  OpenAI:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/openai.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   Payment:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg
     source_kind: generated
     license: unknown
-  PayPal:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/paypal.svg
-    remote: https://cdn.simpleicons.org/paypal
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Pinduoduo:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/pinduoduo.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/pinduoduo.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
-  Plex:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/plex.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/plex.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  Portainer:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/portainer.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/portainer.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  Privacy:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg
-    source_kind: generated
-    license: unknown
-  Prometheus:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/prometheus.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/prometheus.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  Proxmox:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxmox.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/proxmox.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  PROXY:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg
-    source_kind: generated
-    license: unknown
-  ProxyAll:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg
-    source_kind: generated
-    license: unknown
-  PyPI:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/pypi.svg
-    remote: https://cdn.simpleicons.org/pypi
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Python:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/python.svg
-    remote: https://cdn.simpleicons.org/python
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  qBittorrent:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/qbittorrent.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/qbittorrent.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  QQ:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/qq.svg
-    source_kind: custom
-    source_url: https://im.qq.com/
-    license: unknown
-  QuantumultX:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/quantumultx.svg
-    remote: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Quantumult_X.png
-    source_kind: external_index
-    source_url: https://github.com/Koolson/Qure
-    license: unknown
-  Reddit:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/reddit.svg
-    remote: https://cdn.simpleicons.org/reddit
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  REJECT:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg
-    source_kind: generated
-    license: unknown
-  RejectAll:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg
-    source_kind: generated
-    license: unknown
-  Rust:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/rust.svg
-    remote: https://cdn.simpleicons.org/rust
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Server:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/server.svg
-    remote: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
-    source_kind: external_index
-    source_url: https://github.com/Koolson/Qure
-    license: unknown
-  Shadowrocket:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/shadowrocket.svg
-    source_kind: external_index
-    source_url: https://github.com/Orz-3/mini
-    license: unknown
-  SingBox:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/singbox.svg
-    source_kind: external_index
-    source_url: https://github.com/Orz-3/mini
-    license: unknown
-  Slack:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/slack.svg
-    remote: https://cdn.simpleicons.org/slack
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
   Spotify:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/spotify.svg
     remote: https://cdn.simpleicons.org/spotify
@@ -617,46 +80,6 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  SS:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/ss-ssr.svg
-    remote: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SS.png
-    source_kind: external_index
-    source_url: https://github.com/Koolson/Qure
-    license: unknown
-  SSR:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/ss-ssr.svg
-    remote: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SS.png
-    source_kind: external_index
-    source_url: https://github.com/Koolson/Qure
-    license: unknown
-  Steam:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/steam.svg
-    remote: https://cdn.simpleicons.org/steam
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Stripe:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/stripe.svg
-    remote: https://cdn.simpleicons.org/stripe
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Synology:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/synology.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/synology.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  TaobaoTmall:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/taobao.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/taobao.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   Telegram:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/telegram.svg
     remote: https://cdn.simpleicons.org/telegram
@@ -664,36 +87,9 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Tencent:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/tencent.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/tencent.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
-  TencentCloud:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/tencentcloud.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/tencentcloud.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   TikTok:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/tiktok.svg
     remote: https://cdn.simpleicons.org/tiktok
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Trojan:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/trojan.svg
-    remote: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Trojan.png
-    source_kind: external_index
-    source_url: https://github.com/Koolson/Qure
-    license: unknown
-  Twitch:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/twitch.svg
-    remote: https://cdn.simpleicons.org/twitch
     source_kind: simple-icons
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
@@ -705,79 +101,6 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  TwitterX:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/x-twitter.svg
-    remote: https://cdn.simpleicons.org/x
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  UptimeKuma:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/uptime-kuma.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/uptime-kuma.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  Vaultwarden:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/vaultwarden.svg
-    remote: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/vaultwarden.svg
-    source_kind: selfhst-icons
-    source_url: https://github.com/selfhst/icons
-    license: CC-BY-4.0
-    license_url: https://github.com/selfhst/icons/blob/main/LICENSE
-  Vercel:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/vercel.svg
-    remote: https://cdn.simpleicons.org/vercel
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  VLESS:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/vmess-vless.svg
-    remote: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VMess.png
-    source_kind: external_index
-    source_url: https://github.com/Koolson/Qure
-    license: unknown
-  VMess:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/vmess-vless.svg
-    remote: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VMess.png
-    source_kind: external_index
-    source_url: https://github.com/Koolson/Qure
-    license: unknown
-  VSCode:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/vscode.svg
-    remote: https://cdn.simpleicons.org/visualstudiocode
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  WeChat:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/wechat.svg
-    source_kind: custom
-    source_url: https://weixin.qq.com/
-    license: unknown
-  WhatsApp:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/whatsapp.svg
-    remote: https://cdn.simpleicons.org/whatsapp
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  X:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/x-twitter.svg
-    remote: https://cdn.simpleicons.org/x
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Youku:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/youku.svg
-    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/youku.svg
-    source_kind: lobe-icons
-    source_url: https://github.com/lobehub/lobe-icons
-    license: MIT
-    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   YouTube:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/youtube.svg
     remote: https://cdn.simpleicons.org/youtube
@@ -785,10 +108,15 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
-  Zoom:
-    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/zoom.svg
-    remote: https://cdn.simpleicons.org/zoom
-    source_kind: simple-icons
-    source_url: https://github.com/simple-icons/simple-icons
-    license: CC0-1.0
-    license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
+  国内应用:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg
+    source_kind: generated
+    license: unknown
+  境外网站:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg
+    source_kind: generated
+    license: unknown
+  网络检测:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg
+    source_kind: generated
+    license: unknown

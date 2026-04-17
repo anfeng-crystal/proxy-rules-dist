@@ -179,6 +179,7 @@ DOMAIN-SUFFIX,biying.cn,Microsoft
 DOMAIN-SUFFIX,biying.com,Microsoft
 DOMAIN-SUFFIX,biying.com.cn,Microsoft
 DOMAIN-SUFFIX,blazor.net,Microsoft
+DOMAIN-SUFFIX,blob.core.windows.net,Microsoft
 DOMAIN-SUFFIX,blueaggrestore.com,Microsoft
 DOMAIN-SUFFIX,bluecloudprod.com,Microsoft
 DOMAIN-SUFFIX,bluehatil.com,Microsoft
@@ -628,6 +629,7 @@ DOMAIN-SUFFIX,sway.com,Microsoft
 DOMAIN-SUFFIX,syncshop.cn,Microsoft
 DOMAIN-SUFFIX,sysinternals.com,Microsoft
 DOMAIN-SUFFIX,tailwindtraders.com,Microsoft
+DOMAIN-SUFFIX,teams.microsoft.com,Microsoft
 DOMAIN-SUFFIX,techhub.ms,Microsoft
 DOMAIN-SUFFIX,tellmewhygame.com,Microsoft
 DOMAIN-SUFFIX,tenor.com,Microsoft

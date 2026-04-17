@@ -14,21 +14,21 @@ Recommended responsibilities:
 - `upstream`: registers remote sources only; it brings rules in, but does not define the final meaning.
 - `groups`: builds composed views from leaves or families for convenient subscription entry points.
 
-Category usage follows the same split:
+Category usage follows the same split, but the public subscription layer is intentionally coarse:
 
-- Service-level leaf categories are the real maintenance source and are suitable for precise troubleshooting and standalone subscription.
-- Family categories group related services together for auditing and bulk maintenance.
-- Scenario entries are convenience entry points for clients; every `All` class belongs here and should not be treated as a precise maintenance source.
+- Service-level leaf categories are the real maintenance source for troubleshooting and audits.
+- Public rule subscriptions expose only aggregate rules and standalone brand buckets.
+- Family and legacy intermediate buckets stay inside the build graph and are not emitted as public rule files.
 
 Reclassification and protection rules use two mechanisms:
 
 - `category_suppressions`: remove a domain from a broad upstream category when it is captured too early, so a narrower leaf or family can own it.
 - `exceptions.json`: keep protection domains, false-positive fixes, and long-lived exceptions here.
 
-Output URLs stay unchanged:
+Output URLs stay stable:
 
 - Existing `README.md`, `README.en.md`, `snippets/`, `dist/`, and public Pages URLs remain compatible.
-- The new structure changes maintenance workflow only; it does not change subscription URL usage.
+- Default snippets and full templates reference the public aggregate buckets only.
 
 ## Icons
 
@@ -45,9 +45,12 @@ Copyable open sources become local `dist/icons/*.svg` fallbacks. Link-only or in
 
 Common client entry points:
 
-- QuanX: `snippets/quanx-policy-icons.conf`
-- Loon: `snippets/loon-policy-icons.conf`
-- Clash: `snippets/clash-icon-urls.yaml`
+- QuanX policy template: `snippets/quanx-policy-groups.full.conf`
+- Loon policy template: `snippets/loon-policy-groups.full.conf`
+- Clash Party / Clash Verge Rev template: `snippets/mihomo-clash-party-verge-rev.template.yaml`
+- QuanX icons: `snippets/quanx-policy-icons.conf`
+- Loon icons: `snippets/loon-policy-icons.conf`
+- Clash icons: `snippets/clash-icon-urls.yaml`
 
 The default client snippets continue to use the Pages icon URLs to keep the path stable. `source` and `license` remain maintenance-layer metadata and do not change the default URL.
 
@@ -57,9 +60,9 @@ If the generator renames any of these files later, this repo will follow the pub
 
 ```text
 sources/
-  categories.json       Leaf categories, policies, and output order.
-  composites.json       Aggregate rule sets that include existing categories.
-  upstream.json         Remote upstream rule sources, kept compatible in phase one.
+  catalog/              Leaf categories, policies, and maintenance order.
+  groups/               Internal composites and public aggregate buckets.
+  upstream/             Remote upstream rule sources.
 overrides/
   *.json                Manual rules that are always included.
   exceptions.json       Reject protection and broad-category suppression rules.
@@ -102,40 +105,34 @@ Manual rules use a small canonical JSON format:
 
 ```json
 {
-  "category": "OpenAI",
+  "category": "ExampleLeaf",
   "rules": [
-    {"type": "domain_suffix", "value": "chatgpt.com"},
-    {"type": "domain_suffix", "value": "openai.com"}
+    {"type": "domain_suffix", "value": "example.com"},
+    {"type": "domain_suffix", "value": "static.example.com"}
   ]
 }
 ```
 
-Service-level leaf categories contain real rules and can be subscribed on their own. Family categories group related services for auditing and bulk maintenance. Scenario entries are convenience bundles for clients; every `All` class belongs here and should not be treated as a precise maintenance source. Composite categories never contain domains directly. They include leaf categories or other composites, and the builder expands and deduplicates them during generation.
+Service-level leaf categories contain real rules and remain the maintenance source. Public users should consume the aggregate buckets generated from those leaves. Composite categories never contain domains directly. They include leaf categories or other composites, and the builder expands and deduplicates them during generation.
 
-Key leaf and composite entries:
+Public remote rule IDs are English and stable. Policy group display names stay in Chinese or visible brand names.
 
-- `LocalNetwork`: local network, intranet, loopback, and captive portal endpoints. Subscribe this separately when you want to peel intranet traffic out of broader bundles.
-- `ConnectivityCheck`: system connectivity and reachability checks.
-- `ChinaWhitelist`: an inspectable mainland China whitelist.
-- `GlobalAI`: overseas AI services.
-- `ChinaAI`: mainland China AI services.
-- `AIAll`: mixed AI catalog for auditing; avoid using it as the only routing entry unless that is intentional.
-- `DirectAll`: local network, connectivity checks, domestic services, and China whitelist.
-- `DomesticAll`: mainland China family aggregation, usually built from platform, infrastructure, content, finance, government, education, and transport families.
-- `AppleServices`: Apple core, CDN, push, and media services.
-- `MicrosoftServices`: Microsoft core, cloud, developer, Xbox, and Copilot services.
-- `Developer`: GitHub, GitLab, Docker, npm, PyPI, Maven, Go, Rust, RubyGems, Gradle, JetBrains, VSCode, and Homebrew.
-- `GlobalGame` and `ChinaGame`: overseas and mainland game service bundles.
-- `GlobalMedia`: overseas streaming and media services.
-- `RejectAll`: advertising, privacy, and hijacking reject bundle.
-- `ProxyAll`: broad overseas fallback bundle.
+- `Domestic` -> `国内应用`: all mainland China apps, domestic AI, domestic payment/finance, and domestic direct fallbacks.
+- `NetworkTest` -> `网络检测`: connectivity, public IP, DNS leak, and browser fingerprint checks.
+- `AI`: overseas AI only.
+- `Apple`, `Microsoft`, `Google`, and `GitHub`: standalone brand buckets.
+- `Dev`: developer ecosystems other than the standalone GitHub bucket.
+- `Payment`: overseas payment and financial services only.
+- `Game`: overseas game services only.
+- `Telegram`, `YouTube`, `Netflix`, `DisneyPlus`, `Spotify`, `TikTok`, `Twitter`, `Facebook`, and `Instagram`: standalone media/social buckets.
+- `GlobalSites` -> `境外网站`: long-tail overseas services that do not have standalone buckets.
+- `Ads`: advertising, privacy, and hijacking reject rules.
 
 Recommended usage:
 
-- Use `LocalNetwork`, `ConnectivityCheck`, and `ChinaWhitelist` when you want to split intranet and direct traffic out from broader bundles.
-- Use `GlobalAI` for overseas AI, `ChinaAI` for domestic AI, and `AIAll` only when you want a full audit or migration view.
-- Use `DirectAll`, `DomesticAll`, and `ProxyAll` as convenience bundles, not as the only entry points.
-- Treat every `All` class as a scenario entry, not as a precise maintenance source.
+- Keep `LocalNetwork` in local rule sections; it is not a remote rule subscription and is not a visible policy group.
+- Add new services as leaves first, then include them in the appropriate public aggregate bucket.
+- Do not publish maintenance-layer leaves or intermediate buckets in default snippets, manifest, report, or public rule directories.
 
 ### Domestic and overseas families
 
@@ -144,7 +141,7 @@ For day-to-day maintenance, first organize services into families, then use thos
 - Domestic families can be grouped by platform, infrastructure, content, finance, government, education, and transport.
 - Overseas families can be grouped by core services, communication, social, media, games, development, and payment.
 - Service-level leaf categories sit under families and remain the true source for maintenance and troubleshooting.
-- `All` classes are kept for quick subscription and audit views only.
+- Public `dist/quanx`, `dist/loon`, `dist/clash`, and `dist/mihomo` directories emit only the allowlisted aggregate files.
 
 ## Policy Templates
 
@@ -153,9 +150,12 @@ Generated templates:
 ```text
 snippets/quanx-policy-groups.template.conf
 snippets/clash-proxy-groups.template.yaml
+snippets/quanx-policy-groups.full.conf
+snippets/loon-policy-groups.full.conf
+snippets/mihomo-clash-party-verge-rev.template.yaml
 ```
 
-Replace `节点A/节点B/节点C` with real node names or existing proxy groups.
+Fill the remote subscription placeholders with your node subscriptions. The templates keep `LocalNetwork` in local rule sections, expose one `NetworkTest` remote rule mapped to the `网络检测` policy, and use `Domestic`, `GlobalSites`, `Dev`, `Ads`, and the independent media/social remote IDs by default.
 
 ## Iterating Missing Domains
 
@@ -169,16 +169,15 @@ Replace `节点A/节点B/节点C` with real node names or existing proxy groups.
 
 ## Publishing
 
-The public subscription layer is:
+The public subscription layer uses aggregate URLs such as:
 
 ```text
 https://anfeng-crystal.github.io/proxy-rules-dist/
 https://anfeng-crystal.github.io/proxy-rules-dist/README.md
 https://anfeng-crystal.github.io/proxy-rules-dist/README.en.md
-https://anfeng-crystal.github.io/proxy-rules-dist/quanx/LocalNetwork/LocalNetwork.list
-https://anfeng-crystal.github.io/proxy-rules-dist/quanx/GlobalAI/GlobalAI.list
-https://anfeng-crystal.github.io/proxy-rules-dist/quanx/ChinaAI/ChinaAI.list
-https://anfeng-crystal.github.io/proxy-rules-dist/clash/ProxyAll/ProxyAll.yaml
+https://anfeng-crystal.github.io/proxy-rules-dist/quanx/Domestic/Domestic.list
+https://anfeng-crystal.github.io/proxy-rules-dist/quanx/AI/AI.list
+https://anfeng-crystal.github.io/proxy-rules-dist/quanx/GlobalSites/GlobalSites.list
 ```
 
 `.github/workflows/release-snapshot.yml` creates a dated GitHub Release snapshot after `Publish dist` succeeds. The archive bundles `dist/`, `snippets/`, `README.md`, `README.en.md`, and the Astro site source under `site/`, which makes rollback and comparison straightforward.

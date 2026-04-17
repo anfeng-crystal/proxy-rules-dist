@@ -7,9 +7,9 @@
 ## 项目定位
 
 - 单一源数据维护多客户端规则。
-- 叶子分类负责精细维护和单独订阅。
-- 家族分类负责同类服务归并和批量维护。
-- 场景入口负责快速选取，不承担细分维护职责。
+- 叶子分类只作为内部维护和聚合输入，不作为默认公开订阅入口。
+- 公开规则订阅只发布大规则聚合和独立品牌桶。
+- 场景入口负责日常使用，维护层分类负责审计、补充和回归。
 - `dist/` 是生成产物，`sources/` 和 `overrides/` 是维护源。
 
 ## 支持客户端
@@ -21,22 +21,24 @@
 
 ## 规则结构
 
-- `sources/categories.json`：叶子分类、策略名和输出顺序。
-- `sources/composites.json`：聚合规则，只组合已有分类。
-- `sources/upstream.json`：远程上游来源，负责引入外部规则。
+- `sources/catalog/categories.json`：叶子分类、策略名和维护顺序。
+- `sources/groups/composites.json`：内部聚合和公开大规则桶。
+- `sources/upstream/sources.json`：远程上游来源，负责引入外部规则。
 - `overrides/*.json`：手工规则、保护域名和固定例外。
 - `src/ruleforge/`：构建、归一化、输出和校验逻辑。
 - `dist/`：客户端规则、图标和构建报告。
 - `snippets/`：客户端订阅片段和策略组模板。
 - `site/`：Astro 公开发布页源码。
 
-## 策略组设计原则
+## 公开规则与策略组
 
-- 先叶子，后家族，再场景入口。
-- 先细分服务，再聚合归并，最后用兜底代理收口。
-- 内网、直连、支付、更新、开发、AI、媒体和游戏应分层维护。
-- `AIAll`、`DomesticAll`、`ProxyAll` 这类聚合组只适合作为快速入口或审计入口，不适合作为默认唯一入口。
-- 规则排序优先保证例外、内网、细分服务，再放家族聚合、拦截规则和兜底规则。
+- 远程规则 ID、文件名、目录名和 provider 名统一使用英文：`Domestic`、`NetworkTest`、`AI`、`Apple`、`Microsoft`、`Google`、`GitHub`、`Dev`、`Payment`、`Game`、`Telegram`、`YouTube`、`Netflix`、`DisneyPlus`、`Spotify`、`TikTok`、`Twitter`、`Facebook`、`Instagram`、`GlobalSites`、`Ads`。
+- 配置里的策略组展示名继续使用中文或品牌名：`国内应用`、`网络检测`、`AI`、`Apple`、`Microsoft`、`Google`、`GitHub`、`Dev`、`Payment`、`Game`、`Telegram`、`YouTube`、`Netflix`、`DisneyPlus`、`Spotify`、`TikTok`、`Twitter`、`Facebook`、`Instagram`、`境外网站`、`Ads`、`漏网之鱼`。
+- 远程规则到策略组的映射示例：`RULE-SET,Domestic,国内应用`、`RULE-SET,NetworkTest,网络检测`、`RULE-SET,GlobalSites,境外网站`。
+- `国内应用` 聚合所有国内应用、国内 AI、国内支付金融和国内直连兜底，默认走 `国内应用` 策略。
+- `AI` 只聚合海外 AI；`Payment` 只聚合海外支付金融；`Ads` 聚合广告、隐私和劫持拦截类。
+- `境外网站` 聚合未单独成桶的长尾境外服务，不吞并独立品牌桶。
+- `LocalNetwork` 只放入 QuanX/Loon 本地规则段和 Mihomo 前置本地 rules，不进入远程规则入口和策略组。
 
 ## 发布地址
 
@@ -50,16 +52,21 @@
 - Loon 远程规则：`snippets/loon-remote-rule.conf`
 - Clash Providers：`snippets/clash-rule-providers.yaml`
 - Clash Rules：`snippets/clash-rules.yaml`
+- QuanX 完整模板：`snippets/quanx-policy-groups.full.conf`
+- Loon 完整模板：`snippets/loon-policy-groups.full.conf`
+- Clash Party / Clash Verge Rev 模板：`snippets/mihomo-clash-party-verge-rev.template.yaml`
 - GitHub Releases：`https://github.com/anfeng-crystal/proxy-rules/releases`
 
 ## 如何使用
 
 1. 先从公开主页打开对应客户端入口。
 2. 按客户端导入远程规则片段。
-3. 需要精细控制时，优先订阅叶子分类。
-4. 需要快速切换时，再使用聚合分类。
-5. QuanX 的策略组模板使用 `snippets/quanx-policy-groups.full.conf`。
-6. 图标订阅分别使用 `snippets/quanx-policy-icons.conf`、`snippets/loon-policy-icons.conf` 和 `snippets/clash-icon-urls.yaml`。
+3. 默认订阅已经是大规则聚合，不需要逐个订阅叶子分类。
+4. 需要精细维护时，修改 `sources/` 和 `overrides/` 的叶子输入，再由公开桶聚合发布。
+5. QuanX 的完整模板使用 `snippets/quanx-policy-groups.full.conf`。
+6. Loon 的完整模板使用 `snippets/loon-policy-groups.full.conf`。
+7. Clash Party / Clash Verge Rev 使用 `snippets/mihomo-clash-party-verge-rev.template.yaml`。
+8. 图标订阅分别使用 `snippets/quanx-policy-icons.conf`、`snippets/loon-policy-icons.conf` 和 `snippets/clash-icon-urls.yaml`。
 
 ## 本地构建
 
@@ -81,9 +88,9 @@ PYTHONPATH=src python3 -m ruleforge.cli build \
 
 ```text
 sources/
-  categories.json       叶子分类、策略名和输出顺序。
-  composites.json       聚合规则，只组合已有分类。
-  upstream.json         远程上游来源。
+  catalog/              叶子分类、策略名和维护顺序。
+  groups/               内部聚合和公开大规则桶。
+  upstream/             远程上游来源。
 overrides/
   *.json                手工规则、保护域名和固定例外。
 src/ruleforge/
@@ -107,6 +114,6 @@ site/
 
 - `dist/` 是构建产物，不建议手工编辑。
 - 保护域名和误杀修正优先放到 `overrides/exceptions.json`。
-- 新服务先建叶子分类，再决定是否进入家族或场景入口。
+- 新服务先建叶子分类，再放入对应公开大规则桶；默认发布层不暴露维护层分类。
 - 公开页面和发布快照使用同一路径，日常使用优先 Pages，归档和回滚优先 Releases。
-- 如果需要更细的拆分，优先看叶子分类，不要先把所有东西压进一个大桶。
+- `dist/quanx`、`dist/loon`、`dist/clash` 和 `dist/mihomo` 只发布公开 allowlist 文件。
