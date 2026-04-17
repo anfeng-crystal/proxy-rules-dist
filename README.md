@@ -28,7 +28,7 @@
 - `src/ruleforge/`：构建、归一化、输出和校验逻辑。
 - `dist/`：客户端规则、图标和构建报告。
 - `snippets/`：客户端订阅片段和策略组模板。
-- `site/index.html`：公开发布页源文件。
+- `site/`：Astro 公开发布页源码。
 
 ## 策略组设计原则
 
@@ -99,7 +99,8 @@ dist/
 snippets/
   *.conf, *.yaml        客户端订阅片段和策略组模板。
 site/
-  index.html            发布页源文件。
+  src/pages/index.astro Astro 发布页入口。
+  public/               静态资源。
 ```
 
 ## 注意事项

@@ -76,7 +76,8 @@ dist/
 snippets/
   *.conf, *.yaml        Client subscription snippets and policy templates.
 site/
-  index.html            Published landing page template.
+  src/pages/index.astro Astro landing page entry.
+  public/               Static assets.
 ```
 
 ## Build
@@ -180,7 +181,7 @@ https://anfeng-crystal.github.io/proxy-rules-dist/quanx/ChinaAI/ChinaAI.list
 https://anfeng-crystal.github.io/proxy-rules-dist/clash/ProxyAll/ProxyAll.yaml
 ```
 
-`.github/workflows/release-snapshot.yml` creates a dated GitHub Release snapshot after `Publish dist` succeeds. The archive bundles `dist/`, `snippets/`, `README.md`, `README.en.md`, and `site/index.html`, which makes rollback and comparison straightforward.
+`.github/workflows/release-snapshot.yml` creates a dated GitHub Release snapshot after `Publish dist` succeeds. The archive bundles `dist/`, `snippets/`, `README.md`, `README.en.md`, and the Astro site source under `site/`, which makes rollback and comparison straightforward.
 
 If `dist/` contains `icons/`, Pages and Release snapshots pick it up automatically; no extra release lane is needed.
 
