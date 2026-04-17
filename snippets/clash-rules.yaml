@@ -20,10 +20,6 @@ rules:
   - RULE-SET,Domestic,国内应用
   - RULE-SET,NetworkTest,网络检测
   - RULE-SET,AI,AI
-  - RULE-SET,Apple,Apple
-  - RULE-SET,Microsoft,Microsoft
-  - RULE-SET,Google,Google
-  - RULE-SET,GitHub,GitHub
   - RULE-SET,Dev,Dev
   - RULE-SET,Payment,Payment
   - RULE-SET,Game,Game
@@ -36,5 +32,9 @@ rules:
   - RULE-SET,Twitter,Twitter
   - RULE-SET,Facebook,Facebook
   - RULE-SET,Instagram,Instagram
+  - RULE-SET,Apple,Apple
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,Google,Google
+  - RULE-SET,GitHub,GitHub
   - RULE-SET,GlobalSites,境外网站
   - RULE-SET,Ads,Ads

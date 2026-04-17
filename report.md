@@ -2,8 +2,8 @@
 
 ## 规则数量 / Counts
 
-- AI: 101
-- Ads: 256065
+- AI: 107
+- Ads: 256623
 - Apple: 1873
 - Dev: 55
 - DisneyPlus: 5

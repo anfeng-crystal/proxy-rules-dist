@@ -303,30 +303,6 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/AI/AI.yaml
     path: ./ruleset/AI.yaml
     interval: 86400
-  Apple:
-    type: http
-    behavior: classical
-    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Apple/Apple.yaml
-    path: ./ruleset/Apple.yaml
-    interval: 86400
-  Microsoft:
-    type: http
-    behavior: classical
-    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Microsoft/Microsoft.yaml
-    path: ./ruleset/Microsoft.yaml
-    interval: 86400
-  Google:
-    type: http
-    behavior: classical
-    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Google/Google.yaml
-    path: ./ruleset/Google.yaml
-    interval: 86400
-  GitHub:
-    type: http
-    behavior: classical
-    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GitHub/GitHub.yaml
-    path: ./ruleset/GitHub.yaml
-    interval: 86400
   Dev:
     type: http
     behavior: classical
@@ -399,6 +375,30 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Instagram/Instagram.yaml
     path: ./ruleset/Instagram.yaml
     interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Apple/Apple.yaml
+    path: ./ruleset/Apple.yaml
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Microsoft/Microsoft.yaml
+    path: ./ruleset/Microsoft.yaml
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Google/Google.yaml
+    path: ./ruleset/Google.yaml
+    interval: 86400
+  GitHub:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GitHub/GitHub.yaml
+    path: ./ruleset/GitHub.yaml
+    interval: 86400
   GlobalSites:
     type: http
     behavior: classical
@@ -434,10 +434,6 @@ rules:
   - RULE-SET,Domestic,国内应用
   - RULE-SET,NetworkTest,网络检测
   - RULE-SET,AI,AI
-  - RULE-SET,Apple,Apple
-  - RULE-SET,Microsoft,Microsoft
-  - RULE-SET,Google,Google
-  - RULE-SET,GitHub,GitHub
   - RULE-SET,Dev,Dev
   - RULE-SET,Payment,Payment
   - RULE-SET,Game,Game
@@ -450,6 +446,10 @@ rules:
   - RULE-SET,Twitter,Twitter
   - RULE-SET,Facebook,Facebook
   - RULE-SET,Instagram,Instagram
+  - RULE-SET,Apple,Apple
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,Google,Google
+  - RULE-SET,GitHub,GitHub
   - RULE-SET,GlobalSites,境外网站
   - RULE-SET,Ads,Ads
   - GEOIP,CN,国内应用,no-resolve

@@ -3,7 +3,7 @@
 # 分类 / Category: AI
 HOST,accounts.x.ai,AI
 HOST,ai.google.dev,AI
-HOST,aistudio.google.com,AI
+HOST,alkalimakersuite-pa.clients6.google.com,AI
 HOST,api.anthropic.com,AI
 HOST,api.cursor.com,AI
 HOST,api.mistral.ai,AI
@@ -31,12 +31,9 @@ HOST,edgeservices.bing.com,AI
 HOST,events.statsigapi.net,AI
 HOST,files.oaiusercontent.com,AI
 HOST,forwarder.workos.com,AI
-HOST,gemini.google.com,AI
 HOST,js.intercomcdn.com,AI
-HOST,js.stripe.com,AI
 HOST,login.live.com,AI
 HOST,makersuite.google.com,AI
-HOST,notebooklm.google.com,AI
 HOST,openai-api.arkoselabs.com,AI
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI
 HOST,openaicomproductionae4b.blob.core.windows.net,AI
@@ -45,17 +42,21 @@ HOST,rum.browser-intake-datadoghq.com,AI
 HOST,setup.auth.openai.com,AI
 HOST,static.cloudflareinsights.com,AI
 HOST,statsigapi.net,AI
+HOST,sydney.bing.com,AI
 HOST,workos.imgix.net,AI
+HOST-KEYWORD,colab,AI
+HOST-KEYWORD,developerprofiles,AI
+HOST-KEYWORD,generativelanguage,AI
 HOST-KEYWORD,openai,AI
 HOST-SUFFIX,ai.com,AI
+HOST-SUFFIX,aistudio.google.com,AI
 HOST-SUFFIX,algolia.net,AI
 HOST-SUFFIX,anthropic.com,AI
 HOST-SUFFIX,api.statsig.com,AI
+HOST-SUFFIX,apis.google.com,AI
 HOST-SUFFIX,auth.openai.com,AI
 HOST-SUFFIX,auth0.com,AI
-HOST-SUFFIX,azureedge.net,AI
-HOST-SUFFIX,bing.com,AI
-HOST-SUFFIX,blob.core.windows.net,AI
+HOST-SUFFIX,bard.google.com,AI
 HOST-SUFFIX,chatgpt.com,AI
 HOST-SUFFIX,chatgpt.livekit.cloud,AI
 HOST-SUFFIX,claude.ai,AI
@@ -63,9 +64,12 @@ HOST-SUFFIX,claudeusercontent.com,AI
 HOST-SUFFIX,client-api.arkoselabs.com,AI
 HOST-SUFFIX,copilot.com,AI
 HOST-SUFFIX,cursor.com,AI
+HOST-SUFFIX,deepmind.com,AI
+HOST-SUFFIX,deepmind.google,AI
 HOST-SUFFIX,dreamstudio.ai,AI
 HOST-SUFFIX,events.statsigapi.net,AI
 HOST-SUFFIX,featuregates.org,AI
+HOST-SUFFIX,gemini.google.com,AI
 HOST-SUFFIX,generativeai.google,AI
 HOST-SUFFIX,grok.com,AI
 HOST-SUFFIX,hf.co,AI
@@ -78,6 +82,7 @@ HOST-SUFFIX,intercomcdn.com,AI
 HOST-SUFFIX,launchdarkly.com,AI
 HOST-SUFFIX,midjourney.com,AI
 HOST-SUFFIX,mistral.ai,AI
+HOST-SUFFIX,notebooklm.google.com,AI
 HOST-SUFFIX,oaistatic.com,AI
 HOST-SUFFIX,oaiusercontent.com,AI
 HOST-SUFFIX,observeit.net,AI
@@ -87,6 +92,7 @@ HOST-SUFFIX,openaicom.imgix.net,AI
 HOST-SUFFIX,perplexity.ai,AI
 HOST-SUFFIX,poe.com,AI
 HOST-SUFFIX,pplx.ai,AI
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,AI
 HOST-SUFFIX,replicate.com,AI
 HOST-SUFFIX,replicate.delivery,AI
 HOST-SUFFIX,runway.video,AI
