@@ -300,8 +300,8 @@
       "name": "Ads",
       "policy": "Ads",
       "description": "Advertising, privacy, and hijacking reject bundle.",
-      "rules": 255959,
-      "source_count": 255950,
+      "rules": 256535,
+      "source_count": 256526,
       "manual_count": 9,
       "icon_id": "reject",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
@@ -484,7 +484,7 @@
       },
       {
         "name": "Ads",
-        "rules": 255959
+        "rules": 256535
       }
     ],
     "protected_reject_removals": [],
