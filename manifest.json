@@ -11,7 +11,11 @@
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg",
       "source_kind": "generated",
       "license": "unknown",
-      "local_fallback": "domestic-all.svg"
+      "local_fallback": "domestic-all.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs",
+      "mihomo_mrs_rules": 159,
+      "mihomo_mrs_omitted": 35,
+      "mihomo_mrs_bytes": 1189
     },
     {
       "name": "NetworkTest",
@@ -24,7 +28,11 @@
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
       "source_kind": "generated",
       "license": "unknown",
-      "local_fallback": "direct.svg"
+      "local_fallback": "direct.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/NetworkTest/NetworkTest.mrs",
+      "mihomo_mrs_rules": 16,
+      "mihomo_mrs_omitted": 0,
+      "mihomo_mrs_bytes": 271
     },
     {
       "name": "SpeedTest",
@@ -37,7 +45,11 @@
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/speedtest.svg",
       "source_kind": "generated",
       "license": "unknown",
-      "local_fallback": "speedtest.svg"
+      "local_fallback": "speedtest.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
+      "mihomo_mrs_rules": 3089,
+      "mihomo_mrs_omitted": 2,
+      "mihomo_mrs_bytes": 33981
     },
     {
       "name": "AI",
@@ -50,7 +62,11 @@
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
       "source_kind": "generated",
       "license": "unknown",
-      "local_fallback": "global-ai.svg"
+      "local_fallback": "global-ai.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/AI/AI.mrs",
+      "mihomo_mrs_rules": 141,
+      "mihomo_mrs_omitted": 6,
+      "mihomo_mrs_bytes": 1419
     },
     {
       "name": "Dev",
@@ -63,7 +79,11 @@
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg",
       "source_kind": "generated",
       "license": "unknown",
-      "local_fallback": "developer.svg"
+      "local_fallback": "developer.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Dev/Dev.mrs",
+      "mihomo_mrs_rules": 55,
+      "mihomo_mrs_omitted": 0,
+      "mihomo_mrs_bytes": 599
     },
     {
       "name": "Payment",
@@ -76,7 +96,11 @@
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg",
       "source_kind": "generated",
       "license": "unknown",
-      "local_fallback": "payment.svg"
+      "local_fallback": "payment.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Payment/Payment.mrs",
+      "mihomo_mrs_rules": 250,
+      "mihomo_mrs_omitted": 2,
+      "mihomo_mrs_bytes": 2706
     },
     {
       "name": "Game",
@@ -89,7 +113,11 @@
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
       "source_kind": "generated",
       "license": "unknown",
-      "local_fallback": "game.svg"
+      "local_fallback": "game.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Game/Game.mrs",
+      "mihomo_mrs_rules": 34,
+      "mihomo_mrs_omitted": 0,
+      "mihomo_mrs_bytes": 439
     },
     {
       "name": "Telegram",
@@ -105,7 +133,11 @@
       "source_url": "https://github.com/simple-icons/simple-icons",
       "license": "CC0-1.0",
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
-      "local_fallback": "telegram.svg"
+      "local_fallback": "telegram.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Telegram/Telegram.mrs",
+      "mihomo_mrs_rules": 24,
+      "mihomo_mrs_omitted": 7,
+      "mihomo_mrs_bytes": 310
     },
     {
       "name": "YouTube",
@@ -121,7 +153,11 @@
       "source_url": "https://github.com/simple-icons/simple-icons",
       "license": "CC0-1.0",
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
-      "local_fallback": "youtube.svg"
+      "local_fallback": "youtube.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/YouTube/YouTube.mrs",
+      "mihomo_mrs_rules": 182,
+      "mihomo_mrs_omitted": 10,
+      "mihomo_mrs_bytes": 1364
     },
     {
       "name": "Netflix",
@@ -137,7 +173,11 @@
       "source_url": "https://github.com/simple-icons/simple-icons",
       "license": "CC0-1.0",
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
-      "local_fallback": "netflix.svg"
+      "local_fallback": "netflix.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Netflix/Netflix.mrs",
+      "mihomo_mrs_rules": 32,
+      "mihomo_mrs_omitted": 1120,
+      "mihomo_mrs_bytes": 398
     },
     {
       "name": "DisneyPlus",
@@ -150,7 +190,11 @@
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-media.svg",
       "source_kind": "generated",
       "license": "unknown",
-      "local_fallback": "global-media.svg"
+      "local_fallback": "global-media.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/DisneyPlus/DisneyPlus.mrs",
+      "mihomo_mrs_rules": 5,
+      "mihomo_mrs_omitted": 0,
+      "mihomo_mrs_bytes": 137
     },
     {
       "name": "Spotify",
@@ -166,7 +210,11 @@
       "source_url": "https://github.com/simple-icons/simple-icons",
       "license": "CC0-1.0",
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
-      "local_fallback": "spotify.svg"
+      "local_fallback": "spotify.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Spotify/Spotify.mrs",
+      "mihomo_mrs_rules": 26,
+      "mihomo_mrs_omitted": 4,
+      "mihomo_mrs_bytes": 400
     },
     {
       "name": "TikTok",
@@ -182,7 +230,11 @@
       "source_url": "https://github.com/simple-icons/simple-icons",
       "license": "CC0-1.0",
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
-      "local_fallback": "tiktok.svg"
+      "local_fallback": "tiktok.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/TikTok/TikTok.mrs",
+      "mihomo_mrs_rules": 29,
+      "mihomo_mrs_omitted": 3,
+      "mihomo_mrs_bytes": 403
     },
     {
       "name": "Twitter",
@@ -198,7 +250,11 @@
       "source_url": "https://github.com/simple-icons/simple-icons",
       "license": "CC0-1.0",
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
-      "local_fallback": "x-twitter.svg"
+      "local_fallback": "x-twitter.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Twitter/Twitter.mrs",
+      "mihomo_mrs_rules": 26,
+      "mihomo_mrs_omitted": 7,
+      "mihomo_mrs_bytes": 324
     },
     {
       "name": "Facebook",
@@ -214,7 +270,11 @@
       "source_url": "https://github.com/simple-icons/simple-icons",
       "license": "CC0-1.0",
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
-      "local_fallback": "facebook.svg"
+      "local_fallback": "facebook.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Facebook/Facebook.mrs",
+      "mihomo_mrs_rules": 544,
+      "mihomo_mrs_omitted": 25,
+      "mihomo_mrs_bytes": 4912
     },
     {
       "name": "Instagram",
@@ -230,7 +290,11 @@
       "source_url": "https://github.com/simple-icons/simple-icons",
       "license": "CC0-1.0",
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
-      "local_fallback": "instagram.svg"
+      "local_fallback": "instagram.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Instagram/Instagram.mrs",
+      "mihomo_mrs_rules": 3,
+      "mihomo_mrs_omitted": 1,
+      "mihomo_mrs_bytes": 81
     },
     {
       "name": "Apple",
@@ -246,7 +310,11 @@
       "source_url": "https://github.com/simple-icons/simple-icons",
       "license": "CC0-1.0",
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
-      "local_fallback": "apple.svg"
+      "local_fallback": "apple.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Apple/Apple.mrs",
+      "mihomo_mrs_rules": 1833,
+      "mihomo_mrs_omitted": 40,
+      "mihomo_mrs_bytes": 18117
     },
     {
       "name": "Microsoft",
@@ -262,7 +330,11 @@
       "source_url": "https://github.com/simple-icons/simple-icons",
       "license": "CC0-1.0",
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
-      "local_fallback": "microsoft.svg"
+      "local_fallback": "microsoft.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Microsoft/Microsoft.mrs",
+      "mihomo_mrs_rules": 706,
+      "mihomo_mrs_omitted": 7,
+      "mihomo_mrs_bytes": 7198
     },
     {
       "name": "Google",
@@ -278,7 +350,11 @@
       "source_url": "https://github.com/simple-icons/simple-icons",
       "license": "CC0-1.0",
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
-      "local_fallback": "google.svg"
+      "local_fallback": "google.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Google/Google.mrs",
+      "mihomo_mrs_rules": 705,
+      "mihomo_mrs_omitted": 12,
+      "mihomo_mrs_bytes": 6289
     },
     {
       "name": "GitHub",
@@ -294,7 +370,11 @@
       "source_url": "https://github.com/simple-icons/simple-icons",
       "license": "CC0-1.0",
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
-      "local_fallback": "github.svg"
+      "local_fallback": "github.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/GitHub/GitHub.mrs",
+      "mihomo_mrs_rules": 37,
+      "mihomo_mrs_omitted": 1,
+      "mihomo_mrs_bytes": 514
     },
     {
       "name": "GlobalSites",
@@ -307,7 +387,11 @@
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg",
       "source_kind": "generated",
       "license": "unknown",
-      "local_fallback": "global.svg"
+      "local_fallback": "global.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/GlobalSites/GlobalSites.mrs",
+      "mihomo_mrs_rules": 6949,
+      "mihomo_mrs_omitted": 122,
+      "mihomo_mrs_bytes": 52043
     },
     {
       "name": "Ads",
@@ -320,9 +404,17 @@
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
       "source_kind": "generated",
       "license": "unknown",
-      "local_fallback": "reject.svg"
+      "local_fallback": "reject.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs",
+      "mihomo_mrs_rules": 255770,
+      "mihomo_mrs_omitted": 765,
+      "mihomo_mrs_bytes": 2226949
     }
   ],
+  "mihomo_mrs": {
+    "enabled": true,
+    "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs"
+  },
   "icons": {
     "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons",
     "manifest_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/manifest.json",
@@ -553,6 +645,141 @@
       "duplicate_keys": 0,
       "duplicate_category_memberships": 0,
       "examples": []
+    },
+    "mihomo_mrs": {
+      "enabled": true,
+      "Domestic": {
+        "rules": 159,
+        "omitted": 35,
+        "path": "mihomo-mrs/Domestic/Domestic.mrs",
+        "bytes": 1189
+      },
+      "NetworkTest": {
+        "rules": 16,
+        "omitted": 0,
+        "path": "mihomo-mrs/NetworkTest/NetworkTest.mrs",
+        "bytes": 271
+      },
+      "SpeedTest": {
+        "rules": 3089,
+        "omitted": 2,
+        "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
+        "bytes": 33981
+      },
+      "AI": {
+        "rules": 141,
+        "omitted": 6,
+        "path": "mihomo-mrs/AI/AI.mrs",
+        "bytes": 1419
+      },
+      "Dev": {
+        "rules": 55,
+        "omitted": 0,
+        "path": "mihomo-mrs/Dev/Dev.mrs",
+        "bytes": 599
+      },
+      "Payment": {
+        "rules": 250,
+        "omitted": 2,
+        "path": "mihomo-mrs/Payment/Payment.mrs",
+        "bytes": 2706
+      },
+      "Game": {
+        "rules": 34,
+        "omitted": 0,
+        "path": "mihomo-mrs/Game/Game.mrs",
+        "bytes": 439
+      },
+      "Telegram": {
+        "rules": 24,
+        "omitted": 7,
+        "path": "mihomo-mrs/Telegram/Telegram.mrs",
+        "bytes": 310
+      },
+      "YouTube": {
+        "rules": 182,
+        "omitted": 10,
+        "path": "mihomo-mrs/YouTube/YouTube.mrs",
+        "bytes": 1364
+      },
+      "Netflix": {
+        "rules": 32,
+        "omitted": 1120,
+        "path": "mihomo-mrs/Netflix/Netflix.mrs",
+        "bytes": 398
+      },
+      "DisneyPlus": {
+        "rules": 5,
+        "omitted": 0,
+        "path": "mihomo-mrs/DisneyPlus/DisneyPlus.mrs",
+        "bytes": 137
+      },
+      "Spotify": {
+        "rules": 26,
+        "omitted": 4,
+        "path": "mihomo-mrs/Spotify/Spotify.mrs",
+        "bytes": 400
+      },
+      "TikTok": {
+        "rules": 29,
+        "omitted": 3,
+        "path": "mihomo-mrs/TikTok/TikTok.mrs",
+        "bytes": 403
+      },
+      "Twitter": {
+        "rules": 26,
+        "omitted": 7,
+        "path": "mihomo-mrs/Twitter/Twitter.mrs",
+        "bytes": 324
+      },
+      "Facebook": {
+        "rules": 544,
+        "omitted": 25,
+        "path": "mihomo-mrs/Facebook/Facebook.mrs",
+        "bytes": 4912
+      },
+      "Instagram": {
+        "rules": 3,
+        "omitted": 1,
+        "path": "mihomo-mrs/Instagram/Instagram.mrs",
+        "bytes": 81
+      },
+      "Apple": {
+        "rules": 1833,
+        "omitted": 40,
+        "path": "mihomo-mrs/Apple/Apple.mrs",
+        "bytes": 18117
+      },
+      "Microsoft": {
+        "rules": 706,
+        "omitted": 7,
+        "path": "mihomo-mrs/Microsoft/Microsoft.mrs",
+        "bytes": 7198
+      },
+      "Google": {
+        "rules": 705,
+        "omitted": 12,
+        "path": "mihomo-mrs/Google/Google.mrs",
+        "bytes": 6289
+      },
+      "GitHub": {
+        "rules": 37,
+        "omitted": 1,
+        "path": "mihomo-mrs/GitHub/GitHub.mrs",
+        "bytes": 514
+      },
+      "GlobalSites": {
+        "rules": 6949,
+        "omitted": 122,
+        "path": "mihomo-mrs/GlobalSites/GlobalSites.mrs",
+        "bytes": 52043
+      },
+      "Ads": {
+        "rules": 255770,
+        "omitted": 765,
+        "path": "mihomo-mrs/Ads/Ads.mrs",
+        "bytes": 2226949
+      }
     }
   }
 }

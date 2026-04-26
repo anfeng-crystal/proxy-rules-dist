@@ -1,0 +1,155 @@
+rule-providers:
+  Domestic:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs
+    path: ./ruleset/Domestic.mrs
+    interval: 86400
+  NetworkTest:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/NetworkTest/NetworkTest.mrs
+    path: ./ruleset/NetworkTest.mrs
+    interval: 86400
+  SpeedTest:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs
+    path: ./ruleset/SpeedTest.mrs
+    interval: 86400
+  AI:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/AI/AI.mrs
+    path: ./ruleset/AI.mrs
+    interval: 86400
+  Dev:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Dev/Dev.mrs
+    path: ./ruleset/Dev.mrs
+    interval: 86400
+  Payment:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Payment/Payment.mrs
+    path: ./ruleset/Payment.mrs
+    interval: 86400
+  Game:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Game/Game.mrs
+    path: ./ruleset/Game.mrs
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Telegram/Telegram.mrs
+    path: ./ruleset/Telegram.mrs
+    interval: 86400
+  YouTube:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/YouTube/YouTube.mrs
+    path: ./ruleset/YouTube.mrs
+    interval: 86400
+  Netflix:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Netflix/Netflix.mrs
+    path: ./ruleset/Netflix.mrs
+    interval: 86400
+  DisneyPlus:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/DisneyPlus/DisneyPlus.mrs
+    path: ./ruleset/DisneyPlus.mrs
+    interval: 86400
+  Spotify:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Spotify/Spotify.mrs
+    path: ./ruleset/Spotify.mrs
+    interval: 86400
+  TikTok:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/TikTok/TikTok.mrs
+    path: ./ruleset/TikTok.mrs
+    interval: 86400
+  Twitter:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Twitter/Twitter.mrs
+    path: ./ruleset/Twitter.mrs
+    interval: 86400
+  Facebook:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Facebook/Facebook.mrs
+    path: ./ruleset/Facebook.mrs
+    interval: 86400
+  Instagram:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Instagram/Instagram.mrs
+    path: ./ruleset/Instagram.mrs
+    interval: 86400
+  Apple:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Apple/Apple.mrs
+    path: ./ruleset/Apple.mrs
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Microsoft/Microsoft.mrs
+    path: ./ruleset/Microsoft.mrs
+    interval: 86400
+  Google:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Google/Google.mrs
+    path: ./ruleset/Google.mrs
+    interval: 86400
+  GitHub:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/GitHub/GitHub.mrs
+    path: ./ruleset/GitHub.mrs
+    interval: 86400
+  GlobalSites:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/GlobalSites/GlobalSites.mrs
+    path: ./ruleset/GlobalSites.mrs
+    interval: 86400
+  Ads:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs
+    path: ./ruleset/Ads.mrs
+    interval: 86400

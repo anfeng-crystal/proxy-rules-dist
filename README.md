@@ -2,7 +2,7 @@
 
 中文 | [English](README.en.md)
 
-`proxy-rules` 使用一份规范化源数据生成 QuanX、Loon、Clash 和 Mihomo 的规则订阅、图标清单与发布页。仓库把上游规则当作输入，先完成归一化、分类、重分类和保护例外处理，再输出到 `dist/`、`snippets/` 和公开 Pages。
+`proxy-rules` 使用一份规范化源数据生成 QuanX、Loon、Clash 和 Mihomo 的规则订阅、Mihomo MRS 二进制规则、图标清单与发布页。仓库把上游规则当作输入，先完成归一化、分类、重分类和保护例外处理，再输出到 `dist/`、`snippets/` 和公开 Pages。
 
 ## 项目定位
 
@@ -52,9 +52,12 @@
 - Loon 远程规则：`snippets/loon-remote-rule.conf`
 - Clash Providers：`snippets/clash-rule-providers.yaml`
 - Clash Rules：`snippets/clash-rules.yaml`
+- Mihomo MRS Providers：`snippets/mihomo-mrs-rule-providers.yaml`
+- Mihomo MRS Rules：`snippets/mihomo-mrs-rules.yaml`
 - QuanX 完整模板：`snippets/quanx-policy-groups.full.conf`
 - Loon 完整模板：`snippets/loon-policy-groups.full.conf`
 - Clash Party / Clash Verge Rev 模板：`snippets/mihomo-clash-party-verge-rev.template.yaml`
+- Clash Party / Clash Verge Rev MRS 模板：`snippets/mihomo-mrs-clash-party-verge-rev.template.yaml`
 - GitHub Releases：`https://github.com/anfeng-crystal/proxy-rules/releases`
 
 ## 如何使用
@@ -66,7 +69,8 @@
 5. QuanX 的完整模板使用 `snippets/quanx-policy-groups.full.conf`。
 6. Loon 的完整模板使用 `snippets/loon-policy-groups.full.conf`。
 7. Clash Party / Clash Verge Rev 使用 `snippets/mihomo-clash-party-verge-rev.template.yaml`。
-8. 图标订阅分别使用 `snippets/quanx-policy-icons.conf`、`snippets/loon-policy-icons.conf` 和 `snippets/clash-icon-urls.yaml`。
+8. 需要 Mihomo MRS 二进制规则时，使用 `snippets/mihomo-mrs-rule-providers.yaml`、`snippets/mihomo-mrs-rules.yaml` 或完整模板 `snippets/mihomo-mrs-clash-party-verge-rev.template.yaml`。
+9. 图标订阅分别使用 `snippets/quanx-policy-icons.conf`、`snippets/loon-policy-icons.conf` 和 `snippets/clash-icon-urls.yaml`。
 
 ## 本地构建
 
@@ -102,6 +106,7 @@ dist/
   loon/                 Loon 规则。
   clash/                Clash classical rule-provider。
   mihomo/               Mihomo classical rule-provider。
+  mihomo-mrs/           Mihomo domain MRS 二进制 rule-provider。
   icons/                图标清单、SVG 资源和来源索引。
 snippets/
   *.conf, *.yaml        客户端订阅片段和策略组模板。
@@ -116,4 +121,5 @@ site/
 - 保护域名和误杀修正优先放到 `overrides/exceptions.json`。
 - 新服务先建叶子分类，再放入对应公开大规则桶；默认发布层不暴露维护层分类。
 - 公开页面和发布快照使用同一路径，日常使用优先 Pages，归档和回滚优先 Releases。
-- `dist/quanx`、`dist/loon`、`dist/clash` 和 `dist/mihomo` 只发布公开 allowlist 文件。
+- `dist/quanx`、`dist/loon`、`dist/clash`、`dist/mihomo` 和 `dist/mihomo-mrs` 只发布公开 allowlist 文件。
+- Mihomo MRS 文件只承载 `domain` 行为可表达的域名规则；`DOMAIN-KEYWORD`、`USER-AGENT`、`IP-CIDR`、`GEOIP` 等 classical 规则会在 MRS rules 片段和完整模板中补到对应 `RULE-SET` 前面。

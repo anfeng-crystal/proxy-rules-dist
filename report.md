@@ -96,6 +96,31 @@
   - MIT: 14
   - unknown: 34
 
+## Mihomo MRS / Mihomo MRS
+
+- AI: 141 domain rules, 6 classical-only rules omitted, 1419 bytes
+- Ads: 255770 domain rules, 765 classical-only rules omitted, 2226949 bytes
+- Apple: 1833 domain rules, 40 classical-only rules omitted, 18117 bytes
+- Dev: 55 domain rules, 0 classical-only rules omitted, 599 bytes
+- DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
+- Domestic: 159 domain rules, 35 classical-only rules omitted, 1189 bytes
+- Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
+- Game: 34 domain rules, 0 classical-only rules omitted, 439 bytes
+- GitHub: 37 domain rules, 1 classical-only rules omitted, 514 bytes
+- GlobalSites: 6949 domain rules, 122 classical-only rules omitted, 52043 bytes
+- Google: 705 domain rules, 12 classical-only rules omitted, 6289 bytes
+- Instagram: 3 domain rules, 1 classical-only rules omitted, 81 bytes
+- Microsoft: 706 domain rules, 7 classical-only rules omitted, 7198 bytes
+- Netflix: 32 domain rules, 1120 classical-only rules omitted, 398 bytes
+- NetworkTest: 16 domain rules, 0 classical-only rules omitted, 271 bytes
+- Payment: 250 domain rules, 2 classical-only rules omitted, 2706 bytes
+- SpeedTest: 3089 domain rules, 2 classical-only rules omitted, 33981 bytes
+- Spotify: 26 domain rules, 4 classical-only rules omitted, 400 bytes
+- Telegram: 24 domain rules, 7 classical-only rules omitted, 310 bytes
+- TikTok: 29 domain rules, 3 classical-only rules omitted, 403 bytes
+- Twitter: 26 domain rules, 7 classical-only rules omitted, 324 bytes
+- YouTube: 182 domain rules, 10 classical-only rules omitted, 1364 bytes
+
 ## 已从 Ads 规则移除的保护域名 / Protected Ads Removals
 
 - none

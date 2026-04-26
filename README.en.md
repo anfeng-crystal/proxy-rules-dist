@@ -2,7 +2,7 @@
 
 [中文主文档](README.md) | English
 
-`proxy-rules` builds one normalized rule source into QuanX, Loon, Clash, and Mihomo outputs. The Chinese README is the canonical guide for the public repo; this file is the English companion. Upstream projects are treated as raw materials; local overrides and protection exceptions are applied before generated files are published.
+`proxy-rules` builds one normalized rule source into QuanX, Loon, Clash, Mihomo, and Mihomo MRS binary outputs. The Chinese README is the canonical guide for the public repo; this file is the English companion. Upstream projects are treated as raw materials; local overrides and protection exceptions are applied before generated files are published.
 
 ## Phase Two Maintenance
 
@@ -48,6 +48,9 @@ Common client entry points:
 - QuanX policy template: `snippets/quanx-policy-groups.full.conf`
 - Loon policy template: `snippets/loon-policy-groups.full.conf`
 - Clash Party / Clash Verge Rev template: `snippets/mihomo-clash-party-verge-rev.template.yaml`
+- Mihomo MRS rule providers: `snippets/mihomo-mrs-rule-providers.yaml`
+- Mihomo MRS rules: `snippets/mihomo-mrs-rules.yaml`
+- Mihomo MRS Clash Party / Clash Verge Rev template: `snippets/mihomo-mrs-clash-party-verge-rev.template.yaml`
 - QuanX icons: `snippets/quanx-policy-icons.conf`
 - Loon icons: `snippets/loon-policy-icons.conf`
 - Clash icons: `snippets/clash-icon-urls.yaml`
@@ -75,6 +78,7 @@ dist/
   loon/                 Generated Loon rules.
   clash/                Generated Clash classical providers.
   mihomo/               Generated Mihomo classical providers.
+  mihomo-mrs/           Generated Mihomo domain MRS binary providers.
   icons/                Icon manifest, SVG assets, and source index.
 snippets/
   *.conf, *.yaml        Client subscription snippets and policy templates.
@@ -142,7 +146,8 @@ For day-to-day maintenance, first organize services into families, then use thos
 - Domestic families can be grouped by platform, infrastructure, content, finance, government, education, and transport.
 - Overseas families can be grouped by core services, communication, social, media, games, development, and payment.
 - Service-level leaf categories sit under families and remain the true source for maintenance and troubleshooting.
-- Public `dist/quanx`, `dist/loon`, `dist/clash`, and `dist/mihomo` directories emit only the allowlisted aggregate files.
+- Public `dist/quanx`, `dist/loon`, `dist/clash`, `dist/mihomo`, and `dist/mihomo-mrs` directories emit only the allowlisted aggregate files.
+- Mihomo MRS files carry the domain rules that MRS can represent. Classical-only rules such as `DOMAIN-KEYWORD`, `USER-AGENT`, `IP-CIDR`, and `GEOIP` are preserved in the MRS rules snippet and full template before each corresponding `RULE-SET`.
 
 ## Policy Templates
 
@@ -154,6 +159,9 @@ snippets/clash-proxy-groups.template.yaml
 snippets/quanx-policy-groups.full.conf
 snippets/loon-policy-groups.full.conf
 snippets/mihomo-clash-party-verge-rev.template.yaml
+snippets/mihomo-mrs-rule-providers.yaml
+snippets/mihomo-mrs-rules.yaml
+snippets/mihomo-mrs-clash-party-verge-rev.template.yaml
 ```
 
 Fill the remote subscription placeholders with your node subscriptions. The templates keep `LocalNetwork` in local rule sections, expose `NetworkTest` and `SpeedTest` as separate remote rules, and use `Domestic`, `GlobalSites`, `Dev`, `Ads`, and the independent media/social remote IDs by default.
