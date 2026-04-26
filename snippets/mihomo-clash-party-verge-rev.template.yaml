@@ -223,6 +223,9 @@ proxy-groups:
   - name: "网络检测"
     type: select
     proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "SpeedTest"
+    type: select
+    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
   - name: "AI"
     type: select
     proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
@@ -296,6 +299,12 @@ rule-providers:
     behavior: classical
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/NetworkTest/NetworkTest.yaml
     path: ./ruleset/NetworkTest.yaml
+    interval: 86400
+  SpeedTest:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/SpeedTest/SpeedTest.yaml
+    path: ./ruleset/SpeedTest.yaml
     interval: 86400
   AI:
     type: http
@@ -433,6 +442,7 @@ rules:
   - IP-CIDR6,fe80::/10,DIRECT,no-resolve
   - RULE-SET,Domestic,国内应用
   - RULE-SET,NetworkTest,网络检测
+  - RULE-SET,SpeedTest,SpeedTest
   - RULE-SET,AI,AI
   - RULE-SET,Dev,Dev
   - RULE-SET,Payment,Payment

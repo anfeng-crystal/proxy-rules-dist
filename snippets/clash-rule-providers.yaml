@@ -11,6 +11,12 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/NetworkTest/NetworkTest.yaml
     path: ./ruleset/NetworkTest.yaml
     interval: 86400
+  SpeedTest:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/SpeedTest/SpeedTest.yaml
+    path: ./ruleset/SpeedTest.yaml
+    interval: 86400
   AI:
     type: http
     behavior: classical

@@ -13,20 +13,21 @@
 - Google: 717
 - Instagram: 4
 - Microsoft: 713
-- Netflix: 1153
+- Netflix: 1152
 - Payment: 252
+- SpeedTest: 3
 - Spotify: 30
 - Telegram: 31
 - TikTok: 32
 - Twitter: 33
 - YouTube: 192
 - Domestic: 194
-- GlobalSites: 7084
-- NetworkTest: 19
+- GlobalSites: 7072
+- NetworkTest: 16
 
 ## 跨分类重复 / Cross-Category Conflicts
 
-- categories scanned: 21
+- categories scanned: 22
 - duplicate keys: 0
 - duplicate category memberships: 0
 - none
@@ -71,13 +72,13 @@
 ## 图标库 / Icon Library
 
 - base url: https://anfeng-crystal.github.io/proxy-rules-dist/icons
-- catalog entries: 103
-- mapped names: 131
+- catalog entries: 104
+- mapped names: 132
 - manifest: https://anfeng-crystal.github.io/proxy-rules-dist/icons/manifest.json
 - sources:
   - custom: 2
   - external_index: 12
-  - generated: 19
+  - generated: 20
   - lobe-icons: 14
   - selfhst-icons: 15
   - simple-icons: 41
@@ -85,7 +86,7 @@
   - CC-BY-4.0: 15
   - CC0-1.0: 41
   - MIT: 14
-  - unknown: 33
+  - unknown: 34
 
 ## 已从 Ads 规则移除的保护域名 / Protected Ads Removals
 
@@ -93,4 +94,4 @@
 
 ## 已从宽泛分类移除的重分类规则 / Category Suppressions
 
-- none
+- Netflix:domain_suffix:fast.com

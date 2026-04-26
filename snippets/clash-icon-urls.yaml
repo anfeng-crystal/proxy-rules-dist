@@ -73,6 +73,10 @@ icon_urls:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg
     source_kind: generated
     license: unknown
+  SpeedTest:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/speedtest.svg
+    source_kind: generated
+    license: unknown
   Spotify:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/spotify.svg
     remote: https://cdn.simpleicons.org/spotify

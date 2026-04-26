@@ -19,6 +19,7 @@ rules:
   - IP-CIDR6,fe80::/10,DIRECT,no-resolve
   - RULE-SET,Domestic,国内应用
   - RULE-SET,NetworkTest,网络检测
+  - RULE-SET,SpeedTest,SpeedTest
   - RULE-SET,AI,AI
   - RULE-SET,Dev,Dev
   - RULE-SET,Payment,Payment

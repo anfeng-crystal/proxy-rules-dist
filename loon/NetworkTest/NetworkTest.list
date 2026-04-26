@@ -12,11 +12,8 @@ DOMAIN,www.msftconnecttest.com,网络检测
 DOMAIN,www.msftncsi.com,网络检测
 DOMAIN-SUFFIX,browserleaks.com,网络检测
 DOMAIN-SUFFIX,dnsleaktest.com,网络检测
-DOMAIN-SUFFIX,fast.com,网络检测
 DOMAIN-SUFFIX,ifconfig.me,网络检测
 DOMAIN-SUFFIX,ip.sb,网络检测
 DOMAIN-SUFFIX,ipinfo.io,网络检测
 DOMAIN-SUFFIX,ipleak.net,网络检测
-DOMAIN-SUFFIX,ooklaserver.net,网络检测
-DOMAIN-SUFFIX,speedtest.net,网络检测
 DOMAIN-SUFFIX,test-ipv6.com,网络检测

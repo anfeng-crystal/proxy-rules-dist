@@ -1,6 +1,6 @@
 {
   "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons",
-  "count": 103,
+  "count": 104,
   "icons": [
     {
       "id": "direct",
@@ -51,6 +51,29 @@
       "file": "proxy.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg",
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/proxy.svg"
+    },
+    {
+      "id": "speedtest",
+      "label": "SpeedTest",
+      "symbol": "SPD",
+      "background": "#f59e0b",
+      "foreground": "#111827",
+      "description": "Network throughput and speed test endpoints.",
+      "source_kind": "generated",
+      "source_url": "",
+      "license": "unknown",
+      "license_url": "",
+      "remote_icon_url": null,
+      "local_fallback": "speedtest.svg",
+      "categories": [
+        "SpeedTest"
+      ],
+      "targets": [
+        "SpeedTest"
+      ],
+      "file": "speedtest.svg",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/speedtest.svg",
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/speedtest.svg"
     },
     {
       "id": "reject",

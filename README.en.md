@@ -119,6 +119,7 @@ Public remote rule IDs are English and stable. Policy group display names stay i
 
 - `Domestic` -> `国内应用`: all mainland China apps, domestic AI, domestic payment/finance, and domestic direct fallbacks.
 - `NetworkTest` -> `网络检测`: connectivity, public IP, DNS leak, and browser fingerprint checks.
+- `SpeedTest`: network throughput and speed test endpoints.
 - `AI`: overseas AI only.
 - `Apple`, `Microsoft`, `Google`, and `GitHub`: standalone brand buckets.
 - `Dev`: developer ecosystems other than the standalone GitHub bucket.
@@ -155,7 +156,7 @@ snippets/loon-policy-groups.full.conf
 snippets/mihomo-clash-party-verge-rev.template.yaml
 ```
 
-Fill the remote subscription placeholders with your node subscriptions. The templates keep `LocalNetwork` in local rule sections, expose one `NetworkTest` remote rule mapped to the `网络检测` policy, and use `Domestic`, `GlobalSites`, `Dev`, `Ads`, and the independent media/social remote IDs by default.
+Fill the remote subscription placeholders with your node subscriptions. The templates keep `LocalNetwork` in local rule sections, expose `NetworkTest` and `SpeedTest` as separate remote rules, and use `Domestic`, `GlobalSites`, `Dev`, `Ads`, and the independent media/social remote IDs by default.
 
 ## Iterating Missing Domains
 

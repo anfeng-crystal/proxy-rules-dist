@@ -32,9 +32,9 @@
 
 ## 公开规则与策略组
 
-- 远程规则 ID、文件名、目录名和 provider 名统一使用英文：`Domestic`、`NetworkTest`、`AI`、`Apple`、`Microsoft`、`Google`、`GitHub`、`Dev`、`Payment`、`Game`、`Telegram`、`YouTube`、`Netflix`、`DisneyPlus`、`Spotify`、`TikTok`、`Twitter`、`Facebook`、`Instagram`、`GlobalSites`、`Ads`。
-- 配置里的策略组展示名继续使用中文或品牌名：`国内应用`、`网络检测`、`AI`、`Apple`、`Microsoft`、`Google`、`GitHub`、`Dev`、`Payment`、`Game`、`Telegram`、`YouTube`、`Netflix`、`DisneyPlus`、`Spotify`、`TikTok`、`Twitter`、`Facebook`、`Instagram`、`境外网站`、`Ads`、`漏网之鱼`。
-- 远程规则到策略组的映射示例：`RULE-SET,Domestic,国内应用`、`RULE-SET,NetworkTest,网络检测`、`RULE-SET,GlobalSites,境外网站`。
+- 远程规则 ID、文件名、目录名和 provider 名统一使用英文：`Domestic`、`NetworkTest`、`SpeedTest`、`AI`、`Apple`、`Microsoft`、`Google`、`GitHub`、`Dev`、`Payment`、`Game`、`Telegram`、`YouTube`、`Netflix`、`DisneyPlus`、`Spotify`、`TikTok`、`Twitter`、`Facebook`、`Instagram`、`GlobalSites`、`Ads`。
+- 配置里的策略组展示名继续使用中文或品牌名：`国内应用`、`网络检测`、`SpeedTest`、`AI`、`Apple`、`Microsoft`、`Google`、`GitHub`、`Dev`、`Payment`、`Game`、`Telegram`、`YouTube`、`Netflix`、`DisneyPlus`、`Spotify`、`TikTok`、`Twitter`、`Facebook`、`Instagram`、`境外网站`、`Ads`、`漏网之鱼`。
+- 远程规则到策略组的映射示例：`RULE-SET,Domestic,国内应用`、`RULE-SET,NetworkTest,网络检测`、`RULE-SET,SpeedTest,SpeedTest`、`RULE-SET,GlobalSites,境外网站`。
 - `国内应用` 聚合所有国内应用、国内 AI、国内支付金融和国内直连兜底，默认走 `国内应用` 策略。
 - `AI` 只聚合海外 AI；`Payment` 只聚合海外支付金融；`Ads` 聚合广告、隐私和劫持拦截类。
 - `境外网站` 聚合未单独成桶的长尾境外服务，不吞并独立品牌桶。

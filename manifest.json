@@ -17,14 +17,27 @@
       "name": "NetworkTest",
       "policy": "网络检测",
       "description": "Connectivity checks, public IP checks, DNS leak tests, and browser fingerprint checks.",
-      "rules": 19,
+      "rules": 16,
       "source_count": 0,
-      "manual_count": 19,
+      "manual_count": 16,
       "icon_id": "direct",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
       "source_kind": "generated",
       "license": "unknown",
       "local_fallback": "direct.svg"
+    },
+    {
+      "name": "SpeedTest",
+      "policy": "SpeedTest",
+      "description": "Network throughput and speed test endpoints.",
+      "rules": 3,
+      "source_count": 0,
+      "manual_count": 3,
+      "icon_id": "speedtest",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/speedtest.svg",
+      "source_kind": "generated",
+      "license": "unknown",
+      "local_fallback": "speedtest.svg"
     },
     {
       "name": "AI",
@@ -114,8 +127,8 @@
       "name": "Netflix",
       "policy": "Netflix",
       "description": "Netflix app, web, and video CDN endpoints.",
-      "rules": 1153,
-      "source_count": 1153,
+      "rules": 1152,
+      "source_count": 1152,
       "manual_count": 0,
       "icon_id": "netflix",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/netflix.svg",
@@ -287,8 +300,8 @@
       "name": "GlobalSites",
       "policy": "境外网站",
       "description": "Long-tail overseas websites and services not covered by standalone brand buckets.",
-      "rules": 7084,
-      "source_count": 7059,
+      "rules": 7072,
+      "source_count": 7047,
       "manual_count": 25,
       "icon_id": "global",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg",
@@ -313,7 +326,7 @@
   "icons": {
     "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons",
     "manifest_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/manifest.json",
-    "count": 103
+    "count": 104
   },
   "report": {
     "offline": false,
@@ -440,7 +453,11 @@
       },
       {
         "name": "NetworkTest",
-        "rules": 19
+        "rules": 16
+      },
+      {
+        "name": "SpeedTest",
+        "rules": 3
       },
       {
         "name": "AI",
@@ -480,7 +497,7 @@
       },
       {
         "name": "GlobalSites",
-        "rules": 7084
+        "rules": 7072
       },
       {
         "name": "Ads",
@@ -488,9 +505,11 @@
       }
     ],
     "protected_reject_removals": [],
-    "category_suppressions": [],
+    "category_suppressions": [
+      "Netflix:domain_suffix:fast.com"
+    ],
     "cross_category_conflicts": {
-      "categories_scanned": 21,
+      "categories_scanned": 22,
       "duplicate_keys": 0,
       "duplicate_category_memberships": 0,
       "examples": []

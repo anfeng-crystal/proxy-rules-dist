@@ -12,11 +12,8 @@ HOST,www.msftconnecttest.com,网络检测
 HOST,www.msftncsi.com,网络检测
 HOST-SUFFIX,browserleaks.com,网络检测
 HOST-SUFFIX,dnsleaktest.com,网络检测
-HOST-SUFFIX,fast.com,网络检测
 HOST-SUFFIX,ifconfig.me,网络检测
 HOST-SUFFIX,ip.sb,网络检测
 HOST-SUFFIX,ipinfo.io,网络检测
 HOST-SUFFIX,ipleak.net,网络检测
-HOST-SUFFIX,ooklaserver.net,网络检测
-HOST-SUFFIX,speedtest.net,网络检测
 HOST-SUFFIX,test-ipv6.com,网络检测

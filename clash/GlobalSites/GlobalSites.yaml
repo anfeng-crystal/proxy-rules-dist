@@ -469,7 +469,6 @@ payload:
   - DOMAIN-SUFFIX,answering-islam.org
   - DOMAIN-SUFFIX,antd.org
   - DOMAIN-SUFFIX,anthonycalzadilla.com
-  - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,anti1984.com
   - DOMAIN-SUFFIX,antichristendom.com
   - DOMAIN-SUFFIX,antiwave.net
@@ -1113,8 +1112,6 @@ payload:
   - DOMAIN-SUFFIX,chapm25.com
   - DOMAIN-SUFFIX,character.ai
   - DOMAIN-SUFFIX,chat.com
-  - DOMAIN-SUFFIX,chat.openai.com
-  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,chatnook.com
   - DOMAIN-SUFFIX,chatpdf.com
   - DOMAIN-SUFFIX,checkgfw.com
@@ -1249,7 +1246,6 @@ payload:
   - DOMAIN-SUFFIX,ck101.com
   - DOMAIN-SUFFIX,clarionproject.org
   - DOMAIN-SUFFIX,classicalguitarblog.net
-  - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,clb.org.hk
   - DOMAIN-SUFFIX,cleansite.biz
   - DOMAIN-SUFFIX,cleansite.info
@@ -1509,7 +1505,6 @@ payload:
   - DOMAIN-SUFFIX,decodet.co
   - DOMAIN-SUFFIX,deepai.org
   - DOMAIN-SUFFIX,deepdiscount.com
-  - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deezer.com
   - DOMAIN-SUFFIX,definebabe.com
   - DOMAIN-SUFFIX,deja.com
@@ -2767,7 +2762,6 @@ payload:
   - DOMAIN-SUFFIX,greenvpn.net
   - DOMAIN-SUFFIX,greenvpn.org
   - DOMAIN-SUFFIX,grindr.com
-  - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,grotty-monday.com
   - DOMAIN-SUFFIX,ground.news
   - DOMAIN-SUFFIX,grow.google
@@ -3064,7 +3058,6 @@ payload:
   - DOMAIN-SUFFIX,hudson.org
   - DOMAIN-SUFFIX,huffingtonpost.com
   - DOMAIN-SUFFIX,huffpost.com
-  - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,hugoroy.eu
   - DOMAIN-SUFFIX,huhaitai.com
   - DOMAIN-SUFFIX,huhamhire.com
@@ -4368,7 +4361,6 @@ payload:
   - DOMAIN-SUFFIX,nzchinese.com
   - DOMAIN-SUFFIX,nzchinese.net.nz
   - DOMAIN-SUFFIX,o3o.ca
-  - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,oanda.com
   - DOMAIN-SUFFIX,oann.com
   - DOMAIN-SUFFIX,oauth.net
@@ -4446,7 +4438,6 @@ payload:
   - DOMAIN-SUFFIX,oojj.de
   - DOMAIN-SUFFIX,oopsforum.com
   - DOMAIN-SUFFIX,open.com.hk
-  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openallweb.com
   - DOMAIN-SUFFIX,openbase.com
   - DOMAIN-SUFFIX,opendemocracy.net
@@ -4592,7 +4583,6 @@ payload:
   - DOMAIN-SUFFIX,perfectgirls.net
   - DOMAIN-SUFFIX,perfectvpn.net
   - DOMAIN-SUFFIX,periscope.tv
-  - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,persecutionblog.com
   - DOMAIN-SUFFIX,persiankitty.com
   - DOMAIN-SUFFIX,pewresearch.org
@@ -4680,7 +4670,6 @@ payload:
   - DOMAIN-SUFFIX,podbean.com
   - DOMAIN-SUFFIX,podcast.co
   - DOMAIN-SUFFIX,podictionary.com
-  - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,points-media.com
   - DOMAIN-SUFFIX,pokerstars.com
   - DOMAIN-SUFFIX,pokerstars.net
@@ -6681,7 +6670,6 @@ payload:
   - DOMAIN-SUFFIX,x-art.com
   - DOMAIN-SUFFIX,x-berry.com
   - DOMAIN-SUFFIX,x-wall.org
-  - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,x.co
   - DOMAIN-SUFFIX,x.com
   - DOMAIN-SUFFIX,x.company
