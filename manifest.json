@@ -30,9 +30,9 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3,
-      "source_count": 0,
-      "manual_count": 3,
+      "rules": 3091,
+      "source_count": 3091,
+      "manual_count": 0,
       "icon_id": "speedtest",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/speedtest.svg",
       "source_kind": "generated",
@@ -43,9 +43,9 @@
       "name": "AI",
       "policy": "AI",
       "description": "Overseas AI services only.",
-      "rules": 107,
-      "source_count": 34,
-      "manual_count": 73,
+      "rules": 147,
+      "source_count": 92,
+      "manual_count": 55,
       "icon_id": "global-ai",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
       "source_kind": "generated",
@@ -300,8 +300,8 @@
       "name": "GlobalSites",
       "policy": "境外网站",
       "description": "Long-tail overseas websites and services not covered by standalone brand buckets.",
-      "rules": 7072,
-      "source_count": 7047,
+      "rules": 7071,
+      "source_count": 7046,
       "manual_count": 25,
       "icon_id": "global",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg",
@@ -332,7 +332,47 @@
     "offline": false,
     "fetches": [
       {
+        "name": "blackmatrix7-speedtest-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "sukka-speedtest-domainset",
+        "ok": true,
+        "error": ""
+      },
+      {
         "name": "blackmatrix7-openai-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "acl4ssr-openai-clash",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "metacubex-openai-geosite",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "acl4ssr-claude-clash",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "metacubex-anthropic-geosite",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "acl4ssr-gemini-clash",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "metacubex-google-gemini-geosite",
         "ok": true,
         "error": ""
       },
@@ -457,11 +497,11 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3
+        "rules": 3091
       },
       {
         "name": "AI",
-        "rules": 107
+        "rules": 147
       },
       {
         "name": "Apple",
@@ -497,7 +537,7 @@
       },
       {
         "name": "GlobalSites",
-        "rules": 7072
+        "rules": 7071
       },
       {
         "name": "Ads",

@@ -2,7 +2,7 @@
 
 ## 规则数量 / Counts
 
-- AI: 107
+- AI: 147
 - Ads: 256535
 - Apple: 1873
 - Dev: 55
@@ -15,14 +15,14 @@
 - Microsoft: 713
 - Netflix: 1152
 - Payment: 252
-- SpeedTest: 3
+- SpeedTest: 3091
 - Spotify: 30
 - Telegram: 31
 - TikTok: 32
 - Twitter: 33
 - YouTube: 192
 - Domestic: 194
-- GlobalSites: 7072
+- GlobalSites: 7071
 - NetworkTest: 16
 
 ## 跨分类重复 / Cross-Category Conflicts
@@ -34,7 +34,15 @@
 
 ## 上游拉取结果 / Fetch Results
 
+- blackmatrix7-speedtest-quanx: ok
+- sukka-speedtest-domainset: ok
 - blackmatrix7-openai-quanx: ok
+- acl4ssr-openai-clash: ok
+- metacubex-openai-geosite: ok
+- acl4ssr-claude-clash: ok
+- metacubex-anthropic-geosite: ok
+- acl4ssr-gemini-clash: ok
+- metacubex-google-gemini-geosite: ok
 - blackmatrix7-github-quanx: ok
 - blackmatrix7-apple-quanx: ok
 - blackmatrix7-google-quanx: ok
