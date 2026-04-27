@@ -3,7 +3,7 @@
 ## 规则数量 / Counts
 
 - AI: 147
-- Ads: 256535
+- Ads: 257111
 - Apple: 1873
 - Dev: 55
 - DisneyPlus: 5
@@ -15,7 +15,7 @@
 - Microsoft: 713
 - Netflix: 1152
 - Payment: 252
-- SpeedTest: 3092
+- SpeedTest: 3093
 - Spotify: 30
 - Telegram: 31
 - TikTok: 32
@@ -99,7 +99,7 @@
 ## Mihomo MRS / Mihomo MRS
 
 - AI: 141 domain rules, 6 classical-only rules omitted, 1419 bytes
-- Ads: 255770 domain rules, 765 classical-only rules omitted, 2226949 bytes
+- Ads: 256346 domain rules, 765 classical-only rules omitted, 2231665 bytes
 - Apple: 1833 domain rules, 40 classical-only rules omitted, 18117 bytes
 - Dev: 55 domain rules, 0 classical-only rules omitted, 599 bytes
 - DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
@@ -114,7 +114,7 @@
 - Netflix: 32 domain rules, 1120 classical-only rules omitted, 398 bytes
 - NetworkTest: 16 domain rules, 0 classical-only rules omitted, 271 bytes
 - Payment: 250 domain rules, 2 classical-only rules omitted, 2706 bytes
-- SpeedTest: 3090 domain rules, 2 classical-only rules omitted, 33932 bytes
+- SpeedTest: 3091 domain rules, 2 classical-only rules omitted, 33940 bytes
 - Spotify: 26 domain rules, 4 classical-only rules omitted, 400 bytes
 - Telegram: 24 domain rules, 7 classical-only rules omitted, 310 bytes
 - TikTok: 29 domain rules, 3 classical-only rules omitted, 403 bytes
