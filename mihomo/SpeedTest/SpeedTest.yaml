@@ -1519,6 +1519,7 @@ payload:
   - DOMAIN,speedtest.fra01.fusionflare.cloud
   - DOMAIN,speedtest.fra1.hivelocity.net
   - DOMAIN,speedtest.frankfurt-am-main.valtrix.org
+  - DOMAIN,speedtest.frantic.link
   - DOMAIN,speedtest.frontlinetechnologies.in
   - DOMAIN,speedtest.ftmojave.net
   - DOMAIN,speedtest.ftth.wien
