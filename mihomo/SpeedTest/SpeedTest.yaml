@@ -846,6 +846,7 @@ payload:
   - DOMAIN,speed.srv.rent
   - DOMAIN,speed.stgscloud.com
   - DOMAIN,speed.suitit.nl
+  - DOMAIN,speed.supersonicinternet.com
   - DOMAIN,speed.syd.aussiebroadband.com.au
   - DOMAIN,speed.tajbroadband.net
   - DOMAIN,speed.telcomnetwork.net
@@ -931,6 +932,7 @@ payload:
   - DOMAIN,speedpilas.liberatel.es
   - DOMAIN,speedshm1.jioconnect.com
   - DOMAIN,speedsin.phoenixnap.com
+  - DOMAIN,speedt-mi.lakenetworks.it
   - DOMAIN,speedt-mi.skycdn.it
   - DOMAIN,speedtes.althuraya.live
   - DOMAIN,speedtest-01.nhbroadband.com
