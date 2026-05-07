@@ -38,8 +38,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3104,
-      "source_count": 3104,
+      "rules": 3107,
+      "source_count": 3107,
       "manual_count": 0,
       "icon_id": "speedtest",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/speedtest.svg",
@@ -47,9 +47,9 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3102,
+      "mihomo_mrs_rules": 3105,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 33991
+      "mihomo_mrs_bytes": 33928
     },
     {
       "name": "AI",
@@ -397,8 +397,8 @@
       "name": "Ads",
       "policy": "Ads",
       "description": "Advertising, privacy, and hijacking reject bundle.",
-      "rules": 259030,
-      "source_count": 259021,
+      "rules": 259472,
+      "source_count": 259463,
       "manual_count": 9,
       "icon_id": "reject",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
@@ -406,9 +406,9 @@
       "license": "unknown",
       "local_fallback": "reject.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs",
-      "mihomo_mrs_rules": 258265,
+      "mihomo_mrs_rules": 258707,
       "mihomo_mrs_omitted": 765,
-      "mihomo_mrs_bytes": 2248225
+      "mihomo_mrs_bytes": 2252424
     }
   ],
   "mihomo_mrs": {
@@ -589,7 +589,7 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3104
+        "rules": 3107
       },
       {
         "name": "AI",
@@ -633,7 +633,7 @@
       },
       {
         "name": "Ads",
-        "rules": 259030
+        "rules": 259472
       }
     ],
     "protected_reject_removals": [],
@@ -661,10 +661,10 @@
         "bytes": 271
       },
       "SpeedTest": {
-        "rules": 3102,
+        "rules": 3105,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 33991
+        "bytes": 33928
       },
       "AI": {
         "rules": 141,
@@ -775,10 +775,10 @@
         "bytes": 52043
       },
       "Ads": {
-        "rules": 258265,
+        "rules": 258707,
         "omitted": 765,
         "path": "mihomo-mrs/Ads/Ads.mrs",
-        "bytes": 2248225
+        "bytes": 2252424
       }
     }
   }
