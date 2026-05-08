@@ -142,6 +142,9 @@ payload:
   - DOMAIN-SUFFIX,statsig.com
   - DOMAIN-SUFFIX,stitch.withgoogle.com
   - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,tab-browser.com
+  - DOMAIN-SUFFIX,tabbit.ai
+  - DOMAIN-SUFFIX,tabbitbrowser.com
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-SUFFIX,windsurf.com
   - DOMAIN-SUFFIX,workos.com

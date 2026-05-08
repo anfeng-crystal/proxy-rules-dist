@@ -4,18 +4,18 @@
       "name": "Domestic",
       "policy": "国内应用",
       "description": "Merged mainland China applications, domestic AI, domestic payment, finance, media, cloud, and direct fallbacks.",
-      "rules": 194,
+      "rules": 195,
       "source_count": 30,
-      "manual_count": 164,
+      "manual_count": 165,
       "icon_id": "domestic-all",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg",
       "source_kind": "generated",
       "license": "unknown",
       "local_fallback": "domestic-all.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs",
-      "mihomo_mrs_rules": 159,
+      "mihomo_mrs_rules": 160,
       "mihomo_mrs_omitted": 35,
-      "mihomo_mrs_bytes": 1189
+      "mihomo_mrs_bytes": 1203
     },
     {
       "name": "NetworkTest",
@@ -55,18 +55,18 @@
       "name": "AI",
       "policy": "AI",
       "description": "Overseas AI services only.",
-      "rules": 147,
+      "rules": 150,
       "source_count": 92,
-      "manual_count": 55,
+      "manual_count": 58,
       "icon_id": "global-ai",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
       "source_kind": "generated",
       "license": "unknown",
       "local_fallback": "global-ai.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/AI/AI.mrs",
-      "mihomo_mrs_rules": 141,
+      "mihomo_mrs_rules": 144,
       "mihomo_mrs_omitted": 6,
-      "mihomo_mrs_bytes": 1419
+      "mihomo_mrs_bytes": 1446
     },
     {
       "name": "Dev",
@@ -581,7 +581,7 @@
     "composites": [
       {
         "name": "Domestic",
-        "rules": 194
+        "rules": 195
       },
       {
         "name": "NetworkTest",
@@ -593,7 +593,7 @@
       },
       {
         "name": "AI",
-        "rules": 147
+        "rules": 150
       },
       {
         "name": "Apple",
@@ -649,10 +649,10 @@
     "mihomo_mrs": {
       "enabled": true,
       "Domestic": {
-        "rules": 159,
+        "rules": 160,
         "omitted": 35,
         "path": "mihomo-mrs/Domestic/Domestic.mrs",
-        "bytes": 1189
+        "bytes": 1203
       },
       "NetworkTest": {
         "rules": 16,
@@ -667,10 +667,10 @@
         "bytes": 33928
       },
       "AI": {
-        "rules": 141,
+        "rules": 144,
         "omitted": 6,
         "path": "mihomo-mrs/AI/AI.mrs",
-        "bytes": 1419
+        "bytes": 1446
       },
       "Dev": {
         "rules": 55,

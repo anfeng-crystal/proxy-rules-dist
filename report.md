@@ -2,7 +2,7 @@
 
 ## 规则数量 / Counts
 
-- AI: 147
+- AI: 150
 - Ads: 259472
 - Apple: 1873
 - Dev: 55
@@ -21,7 +21,7 @@
 - TikTok: 32
 - Twitter: 33
 - YouTube: 192
-- Domestic: 194
+- Domestic: 195
 - GlobalSites: 7071
 - NetworkTest: 16
 
@@ -98,12 +98,12 @@
 
 ## Mihomo MRS / Mihomo MRS
 
-- AI: 141 domain rules, 6 classical-only rules omitted, 1419 bytes
+- AI: 144 domain rules, 6 classical-only rules omitted, 1446 bytes
 - Ads: 258707 domain rules, 765 classical-only rules omitted, 2252424 bytes
 - Apple: 1833 domain rules, 40 classical-only rules omitted, 18117 bytes
 - Dev: 55 domain rules, 0 classical-only rules omitted, 599 bytes
 - DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
-- Domestic: 159 domain rules, 35 classical-only rules omitted, 1189 bytes
+- Domestic: 160 domain rules, 35 classical-only rules omitted, 1203 bytes
 - Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
 - Game: 34 domain rules, 0 classical-only rules omitted, 439 bytes
 - GitHub: 37 domain rules, 1 classical-only rules omitted, 514 bytes
