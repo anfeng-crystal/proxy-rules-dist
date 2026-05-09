@@ -232,6 +232,7 @@ payload:
   - DOMAIN,jodyspeed.hammoud.store
   - DOMAIN,joplin1.cabospeed.com
   - DOMAIN,jp-nperf.verizon.net
+  - DOMAIN,jp.speedtest.bug.pw
   - DOMAIN,kami.smartone.com
   - DOMAIN,kansas-city.speedtest.brightspeed.com
   - DOMAIN,kansascity1.cabospeed.com
@@ -388,6 +389,7 @@ payload:
   - DOMAIN,nmx.cvt.speedtest.civitanet.com
   - DOMAIN,node01-eulon-free.tropicalgames.net
   - DOMAIN,northernaccess.de
+  - DOMAIN,ns1.anlnetwork.in
   - DOMAIN,ns1.fab5network.com
   - DOMAIN,ns1.fybrg.in
   - DOMAIN,ns10.fab5network.com
