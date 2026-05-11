@@ -36,6 +36,7 @@ payload:
   - DOMAIN,asbn-speedtest.northstate.net
   - DOMAIN,ashbn-va.speedtest.shentel.net
   - DOMAIN,at.blackhost.network
+  - DOMAIN,atl-speedtest.northstate.net
   - DOMAIN,atl-speedtest.shifthosting.com
   - DOMAIN,atlat0001speedtestserver01.wiline.com
   - DOMAIN,atlat0001speedtestserver02.wiline.com
@@ -338,6 +339,7 @@ payload:
   - DOMAIN,mgnc.atlantisnet.com.tr
   - DOMAIN,mi-speedtest.optimaitalia.com
   - DOMAIN,mia-eqx1-ookla-1.99.network
+  - DOMAIN,mia-speedtest.northstate.net
   - DOMAIN,mia01.screenshot.download
   - DOMAIN,miami-speedtest.reliablesite.net
   - DOMAIN,miami.getstreamhosting.com
@@ -464,6 +466,7 @@ payload:
   - DOMAIN,ookla.delhitel.net
   - DOMAIN,ookla.devitalia.it
   - DOMAIN,ookla.dl.as4755.net
+  - DOMAIN,ookla.dns-net.de
   - DOMAIN,ookla.dt8.as6453.net
   - DOMAIN,ookla.dus-02.testpub.telefonica.de
   - DOMAIN,ookla.ess-01.testpub.telefonica.de
@@ -1584,6 +1587,7 @@ payload:
   - DOMAIN,speedtest.hk210.hkg.cn.ctcsci.com
   - DOMAIN,speedtest.hk212.hkg.cn.nerocloud.io
   - DOMAIN,speedtest.hkg01.node.as9516.com
+  - DOMAIN,speedtest.hlinknet.com
   - DOMAIN,speedtest.hnd.fdcservers.net
   - DOMAIN,speedtest.hochschule-trier.de
   - DOMAIN,speedtest.homecomminc.com
@@ -1956,6 +1960,7 @@ payload:
   - DOMAIN,speedtest.roweinternet.com
   - DOMAIN,speedtest.rpworld.co.in
   - DOMAIN,speedtest.rtm.t-mobile.nl
+  - DOMAIN,speedtest.sahinotomotiv.com
   - DOMAIN,speedtest.saidnettelecom.com.br
   - DOMAIN,speedtest.samparkinfo.com
   - DOMAIN,speedtest.sarnettelekom.net.tr

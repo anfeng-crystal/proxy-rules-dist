@@ -38,8 +38,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3111,
-      "source_count": 3111,
+      "rules": 3116,
+      "source_count": 3116,
       "manual_count": 0,
       "icon_id": "speedtest",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/speedtest.svg",
@@ -47,9 +47,9 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3109,
+      "mihomo_mrs_rules": 3114,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 34135
+      "mihomo_mrs_bytes": 34265
     },
     {
       "name": "AI",
@@ -340,8 +340,8 @@
       "name": "Google",
       "policy": "Google",
       "description": "Google services, APIs, and static assets.",
-      "rules": 717,
-      "source_count": 717,
+      "rules": 710,
+      "source_count": 710,
       "manual_count": 0,
       "icon_id": "google",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/google.svg",
@@ -352,9 +352,9 @@
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
       "local_fallback": "google.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Google/Google.mrs",
-      "mihomo_mrs_rules": 705,
+      "mihomo_mrs_rules": 698,
       "mihomo_mrs_omitted": 12,
-      "mihomo_mrs_bytes": 6289
+      "mihomo_mrs_bytes": 6196
     },
     {
       "name": "GitHub",
@@ -397,8 +397,8 @@
       "name": "Ads",
       "policy": "Ads",
       "description": "Advertising, privacy, and hijacking reject bundle.",
-      "rules": 258759,
-      "source_count": 258750,
+      "rules": 259153,
+      "source_count": 259144,
       "manual_count": 9,
       "icon_id": "reject",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
@@ -406,9 +406,9 @@
       "license": "unknown",
       "local_fallback": "reject.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs",
-      "mihomo_mrs_rules": 257994,
+      "mihomo_mrs_rules": 258388,
       "mihomo_mrs_omitted": 765,
-      "mihomo_mrs_bytes": 2245547
+      "mihomo_mrs_bytes": 2248397
     }
   ],
   "mihomo_mrs": {
@@ -589,7 +589,7 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3111
+        "rules": 3116
       },
       {
         "name": "AI",
@@ -605,7 +605,7 @@
       },
       {
         "name": "Google",
-        "rules": 717
+        "rules": 710
       },
       {
         "name": "Dev",
@@ -633,7 +633,7 @@
       },
       {
         "name": "Ads",
-        "rules": 258759
+        "rules": 259153
       }
     ],
     "protected_reject_removals": [],
@@ -661,10 +661,10 @@
         "bytes": 271
       },
       "SpeedTest": {
-        "rules": 3109,
+        "rules": 3114,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 34135
+        "bytes": 34265
       },
       "AI": {
         "rules": 144,
@@ -757,10 +757,10 @@
         "bytes": 7198
       },
       "Google": {
-        "rules": 705,
+        "rules": 698,
         "omitted": 12,
         "path": "mihomo-mrs/Google/Google.mrs",
-        "bytes": 6289
+        "bytes": 6196
       },
       "GitHub": {
         "rules": 37,
@@ -775,10 +775,10 @@
         "bytes": 52043
       },
       "Ads": {
-        "rules": 257994,
+        "rules": 258388,
         "omitted": 765,
         "path": "mihomo-mrs/Ads/Ads.mrs",
-        "bytes": 2245547
+        "bytes": 2248397
       }
     }
   }

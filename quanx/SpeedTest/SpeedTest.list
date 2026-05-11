@@ -36,6 +36,7 @@ HOST,asanet1.brsserver.com.br,SpeedTest
 HOST,asbn-speedtest.northstate.net,SpeedTest
 HOST,ashbn-va.speedtest.shentel.net,SpeedTest
 HOST,at.blackhost.network,SpeedTest
+HOST,atl-speedtest.northstate.net,SpeedTest
 HOST,atl-speedtest.shifthosting.com,SpeedTest
 HOST,atlat0001speedtestserver01.wiline.com,SpeedTest
 HOST,atlat0001speedtestserver02.wiline.com,SpeedTest
@@ -338,6 +339,7 @@ HOST,mesa.speedtest.fiberfirst.com,SpeedTest
 HOST,mgnc.atlantisnet.com.tr,SpeedTest
 HOST,mi-speedtest.optimaitalia.com,SpeedTest
 HOST,mia-eqx1-ookla-1.99.network,SpeedTest
+HOST,mia-speedtest.northstate.net,SpeedTest
 HOST,mia01.screenshot.download,SpeedTest
 HOST,miami-speedtest.reliablesite.net,SpeedTest
 HOST,miami.getstreamhosting.com,SpeedTest
@@ -464,6 +466,7 @@ HOST,ookla.ct8.as6453.net,SpeedTest
 HOST,ookla.delhitel.net,SpeedTest
 HOST,ookla.devitalia.it,SpeedTest
 HOST,ookla.dl.as4755.net,SpeedTest
+HOST,ookla.dns-net.de,SpeedTest
 HOST,ookla.dt8.as6453.net,SpeedTest
 HOST,ookla.dus-02.testpub.telefonica.de,SpeedTest
 HOST,ookla.ess-01.testpub.telefonica.de,SpeedTest
@@ -1584,6 +1587,7 @@ HOST,speedtest.hk.chinamobile.com,SpeedTest
 HOST,speedtest.hk210.hkg.cn.ctcsci.com,SpeedTest
 HOST,speedtest.hk212.hkg.cn.nerocloud.io,SpeedTest
 HOST,speedtest.hkg01.node.as9516.com,SpeedTest
+HOST,speedtest.hlinknet.com,SpeedTest
 HOST,speedtest.hnd.fdcservers.net,SpeedTest
 HOST,speedtest.hochschule-trier.de,SpeedTest
 HOST,speedtest.homecomminc.com,SpeedTest
@@ -1956,6 +1960,7 @@ HOST,speedtest.routinger.com.br,SpeedTest
 HOST,speedtest.roweinternet.com,SpeedTest
 HOST,speedtest.rpworld.co.in,SpeedTest
 HOST,speedtest.rtm.t-mobile.nl,SpeedTest
+HOST,speedtest.sahinotomotiv.com,SpeedTest
 HOST,speedtest.saidnettelecom.com.br,SpeedTest
 HOST,speedtest.samparkinfo.com,SpeedTest
 HOST,speedtest.sarnettelekom.net.tr,SpeedTest

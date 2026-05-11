@@ -217,7 +217,6 @@ DOMAIN-SUFFIX,digitalattackmap.com,Google
 DOMAIN-SUFFIX,doubleclick-cn.net,Google
 DOMAIN-SUFFIX,doubleclick.com,Google
 DOMAIN-SUFFIX,doubleclick.net,Google
-DOMAIN-SUFFIX,download.qatp1.net,Google
 DOMAIN-SUFFIX,episodic.com,Google
 DOMAIN-SUFFIX,fastlane.ci,Google
 DOMAIN-SUFFIX,fastlane.tools,Google
@@ -566,7 +565,6 @@ DOMAIN-SUFFIX,mdialog.com,Google
 DOMAIN-SUFFIX,meet.new,Google
 DOMAIN-SUFFIX,mfg-inspector.com,Google
 DOMAIN-SUFFIX,mobileview.page,Google
-DOMAIN-SUFFIX,monitoring.qpdp1.net,Google
 DOMAIN-SUFFIX,moodstocks.com,Google
 DOMAIN-SUFFIX,near.by,Google
 DOMAIN-SUFFIX,nest.com,Google
@@ -610,12 +608,8 @@ DOMAIN-SUFFIX,prod.databe.floonet.goog,Google
 DOMAIN-SUFFIX,projectara.com,Google
 DOMAIN-SUFFIX,projectbaseline.com,Google
 DOMAIN-SUFFIX,publishproxy.com,Google
-DOMAIN-SUFFIX,qagpublic.qatp1.net,Google
-DOMAIN-SUFFIX,qgadmin.qcpp1.net,Google
 DOMAIN-SUFFIX,qiao-cn.com,Google
 DOMAIN-SUFFIX,qpx.googleflights.net,Google
-DOMAIN-SUFFIX,qualysapi.qatp1.net,Google
-DOMAIN-SUFFIX,qualysguard.qpdp1.net,Google
 DOMAIN-SUFFIX,questvisual.com,Google
 DOMAIN-SUFFIX,quickoffice.com,Google
 DOMAIN-SUFFIX,quiksee.com,Google
@@ -632,7 +626,6 @@ DOMAIN-SUFFIX,ridepenguin.com,Google
 DOMAIN-SUFFIX,run.app,Google
 DOMAIN-SUFFIX,savethedate.foo,Google
 DOMAIN-SUFFIX,saynow.com,Google
-DOMAIN-SUFFIX,scanservice1.qcpp1.net,Google
 DOMAIN-SUFFIX,schema.org,Google
 DOMAIN-SUFFIX,schemer.com,Google
 DOMAIN-SUFFIX,screenwisetrends.com,Google
