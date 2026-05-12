@@ -447,6 +447,7 @@ DOMAIN,ookla-speedtest.e-ports.eu,SpeedTest
 DOMAIN,ookla-speedtest.iu13.net,SpeedTest
 DOMAIN,ookla-speedtest.starverse.network,SpeedTest
 DOMAIN,ookla-speedtest.tkrz.de,SpeedTest
+DOMAIN,ookla-toronto.aerioncloud.com,SpeedTest
 DOMAIN,ookla.4g5g.co.uk,SpeedTest
 DOMAIN,ookla.a1.neptune.net.au,SpeedTest
 DOMAIN,ookla.a56.as6453.net,SpeedTest
@@ -1695,6 +1696,7 @@ DOMAIN,speedtest.lax.gigenet.com,SpeedTest
 DOMAIN,speedtest.lax.hivelocity.net,SpeedTest
 DOMAIN,speedtest.lax01.xfernet.net,SpeedTest
 DOMAIN,speedtest.lax1.nitelusa.net,SpeedTest
+DOMAIN,speedtest.lax2.sonic.net,SpeedTest
 DOMAIN,speedtest.layra.web.tr,SpeedTest
 DOMAIN,speedtest.lazco.dev,SpeedTest
 DOMAIN,speedtest.lcom.net,SpeedTest

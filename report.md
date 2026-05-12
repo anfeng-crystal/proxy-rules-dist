@@ -15,7 +15,7 @@
 - Microsoft: 713
 - Netflix: 1152
 - Payment: 252
-- SpeedTest: 3116
+- SpeedTest: 3118
 - Spotify: 30
 - Telegram: 31
 - TikTok: 32
@@ -114,7 +114,7 @@
 - Netflix: 32 domain rules, 1120 classical-only rules omitted, 398 bytes
 - NetworkTest: 16 domain rules, 0 classical-only rules omitted, 271 bytes
 - Payment: 250 domain rules, 2 classical-only rules omitted, 2706 bytes
-- SpeedTest: 3114 domain rules, 2 classical-only rules omitted, 34265 bytes
+- SpeedTest: 3116 domain rules, 2 classical-only rules omitted, 34201 bytes
 - Spotify: 26 domain rules, 4 classical-only rules omitted, 400 bytes
 - Telegram: 24 domain rules, 7 classical-only rules omitted, 310 bytes
 - TikTok: 29 domain rules, 3 classical-only rules omitted, 403 bytes

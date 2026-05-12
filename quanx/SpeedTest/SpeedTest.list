@@ -447,6 +447,7 @@ HOST,ookla-speedtest.e-ports.eu,SpeedTest
 HOST,ookla-speedtest.iu13.net,SpeedTest
 HOST,ookla-speedtest.starverse.network,SpeedTest
 HOST,ookla-speedtest.tkrz.de,SpeedTest
+HOST,ookla-toronto.aerioncloud.com,SpeedTest
 HOST,ookla.4g5g.co.uk,SpeedTest
 HOST,ookla.a1.neptune.net.au,SpeedTest
 HOST,ookla.a56.as6453.net,SpeedTest
@@ -1695,6 +1696,7 @@ HOST,speedtest.lax.gigenet.com,SpeedTest
 HOST,speedtest.lax.hivelocity.net,SpeedTest
 HOST,speedtest.lax01.xfernet.net,SpeedTest
 HOST,speedtest.lax1.nitelusa.net,SpeedTest
+HOST,speedtest.lax2.sonic.net,SpeedTest
 HOST,speedtest.layra.web.tr,SpeedTest
 HOST,speedtest.lazco.dev,SpeedTest
 HOST,speedtest.lcom.net,SpeedTest
