@@ -3,7 +3,7 @@
 ## 规则数量 / Counts
 
 - AI: 150
-- Ads: 259153
+- Ads: 259590
 - Apple: 1873
 - Dev: 55
 - DisneyPlus: 5
@@ -99,7 +99,7 @@
 ## Mihomo MRS / Mihomo MRS
 
 - AI: 144 domain rules, 6 classical-only rules omitted, 1446 bytes
-- Ads: 258388 domain rules, 765 classical-only rules omitted, 2248397 bytes
+- Ads: 258825 domain rules, 765 classical-only rules omitted, 2252510 bytes
 - Apple: 1833 domain rules, 40 classical-only rules omitted, 18117 bytes
 - Dev: 55 domain rules, 0 classical-only rules omitted, 599 bytes
 - DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
