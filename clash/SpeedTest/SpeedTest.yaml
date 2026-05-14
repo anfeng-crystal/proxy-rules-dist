@@ -68,6 +68,7 @@ payload:
   - DOMAIN,bursaspeedtest.pendns.net
   - DOMAIN,bytp-speedtest-1.123.net
   - DOMAIN,ca00svp-speed11.svc.tds.net
+  - DOMAIN,cbpuspeed.aspensmart.net
   - DOMAIN,cesu-hz.zjtelecom.com.cn
   - DOMAIN,cesu-nb.zjtelecom.com.cn
   - DOMAIN,ch1.chtm.hinet.net
@@ -1412,6 +1413,7 @@ payload:
   - DOMAIN,speedtest.correggio.netandwork.net
   - DOMAIN,speedtest.cpn.it
   - DOMAIN,speedtest.creolineserver.de
+  - DOMAIN,speedtest.crservers.com
   - DOMAIN,speedtest.crystalclearnetwork.co.in
   - DOMAIN,speedtest.csfibernet.in
   - DOMAIN,speedtest.cstech.com
@@ -2643,6 +2645,7 @@ payload:
   - DOMAIN,st.ruinet.work
   - DOMAIN,st.thw.rocket-fibre.co.uk
   - DOMAIN,st0.dal.tularosa.net
+  - DOMAIN,st01.fynncloud.net
   - DOMAIN,st01.mynet.it
   - DOMAIN,st02.fynncloud.net
   - DOMAIN,st02.mtnsat.net

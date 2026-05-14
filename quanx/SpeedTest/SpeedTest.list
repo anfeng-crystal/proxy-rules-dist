@@ -68,6 +68,7 @@ HOST,bur1speedtest.turktelekom.com.tr,SpeedTest
 HOST,bursaspeedtest.pendns.net,SpeedTest
 HOST,bytp-speedtest-1.123.net,SpeedTest
 HOST,ca00svp-speed11.svc.tds.net,SpeedTest
+HOST,cbpuspeed.aspensmart.net,SpeedTest
 HOST,cesu-hz.zjtelecom.com.cn,SpeedTest
 HOST,cesu-nb.zjtelecom.com.cn,SpeedTest
 HOST,ch1.chtm.hinet.net,SpeedTest
@@ -1412,6 +1413,7 @@ HOST,speedtest.coreix.net,SpeedTest
 HOST,speedtest.correggio.netandwork.net,SpeedTest
 HOST,speedtest.cpn.it,SpeedTest
 HOST,speedtest.creolineserver.de,SpeedTest
+HOST,speedtest.crservers.com,SpeedTest
 HOST,speedtest.crystalclearnetwork.co.in,SpeedTest
 HOST,speedtest.csfibernet.in,SpeedTest
 HOST,speedtest.cstech.com,SpeedTest
@@ -2643,6 +2645,7 @@ HOST,st.racsanntechnologies.com,SpeedTest
 HOST,st.ruinet.work,SpeedTest
 HOST,st.thw.rocket-fibre.co.uk,SpeedTest
 HOST,st0.dal.tularosa.net,SpeedTest
+HOST,st01.fynncloud.net,SpeedTest
 HOST,st01.mynet.it,SpeedTest
 HOST,st02.fynncloud.net,SpeedTest
 HOST,st02.mtnsat.net,SpeedTest
