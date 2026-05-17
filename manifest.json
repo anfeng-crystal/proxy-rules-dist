@@ -397,8 +397,8 @@
       "name": "Ads",
       "policy": "Ads",
       "description": "Advertising, privacy, and hijacking reject bundle.",
-      "rules": 260004,
-      "source_count": 259995,
+      "rules": 260418,
+      "source_count": 260409,
       "manual_count": 9,
       "icon_id": "reject",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
@@ -406,9 +406,9 @@
       "license": "unknown",
       "local_fallback": "reject.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs",
-      "mihomo_mrs_rules": 259239,
+      "mihomo_mrs_rules": 259653,
       "mihomo_mrs_omitted": 765,
-      "mihomo_mrs_bytes": 2256910
+      "mihomo_mrs_bytes": 2260407
     }
   ],
   "mihomo_mrs": {
@@ -633,7 +633,7 @@
       },
       {
         "name": "Ads",
-        "rules": 260004
+        "rules": 260418
       }
     ],
     "protected_reject_removals": [],
@@ -775,10 +775,10 @@
         "bytes": 52043
       },
       "Ads": {
-        "rules": 259239,
+        "rules": 259653,
         "omitted": 765,
         "path": "mihomo-mrs/Ads/Ads.mrs",
-        "bytes": 2256910
+        "bytes": 2260407
       }
     }
   }
