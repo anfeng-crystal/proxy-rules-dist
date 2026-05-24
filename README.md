@@ -50,8 +50,11 @@
 - 图标清单：`icons/manifest.json`
 - QuanX 远程规则：`snippets/quanx-filter-remote.conf`
 - Loon 远程规则：`snippets/loon-remote-rule.conf`
+- QuanX 主流远程规则：`snippets/quanx-mainstream-filter-remote.conf`
+- Loon 主流远程规则：`snippets/loon-mainstream-remote-rule.conf`
 - Clash Providers：`snippets/clash-rule-providers.yaml`
 - Clash Rules：`snippets/clash-rules.yaml`
+- Clash Party / Clash Verge Rev JS 覆写：`clash-party-verge-rev.override.js` 或 `snippets/clash-party-verge-rev.override.js`
 - Mihomo MRS Providers：`snippets/mihomo-mrs-rule-providers.yaml`
 - Mihomo MRS Rules：`snippets/mihomo-mrs-rules.yaml`
 - QuanX 完整模板：`snippets/quanx-policy-groups.full.conf`
@@ -65,12 +68,13 @@
 1. 先从公开主页打开对应客户端入口。
 2. 按客户端导入远程规则片段。
 3. 默认订阅已经是大规则聚合，不需要逐个订阅叶子分类。
-4. 需要精细维护时，修改 `sources/` 和 `overrides/` 的叶子输入，再由公开桶聚合发布。
-5. QuanX 的完整模板使用 `snippets/quanx-policy-groups.full.conf`。
-6. Loon 的完整模板使用 `snippets/loon-policy-groups.full.conf`。
-7. Clash Party / Clash Verge Rev 使用 `snippets/mihomo-clash-party-verge-rev.template.yaml`。
-8. 需要 Mihomo MRS 二进制规则时，使用 `snippets/mihomo-mrs-rule-providers.yaml`、`snippets/mihomo-mrs-rules.yaml` 或完整模板 `snippets/mihomo-mrs-clash-party-verge-rev.template.yaml`。
-9. 图标订阅分别使用 `snippets/quanx-policy-icons.conf`、`snippets/loon-policy-icons.conf` 和 `snippets/clash-icon-urls.yaml`。
+4. 只想导入主流规则时，QuanX 使用 `snippets/quanx-mainstream-filter-remote.conf`，Loon 使用 `snippets/loon-mainstream-remote-rule.conf`。
+5. 需要精细维护时，修改 `sources/` 和 `overrides/` 的叶子输入，再由公开桶聚合发布。
+6. QuanX 的完整模板使用 `snippets/quanx-policy-groups.full.conf`。
+7. Loon 的完整模板使用 `snippets/loon-policy-groups.full.conf`。
+8. Clash Party / Clash Verge Rev 可直接导入 `clash-party-verge-rev.override.js` 做 JS 覆写；需要 YAML 模板时使用 `snippets/mihomo-clash-party-verge-rev.template.yaml`。
+9. 需要 Mihomo MRS 二进制规则时，使用 `snippets/mihomo-mrs-rule-providers.yaml`、`snippets/mihomo-mrs-rules.yaml` 或完整模板 `snippets/mihomo-mrs-clash-party-verge-rev.template.yaml`。
+10. 图标订阅分别使用 `snippets/quanx-policy-icons.conf`、`snippets/loon-policy-icons.conf` 和 `snippets/clash-icon-urls.yaml`。
 
 ## 本地构建
 

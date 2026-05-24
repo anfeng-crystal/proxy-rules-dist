@@ -46,8 +46,11 @@ Copyable open sources become local `dist/icons/*.svg` fallbacks. Link-only or in
 Common client entry points:
 
 - QuanX policy template: `snippets/quanx-policy-groups.full.conf`
+- QuanX mainstream remote rules: `snippets/quanx-mainstream-filter-remote.conf`
 - Loon policy template: `snippets/loon-policy-groups.full.conf`
+- Loon mainstream remote rules: `snippets/loon-mainstream-remote-rule.conf`
 - Clash Party / Clash Verge Rev template: `snippets/mihomo-clash-party-verge-rev.template.yaml`
+- Clash Party / Clash Verge Rev JavaScript override: `clash-party-verge-rev.override.js` or `snippets/clash-party-verge-rev.override.js`
 - Mihomo MRS rule providers: `snippets/mihomo-mrs-rule-providers.yaml`
 - Mihomo MRS rules: `snippets/mihomo-mrs-rules.yaml`
 - Mihomo MRS Clash Party / Clash Verge Rev template: `snippets/mihomo-mrs-clash-party-verge-rev.template.yaml`
