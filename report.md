@@ -21,7 +21,7 @@
 - TikTok: 32
 - Twitter: 33
 - YouTube: 192
-- Domestic: 195
+- Domestic: 113752
 - GlobalSites: 7071
 - NetworkTest: 16
 
@@ -62,7 +62,7 @@
 - blackmatrix7-paypal-quanx: ok
 - blackmatrix7-globalmedia-quanx: ok
 - blackmatrix7-advertising-quanx: ok
-- blackmatrix7-china-clash: ok
+- blackmatrix7-chinamax-domain-clash: ok
 - acl4ssr-global-clash: ok
 
 ## 目录告警 / Catalog Warnings
@@ -103,7 +103,7 @@
 - Apple: 1833 domain rules, 40 classical-only rules omitted, 18117 bytes
 - Dev: 55 domain rules, 0 classical-only rules omitted, 599 bytes
 - DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
-- Domestic: 160 domain rules, 35 classical-only rules omitted, 1203 bytes
+- Domestic: 113747 domain rules, 5 classical-only rules omitted, 552673 bytes
 - Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
 - Game: 34 domain rules, 0 classical-only rules omitted, 439 bytes
 - GitHub: 37 domain rules, 1 classical-only rules omitted, 514 bytes

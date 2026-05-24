@@ -4,18 +4,18 @@
       "name": "Domestic",
       "policy": "国内应用",
       "description": "Merged mainland China applications, domestic AI, domestic payment, finance, media, cloud, and direct fallbacks.",
-      "rules": 195,
-      "source_count": 30,
-      "manual_count": 165,
+      "rules": 113752,
+      "source_count": 113593,
+      "manual_count": 159,
       "icon_id": "domestic-all",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg",
       "source_kind": "generated",
       "license": "unknown",
       "local_fallback": "domestic-all.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs",
-      "mihomo_mrs_rules": 160,
-      "mihomo_mrs_omitted": 35,
-      "mihomo_mrs_bytes": 1203
+      "mihomo_mrs_rules": 113747,
+      "mihomo_mrs_omitted": 5,
+      "mihomo_mrs_bytes": 552673
     },
     {
       "name": "NetworkTest",
@@ -564,7 +564,7 @@
         "error": ""
       },
       {
-        "name": "blackmatrix7-china-clash",
+        "name": "blackmatrix7-chinamax-domain-clash",
         "ok": true,
         "error": ""
       },
@@ -581,7 +581,7 @@
     "composites": [
       {
         "name": "Domestic",
-        "rules": 195
+        "rules": 113752
       },
       {
         "name": "NetworkTest",
@@ -649,10 +649,10 @@
     "mihomo_mrs": {
       "enabled": true,
       "Domestic": {
-        "rules": 160,
-        "omitted": 35,
+        "rules": 113747,
+        "omitted": 5,
         "path": "mihomo-mrs/Domestic/Domestic.mrs",
-        "bytes": 1203
+        "bytes": 552673
       },
       "NetworkTest": {
         "rules": 16,
