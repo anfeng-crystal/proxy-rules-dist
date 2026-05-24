@@ -2488,12 +2488,10 @@
       "remote_icon_url": null,
       "local_fallback": "qq.svg",
       "categories": [
-        "QQ",
-        "Tencent"
+        "QQ"
       ],
       "targets": [
-        "QQ",
-        "Tencent"
+        "QQ"
       ],
       "file": "qq.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/qq.svg",
@@ -2513,12 +2511,10 @@
       "remote_icon_url": null,
       "local_fallback": "wechat.svg",
       "categories": [
-        "WeChat",
-        "Tencent"
+        "WeChat"
       ],
       "targets": [
-        "WeChat",
-        "Tencent"
+        "WeChat"
       ],
       "file": "wechat.svg",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/wechat.svg",

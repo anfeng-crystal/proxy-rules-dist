@@ -17,6 +17,21 @@ rules:
   - IP-CIDR6,::1/128,DIRECT,no-resolve
   - IP-CIDR6,fc00::/7,DIRECT,no-resolve
   - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - RULE-SET,Bilibili,Bilibili
+  - RULE-SET,Douyin,Douyin
+  - RULE-SET,WeChat,WeChat
+  - RULE-SET,TencentVideo,TencentVideo
+  - RULE-SET,iQIYI,iQIYI
+  - RULE-SET,Youku,Youku
+  - RULE-SET,NetEaseMusic,NetEaseMusic
+  - RULE-SET,Weibo,Weibo
+  - RULE-SET,Zhihu,Zhihu
+  - RULE-SET,Baidu,Baidu
+  - RULE-SET,Alibaba,Alibaba
+  - RULE-SET,Tencent,Tencent
+  - RULE-SET,JD,JD
+  - RULE-SET,Meituan,Meituan
+  - RULE-SET,Pinduoduo,Pinduoduo
   - RULE-SET,Domestic,国内应用
   - RULE-SET,NetworkTest,网络检测
   - RULE-SET,SpeedTest,SpeedTest

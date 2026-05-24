@@ -220,6 +220,51 @@ proxy-groups:
   - name: "国内应用"
     type: select
     proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Bilibili"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Douyin"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "WeChat"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "TencentVideo"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "iQIYI"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Youku"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "NetEaseMusic"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Weibo"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Zhihu"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Baidu"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Alibaba"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Tencent"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "JD"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Meituan"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Pinduoduo"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
   - name: "网络检测"
     type: select
     proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
@@ -288,6 +333,111 @@ proxy-groups:
     proxies: ["DIRECT", "自动选择", "全部节点"]
 
 rule-providers:
+  Bilibili:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Bilibili/Bilibili.mrs
+    path: ./ruleset/Bilibili.mrs
+    interval: 86400
+  Douyin:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Douyin/Douyin.mrs
+    path: ./ruleset/Douyin.mrs
+    interval: 86400
+  WeChat:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/WeChat/WeChat.mrs
+    path: ./ruleset/WeChat.mrs
+    interval: 86400
+  TencentVideo:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/TencentVideo/TencentVideo.mrs
+    path: ./ruleset/TencentVideo.mrs
+    interval: 86400
+  iQIYI:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/iQIYI/iQIYI.mrs
+    path: ./ruleset/iQIYI.mrs
+    interval: 86400
+  Youku:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Youku/Youku.mrs
+    path: ./ruleset/Youku.mrs
+    interval: 86400
+  NetEaseMusic:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/NetEaseMusic/NetEaseMusic.mrs
+    path: ./ruleset/NetEaseMusic.mrs
+    interval: 86400
+  Weibo:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Weibo/Weibo.mrs
+    path: ./ruleset/Weibo.mrs
+    interval: 86400
+  Zhihu:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Zhihu/Zhihu.mrs
+    path: ./ruleset/Zhihu.mrs
+    interval: 86400
+  Baidu:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Baidu/Baidu.mrs
+    path: ./ruleset/Baidu.mrs
+    interval: 86400
+  Alibaba:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Alibaba/Alibaba.mrs
+    path: ./ruleset/Alibaba.mrs
+    interval: 86400
+  Tencent:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Tencent/Tencent.mrs
+    path: ./ruleset/Tencent.mrs
+    interval: 86400
+  JD:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/JD/JD.mrs
+    path: ./ruleset/JD.mrs
+    interval: 86400
+  Meituan:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Meituan/Meituan.mrs
+    path: ./ruleset/Meituan.mrs
+    interval: 86400
+  Pinduoduo:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Pinduoduo/Pinduoduo.mrs
+    path: ./ruleset/Pinduoduo.mrs
+    interval: 86400
   Domestic:
     type: http
     behavior: domain
@@ -462,11 +612,327 @@ rules:
   - IP-CIDR6,::1/128,DIRECT,no-resolve
   - IP-CIDR6,fc00::/7,DIRECT,no-resolve
   - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR,106.75.74.76/32,Bilibili,no-resolve
+  - IP-CIDR,111.206.25.147/32,Bilibili,no-resolve
+  - IP-CIDR,119.3.238.64/32,Bilibili,no-resolve
+  - IP-CIDR,120.92.108.182/32,Bilibili,no-resolve
+  - IP-CIDR,120.92.113.99/32,Bilibili,no-resolve
+  - IP-CIDR,120.92.153.217/32,Bilibili,no-resolve
+  - IP-CIDR,134.175.207.130/32,Bilibili,no-resolve
+  - IP-CIDR,203.107.1.0/24,Bilibili,no-resolve
+  - USER-AGENT,*bili*,Bilibili
+  - USER-AGENT,Bilibili*,Bilibili
+  - USER-AGENT,bili*,Bilibili
+  - USER-AGENT,bili-inter*,Bilibili
+  - RULE-SET,Bilibili,Bilibili
+  - RULE-SET,Douyin,Douyin
+  - USER-AGENT,MicroMessenger*,WeChat
+  - USER-AGENT,WeChat*,WeChat
+  - RULE-SET,WeChat,WeChat
+  - IP-CIDR,58.49.111.117/32,TencentVideo,no-resolve
+  - IP-CIDR,58.49.111.79/32,TencentVideo,no-resolve
+  - IP-CIDR,58.49.111.95/32,TencentVideo,no-resolve
+  - RULE-SET,TencentVideo,TencentVideo
+  - DOMAIN-KEYWORD,qiyi,iQIYI
+  - IP-CIDR,101.224.0.0/13,iQIYI,no-resolve
+  - IP-CIDR,103.44.56.0/22,iQIYI,no-resolve
+  - IP-CIDR,103.5.34.153/32,iQIYI,no-resolve
+  - IP-CIDR,104.109.129.153/32,iQIYI,no-resolve
+  - IP-CIDR,110.238.107.47/32,iQIYI,no-resolve
+  - IP-CIDR,118.26.120.0/24,iQIYI,no-resolve
+  - IP-CIDR,118.26.32.0/23,iQIYI,no-resolve
+  - IP-CIDR,119.176.0.0/12,iQIYI,no-resolve
+  - IP-CIDR,203.211.4.169/32,iQIYI,no-resolve
+  - IP-CIDR,203.211.4.193/32,iQIYI,no-resolve
+  - IP-CIDR,203.74.95.131/32,iQIYI,no-resolve
+  - IP-CIDR,203.74.95.139/32,iQIYI,no-resolve
+  - IP-CIDR,203.74.95.153/32,iQIYI,no-resolve
+  - IP-CIDR,210.201.32.11/32,iQIYI,no-resolve
+  - IP-CIDR,210.201.32.8/32,iQIYI,no-resolve
+  - IP-CIDR,210.71.227.200/32,iQIYI,no-resolve
+  - IP-CIDR,210.71.227.202/32,iQIYI,no-resolve
+  - IP-CIDR,23.211.15.99/32,iQIYI,no-resolve
+  - IP-CIDR,23.40.241.251/32,iQIYI,no-resolve
+  - IP-CIDR,23.40.242.10/32,iQIYI,no-resolve
+  - IP-CIDR,23.53.32.88/32,iQIYI,no-resolve
+  - USER-AGENT,PPStream*,iQIYI
+  - USER-AGENT,QIYI*,iQIYI
+  - USER-AGENT,QYPlayer*,iQIYI
+  - USER-AGENT,iQIYI*,iQIYI
+  - USER-AGENT,iQiYi*,iQIYI
+  - USER-AGENT,iQiyi*,iQIYI
+  - RULE-SET,iQIYI,iQIYI
+  - IP-CIDR,106.11.0.0/16,Youku,no-resolve
+  - USER-AGENT,%E4%BC%98%E9%85%B7*,Youku
+  - USER-AGENT,Youku*,Youku
+  - RULE-SET,Youku,Youku
+  - IP-CIDR,101.71.154.241/32,NetEaseMusic,no-resolve
+  - IP-CIDR,103.126.92.132/31,NetEaseMusic,no-resolve
+  - IP-CIDR,112.13.119.17/32,NetEaseMusic,no-resolve
+  - IP-CIDR,112.13.119.18/32,NetEaseMusic,no-resolve
+  - IP-CIDR,112.13.122.1/32,NetEaseMusic,no-resolve
+  - IP-CIDR,112.13.122.4/32,NetEaseMusic,no-resolve
+  - IP-CIDR,115.236.112.0/20,NetEaseMusic,no-resolve
+  - IP-CIDR,118.24.63.156/32,NetEaseMusic,no-resolve
+  - IP-CIDR,182.92.170.253/32,NetEaseMusic,no-resolve
+  - IP-CIDR,193.112.159.225/32,NetEaseMusic,no-resolve
+  - IP-CIDR,223.252.192.0/19,NetEaseMusic,no-resolve
+  - IP-CIDR,39.105.175.128/32,NetEaseMusic,no-resolve
+  - IP-CIDR,39.105.63.80/32,NetEaseMusic,no-resolve
+  - IP-CIDR,45.254.48.1/32,NetEaseMusic,no-resolve
+  - IP-CIDR,47.100.127.239/32,NetEaseMusic,no-resolve
+  - IP-CIDR,59.111.128.0/17,NetEaseMusic,no-resolve
+  - IP-CIDR,59.111.19.33/32,NetEaseMusic,no-resolve
+  - IP-CIDR,59.111.21.14/31,NetEaseMusic,no-resolve
+  - USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,NetEaseMusic
+  - USER-AGENT,NeteaseMusic*,NetEaseMusic
+  - RULE-SET,NetEaseMusic,NetEaseMusic
+  - DOMAIN-KEYWORD,weibo,Weibo
+  - RULE-SET,Weibo,Weibo
+  - IP-CIDR,103.41.167.226/32,Zhihu,no-resolve
+  - IP-CIDR,103.41.167.234/31,Zhihu,no-resolve
+  - IP-CIDR,103.41.167.236/32,Zhihu,no-resolve
+  - IP-CIDR,118.89.204.198/32,Zhihu,no-resolve
+  - RULE-SET,Zhihu,Zhihu
+  - RULE-SET,Baidu,Baidu
+  - IP-CIDR,103.206.40.0/22,Alibaba,no-resolve
+  - IP-CIDR,103.38.56.0/22,Alibaba,no-resolve
+  - IP-CIDR,103.52.196.0/22,Alibaba,no-resolve
+  - IP-CIDR,103.52.76.0/22,Alibaba,no-resolve
+  - IP-CIDR,106.11.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,110.173.192.0/19,Alibaba,no-resolve
+  - IP-CIDR,110.75.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,110.76.0.0/19,Alibaba,no-resolve
+  - IP-CIDR,110.76.48.0/20,Alibaba,no-resolve
+  - IP-CIDR,112.125.0.0/17,Alibaba,no-resolve
+  - IP-CIDR,115.124.16.0/20,Alibaba,no-resolve
+  - IP-CIDR,116.251.64.0/18,Alibaba,no-resolve
+  - IP-CIDR,119.38.208.0/20,Alibaba,no-resolve
+  - IP-CIDR,119.38.224.0/20,Alibaba,no-resolve
+  - IP-CIDR,119.42.224.0/20,Alibaba,no-resolve
+  - IP-CIDR,139.95.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,14.1.112.0/22,Alibaba,no-resolve
+  - IP-CIDR,140.205.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,147.139.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,149.129.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,155.102.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,161.117.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,163.181.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,170.33.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,198.11.128.0/18,Alibaba,no-resolve
+  - IP-CIDR,203.209.224.0/19,Alibaba,no-resolve
+  - IP-CIDR,205.204.96.0/19,Alibaba,no-resolve
+  - IP-CIDR,41.222.240.0/22,Alibaba,no-resolve
+  - IP-CIDR,41.223.119.0/24,Alibaba,no-resolve
+  - IP-CIDR,42.120.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,42.156.128.0/17,Alibaba,no-resolve
+  - IP-CIDR,43.242.168.0/22,Alibaba,no-resolve
+  - IP-CIDR,45.112.212.0/22,Alibaba,no-resolve
+  - IP-CIDR,45.113.40.0/22,Alibaba,no-resolve
+  - IP-CIDR,47.235.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,47.236.0.0/14,Alibaba,no-resolve
+  - IP-CIDR,47.240.0.0/14,Alibaba,no-resolve
+  - IP-CIDR,47.244.0.0/15,Alibaba,no-resolve
+  - IP-CIDR,47.246.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,47.250.0.0/15,Alibaba,no-resolve
+  - IP-CIDR,47.252.0.0/15,Alibaba,no-resolve
+  - IP-CIDR,47.254.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,47.52.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,47.56.0.0/15,Alibaba,no-resolve
+  - IP-CIDR,47.74.0.0/15,Alibaba,no-resolve
+  - IP-CIDR,47.76.0.0/14,Alibaba,no-resolve
+  - IP-CIDR,47.80.0.0/12,Alibaba,no-resolve
+  - IP-CIDR,59.82.0.0/20,Alibaba,no-resolve
+  - IP-CIDR,59.82.240.0/21,Alibaba,no-resolve
+  - IP-CIDR,59.82.248.0/22,Alibaba,no-resolve
+  - IP-CIDR,72.254.0.0/16,Alibaba,no-resolve
+  - IP-CIDR,8.128.0.0/10,Alibaba,no-resolve
+  - IP-CIDR,8.208.0.0/12,Alibaba,no-resolve
+  - RULE-SET,Alibaba,Alibaba
+  - IP-CIDR,101.32.104.4/32,Tencent,no-resolve
+  - IP-CIDR,101.32.104.41/32,Tencent,no-resolve
+  - IP-CIDR,101.32.104.56/32,Tencent,no-resolve
+  - IP-CIDR,101.32.118.25/32,Tencent,no-resolve
+  - IP-CIDR,101.32.133.16/32,Tencent,no-resolve
+  - IP-CIDR,101.32.133.209/32,Tencent,no-resolve
+  - IP-CIDR,101.32.133.53/32,Tencent,no-resolve
+  - IP-CIDR,103.238.16.0/23,Tencent,no-resolve
+  - IP-CIDR,103.7.28.0/22,Tencent,no-resolve
+  - IP-CIDR,119.147.8.78/32,Tencent,no-resolve
+  - IP-CIDR,120.41.44.0/32,Tencent,no-resolve
+  - IP-CIDR,122.5.0.129/32,Tencent,no-resolve
+  - IP-CIDR,129.226.107.244/32,Tencent,no-resolve
+  - IP-CIDR,129.226.3.47/32,Tencent,no-resolve
+  - IP-CIDR,140.249.239.0/32,Tencent,no-resolve
+  - IP-CIDR,140.249.28.0/32,Tencent,no-resolve
+  - IP-CIDR,150.138.137.0/32,Tencent,no-resolve
+  - IP-CIDR,150.139.143.0/32,Tencent,no-resolve
+  - IP-CIDR,27.159.95.0/32,Tencent,no-resolve
+  - IP-CIDR,58.58.81.129/32,Tencent,no-resolve
+  - USER-AGENT,MOO%E9%9F%B3%E4%B9%90*,Tencent
+  - USER-AGENT,QQ%E9%9F%B3%E4%B9%90,Tencent
+  - USER-AGENT,TencentMidasConnect*,Tencent
+  - USER-AGENT,live4iphone*,Tencent
+  - USER-AGENT,qqlive4iphone*,Tencent
+  - RULE-SET,Tencent,Tencent
+  - RULE-SET,JD,JD
+  - RULE-SET,Meituan,Meituan
+  - RULE-SET,Pinduoduo,Pinduoduo
+  - DOMAIN-KEYWORD,qiyi,国内应用
+  - DOMAIN-KEYWORD,weibo,国内应用
   - GEOIP,CN,国内应用,no-resolve
   - IP-CIDR,10.0.0.0/8,国内应用,no-resolve
+  - IP-CIDR,101.224.0.0/13,国内应用,no-resolve
+  - IP-CIDR,101.32.104.4/32,国内应用,no-resolve
+  - IP-CIDR,101.32.104.41/32,国内应用,no-resolve
+  - IP-CIDR,101.32.104.56/32,国内应用,no-resolve
+  - IP-CIDR,101.32.118.25/32,国内应用,no-resolve
+  - IP-CIDR,101.32.133.16/32,国内应用,no-resolve
+  - IP-CIDR,101.32.133.209/32,国内应用,no-resolve
+  - IP-CIDR,101.32.133.53/32,国内应用,no-resolve
+  - IP-CIDR,101.71.154.241/32,国内应用,no-resolve
+  - IP-CIDR,103.126.92.132/31,国内应用,no-resolve
+  - IP-CIDR,103.206.40.0/22,国内应用,no-resolve
+  - IP-CIDR,103.238.16.0/23,国内应用,no-resolve
+  - IP-CIDR,103.38.56.0/22,国内应用,no-resolve
+  - IP-CIDR,103.41.167.226/32,国内应用,no-resolve
+  - IP-CIDR,103.41.167.234/31,国内应用,no-resolve
+  - IP-CIDR,103.41.167.236/32,国内应用,no-resolve
+  - IP-CIDR,103.44.56.0/22,国内应用,no-resolve
+  - IP-CIDR,103.5.34.153/32,国内应用,no-resolve
+  - IP-CIDR,103.52.196.0/22,国内应用,no-resolve
+  - IP-CIDR,103.52.76.0/22,国内应用,no-resolve
+  - IP-CIDR,103.7.28.0/22,国内应用,no-resolve
+  - IP-CIDR,104.109.129.153/32,国内应用,no-resolve
+  - IP-CIDR,106.11.0.0/16,国内应用,no-resolve
+  - IP-CIDR,106.75.74.76/32,国内应用,no-resolve
+  - IP-CIDR,110.173.192.0/19,国内应用,no-resolve
+  - IP-CIDR,110.238.107.47/32,国内应用,no-resolve
+  - IP-CIDR,110.75.0.0/16,国内应用,no-resolve
+  - IP-CIDR,110.76.0.0/19,国内应用,no-resolve
+  - IP-CIDR,110.76.48.0/20,国内应用,no-resolve
+  - IP-CIDR,111.206.25.147/32,国内应用,no-resolve
+  - IP-CIDR,112.125.0.0/17,国内应用,no-resolve
+  - IP-CIDR,112.13.119.17/32,国内应用,no-resolve
+  - IP-CIDR,112.13.119.18/32,国内应用,no-resolve
+  - IP-CIDR,112.13.122.1/32,国内应用,no-resolve
+  - IP-CIDR,112.13.122.4/32,国内应用,no-resolve
+  - IP-CIDR,115.124.16.0/20,国内应用,no-resolve
+  - IP-CIDR,115.236.112.0/20,国内应用,no-resolve
+  - IP-CIDR,116.251.64.0/18,国内应用,no-resolve
+  - IP-CIDR,118.24.63.156/32,国内应用,no-resolve
+  - IP-CIDR,118.26.120.0/24,国内应用,no-resolve
+  - IP-CIDR,118.26.32.0/23,国内应用,no-resolve
+  - IP-CIDR,118.89.204.198/32,国内应用,no-resolve
+  - IP-CIDR,119.147.8.78/32,国内应用,no-resolve
+  - IP-CIDR,119.176.0.0/12,国内应用,no-resolve
+  - IP-CIDR,119.3.238.64/32,国内应用,no-resolve
+  - IP-CIDR,119.38.208.0/20,国内应用,no-resolve
+  - IP-CIDR,119.38.224.0/20,国内应用,no-resolve
+  - IP-CIDR,119.42.224.0/20,国内应用,no-resolve
+  - IP-CIDR,120.41.44.0/32,国内应用,no-resolve
+  - IP-CIDR,120.92.108.182/32,国内应用,no-resolve
+  - IP-CIDR,120.92.113.99/32,国内应用,no-resolve
+  - IP-CIDR,120.92.153.217/32,国内应用,no-resolve
+  - IP-CIDR,122.5.0.129/32,国内应用,no-resolve
   - IP-CIDR,127.0.0.0/8,国内应用,no-resolve
+  - IP-CIDR,129.226.107.244/32,国内应用,no-resolve
+  - IP-CIDR,129.226.3.47/32,国内应用,no-resolve
+  - IP-CIDR,134.175.207.130/32,国内应用,no-resolve
+  - IP-CIDR,139.95.0.0/16,国内应用,no-resolve
+  - IP-CIDR,14.1.112.0/22,国内应用,no-resolve
+  - IP-CIDR,140.205.0.0/16,国内应用,no-resolve
+  - IP-CIDR,140.249.239.0/32,国内应用,no-resolve
+  - IP-CIDR,140.249.28.0/32,国内应用,no-resolve
+  - IP-CIDR,147.139.0.0/16,国内应用,no-resolve
+  - IP-CIDR,149.129.0.0/16,国内应用,no-resolve
+  - IP-CIDR,150.138.137.0/32,国内应用,no-resolve
+  - IP-CIDR,150.139.143.0/32,国内应用,no-resolve
+  - IP-CIDR,155.102.0.0/16,国内应用,no-resolve
+  - IP-CIDR,161.117.0.0/16,国内应用,no-resolve
+  - IP-CIDR,163.181.0.0/16,国内应用,no-resolve
+  - IP-CIDR,170.33.0.0/16,国内应用,no-resolve
   - IP-CIDR,172.16.0.0/12,国内应用,no-resolve
+  - IP-CIDR,182.92.170.253/32,国内应用,no-resolve
   - IP-CIDR,192.168.0.0/16,国内应用,no-resolve
+  - IP-CIDR,193.112.159.225/32,国内应用,no-resolve
+  - IP-CIDR,198.11.128.0/18,国内应用,no-resolve
+  - IP-CIDR,203.107.1.0/24,国内应用,no-resolve
+  - IP-CIDR,203.209.224.0/19,国内应用,no-resolve
+  - IP-CIDR,203.211.4.169/32,国内应用,no-resolve
+  - IP-CIDR,203.211.4.193/32,国内应用,no-resolve
+  - IP-CIDR,203.74.95.131/32,国内应用,no-resolve
+  - IP-CIDR,203.74.95.139/32,国内应用,no-resolve
+  - IP-CIDR,203.74.95.153/32,国内应用,no-resolve
+  - IP-CIDR,205.204.96.0/19,国内应用,no-resolve
+  - IP-CIDR,210.201.32.11/32,国内应用,no-resolve
+  - IP-CIDR,210.201.32.8/32,国内应用,no-resolve
+  - IP-CIDR,210.71.227.200/32,国内应用,no-resolve
+  - IP-CIDR,210.71.227.202/32,国内应用,no-resolve
+  - IP-CIDR,223.252.192.0/19,国内应用,no-resolve
+  - IP-CIDR,23.211.15.99/32,国内应用,no-resolve
+  - IP-CIDR,23.40.241.251/32,国内应用,no-resolve
+  - IP-CIDR,23.40.242.10/32,国内应用,no-resolve
+  - IP-CIDR,23.53.32.88/32,国内应用,no-resolve
+  - IP-CIDR,27.159.95.0/32,国内应用,no-resolve
+  - IP-CIDR,39.105.175.128/32,国内应用,no-resolve
+  - IP-CIDR,39.105.63.80/32,国内应用,no-resolve
+  - IP-CIDR,41.222.240.0/22,国内应用,no-resolve
+  - IP-CIDR,41.223.119.0/24,国内应用,no-resolve
+  - IP-CIDR,42.120.0.0/16,国内应用,no-resolve
+  - IP-CIDR,42.156.128.0/17,国内应用,no-resolve
+  - IP-CIDR,43.242.168.0/22,国内应用,no-resolve
+  - IP-CIDR,45.112.212.0/22,国内应用,no-resolve
+  - IP-CIDR,45.113.40.0/22,国内应用,no-resolve
+  - IP-CIDR,45.254.48.1/32,国内应用,no-resolve
+  - IP-CIDR,47.100.127.239/32,国内应用,no-resolve
+  - IP-CIDR,47.235.0.0/16,国内应用,no-resolve
+  - IP-CIDR,47.236.0.0/14,国内应用,no-resolve
+  - IP-CIDR,47.240.0.0/14,国内应用,no-resolve
+  - IP-CIDR,47.244.0.0/15,国内应用,no-resolve
+  - IP-CIDR,47.246.0.0/16,国内应用,no-resolve
+  - IP-CIDR,47.250.0.0/15,国内应用,no-resolve
+  - IP-CIDR,47.252.0.0/15,国内应用,no-resolve
+  - IP-CIDR,47.254.0.0/16,国内应用,no-resolve
+  - IP-CIDR,47.52.0.0/16,国内应用,no-resolve
+  - IP-CIDR,47.56.0.0/15,国内应用,no-resolve
+  - IP-CIDR,47.74.0.0/15,国内应用,no-resolve
+  - IP-CIDR,47.76.0.0/14,国内应用,no-resolve
+  - IP-CIDR,47.80.0.0/12,国内应用,no-resolve
+  - IP-CIDR,58.49.111.117/32,国内应用,no-resolve
+  - IP-CIDR,58.49.111.79/32,国内应用,no-resolve
+  - IP-CIDR,58.49.111.95/32,国内应用,no-resolve
+  - IP-CIDR,58.58.81.129/32,国内应用,no-resolve
+  - IP-CIDR,59.111.128.0/17,国内应用,no-resolve
+  - IP-CIDR,59.111.19.33/32,国内应用,no-resolve
+  - IP-CIDR,59.111.21.14/31,国内应用,no-resolve
+  - IP-CIDR,59.82.0.0/20,国内应用,no-resolve
+  - IP-CIDR,59.82.240.0/21,国内应用,no-resolve
+  - IP-CIDR,59.82.248.0/22,国内应用,no-resolve
+  - IP-CIDR,72.254.0.0/16,国内应用,no-resolve
+  - IP-CIDR,8.128.0.0/10,国内应用,no-resolve
+  - IP-CIDR,8.208.0.0/12,国内应用,no-resolve
+  - USER-AGENT,%E4%BC%98%E9%85%B7*,国内应用
+  - USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,国内应用
+  - USER-AGENT,*bili*,国内应用
+  - USER-AGENT,Bilibili*,国内应用
+  - USER-AGENT,MOO%E9%9F%B3%E4%B9%90*,国内应用
+  - USER-AGENT,MicroMessenger*,国内应用
+  - USER-AGENT,NeteaseMusic*,国内应用
+  - USER-AGENT,PPStream*,国内应用
+  - USER-AGENT,QIYI*,国内应用
+  - USER-AGENT,QQ%E9%9F%B3%E4%B9%90,国内应用
+  - USER-AGENT,QYPlayer*,国内应用
+  - USER-AGENT,TencentMidasConnect*,国内应用
+  - USER-AGENT,WeChat*,国内应用
+  - USER-AGENT,Youku*,国内应用
+  - USER-AGENT,bili*,国内应用
+  - USER-AGENT,bili-inter*,国内应用
+  - USER-AGENT,iQIYI*,国内应用
+  - USER-AGENT,iQiYi*,国内应用
+  - USER-AGENT,iQiyi*,国内应用
+  - USER-AGENT,live4iphone*,国内应用
+  - USER-AGENT,qqlive4iphone*,国内应用
   - RULE-SET,Domestic,国内应用
   - RULE-SET,NetworkTest,网络检测
   - DOMAIN-KEYWORD,speedtest,SpeedTest

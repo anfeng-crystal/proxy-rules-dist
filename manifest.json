@@ -1,21 +1,271 @@
 {
   "categories": [
     {
+      "name": "Bilibili",
+      "policy": "Bilibili",
+      "description": "Bilibili app, web, API, video, and media endpoints.",
+      "rules": 127,
+      "source_count": 127,
+      "manual_count": 0,
+      "icon_id": "bilibili",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/bilibili.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/bilibili.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "bilibili.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Bilibili/Bilibili.mrs",
+      "mihomo_mrs_rules": 115,
+      "mihomo_mrs_omitted": 12,
+      "mihomo_mrs_bytes": 1477
+    },
+    {
+      "name": "Douyin",
+      "policy": "Douyin",
+      "description": "Douyin app, web, media, image, and CDN endpoints.",
+      "rules": 15,
+      "source_count": 13,
+      "manual_count": 2,
+      "icon_id": "douyin",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/douyin.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/douyin.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "douyin.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Douyin/Douyin.mrs",
+      "mihomo_mrs_rules": 15,
+      "mihomo_mrs_omitted": 0,
+      "mihomo_mrs_bytes": 217
+    },
+    {
+      "name": "WeChat",
+      "policy": "WeChat",
+      "description": "WeChat web, auth, media, and payment endpoints.",
+      "rules": 44,
+      "source_count": 42,
+      "manual_count": 2,
+      "icon_id": "wechat",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/wechat.svg",
+      "source_kind": "custom",
+      "source_url": "https://weixin.qq.com/",
+      "license": "unknown",
+      "local_fallback": "wechat.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/WeChat/WeChat.mrs",
+      "mihomo_mrs_rules": 42,
+      "mihomo_mrs_omitted": 2,
+      "mihomo_mrs_bytes": 418
+    },
+    {
+      "name": "TencentVideo",
+      "policy": "TencentVideo",
+      "description": "Tencent Video and video CDN endpoints.",
+      "rules": 22,
+      "source_count": 22,
+      "manual_count": 0,
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/TencentVideo/TencentVideo.mrs",
+      "mihomo_mrs_rules": 19,
+      "mihomo_mrs_omitted": 3,
+      "mihomo_mrs_bytes": 368
+    },
+    {
+      "name": "iQIYI",
+      "policy": "iQIYI",
+      "description": "iQIYI web, app, and video endpoints.",
+      "rules": 62,
+      "source_count": 62,
+      "manual_count": 0,
+      "icon_id": "iqiyi",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/iqiyi.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/iqiyi.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "iqiyi.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/iQIYI/iQIYI.mrs",
+      "mihomo_mrs_rules": 34,
+      "mihomo_mrs_omitted": 28,
+      "mihomo_mrs_bytes": 361
+    },
+    {
+      "name": "Youku",
+      "policy": "Youku",
+      "description": "Youku and Tudou web and video endpoints.",
+      "rules": 37,
+      "source_count": 37,
+      "manual_count": 0,
+      "icon_id": "youku",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/youku.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/youku.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "youku.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Youku/Youku.mrs",
+      "mihomo_mrs_rules": 34,
+      "mihomo_mrs_omitted": 3,
+      "mihomo_mrs_bytes": 400
+    },
+    {
+      "name": "NetEaseMusic",
+      "policy": "NetEaseMusic",
+      "description": "NetEase music and audio endpoints.",
+      "rules": 30,
+      "source_count": 30,
+      "manual_count": 0,
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/NetEaseMusic/NetEaseMusic.mrs",
+      "mihomo_mrs_rules": 10,
+      "mihomo_mrs_omitted": 20,
+      "mihomo_mrs_bytes": 199
+    },
+    {
+      "name": "Weibo",
+      "policy": "Weibo",
+      "description": "Weibo app, web, API, media, and video endpoints.",
+      "rules": 6,
+      "source_count": 4,
+      "manual_count": 2,
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Weibo/Weibo.mrs",
+      "mihomo_mrs_rules": 5,
+      "mihomo_mrs_omitted": 1,
+      "mihomo_mrs_bytes": 107
+    },
+    {
+      "name": "Zhihu",
+      "policy": "Zhihu",
+      "description": "Zhihu app, web, API, static, content, and video endpoints.",
+      "rules": 8,
+      "source_count": 6,
+      "manual_count": 2,
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Zhihu/Zhihu.mrs",
+      "mihomo_mrs_rules": 4,
+      "mihomo_mrs_omitted": 4,
+      "mihomo_mrs_bytes": 94
+    },
+    {
+      "name": "Baidu",
+      "policy": "Baidu",
+      "description": "Baidu search, maps, cloud, netdisk, Tieba, and static endpoints.",
+      "rules": 259,
+      "source_count": 251,
+      "manual_count": 8,
+      "icon_id": "baidu",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/baidu.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/baidu.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "baidu.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Baidu/Baidu.mrs",
+      "mihomo_mrs_rules": 259,
+      "mihomo_mrs_omitted": 0,
+      "mihomo_mrs_bytes": 2147
+    },
+    {
+      "name": "Alibaba",
+      "policy": "Alibaba",
+      "description": "Alibaba, Taobao, Tmall, Alipay, Aliyun, and Alibaba CDN endpoints.",
+      "rules": 1319,
+      "source_count": 1319,
+      "manual_count": 0,
+      "icon_id": "alibaba",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/alibaba.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/alibaba.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "alibaba.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Alibaba/Alibaba.mrs",
+      "mihomo_mrs_rules": 1266,
+      "mihomo_mrs_omitted": 53,
+      "mihomo_mrs_bytes": 7649
+    },
+    {
+      "name": "Tencent",
+      "policy": "Tencent",
+      "description": "Tencent core, QQ, Tencent Cloud, and Tencent Meeting endpoints.",
+      "rules": 2524,
+      "source_count": 2523,
+      "manual_count": 1,
+      "icon_id": "tencent",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/tencent.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/tencent.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "tencent.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Tencent/Tencent.mrs",
+      "mihomo_mrs_rules": 2499,
+      "mihomo_mrs_omitted": 25,
+      "mihomo_mrs_bytes": 18001
+    },
+    {
+      "name": "JD",
+      "policy": "JD",
+      "description": "JD.com retail, logistics, checkout, and static endpoints.",
+      "rules": 249,
+      "source_count": 249,
+      "manual_count": 0,
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/JD/JD.mrs",
+      "mihomo_mrs_rules": 249,
+      "mihomo_mrs_omitted": 0,
+      "mihomo_mrs_bytes": 2144
+    },
+    {
+      "name": "Meituan",
+      "policy": "Meituan",
+      "description": "Meituan and Dianping app, web, and static endpoints.",
+      "rules": 8,
+      "source_count": 7,
+      "manual_count": 1,
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Meituan/Meituan.mrs",
+      "mihomo_mrs_rules": 8,
+      "mihomo_mrs_omitted": 0,
+      "mihomo_mrs_bytes": 137
+    },
+    {
+      "name": "Pinduoduo",
+      "policy": "Pinduoduo",
+      "description": "Pinduoduo shopping and merchant endpoints.",
+      "rules": 4,
+      "source_count": 3,
+      "manual_count": 1,
+      "icon_id": "pinduoduo",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/pinduoduo.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/pinduoduo.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "pinduoduo.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Pinduoduo/Pinduoduo.mrs",
+      "mihomo_mrs_rules": 4,
+      "mihomo_mrs_omitted": 0,
+      "mihomo_mrs_bytes": 94
+    },
+    {
       "name": "Domestic",
       "policy": "国内应用",
       "description": "Merged mainland China applications, domestic AI, domestic payment, finance, media, cloud, and direct fallbacks.",
-      "rules": 113752,
-      "source_count": 113593,
-      "manual_count": 159,
+      "rules": 114966,
+      "source_count": 114871,
+      "manual_count": 95,
       "icon_id": "domestic-all",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg",
       "source_kind": "generated",
       "license": "unknown",
       "local_fallback": "domestic-all.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs",
-      "mihomo_mrs_rules": 113747,
-      "mihomo_mrs_omitted": 5,
-      "mihomo_mrs_bytes": 552673
+      "mihomo_mrs_rules": 114811,
+      "mihomo_mrs_omitted": 155,
+      "mihomo_mrs_bytes": 558932
     },
     {
       "name": "NetworkTest",
@@ -564,6 +814,81 @@
         "error": ""
       },
       {
+        "name": "blackmatrix7-bilibili-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-douyin-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-wechat-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-tencentvideo-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-iqiyi-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-youku-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-neteasemusic-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-weibo-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-zhihu-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-baidu-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-alibaba-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-tencent-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-jingdong-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-meituan-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
+        "name": "blackmatrix7-pinduoduo-quanx",
+        "ok": true,
+        "error": ""
+      },
+      {
         "name": "blackmatrix7-chinamax-domain-clash",
         "ok": true,
         "error": ""
@@ -580,8 +905,68 @@
     "warnings": [],
     "composites": [
       {
+        "name": "Bilibili",
+        "rules": 127
+      },
+      {
+        "name": "Douyin",
+        "rules": 15
+      },
+      {
+        "name": "WeChat",
+        "rules": 44
+      },
+      {
+        "name": "TencentVideo",
+        "rules": 22
+      },
+      {
+        "name": "iQIYI",
+        "rules": 62
+      },
+      {
+        "name": "Youku",
+        "rules": 37
+      },
+      {
+        "name": "NetEaseMusic",
+        "rules": 30
+      },
+      {
+        "name": "Weibo",
+        "rules": 6
+      },
+      {
+        "name": "Zhihu",
+        "rules": 8
+      },
+      {
+        "name": "Baidu",
+        "rules": 259
+      },
+      {
+        "name": "Alibaba",
+        "rules": 1319
+      },
+      {
+        "name": "Tencent",
+        "rules": 2524
+      },
+      {
+        "name": "JD",
+        "rules": 249
+      },
+      {
+        "name": "Meituan",
+        "rules": 8
+      },
+      {
+        "name": "Pinduoduo",
+        "rules": 4
+      },
+      {
         "name": "Domestic",
-        "rules": 113752
+        "rules": 114966
       },
       {
         "name": "NetworkTest",
@@ -641,18 +1026,117 @@
       "Netflix:domain_suffix:fast.com"
     ],
     "cross_category_conflicts": {
-      "categories_scanned": 22,
-      "duplicate_keys": 0,
-      "duplicate_category_memberships": 0,
-      "examples": []
+      "categories_scanned": 37,
+      "duplicate_keys": 1,
+      "duplicate_category_memberships": 2,
+      "examples": [
+        {
+          "rule": "domain_suffix:snssdk.com",
+          "count": 2,
+          "categories": [
+            "TikTok",
+            "Douyin"
+          ]
+        }
+      ]
     },
     "mihomo_mrs": {
       "enabled": true,
+      "Bilibili": {
+        "rules": 115,
+        "omitted": 12,
+        "path": "mihomo-mrs/Bilibili/Bilibili.mrs",
+        "bytes": 1477
+      },
+      "Douyin": {
+        "rules": 15,
+        "omitted": 0,
+        "path": "mihomo-mrs/Douyin/Douyin.mrs",
+        "bytes": 217
+      },
+      "WeChat": {
+        "rules": 42,
+        "omitted": 2,
+        "path": "mihomo-mrs/WeChat/WeChat.mrs",
+        "bytes": 418
+      },
+      "TencentVideo": {
+        "rules": 19,
+        "omitted": 3,
+        "path": "mihomo-mrs/TencentVideo/TencentVideo.mrs",
+        "bytes": 368
+      },
+      "iQIYI": {
+        "rules": 34,
+        "omitted": 28,
+        "path": "mihomo-mrs/iQIYI/iQIYI.mrs",
+        "bytes": 361
+      },
+      "Youku": {
+        "rules": 34,
+        "omitted": 3,
+        "path": "mihomo-mrs/Youku/Youku.mrs",
+        "bytes": 400
+      },
+      "NetEaseMusic": {
+        "rules": 10,
+        "omitted": 20,
+        "path": "mihomo-mrs/NetEaseMusic/NetEaseMusic.mrs",
+        "bytes": 199
+      },
+      "Weibo": {
+        "rules": 5,
+        "omitted": 1,
+        "path": "mihomo-mrs/Weibo/Weibo.mrs",
+        "bytes": 107
+      },
+      "Zhihu": {
+        "rules": 4,
+        "omitted": 4,
+        "path": "mihomo-mrs/Zhihu/Zhihu.mrs",
+        "bytes": 94
+      },
+      "Baidu": {
+        "rules": 259,
+        "omitted": 0,
+        "path": "mihomo-mrs/Baidu/Baidu.mrs",
+        "bytes": 2147
+      },
+      "Alibaba": {
+        "rules": 1266,
+        "omitted": 53,
+        "path": "mihomo-mrs/Alibaba/Alibaba.mrs",
+        "bytes": 7649
+      },
+      "Tencent": {
+        "rules": 2499,
+        "omitted": 25,
+        "path": "mihomo-mrs/Tencent/Tencent.mrs",
+        "bytes": 18001
+      },
+      "JD": {
+        "rules": 249,
+        "omitted": 0,
+        "path": "mihomo-mrs/JD/JD.mrs",
+        "bytes": 2144
+      },
+      "Meituan": {
+        "rules": 8,
+        "omitted": 0,
+        "path": "mihomo-mrs/Meituan/Meituan.mrs",
+        "bytes": 137
+      },
+      "Pinduoduo": {
+        "rules": 4,
+        "omitted": 0,
+        "path": "mihomo-mrs/Pinduoduo/Pinduoduo.mrs",
+        "bytes": 94
+      },
       "Domestic": {
-        "rules": 113747,
-        "omitted": 5,
+        "rules": 114811,
+        "omitted": 155,
         "path": "mihomo-mrs/Domestic/Domestic.mrs",
-        "bytes": 552673
+        "bytes": 558932
       },
       "NetworkTest": {
         "rules": 16,

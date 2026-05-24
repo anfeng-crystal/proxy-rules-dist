@@ -1,4 +1,109 @@
 rule-providers:
+  Bilibili:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Bilibili/Bilibili.mrs
+    path: ./ruleset/Bilibili.mrs
+    interval: 86400
+  Douyin:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Douyin/Douyin.mrs
+    path: ./ruleset/Douyin.mrs
+    interval: 86400
+  WeChat:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/WeChat/WeChat.mrs
+    path: ./ruleset/WeChat.mrs
+    interval: 86400
+  TencentVideo:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/TencentVideo/TencentVideo.mrs
+    path: ./ruleset/TencentVideo.mrs
+    interval: 86400
+  iQIYI:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/iQIYI/iQIYI.mrs
+    path: ./ruleset/iQIYI.mrs
+    interval: 86400
+  Youku:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Youku/Youku.mrs
+    path: ./ruleset/Youku.mrs
+    interval: 86400
+  NetEaseMusic:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/NetEaseMusic/NetEaseMusic.mrs
+    path: ./ruleset/NetEaseMusic.mrs
+    interval: 86400
+  Weibo:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Weibo/Weibo.mrs
+    path: ./ruleset/Weibo.mrs
+    interval: 86400
+  Zhihu:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Zhihu/Zhihu.mrs
+    path: ./ruleset/Zhihu.mrs
+    interval: 86400
+  Baidu:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Baidu/Baidu.mrs
+    path: ./ruleset/Baidu.mrs
+    interval: 86400
+  Alibaba:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Alibaba/Alibaba.mrs
+    path: ./ruleset/Alibaba.mrs
+    interval: 86400
+  Tencent:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Tencent/Tencent.mrs
+    path: ./ruleset/Tencent.mrs
+    interval: 86400
+  JD:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/JD/JD.mrs
+    path: ./ruleset/JD.mrs
+    interval: 86400
+  Meituan:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Meituan/Meituan.mrs
+    path: ./ruleset/Meituan.mrs
+    interval: 86400
+  Pinduoduo:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Pinduoduo/Pinduoduo.mrs
+    path: ./ruleset/Pinduoduo.mrs
+    interval: 86400
   Domestic:
     type: http
     behavior: domain

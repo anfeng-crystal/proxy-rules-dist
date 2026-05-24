@@ -220,6 +220,51 @@ proxy-groups:
   - name: "国内应用"
     type: select
     proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Bilibili"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Douyin"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "WeChat"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "TencentVideo"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "iQIYI"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Youku"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "NetEaseMusic"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Weibo"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Zhihu"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Baidu"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Alibaba"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Tencent"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "JD"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Meituan"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Pinduoduo"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
   - name: "网络检测"
     type: select
     proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
@@ -288,6 +333,96 @@ proxy-groups:
     proxies: ["DIRECT", "自动选择", "全部节点"]
 
 rule-providers:
+  Bilibili:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Bilibili/Bilibili.yaml
+    path: ./ruleset/Bilibili.yaml
+    interval: 86400
+  Douyin:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Douyin/Douyin.yaml
+    path: ./ruleset/Douyin.yaml
+    interval: 86400
+  WeChat:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/WeChat/WeChat.yaml
+    path: ./ruleset/WeChat.yaml
+    interval: 86400
+  TencentVideo:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/TencentVideo/TencentVideo.yaml
+    path: ./ruleset/TencentVideo.yaml
+    interval: 86400
+  iQIYI:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/iQIYI/iQIYI.yaml
+    path: ./ruleset/iQIYI.yaml
+    interval: 86400
+  Youku:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Youku/Youku.yaml
+    path: ./ruleset/Youku.yaml
+    interval: 86400
+  NetEaseMusic:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/NetEaseMusic/NetEaseMusic.yaml
+    path: ./ruleset/NetEaseMusic.yaml
+    interval: 86400
+  Weibo:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Weibo/Weibo.yaml
+    path: ./ruleset/Weibo.yaml
+    interval: 86400
+  Zhihu:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Zhihu/Zhihu.yaml
+    path: ./ruleset/Zhihu.yaml
+    interval: 86400
+  Baidu:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Baidu/Baidu.yaml
+    path: ./ruleset/Baidu.yaml
+    interval: 86400
+  Alibaba:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Alibaba/Alibaba.yaml
+    path: ./ruleset/Alibaba.yaml
+    interval: 86400
+  Tencent:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Tencent/Tencent.yaml
+    path: ./ruleset/Tencent.yaml
+    interval: 86400
+  JD:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/JD/JD.yaml
+    path: ./ruleset/JD.yaml
+    interval: 86400
+  Meituan:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Meituan/Meituan.yaml
+    path: ./ruleset/Meituan.yaml
+    interval: 86400
+  Pinduoduo:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Pinduoduo/Pinduoduo.yaml
+    path: ./ruleset/Pinduoduo.yaml
+    interval: 86400
   Domestic:
     type: http
     behavior: classical
@@ -440,6 +575,21 @@ rules:
   - IP-CIDR6,::1/128,DIRECT,no-resolve
   - IP-CIDR6,fc00::/7,DIRECT,no-resolve
   - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - RULE-SET,Bilibili,Bilibili
+  - RULE-SET,Douyin,Douyin
+  - RULE-SET,WeChat,WeChat
+  - RULE-SET,TencentVideo,TencentVideo
+  - RULE-SET,iQIYI,iQIYI
+  - RULE-SET,Youku,Youku
+  - RULE-SET,NetEaseMusic,NetEaseMusic
+  - RULE-SET,Weibo,Weibo
+  - RULE-SET,Zhihu,Zhihu
+  - RULE-SET,Baidu,Baidu
+  - RULE-SET,Alibaba,Alibaba
+  - RULE-SET,Tencent,Tencent
+  - RULE-SET,JD,JD
+  - RULE-SET,Meituan,Meituan
+  - RULE-SET,Pinduoduo,Pinduoduo
   - RULE-SET,Domestic,国内应用
   - RULE-SET,NetworkTest,网络检测
   - RULE-SET,SpeedTest,SpeedTest

@@ -8,6 +8,13 @@ icon_urls:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg
     source_kind: generated
     license: unknown
+  Alibaba:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/alibaba.svg
+    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/alibaba.svg
+    source_kind: lobe-icons
+    source_url: https://github.com/lobehub/lobe-icons
+    license: MIT
+    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   Apple:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg
     remote: https://cdn.simpleicons.org/apple
@@ -15,6 +22,20 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
+  Baidu:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/baidu.svg
+    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/baidu.svg
+    source_kind: lobe-icons
+    source_url: https://github.com/lobehub/lobe-icons
+    license: MIT
+    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
+  Bilibili:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/bilibili.svg
+    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/bilibili.svg
+    source_kind: lobe-icons
+    source_url: https://github.com/lobehub/lobe-icons
+    license: MIT
+    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   Dev:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg
     source_kind: generated
@@ -23,6 +44,13 @@ icon_urls:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-media.svg
     source_kind: generated
     license: unknown
+  Douyin:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/douyin.svg
+    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/douyin.svg
+    source_kind: lobe-icons
+    source_url: https://github.com/lobehub/lobe-icons
+    license: MIT
+    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   Facebook:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/facebook.svg
     remote: https://cdn.simpleicons.org/facebook
@@ -55,6 +83,13 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
+  iQIYI:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/iqiyi.svg
+    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/iqiyi.svg
+    source_kind: lobe-icons
+    source_url: https://github.com/lobehub/lobe-icons
+    license: MIT
+    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   Microsoft:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/microsoft.svg
     remote: https://cdn.simpleicons.org/microsoft
@@ -73,6 +108,13 @@ icon_urls:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg
     source_kind: generated
     license: unknown
+  Pinduoduo:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/pinduoduo.svg
+    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/pinduoduo.svg
+    source_kind: lobe-icons
+    source_url: https://github.com/lobehub/lobe-icons
+    license: MIT
+    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   SpeedTest:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/speedtest.svg
     source_kind: generated
@@ -91,6 +133,13 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
+  Tencent:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/tencent.svg
+    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/tencent.svg
+    source_kind: lobe-icons
+    source_url: https://github.com/lobehub/lobe-icons
+    license: MIT
+    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   TikTok:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/tiktok.svg
     remote: https://cdn.simpleicons.org/tiktok
@@ -105,6 +154,18 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
+  WeChat:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/wechat.svg
+    source_kind: custom
+    source_url: https://weixin.qq.com/
+    license: unknown
+  Youku:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/youku.svg
+    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/youku.svg
+    source_kind: lobe-icons
+    source_url: https://github.com/lobehub/lobe-icons
+    license: MIT
+    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   YouTube:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/youtube.svg
     remote: https://cdn.simpleicons.org/youtube

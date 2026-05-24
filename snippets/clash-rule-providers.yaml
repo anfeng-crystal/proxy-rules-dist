@@ -1,4 +1,94 @@
 rule-providers:
+  Bilibili:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Bilibili/Bilibili.yaml
+    path: ./ruleset/Bilibili.yaml
+    interval: 86400
+  Douyin:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Douyin/Douyin.yaml
+    path: ./ruleset/Douyin.yaml
+    interval: 86400
+  WeChat:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/WeChat/WeChat.yaml
+    path: ./ruleset/WeChat.yaml
+    interval: 86400
+  TencentVideo:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/TencentVideo/TencentVideo.yaml
+    path: ./ruleset/TencentVideo.yaml
+    interval: 86400
+  iQIYI:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/iQIYI/iQIYI.yaml
+    path: ./ruleset/iQIYI.yaml
+    interval: 86400
+  Youku:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Youku/Youku.yaml
+    path: ./ruleset/Youku.yaml
+    interval: 86400
+  NetEaseMusic:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/NetEaseMusic/NetEaseMusic.yaml
+    path: ./ruleset/NetEaseMusic.yaml
+    interval: 86400
+  Weibo:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Weibo/Weibo.yaml
+    path: ./ruleset/Weibo.yaml
+    interval: 86400
+  Zhihu:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Zhihu/Zhihu.yaml
+    path: ./ruleset/Zhihu.yaml
+    interval: 86400
+  Baidu:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Baidu/Baidu.yaml
+    path: ./ruleset/Baidu.yaml
+    interval: 86400
+  Alibaba:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Alibaba/Alibaba.yaml
+    path: ./ruleset/Alibaba.yaml
+    interval: 86400
+  Tencent:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Tencent/Tencent.yaml
+    path: ./ruleset/Tencent.yaml
+    interval: 86400
+  JD:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/JD/JD.yaml
+    path: ./ruleset/JD.yaml
+    interval: 86400
+  Meituan:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Meituan/Meituan.yaml
+    path: ./ruleset/Meituan.yaml
+    interval: 86400
+  Pinduoduo:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Pinduoduo/Pinduoduo.yaml
+    path: ./ruleset/Pinduoduo.yaml
+    interval: 86400
   Domestic:
     type: http
     behavior: classical

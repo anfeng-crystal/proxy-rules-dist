@@ -156,6 +156,51 @@ proxy-groups:
   - name: "国内应用"
     type: select
     proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Bilibili"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Douyin"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "WeChat"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "TencentVideo"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "iQIYI"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Youku"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "NetEaseMusic"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Weibo"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Zhihu"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Baidu"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Alibaba"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Tencent"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "JD"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Meituan"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
+  - name: "Pinduoduo"
+    type: select
+    proxies: ["DIRECT", "自动选择", "全部节点"]
   - name: "网络检测"
     type: select
     proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
