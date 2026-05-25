@@ -254,8 +254,8 @@
       "name": "Domestic",
       "policy": "国内应用",
       "description": "Merged mainland China applications, domestic AI, domestic payment, finance, media, cloud, and direct fallbacks.",
-      "rules": 114966,
-      "source_count": 114871,
+      "rules": 114759,
+      "source_count": 114664,
       "manual_count": 95,
       "icon_id": "domestic-all",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg",
@@ -263,9 +263,9 @@
       "license": "unknown",
       "local_fallback": "domestic-all.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs",
-      "mihomo_mrs_rules": 114811,
+      "mihomo_mrs_rules": 114604,
       "mihomo_mrs_omitted": 155,
-      "mihomo_mrs_bytes": 558932
+      "mihomo_mrs_bytes": 558418
     },
     {
       "name": "NetworkTest",
@@ -288,8 +288,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3204,
-      "source_count": 3204,
+      "rules": 3205,
+      "source_count": 3205,
       "manual_count": 0,
       "icon_id": "speedtest",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/speedtest.svg",
@@ -297,9 +297,9 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3202,
+      "mihomo_mrs_rules": 3203,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 35016
+      "mihomo_mrs_bytes": 35053
     },
     {
       "name": "AI",
@@ -647,8 +647,8 @@
       "name": "Ads",
       "policy": "Ads",
       "description": "Advertising, privacy, and hijacking reject bundle.",
-      "rules": 260034,
-      "source_count": 260025,
+      "rules": 260499,
+      "source_count": 260490,
       "manual_count": 9,
       "icon_id": "reject",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
@@ -656,9 +656,9 @@
       "license": "unknown",
       "local_fallback": "reject.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs",
-      "mihomo_mrs_rules": 259269,
+      "mihomo_mrs_rules": 259734,
       "mihomo_mrs_omitted": 765,
-      "mihomo_mrs_bytes": 2258540
+      "mihomo_mrs_bytes": 2261892
     }
   ],
   "mihomo_mrs": {
@@ -966,7 +966,7 @@
       },
       {
         "name": "Domestic",
-        "rules": 114966
+        "rules": 114759
       },
       {
         "name": "NetworkTest",
@@ -974,7 +974,7 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3204
+        "rules": 3205
       },
       {
         "name": "AI",
@@ -1018,7 +1018,7 @@
       },
       {
         "name": "Ads",
-        "rules": 260034
+        "rules": 260499
       }
     ],
     "protected_reject_removals": [],
@@ -1133,10 +1133,10 @@
         "bytes": 94
       },
       "Domestic": {
-        "rules": 114811,
+        "rules": 114604,
         "omitted": 155,
         "path": "mihomo-mrs/Domestic/Domestic.mrs",
-        "bytes": 558932
+        "bytes": 558418
       },
       "NetworkTest": {
         "rules": 16,
@@ -1145,10 +1145,10 @@
         "bytes": 271
       },
       "SpeedTest": {
-        "rules": 3202,
+        "rules": 3203,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 35016
+        "bytes": 35053
       },
       "AI": {
         "rules": 144,
@@ -1259,10 +1259,10 @@
         "bytes": 52043
       },
       "Ads": {
-        "rules": 259269,
+        "rules": 259734,
         "omitted": 765,
         "path": "mihomo-mrs/Ads/Ads.mrs",
-        "bytes": 2258540
+        "bytes": 2261892
       }
     }
   }
