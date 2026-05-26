@@ -2981,6 +2981,7 @@ payload:
   - DOMAIN,teste.topnetservices.com.br
   - DOMAIN,teste.tstelecomltda.com.br
   - DOMAIN,teste.wificonnect.com.br
+  - DOMAIN,teste.wnettecnologia.com.br
   - DOMAIN,teste.wsfibra.com.br
   - DOMAIN,teste.wspeednet.com.br
   - DOMAIN,teste.xfconnect.com.br
@@ -3054,6 +3055,7 @@ payload:
   - DOMAIN,velocidade.giga7telecom.com.br
   - DOMAIN,velocidade.gtmtelecom.com.br
   - DOMAIN,velocidade.hnaconecta.com.br
+  - DOMAIN,velocidade.hrcfiber.com
   - DOMAIN,velocidade.hrctelecom.com.br
   - DOMAIN,velocidade.idnetttelecom.com.br
   - DOMAIN,velocidade.impertechtelecom.com.br
