@@ -288,8 +288,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3207,
-      "source_count": 3207,
+      "rules": 3208,
+      "source_count": 3208,
       "manual_count": 0,
       "icon_id": "speedtest",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/speedtest.svg",
@@ -297,16 +297,16 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3205,
+      "mihomo_mrs_rules": 3206,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 35188
+      "mihomo_mrs_bytes": 35017
     },
     {
       "name": "AI",
       "policy": "AI",
       "description": "Overseas AI services only.",
-      "rules": 150,
-      "source_count": 92,
+      "rules": 151,
+      "source_count": 93,
       "manual_count": 58,
       "icon_id": "global-ai",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
@@ -314,9 +314,9 @@
       "license": "unknown",
       "local_fallback": "global-ai.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/AI/AI.mrs",
-      "mihomo_mrs_rules": 144,
+      "mihomo_mrs_rules": 145,
       "mihomo_mrs_omitted": 6,
-      "mihomo_mrs_bytes": 1446
+      "mihomo_mrs_bytes": 1455
     },
     {
       "name": "Dev",
@@ -647,8 +647,8 @@
       "name": "Ads",
       "policy": "Ads",
       "description": "Advertising, privacy, and hijacking reject bundle.",
-      "rules": 260499,
-      "source_count": 260490,
+      "rules": 260916,
+      "source_count": 260907,
       "manual_count": 9,
       "icon_id": "reject",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
@@ -656,9 +656,9 @@
       "license": "unknown",
       "local_fallback": "reject.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs",
-      "mihomo_mrs_rules": 259734,
+      "mihomo_mrs_rules": 260151,
       "mihomo_mrs_omitted": 765,
-      "mihomo_mrs_bytes": 2261892
+      "mihomo_mrs_bytes": 2265485
     }
   ],
   "mihomo_mrs": {
@@ -974,11 +974,11 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3207
+        "rules": 3208
       },
       {
         "name": "AI",
-        "rules": 150
+        "rules": 151
       },
       {
         "name": "Apple",
@@ -1018,7 +1018,7 @@
       },
       {
         "name": "Ads",
-        "rules": 260499
+        "rules": 260916
       }
     ],
     "protected_reject_removals": [],
@@ -1145,16 +1145,16 @@
         "bytes": 271
       },
       "SpeedTest": {
-        "rules": 3205,
+        "rules": 3206,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 35188
+        "bytes": 35017
       },
       "AI": {
-        "rules": 144,
+        "rules": 145,
         "omitted": 6,
         "path": "mihomo-mrs/AI/AI.mrs",
-        "bytes": 1446
+        "bytes": 1455
       },
       "Dev": {
         "rules": 55,
@@ -1259,10 +1259,10 @@
         "bytes": 52043
       },
       "Ads": {
-        "rules": 259734,
+        "rules": 260151,
         "omitted": 765,
         "path": "mihomo-mrs/Ads/Ads.mrs",
-        "bytes": 2261892
+        "bytes": 2265485
       }
     }
   }

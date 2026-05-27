@@ -97,6 +97,7 @@ HOST-SUFFIX,featuregates.org,AI
 HOST-SUFFIX,geller-pa.googleapis.com,AI
 HOST-SUFFIX,gemini.google,AI
 HOST-SUFFIX,gemini.google.com,AI
+HOST-SUFFIX,gemini.gstatic.com,AI
 HOST-SUFFIX,generativeai.google,AI
 HOST-SUFFIX,generativelanguage.googleapis.com,AI
 HOST-SUFFIX,grok.com,AI
