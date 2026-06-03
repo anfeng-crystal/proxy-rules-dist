@@ -7,6 +7,16 @@
       "rules": 127,
       "source_count": 127,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "Bilibili",
+          "description": "Bilibili app, web, API, video, and media endpoints."
+        },
+        {
+          "name": "BilibiliVideo",
+          "description": "Bilibili video and API endpoints."
+        }
+      ],
       "icon_id": "bilibili",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/bilibili.svg",
       "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/bilibili.svg",
@@ -27,6 +37,16 @@
       "rules": 15,
       "source_count": 13,
       "manual_count": 2,
+      "includes": [
+        {
+          "name": "Douyin",
+          "description": "Douyin app, web, media, image, and CDN endpoints."
+        },
+        {
+          "name": "DouyinCDN",
+          "description": "Douyin media, image, and CDN endpoints."
+        }
+      ],
       "icon_id": "douyin",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/douyin.svg",
       "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/douyin.svg",
@@ -47,6 +67,12 @@
       "rules": 44,
       "source_count": 42,
       "manual_count": 2,
+      "includes": [
+        {
+          "name": "WeChat",
+          "description": "WeChat web, auth, media, and payment endpoints."
+        }
+      ],
       "icon_id": "wechat",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/wechat.svg",
       "source_kind": "custom",
@@ -65,6 +91,12 @@
       "rules": 22,
       "source_count": 22,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "TencentVideo",
+          "description": "Tencent Video and video CDN endpoints."
+        }
+      ],
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/TencentVideo/TencentVideo.mrs",
       "mihomo_mrs_rules": 19,
       "mihomo_mrs_omitted": 3,
@@ -77,6 +109,12 @@
       "rules": 62,
       "source_count": 62,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "iQIYI",
+          "description": "iQIYI web, app, and video endpoints."
+        }
+      ],
       "icon_id": "iqiyi",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/iqiyi.svg",
       "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/iqiyi.svg",
@@ -97,6 +135,12 @@
       "rules": 37,
       "source_count": 37,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "Youku",
+          "description": "Youku and Tudou web and video endpoints."
+        }
+      ],
       "icon_id": "youku",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/youku.svg",
       "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/youku.svg",
@@ -117,6 +161,12 @@
       "rules": 30,
       "source_count": 30,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "NetEaseMusic",
+          "description": "NetEase music and audio endpoints."
+        }
+      ],
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/NetEaseMusic/NetEaseMusic.mrs",
       "mihomo_mrs_rules": 10,
       "mihomo_mrs_omitted": 20,
@@ -129,6 +179,16 @@
       "rules": 6,
       "source_count": 4,
       "manual_count": 2,
+      "includes": [
+        {
+          "name": "Weibo",
+          "description": "Weibo app, web, API, media, and video endpoints."
+        },
+        {
+          "name": "WeiboMedia",
+          "description": "Weibo media, images, and video endpoints."
+        }
+      ],
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Weibo/Weibo.mrs",
       "mihomo_mrs_rules": 5,
       "mihomo_mrs_omitted": 1,
@@ -141,6 +201,16 @@
       "rules": 8,
       "source_count": 6,
       "manual_count": 2,
+      "includes": [
+        {
+          "name": "Zhihu",
+          "description": "Zhihu app, web, API, static, content, and video endpoints."
+        },
+        {
+          "name": "ZhihuContent",
+          "description": "Zhihu content, columns, and video endpoints."
+        }
+      ],
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Zhihu/Zhihu.mrs",
       "mihomo_mrs_rules": 4,
       "mihomo_mrs_omitted": 4,
@@ -153,6 +223,28 @@
       "rules": 259,
       "source_count": 251,
       "manual_count": 8,
+      "includes": [
+        {
+          "name": "Baidu",
+          "description": "Baidu search, maps, cloud, netdisk, Tieba, and static endpoints."
+        },
+        {
+          "name": "BaiduSearchMaps",
+          "description": "Baidu search, maps, and location endpoints."
+        },
+        {
+          "name": "BaiduCloud",
+          "description": "Baidu cloud and object storage endpoints."
+        },
+        {
+          "name": "BaiduTieba",
+          "description": "Baidu Tieba community and forum endpoints."
+        },
+        {
+          "name": "BaiduPan",
+          "description": "Baidu Netdisk and file storage endpoints."
+        }
+      ],
       "icon_id": "baidu",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/baidu.svg",
       "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/baidu.svg",
@@ -173,6 +265,28 @@
       "rules": 1319,
       "source_count": 1319,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "Alibaba",
+          "description": "Alibaba, Taobao, Tmall, Alipay, Aliyun, and Alibaba CDN endpoints."
+        },
+        {
+          "name": "Alipay",
+          "description": "Alipay wallet, merchant, and payment endpoints."
+        },
+        {
+          "name": "TaobaoTmall",
+          "description": "Taobao and Tmall shopping endpoints."
+        },
+        {
+          "name": "Aliyun",
+          "description": "Alibaba Cloud compute, storage, and service endpoints."
+        },
+        {
+          "name": "AlibabaCDN",
+          "description": "Alibaba CDN and static asset endpoints."
+        }
+      ],
       "icon_id": "alibaba",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/alibaba.svg",
       "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/alibaba.svg",
@@ -193,6 +307,24 @@
       "rules": 2524,
       "source_count": 2523,
       "manual_count": 1,
+      "includes": [
+        {
+          "name": "Tencent",
+          "description": "Tencent core, QQ, Tencent Cloud, and Tencent Meeting endpoints."
+        },
+        {
+          "name": "QQ",
+          "description": "QQ messaging and account endpoints."
+        },
+        {
+          "name": "TencentCloud",
+          "description": "Tencent Cloud and API endpoints."
+        },
+        {
+          "name": "TencentMeeting",
+          "description": "Tencent Meeting and VooV collaboration endpoints."
+        }
+      ],
       "icon_id": "tencent",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/tencent.svg",
       "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/tencent.svg",
@@ -213,6 +345,16 @@
       "rules": 249,
       "source_count": 249,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "JD",
+          "description": "JD.com retail, logistics, checkout, and static endpoints."
+        },
+        {
+          "name": "JDRetail",
+          "description": "JD retail, logistics, and checkout endpoints."
+        }
+      ],
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/JD/JD.mrs",
       "mihomo_mrs_rules": 249,
       "mihomo_mrs_omitted": 0,
@@ -225,6 +367,16 @@
       "rules": 8,
       "source_count": 7,
       "manual_count": 1,
+      "includes": [
+        {
+          "name": "Meituan",
+          "description": "Meituan and Dianping app, web, and static endpoints."
+        },
+        {
+          "name": "MeituanDianping",
+          "description": "Meituan and Dianping service endpoints."
+        }
+      ],
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Meituan/Meituan.mrs",
       "mihomo_mrs_rules": 8,
       "mihomo_mrs_omitted": 0,
@@ -237,6 +389,12 @@
       "rules": 4,
       "source_count": 3,
       "manual_count": 1,
+      "includes": [
+        {
+          "name": "Pinduoduo",
+          "description": "Pinduoduo shopping and merchant endpoints."
+        }
+      ],
       "icon_id": "pinduoduo",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/pinduoduo.svg",
       "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/pinduoduo.svg",
@@ -257,6 +415,232 @@
       "rules": 114627,
       "source_count": 114532,
       "manual_count": 95,
+      "includes": [
+        {
+          "name": "TencentMeeting",
+          "description": "Tencent Meeting and VooV collaboration endpoints."
+        },
+        {
+          "name": "BaiduTieba",
+          "description": "Baidu Tieba community and forum endpoints."
+        },
+        {
+          "name": "Pinduoduo",
+          "description": "Pinduoduo shopping and merchant endpoints."
+        },
+        {
+          "name": "Alibaba",
+          "description": "Alibaba, Taobao, Tmall, Alipay, Aliyun, and Alibaba CDN endpoints."
+        },
+        {
+          "name": "Alipay",
+          "description": "Alipay wallet, merchant, and payment endpoints."
+        },
+        {
+          "name": "TaobaoTmall",
+          "description": "Taobao and Tmall shopping endpoints."
+        },
+        {
+          "name": "Aliyun",
+          "description": "Alibaba Cloud compute, storage, and service endpoints."
+        },
+        {
+          "name": "AlibabaCDN",
+          "description": "Alibaba CDN and static asset endpoints."
+        },
+        {
+          "name": "Tencent",
+          "description": "Tencent core, QQ, Tencent Cloud, and Tencent Meeting endpoints."
+        },
+        {
+          "name": "QQ",
+          "description": "QQ messaging and account endpoints."
+        },
+        {
+          "name": "TencentCloud",
+          "description": "Tencent Cloud and API endpoints."
+        },
+        {
+          "name": "WeChat",
+          "description": "WeChat web, auth, media, and payment endpoints."
+        },
+        {
+          "name": "Baidu",
+          "description": "Baidu search, maps, cloud, netdisk, Tieba, and static endpoints."
+        },
+        {
+          "name": "BaiduSearchMaps",
+          "description": "Baidu search, maps, and location endpoints."
+        },
+        {
+          "name": "BaiduCloud",
+          "description": "Baidu cloud and object storage endpoints."
+        },
+        {
+          "name": "BaiduPan",
+          "description": "Baidu Netdisk and file storage endpoints."
+        },
+        {
+          "name": "ByteDance",
+          "description": "ByteDance China services and static endpoints."
+        },
+        {
+          "name": "ByteDanceCore",
+          "description": "ByteDance core, Toutiao, and static endpoints."
+        },
+        {
+          "name": "Douyin",
+          "description": "Douyin app, web, media, image, and CDN endpoints."
+        },
+        {
+          "name": "DouyinCDN",
+          "description": "Douyin media, image, and CDN endpoints."
+        },
+        {
+          "name": "Bilibili",
+          "description": "Bilibili app, web, API, video, and media endpoints."
+        },
+        {
+          "name": "BilibiliVideo",
+          "description": "Bilibili video and API endpoints."
+        },
+        {
+          "name": "NetEase",
+          "description": "NetEase web, mail, music, and static endpoints."
+        },
+        {
+          "name": "NetEaseMail",
+          "description": "NetEase mail and account endpoints."
+        },
+        {
+          "name": "NetEaseMusic",
+          "description": "NetEase music and audio endpoints."
+        },
+        {
+          "name": "JD",
+          "description": "JD.com retail, logistics, checkout, and static endpoints."
+        },
+        {
+          "name": "JDRetail",
+          "description": "JD retail, logistics, and checkout endpoints."
+        },
+        {
+          "name": "Meituan",
+          "description": "Meituan and Dianping app, web, and static endpoints."
+        },
+        {
+          "name": "MeituanDianping",
+          "description": "Meituan and Dianping service endpoints."
+        },
+        {
+          "name": "Xiaomi",
+          "description": "Xiaomi, Mi, MIUI, and device service endpoints."
+        },
+        {
+          "name": "XiaomiDevice",
+          "description": "Xiaomi device, MIUI, and home endpoints."
+        },
+        {
+          "name": "Huawei",
+          "description": "Huawei, VMall, cloud, and device service endpoints."
+        },
+        {
+          "name": "Weibo",
+          "description": "Weibo app, web, API, media, and video endpoints."
+        },
+        {
+          "name": "WeiboMedia",
+          "description": "Weibo media, images, and video endpoints."
+        },
+        {
+          "name": "Zhihu",
+          "description": "Zhihu app, web, API, static, content, and video endpoints."
+        },
+        {
+          "name": "ZhihuContent",
+          "description": "Zhihu content, columns, and video endpoints."
+        },
+        {
+          "name": "ChinaCloud",
+          "description": "Mainland China cloud, object storage, CDN, and developer cloud endpoints."
+        },
+        {
+          "name": "ChinaCDN",
+          "description": "Mainland China CDN and static asset endpoints."
+        },
+        {
+          "name": "TencentVideo",
+          "description": "Tencent Video and video CDN endpoints."
+        },
+        {
+          "name": "iQIYI",
+          "description": "iQIYI web, app, and video endpoints."
+        },
+        {
+          "name": "Youku",
+          "description": "Youku and Tudou web and video endpoints."
+        },
+        {
+          "name": "ChinaMedia",
+          "description": "Mainland China music, video, live, and media endpoints."
+        },
+        {
+          "name": "BankingCN",
+          "description": "Major mainland China banking endpoints."
+        },
+        {
+          "name": "GovCN",
+          "description": "Mainland China government and public-service endpoints."
+        },
+        {
+          "name": "EducationCN",
+          "description": "Mainland China education, academic, and university endpoints."
+        },
+        {
+          "name": "Railway12306",
+          "description": "China Railway 12306 ticketing endpoints."
+        },
+        {
+          "name": "TencentGames",
+          "description": "Tencent China game, launcher, and CDN endpoints."
+        },
+        {
+          "name": "NetEaseGames",
+          "description": "NetEase China game, launcher, and CDN endpoints."
+        },
+        {
+          "name": "MiHoYoCN",
+          "description": "miHoYo mainland China game and account endpoints."
+        },
+        {
+          "name": "Direct",
+          "description": "Common domestic or local direct rules."
+        },
+        {
+          "name": "China",
+          "description": "China region direct fallback."
+        },
+        {
+          "name": "DeepSeek",
+          "description": "DeepSeek web and API endpoints."
+        },
+        {
+          "name": "MoonshotKimi",
+          "description": "Moonshot and Kimi web and API endpoints."
+        },
+        {
+          "name": "Qwen",
+          "description": "Qwen web, coder, and Alibaba model endpoints."
+        },
+        {
+          "name": "ByteDanceDoubao",
+          "description": "Doubao and Volcano Engine AI endpoints."
+        },
+        {
+          "name": "TabbitCN",
+          "description": "Tabbit mainland China AI browser endpoints."
+        }
+      ],
       "icon_id": "domestic-all",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/domestic-all.svg",
       "source_kind": "generated",
@@ -274,6 +658,16 @@
       "rules": 16,
       "source_count": 0,
       "manual_count": 16,
+      "includes": [
+        {
+          "name": "ConnectivityCheck",
+          "description": "Operating-system connectivity check and captive portal endpoints."
+        },
+        {
+          "name": "TestSites",
+          "description": "Public IP, DNS leak, browser fingerprint, and network diagnostic endpoints."
+        }
+      ],
       "icon_id": "direct",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/direct.svg",
       "source_kind": "generated",
@@ -291,6 +685,12 @@
       "rules": 3213,
       "source_count": 3213,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "SpeedTest",
+          "description": "Network throughput and speed test endpoints."
+        }
+      ],
       "icon_id": "speedtest",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/speedtest.svg",
       "source_kind": "generated",
@@ -308,6 +708,72 @@
       "rules": 151,
       "source_count": 93,
       "manual_count": 58,
+      "includes": [
+        {
+          "name": "OpenAI",
+          "description": "OpenAI and ChatGPT web, upload, auth, and safety checks."
+        },
+        {
+          "name": "AnthropicClaude",
+          "description": "Anthropic Claude web and API endpoints."
+        },
+        {
+          "name": "GoogleGemini",
+          "description": "Google Gemini, AI Studio, and NotebookLM endpoints."
+        },
+        {
+          "name": "MicrosoftCopilot",
+          "description": "Microsoft Copilot and Bing AI endpoints."
+        },
+        {
+          "name": "Perplexity",
+          "description": "Perplexity web and API endpoints."
+        },
+        {
+          "name": "MistralAI",
+          "description": "Mistral AI web and API endpoints."
+        },
+        {
+          "name": "GrokXAI",
+          "description": "xAI and Grok endpoints."
+        },
+        {
+          "name": "Poe",
+          "description": "Poe web, creator, and API endpoints."
+        },
+        {
+          "name": "HuggingFace",
+          "description": "Hugging Face model, dataset, and inference endpoints."
+        },
+        {
+          "name": "Replicate",
+          "description": "Replicate model and API endpoints."
+        },
+        {
+          "name": "Midjourney",
+          "description": "Midjourney web and CDN endpoints."
+        },
+        {
+          "name": "StabilityAI",
+          "description": "Stability AI web and API endpoints."
+        },
+        {
+          "name": "Runway",
+          "description": "Runway web and API endpoints."
+        },
+        {
+          "name": "Cursor",
+          "description": "Cursor editor, docs, and API endpoints."
+        },
+        {
+          "name": "Windsurf",
+          "description": "Windsurf editor, docs, and API endpoints."
+        },
+        {
+          "name": "TabbitGlobal",
+          "description": "Tabbit international AI browser endpoints."
+        }
+      ],
       "icon_id": "global-ai",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-ai.svg",
       "source_kind": "generated",
@@ -325,6 +791,68 @@
       "rules": 55,
       "source_count": 0,
       "manual_count": 55,
+      "includes": [
+        {
+          "name": "Vercel",
+          "description": "Vercel deployment and hosting endpoints."
+        },
+        {
+          "name": "Netlify",
+          "description": "Netlify deployment and hosting endpoints."
+        },
+        {
+          "name": "GitLab",
+          "description": "GitLab web, API, and package endpoints."
+        },
+        {
+          "name": "Docker",
+          "description": "Docker Hub, registry, and container image endpoints."
+        },
+        {
+          "name": "NPM",
+          "description": "npm registry and package endpoints."
+        },
+        {
+          "name": "PyPI",
+          "description": "Python Package Index and file download endpoints."
+        },
+        {
+          "name": "Maven",
+          "description": "Maven Central and related artifact endpoints."
+        },
+        {
+          "name": "Go",
+          "description": "Go module proxy, checksum, docs, and download endpoints."
+        },
+        {
+          "name": "Rust",
+          "description": "Rust crates, static assets, toolchain, and docs endpoints."
+        },
+        {
+          "name": "RubyGems",
+          "description": "RubyGems package and CDN endpoints."
+        },
+        {
+          "name": "Gradle",
+          "description": "Gradle plugin, service, and distribution endpoints."
+        },
+        {
+          "name": "JetBrains",
+          "description": "JetBrains IDE, plugin, marketplace, and download endpoints."
+        },
+        {
+          "name": "VSCode",
+          "description": "Visual Studio Code marketplace, update, and extension endpoints."
+        },
+        {
+          "name": "Homebrew",
+          "description": "Homebrew metadata, bottle, and GitHub Packages download paths."
+        },
+        {
+          "name": "MicrosoftDev",
+          "description": "Microsoft developer, NuGet, Visual Studio, and package endpoints."
+        }
+      ],
       "icon_id": "developer",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/developer.svg",
       "source_kind": "generated",
@@ -342,6 +870,16 @@
       "rules": 252,
       "source_count": 248,
       "manual_count": 4,
+      "includes": [
+        {
+          "name": "PayPal",
+          "description": "PayPal web, API, checkout, and static endpoints."
+        },
+        {
+          "name": "Stripe",
+          "description": "Stripe web, API, JS, and checkout endpoints."
+        }
+      ],
       "icon_id": "payment",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/payment.svg",
       "source_kind": "generated",
@@ -359,6 +897,40 @@
       "rules": 34,
       "source_count": 0,
       "manual_count": 34,
+      "includes": [
+        {
+          "name": "Steam",
+          "description": "Steam store, community, CDN, and game content endpoints."
+        },
+        {
+          "name": "EpicGames",
+          "description": "Epic Games store, launcher, Unreal, and CDN endpoints."
+        },
+        {
+          "name": "PlayStation",
+          "description": "PlayStation Network, store, login, and CDN endpoints."
+        },
+        {
+          "name": "Xbox",
+          "description": "Xbox Live, Microsoft gaming, and content endpoints."
+        },
+        {
+          "name": "Nintendo",
+          "description": "Nintendo account, store, online, and CDN endpoints."
+        },
+        {
+          "name": "BattleNet",
+          "description": "Battle.net, Blizzard, and Activision endpoints."
+        },
+        {
+          "name": "RiotGames",
+          "description": "Riot Games, League, Valorant, and CDN endpoints."
+        },
+        {
+          "name": "HoYoverse",
+          "description": "HoYoverse global game, account, and CDN endpoints."
+        }
+      ],
       "icon_id": "game",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/game.svg",
       "source_kind": "generated",
@@ -376,6 +948,12 @@
       "rules": 31,
       "source_count": 31,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "Telegram",
+          "description": "Telegram app and web endpoints."
+        }
+      ],
       "icon_id": "telegram",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/telegram.svg",
       "remote_icon_url": "https://cdn.simpleicons.org/telegram",
@@ -396,6 +974,12 @@
       "rules": 192,
       "source_count": 192,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "YouTube",
+          "description": "YouTube web, video, and static endpoints."
+        }
+      ],
       "icon_id": "youtube",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/youtube.svg",
       "remote_icon_url": "https://cdn.simpleicons.org/youtube",
@@ -416,6 +1000,12 @@
       "rules": 1152,
       "source_count": 1152,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "Netflix",
+          "description": "Netflix app, web, and video CDN endpoints."
+        }
+      ],
       "icon_id": "netflix",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/netflix.svg",
       "remote_icon_url": "https://cdn.simpleicons.org/netflix",
@@ -436,6 +1026,12 @@
       "rules": 5,
       "source_count": 0,
       "manual_count": 5,
+      "includes": [
+        {
+          "name": "DisneyPlus",
+          "description": "Disney+ app, web, and video endpoints."
+        }
+      ],
       "icon_id": "global-media",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global-media.svg",
       "source_kind": "generated",
@@ -453,6 +1049,12 @@
       "rules": 30,
       "source_count": 30,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "Spotify",
+          "description": "Spotify app, web, and CDN endpoints."
+        }
+      ],
       "icon_id": "spotify",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/spotify.svg",
       "remote_icon_url": "https://cdn.simpleicons.org/spotify",
@@ -473,6 +1075,12 @@
       "rules": 32,
       "source_count": 32,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "TikTok",
+          "description": "TikTok overseas app, web, and CDN endpoints."
+        }
+      ],
       "icon_id": "tiktok",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/tiktok.svg",
       "remote_icon_url": "https://cdn.simpleicons.org/tiktok",
@@ -493,6 +1101,12 @@
       "rules": 33,
       "source_count": 33,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "TwitterX",
+          "description": "X/Twitter web, API, media, and static endpoints."
+        }
+      ],
       "icon_id": "x-twitter",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/x-twitter.svg",
       "remote_icon_url": "https://cdn.simpleicons.org/x",
@@ -513,6 +1127,12 @@
       "rules": 569,
       "source_count": 569,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "FacebookMeta",
+          "description": "Facebook and Meta web, API, and CDN endpoints."
+        }
+      ],
       "icon_id": "facebook",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/facebook.svg",
       "remote_icon_url": "https://cdn.simpleicons.org/facebook",
@@ -533,6 +1153,12 @@
       "rules": 4,
       "source_count": 4,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "Instagram",
+          "description": "Instagram app, web, API, and media endpoints."
+        }
+      ],
       "icon_id": "instagram",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/instagram.svg",
       "remote_icon_url": "https://cdn.simpleicons.org/instagram",
@@ -553,6 +1179,24 @@
       "rules": 1873,
       "source_count": 1863,
       "manual_count": 10,
+      "includes": [
+        {
+          "name": "Apple",
+          "description": "Apple services, media, push, CDN, and software update endpoints."
+        },
+        {
+          "name": "AppleCDN",
+          "description": "Apple CDN, software update, app store asset, and static endpoints."
+        },
+        {
+          "name": "ApplePush",
+          "description": "Apple push notification and device reachability endpoints."
+        },
+        {
+          "name": "AppleMedia",
+          "description": "Apple Music, TV, podcasts, and media storefront endpoints."
+        }
+      ],
       "icon_id": "apple",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/apple.svg",
       "remote_icon_url": "https://cdn.simpleicons.org/apple",
@@ -573,6 +1217,16 @@
       "rules": 713,
       "source_count": 711,
       "manual_count": 2,
+      "includes": [
+        {
+          "name": "Microsoft",
+          "description": "Microsoft overseas services, auth, CDN, Office, OneDrive, SharePoint, and Azure endpoints."
+        },
+        {
+          "name": "MicrosoftCloud",
+          "description": "Azure, Office, OneDrive, SharePoint, and Microsoft cloud endpoints."
+        }
+      ],
       "icon_id": "microsoft",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/microsoft.svg",
       "remote_icon_url": "https://cdn.simpleicons.org/microsoft",
@@ -593,6 +1247,12 @@
       "rules": 710,
       "source_count": 710,
       "manual_count": 0,
+      "includes": [
+        {
+          "name": "Google",
+          "description": "Google services, APIs, and static assets."
+        }
+      ],
       "icon_id": "google",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/google.svg",
       "remote_icon_url": "https://cdn.simpleicons.org/google",
@@ -613,6 +1273,12 @@
       "rules": 38,
       "source_count": 31,
       "manual_count": 7,
+      "includes": [
+        {
+          "name": "GitHub",
+          "description": "GitHub web, API, raw content, release assets, and package endpoints."
+        }
+      ],
       "icon_id": "github",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/github.svg",
       "remote_icon_url": "https://cdn.simpleicons.org/github",
@@ -633,6 +1299,60 @@
       "rules": 7071,
       "source_count": 7046,
       "manual_count": 25,
+      "includes": [
+        {
+          "name": "Cloudflare",
+          "description": "Cloudflare web, challenge, and developer endpoints."
+        },
+        {
+          "name": "Amazon",
+          "description": "Amazon overseas web, AWS edge, and media endpoints."
+        },
+        {
+          "name": "Dropbox",
+          "description": "Dropbox storage and file sync endpoints."
+        },
+        {
+          "name": "LinkedIn",
+          "description": "LinkedIn web and API endpoints."
+        },
+        {
+          "name": "Messenger",
+          "description": "Messenger web and messaging endpoints."
+        },
+        {
+          "name": "Notion",
+          "description": "Notion web and workspace endpoints."
+        },
+        {
+          "name": "Slack",
+          "description": "Slack web and collaboration endpoints."
+        },
+        {
+          "name": "WhatsApp",
+          "description": "WhatsApp web and messaging endpoints."
+        },
+        {
+          "name": "Zoom",
+          "description": "Zoom web and meeting endpoints."
+        },
+        {
+          "name": "Discord",
+          "description": "Discord app, web, voice, and CDN endpoints."
+        },
+        {
+          "name": "Reddit",
+          "description": "Reddit web, API, and static endpoints."
+        },
+        {
+          "name": "Twitch",
+          "description": "Twitch web, video, and CDN endpoints."
+        },
+        {
+          "name": "Global",
+          "description": "General overseas services."
+        }
+      ],
       "icon_id": "global",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/global.svg",
       "source_kind": "generated",
@@ -650,6 +1370,20 @@
       "rules": 262327,
       "source_count": 262318,
       "manual_count": 9,
+      "includes": [
+        {
+          "name": "Advertising",
+          "description": "Advertising and tracking domains."
+        },
+        {
+          "name": "Privacy",
+          "description": "Privacy-invasive telemetry rules."
+        },
+        {
+          "name": "Hijacking",
+          "description": "DNS hijacking, bogus response, and captive ad endpoints."
+        }
+      ],
       "icon_id": "reject",
       "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/reject.svg",
       "source_kind": "generated",
