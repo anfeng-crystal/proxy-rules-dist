@@ -488,6 +488,7 @@ HOST,ookla.fibraleste.com.br,SpeedTest
 HOST,ookla.fnm.as6453.net,SpeedTest
 HOST,ookla.fra-01.testpub.telefonica.de,SpeedTest
 HOST,ookla.fullisp.com.br,SpeedTest
+HOST,ookla.gctelecom.com.br,SpeedTest
 HOST,ookla.gru.net,SpeedTest
 HOST,ookla.haj-01.testpub.telefonica.de,SpeedTest
 HOST,ookla.ham-02.testpub.telefonica.de,SpeedTest
@@ -1577,6 +1578,7 @@ HOST,speedtest.fra1.hivelocity.net,SpeedTest
 HOST,speedtest.frachtwerk.de,SpeedTest
 HOST,speedtest.frankfurt-am-main.valtrix.org,SpeedTest
 HOST,speedtest.frantic.link,SpeedTest
+HOST,speedtest.frontlineinternetservices.com,SpeedTest
 HOST,speedtest.frontlinetechnologies.in,SpeedTest
 HOST,speedtest.ftmojave.net,SpeedTest
 HOST,speedtest.ftth.wien,SpeedTest
@@ -2025,6 +2027,7 @@ HOST,speedtest.s3rdv.com,SpeedTest
 HOST,speedtest.sahinotomotiv.com,SpeedTest
 HOST,speedtest.saidnettelecom.com.br,SpeedTest
 HOST,speedtest.samparkinfo.com,SpeedTest
+HOST,speedtest.sandiego.intrepidfiber.com,SpeedTest
 HOST,speedtest.sarnettelekom.net.tr,SpeedTest
 HOST,speedtest.satellitenetcom.in,SpeedTest
 HOST,speedtest.sc1.loopinternet.com,SpeedTest

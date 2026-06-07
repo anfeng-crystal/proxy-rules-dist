@@ -120,6 +120,7 @@ payload:
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
   - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaistatsig.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,observeit.net
   - DOMAIN-SUFFIX,opal.google
