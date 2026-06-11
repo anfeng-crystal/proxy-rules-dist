@@ -242,6 +242,7 @@ HOST,jodyspeed.hammoud.store,SpeedTest
 HOST,joplin1.cabospeed.com,SpeedTest
 HOST,jp-nperf.verizon.net,SpeedTest
 HOST,jp.speedtest.bug.pw,SpeedTest
+HOST,jp1-speedtest-infra.lunaiz.com,SpeedTest
 HOST,kami.smartone.com,SpeedTest
 HOST,kansas-city.speedtest.brightspeed.com,SpeedTest
 HOST,kansascity1.cabospeed.com,SpeedTest
@@ -959,6 +960,7 @@ HOST,speedhn.radius2online.com.tr,SpeedTest
 HOST,speedhost.isiline.it,SpeedTest
 HOST,speedhost3.isiline.it,SpeedTest
 HOST,speedkle.htspl.in,SpeedTest
+HOST,speedkonya.fizynet.com.tr,SpeedTest
 HOST,speedlon.hyperoptic.com,SpeedTest
 HOST,speedmad.sarenet.es,SpeedTest
 HOST,speedman.hyperoptic.com,SpeedTest
@@ -1696,6 +1698,7 @@ HOST,speedtest.isp.net,SpeedTest
 HOST,speedtest.isplinkdigital.com.br,SpeedTest
 HOST,speedtest.isppapagaio.com.br,SpeedTest
 HOST,speedtest.itandtel.at,SpeedTest
+HOST,speedtest.itegal.es,SpeedTest
 HOST,speedtest.itel.com,SpeedTest
 HOST,speedtest.ixirhost.com,SpeedTest
 HOST,speedtest.jackrabbitwireless.com,SpeedTest
@@ -1917,6 +1920,7 @@ HOST,speedtest.nrbn.ca,SpeedTest
 HOST,speedtest.nrflvaaa.metronetinc.com,SpeedTest
 HOST,speedtest.nsxt.eu,SpeedTest
 HOST,speedtest.nt.net,SpeedTest
+HOST,speedtest.nuclearhost.it,SpeedTest
 HOST,speedtest.numarohost.com,SpeedTest
 HOST,speedtest.nxt-telecom.com,SpeedTest
 HOST,speedtest.ny.sptrnd.id,SpeedTest
