@@ -8,7 +8,7 @@ function main(config, profileName) {
   const TEST_INTERVAL = 600;
   const TEST_TOLERANCE = 50;
   const COMMON_EXCLUDE =
-    "(?i)(到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|traffic|expire|expired|reset|remain|used|total|test|测试|试用|trial|直连|direct|reject|广告|ads)";
+    "(?i)(到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|traffic|expire|expired|reset|remain|used|total|test|测试|试用|trial|direct|reject|广告|ads)";
   const REGION_CONFIGS = [
     [
       "🇭🇰 香港",

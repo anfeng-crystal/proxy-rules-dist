@@ -75,12 +75,12 @@ proxy-groups:
     proxies: ["DIRECT"]
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
   - name: "全部自动"
     type: url-test
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
     url: "https://www.gstatic.com/generate_204"
     interval: 600
     tolerance: 50
@@ -110,56 +110,56 @@ proxy-groups:
     proxies: ["DIRECT"]
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:香港|港澳|港区|Hong ?Kong|HongKong|HKG|HK|🇭🇰|港服|港线)).*"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads)).*(?:(?:香港|港澳|港区|Hong ?Kong|HongKong|HKG|HK|🇭🇰|港服|港线)).*"
   - name: "台湾节点"
     type: select
     proxies: ["DIRECT"]
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:台湾|臺灣|台灣|Taiwan|TW|TPE|Taipei|台北|🇹🇼|Formosa)).*"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads)).*(?:(?:台湾|臺灣|台灣|Taiwan|TW|TPE|Taipei|台北|🇹🇼|Formosa)).*"
   - name: "日本节点"
     type: select
     proxies: ["DIRECT"]
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:日本|Japan|JP|Tokyo|東京|大阪|Osaka|TYO|NRT|HND|🇯🇵)).*"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads)).*(?:(?:日本|Japan|JP|Tokyo|東京|大阪|Osaka|TYO|NRT|HND|🇯🇵)).*"
   - name: "新加坡节点"
     type: select
     proxies: ["DIRECT"]
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:新加坡|Singapore|SG|SIN|SGP|狮城|獅城|星洲|🇸🇬)).*"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads)).*(?:(?:新加坡|Singapore|SG|SIN|SGP|狮城|獅城|星洲|🇸🇬)).*"
   - name: "美国节点"
     type: select
     proxies: ["DIRECT"]
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:美国|美國|USA|US|United ?States|America|LAX|SFO|SEA|NYC|JFK|ORD|DFW|ATL|SJC|San ?Jose|Los ?Angeles|New ?York|🇺🇸)).*"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads)).*(?:(?:美国|美國|USA|US|United ?States|America|LAX|SFO|SEA|NYC|JFK|ORD|DFW|ATL|SJC|San ?Jose|Los ?Angeles|New ?York|🇺🇸)).*"
   - name: "韩国节点"
     type: select
     proxies: ["DIRECT"]
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:韩国|韓國|Korea|KR|KOR|Seoul|首尔|首爾|ICN|🇰🇷)).*"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads)).*(?:(?:韩国|韓國|Korea|KR|KOR|Seoul|首尔|首爾|ICN|🇰🇷)).*"
   - name: "其他地区节点"
     type: select
     proxies: ["DIRECT"]
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads|(?:中国|中國|大陆|大陸|Mainland|北京|上海|广州|深圳|杭州|苏州|Beijing|Shanghai|Guangzhou|Shenzhen|Hangzhou|Suzhou)|(?:香港|港澳|港区|Hong ?Kong|HongKong|HKG|HK|🇭🇰|港服|港线)|(?:台湾|臺灣|台灣|Taiwan|TW|TPE|Taipei|台北|🇹🇼|Formosa)|(?:日本|Japan|JP|Tokyo|東京|大阪|Osaka|TYO|NRT|HND|🇯🇵)|(?:新加坡|Singapore|SG|SIN|SGP|狮城|獅城|星洲|🇸🇬)|(?:美国|美國|USA|US|United ?States|America|LAX|SFO|SEA|NYC|JFK|ORD|DFW|ATL|SJC|San ?Jose|Los ?Angeles|New ?York|🇺🇸)|(?:韩国|韓國|Korea|KR|KOR|Seoul|首尔|首爾|ICN|🇰🇷))).+"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads|(?:中国|中國|大陆|大陸|Mainland|北京|上海|广州|深圳|杭州|苏州|Beijing|Shanghai|Guangzhou|Shenzhen|Hangzhou|Suzhou)|(?:香港|港澳|港区|Hong ?Kong|HongKong|HKG|HK|🇭🇰|港服|港线)|(?:台湾|臺灣|台灣|Taiwan|TW|TPE|Taipei|台北|🇹🇼|Formosa)|(?:日本|Japan|JP|Tokyo|東京|大阪|Osaka|TYO|NRT|HND|🇯🇵)|(?:新加坡|Singapore|SG|SIN|SGP|狮城|獅城|星洲|🇸🇬)|(?:美国|美國|USA|US|United ?States|America|LAX|SFO|SEA|NYC|JFK|ORD|DFW|ATL|SJC|San ?Jose|Los ?Angeles|New ?York|🇺🇸)|(?:韩国|韓國|Korea|KR|KOR|Seoul|首尔|首爾|ICN|🇰🇷))).+"
   - name: "香港自动"
     type: url-test
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:香港|港澳|港区|Hong ?Kong|HongKong|HKG|HK|🇭🇰|港服|港线)).*"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads)).*(?:(?:香港|港澳|港区|Hong ?Kong|HongKong|HKG|HK|🇭🇰|港服|港线)).*"
     url: "https://www.gstatic.com/generate_204"
     interval: 600
     tolerance: 50
@@ -167,8 +167,8 @@ proxy-groups:
     type: url-test
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:台湾|臺灣|台灣|Taiwan|TW|TPE|Taipei|台北|🇹🇼|Formosa)).*"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads)).*(?:(?:台湾|臺灣|台灣|Taiwan|TW|TPE|Taipei|台北|🇹🇼|Formosa)).*"
     url: "https://www.gstatic.com/generate_204"
     interval: 600
     tolerance: 50
@@ -176,8 +176,8 @@ proxy-groups:
     type: url-test
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:日本|Japan|JP|Tokyo|東京|大阪|Osaka|TYO|NRT|HND|🇯🇵)).*"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads)).*(?:(?:日本|Japan|JP|Tokyo|東京|大阪|Osaka|TYO|NRT|HND|🇯🇵)).*"
     url: "https://www.gstatic.com/generate_204"
     interval: 600
     tolerance: 50
@@ -185,8 +185,8 @@ proxy-groups:
     type: url-test
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:新加坡|Singapore|SG|SIN|SGP|狮城|獅城|星洲|🇸🇬)).*"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads)).*(?:(?:新加坡|Singapore|SG|SIN|SGP|狮城|獅城|星洲|🇸🇬)).*"
     url: "https://www.gstatic.com/generate_204"
     interval: 600
     tolerance: 50
@@ -194,8 +194,8 @@ proxy-groups:
     type: url-test
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:美国|美國|USA|US|United ?States|America|LAX|SFO|SEA|NYC|JFK|ORD|DFW|ATL|SJC|San ?Jose|Los ?Angeles|New ?York|🇺🇸)).*"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads)).*(?:(?:美国|美國|USA|US|United ?States|America|LAX|SFO|SEA|NYC|JFK|ORD|DFW|ATL|SJC|San ?Jose|Los ?Angeles|New ?York|🇺🇸)).*"
     url: "https://www.gstatic.com/generate_204"
     interval: 600
     tolerance: 50
@@ -203,8 +203,8 @@ proxy-groups:
     type: url-test
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads)).*(?:(?:韩国|韓國|Korea|KR|KOR|Seoul|首尔|首爾|ICN|🇰🇷)).*"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads)).*(?:(?:韩国|韓國|Korea|KR|KOR|Seoul|首尔|首爾|ICN|🇰🇷)).*"
     url: "https://www.gstatic.com/generate_204"
     interval: 600
     tolerance: 50
@@ -212,8 +212,8 @@ proxy-groups:
     type: url-test
     include-all-proxies: true
     include-all-providers: true
-    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads"
-    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|直连|DIRECT|REJECT|广告|Ads|(?:中国|中國|大陆|大陸|Mainland|北京|上海|广州|深圳|杭州|苏州|Beijing|Shanghai|Guangzhou|Shenzhen|Hangzhou|Suzhou)|(?:香港|港澳|港区|Hong ?Kong|HongKong|HKG|HK|🇭🇰|港服|港线)|(?:台湾|臺灣|台灣|Taiwan|TW|TPE|Taipei|台北|🇹🇼|Formosa)|(?:日本|Japan|JP|Tokyo|東京|大阪|Osaka|TYO|NRT|HND|🇯🇵)|(?:新加坡|Singapore|SG|SIN|SGP|狮城|獅城|星洲|🇸🇬)|(?:美国|美國|USA|US|United ?States|America|LAX|SFO|SEA|NYC|JFK|ORD|DFW|ATL|SJC|San ?Jose|Los ?Angeles|New ?York|🇺🇸)|(?:韩国|韓國|Korea|KR|KOR|Seoul|首尔|首爾|ICN|🇰🇷))).+"
+    exclude-filter: "到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads"
+    filter: "^(?!.*(?:到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|Traffic|Expire|Expired|Reset|Remain|Used|Total|官网|测试|Test|试用|Trial|DIRECT|REJECT|广告|Ads|(?:中国|中國|大陆|大陸|Mainland|北京|上海|广州|深圳|杭州|苏州|Beijing|Shanghai|Guangzhou|Shenzhen|Hangzhou|Suzhou)|(?:香港|港澳|港区|Hong ?Kong|HongKong|HKG|HK|🇭🇰|港服|港线)|(?:台湾|臺灣|台灣|Taiwan|TW|TPE|Taipei|台北|🇹🇼|Formosa)|(?:日本|Japan|JP|Tokyo|東京|大阪|Osaka|TYO|NRT|HND|🇯🇵)|(?:新加坡|Singapore|SG|SIN|SGP|狮城|獅城|星洲|🇸🇬)|(?:美国|美國|USA|US|United ?States|America|LAX|SFO|SEA|NYC|JFK|ORD|DFW|ATL|SJC|San ?Jose|Los ?Angeles|New ?York|🇺🇸)|(?:韩国|韓國|Korea|KR|KOR|Seoul|首尔|首爾|ICN|🇰🇷))).+"
     url: "https://www.gstatic.com/generate_204"
     interval: 600
     tolerance: 50
