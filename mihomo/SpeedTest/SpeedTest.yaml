@@ -389,6 +389,7 @@ payload:
   - DOMAIN,netperf-pl.gigatrans.ua
   - DOMAIN,nets-mad01.servihosting.net
   - DOMAIN,netservice01.ber01.lwlcom.net
+  - DOMAIN,netspeed.empireaccess.com
   - DOMAIN,nic2.speedtest.mire.sfr.net
   - DOMAIN,nice.bbr.ookla.bytel.fr
   - DOMAIN,nico2004-speedtest.de
@@ -921,6 +922,7 @@ payload:
   - DOMAIN,speed07.gonetspeed.com
   - DOMAIN,speed08.gonetspeed.com
   - DOMAIN,speed09.gonetspeed.com
+  - DOMAIN,speed1.airtek.com.ve
   - DOMAIN,speed1.directnet7star.com
   - DOMAIN,speed1.e-caps.net
   - DOMAIN,speed1.myascend.ca
@@ -1140,6 +1142,7 @@ payload:
   - DOMAIN,speedtest-net.xjtlu.edu.cn
   - DOMAIN,speedtest-newcastle.optusnet.com.au
   - DOMAIN,speedtest-ng.atman.pl
+  - DOMAIN,speedtest-nix-2.redi.es
   - DOMAIN,speedtest-nl.bellaliant.net
   - DOMAIN,speedtest-nl.cloudlease.co.il
   - DOMAIN,speedtest-nl.digiturunc.com
@@ -2591,6 +2594,7 @@ payload:
   - DOMAIN,speedtestmarion.arkdnacloud.com
   - DOMAIN,speedtestmassa.ivoweb.it
   - DOMAIN,speedtestmera.vs.mythic-beasts.com
+  - DOMAIN,speedtestmh.airtelbroadband.in
   - DOMAIN,speedtestmi.ktsolutions.it
   - DOMAIN,speedtestmi1.telecomitalia.it
   - DOMAIN,speedtestmi2.tilab.com
@@ -2622,6 +2626,7 @@ payload:
   - DOMAIN,speedtestrm2.tilab.com
   - DOMAIN,speedtestro.vtal.net.br
   - DOMAIN,speedtestrr.vtal.net.br
+  - DOMAIN,speedtests.ord.your.org
   - DOMAIN,speedtestsaha1.airtel.in
   - DOMAIN,speedtestsantarem.zumtelecom.com.br
   - DOMAIN,speedtestsgc.csmtelecom.net.br

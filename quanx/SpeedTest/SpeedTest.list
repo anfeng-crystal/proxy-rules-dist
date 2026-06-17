@@ -389,6 +389,7 @@ HOST,net-speed1-pp.ewetel.de,SpeedTest
 HOST,netperf-pl.gigatrans.ua,SpeedTest
 HOST,nets-mad01.servihosting.net,SpeedTest
 HOST,netservice01.ber01.lwlcom.net,SpeedTest
+HOST,netspeed.empireaccess.com,SpeedTest
 HOST,nic2.speedtest.mire.sfr.net,SpeedTest
 HOST,nice.bbr.ookla.bytel.fr,SpeedTest
 HOST,nico2004-speedtest.de,SpeedTest
@@ -921,6 +922,7 @@ HOST,speed06.gonetspeed.com,SpeedTest
 HOST,speed07.gonetspeed.com,SpeedTest
 HOST,speed08.gonetspeed.com,SpeedTest
 HOST,speed09.gonetspeed.com,SpeedTest
+HOST,speed1.airtek.com.ve,SpeedTest
 HOST,speed1.directnet7star.com,SpeedTest
 HOST,speed1.e-caps.net,SpeedTest
 HOST,speed1.myascend.ca,SpeedTest
@@ -1140,6 +1142,7 @@ HOST,speedtest-net.mk.de,SpeedTest
 HOST,speedtest-net.xjtlu.edu.cn,SpeedTest
 HOST,speedtest-newcastle.optusnet.com.au,SpeedTest
 HOST,speedtest-ng.atman.pl,SpeedTest
+HOST,speedtest-nix-2.redi.es,SpeedTest
 HOST,speedtest-nl.bellaliant.net,SpeedTest
 HOST,speedtest-nl.cloudlease.co.il,SpeedTest
 HOST,speedtest-nl.digiturunc.com,SpeedTest
@@ -2591,6 +2594,7 @@ HOST,speedtestmadrid2.vodafone.es,SpeedTest
 HOST,speedtestmarion.arkdnacloud.com,SpeedTest
 HOST,speedtestmassa.ivoweb.it,SpeedTest
 HOST,speedtestmera.vs.mythic-beasts.com,SpeedTest
+HOST,speedtestmh.airtelbroadband.in,SpeedTest
 HOST,speedtestmi.ktsolutions.it,SpeedTest
 HOST,speedtestmi1.telecomitalia.it,SpeedTest
 HOST,speedtestmi2.tilab.com,SpeedTest
@@ -2622,6 +2626,7 @@ HOST,speedtestrm1.vodafone.it,SpeedTest
 HOST,speedtestrm2.tilab.com,SpeedTest
 HOST,speedtestro.vtal.net.br,SpeedTest
 HOST,speedtestrr.vtal.net.br,SpeedTest
+HOST,speedtests.ord.your.org,SpeedTest
 HOST,speedtestsaha1.airtel.in,SpeedTest
 HOST,speedtestsantarem.zumtelecom.com.br,SpeedTest
 HOST,speedtestsgc.csmtelecom.net.br,SpeedTest
