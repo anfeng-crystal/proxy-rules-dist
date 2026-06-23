@@ -88,6 +88,7 @@ HOST,chispeedtest.rtatel.com,SpeedTest
 HOST,chspeed.shawnee.com,SpeedTest
 HOST,chvl-speedtest-02.brightspeed.com,SpeedTest
 HOST,clg-105-sptest.ncri.com,SpeedTest
+HOST,cltn-speedtest-02.brightspeed.com,SpeedTest
 HOST,cmrn-speedtest-02.brightspeed.com,SpeedTest
 HOST,cnk1speedtest.turktelekom.com.tr,SpeedTest
 HOST,columbia.speedtest.brightspeed.com,SpeedTest
@@ -159,6 +160,7 @@ HOST,fast.kabi.tk,SpeedTest
 HOST,fastme.ir,SpeedTest
 HOST,fetnt1.seed.net.tw,SpeedTest
 HOST,fetsz1.seed.net.tw,SpeedTest
+HOST,fetyl1.seed.net.tw,SpeedTest
 HOST,fetzl1.seed.net.tw,SpeedTest
 HOST,ffm.wsqm.telekom-dienste.de,SpeedTest
 HOST,fibertest.soipl.co.in,SpeedTest
@@ -426,6 +428,7 @@ HOST,ny2-speedtest.tier.net,SpeedTest
 HOST,ny3-speedtest.tier.net,SpeedTest
 HOST,nyc01.screenshot.download,SpeedTest
 HOST,nyc1-speedtest.webnx.com,SpeedTest
+HOST,nycmetro-speedtest.reliablesite.net,SpeedTest
 HOST,nycny-speedtest-ookla-01.st.charter.com,SpeedTest
 HOST,o-uk-1.flwc.cc,SpeedTest
 HOST,oak-speedtest.otelco.com,SpeedTest
@@ -1147,6 +1150,7 @@ HOST,speedtest-net-fra.dispaisy.systems,SpeedTest
 HOST,speedtest-net.mk.de,SpeedTest
 HOST,speedtest-net.xjtlu.edu.cn,SpeedTest
 HOST,speedtest-newcastle.optusnet.com.au,SpeedTest
+HOST,speedtest-newjersey.ripplefiber.com,SpeedTest
 HOST,speedtest-ng.atman.pl,SpeedTest
 HOST,speedtest-nix-2.redi.es,SpeedTest
 HOST,speedtest-nl.bellaliant.net,SpeedTest
@@ -1161,6 +1165,7 @@ HOST,speedtest-nl.webdade.com,SpeedTest
 HOST,speedtest-ns.bellaliant.net,SpeedTest
 HOST,speedtest-ntt-fra.as20011.net,SpeedTest
 HOST,speedtest-ntt-ldn.as20011.net,SpeedTest
+HOST,speedtest-nwrk-nj.wtsky.net,SpeedTest
 HOST,speedtest-nxtb2.fsg-hosting.com,SpeedTest
 HOST,speedtest-nxts1.fsg-hosting.com,SpeedTest
 HOST,speedtest-nyc.dish-wireless.com,SpeedTest
@@ -1613,6 +1618,7 @@ HOST,speedtest.gigazone.in,SpeedTest
 HOST,speedtest.gilarivertel.com,SpeedTest
 HOST,speedtest.glasnet.nl,SpeedTest
 HOST,speedtest.global-layer.com,SpeedTest
+HOST,speedtest.globalfiberbrasil.com.br,SpeedTest
 HOST,speedtest.gmtel.net,SpeedTest
 HOST,speedtest.gobec.net,SpeedTest
 HOST,speedtest.goetel.net,SpeedTest
@@ -2218,6 +2224,7 @@ HOST,speedtest.us-at.kamatera.com,SpeedTest
 HOST,speedtest.us-ch.kamatera.com,SpeedTest
 HOST,speedtest.us-la.kamatera.com,SpeedTest
 HOST,speedtest.us-mi2.kamatera.com,SpeedTest
+HOST,speedtest.us-ny2.kamatera.com,SpeedTest
 HOST,speedtest.us-se.kamatera.com,SpeedTest
 HOST,speedtest.us-tx.kamatera.com,SpeedTest
 HOST,speedtest.us.grupogtd.com,SpeedTest
@@ -2361,6 +2368,7 @@ HOST,speedtest02.coppernet.net,SpeedTest
 HOST,speedtest02.htp-tel.de,SpeedTest
 HOST,speedtest02.ikbnet.at,SpeedTest
 HOST,speedtest02.radinet.in,SpeedTest
+HOST,speedtest02.srv.prnynj.alticeusa.net,SpeedTest
 HOST,speedtest020.telecomitalia.it,SpeedTest
 HOST,speedtest021.telecomitalia.it,SpeedTest
 HOST,speedtest02a.web.zen.net.uk,SpeedTest
@@ -2893,6 +2901,7 @@ HOST,stosat-indp-01.sys.comcast.net,SpeedTest
 HOST,stosat-jkvl-01.sys.comcast.net,SpeedTest
 HOST,stosat-ndhm-01.sys.comcast.net,SpeedTest
 HOST,stosat-pima-01.sys.comcast.net,SpeedTest
+HOST,stosat-plfi-08p.sys.comcast.net,SpeedTest
 HOST,stosat-rvlt-01.sys.comcast.net,SpeedTest
 HOST,stosat-smil-01.sys.comcast.net,SpeedTest
 HOST,stosat-tall-01.sys.comcast.net,SpeedTest

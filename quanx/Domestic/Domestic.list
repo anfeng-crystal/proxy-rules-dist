@@ -94,11 +94,8 @@ HOST,beacons.gcp.gvt2.com,国内应用
 HOST,beacons.gvt2.com,国内应用
 HOST,beacons2.gvt2.com,国内应用
 HOST,beacons3.gvt2.com,国内应用
-HOST,bg.v4.a.dl.ws.microsoft.com,国内应用
-HOST,bg4.v4.a.dl.ws.microsoft.com,国内应用
 HOST,blzddist1-a.akamaihd.net,国内应用
 HOST,btrace.qq.com,国内应用
-HOST,build.microsoft.com,国内应用
 HOST,c.admob.com,国内应用
 HOST,c.pki.goog,国内应用
 HOST,cast.news98.com.tw,国内应用
@@ -109,7 +106,6 @@ HOST,cdn.ampproject.org,国内应用
 HOST,cdn.angruo.com,国内应用
 HOST,cdn.globalsigncdn.com.cdn.cloudflare.net,国内应用
 HOST,cdn.hkdtmb.com,国内应用
-HOST,cdn.marketplaceimages.windowsphone.com,国内应用
 HOST,cgntv-glive.ofsdelivery.net,国内应用
 HOST,channellive.leshantv.net,国内应用
 HOST,chaoan.chaoantv.com,国内应用
@@ -128,11 +124,9 @@ HOST,d9af5a60.edmonst.net,国内应用
 HOST,dartsearch-cn.net,国内应用
 HOST,dashscope.aliyuncs.com,国内应用
 HOST,dds.dell.com,国内应用
-HOST,devblogs.microsoft.com,国内应用
 HOST,dl.dell.com,国内应用
 HOST,dl.wechat.com,国内应用
 HOST,dldir1.qq.com,国内应用
-HOST,docs.microsoft.com,国内应用
 HOST,doubleclick-cn.net,国内应用
 HOST,doubleclick.net,国内应用
 HOST,download.jetbrains.com,国内应用
@@ -154,7 +148,6 @@ HOST,fm901.cityfm.tw,国内应用
 HOST,fm929.cityfm.tw,国内应用
 HOST,fm971.cityfm.tw,国内应用
 HOST,fm983.cityfm.tw,国内应用
-HOST,fs.microsoft.com,国内应用
 HOST,fta.dell.com,国内应用
 HOST,ftaapj.dell.com,国内应用
 HOST,ftaemea.dell.com,国内应用
@@ -207,7 +200,6 @@ HOST,kut-hls.streamguys1.com,国内应用
 HOST,kwmu-flash.streamguys1.com,国内应用
 HOST,kyfw.12306.cn,国内应用
 HOST,lb.streaming.sk,国内应用
-HOST,learn.microsoft.com,国内应用
 HOST,lf3-static.bytednsdoc.com,国内应用
 HOST,live-350k.streamingfast.net,国内应用
 HOST,live-echotv.cdnvideo.ru,国内应用
@@ -337,7 +329,6 @@ HOST,stream1.shopch.jp,国内应用
 HOST,stream2.cprnetwork.org,国内应用
 HOST,streamipcf.akamaized.net,国内应用
 HOST,supportassist.dell.com,国内应用
-HOST,surface.downloads.prss.microsoft.com,国内应用
 HOST,tencentmap.wechat.com,国内应用
 HOST,time.xtracloud.net,国内应用
 HOST,tl.gscm.tv,国内应用
@@ -373,8 +364,6 @@ HOST,wowza-stream.wbur.org,国内应用
 HOST,wowza.montevideo.com.uy,国内应用
 HOST,wowza.ner.gov.tw,国内应用
 HOST,wpc.124ce.sigmacdn.net,国内应用
-HOST,wscont1.apps.microsoft.com,国内应用
-HOST,wscont2.apps.microsoft.com,国内应用
 HOST,wup.imtt.qq.com,国内应用
 HOST,wuwm.streamguys1.com,国内应用
 HOST,www-csb.dell.com,国内应用
@@ -383,7 +372,6 @@ HOST,www.cbsnews.com,国内应用
 HOST,www.dell.com,国内应用
 HOST,www.destinationurl.com,国内应用
 HOST,www.filmon.com,国内应用
-HOST,www.microsoft.com,国内应用
 HOST,www.pxcc.com,国内应用
 HOST,www.pxitv.com,国内应用
 HOST,www.recaptcha-cn.net,国内应用
@@ -1402,7 +1390,6 @@ HOST-SUFFIX,0959930d71015.beer,国内应用
 HOST-SUFFIX,096.xin,国内应用
 HOST-SUFFIX,0962xb24260.xin,国内应用
 HOST-SUFFIX,0963d9712a525457.com,国内应用
-HOST-SUFFIX,096663.com,国内应用
 HOST-SUFFIX,0972xxg.com,国内应用
 HOST-SUFFIX,0979.xin,国内应用
 HOST-SUFFIX,0990fc0011011.beer,国内应用
@@ -1569,7 +1556,6 @@ HOST-SUFFIX,0mfqi124198.xin,国内应用
 HOST-SUFFIX,0mk9ht2449.xin,国内应用
 HOST-SUFFIX,0moju716460.xin,国内应用
 HOST-SUFFIX,0mrzee12192.xin,国内应用
-HOST-SUFFIX,0ms.one,国内应用
 HOST-SUFFIX,0ms65u0s8t.xin,国内应用
 HOST-SUFFIX,0mu4f8xw0k.xin,国内应用
 HOST-SUFFIX,0n469e12312.xin,国内应用
@@ -3657,7 +3643,6 @@ HOST-SUFFIX,25yz.com,国内应用
 HOST-SUFFIX,260.net,国内应用
 HOST-SUFFIX,260068.com,国内应用
 HOST-SUFFIX,26210.org,国内应用
-HOST-SUFFIX,2629.com,国内应用
 HOST-SUFFIX,263-mail.net,国内应用
 HOST-SUFFIX,263.com,国内应用
 HOST-SUFFIX,263.net,国内应用
@@ -3959,7 +3944,6 @@ HOST-SUFFIX,3016.com,国内应用
 HOST-SUFFIX,301688.com,国内应用
 HOST-SUFFIX,301mba.com,国内应用
 HOST-SUFFIX,3023.com,国内应用
-HOST-SUFFIX,302302.xyz,国内应用
 HOST-SUFFIX,302423a641021.beer,国内应用
 HOST-SUFFIX,30583a8b910261.beer,国内应用
 HOST-SUFFIX,3062d65271020.beer,国内应用
@@ -9331,7 +9315,6 @@ HOST-SUFFIX,91tty.com,国内应用
 HOST-SUFFIX,91tvb.cc,国内应用
 HOST-SUFFIX,91tw.net,国内应用
 HOST-SUFFIX,91up.com,国内应用
-HOST-SUFFIX,91vpn.com,国内应用
 HOST-SUFFIX,91vps.com,国内应用
 HOST-SUFFIX,91vrchat.com,国内应用
 HOST-SUFFIX,91vst.com,国内应用
@@ -9817,7 +9800,6 @@ HOST-SUFFIX,98xz.com,国内应用
 HOST-SUFFIX,98yl.com,国内应用
 HOST-SUFFIX,98zhibo.com,国内应用
 HOST-SUFFIX,98znz.com,国内应用
-HOST-SUFFIX,98zw.com,国内应用
 HOST-SUFFIX,99.com,国内应用
 HOST-SUFFIX,99113guoji.com,国内应用
 HOST-SUFFIX,99114.com,国内应用
@@ -10218,7 +10200,6 @@ HOST-SUFFIX,a5lt.com,国内应用
 HOST-SUFFIX,a5xiazai.com,国内应用
 HOST-SUFFIX,a5y.net,国内应用
 HOST-SUFFIX,a61cee76f4df41b1.com,国内应用
-HOST-SUFFIX,a632079.me,国内应用
 HOST-SUFFIX,a6562752811032.beer,国内应用
 HOST-SUFFIX,a6h8.com,国内应用
 HOST-SUFFIX,a6ksw.net,国内应用
@@ -10761,6 +10742,7 @@ HOST-SUFFIX,adxliangmei.com,国内应用
 HOST-SUFFIX,adxmax.com,国内应用
 HOST-SUFFIX,adxmq.com,国内应用
 HOST-SUFFIX,adxqd.com,国内应用
+HOST-SUFFIX,adxsenmeng.com,国内应用
 HOST-SUFFIX,adxwork.com,国内应用
 HOST-SUFFIX,adxyun.com,国内应用
 HOST-SUFFIX,adxzoo.com,国内应用
@@ -11097,7 +11079,6 @@ HOST-SUFFIX,ahtongyuan.com,国内应用
 HOST-SUFFIX,ahtrq.com,国内应用
 HOST-SUFFIX,ahtxyyjt.com,国内应用
 HOST-SUFFIX,ahtypg.com,国内应用
-HOST-SUFFIX,ahuano.com,国内应用
 HOST-SUFFIX,ahubbs.com,国内应用
 HOST-SUFFIX,ahudows.com,国内应用
 HOST-SUFFIX,ahuyi.com,国内应用
@@ -11950,6 +11931,7 @@ HOST-SUFFIX,alidns.cn,国内应用
 HOST-SUFFIX,alidns.com,国内应用
 HOST-SUFFIX,alidns.net,国内应用
 HOST-SUFFIX,alidnsv4.com,国内应用
+HOST-SUFFIX,alidnsv5.com,国内应用
 HOST-SUFFIX,alidz.net,国内应用
 HOST-SUFFIX,aliedge.com,国内应用
 HOST-SUFFIX,aliensidea.com,国内应用
@@ -15078,7 +15060,6 @@ HOST-SUFFIX,baowugroup.com,国内应用
 HOST-SUFFIX,baoxian.com,国内应用
 HOST-SUFFIX,baoxian72.com,国内应用
 HOST-SUFFIX,baoxianjie.net,国内应用
-HOST-SUFFIX,baoxianqi.com,国内应用
 HOST-SUFFIX,baoxianshichang.com,国内应用
 HOST-SUFFIX,baoxiaobar.com,国内应用
 HOST-SUFFIX,baoxiaohe.com,国内应用
@@ -15307,7 +15288,6 @@ HOST-SUFFIX,bbxstjx.com,国内应用
 HOST-SUFFIX,bbzhh.com,国内应用
 HOST-SUFFIX,bbzhi.com,国内应用
 HOST-SUFFIX,bbzhsw.com,国内应用
-HOST-SUFFIX,bbzxky.fun,国内应用
 HOST-SUFFIX,bc150.com,国内应用
 HOST-SUFFIX,bc4785bd211012.beer,国内应用
 HOST-SUFFIX,bc5539.com,国内应用
@@ -18511,7 +18491,6 @@ HOST-SUFFIX,bxldz.com,国内应用
 HOST-SUFFIX,bxltw.com,国内应用
 HOST-SUFFIX,bxmd51.com,国内应用
 HOST-SUFFIX,bxnfsy.com,国内应用
-HOST-SUFFIX,bxnjmj.com,国内应用
 HOST-SUFFIX,bxpedia.com,国内应用
 HOST-SUFFIX,bxr.im,国内应用
 HOST-SUFFIX,bxrfund.com,国内应用
@@ -21088,7 +21067,6 @@ HOST-SUFFIX,chanxuehezuo.com,国内应用
 HOST-SUFFIX,chanzhi.org,国内应用
 HOST-SUFFIX,chao-cn.com,国内应用
 HOST-SUFFIX,chao-fan.com,国内应用
-HOST-SUFFIX,chaoart.com,国内应用
 HOST-SUFFIX,chaobohui.com,国内应用
 HOST-SUFFIX,chaodamould.com,国内应用
 HOST-SUFFIX,chaodavalves.com,国内应用
@@ -24177,7 +24155,6 @@ HOST-SUFFIX,cn-cr.com,国内应用
 HOST-SUFFIX,cn-elite.com,国内应用
 HOST-SUFFIX,cn-em.com,国内应用
 HOST-SUFFIX,cn-ferment.com,国内应用
-HOST-SUFFIX,cn-food.net,国内应用
 HOST-SUFFIX,cn-ghtube.com,国内应用
 HOST-SUFFIX,cn-goldeneagle.com,国内应用
 HOST-SUFFIX,cn-hbs.com,国内应用
@@ -25619,7 +25596,6 @@ HOST-SUFFIX,cowcs.com,国内应用
 HOST-SUFFIX,cowealth.com,国内应用
 HOST-SUFFIX,cowellhealth.com,国内应用
 HOST-SUFFIX,cowlevel.net,国内应用
-HOST-SUFFIX,cowrycare.com,国内应用
 HOST-SUFFIX,cowtransfer.com,国内应用
 HOST-SUFFIX,coyigroup.com,国内应用
 HOST-SUFFIX,coyis.com,国内应用
@@ -27251,7 +27227,6 @@ HOST-SUFFIX,cxbiji.com,国内应用
 HOST-SUFFIX,cxbio.com,国内应用
 HOST-SUFFIX,cxbsx.com,国内应用
 HOST-SUFFIX,cxbz958.com,国内应用
-HOST-SUFFIX,cxc233.com,国内应用
 HOST-SUFFIX,cxcc.me,国内应用
 HOST-SUFFIX,cxcentury.com,国内应用
 HOST-SUFFIX,cxcijiedu.com,国内应用
@@ -27763,7 +27738,6 @@ HOST-SUFFIX,dabjy.com,国内应用
 HOST-SUFFIX,daboluo.net,国内应用
 HOST-SUFFIX,dabusi.com,国内应用
 HOST-SUFFIX,dacai.com,国内应用
-HOST-SUFFIX,dacang.ltd,国内应用
 HOST-SUFFIX,dacankao.com,国内应用
 HOST-SUFFIX,dacankao.net,国内应用
 HOST-SUFFIX,dacaomei.com,国内应用
@@ -28482,7 +28456,6 @@ HOST-SUFFIX,dayu-valve.com,国内应用
 HOST-SUFFIX,dayu.com,国内应用
 HOST-SUFFIX,dayu.work,国内应用
 HOST-SUFFIX,dayuanqy.com,国内应用
-HOST-SUFFIX,dayuansouti.com,国内应用
 HOST-SUFFIX,dayuanzong.com,国内应用
 HOST-SUFFIX,dayucdntip.com,国内应用
 HOST-SUFFIX,dayue.com,国内应用
@@ -31634,6 +31607,7 @@ HOST-SUFFIX,dxlfile.com,国内应用
 HOST-SUFFIX,dxm-cdn.com,国内应用
 HOST-SUFFIX,dxm-int.com,国内应用
 HOST-SUFFIX,dxm-yibai.com,国内应用
+HOST-SUFFIX,dxmbaoxian.com,国内应用
 HOST-SUFFIX,dxmjinr.com,国内应用
 HOST-SUFFIX,dxmjuhe.com,国内应用
 HOST-SUFFIX,dxmlcf.com,国内应用
@@ -33589,7 +33563,6 @@ HOST-SUFFIX,esjlf.com,国内应用
 HOST-SUFFIX,esjson.com,国内应用
 HOST-SUFFIX,esk365.com,国内应用
 HOST-SUFFIX,eskedu.com,国内应用
-HOST-SUFFIX,eskimall.com,国内应用
 HOST-SUFFIX,eskysky.com,国内应用
 HOST-SUFFIX,eslosity.com,国内应用
 HOST-SUFFIX,eslygroup.com,国内应用
@@ -33674,7 +33647,6 @@ HOST-SUFFIX,etccenters.com,国内应用
 HOST-SUFFIX,etcchebao.com,国内应用
 HOST-SUFFIX,etcgsx.com,国内应用
 HOST-SUFFIX,etchcb.com,国内应用
-HOST-SUFFIX,etcifw.vip,国内应用
 HOST-SUFFIX,etcsd.com,国内应用
 HOST-SUFFIX,etcsx.com,国内应用
 HOST-SUFFIX,etczs.net,国内应用
@@ -33687,7 +33659,6 @@ HOST-SUFFIX,etest8.com,国内应用
 HOST-SUFFIX,eteste.com,国内应用
 HOST-SUFFIX,etf.group,国内应用
 HOST-SUFFIX,etf88.com,国内应用
-HOST-SUFFIX,etfcjz.com,国内应用
 HOST-SUFFIX,etfiber.net,国内应用
 HOST-SUFFIX,etg56.com,国内应用
 HOST-SUFFIX,ethainan.com,国内应用
@@ -33810,7 +33781,6 @@ HOST-SUFFIX,ev123.com,国内应用
 HOST-SUFFIX,ev123.net,国内应用
 HOST-SUFFIX,ev3ds.com,国内应用
 HOST-SUFFIX,ev88.com,国内应用
-HOST-SUFFIX,ev98.com,国内应用
 HOST-SUFFIX,eva-group.com,国内应用
 HOST-SUFFIX,eva001.com,国内应用
 HOST-SUFFIX,evacellbio.com,国内应用
@@ -35054,7 +35024,6 @@ HOST-SUFFIX,feixiansoft.com,国内应用
 HOST-SUFFIX,feixiaodata.com,国内应用
 HOST-SUFFIX,feixiaoqiu.com,国内应用
 HOST-SUFFIX,feixiong.tv,国内应用
-HOST-SUFFIX,feixue666.com,国内应用
 HOST-SUFFIX,feixuege.com,国内应用
 HOST-SUFFIX,feixueteam.net,国内应用
 HOST-SUFFIX,feiyang.com,国内应用
@@ -35602,7 +35571,6 @@ HOST-SUFFIX,fjcyl.org,国内应用
 HOST-SUFFIX,fjdaily.com,国内应用
 HOST-SUFFIX,fjdaze.com,国内应用
 HOST-SUFFIX,fjdc.xyz,国内应用
-HOST-SUFFIX,fjdf.vip,国内应用
 HOST-SUFFIX,fjdfxy.com,国内应用
 HOST-SUFFIX,fjdh.com,国内应用
 HOST-SUFFIX,fjdkjt.com,国内应用
@@ -45345,7 +45313,6 @@ HOST-SUFFIX,hcj1952.com,国内应用
 HOST-SUFFIX,hcjike.com,国内应用
 HOST-SUFFIX,hcjt.cc,国内应用
 HOST-SUFFIX,hckg.com,国内应用
-HOST-SUFFIX,hckj.org,国内应用
 HOST-SUFFIX,hclonely.com,国内应用
 HOST-SUFFIX,hclouder.com,国内应用
 HOST-SUFFIX,hcmiraefund.com,国内应用
@@ -46637,7 +46604,6 @@ HOST-SUFFIX,hiram1009-dw.org,国内应用
 HOST-SUFFIX,hirata-cn.com,国内应用
 HOST-SUFFIX,hirata-hts.com,国内应用
 HOST-SUFFIX,hirede.com,国内应用
-HOST-SUFFIX,hiregex.com,国内应用
 HOST-SUFFIX,hireye.com,国内应用
 HOST-SUFFIX,hirige.com,国内应用
 HOST-SUFFIX,hirisemed.com,国内应用
@@ -46719,7 +46685,6 @@ HOST-SUFFIX,hixuexiao.net,国内应用
 HOST-SUFFIX,hiyd.com,国内应用
 HOST-SUFFIX,hiyongche.com,国内应用
 HOST-SUFFIX,hiyouib.com,国内应用
-HOST-SUFFIX,hiyouqu.com,国内应用
 HOST-SUFFIX,hiyun.site,国内应用
 HOST-SUFFIX,hiyun.tv,国内应用
 HOST-SUFFIX,hizaoan.com,国内应用
@@ -47757,7 +47722,6 @@ HOST-SUFFIX,hongyue.com,国内应用
 HOST-SUFFIX,hongyugroup.com,国内应用
 HOST-SUFFIX,hongyugz.com,国内应用
 HOST-SUFFIX,hongyumedical.com,国内应用
-HOST-SUFFIX,hongyunduo.com,国内应用
 HOST-SUFFIX,hongyuntx.com,国内应用
 HOST-SUFFIX,hongyuzps.com,国内应用
 HOST-SUFFIX,hongze.net,国内应用
@@ -48950,7 +48914,6 @@ HOST-SUFFIX,huaxi.net,国内应用
 HOST-SUFFIX,huaxi100.com,国内应用
 HOST-SUFFIX,huaxia.com,国内应用
 HOST-SUFFIX,huaxia77.com,国内应用
-HOST-SUFFIX,huaxiabeidou.com,国内应用
 HOST-SUFFIX,huaxiaeye.com,国内应用
 HOST-SUFFIX,huaxiagg.com,国内应用
 HOST-SUFFIX,huaxiajianyan.com,国内应用
@@ -50802,7 +50765,6 @@ HOST-SUFFIX,ibaobay.com,国内应用
 HOST-SUFFIX,ibaoji.com,国内应用
 HOST-SUFFIX,ibaossl.com,国内应用
 HOST-SUFFIX,ibaotu.com,国内应用
-HOST-SUFFIX,ibaoxiu.net,国内应用
 HOST-SUFFIX,ibaralioho.com,国内应用
 HOST-SUFFIX,ibashu.net,国内应用
 HOST-SUFFIX,ibayapp.com,国内应用
@@ -55880,7 +55842,6 @@ HOST-SUFFIX,jjldbk.com,国内应用
 HOST-SUFFIX,jjldxz.com,国内应用
 HOST-SUFFIX,jjledu.net,国内应用
 HOST-SUFFIX,jjlhbs.com,国内应用
-HOST-SUFFIX,jjlvu.com,国内应用
 HOST-SUFFIX,jjlysh.com,国内应用
 HOST-SUFFIX,jjmatch.com,国内应用
 HOST-SUFFIX,jjmfc.com,国内应用
@@ -56412,7 +56373,6 @@ HOST-SUFFIX,joojcc.com,国内应用
 HOST-SUFFIX,joojtech.com,国内应用
 HOST-SUFFIX,joojzz.com,国内应用
 HOST-SUFFIX,joomla.work,国内应用
-HOST-SUFFIX,joomobx.com,国内应用
 HOST-SUFFIX,joooz.com,国内应用
 HOST-SUFFIX,joowhee.com,国内应用
 HOST-SUFFIX,joox.com,国内应用
@@ -60328,7 +60288,6 @@ HOST-SUFFIX,kusnc17.com,国内应用
 HOST-SUFFIX,kuso.xyz,国内应用
 HOST-SUFFIX,kusouji.com,国内应用
 HOST-SUFFIX,kut3974vc.com,国内应用
-HOST-SUFFIX,kutinai.com,国内应用
 HOST-SUFFIX,kutj.com,国内应用
 HOST-SUFFIX,kutongji.com,国内应用
 HOST-SUFFIX,kutuan.com,国内应用
@@ -61236,7 +61195,6 @@ HOST-SUFFIX,lc-news.com,国内应用
 HOST-SUFFIX,lc-rc.com,国内应用
 HOST-SUFFIX,lc044.love,国内应用
 HOST-SUFFIX,lc123.net,国内应用
-HOST-SUFFIX,lc1618.com,国内应用
 HOST-SUFFIX,lc787.com,国内应用
 HOST-SUFFIX,lcang.com,国内应用
 HOST-SUFFIX,lcatgame.com,国内应用
@@ -65822,6 +65780,7 @@ HOST-SUFFIX,mcool.com,国内应用
 HOST-SUFFIX,mcpemaster.com,国内应用
 HOST-SUFFIX,mcpfks.com,国内应用
 HOST-SUFFIX,mcpmaid.com,国内应用
+HOST-SUFFIX,mcpworld.com,国内应用
 HOST-SUFFIX,mcq93.app,国内应用
 HOST-SUFFIX,mcqy.net,国内应用
 HOST-SUFFIX,mcsafebox.com,国内应用
@@ -66256,7 +66215,6 @@ HOST-SUFFIX,meituxiaopu.com,国内应用
 HOST-SUFFIX,meituxiu.com,国内应用
 HOST-SUFFIX,meituxiuxiu.com,国内应用
 HOST-SUFFIX,meituyidong.com,国内应用
-HOST-SUFFIX,meituyuan.com,国内应用
 HOST-SUFFIX,meituyun.com,国内应用
 HOST-SUFFIX,meiwafuying.com,国内应用
 HOST-SUFFIX,meiweibf.com,国内应用
@@ -66508,7 +66466,6 @@ HOST-SUFFIX,mfhcd.com,国内应用
 HOST-SUFFIX,mfinetech.com,国内应用
 HOST-SUFFIX,mfisp.com,国内应用
 HOST-SUFFIX,mfjl.wiki,国内应用
-HOST-SUFFIX,mfjxcn.com,国内应用
 HOST-SUFFIX,mfk.com,国内应用
 HOST-SUFFIX,mflady.com,国内应用
 HOST-SUFFIX,mfniu.com,国内应用
@@ -68820,6 +68777,7 @@ HOST-SUFFIX,myspain.org,国内应用
 HOST-SUFFIX,mysqil.com,国内应用
 HOST-SUFFIX,mysql360.com,国内应用
 HOST-SUFFIX,mysqlab.net,国内应用
+HOST-SUFFIX,myssl-uri.com,国内应用
 HOST-SUFFIX,myssl.com,国内应用
 HOST-SUFFIX,mystarch.com,国内应用
 HOST-SUFFIX,mysteel.com,国内应用
@@ -69041,7 +68999,6 @@ HOST-SUFFIX,nami.com,国内应用
 HOST-SUFFIX,namibox.com,国内应用
 HOST-SUFFIX,namichong.com,国内应用
 HOST-SUFFIX,namihair.com,国内应用
-HOST-SUFFIX,namipan.com,国内应用
 HOST-SUFFIX,namiso.com,国内应用
 HOST-SUFFIX,namisoft.com,国内应用
 HOST-SUFFIX,namitiyu.com,国内应用
@@ -69832,7 +69789,6 @@ HOST-SUFFIX,newxue.com,国内应用
 HOST-SUFFIX,newyifagroup.com,国内应用
 HOST-SUFFIX,newyishi.com,国内应用
 HOST-SUFFIX,newyorkerdownunder.com,国内应用
-HOST-SUFFIX,newyorkluxurywatch.com,国内应用
 HOST-SUFFIX,newyoton.com,国内应用
 HOST-SUFFIX,newyx.net,国内应用
 HOST-SUFFIX,newzealandvscenter.com,国内应用
@@ -70414,7 +70370,6 @@ HOST-SUFFIX,njjgjs.com,国内应用
 HOST-SUFFIX,njjgzlgl.com,国内应用
 HOST-SUFFIX,njjhjt.com,国内应用
 HOST-SUFFIX,njjht.com,国内应用
-HOST-SUFFIX,njjiancai.com,国内应用
 HOST-SUFFIX,njjianguo.com,国内应用
 HOST-SUFFIX,njjiantian.com,国内应用
 HOST-SUFFIX,njjienuo.com,国内应用
@@ -73617,6 +73572,7 @@ HOST-SUFFIX,perfcode.com,国内应用
 HOST-SUFFIX,perfect-input.com,国内应用
 HOST-SUFFIX,perfect99.com,国内应用
 HOST-SUFFIX,perfectdiary.com,国内应用
+HOST-SUFFIX,perfectlingo.com,国内应用
 HOST-SUFFIX,perfecttradinghk.com,国内应用
 HOST-SUFFIX,perfectwatchen.com,国内应用
 HOST-SUFFIX,perfertw.com,国内应用
@@ -75058,6 +75014,7 @@ HOST-SUFFIX,pw-partners.com,国内应用
 HOST-SUFFIX,pw1999.com,国内应用
 HOST-SUFFIX,pw88.com,国内应用
 HOST-SUFFIX,pwand.com,国内应用
+HOST-SUFFIX,pwcinema.com,国内应用
 HOST-SUFFIX,pwdding.icu,国内应用
 HOST-SUFFIX,pwithe.com,国内应用
 HOST-SUFFIX,pwjptdg.xyz,国内应用
@@ -79093,7 +79050,6 @@ HOST-SUFFIX,rosesandgold.fun,国内应用
 HOST-SUFFIX,rosewin.com,国内应用
 HOST-SUFFIX,rosin-china.com,国内应用
 HOST-SUFFIX,rosirs-edu.com,国内应用
-HOST-SUFFIX,rosmontis.com,国内应用
 HOST-SUFFIX,rosnas.com,国内应用
 HOST-SUFFIX,rosoo.net,国内应用
 HOST-SUFFIX,rosoyp.com,国内应用
@@ -81532,6 +81488,7 @@ HOST-SUFFIX,sf-laas.com,国内应用
 HOST-SUFFIX,sf-pay.com,国内应用
 HOST-SUFFIX,sf-saas.com,国内应用
 HOST-SUFFIX,sf-zs.net,国内应用
+HOST-SUFFIX,sf.global,国内应用
 HOST-SUFFIX,sf007.com,国内应用
 HOST-SUFFIX,sf024.com,国内应用
 HOST-SUFFIX,sf2021.com,国内应用
@@ -86882,6 +86839,7 @@ HOST-SUFFIX,suqun-group.com,国内应用
 HOST-SUFFIX,surely.cool,国内应用
 HOST-SUFFIX,surerp.com,国内应用
 HOST-SUFFIX,surface.download.prss.microsoft.com,国内应用
+HOST-SUFFIX,surface.downloads.prss.microsoft.com,国内应用
 HOST-SUFFIX,surfacetreatmentgroup.com,国内应用
 HOST-SUFFIX,surfacetreatmenttechnology.com,国内应用
 HOST-SUFFIX,surfcg.com,国内应用
@@ -88435,7 +88393,6 @@ HOST-SUFFIX,t47888.com,国内应用
 HOST-SUFFIX,t49cdn.com,国内应用
 HOST-SUFFIX,t4x3.com,国内应用
 HOST-SUFFIX,t4z5p5s9k4q3m4h4m3.org,国内应用
-HOST-SUFFIX,t5.work,国内应用
 HOST-SUFFIX,t50888.com,国内应用
 HOST-SUFFIX,t528.com,国内应用
 HOST-SUFFIX,t56.net,国内应用
@@ -89170,6 +89127,7 @@ HOST-SUFFIX,tcnews.cc,国内应用
 HOST-SUFFIX,tcnvmms.com,国内应用
 HOST-SUFFIX,tcoejox.shop,国内应用
 HOST-SUFFIX,tcomall.com,国内应用
+HOST-SUFFIX,tcp-crm.com,国内应用
 HOST-SUFFIX,tcp.hk,国内应用
 HOST-SUFFIX,tcp.mk,国内应用
 HOST-SUFFIX,tcp.pub,国内应用
@@ -89527,7 +89485,6 @@ HOST-SUFFIX,tellmachgd.com,国内应用
 HOST-SUFFIX,telnet404.com,国内应用
 HOST-SUFFIX,telongzn.com,国内应用
 HOST-SUFFIX,telpo.com,国内应用
-HOST-SUFFIX,telrgeam.cc,国内应用
 HOST-SUFFIX,telsda.com,国内应用
 HOST-SUFFIX,telu.net,国内应用
 HOST-SUFFIX,telunsu.net,国内应用
@@ -92027,7 +91984,6 @@ HOST-SUFFIX,transfriend.com,国内应用
 HOST-SUFFIX,transfu.com,国内应用
 HOST-SUFFIX,transfun.net,国内应用
 HOST-SUFFIX,translatego.net,国内应用
-HOST-SUFFIX,translatellm.asia,国内应用
 HOST-SUFFIX,translationchina.com,国内应用
 HOST-SUFFIX,transmission-china.org,国内应用
 HOST-SUFFIX,transmonkey.com,国内应用
@@ -92187,6 +92143,7 @@ HOST-SUFFIX,trust-one.com,国内应用
 HOST-SUFFIX,trust400.com,国内应用
 HOST-SUFFIX,trusta-lawyer.com,国内应用
 HOST-SUFFIX,trustasia.com,国内应用
+HOST-SUFFIX,trustasia.net,国内应用
 HOST-SUFFIX,trustcn.com,国内应用
 HOST-SUFFIX,trustdecision.com,国内应用
 HOST-SUFFIX,trustedsign.com,国内应用
@@ -96458,7 +96415,6 @@ HOST-SUFFIX,weichuming.com,国内应用
 HOST-SUFFIX,weico.cc,国内应用
 HOST-SUFFIX,weico.com,国内应用
 HOST-SUFFIX,weicogif.com,国内应用
-HOST-SUFFIX,weicon.cc,国内应用
 HOST-SUFFIX,weicot.com,国内应用
 HOST-SUFFIX,weicunmall.com,国内应用
 HOST-SUFFIX,weida888.com,国内应用
@@ -99345,7 +99301,6 @@ HOST-SUFFIX,wxmpurl.cn,国内应用
 HOST-SUFFIX,wxmuseum.com,国内应用
 HOST-SUFFIX,wxnacy.com,国内应用
 HOST-SUFFIX,wxngh.com,国内应用
-HOST-SUFFIX,wxp2022.vip,国内应用
 HOST-SUFFIX,wxpangu.com,国内应用
 HOST-SUFFIX,wxpayglobal.cn,国内应用
 HOST-SUFFIX,wxpayui.com,国内应用
@@ -102506,7 +102461,6 @@ HOST-SUFFIX,xn--eh1a34ykpl.com,国内应用
 HOST-SUFFIX,xn--fhq79jyym9nh74hfm8a.com,国内应用
 HOST-SUFFIX,xn--fiq03fftg7m2c.com,国内应用
 HOST-SUFFIX,xn--fiq06jqoz14s.com,国内应用
-HOST-SUFFIX,xn--fiq446amrnx0i.com,国内应用
 HOST-SUFFIX,xn--fiq60luzcp97a7oxivr99k.org,国内应用
 HOST-SUFFIX,xn--fiq6q20pz51d.com,国内应用
 HOST-SUFFIX,xn--fiq73f39fwr0b4wk.net,国内应用
@@ -103059,7 +103013,6 @@ HOST-SUFFIX,xuedi.com,国内应用
 HOST-SUFFIX,xuedingmiao.com,国内应用
 HOST-SUFFIX,xuedong97.com,国内应用
 HOST-SUFFIX,xuedou.com,国内应用
-HOST-SUFFIX,xueepay.com,国内应用
 HOST-SUFFIX,xueersi.com,国内应用
 HOST-SUFFIX,xueersibook.com,国内应用
 HOST-SUFFIX,xueerxing.com,国内应用
@@ -103129,7 +103082,6 @@ HOST-SUFFIX,xuetangx.com,国内应用
 HOST-SUFFIX,xuetengedu.com,国内应用
 HOST-SUFFIX,xuetimes.com,国内应用
 HOST-SUFFIX,xueto.com,国内应用
-HOST-SUFFIX,xuetongw.com,国内应用
 HOST-SUFFIX,xuetu.net,国内应用
 HOST-SUFFIX,xueui.com,国内应用
 HOST-SUFFIX,xuewangshang.com,国内应用
@@ -105222,7 +105174,6 @@ HOST-SUFFIX,yiec.com,国内应用
 HOST-SUFFIX,yiernews.com,国内应用
 HOST-SUFFIX,yiexi.com,国内应用
 HOST-SUFFIX,yifajingren.com,国内应用
-HOST-SUFFIX,yifake.com,国内应用
 HOST-SUFFIX,yifan211.com,国内应用
 HOST-SUFFIX,yifancdn.com,国内应用
 HOST-SUFFIX,yifancn.com,国内应用
@@ -105949,7 +105900,6 @@ HOST-SUFFIX,yizhedian.com,国内应用
 HOST-SUFFIX,yizhengwx.com,国内应用
 HOST-SUFFIX,yizhibi.com,国内应用
 HOST-SUFFIX,yizhibo.com,国内应用
-HOST-SUFFIX,yizhidayu.com,国内应用
 HOST-SUFFIX,yizhifubj.com,国内应用
 HOST-SUFFIX,yizhijia.com,国内应用
 HOST-SUFFIX,yizhikan.com,国内应用
@@ -106910,7 +106860,6 @@ HOST-SUFFIX,youxiaju.com,国内应用
 HOST-SUFFIX,youxiake.com,国内应用
 HOST-SUFFIX,youxiake.net,国内应用
 HOST-SUFFIX,youxiamotors.com,国内应用
-HOST-SUFFIX,youxiangclub.com,国内应用
 HOST-SUFFIX,youxiaoge.com,国内应用
 HOST-SUFFIX,youxiaohou.com,国内应用
 HOST-SUFFIX,youxiaxiazai.com,国内应用
@@ -108874,7 +108823,6 @@ HOST-SUFFIX,z5w.net,国内应用
 HOST-SUFFIX,z668.net,国内应用
 HOST-SUFFIX,z6e.com,国内应用
 HOST-SUFFIX,z701.com,国内应用
-HOST-SUFFIX,z729.com,国内应用
 HOST-SUFFIX,z7xz.com,国内应用
 HOST-SUFFIX,z82a3814j5.com,国内应用
 HOST-SUFFIX,z888.net,国内应用
@@ -110928,7 +110876,6 @@ HOST-SUFFIX,zhongzhifaqian.com,国内应用
 HOST-SUFFIX,zhongzhiiov.com,国内应用
 HOST-SUFFIX,zhongzhilin.com,国内应用
 HOST-SUFFIX,zhongzhixin.com,国内应用
-HOST-SUFFIX,zhongzhixitong.com,国内应用
 HOST-SUFFIX,zhongzhongkeji.com,国内应用
 HOST-SUFFIX,zhongzhoulianhe.com,国内应用
 HOST-SUFFIX,zhongzhouwater.com,国内应用
