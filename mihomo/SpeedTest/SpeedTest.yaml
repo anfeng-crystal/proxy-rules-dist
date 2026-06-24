@@ -376,6 +376,7 @@ payload:
   - DOMAIN,mu.st.spacecore.pro
   - DOMAIN,mum-speedtest.digianaspeednet.com
   - DOMAIN,mum-speedtest.sanghviinfo.com
+  - DOMAIN,mum.speedtest.railtel.in
   - DOMAIN,mumbaispeedtest.onebroadband.in
   - DOMAIN,mumbaispeedtest.pioneeronline.com
   - DOMAIN,mumbaispeedtest.spectra.co
@@ -2690,6 +2691,7 @@ payload:
   - DOMAIN,spt-nyc.as13786.net
   - DOMAIN,spt-sjo1.edgeuno.com
   - DOMAIN,spt.valexcloud.com
+  - DOMAIN,spt1.seed.net.tw
   - DOMAIN,spt2.valexcloud.com
   - DOMAIN,sptch2.taiwanmobile.com
   - DOMAIN,sptcy2.taiwanmobile.com
