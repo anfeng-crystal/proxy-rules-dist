@@ -1013,6 +1013,7 @@ HOST,speedtest-ams.baremetal.ae,SpeedTest
 HOST,speedtest-ams.melbicom.net,SpeedTest
 HOST,speedtest-ams.retn.net,SpeedTest
 HOST,speedtest-ash.vts.bf,SpeedTest
+HOST,speedtest-asiago.wifiweb.it,SpeedTest
 HOST,speedtest-atl.conexonconnect.com,SpeedTest
 HOST,speedtest-atl.dish-wireless.com,SpeedTest
 HOST,speedtest-atl.melbicom.net,SpeedTest
@@ -1983,6 +1984,7 @@ HOST,speedtest.pentanet.com.au,SpeedTest
 HOST,speedtest.pfalzkom.de,SpeedTest
 HOST,speedtest.ph.net.tr,SpeedTest
 HOST,speedtest.philasd.org,SpeedTest
+HOST,speedtest.phlconnect.com.br,SpeedTest
 HOST,speedtest.phnxaz19.metronetinc.com,SpeedTest
 HOST,speedtest.phoenix.xiber.net,SpeedTest
 HOST,speedtest.phoenixnap.com,SpeedTest
@@ -2327,6 +2329,7 @@ HOST,speedtest.zivlinaa.metronetinc.com,SpeedTest
 HOST,speedtest.zl.osso.network,SpeedTest
 HOST,speedtest.zoominternet.net,SpeedTest
 HOST,speedtest.zoomtelcom.com,SpeedTest
+HOST,speedtest.zttcc.cloud,SpeedTest
 HOST,speedtest001.bfinetworks.com,SpeedTest
 HOST,speedtest001.dnainfotel.com,SpeedTest
 HOST,speedtest001.ssstpl.in,SpeedTest
@@ -2807,6 +2810,7 @@ HOST,st2a.les.net,SpeedTest
 HOST,st3.rocketway.it,SpeedTest
 HOST,st3.surajnetwork.com,SpeedTest
 HOST,st3.wificanarias.com,SpeedTest
+HOST,st34ata.netspeed.tr,SpeedTest
 HOST,staffdigital.com.br,SpeedTest
 HOST,stajax.netcrawler.ca,SpeedTest
 HOST,stajax.rogers.com,SpeedTest
@@ -3165,6 +3169,7 @@ HOST,warp.cronon.net,SpeedTest
 HOST,warrensburg.speedtest.brightspeed.com,SpeedTest
 HOST,warsaw.netia.pl,SpeedTest
 HOST,wd-speedtest.homeplus.net.tw,SpeedTest
+HOST,web01.onthepixel.net,SpeedTest
 HOST,wellington-speedtest.connectwithusa.com,SpeedTest
 HOST,west-speedtest.frontiernetworks.ca,SpeedTest
 HOST,weston-wv.speedtest.shentel.net,SpeedTest
