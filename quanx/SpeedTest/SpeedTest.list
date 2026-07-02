@@ -405,6 +405,7 @@ HOST,ookla-ams.avur.no,SpeedTest
 HOST,ookla-anc.seroficom.com,SpeedTest
 HOST,ookla-atl.gigsouth.com,SpeedTest
 HOST,ookla-autazes.amazoniasat-isp.com.br,SpeedTest
+HOST,ookla-ber.evolushost.com,SpeedTest
 HOST,ookla-crw.wvnet.edu,SpeedTest
 HOST,ookla-dfw.gigsouth.com,SpeedTest
 HOST,ookla-estepona.aerioncloud.com,SpeedTest
@@ -2033,6 +2034,7 @@ HOST,speedtest.sg.hsp.net.id,SpeedTest
 HOST,speedtest.sg220.sgp.sg.ctcsci.com,SpeedTest
 HOST,speedtest.sgbroadband.in,SpeedTest
 HOST,speedtest.shtrueinternet.com,SpeedTest
+HOST,speedtest.sidicoimbratelecom.com.br,SpeedTest
 HOST,speedtest.sin.atharva.co.id,SpeedTest
 HOST,speedtest.sin.sptrnd.id,SpeedTest
 HOST,speedtest.sinetonline.net,SpeedTest
@@ -2285,6 +2287,7 @@ HOST,speedtest.zeer.com.br,SpeedTest
 HOST,speedtest.zenex5ive.com,SpeedTest
 HOST,speedtest.zentrointernet.com,SpeedTest
 HOST,speedtest.zerospace.cloud,SpeedTest
+HOST,speedtest.zetrikcloud.com,SpeedTest
 HOST,speedtest.zivlinaa.metronetinc.com,SpeedTest
 HOST,speedtest.zl.osso.network,SpeedTest
 HOST,speedtest.zoominternet.net,SpeedTest
