@@ -2,8 +2,8 @@
 
 ## 规则数量 / Counts
 
-- AI: 153
-- Ads: 254593
+- AI: 155
+- Ads: 255223
 - Alibaba: 1319
 - Apple: 1873
 - Baidu: 259
@@ -36,7 +36,7 @@
 - Youku: 37
 - Zhihu: 8
 - iQIYI: 62
-- Domestic: 113602
+- Domestic: 113611
 - GlobalSites: 7071
 - NetworkTest: 16
 
@@ -129,15 +129,15 @@
 
 ## Mihomo MRS / Mihomo MRS
 
-- AI: 147 domain rules, 6 classical-only rules omitted, 1472 bytes
-- Ads: 253828 domain rules, 765 classical-only rules omitted, 2209789 bytes
+- AI: 149 domain rules, 6 classical-only rules omitted, 1494 bytes
+- Ads: 254458 domain rules, 765 classical-only rules omitted, 2215405 bytes
 - Alibaba: 1266 domain rules, 53 classical-only rules omitted, 7649 bytes
 - Apple: 1833 domain rules, 40 classical-only rules omitted, 18117 bytes
 - Baidu: 259 domain rules, 0 classical-only rules omitted, 2147 bytes
 - Bilibili: 115 domain rules, 12 classical-only rules omitted, 1477 bytes
 - Dev: 55 domain rules, 0 classical-only rules omitted, 599 bytes
 - DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
-- Domestic: 113447 domain rules, 155 classical-only rules omitted, 553142 bytes
+- Domestic: 113456 domain rules, 155 classical-only rules omitted, 553265 bytes
 - Douyin: 15 domain rules, 0 classical-only rules omitted, 217 bytes
 - Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
 - Game: 34 domain rules, 0 classical-only rules omitted, 439 bytes
