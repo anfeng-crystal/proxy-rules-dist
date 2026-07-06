@@ -1026,6 +1026,7 @@ HOST,speedtest-gwn24.tele-ag.de,SpeedTest
 HOST,speedtest-hkg.retn.net,SpeedTest
 HOST,speedtest-hob.launtel.net.au,SpeedTest
 HOST,speedtest-hobart.optusnet.com.au,SpeedTest
+HOST,speedtest-huachuca.cochise.net,SpeedTest
 HOST,speedtest-hv-1.zoominternet.net,SpeedTest
 HOST,speedtest-iad.acreto.net,SpeedTest
 HOST,speedtest-iad.dish-wireless.com,SpeedTest
@@ -1656,6 +1657,7 @@ HOST,speedtest.inn-energie.at,SpeedTest
 HOST,speedtest.inoc.net,SpeedTest
 HOST,speedtest.inovewifi.com,SpeedTest
 HOST,speedtest.inovewifi.com.br,SpeedTest
+HOST,speedtest.instantsupport.co.in,SpeedTest
 HOST,speedtest.internet.one,SpeedTest
 HOST,speedtest.internetbolaget.nu,SpeedTest
 HOST,speedtest.internetsubway.com,SpeedTest
@@ -1715,6 +1717,7 @@ HOST,speedtest.kraus.jbarbieri.net,SpeedTest
 HOST,speedtest.ktis.net,SpeedTest
 HOST,speedtest.kuducom.com,SpeedTest
 HOST,speedtest.kufnet.at,SpeedTest
+HOST,speedtest.kyouma.net,SpeedTest
 HOST,speedtest.la2.gigabitnow.com,SpeedTest
 HOST,speedtest.la3eq.fdcservers.net,SpeedTest
 HOST,speedtest.lagrangeremcisp.net,SpeedTest
@@ -2331,6 +2334,7 @@ HOST,speedtest016.telecomitalia.it,SpeedTest
 HOST,speedtest018.telecomitalia.it,SpeedTest
 HOST,speedtest019.telecomitalia.it,SpeedTest
 HOST,speedtest02.bluestreamfiber.net,SpeedTest
+HOST,speedtest02.cochise.net,SpeedTest
 HOST,speedtest02.coppernet.net,SpeedTest
 HOST,speedtest02.htp-tel.de,SpeedTest
 HOST,speedtest02.ikbnet.at,SpeedTest
@@ -2953,6 +2957,7 @@ HOST,test.infoconnecttelecom.com.br,SpeedTest
 HOST,test.internetliontelecom.com.br,SpeedTest
 HOST,test.intred.it,SpeedTest
 HOST,test.logae.net.br,SpeedTest
+HOST,test.mycloudvps.net,SpeedTest
 HOST,test.rconnects.com,SpeedTest
 HOST,test.rnfibra.com.br,SpeedTest
 HOST,test.royalgirl.de,SpeedTest
