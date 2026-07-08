@@ -69,6 +69,7 @@ HOST,cbpuspeed.aspensmart.net,SpeedTest
 HOST,cesu-hz.zjtelecom.com.cn,SpeedTest
 HOST,cesu-nb.zjtelecom.com.cn,SpeedTest
 HOST,ch1.chtm.hinet.net,SpeedTest
+HOST,chd.softechinfosol.com,SpeedTest
 HOST,chdspd.myinternet.services,SpeedTest
 HOST,chi-speedtest.net.sangoma.net,SpeedTest
 HOST,chi-speedtest.shifthosting.com,SpeedTest
@@ -1836,6 +1837,7 @@ HOST,speedtest.myaccess.ca,SpeedTest
 HOST,speedtest.myakka.com,SpeedTest
 HOST,speedtest.myarena.ru,SpeedTest
 HOST,speedtest.mycvecfiber.com,SpeedTest
+HOST,speedtest.myion.in,SpeedTest
 HOST,speedtest.myrepublic.com.sg,SpeedTest
 HOST,speedtest.mysispl.com,SpeedTest
 HOST,speedtest.mysmbs.com,SpeedTest
