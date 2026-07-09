@@ -3,7 +3,7 @@
 ## 规则数量 / Counts
 
 - AI: 155
-- Ads: 255776
+- Ads: 256446
 - Alibaba: 1319
 - Apple: 1873
 - Baidu: 259
@@ -23,7 +23,7 @@
 - Netflix: 1152
 - Payment: 252
 - Pinduoduo: 4
-- SpeedTest: 3271
+- SpeedTest: 3272
 - Spotify: 30
 - Telegram: 31
 - Tencent: 2524
@@ -36,7 +36,7 @@
 - Youku: 37
 - Zhihu: 8
 - iQIYI: 62
-- Domestic: 113610
+- Domestic: 113612
 - GlobalSites: 7071
 - NetworkTest: 16
 
@@ -130,14 +130,14 @@
 ## Mihomo MRS / Mihomo MRS
 
 - AI: 149 domain rules, 6 classical-only rules omitted, 1494 bytes
-- Ads: 255011 domain rules, 765 classical-only rules omitted, 2219615 bytes
+- Ads: 255681 domain rules, 765 classical-only rules omitted, 2225797 bytes
 - Alibaba: 1266 domain rules, 53 classical-only rules omitted, 7649 bytes
 - Apple: 1833 domain rules, 40 classical-only rules omitted, 18117 bytes
 - Baidu: 259 domain rules, 0 classical-only rules omitted, 2147 bytes
 - Bilibili: 115 domain rules, 12 classical-only rules omitted, 1477 bytes
 - Dev: 55 domain rules, 0 classical-only rules omitted, 599 bytes
 - DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
-- Domestic: 113455 domain rules, 155 classical-only rules omitted, 553194 bytes
+- Domestic: 113457 domain rules, 155 classical-only rules omitted, 553233 bytes
 - Douyin: 15 domain rules, 0 classical-only rules omitted, 217 bytes
 - Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
 - Game: 34 domain rules, 0 classical-only rules omitted, 439 bytes
@@ -153,7 +153,7 @@
 - NetworkTest: 16 domain rules, 0 classical-only rules omitted, 271 bytes
 - Payment: 250 domain rules, 2 classical-only rules omitted, 2706 bytes
 - Pinduoduo: 4 domain rules, 0 classical-only rules omitted, 94 bytes
-- SpeedTest: 3269 domain rules, 2 classical-only rules omitted, 35873 bytes
+- SpeedTest: 3270 domain rules, 2 classical-only rules omitted, 35818 bytes
 - Spotify: 26 domain rules, 4 classical-only rules omitted, 400 bytes
 - Telegram: 24 domain rules, 7 classical-only rules omitted, 310 bytes
 - Tencent: 2499 domain rules, 25 classical-only rules omitted, 18001 bytes
