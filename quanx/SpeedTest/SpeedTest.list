@@ -738,6 +738,7 @@ HOST,spdms.twincher.ru,SpeedTest
 HOST,spdookla10g0201.noanet.net,SpeedTest
 HOST,spdt.voenetworks.com,SpeedTest
 HOST,spdtes.phoenix.net.tr,SpeedTest
+HOST,spdtest.omegatelecom.net.br,SpeedTest
 HOST,spdtestkpr.myinternet.services,SpeedTest
 HOST,spdtst-southbend.fourway.net,SpeedTest
 HOST,spdtst.iad.xenyth.net,SpeedTest
@@ -2775,6 +2776,8 @@ HOST,st1.scaleway.com,SpeedTest
 HOST,st1.stratusnet.com,SpeedTest
 HOST,st1.tbaytel.net,SpeedTest
 HOST,st1.tzulo.com,SpeedTest
+HOST,st1.worldfibernet.com,SpeedTest
+HOST,st1alguazas.borecom.com,SpeedTest
 HOST,st2-lax.panaops.com,SpeedTest
 HOST,st2-msn.5nines.com,SpeedTest
 HOST,st2.3c1b.com,SpeedTest
@@ -3127,6 +3130,7 @@ HOST,velocimetro.fibernetwork.com.br,SpeedTest
 HOST,velocimetro.govistabr.com.br,SpeedTest
 HOST,velocimetro.proveinter.com.br,SpeedTest
 HOST,velocimetro.speednetworks.com.br,SpeedTest
+HOST,velocimetro.stylosnet.com.br,SpeedTest
 HOST,velocimetro.wiretelecom.com.br,SpeedTest
 HOST,velocimetro.wspeednet.com.br,SpeedTest
 HOST,velocimetrostm.interlig.net,SpeedTest

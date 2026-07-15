@@ -412,8 +412,8 @@
       "name": "Domestic",
       "policy": "国内应用",
       "description": "Merged mainland China applications, domestic AI, domestic payment, finance, media, cloud, and direct fallbacks.",
-      "rules": 113561,
-      "source_count": 113466,
+      "rules": 113358,
+      "source_count": 113263,
       "manual_count": 95,
       "includes": [
         {
@@ -647,9 +647,9 @@
       "license": "unknown",
       "local_fallback": "domestic-all.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs",
-      "mihomo_mrs_rules": 113406,
+      "mihomo_mrs_rules": 113203,
       "mihomo_mrs_omitted": 155,
-      "mihomo_mrs_bytes": 552935
+      "mihomo_mrs_bytes": 552116
     },
     {
       "name": "NetworkTest",
@@ -682,8 +682,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3274,
-      "source_count": 3274,
+      "rules": 3278,
+      "source_count": 3278,
       "manual_count": 0,
       "includes": [
         {
@@ -697,9 +697,9 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3272,
+      "mihomo_mrs_rules": 3276,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 35833
+      "mihomo_mrs_bytes": 35876
     },
     {
       "name": "AI",
@@ -1367,8 +1367,8 @@
       "name": "Ads",
       "policy": "Ads",
       "description": "Advertising, privacy, and hijacking reject bundle.",
-      "rules": 257745,
-      "source_count": 257736,
+      "rules": 258399,
+      "source_count": 258390,
       "manual_count": 9,
       "includes": [
         {
@@ -1390,9 +1390,9 @@
       "license": "unknown",
       "local_fallback": "reject.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs",
-      "mihomo_mrs_rules": 256980,
+      "mihomo_mrs_rules": 257634,
       "mihomo_mrs_omitted": 765,
-      "mihomo_mrs_bytes": 2236822
+      "mihomo_mrs_bytes": 2294010
     }
   ],
   "mihomo_mrs": {
@@ -1700,7 +1700,7 @@
       },
       {
         "name": "Domestic",
-        "rules": 113561
+        "rules": 113358
       },
       {
         "name": "NetworkTest",
@@ -1708,7 +1708,7 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3274
+        "rules": 3278
       },
       {
         "name": "AI",
@@ -1752,7 +1752,7 @@
       },
       {
         "name": "Ads",
-        "rules": 257745
+        "rules": 258399
       }
     ],
     "protected_reject_removals": [],
@@ -1867,10 +1867,10 @@
         "bytes": 94
       },
       "Domestic": {
-        "rules": 113406,
+        "rules": 113203,
         "omitted": 155,
         "path": "mihomo-mrs/Domestic/Domestic.mrs",
-        "bytes": 552935
+        "bytes": 552116
       },
       "NetworkTest": {
         "rules": 16,
@@ -1879,10 +1879,10 @@
         "bytes": 271
       },
       "SpeedTest": {
-        "rules": 3272,
+        "rules": 3276,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 35833
+        "bytes": 35876
       },
       "AI": {
         "rules": 150,
@@ -1993,10 +1993,10 @@
         "bytes": 52043
       },
       "Ads": {
-        "rules": 256980,
+        "rules": 257634,
         "omitted": 765,
         "path": "mihomo-mrs/Ads/Ads.mrs",
-        "bytes": 2236822
+        "bytes": 2294010
       }
     }
   }
