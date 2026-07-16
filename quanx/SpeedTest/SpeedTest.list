@@ -199,6 +199,7 @@ HOST,hkt.hkspeedtest.com,SpeedTest
 HOST,hkthspeedtest02.telstraglobal.net,SpeedTest
 HOST,hl-speed.twmbroadband.com,SpeedTest
 HOST,hmb-tc.wsqm.telekom-dienste.de,SpeedTest
+HOST,hmc-speedtest.northstate.net,SpeedTest
 HOST,hoshiyomi.ratatoskr.org,SpeedTest
 HOST,hs13.aratwifi.com.tr,SpeedTest
 HOST,hs14.aratwifi.com.tr,SpeedTest
@@ -2459,6 +2460,7 @@ HOST,speedtest2.flowtrinidad.com,SpeedTest
 HOST,speedtest2.grm.net,SpeedTest
 HOST,speedtest2.htcnetracer.com,SpeedTest
 HOST,speedtest2.hurontel.on.ca,SpeedTest
+HOST,speedtest2.il.mycci.net,SpeedTest
 HOST,speedtest2.infotech-services.at,SpeedTest
 HOST,speedtest2.keyubu.com,SpeedTest
 HOST,speedtest2.lightningfibre.net.uk,SpeedTest

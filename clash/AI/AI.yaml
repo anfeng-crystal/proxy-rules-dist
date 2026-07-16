@@ -98,6 +98,7 @@ payload:
   - DOMAIN-SUFFIX,dreamstudio.ai
   - DOMAIN-SUFFIX,events.statsigapi.net
   - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,flow.google
   - DOMAIN-SUFFIX,geller-pa.googleapis.com
   - DOMAIN-SUFFIX,gemini.google
   - DOMAIN-SUFFIX,gemini.google.com
