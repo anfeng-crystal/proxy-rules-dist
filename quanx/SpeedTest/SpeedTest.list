@@ -500,6 +500,7 @@ HOST,ookla.pgservicos.com.br,SpeedTest
 HOST,ookla.playmaisreverso.net.br,SpeedTest
 HOST,ookla.pvu.as6453.net,SpeedTest
 HOST,ookla.pye.as6453.net,SpeedTest
+HOST,ookla.radishnetworks.net,SpeedTest
 HOST,ookla.rbn.gr,SpeedTest
 HOST,ookla.sh.com.tr,SpeedTest
 HOST,ookla.siditelecom-isp.com.br,SpeedTest
@@ -801,6 +802,7 @@ HOST,speed.fgtelecom.com.br,SpeedTest
 HOST,speed.fibraencasa.cr,SpeedTest
 HOST,speed.flix.net.tr,SpeedTest
 HOST,speed.flttelecom.com.br,SpeedTest
+HOST,speed.fs-it.systems,SpeedTest
 HOST,speed.fyberlink.com.br,SpeedTest
 HOST,speed.g.ml-net.at,SpeedTest
 HOST,speed.gatewayftth.com,SpeedTest
@@ -1632,6 +1634,7 @@ HOST,speedtest.hlinknet.com,SpeedTest
 HOST,speedtest.hnd.fdcservers.net,SpeedTest
 HOST,speedtest.hochschule-trier.de,SpeedTest
 HOST,speedtest.homecomminc.com,SpeedTest
+HOST,speedtest.homestube.de,SpeedTest
 HOST,speedtest.honest.net,SpeedTest
 HOST,speedtest.host-unlimited.de,SpeedTest
 HOST,speedtest.host.com.tw,SpeedTest
@@ -2189,6 +2192,7 @@ HOST,speedtest.twds.com.tw,SpeedTest
 HOST,speedtest.twerion.net,SpeedTest
 HOST,speedtest.twinvalley.net,SpeedTest
 HOST,speedtest.twl-kom.de,SpeedTest
+HOST,speedtest.uania.cloud,SpeedTest
 HOST,speedtest.ubc.ca,SpeedTest
 HOST,speedtest.ufinetlatam.net,SpeedTest
 HOST,speedtest.uia.net,SpeedTest
