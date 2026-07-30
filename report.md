@@ -23,7 +23,7 @@
 - Netflix: 1152
 - Payment: 252
 - Pinduoduo: 4
-- SpeedTest: 3299
+- SpeedTest: 3301
 - Spotify: 30
 - Telegram: 31
 - Tencent: 2524
@@ -153,7 +153,7 @@
 - NetworkTest: 16 domain rules, 0 classical-only rules omitted, 271 bytes
 - Payment: 250 domain rules, 2 classical-only rules omitted, 2706 bytes
 - Pinduoduo: 4 domain rules, 0 classical-only rules omitted, 94 bytes
-- SpeedTest: 3297 domain rules, 2 classical-only rules omitted, 36010 bytes
+- SpeedTest: 3299 domain rules, 2 classical-only rules omitted, 36004 bytes
 - Spotify: 26 domain rules, 4 classical-only rules omitted, 400 bytes
 - Telegram: 24 domain rules, 7 classical-only rules omitted, 310 bytes
 - Tencent: 2499 domain rules, 25 classical-only rules omitted, 18001 bytes

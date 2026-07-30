@@ -469,6 +469,7 @@ HOST,ookla.haj-01.testpub.telefonica.de,SpeedTest
 HOST,ookla.ham-02.testpub.telefonica.de,SpeedTest
 HOST,ookla.hk2.as6453.net,SpeedTest
 HOST,ookla.idnet.net,SpeedTest
+HOST,ookla.intracex.de,SpeedTest
 HOST,ookla.jgainterlinktelecom.com.br,SpeedTest
 HOST,ookla.kernwifi.com.au,SpeedTest
 HOST,ookla.kues-data.de,SpeedTest
@@ -2307,6 +2308,7 @@ HOST,speedtest.xsnews.nl,SpeedTest
 HOST,speedtest.xstreamservices.com,SpeedTest
 HOST,speedtest.xxlnet.nl,SpeedTest
 HOST,speedtest.xxs-speedtest-zxxy.me,SpeedTest
+HOST,speedtest.xytor.cloud,SpeedTest
 HOST,speedtest.yalniz.net,SpeedTest
 HOST,speedtest.yecla.interfibra.es,SpeedTest
 HOST,speedtest.yless4u.com.au,SpeedTest

@@ -469,6 +469,7 @@ payload:
   - DOMAIN,ookla.ham-02.testpub.telefonica.de
   - DOMAIN,ookla.hk2.as6453.net
   - DOMAIN,ookla.idnet.net
+  - DOMAIN,ookla.intracex.de
   - DOMAIN,ookla.jgainterlinktelecom.com.br
   - DOMAIN,ookla.kernwifi.com.au
   - DOMAIN,ookla.kues-data.de
@@ -2307,6 +2308,7 @@ payload:
   - DOMAIN,speedtest.xstreamservices.com
   - DOMAIN,speedtest.xxlnet.nl
   - DOMAIN,speedtest.xxs-speedtest-zxxy.me
+  - DOMAIN,speedtest.xytor.cloud
   - DOMAIN,speedtest.yalniz.net
   - DOMAIN,speedtest.yecla.interfibra.es
   - DOMAIN,speedtest.yless4u.com.au
