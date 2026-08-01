@@ -412,8 +412,8 @@
       "name": "Domestic",
       "policy": "国内应用",
       "description": "Merged mainland China applications, domestic AI, domestic payment, finance, media, cloud, and direct fallbacks.",
-      "rules": 113176,
-      "source_count": 113081,
+      "rules": 113226,
+      "source_count": 113131,
       "manual_count": 95,
       "includes": [
         {
@@ -647,9 +647,9 @@
       "license": "unknown",
       "local_fallback": "domestic-all.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs",
-      "mihomo_mrs_rules": 113021,
+      "mihomo_mrs_rules": 113071,
       "mihomo_mrs_omitted": 155,
-      "mihomo_mrs_bytes": 551088
+      "mihomo_mrs_bytes": 551258
     },
     {
       "name": "NetworkTest",
@@ -1367,8 +1367,8 @@
       "name": "Ads",
       "policy": "Ads",
       "description": "Advertising, privacy, and hijacking reject bundle.",
-      "rules": 262976,
-      "source_count": 262967,
+      "rules": 263240,
+      "source_count": 263231,
       "manual_count": 9,
       "includes": [
         {
@@ -1390,9 +1390,9 @@
       "license": "unknown",
       "local_fallback": "reject.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs",
-      "mihomo_mrs_rules": 262211,
+      "mihomo_mrs_rules": 262475,
       "mihomo_mrs_omitted": 765,
-      "mihomo_mrs_bytes": 2279786
+      "mihomo_mrs_bytes": 2282156
     }
   ],
   "mihomo_mrs": {
@@ -1700,7 +1700,7 @@
       },
       {
         "name": "Domestic",
-        "rules": 113176
+        "rules": 113226
       },
       {
         "name": "NetworkTest",
@@ -1752,7 +1752,7 @@
       },
       {
         "name": "Ads",
-        "rules": 262976
+        "rules": 263240
       }
     ],
     "protected_reject_removals": [],
@@ -1867,10 +1867,10 @@
         "bytes": 94
       },
       "Domestic": {
-        "rules": 113021,
+        "rules": 113071,
         "omitted": 155,
         "path": "mihomo-mrs/Domestic/Domestic.mrs",
-        "bytes": 551088
+        "bytes": 551258
       },
       "NetworkTest": {
         "rules": 16,
@@ -1993,10 +1993,10 @@
         "bytes": 52043
       },
       "Ads": {
-        "rules": 262211,
+        "rules": 262475,
         "omitted": 765,
         "path": "mihomo-mrs/Ads/Ads.mrs",
-        "bytes": 2279786
+        "bytes": 2282156
       }
     }
   }
