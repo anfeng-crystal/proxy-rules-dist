@@ -682,8 +682,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3302,
-      "source_count": 3302,
+      "rules": 3303,
+      "source_count": 3303,
       "manual_count": 0,
       "includes": [
         {
@@ -697,16 +697,16 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3300,
+      "mihomo_mrs_rules": 3301,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 36055
+      "mihomo_mrs_bytes": 36218
     },
     {
       "name": "AI",
       "policy": "AI",
       "description": "Overseas AI services only.",
-      "rules": 157,
-      "source_count": 99,
+      "rules": 158,
+      "source_count": 100,
       "manual_count": 58,
       "includes": [
         {
@@ -780,9 +780,9 @@
       "license": "unknown",
       "local_fallback": "global-ai.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/AI/AI.mrs",
-      "mihomo_mrs_rules": 151,
+      "mihomo_mrs_rules": 152,
       "mihomo_mrs_omitted": 6,
-      "mihomo_mrs_bytes": 1509
+      "mihomo_mrs_bytes": 1521
     },
     {
       "name": "Dev",
@@ -1708,11 +1708,11 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3302
+        "rules": 3303
       },
       {
         "name": "AI",
-        "rules": 157
+        "rules": 158
       },
       {
         "name": "Apple",
@@ -1879,16 +1879,16 @@
         "bytes": 271
       },
       "SpeedTest": {
-        "rules": 3300,
+        "rules": 3301,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 36055
+        "bytes": 36218
       },
       "AI": {
-        "rules": 151,
+        "rules": 152,
         "omitted": 6,
         "path": "mihomo-mrs/AI/AI.mrs",
-        "bytes": 1509
+        "bytes": 1521
       },
       "Dev": {
         "rules": 55,
