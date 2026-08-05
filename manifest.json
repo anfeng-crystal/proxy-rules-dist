@@ -682,8 +682,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3309,
-      "source_count": 3309,
+      "rules": 3311,
+      "source_count": 3311,
       "manual_count": 0,
       "includes": [
         {
@@ -697,9 +697,9 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3307,
+      "mihomo_mrs_rules": 3309,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 36208
+      "mihomo_mrs_bytes": 36276
     },
     {
       "name": "AI",
@@ -1367,8 +1367,8 @@
       "name": "Ads",
       "policy": "Ads",
       "description": "Advertising, privacy, and hijacking reject bundle.",
-      "rules": 263764,
-      "source_count": 263755,
+      "rules": 264310,
+      "source_count": 264301,
       "manual_count": 9,
       "includes": [
         {
@@ -1390,9 +1390,9 @@
       "license": "unknown",
       "local_fallback": "reject.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs",
-      "mihomo_mrs_rules": 262999,
+      "mihomo_mrs_rules": 263545,
       "mihomo_mrs_omitted": 765,
-      "mihomo_mrs_bytes": 2285953
+      "mihomo_mrs_bytes": 2291226
     }
   ],
   "mihomo_mrs": {
@@ -1708,7 +1708,7 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3309
+        "rules": 3311
       },
       {
         "name": "AI",
@@ -1752,7 +1752,7 @@
       },
       {
         "name": "Ads",
-        "rules": 263764
+        "rules": 264310
       }
     ],
     "protected_reject_removals": [],
@@ -1879,10 +1879,10 @@
         "bytes": 271
       },
       "SpeedTest": {
-        "rules": 3307,
+        "rules": 3309,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 36208
+        "bytes": 36276
       },
       "AI": {
         "rules": 152,
@@ -1993,10 +1993,10 @@
         "bytes": 52043
       },
       "Ads": {
-        "rules": 262999,
+        "rules": 263545,
         "omitted": 765,
         "path": "mihomo-mrs/Ads/Ads.mrs",
-        "bytes": 2285953
+        "bytes": 2291226
       }
     }
   }
