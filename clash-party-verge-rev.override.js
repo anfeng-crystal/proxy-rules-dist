@@ -4,7 +4,9 @@
 function main(config, profileName) {
   const RULE_BASE = "https://anfeng-crystal.github.io/proxy-rules-dist/clash";
   const RULE_INTERVAL = 86400;
-  const TEST_URL = "https://www.gstatic.com/generate_204";
+  const DEFAULT_TEST_URL = "http://www.gstatic.com/generate_204";
+  const ORIGINAL_PROXY_GROUPS = Array.isArray(config["proxy-groups"]) ? config["proxy-groups"] : [];
+  const TEST_URL = resolveTestUrl(ORIGINAL_PROXY_GROUPS);
   const TEST_INTERVAL = 600;
   const TEST_TOLERANCE = 50;
   const COMMON_EXCLUDE =
@@ -266,6 +268,21 @@ function main(config, profileName) {
   config.rules = buildRules();
 
   return config;
+
+  function resolveTestUrl(groups) {
+    // Preserve provider-selected health checks; some subscriptions require an HTTP probe.
+    const urlTestGroup = groups.find(group => group && group.type === "url-test" && isHttpUrl(group.url));
+    if (urlTestGroup) return urlTestGroup.url.trim();
+    const failoverGroup = groups.find(
+      group => group && (group.type === "fallback" || group.type === "load-balance") && isHttpUrl(group.url)
+    );
+    if (failoverGroup) return failoverGroup.url.trim();
+    return DEFAULT_TEST_URL;
+  }
+
+  function isHttpUrl(value) {
+    return typeof value === "string" && /^https?:\/\/(?:\[[0-9a-f:.]+\]|[^@:\/\s?#]+)(?::\d{1,5})?(?:[\/?#]\S*)?$/i.test(value.trim());
+  }
 
   function selectGroup(name, proxies) {
     return { name, type: "select", proxies: unique(proxies) };
