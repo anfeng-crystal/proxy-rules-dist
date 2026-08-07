@@ -1045,6 +1045,7 @@ payload:
   - DOMAIN,speedtest-hv-1.zoominternet.net
   - DOMAIN,speedtest-iad.acreto.net
   - DOMAIN,speedtest-iad.dish-wireless.com
+  - DOMAIN,speedtest-iad.sectrify.com
   - DOMAIN,speedtest-ict.ideatek.com
   - DOMAIN,speedtest-intl.xl.co.id
   - DOMAIN,speedtest-iowa.airstreamcomm.net
@@ -1193,6 +1194,7 @@ payload:
   - DOMAIN,speedtest-sin.melbicom.net
   - DOMAIN,speedtest-sjc.acreto.net
   - DOMAIN,speedtest-sjc.dish-wireless.com
+  - DOMAIN,speedtest-sjc.sectrify.com
   - DOMAIN,speedtest-sossano.wifiweb.it
   - DOMAIN,speedtest-srv-a.homeworks.org
   - DOMAIN,speedtest-srv01.tut.net
@@ -2105,6 +2107,7 @@ payload:
   - DOMAIN,speedtest.spd.net.tr
   - DOMAIN,speedtest.spectra.co
   - DOMAIN,speedtest.spectrumvoip.com
+  - DOMAIN,speedtest.speedcom.in
   - DOMAIN,speedtest.speedfi.xyz
   - DOMAIN,speedtest.spl.vodafone.nl
   - DOMAIN,speedtest.springcom.com

@@ -1045,6 +1045,7 @@ HOST,speedtest-huachuca.cochise.net,SpeedTest
 HOST,speedtest-hv-1.zoominternet.net,SpeedTest
 HOST,speedtest-iad.acreto.net,SpeedTest
 HOST,speedtest-iad.dish-wireless.com,SpeedTest
+HOST,speedtest-iad.sectrify.com,SpeedTest
 HOST,speedtest-ict.ideatek.com,SpeedTest
 HOST,speedtest-intl.xl.co.id,SpeedTest
 HOST,speedtest-iowa.airstreamcomm.net,SpeedTest
@@ -1193,6 +1194,7 @@ HOST,speedtest-sg1.simba.sg,SpeedTest
 HOST,speedtest-sin.melbicom.net,SpeedTest
 HOST,speedtest-sjc.acreto.net,SpeedTest
 HOST,speedtest-sjc.dish-wireless.com,SpeedTest
+HOST,speedtest-sjc.sectrify.com,SpeedTest
 HOST,speedtest-sossano.wifiweb.it,SpeedTest
 HOST,speedtest-srv-a.homeworks.org,SpeedTest
 HOST,speedtest-srv01.tut.net,SpeedTest
@@ -2105,6 +2107,7 @@ HOST,speedtest.spacenet.ru,SpeedTest
 HOST,speedtest.spd.net.tr,SpeedTest
 HOST,speedtest.spectra.co,SpeedTest
 HOST,speedtest.spectrumvoip.com,SpeedTest
+HOST,speedtest.speedcom.in,SpeedTest
 HOST,speedtest.speedfi.xyz,SpeedTest
 HOST,speedtest.spl.vodafone.nl,SpeedTest
 HOST,speedtest.springcom.com,SpeedTest
