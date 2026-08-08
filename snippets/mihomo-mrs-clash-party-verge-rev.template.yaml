@@ -271,9 +271,12 @@ proxy-groups:
   - name: "SpeedTest"
     type: select
     proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Gemini"
+    type: select
+    proxies: ["香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点", "韩国节点", "全部节点"]
   - name: "AI"
     type: select
-    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+    proxies: ["香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点", "韩国节点", "全部节点"]
   - name: "Apple"
     type: select
     proxies: ["DIRECT", "香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点"]
@@ -459,6 +462,13 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs
     path: ./ruleset/SpeedTest.mrs
     interval: 86400
+  Gemini:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Gemini/Gemini.mrs
+    path: ./ruleset/Gemini.mrs
+    interval: 86400
   AI:
     type: http
     behavior: domain
@@ -632,6 +642,35 @@ rules:
   - IP-CIDR,58.49.111.117/32,TencentVideo,no-resolve
   - IP-CIDR,58.49.111.79/32,TencentVideo,no-resolve
   - IP-CIDR,58.49.111.95/32,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:113.248.172.245/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:114.235.96.186/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:115.236.128.112/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:115.236.128.120/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:115.236.128.24/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:115.236.128.80/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:117.64.75.196/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:117.68.200.210/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:117.87.144.24/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:121.56.126.255/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:124.73.198.81/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:124.73.200.142/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:175.6.84.30/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:175.6.84.96/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:183.161.144.133/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:183.161.144.230/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:183.161.149.105/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:198.18.5.138/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:198.18.6.81/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:198.18.6.83/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:223.240.191.238/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:27.157.209.46/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:58.217.232.117/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:58.217.232.68/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:58.217.232.79/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:58.58.0.90/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:60.171.183.161/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:60.171.183.186/128,TencentVideo,no-resolve
+  - IP-CIDR6,::ffff:60.171.183.98/128,TencentVideo,no-resolve
   - RULE-SET,TencentVideo,TencentVideo
   - DOMAIN-KEYWORD,qiyi,iQIYI
   - IP-CIDR,101.224.0.0/13,iQIYI,no-resolve
@@ -693,6 +732,7 @@ rules:
   - IP-CIDR,103.41.167.234/31,Zhihu,no-resolve
   - IP-CIDR,103.41.167.236/32,Zhihu,no-resolve
   - IP-CIDR,118.89.204.198/32,Zhihu,no-resolve
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,Zhihu,no-resolve
   - RULE-SET,Zhihu,Zhihu
   - RULE-SET,Baidu,Baidu
   - IP-CIDR,103.206.40.0/22,Alibaba,no-resolve
@@ -748,6 +788,7 @@ rules:
   - IP-CIDR,72.254.0.0/16,Alibaba,no-resolve
   - IP-CIDR,8.128.0.0/10,Alibaba,no-resolve
   - IP-CIDR,8.208.0.0/12,Alibaba,no-resolve
+  - IP-CIDR6,2400:b200::/32,Alibaba,no-resolve
   - RULE-SET,Alibaba,Alibaba
   - IP-CIDR,101.32.104.4/32,Tencent,no-resolve
   - IP-CIDR,101.32.104.41/32,Tencent,no-resolve
@@ -912,6 +953,37 @@ rules:
   - IP-CIDR,72.254.0.0/16,国内应用,no-resolve
   - IP-CIDR,8.128.0.0/10,国内应用,no-resolve
   - IP-CIDR,8.208.0.0/12,国内应用,no-resolve
+  - IP-CIDR6,2400:b200::/32,国内应用,no-resolve
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:113.248.172.245/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:114.235.96.186/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:115.236.128.112/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:115.236.128.120/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:115.236.128.24/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:115.236.128.80/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:117.64.75.196/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:117.68.200.210/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:117.87.144.24/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:121.56.126.255/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:124.73.198.81/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:124.73.200.142/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:175.6.84.30/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:175.6.84.96/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:183.161.144.133/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:183.161.144.230/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:183.161.149.105/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:198.18.5.138/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:198.18.6.81/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:198.18.6.83/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:223.240.191.238/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:27.157.209.46/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:58.217.232.117/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:58.217.232.68/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:58.217.232.79/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:58.58.0.90/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:60.171.183.161/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:60.171.183.186/128,国内应用,no-resolve
+  - IP-CIDR6,::ffff:60.171.183.98/128,国内应用,no-resolve
   - USER-AGENT,%E4%BC%98%E9%85%B7*,国内应用
   - USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,国内应用
   - USER-AGENT,*bili*,国内应用
@@ -938,6 +1010,10 @@ rules:
   - DOMAIN-KEYWORD,speedtest,SpeedTest
   - USER-AGENT,SpeedTest*,SpeedTest
   - RULE-SET,SpeedTest,SpeedTest
+  - DOMAIN-KEYWORD,colab,Gemini
+  - DOMAIN-KEYWORD,developerprofiles,Gemini
+  - DOMAIN-KEYWORD,generativelanguage,Gemini
+  - RULE-SET,Gemini,Gemini
   - DOMAIN-KEYWORD,colab,AI
   - DOMAIN-KEYWORD,developerprofiles,AI
   - DOMAIN-KEYWORD,generativelanguage,AI
@@ -957,10 +1033,15 @@ rules:
   - IP-CIDR,196.55.216.167/32,Telegram,no-resolve
   - IP-CIDR,5.28.192.0/18,Telegram,no-resolve
   - IP-CIDR,91.108.0.0/16,Telegram,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,Telegram,no-resolve
+  - IP-CIDR6,2001:b28:f23c::/47,Telegram,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,Telegram,no-resolve
+  - IP-CIDR6,2a0a:f280::/29,Telegram,no-resolve
   - RULE-SET,Telegram,Telegram
   - DOMAIN-KEYWORD,youtube,YouTube
   - IP-CIDR,172.110.32.0/21,YouTube,no-resolve
   - IP-CIDR,216.73.80.0/20,YouTube,no-resolve
+  - IP-CIDR6,2620:120:e000::/40,YouTube,no-resolve
   - USER-AGENT,*YouTubeMusic*,YouTube
   - USER-AGENT,*com.google.ios.youtubemusic*,YouTube
   - USER-AGENT,*youtube*,YouTube
@@ -2088,6 +2169,10 @@ rules:
   - IP-CIDR,99.80.34.48/28,Netflix,no-resolve
   - IP-CIDR,99.80.34.64/26,Netflix,no-resolve
   - IP-CIDR,99.80.88.0/25,Netflix,no-resolve
+  - IP-CIDR6,2607:fb10::/32,Netflix,no-resolve
+  - IP-CIDR6,2620:10c:7000::/44,Netflix,no-resolve
+  - IP-CIDR6,2a00:86c0::/32,Netflix,no-resolve
+  - IP-CIDR6,2a03:5640::/32,Netflix,no-resolve
   - USER-AGENT,Argo*,Netflix
   - RULE-SET,Netflix,Netflix
   - RULE-SET,DisneyPlus,DisneyPlus
@@ -2153,6 +2238,9 @@ rules:
   - IP-CIDR,205.180.175.0/24,Apple,no-resolve
   - IP-CIDR,63.92.224.0/19,Apple,no-resolve
   - IP-CIDR,65.199.22.0/23,Apple,no-resolve
+  - IP-CIDR6,2403:300::/32,Apple,no-resolve
+  - IP-CIDR6,2620:149::/32,Apple,no-resolve
+  - IP-CIDR6,2a01:b740::/32,Apple,no-resolve
   - USER-AGENT,*FindMyiPhone?,Apple
   - USER-AGENT,*Music?,Apple
   - USER-AGENT,*WeatherFoundation*,Apple
@@ -2194,6 +2282,7 @@ rules:
   - IP-CIDR,173.194.0.0/16,Google,no-resolve
   - IP-CIDR,216.73.80.0/20,Google,no-resolve
   - IP-CIDR,74.125.0.0/16,Google,no-resolve
+  - IP-CIDR6,2620:120:e000::/40,Google,no-resolve
   - USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,Google
   - USER-AGENT,*com.google.Drive*,Google
   - USER-AGENT,Google.Drive*,Google
@@ -2320,6 +2409,7 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,境外网站,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,境外网站,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,境外网站,no-resolve
+  - IP-CIDR6,2402:2a80::/32,境外网站,no-resolve
   - USER-AGENT,InstantVideo.US*,境外网站
   - USER-AGENT,Prime%20Video*,境外网站
   - RULE-SET,GlobalSites,境外网站
@@ -3088,6 +3178,9 @@ rules:
   - IP-CIDR,77.162.125.199/32,Ads,no-resolve
   - IP-CIDR,78.140.131.214/32,Ads,no-resolve
   - IP-CIDR,88.42.84.136/32,Ads,no-resolve
+  - IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,Ads,no-resolve
+  - IP-CIDR6,2402:db40:5100:1011::5/128,Ads,no-resolve
+  - IP-CIDR6,240e:928:1400:10::25/128,Ads,no-resolve
   - RULE-SET,Ads,Ads
   - GEOIP,CN,国内应用,no-resolve
   - MATCH,漏网之鱼

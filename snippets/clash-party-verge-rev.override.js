@@ -35,6 +35,10 @@ function main(config, profileName) {
   ];
   const RULE_BINDINGS = [
     [
+      "Gemini",
+      "🧠 Gemini"
+    ],
+    [
       "AI",
       "🤖 AI"
     ],
@@ -88,6 +92,21 @@ function main(config, profileName) {
     ]
   ];
   const POLICY_GROUPS = [
+    [
+      "🧠 Gemini",
+      [
+        "🚀 节点选择",
+        "⚡️ 自动选择",
+        "🛟 故障转移",
+        "🌍 全部节点",
+        "🇭🇰 香港",
+        "🇯🇵 日本",
+        "🇺🇸 美国",
+        "🇸🇬 新加坡",
+        "🇹🇼 台湾",
+        "DIRECT"
+      ]
+    ],
     [
       "🤖 AI",
       [

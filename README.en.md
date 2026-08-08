@@ -127,7 +127,8 @@ Public remote rule IDs are English and stable. Policy group display names stay i
 - `Domestic` -> `国内应用`: all mainland China apps, domestic AI, domestic payment/finance, and domestic direct fallbacks.
 - `NetworkTest` -> `网络检测`: connectivity, public IP, DNS leak, and browser fingerprint checks.
 - `SpeedTest`: network throughput and speed test endpoints.
-- `AI`: overseas AI only.
+- `Gemini`: a standalone Google Gemini, AI Studio, and NotebookLM ruleset. The same rules remain included in the complete `AI` aggregate.
+- `AI`: overseas AI only, including the Gemini rules retained as part of the complete AI aggregate.
 - `Apple`, `Microsoft`, `Google`, and `GitHub`: standalone brand buckets.
 - `Dev`: developer ecosystems other than the standalone GitHub bucket.
 - `Payment`: overseas payment and financial services only.

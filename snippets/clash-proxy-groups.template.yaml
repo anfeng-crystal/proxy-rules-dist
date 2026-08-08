@@ -207,9 +207,12 @@ proxy-groups:
   - name: "SpeedTest"
     type: select
     proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Gemini"
+    type: select
+    proxies: ["香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点", "韩国节点", "全部节点"]
   - name: "AI"
     type: select
-    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+    proxies: ["香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点", "韩国节点", "全部节点"]
   - name: "Apple"
     type: select
     proxies: ["DIRECT", "香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点"]

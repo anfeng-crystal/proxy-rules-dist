@@ -64,6 +64,7 @@ payload:
   - DOMAIN-KEYWORD,generativelanguage
   - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,ai.google.dev
   - DOMAIN-SUFFIX,ai.studio
   - DOMAIN-SUFFIX,aicode.googleapis.com
   - DOMAIN-SUFFIX,aida.googleapis.com
@@ -73,6 +74,7 @@ payload:
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,antigravity-unleash.goog
   - DOMAIN-SUFFIX,antigravity.google
+  - DOMAIN-SUFFIX,antigravity.google.com
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-SUFFIX,auth.openai.com

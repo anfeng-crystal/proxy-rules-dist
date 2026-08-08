@@ -271,9 +271,12 @@ proxy-groups:
   - name: "SpeedTest"
     type: select
     proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+  - name: "Gemini"
+    type: select
+    proxies: ["香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点", "韩国节点", "全部节点"]
   - name: "AI"
     type: select
-    proxies: ["香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点", "DIRECT"]
+    proxies: ["香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点", "韩国节点", "全部节点"]
   - name: "Apple"
     type: select
     proxies: ["DIRECT", "香港", "台湾", "日本", "新加坡", "美国", "韩国", "其他地区", "自动选择", "全部节点"]
@@ -441,6 +444,12 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/SpeedTest/SpeedTest.yaml
     path: ./ruleset/SpeedTest.yaml
     interval: 86400
+  Gemini:
+    type: http
+    behavior: classical
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Gemini/Gemini.yaml
+    path: ./ruleset/Gemini.yaml
+    interval: 86400
   AI:
     type: http
     behavior: classical
@@ -593,6 +602,7 @@ rules:
   - RULE-SET,Domestic,国内应用
   - RULE-SET,NetworkTest,网络检测
   - RULE-SET,SpeedTest,SpeedTest
+  - RULE-SET,Gemini,Gemini
   - RULE-SET,AI,AI
   - RULE-SET,Dev,Dev
   - RULE-SET,Payment,Payment

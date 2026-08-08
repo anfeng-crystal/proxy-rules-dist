@@ -64,6 +64,7 @@ HOST-KEYWORD,developerprofiles,AI
 HOST-KEYWORD,generativelanguage,AI
 HOST-KEYWORD,openai,AI
 HOST-SUFFIX,ai.com,AI
+HOST-SUFFIX,ai.google.dev,AI
 HOST-SUFFIX,ai.studio,AI
 HOST-SUFFIX,aicode.googleapis.com,AI
 HOST-SUFFIX,aida.googleapis.com,AI
@@ -73,6 +74,7 @@ HOST-SUFFIX,algolia.net,AI
 HOST-SUFFIX,anthropic.com,AI
 HOST-SUFFIX,antigravity-unleash.goog,AI
 HOST-SUFFIX,antigravity.google,AI
+HOST-SUFFIX,antigravity.google.com,AI
 HOST-SUFFIX,api.statsig.com,AI
 HOST-SUFFIX,apis.google.com,AI
 HOST-SUFFIX,auth.openai.com,AI

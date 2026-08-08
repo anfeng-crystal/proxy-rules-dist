@@ -88,8 +88,8 @@
       "name": "TencentVideo",
       "policy": "TencentVideo",
       "description": "Tencent Video and video CDN endpoints.",
-      "rules": 22,
-      "source_count": 22,
+      "rules": 51,
+      "source_count": 51,
       "manual_count": 0,
       "includes": [
         {
@@ -99,7 +99,7 @@
       ],
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/TencentVideo/TencentVideo.mrs",
       "mihomo_mrs_rules": 19,
-      "mihomo_mrs_omitted": 3,
+      "mihomo_mrs_omitted": 32,
       "mihomo_mrs_bytes": 368
     },
     {
@@ -198,8 +198,8 @@
       "name": "Zhihu",
       "policy": "Zhihu",
       "description": "Zhihu app, web, API, static, content, and video endpoints.",
-      "rules": 8,
-      "source_count": 6,
+      "rules": 9,
+      "source_count": 7,
       "manual_count": 2,
       "includes": [
         {
@@ -213,7 +213,7 @@
       ],
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Zhihu/Zhihu.mrs",
       "mihomo_mrs_rules": 4,
-      "mihomo_mrs_omitted": 4,
+      "mihomo_mrs_omitted": 5,
       "mihomo_mrs_bytes": 94
     },
     {
@@ -262,8 +262,8 @@
       "name": "Alibaba",
       "policy": "Alibaba",
       "description": "Alibaba, Taobao, Tmall, Alipay, Aliyun, and Alibaba CDN endpoints.",
-      "rules": 1319,
-      "source_count": 1319,
+      "rules": 1320,
+      "source_count": 1320,
       "manual_count": 0,
       "includes": [
         {
@@ -297,7 +297,7 @@
       "local_fallback": "alibaba.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Alibaba/Alibaba.mrs",
       "mihomo_mrs_rules": 1266,
-      "mihomo_mrs_omitted": 53,
+      "mihomo_mrs_omitted": 54,
       "mihomo_mrs_bytes": 7649
     },
     {
@@ -412,8 +412,8 @@
       "name": "Domestic",
       "policy": "国内应用",
       "description": "Merged mainland China applications, domestic AI, domestic payment, finance, media, cloud, and direct fallbacks.",
-      "rules": 112851,
-      "source_count": 112756,
+      "rules": 112882,
+      "source_count": 112787,
       "manual_count": 95,
       "includes": [
         {
@@ -648,7 +648,7 @@
       "local_fallback": "domestic-all.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs",
       "mihomo_mrs_rules": 112696,
-      "mihomo_mrs_omitted": 155,
+      "mihomo_mrs_omitted": 186,
       "mihomo_mrs_bytes": 549696
     },
     {
@@ -702,12 +702,38 @@
       "mihomo_mrs_bytes": 36285
     },
     {
+      "name": "Gemini",
+      "policy": "Gemini",
+      "description": "Google Gemini, AI Studio, and NotebookLM endpoints.",
+      "rules": 48,
+      "source_count": 46,
+      "manual_count": 2,
+      "includes": [
+        {
+          "name": "GoogleGemini",
+          "description": "Google Gemini, AI Studio, and NotebookLM endpoints."
+        }
+      ],
+      "icon_id": "gemini",
+      "icon_url": "https://anfeng-crystal.github.io/proxy-rules-dist/icons/gemini.svg",
+      "remote_icon_url": "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gemini.svg",
+      "source_kind": "lobe-icons",
+      "source_url": "https://github.com/lobehub/lobe-icons",
+      "license": "MIT",
+      "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
+      "local_fallback": "gemini.svg",
+      "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Gemini/Gemini.mrs",
+      "mihomo_mrs_rules": 45,
+      "mihomo_mrs_omitted": 3,
+      "mihomo_mrs_bytes": 536
+    },
+    {
       "name": "AI",
       "policy": "AI",
       "description": "Overseas AI services only.",
-      "rules": 158,
+      "rules": 160,
       "source_count": 100,
-      "manual_count": 58,
+      "manual_count": 60,
       "includes": [
         {
           "name": "OpenAI",
@@ -780,9 +806,9 @@
       "license": "unknown",
       "local_fallback": "global-ai.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/AI/AI.mrs",
-      "mihomo_mrs_rules": 152,
+      "mihomo_mrs_rules": 154,
       "mihomo_mrs_omitted": 6,
-      "mihomo_mrs_bytes": 1521
+      "mihomo_mrs_bytes": 1534
     },
     {
       "name": "Dev",
@@ -945,8 +971,8 @@
       "name": "Telegram",
       "policy": "Telegram",
       "description": "Telegram app and web endpoints.",
-      "rules": 31,
-      "source_count": 31,
+      "rules": 35,
+      "source_count": 35,
       "manual_count": 0,
       "includes": [
         {
@@ -964,15 +990,15 @@
       "local_fallback": "telegram.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Telegram/Telegram.mrs",
       "mihomo_mrs_rules": 24,
-      "mihomo_mrs_omitted": 7,
+      "mihomo_mrs_omitted": 11,
       "mihomo_mrs_bytes": 310
     },
     {
       "name": "YouTube",
       "policy": "YouTube",
       "description": "YouTube web, video, and static endpoints.",
-      "rules": 192,
-      "source_count": 192,
+      "rules": 193,
+      "source_count": 193,
       "manual_count": 0,
       "includes": [
         {
@@ -990,15 +1016,15 @@
       "local_fallback": "youtube.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/YouTube/YouTube.mrs",
       "mihomo_mrs_rules": 182,
-      "mihomo_mrs_omitted": 10,
+      "mihomo_mrs_omitted": 11,
       "mihomo_mrs_bytes": 1364
     },
     {
       "name": "Netflix",
       "policy": "Netflix",
       "description": "Netflix app, web, and video CDN endpoints.",
-      "rules": 1152,
-      "source_count": 1152,
+      "rules": 1156,
+      "source_count": 1156,
       "manual_count": 0,
       "includes": [
         {
@@ -1016,7 +1042,7 @@
       "local_fallback": "netflix.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Netflix/Netflix.mrs",
       "mihomo_mrs_rules": 32,
-      "mihomo_mrs_omitted": 1120,
+      "mihomo_mrs_omitted": 1124,
       "mihomo_mrs_bytes": 398
     },
     {
@@ -1176,8 +1202,8 @@
       "name": "Apple",
       "policy": "Apple",
       "description": "Apple services, media, push, CDN, and software update endpoints.",
-      "rules": 1873,
-      "source_count": 1863,
+      "rules": 1876,
+      "source_count": 1866,
       "manual_count": 10,
       "includes": [
         {
@@ -1207,7 +1233,7 @@
       "local_fallback": "apple.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Apple/Apple.mrs",
       "mihomo_mrs_rules": 1833,
-      "mihomo_mrs_omitted": 40,
+      "mihomo_mrs_omitted": 43,
       "mihomo_mrs_bytes": 18117
     },
     {
@@ -1244,8 +1270,8 @@
       "name": "Google",
       "policy": "Google",
       "description": "Google services, APIs, and static assets.",
-      "rules": 710,
-      "source_count": 710,
+      "rules": 711,
+      "source_count": 711,
       "manual_count": 0,
       "includes": [
         {
@@ -1263,7 +1289,7 @@
       "local_fallback": "google.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Google/Google.mrs",
       "mihomo_mrs_rules": 698,
-      "mihomo_mrs_omitted": 12,
+      "mihomo_mrs_omitted": 13,
       "mihomo_mrs_bytes": 6196
     },
     {
@@ -1296,8 +1322,8 @@
       "name": "GlobalSites",
       "policy": "境外网站",
       "description": "Long-tail overseas websites and services not covered by standalone brand buckets.",
-      "rules": 7071,
-      "source_count": 7046,
+      "rules": 7072,
+      "source_count": 7047,
       "manual_count": 25,
       "includes": [
         {
@@ -1360,15 +1386,15 @@
       "local_fallback": "global.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/GlobalSites/GlobalSites.mrs",
       "mihomo_mrs_rules": 6949,
-      "mihomo_mrs_omitted": 122,
+      "mihomo_mrs_omitted": 123,
       "mihomo_mrs_bytes": 52043
     },
     {
       "name": "Ads",
       "policy": "Ads",
       "description": "Advertising, privacy, and hijacking reject bundle.",
-      "rules": 264941,
-      "source_count": 264932,
+      "rules": 264944,
+      "source_count": 264935,
       "manual_count": 9,
       "includes": [
         {
@@ -1391,7 +1417,7 @@
       "local_fallback": "reject.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs",
       "mihomo_mrs_rules": 264176,
-      "mihomo_mrs_omitted": 765,
+      "mihomo_mrs_omitted": 768,
       "mihomo_mrs_bytes": 2296563
     }
   ],
@@ -1652,7 +1678,7 @@
       },
       {
         "name": "TencentVideo",
-        "rules": 22
+        "rules": 51
       },
       {
         "name": "iQIYI",
@@ -1672,7 +1698,7 @@
       },
       {
         "name": "Zhihu",
-        "rules": 8
+        "rules": 9
       },
       {
         "name": "Baidu",
@@ -1680,7 +1706,7 @@
       },
       {
         "name": "Alibaba",
-        "rules": 1319
+        "rules": 1320
       },
       {
         "name": "Tencent",
@@ -1700,7 +1726,7 @@
       },
       {
         "name": "Domestic",
-        "rules": 112851
+        "rules": 112882
       },
       {
         "name": "NetworkTest",
@@ -1712,11 +1738,11 @@
       },
       {
         "name": "AI",
-        "rules": 158
+        "rules": 160
       },
       {
         "name": "Apple",
-        "rules": 1873
+        "rules": 1876
       },
       {
         "name": "Microsoft",
@@ -1724,7 +1750,7 @@
       },
       {
         "name": "Google",
-        "rules": 710
+        "rules": 711
       },
       {
         "name": "Dev",
@@ -1748,11 +1774,11 @@
       },
       {
         "name": "GlobalSites",
-        "rules": 7071
+        "rules": 7072
       },
       {
         "name": "Ads",
-        "rules": 264941
+        "rules": 264944
       }
     ],
     "protected_reject_removals": [],
@@ -1760,7 +1786,7 @@
       "Netflix:domain_suffix:fast.com"
     ],
     "cross_category_conflicts": {
-      "categories_scanned": 37,
+      "categories_scanned": 38,
       "duplicate_keys": 1,
       "duplicate_category_memberships": 2,
       "examples": [
@@ -1796,7 +1822,7 @@
       },
       "TencentVideo": {
         "rules": 19,
-        "omitted": 3,
+        "omitted": 32,
         "path": "mihomo-mrs/TencentVideo/TencentVideo.mrs",
         "bytes": 368
       },
@@ -1826,7 +1852,7 @@
       },
       "Zhihu": {
         "rules": 4,
-        "omitted": 4,
+        "omitted": 5,
         "path": "mihomo-mrs/Zhihu/Zhihu.mrs",
         "bytes": 94
       },
@@ -1838,7 +1864,7 @@
       },
       "Alibaba": {
         "rules": 1266,
-        "omitted": 53,
+        "omitted": 54,
         "path": "mihomo-mrs/Alibaba/Alibaba.mrs",
         "bytes": 7649
       },
@@ -1868,7 +1894,7 @@
       },
       "Domestic": {
         "rules": 112696,
-        "omitted": 155,
+        "omitted": 186,
         "path": "mihomo-mrs/Domestic/Domestic.mrs",
         "bytes": 549696
       },
@@ -1884,11 +1910,17 @@
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
         "bytes": 36285
       },
+      "Gemini": {
+        "rules": 45,
+        "omitted": 3,
+        "path": "mihomo-mrs/Gemini/Gemini.mrs",
+        "bytes": 536
+      },
       "AI": {
-        "rules": 152,
+        "rules": 154,
         "omitted": 6,
         "path": "mihomo-mrs/AI/AI.mrs",
-        "bytes": 1521
+        "bytes": 1534
       },
       "Dev": {
         "rules": 55,
@@ -1910,19 +1942,19 @@
       },
       "Telegram": {
         "rules": 24,
-        "omitted": 7,
+        "omitted": 11,
         "path": "mihomo-mrs/Telegram/Telegram.mrs",
         "bytes": 310
       },
       "YouTube": {
         "rules": 182,
-        "omitted": 10,
+        "omitted": 11,
         "path": "mihomo-mrs/YouTube/YouTube.mrs",
         "bytes": 1364
       },
       "Netflix": {
         "rules": 32,
-        "omitted": 1120,
+        "omitted": 1124,
         "path": "mihomo-mrs/Netflix/Netflix.mrs",
         "bytes": 398
       },
@@ -1964,7 +1996,7 @@
       },
       "Apple": {
         "rules": 1833,
-        "omitted": 40,
+        "omitted": 43,
         "path": "mihomo-mrs/Apple/Apple.mrs",
         "bytes": 18117
       },
@@ -1976,7 +2008,7 @@
       },
       "Google": {
         "rules": 698,
-        "omitted": 12,
+        "omitted": 13,
         "path": "mihomo-mrs/Google/Google.mrs",
         "bytes": 6196
       },
@@ -1988,13 +2020,13 @@
       },
       "GlobalSites": {
         "rules": 6949,
-        "omitted": 122,
+        "omitted": 123,
         "path": "mihomo-mrs/GlobalSites/GlobalSites.mrs",
         "bytes": 52043
       },
       "Ads": {
         "rules": 264176,
-        "omitted": 765,
+        "omitted": 768,
         "path": "mihomo-mrs/Ads/Ads.mrs",
         "bytes": 2296563
       }

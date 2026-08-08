@@ -125,6 +125,13 @@ rule-providers:
     url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs
     path: ./ruleset/SpeedTest.mrs
     interval: 86400
+  Gemini:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Gemini/Gemini.mrs
+    path: ./ruleset/Gemini.mrs
+    interval: 86400
   AI:
     type: http
     behavior: domain

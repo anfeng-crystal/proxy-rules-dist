@@ -35,6 +35,7 @@ rules:
   - RULE-SET,Domestic,国内应用
   - RULE-SET,NetworkTest,网络检测
   - RULE-SET,SpeedTest,SpeedTest
+  - RULE-SET,Gemini,Gemini
   - RULE-SET,AI,AI
   - RULE-SET,Dev,Dev
   - RULE-SET,Payment,Payment

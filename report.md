@@ -2,10 +2,10 @@
 
 ## 规则数量 / Counts
 
-- AI: 158
-- Ads: 264941
-- Alibaba: 1319
-- Apple: 1873
+- AI: 160
+- Ads: 264944
+- Alibaba: 1320
+- Apple: 1876
 - Baidu: 259
 - Bilibili: 127
 - Dev: 55
@@ -14,35 +14,36 @@
 - Facebook: 569
 - Game: 34
 - GitHub: 38
-- Google: 710
+- Google: 711
+- Gemini: 48
 - Instagram: 4
 - JD: 249
 - Meituan: 8
 - Microsoft: 713
 - NetEaseMusic: 30
-- Netflix: 1152
+- Netflix: 1156
 - Payment: 252
 - Pinduoduo: 4
 - SpeedTest: 3315
 - Spotify: 30
-- Telegram: 31
+- Telegram: 35
 - Tencent: 2524
-- TencentVideo: 22
+- TencentVideo: 51
 - TikTok: 32
 - Twitter: 33
 - WeChat: 44
 - Weibo: 6
-- YouTube: 192
+- YouTube: 193
 - Youku: 37
-- Zhihu: 8
+- Zhihu: 9
 - iQIYI: 62
-- Domestic: 112851
-- GlobalSites: 7071
+- Domestic: 112882
+- GlobalSites: 7072
 - NetworkTest: 16
 
 ## 跨分类重复 / Cross-Category Conflicts
 
-- categories scanned: 37
+- categories scanned: 38
 - duplicate keys: 1
 - duplicate category memberships: 2
 - examples:
@@ -129,42 +130,43 @@
 
 ## Mihomo MRS / Mihomo MRS
 
-- AI: 152 domain rules, 6 classical-only rules omitted, 1521 bytes
-- Ads: 264176 domain rules, 765 classical-only rules omitted, 2296563 bytes
-- Alibaba: 1266 domain rules, 53 classical-only rules omitted, 7649 bytes
-- Apple: 1833 domain rules, 40 classical-only rules omitted, 18117 bytes
+- AI: 154 domain rules, 6 classical-only rules omitted, 1534 bytes
+- Ads: 264176 domain rules, 768 classical-only rules omitted, 2296563 bytes
+- Alibaba: 1266 domain rules, 54 classical-only rules omitted, 7649 bytes
+- Apple: 1833 domain rules, 43 classical-only rules omitted, 18117 bytes
 - Baidu: 259 domain rules, 0 classical-only rules omitted, 2147 bytes
 - Bilibili: 115 domain rules, 12 classical-only rules omitted, 1477 bytes
 - Dev: 55 domain rules, 0 classical-only rules omitted, 599 bytes
 - DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
-- Domestic: 112696 domain rules, 155 classical-only rules omitted, 549696 bytes
+- Domestic: 112696 domain rules, 186 classical-only rules omitted, 549696 bytes
 - Douyin: 15 domain rules, 0 classical-only rules omitted, 217 bytes
 - Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
 - Game: 34 domain rules, 0 classical-only rules omitted, 439 bytes
+- Gemini: 45 domain rules, 3 classical-only rules omitted, 536 bytes
 - GitHub: 37 domain rules, 1 classical-only rules omitted, 514 bytes
-- GlobalSites: 6949 domain rules, 122 classical-only rules omitted, 52043 bytes
-- Google: 698 domain rules, 12 classical-only rules omitted, 6196 bytes
+- GlobalSites: 6949 domain rules, 123 classical-only rules omitted, 52043 bytes
+- Google: 698 domain rules, 13 classical-only rules omitted, 6196 bytes
 - Instagram: 3 domain rules, 1 classical-only rules omitted, 81 bytes
 - JD: 249 domain rules, 0 classical-only rules omitted, 2144 bytes
 - Meituan: 8 domain rules, 0 classical-only rules omitted, 137 bytes
 - Microsoft: 706 domain rules, 7 classical-only rules omitted, 7198 bytes
 - NetEaseMusic: 10 domain rules, 20 classical-only rules omitted, 199 bytes
-- Netflix: 32 domain rules, 1120 classical-only rules omitted, 398 bytes
+- Netflix: 32 domain rules, 1124 classical-only rules omitted, 398 bytes
 - NetworkTest: 16 domain rules, 0 classical-only rules omitted, 271 bytes
 - Payment: 250 domain rules, 2 classical-only rules omitted, 2706 bytes
 - Pinduoduo: 4 domain rules, 0 classical-only rules omitted, 94 bytes
 - SpeedTest: 3313 domain rules, 2 classical-only rules omitted, 36285 bytes
 - Spotify: 26 domain rules, 4 classical-only rules omitted, 400 bytes
-- Telegram: 24 domain rules, 7 classical-only rules omitted, 310 bytes
+- Telegram: 24 domain rules, 11 classical-only rules omitted, 310 bytes
 - Tencent: 2499 domain rules, 25 classical-only rules omitted, 18001 bytes
-- TencentVideo: 19 domain rules, 3 classical-only rules omitted, 368 bytes
+- TencentVideo: 19 domain rules, 32 classical-only rules omitted, 368 bytes
 - TikTok: 29 domain rules, 3 classical-only rules omitted, 403 bytes
 - Twitter: 26 domain rules, 7 classical-only rules omitted, 324 bytes
 - WeChat: 42 domain rules, 2 classical-only rules omitted, 418 bytes
 - Weibo: 5 domain rules, 1 classical-only rules omitted, 107 bytes
-- YouTube: 182 domain rules, 10 classical-only rules omitted, 1364 bytes
+- YouTube: 182 domain rules, 11 classical-only rules omitted, 1364 bytes
 - Youku: 34 domain rules, 3 classical-only rules omitted, 400 bytes
-- Zhihu: 4 domain rules, 4 classical-only rules omitted, 94 bytes
+- Zhihu: 4 domain rules, 5 classical-only rules omitted, 94 bytes
 - iQIYI: 34 domain rules, 28 classical-only rules omitted, 361 bytes
 
 ## 已从 Ads 规则移除的保护域名 / Protected Ads Removals

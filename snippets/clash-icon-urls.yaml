@@ -76,6 +76,13 @@ icon_urls:
     source_url: https://github.com/simple-icons/simple-icons
     license: CC0-1.0
     license_url: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
+  GoogleGemini:
+    local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/gemini.svg
+    remote: https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gemini.svg
+    source_kind: lobe-icons
+    source_url: https://github.com/lobehub/lobe-icons
+    license: MIT
+    license_url: https://github.com/lobehub/lobe-icons/blob/main/LICENSE
   Instagram:
     local: https://anfeng-crystal.github.io/proxy-rules-dist/icons/instagram.svg
     remote: https://cdn.simpleicons.org/instagram
