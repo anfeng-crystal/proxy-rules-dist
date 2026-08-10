@@ -378,6 +378,7 @@ HOST,npl01-speedtest01.bluestreamfiber.net,SpeedTest
 HOST,ns1.anlnetwork.in,SpeedTest
 HOST,ns1.fab5network.com,SpeedTest
 HOST,ns1.fybrg.in,SpeedTest
+HOST,ns1.netfmb.in,SpeedTest
 HOST,ns10.fab5network.com,SpeedTest
 HOST,ns2.peer.net.in,SpeedTest
 HOST,nt-speed.kbro.com.tw,SpeedTest
@@ -1035,6 +1036,7 @@ HOST,speedtest-fyvl.areon.net,SpeedTest
 HOST,speedtest-ga2.truvista.net,SpeedTest
 HOST,speedtest-gdrp.merit.edu,SpeedTest
 HOST,speedtest-geelong.optusnet.com.au,SpeedTest
+HOST,speedtest-germany.veribarindir.com.tr,SpeedTest
 HOST,speedtest-goldcoast.optusnet.com.au,SpeedTest
 HOST,speedtest-gwn24.tele-ag.de,SpeedTest
 HOST,speedtest-hk.tgb-host.com,SpeedTest
@@ -1266,6 +1268,7 @@ HOST,speedtest.7stardigitalnetwork.com,SpeedTest
 HOST,speedtest.832communications.com,SpeedTest
 HOST,speedtest.a4telecom.com.br,SpeedTest
 HOST,speedtest.aabroadband.in,SpeedTest
+HOST,speedtest.aattizen.net,SpeedTest
 HOST,speedtest.absenterprises.co.in,SpeedTest
 HOST,speedtest.absolutevalidation.com,SpeedTest
 HOST,speedtest.accessoninternet.com,SpeedTest
