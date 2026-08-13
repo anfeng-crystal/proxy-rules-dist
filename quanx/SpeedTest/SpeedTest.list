@@ -50,6 +50,7 @@ HOST,balikesirspeedtest.fixnet.com.tr,SpeedTest
 HOST,bass.fc-net.fr,SpeedTest
 HOST,bassoon-sg-1.violin.co.th,SpeedTest
 HOST,beijing.unicomtest.com,SpeedTest
+HOST,ber-tc.wsqm.telekom-dienste.de,SpeedTest
 HOST,ber.wsqm.telekom-dienste.de,SpeedTest
 HOST,beruritelecom.brsserver.com.br,SpeedTest
 HOST,blar-speed-01.gpcom.com,SpeedTest
@@ -2239,6 +2240,7 @@ HOST,speedtest.us.mirhosting.net,SpeedTest
 HOST,speedtest.us.novoserve.com,SpeedTest
 HOST,speedtest.us.openinfra.com,SpeedTest
 HOST,speedtest.us310.lax.us.ctcsci.com,SpeedTest
+HOST,speedtest.usc-dfw1.pllx.net,SpeedTest
 HOST,speedtest.uv.es,SpeedTest
 HOST,speedtest.uvfiber.com,SpeedTest
 HOST,speedtest.uzmansoft.net,SpeedTest
@@ -2873,6 +2875,7 @@ HOST,sthalifaxwireless.rogers.com,SpeedTest
 HOST,sthamilton.netcrawler.ca,SpeedTest
 HOST,sthamilton.rogers.com,SpeedTest
 HOST,sthamiltonwireless.rogers.com,SpeedTest
+HOST,stintl.ospot.in,SpeedTest
 HOST,stkanata.netcrawler.ca,SpeedTest
 HOST,stkanata.rogers.com,SpeedTest
 HOST,stkanatawireless.rogers.com,SpeedTest
@@ -3160,6 +3163,7 @@ HOST,velocidade.rdctelecomce.com.br,SpeedTest
 HOST,velocidade.rltelecom.net.br,SpeedTest
 HOST,velocidade.sejalivretelecom.com.br,SpeedTest
 HOST,velocidade.softtelecom.net.br,SpeedTest
+HOST,velocidade.tecsattelecom.com.br,SpeedTest
 HOST,velocidade.tecsattelecom.net.br,SpeedTest
 HOST,velocidade.tntelecomfortaleza.com.br,SpeedTest
 HOST,velocidade.webzoomtelecom.com.br,SpeedTest
