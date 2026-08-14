@@ -602,6 +602,7 @@ HOST,serv.qwistel.in,SpeedTest
 HOST,servidor.speedplay.com.br,SpeedTest
 HOST,seveninternet.brsserver.com.br,SpeedTest
 HOST,sfosj0096speedtestserver01.wiline.com,SpeedTest
+HOST,sfosj0096speedtestserver02.wiline.com,SpeedTest
 HOST,sg-bgp-speedtest.nearoute.io,SpeedTest
 HOST,sg-speedtest.fast.net.id,SpeedTest
 HOST,sg.cloudhost.asia,SpeedTest
@@ -1495,6 +1496,7 @@ HOST,speedtest.dg-sys.net,SpeedTest
 HOST,speedtest.dgn.net.tr,SpeedTest
 HOST,speedtest.didimnet.com.tr,SpeedTest
 HOST,speedtest.differnet.es,SpeedTest
+HOST,speedtest.difusi.id,SpeedTest
 HOST,speedtest.digitalconnections.net,SpeedTest
 HOST,speedtest.dimdams.com,SpeedTest
 HOST,speedtest.dl.gtel.in,SpeedTest
@@ -2204,6 +2206,7 @@ HOST,speedtest.trunet.co.in,SpeedTest
 HOST,speedtest.tstt.net.tt,SpeedTest
 HOST,speedtest.tularosa.net,SpeedTest
 HOST,speedtest.tulix.com,SpeedTest
+HOST,speedtest.turbo.net.tr,SpeedTest
 HOST,speedtest.turnkeyinternet.net,SpeedTest
 HOST,speedtest.tushino.com,SpeedTest
 HOST,speedtest.tvtcable.com,SpeedTest
@@ -2289,6 +2292,7 @@ HOST,speedtest.westcall.ru,SpeedTest
 HOST,speedtest.westianet.com,SpeedTest
 HOST,speedtest.westpa.net,SpeedTest
 HOST,speedtest.whiteprovider.net,SpeedTest
+HOST,speedtest.whizcomms.com.sg,SpeedTest
 HOST,speedtest.wifi-communication.com,SpeedTest
 HOST,speedtest.wifi.net.tr,SpeedTest
 HOST,speedtest.wifi4all.it,SpeedTest
