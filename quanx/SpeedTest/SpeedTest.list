@@ -914,6 +914,7 @@ HOST,speed10.aitspl.in,SpeedTest
 HOST,speed10.gonetspeed.com,SpeedTest
 HOST,speed11.gonetspeed.com,SpeedTest
 HOST,speed12.gonetspeed.com,SpeedTest
+HOST,speed13.gonetspeed.com,SpeedTest
 HOST,speed2.dg-sys.net,SpeedTest
 HOST,speed2.fiberlink.pl,SpeedTest
 HOST,speed2.netlixor.de,SpeedTest
@@ -1519,6 +1520,7 @@ HOST,speedtest.e-net.net.in,SpeedTest
 HOST,speedtest.ebox.ca,SpeedTest
 HOST,speedtest.ecfaccess.net,SpeedTest
 HOST,speedtest.echonet.co.in,SpeedTest
+HOST,speedtest.ecmnet.com.br,SpeedTest
 HOST,speedtest.ed.shawcable.net,SpeedTest
 HOST,speedtest.ediscom.net,SpeedTest
 HOST,speedtest.edv-kossmann.de,SpeedTest
