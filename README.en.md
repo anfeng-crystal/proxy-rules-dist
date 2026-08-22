@@ -49,6 +49,9 @@ Common client entry points:
 - QuanX mainstream remote rules: `snippets/quanx-mainstream-filter-remote.conf`
 - Loon policy template: `snippets/loon-policy-groups.full.conf`
 - Loon mainstream remote rules: `snippets/loon-mainstream-remote-rule.conf`
+- Gemini for Loon: `loon/Gemini/Gemini.list` or `loon/Gemini/Gemini.lsr`
+- Gemini for Mihomo: `mihomo/Gemini/Gemini.yaml`
+- Gemini for Mihomo MRS: `mihomo-mrs/Gemini/Gemini.mrs`
 - Clash Party / Clash Verge Rev template: `snippets/mihomo-clash-party-verge-rev.template.yaml`
 - Clash Party / Clash Verge Rev JavaScript override: `clash-party-verge-rev.override.js` or `snippets/clash-party-verge-rev.override.js`
 - Mihomo MRS rule providers: `snippets/mihomo-mrs-rule-providers.yaml`

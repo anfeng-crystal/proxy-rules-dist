@@ -52,6 +52,9 @@
 - Loon 远程规则：`snippets/loon-remote-rule.conf`
 - QuanX 主流远程规则：`snippets/quanx-mainstream-filter-remote.conf`
 - Loon 主流远程规则：`snippets/loon-mainstream-remote-rule.conf`
+- Gemini Loon：`loon/Gemini/Gemini.list` 或 `loon/Gemini/Gemini.lsr`
+- Gemini Mihomo：`mihomo/Gemini/Gemini.yaml`
+- Gemini Mihomo MRS：`mihomo-mrs/Gemini/Gemini.mrs`
 - Clash Providers：`snippets/clash-rule-providers.yaml`
 - Clash Rules：`snippets/clash-rules.yaml`
 - Clash Party / Clash Verge Rev JS 覆写：`clash-party-verge-rev.override.js` 或 `snippets/clash-party-verge-rev.override.js`
