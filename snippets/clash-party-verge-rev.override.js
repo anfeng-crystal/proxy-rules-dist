@@ -1,5 +1,5 @@
 // RuleForge Clash Party / Clash Verge Rev JavaScript override.
-// Keep subscriptions, nodes, DNS, and private local rules in the client.
+// Keep subscriptions, nodes, and DNS in the client; rebuild groups, providers, and rules.
 
 function main(config, profileName) {
   const RULE_BASE = "https://anfeng-crystal.github.io/proxy-rules-dist/clash";
@@ -10,7 +10,11 @@ function main(config, profileName) {
   const TEST_INTERVAL = 600;
   const TEST_TOLERANCE = 50;
   const COMMON_EXCLUDE =
-    "(?i)(到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|traffic|expire|expired|reset|remain|used|total|test|测试|试用|trial|direct|reject|广告|ads)";
+    "(?i)(到期|剩余|流量|套餐|官网|网址|订阅|群组|客服|工单|更新|刷新|traffic|expire|expired|reset|remain|used|total|test|测试|试用|trial|direct|reject|广告|ads|^\\s*\\d+(\\.\\d+)?\\s*[kmgtpe](i?b)?\\s*(\\||/)\\s*\\d+(\\.\\d+)?\\s*[kmgtpe](i?b)?\\s*$)";
+  const MICROSOFT_LOGIN_PROXY_RULES = [
+    "DOMAIN,login.live.com,🚀 节点选择",
+    "DOMAIN,logincdn.msauth.net,🚀 节点选择"
+  ];
   const REGION_CONFIGS = [
     [
       "🇭🇰 香港",
@@ -22,7 +26,7 @@ function main(config, profileName) {
     ],
     [
       "🇺🇸 美国",
-      "(?i)(美国|美國|usa|united ?states|america|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc|san ?jose|los ?angeles|new ?york|🇺🇸)"
+      "(?i)(美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))"
     ],
     [
       "🇸🇬 新加坡",
@@ -307,15 +311,25 @@ function main(config, profileName) {
     return { name, type: "select", proxies: unique(proxies) };
   }
 
-  function nodePoolGroup(name, filter) {
+  function allNodesGroup() {
     const group = {
-      name,
+      name: "🌍 全部节点",
       type: "select",
       "include-all": true,
       "exclude-filter": COMMON_EXCLUDE
     };
-    if (filter) group.filter = filter;
     return group;
+  }
+
+  function regionSelectGroup(name, filter) {
+    return {
+      name,
+      type: "select",
+      proxies: [`${name}自动`, `${name}故障转移`],
+      "include-all": true,
+      filter,
+      "exclude-filter": COMMON_EXCLUDE
+    };
   }
 
   function autoTestGroup(name, filter) {
@@ -347,36 +361,21 @@ function main(config, profileName) {
     return group;
   }
 
-  function buildRegionCollections() {
-    const entryGroups = [];
-    const autoGroups = [];
-    const fallbackGroups = [];
-    const nodeGroups = [];
-    for (const [regionName, filter] of REGION_CONFIGS) {
-      entryGroups.push(selectGroup(regionName, [`${regionName}节点`, `${regionName}自动`, `${regionName}故障转移`, "🌍 全部节点", "DIRECT"]));
-      autoGroups.push(autoTestGroup(`${regionName}自动`, filter));
-      fallbackGroups.push(fallbackGroup(`${regionName}故障转移`, filter));
-      nodeGroups.push(nodePoolGroup(`${regionName}节点`, filter));
-    }
-    return { entryGroups, autoGroups, fallbackGroups, nodeGroups };
-  }
-
   function buildGroups() {
     const regionEntryNames = REGION_CONFIGS.map(([name]) => name);
     const regionAutoNames = REGION_CONFIGS.map(([name]) => `${name}自动`);
     const regionFallbackNames = REGION_CONFIGS.map(([name]) => `${name}故障转移`);
-    const { entryGroups, autoGroups, fallbackGroups, nodeGroups } = buildRegionCollections();
-    return [
+    const groups = [
       selectGroup("🚀 节点选择", ["⚡️ 自动选择", "🛟 故障转移", "🌍 全部节点", ...regionEntryNames, "DIRECT"]),
       selectGroup("⚡️ 自动选择", [...regionAutoNames, "🌍 全部节点", "DIRECT"]),
       selectGroup("🛟 故障转移", [...regionFallbackNames, "🌍 全部节点", "DIRECT"]),
-      nodePoolGroup("🌍 全部节点"),
-      ...entryGroups,
-      ...autoGroups,
-      ...fallbackGroups,
-      ...nodeGroups,
-      ...POLICY_GROUPS.map(([name, proxies]) => selectGroup(name, proxies))
+      allNodesGroup()
     ];
+    for (const [name, filter] of REGION_CONFIGS) groups.push(regionSelectGroup(name, filter));
+    for (const [name, filter] of REGION_CONFIGS) groups.push(autoTestGroup(`${name}自动`, filter));
+    for (const [name, filter] of REGION_CONFIGS) groups.push(fallbackGroup(`${name}故障转移`, filter));
+    for (const [name, proxies] of POLICY_GROUPS) groups.push(selectGroup(name, proxies));
+    return groups;
   }
 
   function buildProviders() {
@@ -399,6 +398,7 @@ function main(config, profileName) {
     return [
       "GEOSITE,private,DIRECT",
       "GEOIP,private,DIRECT,no-resolve",
+      ...MICROSOFT_LOGIN_PROXY_RULES,
       ...RULE_BINDINGS.map(([name, policy]) => `RULE-SET,${name},${policy}`),
       "GEOIP,CN,🇨🇳 国内应用,no-resolve",
       "MATCH,🐟 漏网之鱼"
