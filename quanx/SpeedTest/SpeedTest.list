@@ -87,6 +87,7 @@ HOST,clg-105-sptest.ncri.com,SpeedTest
 HOST,cltn-speedtest-02.brightspeed.com,SpeedTest
 HOST,cmrn-speedtest-02.brightspeed.com,SpeedTest
 HOST,cnk1speedtest.turktelekom.com.tr,SpeedTest
+HOST,cns-speedtest.duckdns.org,SpeedTest
 HOST,crls-speedtest-02.brightspeed.com,SpeedTest
 HOST,csfw.fj.chinamobile.com,SpeedTest
 HOST,csl.hkspeedtest.com,SpeedTest
@@ -2742,6 +2743,7 @@ HOST,spt-jfk1.edgeuno.com,SpeedTest
 HOST,spt-lax1.edgeuno.com,SpeedTest
 HOST,spt-lon1.edgeuno.com,SpeedTest
 HOST,spt-mia.edgeuno.com,SpeedTest
+HOST,spt-noc.umal-nds.com,SpeedTest
 HOST,spt-nyc.as13786.net,SpeedTest
 HOST,spt-sjo1.edgeuno.com,SpeedTest
 HOST,spt.valexcloud.com,SpeedTest
