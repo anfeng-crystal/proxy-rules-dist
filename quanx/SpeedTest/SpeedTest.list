@@ -504,6 +504,7 @@ HOST,ookla.p2.neptune.net.au,SpeedTest
 HOST,ookla.paulonet.srv.br,SpeedTest
 HOST,ookla.pgservicos.com.br,SpeedTest
 HOST,ookla.playmaisreverso.net.br,SpeedTest
+HOST,ookla.premierdc.com.tr,SpeedTest
 HOST,ookla.pvu.as6453.net,SpeedTest
 HOST,ookla.pye.as6453.net,SpeedTest
 HOST,ookla.radishnetworks.net,SpeedTest
@@ -2382,6 +2383,7 @@ HOST,speedtest01.dns-net.de,SpeedTest
 HOST,speedtest01.dro3.solcon.nl,SpeedTest
 HOST,speedtest01.ehtel.ca,SpeedTest
 HOST,speedtest01.imon.net,SpeedTest
+HOST,speedtest01.mel01.nexthop.net.au,SpeedTest
 HOST,speedtest01.mel1.spintel.net.au,SpeedTest
 HOST,speedtest01.netmountains.space,SpeedTest
 HOST,speedtest01.o-net.ca,SpeedTest
@@ -2393,6 +2395,7 @@ HOST,speedtest01.srv.dllstx.alticeusa.net,SpeedTest
 HOST,speedtest01.srv.hcvlny.alticeusa.net,SpeedTest
 HOST,speedtest01.srv.phnxaz.alticeusa.net,SpeedTest
 HOST,speedtest01.srv.snjsca.alticeusa.net,SpeedTest
+HOST,speedtest01.syd01.nexthop.net.au,SpeedTest
 HOST,speedtest01.syd1.spintel.net.au,SpeedTest
 HOST,speedtest01.tek.net.tr,SpeedTest
 HOST,speedtest01.wowrack.com,SpeedTest
