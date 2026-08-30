@@ -1483,6 +1483,7 @@ HOST,speedtest.cytranet.net,SpeedTest
 HOST,speedtest.dakshbroadband.com,SpeedTest
 HOST,speedtest.dal.hivelocity.net,SpeedTest
 HOST,speedtest.dal1.nitelusa.net,SpeedTest
+HOST,speedtest.dashcloudly.com,SpeedTest
 HOST,speedtest.datafex.com.tr,SpeedTest
 HOST,speedtest.dataspindle.com,SpeedTest
 HOST,speedtest.datatr.com,SpeedTest
@@ -1764,6 +1765,7 @@ HOST,speedtest.kouten.barcelona,SpeedTest
 HOST,speedtest.kr260.gmp.kr.ctcsci.com,SpeedTest
 HOST,speedtest.kraftcom.at,SpeedTest
 HOST,speedtest.kraus.jbarbieri.net,SpeedTest
+HOST,speedtest.krottisrv.net,SpeedTest
 HOST,speedtest.ktis.net,SpeedTest
 HOST,speedtest.kuducom.com,SpeedTest
 HOST,speedtest.kufnet.at,SpeedTest
@@ -2157,6 +2159,7 @@ HOST,speedtest.steppod.io,SpeedTest
 HOST,speedtest.stgscloud.com,SpeedTest
 HOST,speedtest.sth.tr,SpeedTest
 HOST,speedtest.stnet.in,SpeedTest
+HOST,speedtest.stormclient.xyz,SpeedTest
 HOST,speedtest.stradacomm.com,SpeedTest
 HOST,speedtest.stratoone.com,SpeedTest
 HOST,speedtest.stw-bonn.de,SpeedTest
