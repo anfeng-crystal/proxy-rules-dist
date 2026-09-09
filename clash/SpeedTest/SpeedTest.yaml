@@ -813,6 +813,7 @@ payload:
   - DOMAIN,speed.econett.com.br
   - DOMAIN,speed.farknet.net
   - DOMAIN,speed.fgtelecom.com.br
+  - DOMAIN,speed.fiber23.it
   - DOMAIN,speed.fibraencasa.cr
   - DOMAIN,speed.flix.net.tr
   - DOMAIN,speed.flttelecom.com.br
@@ -1971,6 +1972,7 @@ payload:
   - DOMAIN,speedtest.nxt-telecom.com
   - DOMAIN,speedtest.ny.sptrnd.id
   - DOMAIN,speedtest.nyc.elcro.digital
+  - DOMAIN,speedtest.oa.net
   - DOMAIN,speedtest.oc.edu
   - DOMAIN,speedtest.oceansls.com
   - DOMAIN,speedtest.octaplus.uk
@@ -2052,6 +2054,7 @@ payload:
   - DOMAIN,speedtest.qld.checknetworks.au
   - DOMAIN,speedtest.qld.edgeix.net.au
   - DOMAIN,speedtest.quadro.net
+  - DOMAIN,speedtest.quickqc.nl
   - DOMAIN,speedtest.rackoona.com
   - DOMAIN,speedtest.raftarnet.com
   - DOMAIN,speedtest.rajeshcable.com
