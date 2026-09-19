@@ -1745,6 +1745,7 @@ payload:
   - DOMAIN,speedtest.ixirhost.com
   - DOMAIN,speedtest.jackrabbitwireless.com
   - DOMAIN,speedtest.japanettelecom.com.br
+  - DOMAIN,speedtest.jasmyrahnetworks.com
   - DOMAIN,speedtest.jbarbieri.net
   - DOMAIN,speedtest.jcnettelecom.com
   - DOMAIN,speedtest.jeebr.net
@@ -2304,6 +2305,7 @@ payload:
   - DOMAIN,speedtest.vc.shawcable.net
   - DOMAIN,speedtest.vee.com.tw
   - DOMAIN,speedtest.velocitybroadband.co.in
+  - DOMAIN,speedtest.velosonet.com.br
   - DOMAIN,speedtest.verimek.com
   - DOMAIN,speedtest.vermontel.net
   - DOMAIN,speedtest.verycloud.fr
