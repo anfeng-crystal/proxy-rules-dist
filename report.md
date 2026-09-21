@@ -2,8 +2,8 @@
 
 ## 规则数量 / Counts
 
-- AI: 160
-- Ads: 284088
+- AI: 162
+- Ads: 284781
 - Alibaba: 1320
 - Apple: 1876
 - Baidu: 259
@@ -15,7 +15,7 @@
 - Game: 34
 - GitHub: 38
 - Google: 711
-- Gemini: 48
+- Gemini: 50
 - Instagram: 4
 - JD: 249
 - Meituan: 8
@@ -37,7 +37,7 @@
 - Youku: 37
 - Zhihu: 9
 - iQIYI: 62
-- Domestic: 112581
+- Domestic: 112590
 - GlobalSites: 7072
 - NetworkTest: 16
 
@@ -130,19 +130,19 @@
 
 ## Mihomo MRS / Mihomo MRS
 
-- AI: 154 domain rules, 6 classical-only rules omitted, 1534 bytes
-- Ads: 283320 domain rules, 768 classical-only rules omitted, 2487511 bytes
+- AI: 156 domain rules, 6 classical-only rules omitted, 1553 bytes
+- Ads: 284013 domain rules, 768 classical-only rules omitted, 2494374 bytes
 - Alibaba: 1266 domain rules, 54 classical-only rules omitted, 7649 bytes
 - Apple: 1833 domain rules, 43 classical-only rules omitted, 18117 bytes
 - Baidu: 259 domain rules, 0 classical-only rules omitted, 2147 bytes
 - Bilibili: 115 domain rules, 12 classical-only rules omitted, 1477 bytes
 - Dev: 55 domain rules, 0 classical-only rules omitted, 599 bytes
 - DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
-- Domestic: 112395 domain rules, 186 classical-only rules omitted, 547153 bytes
+- Domestic: 112404 domain rules, 186 classical-only rules omitted, 547253 bytes
 - Douyin: 15 domain rules, 0 classical-only rules omitted, 217 bytes
 - Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
 - Game: 34 domain rules, 0 classical-only rules omitted, 439 bytes
-- Gemini: 45 domain rules, 3 classical-only rules omitted, 536 bytes
+- Gemini: 47 domain rules, 3 classical-only rules omitted, 551 bytes
 - GitHub: 37 domain rules, 1 classical-only rules omitted, 514 bytes
 - GlobalSites: 6949 domain rules, 123 classical-only rules omitted, 52043 bytes
 - Google: 698 domain rules, 13 classical-only rules omitted, 6196 bytes

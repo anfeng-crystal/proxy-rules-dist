@@ -30,6 +30,7 @@ HOST-SUFFIX,bard.google.com,Gemini
 HOST-SUFFIX,deepmind.com,Gemini
 HOST-SUFFIX,deepmind.google,Gemini
 HOST-SUFFIX,flow.google,Gemini
+HOST-SUFFIX,flow.google.com,Gemini
 HOST-SUFFIX,geller-pa.googleapis.com,Gemini
 HOST-SUFFIX,gemini.google,Gemini
 HOST-SUFFIX,gemini.google.com,Gemini
@@ -41,6 +42,7 @@ HOST-SUFFIX,jules.google.com,Gemini
 HOST-SUFFIX,labs.google,Gemini
 HOST-SUFFIX,labs.google.com,Gemini
 HOST-SUFFIX,makersuite.google.com,Gemini
+HOST-SUFFIX,notebook.google,Gemini
 HOST-SUFFIX,notebook.google.com,Gemini
 HOST-SUFFIX,notebooklm.google,Gemini
 HOST-SUFFIX,notebooklm.google.com,Gemini
