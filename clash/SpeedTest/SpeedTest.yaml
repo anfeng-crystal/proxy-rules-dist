@@ -502,11 +502,13 @@ payload:
   - DOMAIN,ookla.nieqtv.com
   - DOMAIN,ookla.nw8.as6453.net
   - DOMAIN,ookla.olin.es
+  - DOMAIN,ookla.onivia.net
   - DOMAIN,ookla.opticaltel.com
   - DOMAIN,ookla.oriontelecom.com.br
   - DOMAIN,ookla.p2.neptune.net.au
   - DOMAIN,ookla.paulonet.srv.br
   - DOMAIN,ookla.pgservicos.com.br
+  - DOMAIN,ookla.pgservicos.net.br
   - DOMAIN,ookla.playmaisreverso.net.br
   - DOMAIN,ookla.premierdc.com.tr
   - DOMAIN,ookla.pvu.as6453.net
@@ -984,6 +986,7 @@ payload:
   - DOMAIN,speedtest-1.manchester.network.as212655.net
   - DOMAIN,speedtest-1.netw.fr
   - DOMAIN,speedtest-1.somvera.cat
+  - DOMAIN,speedtest-2.hynetwifi.it
   - DOMAIN,speedtest-6.aebc.com
   - DOMAIN,speedtest-ad-1.zoominternet.net
   - DOMAIN,speedtest-adelaide.optusnet.com.au
@@ -2470,6 +2473,7 @@ payload:
   - DOMAIN,speedtest1.chi.nxlink.com
   - DOMAIN,speedtest1.cirbn.net
   - DOMAIN,speedtest1.claro.cr
+  - DOMAIN,speedtest1.co-fi.es
   - DOMAIN,speedtest1.conecta-3.es
   - DOMAIN,speedtest1.ctstelecom.com
   - DOMAIN,speedtest1.dfw1-us.gozfly.net

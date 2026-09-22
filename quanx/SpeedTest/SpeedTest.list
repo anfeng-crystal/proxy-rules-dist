@@ -502,11 +502,13 @@ HOST,ookla.net.unc.edu,SpeedTest
 HOST,ookla.nieqtv.com,SpeedTest
 HOST,ookla.nw8.as6453.net,SpeedTest
 HOST,ookla.olin.es,SpeedTest
+HOST,ookla.onivia.net,SpeedTest
 HOST,ookla.opticaltel.com,SpeedTest
 HOST,ookla.oriontelecom.com.br,SpeedTest
 HOST,ookla.p2.neptune.net.au,SpeedTest
 HOST,ookla.paulonet.srv.br,SpeedTest
 HOST,ookla.pgservicos.com.br,SpeedTest
+HOST,ookla.pgservicos.net.br,SpeedTest
 HOST,ookla.playmaisreverso.net.br,SpeedTest
 HOST,ookla.premierdc.com.tr,SpeedTest
 HOST,ookla.pvu.as6453.net,SpeedTest
@@ -984,6 +986,7 @@ HOST,speedtest-1.london.network.youfibre.com,SpeedTest
 HOST,speedtest-1.manchester.network.as212655.net,SpeedTest
 HOST,speedtest-1.netw.fr,SpeedTest
 HOST,speedtest-1.somvera.cat,SpeedTest
+HOST,speedtest-2.hynetwifi.it,SpeedTest
 HOST,speedtest-6.aebc.com,SpeedTest
 HOST,speedtest-ad-1.zoominternet.net,SpeedTest
 HOST,speedtest-adelaide.optusnet.com.au,SpeedTest
@@ -2470,6 +2473,7 @@ HOST,speedtest1.cfoc.tech,SpeedTest
 HOST,speedtest1.chi.nxlink.com,SpeedTest
 HOST,speedtest1.cirbn.net,SpeedTest
 HOST,speedtest1.claro.cr,SpeedTest
+HOST,speedtest1.co-fi.es,SpeedTest
 HOST,speedtest1.conecta-3.es,SpeedTest
 HOST,speedtest1.ctstelecom.com,SpeedTest
 HOST,speedtest1.dfw1-us.gozfly.net,SpeedTest
