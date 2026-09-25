@@ -588,6 +588,7 @@ HOST,reflector.aberythmic.com,SpeedTest
 HOST,reikonteste.reikoninternet.com.br,SpeedTest
 HOST,reunion3.d2m.c2d.liveservices.fr,SpeedTest
 HOST,riorancho1.cabospeed.com,SpeedTest
+HOST,riospeedtest.rconnects.com,SpeedTest
 HOST,rsghost.rsgsn.com,SpeedTest
 HOST,rspeed.mi-group.com.tr,SpeedTest
 HOST,run.provedorlbs.com.br,SpeedTest
@@ -738,6 +739,7 @@ HOST,spd-phnxaz19.wyyerd.io,SpeedTest
 HOST,spd-pub-mi-01-01.fastwebnet.it,SpeedTest
 HOST,spd-pub-rm-01-01.fastwebnet.it,SpeedTest
 HOST,spd-sndacawa.wyyerd.io,SpeedTest
+HOST,spd-sndgcajw.wyyerd.io,SpeedTest
 HOST,spd-tr-istanbul.hostlayici.net,SpeedTest
 HOST,spd.basefix.net,SpeedTest
 HOST,spd.cndd.net,SpeedTest
@@ -1573,6 +1575,7 @@ HOST,speedtest.exatel.pl,SpeedTest
 HOST,speedtest.excom.net,SpeedTest
 HOST,speedtest.execulink.ca,SpeedTest
 HOST,speedtest.extremanetwork.com.br,SpeedTest
+HOST,speedtest.eyeit.com.br,SpeedTest
 HOST,speedtest.eyg01.nl,SpeedTest
 HOST,speedtest.falconet.in,SpeedTest
 HOST,speedtest.fastel.net.in,SpeedTest
@@ -1628,6 +1631,7 @@ HOST,speedtest.gatchina.ru,SpeedTest
 HOST,speedtest.gayatricable.co.in,SpeedTest
 HOST,speedtest.gelicon.ru,SpeedTest
 HOST,speedtest.geneseo.com,SpeedTest
+HOST,speedtest.genxbroadband.com,SpeedTest
 HOST,speedtest.getstreamhosting.com,SpeedTest
 HOST,speedtest.getwireless.net,SpeedTest
 HOST,speedtest.ggcmedia.net,SpeedTest
@@ -2795,6 +2799,7 @@ HOST,sptest2.mgts-spdop.ru,SpeedTest
 HOST,spthc1.taiwanmobile.com,SpeedTest
 HOST,spthl1.taiwanmobile.com,SpeedTest
 HOST,sptkh2.taiwanmobile.com,SpeedTest
+HOST,sptst1.ntua.net,SpeedTest
 HOST,spttc2.taiwanmobile.com,SpeedTest
 HOST,spttn2.taiwanmobile.com,SpeedTest
 HOST,spttp1.taiwanmobile.com,SpeedTest
