@@ -66,9 +66,9 @@ function main(config) {
 
   const REGION_CONFIGS = [
     ["🇭🇰 香港", "🇭🇰 香港节点", "(?i)^(?!.*(?:落地|landing|exit|自建)).*(?:香港|港澳|港区|hong ?kong|hongkong|🇭🇰|港服|港线|(^|[^a-z])(hkg|hk)($|[^a-z]))"],
+    ["🇹🇼 台湾", "🇹🇼 台湾节点", "(?i)^(?!.*(?:落地|landing|exit|自建)).*(?:台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))"],
     ["🇯🇵 日本", "🇯🇵 日本节点", "(?i)^(?!.*(?:落地|landing|exit|自建)).*(?:日本|japan|tokyo|東京|osaka|大阪|🇯🇵|(^|[^a-z])(jp|tyo|nrt|hnd)($|[^a-z]))"],
     ["🇸🇬 新加坡", "🇸🇬 新加坡节点", "(?i)^(?!.*(?:落地|landing|exit|自建)).*(?:新加坡|singapore|狮城|獅城|星洲|🇸🇬|(^|[^a-z])(sg|sin|sgp)($|[^a-z]))"],
-    ["🇹🇼 台湾", "🇹🇼 台湾节点", "(?i)^(?!.*(?:落地|landing|exit|自建)).*(?:台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))"],
     ["🇺🇸 美国", "🇺🇸 美国节点", "(?i)^(?!.*(?:落地|landing|exit|自建)).*(?:美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))"],
   ];
 
@@ -266,15 +266,15 @@ function main(config) {
   }
 
   function orderedPolicyChoices(proxies) {
-    const regionalMain = new Set(REGION_CONFIGS.map(([, mainName]) => mainName));
-    const regionalAuto = new Set(REGION_CONFIGS.map(([baseName]) => `${baseName}自动`));
-    const regionalFallback = new Set(REGION_CONFIGS.map(([baseName]) => `${baseName}故障转移`));
+    const regionalMain = REGION_CONFIGS.map(([, mainName]) => mainName);
+    const regionalAuto = REGION_CONFIGS.map(([baseName]) => `${baseName}自动`);
+    const regionalFallback = REGION_CONFIGS.map(([baseName]) => `${baseName}故障转移`);
     const regional = new Set([...regionalMain, ...regionalAuto, ...regionalFallback]);
     return unique([
       proxies[0], // Keep the configured default, including DIRECT or 节点选择.
-      ...proxies.filter(proxy => regionalMain.has(proxy)),
-      ...proxies.filter(proxy => regionalAuto.has(proxy)),
-      ...proxies.filter(proxy => regionalFallback.has(proxy)),
+      ...regionalMain.filter(proxy => proxies.includes(proxy)),
+      ...regionalAuto.filter(proxy => proxies.includes(proxy)),
+      ...regionalFallback.filter(proxy => proxies.includes(proxy)),
       ...proxies.filter(proxy => !regional.has(proxy)),
     ]);
   }
