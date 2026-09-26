@@ -7,6 +7,12 @@
 | Clash Verge Rev | `https://anfeng-crystal.github.io/proxy-rules-dist/overrides/clash-verge-rev.override.js` |
 | FlClash | `https://anfeng-crystal.github.io/proxy-rules-dist/overrides/flclash.override.js` |
 
+### Clash Party 导入与启用
+
+1. 在 Clash Party 左侧打开「覆写」，将上表的 `clash-party.override.js` 地址粘贴到「输入覆写 URL」，点击「导入」。导入后应出现类型为 `JavaScript` 的 `clash-party.override.js`。
+2. 打开「订阅管理」，在目标机场订阅的菜单中选择「编辑信息」，于「覆写」选择刚导入的脚本并保存。若该订阅仍选用旧版 RuleForge 覆写，先取消旧版，避免两份脚本互相覆盖。
+3. 刷新该订阅，再查看运行时配置或代理组。浏览器直接打开 `.js` 地址只会显示源码；该地址不是机场订阅，不能在「订阅管理」中作为订阅 URL 导入。
+
 说明：
 - 旧根路径 `clash-party-verge-rev.override.js` 建议暂时保留，避免已有客户端引用失效。
 - 新安装统一使用 `overrides/` 下的客户端专用文件。
