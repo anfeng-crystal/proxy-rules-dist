@@ -1,0 +1,136 @@
+{
+  "version": "2026.09.26",
+  "client": "Stash Android",
+  "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules",
+  "order_note": "Stash Android 显示最上方模块规则优先级最高；99-core 必须置底。",
+  "modules": [
+    {
+      "file": "10-gemini.stoverride",
+      "name": "10 · Gemini",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/10-gemini.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/10-gemini.stoverride"
+    },
+    {
+      "file": "20-ai.stoverride",
+      "name": "20 · AI",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/20-ai.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/20-ai.stoverride"
+    },
+    {
+      "file": "30-youtube.stoverride",
+      "name": "30 · YouTube",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/30-youtube.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/30-youtube.stoverride"
+    },
+    {
+      "file": "31-netflix.stoverride",
+      "name": "31 · Netflix",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/31-netflix.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/31-netflix.stoverride"
+    },
+    {
+      "file": "32-disneyplus.stoverride",
+      "name": "32 · DisneyPlus",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/32-disneyplus.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/32-disneyplus.stoverride"
+    },
+    {
+      "file": "40-google.stoverride",
+      "name": "40 · Google",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/40-google.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/40-google.stoverride"
+    },
+    {
+      "file": "41-github.stoverride",
+      "name": "41 · GitHub",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/41-github.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/41-github.stoverride"
+    },
+    {
+      "file": "42-microsoft.stoverride",
+      "name": "42 · Microsoft",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/42-microsoft.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/42-microsoft.stoverride"
+    },
+    {
+      "file": "43-apple.stoverride",
+      "name": "43 · Apple",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/43-apple.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/43-apple.stoverride"
+    },
+    {
+      "file": "44-telegram.stoverride",
+      "name": "44 · Telegram",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/44-telegram.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/44-telegram.stoverride"
+    },
+    {
+      "file": "45-paypal.stoverride",
+      "name": "45 · PayPal",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/45-paypal.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/45-paypal.stoverride"
+    },
+    {
+      "file": "50-global-media.stoverride",
+      "name": "50 · 境外流媒体",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/50-global-media.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/50-global-media.stoverride"
+    },
+    {
+      "file": "51-global-sites.stoverride",
+      "name": "51 · 境外网站",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/51-global-sites.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/51-global-sites.stoverride"
+    },
+    {
+      "file": "60-domestic.stoverride",
+      "name": "60 · 国内应用",
+      "default_enabled": true,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/60-domestic.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/60-domestic.stoverride"
+    },
+    {
+      "file": "90-chain.stoverride",
+      "name": "90 · 链式代理（可选）",
+      "default_enabled": false,
+      "required": false,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/90-chain.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/90-chain.stoverride"
+    },
+    {
+      "file": "99-core.stoverride",
+      "name": "99 · RuleForge Core（必须启用）",
+      "default_enabled": true,
+      "required": true,
+      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/99-core.stoverride",
+      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/99-core.stoverride"
+    }
+  ]
+}

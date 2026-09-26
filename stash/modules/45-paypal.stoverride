@@ -1,0 +1,29 @@
+name: '45 · PayPal'
+desc: |-
+  45 · PayPal 独立业务分流模块。
+  可单独启用/停用；依赖 99 · RuleForge Core。
+author: 'RuleForge'
+version: '2026.09.26'
+
+proxy-groups:
+  - name: 'RF·💳 PayPal'
+    type: select
+    proxies:
+      - 'RF·🇭🇰 香港'
+      - 'RF·🇺🇸 美国'
+      - 'RF·🇸🇬 新加坡'
+      - 'RF·🇯🇵 日本'
+      - 'RF·🚀 节点选择'
+      - 'RF·⚡️ 自动选择'
+      - 'RF·🛟 故障转移'
+
+rule-providers:
+  rf_PayPal:
+    behavior: classical
+    format: yaml
+    url: 'https://anfeng-crystal.github.io/proxy-rules-dist/clash/PayPal/PayPal.yaml'
+    path: './rule-providers/rf_PayPal.yaml'
+    interval: 86400
+
+rules:
+  - 'RULE-SET,rf_PayPal,RF·💳 PayPal'

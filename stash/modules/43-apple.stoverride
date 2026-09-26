@@ -1,0 +1,30 @@
+name: '43 · Apple'
+desc: |-
+  43 · Apple 独立业务分流模块。
+  可单独启用/停用；依赖 99 · RuleForge Core。
+author: 'RuleForge'
+version: '2026.09.26'
+
+proxy-groups:
+  - name: 'RF·🍎 Apple'
+    type: select
+    proxies:
+      - DIRECT
+      - 'RF·🇭🇰 香港'
+      - 'RF·🇯🇵 日本'
+      - 'RF·🇺🇸 美国'
+      - 'RF·🇸🇬 新加坡'
+      - 'RF·🇹🇼 台湾'
+      - 'RF·🚀 节点选择'
+      - 'RF·⚡️ 自动选择'
+
+rule-providers:
+  rf_Apple:
+    behavior: classical
+    format: yaml
+    url: 'https://anfeng-crystal.github.io/proxy-rules-dist/clash/Apple/Apple.yaml'
+    path: './rule-providers/rf_Apple.yaml'
+    interval: 86400
+
+rules:
+  - 'RULE-SET,rf_Apple,RF·🍎 Apple'

@@ -1,0 +1,20 @@
+name: '90 · 链式代理（可选）'
+desc: |-
+  新增稳定上游组 RF·🔗 链式中转。
+  Stash Override 无法修改机场已有 proxies 数组元素，因此不会自动给节点写 dialer-proxy。
+  需要链式时，请在真实落地节点上手动设置 dialer-proxy: RF·🔗 链式中转。
+author: 'RuleForge'
+version: '2026.09.26'
+
+proxy-groups:
+  - name: 'RF·🔗 链式中转'
+    type: select
+    proxies:
+      - 'RF·⚡️ 自动选择'
+      - 'RF·🛟 故障转移'
+      - 'RF·🇭🇰 香港'
+      - 'RF·🇯🇵 日本'
+      - 'RF·🇺🇸 美国'
+      - 'RF·🇸🇬 新加坡'
+      - 'RF·🇹🇼 台湾'
+      - DIRECT

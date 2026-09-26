@@ -1,0 +1,30 @@
+name: '31 · Netflix'
+desc: |-
+  31 · Netflix 独立业务分流模块。
+  可单独启用/停用；依赖 99 · RuleForge Core。
+author: 'RuleForge'
+version: '2026.09.26'
+
+proxy-groups:
+  - name: 'RF·🎬 Netflix'
+    type: select
+    proxies:
+      - 'RF·🇭🇰 香港'
+      - 'RF·🇯🇵 日本'
+      - 'RF·🇺🇸 美国'
+      - 'RF·🇸🇬 新加坡'
+      - 'RF·🇹🇼 台湾'
+      - 'RF·🚀 节点选择'
+      - 'RF·⚡️ 自动选择'
+      - 'RF·🛟 故障转移'
+
+rule-providers:
+  rf_Netflix:
+    behavior: classical
+    format: yaml
+    url: 'https://anfeng-crystal.github.io/proxy-rules-dist/clash/Netflix/Netflix.yaml'
+    path: './rule-providers/rf_Netflix.yaml'
+    interval: 86400
+
+rules:
+  - 'RULE-SET,rf_Netflix,RF·🎬 Netflix'

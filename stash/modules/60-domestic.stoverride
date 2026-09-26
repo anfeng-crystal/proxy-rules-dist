@@ -1,0 +1,27 @@
+name: '60 · 国内应用'
+desc: |-
+  60 · 国内应用 独立业务分流模块。
+  可单独启用/停用；依赖 99 · RuleForge Core。
+author: 'RuleForge'
+version: '2026.09.26'
+
+proxy-groups:
+  - name: 'RF·🇨🇳 国内应用'
+    type: select
+    proxies:
+      - DIRECT
+      - 'RF·🚀 节点选择'
+      - 'RF·⚡️ 自动选择'
+      - 'RF·🛟 故障转移'
+      - 'RF·🌍 全部节点'
+
+rule-providers:
+  rf_Domestic:
+    behavior: classical
+    format: yaml
+    url: 'https://anfeng-crystal.github.io/proxy-rules-dist/clash/Domestic/Domestic.yaml'
+    path: './rule-providers/rf_Domestic.yaml'
+    interval: 86400
+
+rules:
+  - 'RULE-SET,rf_Domestic,RF·🇨🇳 国内应用'

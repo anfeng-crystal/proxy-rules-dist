@@ -1,0 +1,173 @@
+name: '99 · RuleForge Core（必须启用）'
+desc: |-
+  公共地区组、手动/自动/故障转移、CN 直连和最终 MATCH 兜底。
+  请把本模块放在所有 RuleForge 业务模块的最下方。
+author: 'RuleForge'
+version: '2026.09.26'
+
+proxy-groups:
+  - name: 'RF·🚀 节点选择'
+    type: select
+    proxies:
+      - 'RF·⚡️ 自动选择'
+      - 'RF·🛟 故障转移'
+      - 'RF·🌍 全部节点'
+      - 'RF·🇭🇰 香港'
+      - 'RF·🇯🇵 日本'
+      - 'RF·🇺🇸 美国'
+      - 'RF·🇸🇬 新加坡'
+      - 'RF·🇹🇼 台湾'
+      - DIRECT
+
+  - name: 'RF·⚡️ 自动选择'
+    type: select
+    proxies:
+      - 'RF·🇭🇰 香港自动'
+      - 'RF·🇯🇵 日本自动'
+      - 'RF·🇺🇸 美国自动'
+      - 'RF·🇸🇬 新加坡自动'
+      - 'RF·🇹🇼 台湾自动'
+      - 'RF·🌍 全部节点'
+      - DIRECT
+
+  - name: 'RF·🛟 故障转移'
+    type: select
+    proxies:
+      - 'RF·🇭🇰 香港故障转移'
+      - 'RF·🇯🇵 日本故障转移'
+      - 'RF·🇺🇸 美国故障转移'
+      - 'RF·🇸🇬 新加坡故障转移'
+      - 'RF·🇹🇼 台湾故障转移'
+      - 'RF·🌍 全部节点'
+      - DIRECT
+
+  - name: 'RF·🌍 全部节点'
+    type: select
+    include-all: true
+
+  - name: 'RF·🇭🇰 香港'
+    type: select
+    proxies:
+      - 'RF·🇭🇰 香港自动'
+      - 'RF·🇭🇰 香港故障转移'
+    include-all: true
+    filter: '(?i)(香港|港澳|港区|hong ?kong|hongkong|hkg|(^|[^a-z])hk($|[^a-z])|🇭🇰|港服|港线)'
+
+  - name: 'RF·🇯🇵 日本'
+    type: select
+    proxies:
+      - 'RF·🇯🇵 日本自动'
+      - 'RF·🇯🇵 日本故障转移'
+    include-all: true
+    filter: '(?i)(日本|japan|tokyo|東京|osaka|大阪|tyo|nrt|hnd|(^|[^a-z])jp($|[^a-z])|🇯🇵)'
+
+  - name: 'RF·🇺🇸 美国'
+    type: select
+    proxies:
+      - 'RF·🇺🇸 美国自动'
+      - 'RF·🇺🇸 美国故障转移'
+    include-all: true
+    filter: '(?i)(美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))'
+
+  - name: 'RF·🇸🇬 新加坡'
+    type: select
+    proxies:
+      - 'RF·🇸🇬 新加坡自动'
+      - 'RF·🇸🇬 新加坡故障转移'
+    include-all: true
+    filter: '(?i)(新加坡|singapore|sin|sgp|狮城|獅城|星洲|(^|[^a-z])sg($|[^a-z])|🇸🇬)'
+
+  - name: 'RF·🇹🇼 台湾'
+    type: select
+    proxies:
+      - 'RF·🇹🇼 台湾自动'
+      - 'RF·🇹🇼 台湾故障转移'
+    include-all: true
+    filter: '(?i)(台湾|臺灣|台灣|taiwan|tpe|taipei|台北|formosa|(^|[^a-z])tw($|[^a-z])|🇹🇼)'
+
+  - name: 'RF·🇭🇰 香港自动'
+    type: url-test
+    include-all: true
+    filter: '(?i)(香港|港澳|港区|hong ?kong|hongkong|hkg|(^|[^a-z])hk($|[^a-z])|🇭🇰|港服|港线)'
+    interval: 600
+    lazy: true
+
+  - name: 'RF·🇯🇵 日本自动'
+    type: url-test
+    include-all: true
+    filter: '(?i)(日本|japan|tokyo|東京|osaka|大阪|tyo|nrt|hnd|(^|[^a-z])jp($|[^a-z])|🇯🇵)'
+    interval: 600
+    lazy: true
+
+  - name: 'RF·🇺🇸 美国自动'
+    type: url-test
+    include-all: true
+    filter: '(?i)(美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))'
+    interval: 600
+    lazy: true
+
+  - name: 'RF·🇸🇬 新加坡自动'
+    type: url-test
+    include-all: true
+    filter: '(?i)(新加坡|singapore|sin|sgp|狮城|獅城|星洲|(^|[^a-z])sg($|[^a-z])|🇸🇬)'
+    interval: 600
+    lazy: true
+
+  - name: 'RF·🇹🇼 台湾自动'
+    type: url-test
+    include-all: true
+    filter: '(?i)(台湾|臺灣|台灣|taiwan|tpe|taipei|台北|formosa|(^|[^a-z])tw($|[^a-z])|🇹🇼)'
+    interval: 600
+    lazy: true
+
+  - name: 'RF·🇭🇰 香港故障转移'
+    type: fallback
+    include-all: true
+    filter: '(?i)(香港|港澳|港区|hong ?kong|hongkong|hkg|(^|[^a-z])hk($|[^a-z])|🇭🇰|港服|港线)'
+    interval: 600
+    lazy: true
+
+  - name: 'RF·🇯🇵 日本故障转移'
+    type: fallback
+    include-all: true
+    filter: '(?i)(日本|japan|tokyo|東京|osaka|大阪|tyo|nrt|hnd|(^|[^a-z])jp($|[^a-z])|🇯🇵)'
+    interval: 600
+    lazy: true
+
+  - name: 'RF·🇺🇸 美国故障转移'
+    type: fallback
+    include-all: true
+    filter: '(?i)(美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))'
+    interval: 600
+    lazy: true
+
+  - name: 'RF·🇸🇬 新加坡故障转移'
+    type: fallback
+    include-all: true
+    filter: '(?i)(新加坡|singapore|sin|sgp|狮城|獅城|星洲|(^|[^a-z])sg($|[^a-z])|🇸🇬)'
+    interval: 600
+    lazy: true
+
+  - name: 'RF·🇹🇼 台湾故障转移'
+    type: fallback
+    include-all: true
+    filter: '(?i)(台湾|臺灣|台灣|taiwan|tpe|taipei|台北|formosa|(^|[^a-z])tw($|[^a-z])|🇹🇼)'
+    interval: 600
+    lazy: true
+
+  - name: 'RF·🐟 漏网之鱼'
+    type: select
+    proxies:
+      - 'RF·🚀 节点选择'
+      - 'RF·⚡️ 自动选择'
+      - 'RF·🛟 故障转移'
+      - 'RF·🌍 全部节点'
+      - DIRECT
+
+# 不使用 #!replace：机场原 rules 会保留在后面，但 MATCH 会使其不可达。
+# 这样模块化业务规则可插在 Core 规则之前，同时不破坏机场已有策略组/链式依赖。
+rules:
+  - 'GEOSITE,private,DIRECT'
+  - 'GEOIP,LAN,DIRECT,no-resolve'
+  - 'GEOIP,CN,DIRECT,no-resolve'
+  - 'MATCH,RF·🐟 漏网之鱼'
