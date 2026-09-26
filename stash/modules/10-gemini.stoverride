@@ -1,9 +1,8 @@
 name: '10 · Gemini'
 desc: |-
-  默认首选 🇺🇸 美国。
-  关闭后对应规则停用，策略组仍由 99 · 基础策略组提供。
+  Gemini 默认首选 🇺🇸 美国节点。
 author: 'RuleForge'
-version: '2026.09.26-v2'
+version: '2026.09.26-v7'
 
 rule-providers:
   ruleforge_Gemini:

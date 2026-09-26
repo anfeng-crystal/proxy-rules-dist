@@ -1,10 +1,10 @@
-# Stash Android v2（严格覆写）
+# Stash Android V7（严格覆写）
 
-`99-core.stoverride` 使用 `proxy-groups: #!replace`，以 RuleForge 的策略组替换机场原策略组。机场的真实节点、远程代理集和 DNS/TUN 设置仍由原订阅提供。策略组名称不再带 `RF·` 前缀；Gemini 组首选 `🇺🇸 美国`。
+`99-core.stoverride` 使用 `proxy-groups: #!replace`，以 RuleForge 的策略组替换机场原策略组。机场的真实节点、远程代理集和 DNS/TUN 设置仍由原订阅提供。Gemini 组首选 `🇺🇸 美国节点`；境外业务组可以直接选择地区节点、地区自动或地区故障转移。
 
 在 Stash「覆写 → 从 URL 安装」中安装 [99 基础策略组](https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/99-core.stoverride) 和所需业务模块，例如 [10 Gemini](https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/10-gemini.stoverride)。业务模块从上到下按 `10 → 20 → ... → 60` 排列，99 基础策略组启用并放在最下方。更新已有模块后，刷新覆写并重新连接 Stash。完整 URL 见 [模块索引](modules/index.json)。
 
-业务模块只提供规则集及分流规则；关闭模块后，对应策略组仍由 99 基础策略组提供，但不再有该模块的独立分流规则。`🔗 链式中转` 也由 99 基础策略组提供，默认没有业务规则使用它。旧版 `90-chain.stoverride` 地址保留为不修改配置的兼容入口。
+业务模块只提供规则集及分流规则；关闭模块后，对应策略组仍由 99 基础策略组提供，但不再有该模块的独立分流规则。`🇨🇳 国内应用` 组只包含 `DIRECT`，Domestic 规则集使用该组；`GEOIP,CN` 仍直接使用 `DIRECT`。`🔗 链式中转` 由 99 基础策略组提供，默认没有业务规则使用它。旧版 `90-chain.stoverride` 地址保留为不修改配置的兼容入口。
 
 单文件版 [ruleforge-full.stoverride](ruleforge-full.stoverride) 供不使用模块化时安装；不要与模块版同时启用。
 

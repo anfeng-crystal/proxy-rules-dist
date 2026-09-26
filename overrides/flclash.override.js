@@ -6,6 +6,7 @@
 // Compatible with FlClash's QuickJS main(config) override engine. The script performs no fetch/timer/file I/O; remote rule-provider downloads are left to Mihomo.
 
 const RULEFORGE_OPTIONS = {
+// V7: Domestic is visible with DIRECT only; GEOIP,CN remains literal DIRECT.
   // Service routing switches
   Gemini: true,
   AI: true,
@@ -63,14 +64,11 @@ function main(config) {
   ];
 
   const REGION_CONFIGS = [
-    ["🇭🇰 香港", "(?i)(香港|港澳|港区|hong ?kong|hongkong|🇭🇰|港服|港线|(^|[^a-z])(hkg|hk)($|[^a-z]))"],
-    ["🇯🇵 日本", "(?i)(日本|japan|tokyo|東京|osaka|大阪|🇯🇵|(^|[^a-z])(jp|tyo|nrt|hnd)($|[^a-z]))"],
-    [
-      "🇺🇸 美国",
-      "(?i)(美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))",
-    ],
-    ["🇸🇬 新加坡", "(?i)(新加坡|singapore|狮城|獅城|星洲|🇸🇬|(^|[^a-z])(sg|sin|sgp)($|[^a-z]))"],
-    ["🇹🇼 台湾", "(?i)(台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))"],
+    ["🇭🇰 香港", "🇭🇰 香港节点", "(?i)^(?!.*(?:落地|landing|exit|自建)).*(?:香港|港澳|港区|hong ?kong|hongkong|🇭🇰|港服|港线|(^|[^a-z])(hkg|hk)($|[^a-z]))"],
+    ["🇯🇵 日本", "🇯🇵 日本节点", "(?i)^(?!.*(?:落地|landing|exit|自建)).*(?:日本|japan|tokyo|東京|osaka|大阪|🇯🇵|(^|[^a-z])(jp|tyo|nrt|hnd)($|[^a-z]))"],
+    ["🇸🇬 新加坡", "🇸🇬 新加坡节点", "(?i)^(?!.*(?:落地|landing|exit|自建)).*(?:新加坡|singapore|狮城|獅城|星洲|🇸🇬|(^|[^a-z])(sg|sin|sgp)($|[^a-z]))"],
+    ["🇹🇼 台湾", "🇹🇼 台湾节点", "(?i)^(?!.*(?:落地|landing|exit|自建)).*(?:台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))"],
+    ["🇺🇸 美国", "🇺🇸 美国节点", "(?i)^(?!.*(?:落地|landing|exit|自建)).*(?:美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))"],
   ];
 
   const RULE_BINDINGS = [
@@ -94,74 +92,72 @@ function main(config) {
     [
       "Gemini",
       "🧠 Gemini",
-      // The first member of a select group is the default selection.
-      // Gemini defaults to the US region as requested.
-      ["🇺🇸 美国", "🇸🇬 新加坡", "🇯🇵 日本", "🇭🇰 香港", "🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移", "🌍 全部节点", "🇹🇼 台湾", "DIRECT"],
+      ["🇺🇸 美国节点", "🚀 节点选择", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点", "DIRECT"],
     ],
     [
       "AI",
       "🤖 AI",
-      ["🇺🇸 美国", "🇸🇬 新加坡", "🇯🇵 日本", "🇭🇰 香港", "🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移"],
+      ["🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇭🇰 香港节点", "🚀 节点选择", "🇹🇼 台湾节点", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点"],
     ],
     [
       "YouTube",
       "📺 YouTube",
-      ["🇭🇰 香港", "🇯🇵 日本", "🇺🇸 美国", "🇸🇬 新加坡", "🇹🇼 台湾", "🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移"],
+      ["🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🚀 节点选择", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点"],
     ],
     [
       "Netflix",
       "🎬 Netflix",
-      ["🇭🇰 香港", "🇯🇵 日本", "🇺🇸 美国", "🇸🇬 新加坡", "🇹🇼 台湾", "🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移"],
+      ["🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🚀 节点选择", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点"],
     ],
     [
       "DisneyPlus",
       "🏰 DisneyPlus",
-      ["🇭🇰 香港", "🇯🇵 日本", "🇺🇸 美国", "🇸🇬 新加坡", "🇹🇼 台湾", "🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移"],
+      ["🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🚀 节点选择", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点"],
     ],
     [
       "Google",
       "🇬 Google",
-      ["🇭🇰 香港", "🇯🇵 日本", "🇺🇸 美国", "🇸🇬 新加坡", "🇹🇼 台湾", "🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移"],
+      ["🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🚀 节点选择", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点"],
     ],
     [
       "GitHub",
       "🐙 GitHub",
-      ["🇭🇰 香港", "🇯🇵 日本", "🇺🇸 美国", "🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移"],
+      ["🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🚀 节点选择", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点"],
     ],
     [
       "Microsoft",
       "🪟 Microsoft",
-      ["DIRECT", "🇭🇰 香港", "🇯🇵 日本", "🇺🇸 美国", "🇸🇬 新加坡", "🇹🇼 台湾", "🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移"],
+      ["DIRECT", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🚀 节点选择", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点"],
     ],
     [
       "Apple",
       "🍎 Apple",
-      ["DIRECT", "🇭🇰 香港", "🇯🇵 日本", "🇺🇸 美国", "🇸🇬 新加坡", "🇹🇼 台湾", "🚀 节点选择", "⚡️ 自动选择"],
+      ["DIRECT", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🚀 节点选择", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点"],
     ],
     [
       "Telegram",
       "✈️ Telegram",
-      ["🇸🇬 新加坡", "🇭🇰 香港", "🇺🇸 美国", "🇯🇵 日本", "🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移"],
+      ["🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇺🇸 美国节点", "🇯🇵 日本节点", "🚀 节点选择", "🇹🇼 台湾节点", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点"],
     ],
     [
       "PayPal",
       "💳 PayPal",
-      ["🇭🇰 香港", "🇺🇸 美国", "🇸🇬 新加坡", "🇯🇵 日本", "🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移"],
+      ["🇭🇰 香港节点", "🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🚀 节点选择", "🇹🇼 台湾节点", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点"],
     ],
     [
       "GlobalMedia",
       "🎞️ 境外流媒体",
-      ["🇭🇰 香港", "🇯🇵 日本", "🇺🇸 美国", "🇸🇬 新加坡", "🇹🇼 台湾", "🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移"],
+      ["🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🚀 节点选择", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点"],
     ],
     [
       "GlobalSites",
       "🌐 境外网站",
-      ["🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移", "🌍 全部节点", "🇭🇰 香港", "🇯🇵 日本", "🇺🇸 美国", "🇸🇬 新加坡", "🇹🇼 台湾"],
+      ["🚀 节点选择", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇭🇰 香港自动", "🇯🇵 日本自动", "🇸🇬 新加坡自动", "🇹🇼 台湾自动", "🇺🇸 美国自动", "🇭🇰 香港故障转移", "🇯🇵 日本故障转移", "🇸🇬 新加坡故障转移", "🇹🇼 台湾故障转移", "🇺🇸 美国故障转移", "🌍 全部节点"],
     ],
     [
       "Domestic",
       "🇨🇳 国内应用",
-      ["DIRECT", "🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移", "🌍 全部节点"],
+      ["DIRECT"],
     ],
   ];
 
@@ -215,11 +211,11 @@ function main(config) {
     };
   }
 
-  function regionSelectGroup(name, filter) {
+  function regionSelectGroup(mainName, baseName, filter) {
     return {
-      name,
+      name: mainName,
       type: "select",
-      proxies: [`${name}自动`, `${name}故障转移`],
+      proxies: [`${baseName}自动`, `${baseName}故障转移`],
       "include-all": true,
       filter,
       "exclude-filter": COMMON_EXCLUDE,
@@ -256,48 +252,72 @@ function main(config) {
   }
 
   function chainRelayGroup() {
+    const regionMainNames = REGION_CONFIGS.map(([, mainName]) => mainName);
+    const regionAutoNames = REGION_CONFIGS.map(([baseName]) => `${baseName}自动`);
+    const regionFallbackNames = REGION_CONFIGS.map(([baseName]) => `${baseName}故障转移`);
     return {
       name: CHAIN_GROUP,
       type: "select",
-      proxies: ["⚡️ 自动选择", "🛟 故障转移", "🌍 全部节点", "🇭🇰 香港", "🇯🇵 日本", "🇺🇸 美国", "🇸🇬 新加坡", "🇹🇼 台湾", "DIRECT"],
+      proxies: [...regionMainNames, ...regionAutoNames, ...regionFallbackNames, "DIRECT"],
       "include-all": true,
       "exclude-filter": `${COMMON_EXCLUDE}|${CHAIN_LANDING_MIHOMO_FILTER}`,
     };
   }
 
   function buildGroups() {
-    const regionEntryNames = REGION_CONFIGS.map(([name]) => name);
-    const regionAutoNames = REGION_CONFIGS.map(([name]) => `${name}自动`);
-    const regionFallbackNames = REGION_CONFIGS.map(([name]) => `${name}故障转移`);
+    const regionMainNames = REGION_CONFIGS.map(([, mainName]) => mainName);
+    const regionAutoNames = REGION_CONFIGS.map(([baseName]) => `${baseName}自动`);
+    const regionFallbackNames = REGION_CONFIGS.map(([baseName]) => `${baseName}故障转移`);
+    const groups = [];
 
-    const groups = [
-      selectGroup("🚀 节点选择", ["⚡️ 自动选择", "🛟 故障转移", "🌍 全部节点", ...regionEntryNames, "DIRECT"]),
-      selectGroup("⚡️ 自动选择", [...regionAutoNames, "🌍 全部节点", "DIRECT"]),
-      selectGroup("🛟 故障转移", [...regionFallbackNames, "🌍 全部节点", "DIRECT"]),
-      allNodesGroup(),
-    ];
-
-    for (const [name, filter] of REGION_CONFIGS) groups.push(regionSelectGroup(name, filter));
-    for (const [name, filter] of REGION_CONFIGS) groups.push(autoTestGroup(`${name}自动`, filter));
-    for (const [name, filter] of REGION_CONFIGS) groups.push(fallbackGroup(`${name}故障转移`, filter));
-
-    if (isOptionEnabled("链式代理")) {
-      groups.push(chainRelayGroup());
-    }
-
+    // 1. Business routing groups.
     for (const [optionName, name, proxies] of POLICY_GROUPS) {
       if (isOptionEnabled(optionName)) groups.push(selectGroup(name, proxies));
     }
 
+    // 2. Regional manual groups: regional auto + failover + actual nodes.
+    for (const [baseName, mainName, filter] of REGION_CONFIGS) {
+      groups.push(regionSelectGroup(mainName, baseName, filter));
+    }
+
+    // 3. Regional auto groups.
+    for (const [baseName, , filter] of REGION_CONFIGS) {
+      groups.push(autoTestGroup(`${baseName}自动`, filter));
+    }
+
+    // 4. Regional failover groups.
+    for (const [baseName, , filter] of REGION_CONFIGS) {
+      groups.push(fallbackGroup(`${baseName}故障转移`, filter));
+    }
+
+    // 5. Helpers. No redundant global 自动选择/故障转移 groups.
     groups.push(
-      selectGroup("🐟 漏网之鱼", ["🚀 节点选择", "⚡️ 自动选择", "🛟 故障转移", "🌍 全部节点", "DIRECT"]),
+      selectGroup("🚀 节点选择", [
+        ...regionMainNames,
+        ...regionAutoNames,
+        ...regionFallbackNames,
+        "🌍 全部节点",
+        "DIRECT",
+      ]),
+      allNodesGroup(),
     );
 
-    // Preserve only the subscription groups that are actually required by existing
-    // dialer-proxy chains. Dependencies are collected recursively through group.proxies.
-    // If a required subscription group collides with a generated RuleForge group name,
-    // it is safely aliased and every affected dialer-proxy/group reference is rewritten.
+    if (isOptionEnabled("链式代理")) groups.push(chainRelayGroup());
+
+    // Existing chain dependencies are kept before the final catch-all.
     preserveRequiredOriginalGroups(groups);
+
+    // 6. Catch-all always last.
+    groups.push(
+      selectGroup("🐟 漏网之鱼", [
+        "🚀 节点选择",
+        ...regionMainNames,
+        ...regionAutoNames,
+        ...regionFallbackNames,
+        "🌍 全部节点",
+        "DIRECT",
+      ]),
+    );
 
     return dedupeGroups(groups);
   }
@@ -449,12 +469,9 @@ function main(config) {
       if (isOptionEnabled(name)) rules.push(`RULE-SET,${name},${policy}`);
     }
 
-    // Keep the essential CN IP direct fallback even when the Domestic provider switch is disabled.
-    if (isOptionEnabled("Domestic")) {
-      rules.push("GEOIP,CN,🇨🇳 国内应用,no-resolve");
-    } else {
-      rules.push("GEOIP,CN,DIRECT,no-resolve");
-    }
+    // Keep CN IP as a literal direct fallback; do not route it through the
+    // visible Domestic policy group.
+    rules.push("GEOIP,CN,DIRECT,no-resolve");
 
     rules.push("MATCH,🐟 漏网之鱼");
     return rules;

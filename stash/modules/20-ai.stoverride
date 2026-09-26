@@ -1,9 +1,8 @@
 name: '20 · AI'
 desc: |-
   独立业务分流模块。
-  关闭后对应规则停用，策略组仍由 99 · 基础策略组提供。
 author: 'RuleForge'
-version: '2026.09.26-v2'
+version: '2026.09.26-v7'
 
 rule-providers:
   ruleforge_AI:

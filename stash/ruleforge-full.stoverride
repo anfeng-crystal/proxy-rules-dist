@@ -1,307 +1,433 @@
-name: RuleForge · Stash Android（严格单文件版）
-desc: 完全替换机场策略组与业务规则；保留机场实际节点、proxy-provider、DNS/TUN。
+name: RuleForge · Stash Android（全部启用 v7）
+desc: Domestic -> 国内应用(DIRECT only); GEOIP,CN -> DIRECT.
 author: RuleForge
-version: 2026.09.26-v2
+version: 2026.09.26-v7
 proxy-groups: #!replace
-- name: 🚀 节点选择
-  type: select
-  proxies:
-  - ⚡ 自动选择
-  - 🛟 故障转移
-  - 🌍 全部节点
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇺🇸 美国
-  - 🇸🇬 新加坡
-  - 🇹🇼 台湾
-  - DIRECT
 - name: 🧠 Gemini
   type: select
   proxies:
-  - 🇺🇸 美国
+  - 🇺🇸 美国节点
   - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
   - 🌍 全部节点
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇸🇬 新加坡
-  - 🇹🇼 台湾
   - DIRECT
 - name: 🤖 AI
   type: select
   proxies:
-  - 🇺🇸 美国
-  - 🇸🇬 新加坡
-  - 🇯🇵 日本
-  - 🇭🇰 香港
+  - 🇺🇸 美国节点
+  - 🇸🇬 新加坡节点
+  - 🇯🇵 日本节点
+  - 🇭🇰 香港节点
   - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
+  - 🇹🇼 台湾节点
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
 - name: 📺 YouTube
   type: select
   proxies:
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇺🇸 美国
-  - 🇸🇬 新加坡
-  - 🇹🇼 台湾
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇺🇸 美国节点
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
   - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
 - name: 🎬 Netflix
   type: select
   proxies:
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇺🇸 美国
-  - 🇸🇬 新加坡
-  - 🇹🇼 台湾
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇺🇸 美国节点
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
   - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
 - name: 🏰 DisneyPlus
   type: select
   proxies:
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇺🇸 美国
-  - 🇸🇬 新加坡
-  - 🇹🇼 台湾
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇺🇸 美国节点
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
   - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
 - name: 🇬 Google
   type: select
   proxies:
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇺🇸 美国
-  - 🇸🇬 新加坡
-  - 🇹🇼 台湾
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇺🇸 美国节点
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
   - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
 - name: 🐙 GitHub
   type: select
   proxies:
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇺🇸 美国
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇺🇸 美国节点
   - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
 - name: 🪟 Microsoft
   type: select
   proxies:
   - DIRECT
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇺🇸 美国
-  - 🇸🇬 新加坡
-  - 🇹🇼 台湾
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇺🇸 美国节点
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
   - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
 - name: 🍎 Apple
   type: select
   proxies:
   - DIRECT
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇺🇸 美国
-  - 🇸🇬 新加坡
-  - 🇹🇼 台湾
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇺🇸 美国节点
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
   - 🚀 节点选择
-  - ⚡ 自动选择
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
 - name: ✈️ Telegram
   type: select
   proxies:
-  - 🇸🇬 新加坡
-  - 🇭🇰 香港
-  - 🇺🇸 美国
-  - 🇯🇵 日本
+  - 🇸🇬 新加坡节点
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇯🇵 日本节点
   - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
+  - 🇹🇼 台湾节点
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
 - name: 💳 PayPal
   type: select
   proxies:
-  - 🇭🇰 香港
-  - 🇺🇸 美国
-  - 🇸🇬 新加坡
-  - 🇯🇵 日本
+  - 🇭🇰 香港节点
+  - 🇺🇸 美国节点
+  - 🇸🇬 新加坡节点
+  - 🇯🇵 日本节点
   - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
+  - 🇹🇼 台湾节点
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
 - name: 🎞️ 境外流媒体
   type: select
   proxies:
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇺🇸 美国
-  - 🇸🇬 新加坡
-  - 🇹🇼 台湾
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇺🇸 美国节点
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
   - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
 - name: 🌐 境外网站
   type: select
   proxies:
   - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇺🇸 美国节点
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
   - 🌍 全部节点
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇺🇸 美国
-  - 🇸🇬 新加坡
-  - 🇹🇼 台湾
 - name: 🇨🇳 国内应用
   type: select
   proxies:
   - DIRECT
-  - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
-  - 🌍 全部节点
-- name: 🐟 漏网之鱼
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - ⚡ 自动选择
-  - 🛟 故障转移
-  - 🌍 全部节点
-  - DIRECT
-- name: 🔗 链式中转
-  type: select
-  proxies:
-  - ⚡ 自动选择
-  - 🛟 故障转移
-  - 🇭🇰 香港
-  - 🇯🇵 日本
-  - 🇺🇸 美国
-  - 🇸🇬 新加坡
-  - 🇹🇼 台湾
-  - DIRECT
-- name: ⚡ 自动选择
-  type: select
-  proxies:
-  - 🇭🇰 香港自动
-  - 🇯🇵 日本自动
-  - 🇺🇸 美国自动
-  - 🇸🇬 新加坡自动
-  - 🇹🇼 台湾自动
-  - 🌍 全部节点
-  - DIRECT
-- name: 🛟 故障转移
-  type: select
-  proxies:
-  - 🇭🇰 香港故障转移
-  - 🇯🇵 日本故障转移
-  - 🇺🇸 美国故障转移
-  - 🇸🇬 新加坡故障转移
-  - 🇹🇼 台湾故障转移
-  - 🌍 全部节点
-  - DIRECT
-- name: 🌍 全部节点
-  type: select
-  include-all: true
-- name: 🇭🇰 香港
+- name: 🇭🇰 香港节点
   type: select
   proxies:
   - 🇭🇰 香港自动
   - 🇭🇰 香港故障转移
   include-all: true
-  filter: (?i)(香港|港澳|港区|hong ?kong|hongkong|hkg|(^|[^a-z])hk($|[^a-z])|🇭🇰|港服|港线)
-- name: 🇯🇵 日本
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:香港|港澳|港区|hong ?kong|hongkong|🇭🇰|港服|港线|(^|[^a-z])(hkg|hk)($|[^a-z]))
+- name: 🇯🇵 日本节点
   type: select
   proxies:
   - 🇯🇵 日本自动
   - 🇯🇵 日本故障转移
   include-all: true
-  filter: (?i)(日本|japan|tokyo|東京|osaka|大阪|tyo|nrt|hnd|(^|[^a-z])jp($|[^a-z])|🇯🇵)
-- name: 🇺🇸 美国
-  type: select
-  proxies:
-  - 🇺🇸 美国自动
-  - 🇺🇸 美国故障转移
-  include-all: true
-  filter: (?i)(美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
-- name: 🇸🇬 新加坡
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:日本|japan|tokyo|東京|osaka|大阪|🇯🇵|(^|[^a-z])(jp|tyo|nrt|hnd)($|[^a-z]))
+- name: 🇸🇬 新加坡节点
   type: select
   proxies:
   - 🇸🇬 新加坡自动
   - 🇸🇬 新加坡故障转移
   include-all: true
-  filter: (?i)(新加坡|singapore|sin|sgp|狮城|獅城|星洲|(^|[^a-z])sg($|[^a-z])|🇸🇬)
-- name: 🇹🇼 台湾
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:新加坡|singapore|狮城|獅城|星洲|🇸🇬|(^|[^a-z])(sg|sin|sgp)($|[^a-z]))
+- name: 🇹🇼 台湾节点
   type: select
   proxies:
   - 🇹🇼 台湾自动
   - 🇹🇼 台湾故障转移
   include-all: true
-  filter: (?i)(台湾|臺灣|台灣|taiwan|tpe|taipei|台北|formosa|(^|[^a-z])tw($|[^a-z])|🇹🇼)
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))
+- name: 🇺🇸 美国节点
+  type: select
+  proxies:
+  - 🇺🇸 美国自动
+  - 🇺🇸 美国故障转移
+  include-all: true
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
 - name: 🇭🇰 香港自动
   type: url-test
   include-all: true
-  filter: (?i)(香港|港澳|港区|hong ?kong|hongkong|hkg|(^|[^a-z])hk($|[^a-z])|🇭🇰|港服|港线)
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:香港|港澳|港区|hong ?kong|hongkong|🇭🇰|港服|港线|(^|[^a-z])(hkg|hk)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇯🇵 日本自动
   type: url-test
   include-all: true
-  filter: (?i)(日本|japan|tokyo|東京|osaka|大阪|tyo|nrt|hnd|(^|[^a-z])jp($|[^a-z])|🇯🇵)
-  interval: 600
-  lazy: true
-- name: 🇺🇸 美国自动
-  type: url-test
-  include-all: true
-  filter: (?i)(美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:日本|japan|tokyo|東京|osaka|大阪|🇯🇵|(^|[^a-z])(jp|tyo|nrt|hnd)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇸🇬 新加坡自动
   type: url-test
   include-all: true
-  filter: (?i)(新加坡|singapore|sin|sgp|狮城|獅城|星洲|(^|[^a-z])sg($|[^a-z])|🇸🇬)
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:新加坡|singapore|狮城|獅城|星洲|🇸🇬|(^|[^a-z])(sg|sin|sgp)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇹🇼 台湾自动
   type: url-test
   include-all: true
-  filter: (?i)(台湾|臺灣|台灣|taiwan|tpe|taipei|台北|formosa|(^|[^a-z])tw($|[^a-z])|🇹🇼)
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))
+  interval: 600
+  lazy: true
+- name: 🇺🇸 美国自动
+  type: url-test
+  include-all: true
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇭🇰 香港故障转移
   type: fallback
   include-all: true
-  filter: (?i)(香港|港澳|港区|hong ?kong|hongkong|hkg|(^|[^a-z])hk($|[^a-z])|🇭🇰|港服|港线)
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:香港|港澳|港区|hong ?kong|hongkong|🇭🇰|港服|港线|(^|[^a-z])(hkg|hk)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇯🇵 日本故障转移
   type: fallback
   include-all: true
-  filter: (?i)(日本|japan|tokyo|東京|osaka|大阪|tyo|nrt|hnd|(^|[^a-z])jp($|[^a-z])|🇯🇵)
-  interval: 600
-  lazy: true
-- name: 🇺🇸 美国故障转移
-  type: fallback
-  include-all: true
-  filter: (?i)(美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:日本|japan|tokyo|東京|osaka|大阪|🇯🇵|(^|[^a-z])(jp|tyo|nrt|hnd)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇸🇬 新加坡故障转移
   type: fallback
   include-all: true
-  filter: (?i)(新加坡|singapore|sin|sgp|狮城|獅城|星洲|(^|[^a-z])sg($|[^a-z])|🇸🇬)
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:新加坡|singapore|狮城|獅城|星洲|🇸🇬|(^|[^a-z])(sg|sin|sgp)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇹🇼 台湾故障转移
   type: fallback
   include-all: true
-  filter: (?i)(台湾|臺灣|台灣|taiwan|tpe|taipei|台北|formosa|(^|[^a-z])tw($|[^a-z])|🇹🇼)
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))
   interval: 600
   lazy: true
+- name: 🇺🇸 美国故障转移
+  type: fallback
+  include-all: true
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
+  interval: 600
+  lazy: true
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
+  - DIRECT
+- name: 🌍 全部节点
+  type: select
+  include-all: true
+- name: 🔗 链式中转
+  type: select
+  proxies:
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - DIRECT
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - 🇭🇰 香港节点
+  - 🇯🇵 日本节点
+  - 🇸🇬 新加坡节点
+  - 🇹🇼 台湾节点
+  - 🇺🇸 美国节点
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🇺🇸 美国自动
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🇺🇸 美国故障转移
+  - 🌍 全部节点
+  - DIRECT
 rule-providers:
   ruleforge_Gemini:
     behavior: classical

@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.26-v2",
+  "version": "2026.09.26-v7",
   "client": "Stash Android",
   "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules",
   "order_note": "Stash Android 显示最上方模块规则优先级最高；99-core 必须置底。",
