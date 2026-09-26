@@ -57,7 +57,9 @@
 - Gemini Mihomo MRS：`mihomo-mrs/Gemini/Gemini.mrs`
 - Clash Providers：`snippets/clash-rule-providers.yaml`
 - Clash Rules：`snippets/clash-rules.yaml`
-- Clash Party / Clash Verge Rev JS 覆写：`clash-party-verge-rev.override.js` 或 `snippets/clash-party-verge-rev.override.js`
+- Clash Party JS 覆写：`https://anfeng-crystal.github.io/proxy-rules-dist/overrides/clash-party.override.js`
+- Clash Verge Rev JS 覆写：`https://anfeng-crystal.github.io/proxy-rules-dist/overrides/clash-verge-rev.override.js`
+- 旧版共用覆写地址 `clash-party-verge-rev.override.js` 暂作兼容入口，新安装使用上面的客户端专用地址。
 - Mihomo MRS Providers：`snippets/mihomo-mrs-rule-providers.yaml`
 - Mihomo MRS Rules：`snippets/mihomo-mrs-rules.yaml`
 - QuanX 完整模板：`snippets/quanx-policy-groups.full.conf`
@@ -75,7 +77,7 @@
 5. 需要精细维护时，修改 `sources/` 和 `overrides/` 的叶子输入，再由公开桶聚合发布。
 6. QuanX 的完整模板使用 `snippets/quanx-policy-groups.full.conf`。
 7. Loon 的完整模板使用 `snippets/loon-policy-groups.full.conf`。
-8. Clash Party / Clash Verge Rev 可直接导入 `clash-party-verge-rev.override.js` 做 JS 覆写；需要 YAML 模板时使用 `snippets/mihomo-clash-party-verge-rev.template.yaml`。
+8. Clash Party 在「覆写」页粘贴对应 JS 地址并导入，再到目标订阅的「编辑信息 → 覆写」选中脚本，保存并刷新订阅。`.js` 地址不是机场订阅；在浏览器打开会显示源码。Clash Verge Rev 使用上面的专用 JS 地址；需要 YAML 模板时使用 `snippets/mihomo-clash-party-verge-rev.template.yaml`。
 9. 需要 Mihomo MRS 二进制规则时，使用 `snippets/mihomo-mrs-rule-providers.yaml`、`snippets/mihomo-mrs-rules.yaml` 或完整模板 `snippets/mihomo-mrs-clash-party-verge-rev.template.yaml`。
 10. 图标订阅分别使用 `snippets/quanx-policy-icons.conf`、`snippets/loon-policy-icons.conf` 和 `snippets/clash-icon-urls.yaml`。
 
