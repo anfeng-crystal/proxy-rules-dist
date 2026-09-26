@@ -1,44 +1,11 @@
-# RuleForge · Stash Android
+# Stash Android v2（严格覆写）
 
-Stash 官方建议按功能点拆分 Override。模块应在 Android「覆写」页面按下列顺序排列，
-最上方规则优先级最高，`99 · RuleForge Core` 必须置于最底部。
+`99-core.stoverride` 使用 `proxy-groups: #!replace`，以 RuleForge 的策略组替换机场原策略组。机场的真实节点、远程代理集和 DNS/TUN 设置仍由原订阅提供。策略组名称不再带 `RF·` 前缀；Gemini 组首选 `🇺🇸 美国`。
 
-推荐顺序（上 → 下）：
-- 10-gemini.stoverride
-- 20-ai.stoverride
-- 30-youtube.stoverride
-- 31-netflix.stoverride
-- 32-disneyplus.stoverride
-- 40-google.stoverride
-- 41-github.stoverride
-- 42-microsoft.stoverride
-- 43-apple.stoverride
-- 44-telegram.stoverride
-- 45-paypal.stoverride
-- 50-global-media.stoverride
-- 51-global-sites.stoverride
-- 60-domestic.stoverride
-- 90-chain.stoverride
-- 99-core.stoverride
+在 Stash「覆写 → 从 URL 安装」中安装 [99 基础策略组](https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/99-core.stoverride) 和所需业务模块，例如 [10 Gemini](https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/10-gemini.stoverride)。业务模块从上到下按 `10 → 20 → ... → 60` 排列，99 基础策略组启用并放在最下方。更新已有模块后，刷新覆写并重新连接 Stash。完整 URL 见 [模块索引](modules/index.json)。
 
-默认启用：
-- 除 `90-chain.stoverride` 外全部启用。
-- `99-core.stoverride` 必须启用。
-- 如果只想要部分业务分流，可关闭对应模块。
-- Gemini 模块的第一策略为 `RF·🇺🇸 美国`。
+业务模块只提供规则集及分流规则；关闭模块后，对应策略组仍由 99 基础策略组提供，但不再有该模块的独立分流规则。`🔗 链式中转` 也由 99 基础策略组提供，默认没有业务规则使用它。旧版 `90-chain.stoverride` 地址保留为不修改配置的兼容入口。
 
-重要设计：
-- 不删除机场 proxies。
-- 不删除机场 proxy-groups，因此机场已有 dialer-proxy 依赖不会因 RuleForge 消失。
-- 不覆盖 DNS/TUN。
-- 各业务模块独立创建自己的策略组、rule-provider 和 RULE-SET。
-- Core 模块提供 CN 直连与 MATCH，导致机场原 rules 位于其后而不可达。
-- Stash 当前 Override 不能修改数组中的既有元素，因此链式模块不能自动给已有节点写 dialer-proxy。
+单文件版 [ruleforge-full.stoverride](ruleforge-full.stoverride) 供不使用模块化时安装；不要与模块版同时启用。
 
-直接安装 URL 示例：
-- Core: https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/99-core.stoverride
-- Gemini: https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/10-gemini.stoverride
-- 链式代理: https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/90-chain.stoverride
-
-一键安装链接也可使用：
-- https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/99-core.stoverride
+严格模式会移除机场原策略组。如果真实节点的 `dialer-proxy` 引用机场原策略组，需先调整该依赖。给落地节点设置 `dialer-proxy: 🔗 链式中转` 时，上游组不能再选回该落地节点，以免形成环路。

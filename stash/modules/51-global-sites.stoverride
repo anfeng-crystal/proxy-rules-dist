@@ -1,31 +1,17 @@
 name: '51 · 境外网站'
 desc: |-
-  51 · 境外网站 独立业务分流模块。
-  可单独启用/停用；依赖 99 · RuleForge Core。
+  独立业务分流模块。
+  关闭后对应规则停用，策略组仍由 99 · 基础策略组提供。
 author: 'RuleForge'
-version: '2026.09.26'
-
-proxy-groups:
-  - name: 'RF·🌐 境外网站'
-    type: select
-    proxies:
-      - 'RF·🚀 节点选择'
-      - 'RF·⚡️ 自动选择'
-      - 'RF·🛟 故障转移'
-      - 'RF·🌍 全部节点'
-      - 'RF·🇭🇰 香港'
-      - 'RF·🇯🇵 日本'
-      - 'RF·🇺🇸 美国'
-      - 'RF·🇸🇬 新加坡'
-      - 'RF·🇹🇼 台湾'
+version: '2026.09.26-v2'
 
 rule-providers:
-  rf_GlobalSites:
+  ruleforge_GlobalSites:
     behavior: classical
     format: yaml
     url: 'https://anfeng-crystal.github.io/proxy-rules-dist/clash/GlobalSites/GlobalSites.yaml'
-    path: './rule-providers/rf_GlobalSites.yaml'
+    path: './rule-providers/ruleforge_GlobalSites.yaml'
     interval: 86400
 
 rules:
-  - 'RULE-SET,rf_GlobalSites,RF·🌐 境外网站'
+  - 'RULE-SET,ruleforge_GlobalSites,🌐 境外网站'

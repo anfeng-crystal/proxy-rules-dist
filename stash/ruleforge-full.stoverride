@@ -1,410 +1,410 @@
-name: RuleForge · Stash Android（All-in-One）
-desc: 单文件兼容版。保留机场 proxies / DNS / 原策略组；业务分流由 RuleForge 接管。模块化用户请不要同时启用本文件。
+name: RuleForge · Stash Android（严格单文件版）
+desc: 完全替换机场策略组与业务规则；保留机场实际节点、proxy-provider、DNS/TUN。
 author: RuleForge
-version: 2026.09.26
-proxy-groups:
-- name: RF·🧠 Gemini
+version: 2026.09.26-v2
+proxy-groups: #!replace
+- name: 🚀 节点选择
   type: select
   proxies:
-  - RF·🇺🇸 美国
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-  - RF·🌍 全部节点
-  - RF·🇭🇰 香港
-  - RF·🇯🇵 日本
-  - RF·🇸🇬 新加坡
-  - RF·🇹🇼 台湾
+  - ⚡ 自动选择
+  - 🛟 故障转移
+  - 🌍 全部节点
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇹🇼 台湾
   - DIRECT
-- name: RF·🤖 AI
+- name: 🧠 Gemini
   type: select
   proxies:
-  - RF·🇺🇸 美国
-  - RF·🇸🇬 新加坡
-  - RF·🇯🇵 日本
-  - RF·🇭🇰 香港
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-- name: RF·📺 YouTube
-  type: select
-  proxies:
-  - RF·🇭🇰 香港
-  - RF·🇯🇵 日本
-  - RF·🇺🇸 美国
-  - RF·🇸🇬 新加坡
-  - RF·🇹🇼 台湾
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-- name: RF·🎬 Netflix
-  type: select
-  proxies:
-  - RF·🇭🇰 香港
-  - RF·🇯🇵 日本
-  - RF·🇺🇸 美国
-  - RF·🇸🇬 新加坡
-  - RF·🇹🇼 台湾
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-- name: RF·🏰 DisneyPlus
-  type: select
-  proxies:
-  - RF·🇭🇰 香港
-  - RF·🇯🇵 日本
-  - RF·🇺🇸 美国
-  - RF·🇸🇬 新加坡
-  - RF·🇹🇼 台湾
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-- name: RF·🇬 Google
-  type: select
-  proxies:
-  - RF·🇭🇰 香港
-  - RF·🇯🇵 日本
-  - RF·🇺🇸 美国
-  - RF·🇸🇬 新加坡
-  - RF·🇹🇼 台湾
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-- name: RF·🐙 GitHub
-  type: select
-  proxies:
-  - RF·🇭🇰 香港
-  - RF·🇯🇵 日本
-  - RF·🇺🇸 美国
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-- name: RF·🪟 Microsoft
-  type: select
-  proxies:
+  - 🇺🇸 美国
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+  - 🌍 全部节点
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇸🇬 新加坡
+  - 🇹🇼 台湾
   - DIRECT
-  - RF·🇭🇰 香港
-  - RF·🇯🇵 日本
-  - RF·🇺🇸 美国
-  - RF·🇸🇬 新加坡
-  - RF·🇹🇼 台湾
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-- name: RF·🍎 Apple
+- name: 🤖 AI
   type: select
   proxies:
-  - DIRECT
-  - RF·🇭🇰 香港
-  - RF·🇯🇵 日本
-  - RF·🇺🇸 美国
-  - RF·🇸🇬 新加坡
-  - RF·🇹🇼 台湾
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-- name: RF·✈️ Telegram
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇯🇵 日本
+  - 🇭🇰 香港
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+- name: 📺 YouTube
   type: select
   proxies:
-  - RF·🇸🇬 新加坡
-  - RF·🇭🇰 香港
-  - RF·🇺🇸 美国
-  - RF·🇯🇵 日本
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-- name: RF·💳 PayPal
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇹🇼 台湾
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+- name: 🎬 Netflix
   type: select
   proxies:
-  - RF·🇭🇰 香港
-  - RF·🇺🇸 美国
-  - RF·🇸🇬 新加坡
-  - RF·🇯🇵 日本
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-- name: RF·🎞️ 境外流媒体
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇹🇼 台湾
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+- name: 🏰 DisneyPlus
   type: select
   proxies:
-  - RF·🇭🇰 香港
-  - RF·🇯🇵 日本
-  - RF·🇺🇸 美国
-  - RF·🇸🇬 新加坡
-  - RF·🇹🇼 台湾
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-- name: RF·🌐 境外网站
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇹🇼 台湾
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+- name: 🇬 Google
   type: select
   proxies:
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-  - RF·🌍 全部节点
-  - RF·🇭🇰 香港
-  - RF·🇯🇵 日本
-  - RF·🇺🇸 美国
-  - RF·🇸🇬 新加坡
-  - RF·🇹🇼 台湾
-- name: RF·🇨🇳 国内应用
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇹🇼 台湾
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+- name: 🐙 GitHub
+  type: select
+  proxies:
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇺🇸 美国
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+- name: 🪟 Microsoft
   type: select
   proxies:
   - DIRECT
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-  - RF·🌍 全部节点
-- name: RF·🔗 链式中转
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇹🇼 台湾
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+- name: 🍎 Apple
   type: select
   proxies:
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-  - RF·🇭🇰 香港
-  - RF·🇯🇵 日本
-  - RF·🇺🇸 美国
-  - RF·🇸🇬 新加坡
-  - RF·🇹🇼 台湾
   - DIRECT
-- name: RF·🚀 节点选择
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇹🇼 台湾
+  - 🚀 节点选择
+  - ⚡ 自动选择
+- name: ✈️ Telegram
   type: select
   proxies:
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-  - RF·🌍 全部节点
-  - RF·🇭🇰 香港
-  - RF·🇯🇵 日本
-  - RF·🇺🇸 美国
-  - RF·🇸🇬 新加坡
-  - RF·🇹🇼 台湾
-  - DIRECT
-- name: RF·⚡️ 自动选择
+  - 🇸🇬 新加坡
+  - 🇭🇰 香港
+  - 🇺🇸 美国
+  - 🇯🇵 日本
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+- name: 💳 PayPal
   type: select
   proxies:
-  - RF·🇭🇰 香港自动
-  - RF·🇯🇵 日本自动
-  - RF·🇺🇸 美国自动
-  - RF·🇸🇬 新加坡自动
-  - RF·🇹🇼 台湾自动
-  - RF·🌍 全部节点
-  - DIRECT
-- name: RF·🛟 故障转移
+  - 🇭🇰 香港
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇯🇵 日本
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+- name: 🎞️ 境外流媒体
   type: select
   proxies:
-  - RF·🇭🇰 香港故障转移
-  - RF·🇯🇵 日本故障转移
-  - RF·🇺🇸 美国故障转移
-  - RF·🇸🇬 新加坡故障转移
-  - RF·🇹🇼 台湾故障转移
-  - RF·🌍 全部节点
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇹🇼 台湾
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+- name: 🌐 境外网站
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+  - 🌍 全部节点
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇹🇼 台湾
+- name: 🇨🇳 国内应用
+  type: select
+  proxies:
   - DIRECT
-- name: RF·🌍 全部节点
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+  - 🌍 全部节点
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ⚡ 自动选择
+  - 🛟 故障转移
+  - 🌍 全部节点
+  - DIRECT
+- name: 🔗 链式中转
+  type: select
+  proxies:
+  - ⚡ 自动选择
+  - 🛟 故障转移
+  - 🇭🇰 香港
+  - 🇯🇵 日本
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇹🇼 台湾
+  - DIRECT
+- name: ⚡ 自动选择
+  type: select
+  proxies:
+  - 🇭🇰 香港自动
+  - 🇯🇵 日本自动
+  - 🇺🇸 美国自动
+  - 🇸🇬 新加坡自动
+  - 🇹🇼 台湾自动
+  - 🌍 全部节点
+  - DIRECT
+- name: 🛟 故障转移
+  type: select
+  proxies:
+  - 🇭🇰 香港故障转移
+  - 🇯🇵 日本故障转移
+  - 🇺🇸 美国故障转移
+  - 🇸🇬 新加坡故障转移
+  - 🇹🇼 台湾故障转移
+  - 🌍 全部节点
+  - DIRECT
+- name: 🌍 全部节点
   type: select
   include-all: true
-- name: RF·🇭🇰 香港
+- name: 🇭🇰 香港
   type: select
   proxies:
-  - RF·🇭🇰 香港自动
-  - RF·🇭🇰 香港故障转移
+  - 🇭🇰 香港自动
+  - 🇭🇰 香港故障转移
   include-all: true
   filter: (?i)(香港|港澳|港区|hong ?kong|hongkong|hkg|(^|[^a-z])hk($|[^a-z])|🇭🇰|港服|港线)
-- name: RF·🇯🇵 日本
+- name: 🇯🇵 日本
   type: select
   proxies:
-  - RF·🇯🇵 日本自动
-  - RF·🇯🇵 日本故障转移
+  - 🇯🇵 日本自动
+  - 🇯🇵 日本故障转移
   include-all: true
   filter: (?i)(日本|japan|tokyo|東京|osaka|大阪|tyo|nrt|hnd|(^|[^a-z])jp($|[^a-z])|🇯🇵)
-- name: RF·🇺🇸 美国
+- name: 🇺🇸 美国
   type: select
   proxies:
-  - RF·🇺🇸 美国自动
-  - RF·🇺🇸 美国故障转移
+  - 🇺🇸 美国自动
+  - 🇺🇸 美国故障转移
   include-all: true
   filter: (?i)(美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
-- name: RF·🇸🇬 新加坡
+- name: 🇸🇬 新加坡
   type: select
   proxies:
-  - RF·🇸🇬 新加坡自动
-  - RF·🇸🇬 新加坡故障转移
+  - 🇸🇬 新加坡自动
+  - 🇸🇬 新加坡故障转移
   include-all: true
   filter: (?i)(新加坡|singapore|sin|sgp|狮城|獅城|星洲|(^|[^a-z])sg($|[^a-z])|🇸🇬)
-- name: RF·🇹🇼 台湾
+- name: 🇹🇼 台湾
   type: select
   proxies:
-  - RF·🇹🇼 台湾自动
-  - RF·🇹🇼 台湾故障转移
+  - 🇹🇼 台湾自动
+  - 🇹🇼 台湾故障转移
   include-all: true
   filter: (?i)(台湾|臺灣|台灣|taiwan|tpe|taipei|台北|formosa|(^|[^a-z])tw($|[^a-z])|🇹🇼)
-- name: RF·🇭🇰 香港自动
+- name: 🇭🇰 香港自动
   type: url-test
-  include-all: true
-  filter: (?i)(香港|港澳|港区|hong ?kong|hongkong|hkg|(^|[^a-z])hk($|[^a-z])|🇭🇰|港服|港线)
-  interval: 600
-  lazy: true
-- name: RF·🇯🇵 日本自动
-  type: url-test
-  include-all: true
-  filter: (?i)(日本|japan|tokyo|東京|osaka|大阪|tyo|nrt|hnd|(^|[^a-z])jp($|[^a-z])|🇯🇵)
-  interval: 600
-  lazy: true
-- name: RF·🇺🇸 美国自动
-  type: url-test
-  include-all: true
-  filter: (?i)(美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
-  interval: 600
-  lazy: true
-- name: RF·🇸🇬 新加坡自动
-  type: url-test
-  include-all: true
-  filter: (?i)(新加坡|singapore|sin|sgp|狮城|獅城|星洲|(^|[^a-z])sg($|[^a-z])|🇸🇬)
-  interval: 600
-  lazy: true
-- name: RF·🇹🇼 台湾自动
-  type: url-test
-  include-all: true
-  filter: (?i)(台湾|臺灣|台灣|taiwan|tpe|taipei|台北|formosa|(^|[^a-z])tw($|[^a-z])|🇹🇼)
-  interval: 600
-  lazy: true
-- name: RF·🇭🇰 香港故障转移
-  type: fallback
   include-all: true
   filter: (?i)(香港|港澳|港区|hong ?kong|hongkong|hkg|(^|[^a-z])hk($|[^a-z])|🇭🇰|港服|港线)
   interval: 600
   lazy: true
-- name: RF·🇯🇵 日本故障转移
+- name: 🇯🇵 日本自动
+  type: url-test
+  include-all: true
+  filter: (?i)(日本|japan|tokyo|東京|osaka|大阪|tyo|nrt|hnd|(^|[^a-z])jp($|[^a-z])|🇯🇵)
+  interval: 600
+  lazy: true
+- name: 🇺🇸 美国自动
+  type: url-test
+  include-all: true
+  filter: (?i)(美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
+  interval: 600
+  lazy: true
+- name: 🇸🇬 新加坡自动
+  type: url-test
+  include-all: true
+  filter: (?i)(新加坡|singapore|sin|sgp|狮城|獅城|星洲|(^|[^a-z])sg($|[^a-z])|🇸🇬)
+  interval: 600
+  lazy: true
+- name: 🇹🇼 台湾自动
+  type: url-test
+  include-all: true
+  filter: (?i)(台湾|臺灣|台灣|taiwan|tpe|taipei|台北|formosa|(^|[^a-z])tw($|[^a-z])|🇹🇼)
+  interval: 600
+  lazy: true
+- name: 🇭🇰 香港故障转移
+  type: fallback
+  include-all: true
+  filter: (?i)(香港|港澳|港区|hong ?kong|hongkong|hkg|(^|[^a-z])hk($|[^a-z])|🇭🇰|港服|港线)
+  interval: 600
+  lazy: true
+- name: 🇯🇵 日本故障转移
   type: fallback
   include-all: true
   filter: (?i)(日本|japan|tokyo|東京|osaka|大阪|tyo|nrt|hnd|(^|[^a-z])jp($|[^a-z])|🇯🇵)
   interval: 600
   lazy: true
-- name: RF·🇺🇸 美国故障转移
+- name: 🇺🇸 美国故障转移
   type: fallback
   include-all: true
   filter: (?i)(美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
   interval: 600
   lazy: true
-- name: RF·🇸🇬 新加坡故障转移
+- name: 🇸🇬 新加坡故障转移
   type: fallback
   include-all: true
   filter: (?i)(新加坡|singapore|sin|sgp|狮城|獅城|星洲|(^|[^a-z])sg($|[^a-z])|🇸🇬)
   interval: 600
   lazy: true
-- name: RF·🇹🇼 台湾故障转移
+- name: 🇹🇼 台湾故障转移
   type: fallback
   include-all: true
   filter: (?i)(台湾|臺灣|台灣|taiwan|tpe|taipei|台北|formosa|(^|[^a-z])tw($|[^a-z])|🇹🇼)
   interval: 600
   lazy: true
-- name: RF·🐟 漏网之鱼
-  type: select
-  proxies:
-  - RF·🚀 节点选择
-  - RF·⚡️ 自动选择
-  - RF·🛟 故障转移
-  - RF·🌍 全部节点
-  - DIRECT
 rule-providers:
-  rf_Gemini:
+  ruleforge_Gemini:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Gemini/Gemini.yaml
-    path: ./rule-providers/rf_Gemini.yaml
+    path: ./rule-providers/ruleforge_Gemini.yaml
     interval: 86400
-  rf_AI:
+  ruleforge_AI:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/AI/AI.yaml
-    path: ./rule-providers/rf_AI.yaml
+    path: ./rule-providers/ruleforge_AI.yaml
     interval: 86400
-  rf_YouTube:
+  ruleforge_YouTube:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/YouTube/YouTube.yaml
-    path: ./rule-providers/rf_YouTube.yaml
+    path: ./rule-providers/ruleforge_YouTube.yaml
     interval: 86400
-  rf_Netflix:
+  ruleforge_Netflix:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Netflix/Netflix.yaml
-    path: ./rule-providers/rf_Netflix.yaml
+    path: ./rule-providers/ruleforge_Netflix.yaml
     interval: 86400
-  rf_DisneyPlus:
+  ruleforge_DisneyPlus:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/DisneyPlus/DisneyPlus.yaml
-    path: ./rule-providers/rf_DisneyPlus.yaml
+    path: ./rule-providers/ruleforge_DisneyPlus.yaml
     interval: 86400
-  rf_Google:
+  ruleforge_Google:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Google/Google.yaml
-    path: ./rule-providers/rf_Google.yaml
+    path: ./rule-providers/ruleforge_Google.yaml
     interval: 86400
-  rf_GitHub:
+  ruleforge_GitHub:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GitHub/GitHub.yaml
-    path: ./rule-providers/rf_GitHub.yaml
+    path: ./rule-providers/ruleforge_GitHub.yaml
     interval: 86400
-  rf_Microsoft:
+  ruleforge_Microsoft:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Microsoft/Microsoft.yaml
-    path: ./rule-providers/rf_Microsoft.yaml
+    path: ./rule-providers/ruleforge_Microsoft.yaml
     interval: 86400
-  rf_Apple:
+  ruleforge_Apple:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Apple/Apple.yaml
-    path: ./rule-providers/rf_Apple.yaml
+    path: ./rule-providers/ruleforge_Apple.yaml
     interval: 86400
-  rf_Telegram:
+  ruleforge_Telegram:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Telegram/Telegram.yaml
-    path: ./rule-providers/rf_Telegram.yaml
+    path: ./rule-providers/ruleforge_Telegram.yaml
     interval: 86400
-  rf_PayPal:
+  ruleforge_PayPal:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/PayPal/PayPal.yaml
-    path: ./rule-providers/rf_PayPal.yaml
+    path: ./rule-providers/ruleforge_PayPal.yaml
     interval: 86400
-  rf_GlobalMedia:
+  ruleforge_GlobalMedia:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GlobalMedia/GlobalMedia.yaml
-    path: ./rule-providers/rf_GlobalMedia.yaml
+    path: ./rule-providers/ruleforge_GlobalMedia.yaml
     interval: 86400
-  rf_GlobalSites:
+  ruleforge_GlobalSites:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/GlobalSites/GlobalSites.yaml
-    path: ./rule-providers/rf_GlobalSites.yaml
+    path: ./rule-providers/ruleforge_GlobalSites.yaml
     interval: 86400
-  rf_Domestic:
+  ruleforge_Domestic:
     behavior: classical
     format: yaml
     url: https://anfeng-crystal.github.io/proxy-rules-dist/clash/Domestic/Domestic.yaml
-    path: ./rule-providers/rf_Domestic.yaml
+    path: ./rule-providers/ruleforge_Domestic.yaml
     interval: 86400
-rules:
-- RULE-SET,rf_Gemini,RF·🧠 Gemini
-- RULE-SET,rf_AI,RF·🤖 AI
-- RULE-SET,rf_YouTube,RF·📺 YouTube
-- RULE-SET,rf_Netflix,RF·🎬 Netflix
-- RULE-SET,rf_DisneyPlus,RF·🏰 DisneyPlus
-- RULE-SET,rf_Google,RF·🇬 Google
-- RULE-SET,rf_GitHub,RF·🐙 GitHub
-- DOMAIN,login.live.com,RF·🚀 节点选择
-- DOMAIN,logincdn.msauth.net,RF·🚀 节点选择
-- RULE-SET,rf_Microsoft,RF·🪟 Microsoft
-- RULE-SET,rf_Apple,RF·🍎 Apple
-- RULE-SET,rf_Telegram,RF·✈️ Telegram
-- RULE-SET,rf_PayPal,RF·💳 PayPal
-- RULE-SET,rf_GlobalMedia,RF·🎞️ 境外流媒体
-- RULE-SET,rf_GlobalSites,RF·🌐 境外网站
-- RULE-SET,rf_Domestic,RF·🇨🇳 国内应用
+rules: #!replace
 - GEOSITE,private,DIRECT
 - GEOIP,LAN,DIRECT,no-resolve
+- RULE-SET,ruleforge_Gemini,🧠 Gemini
+- RULE-SET,ruleforge_AI,🤖 AI
+- RULE-SET,ruleforge_YouTube,📺 YouTube
+- RULE-SET,ruleforge_Netflix,🎬 Netflix
+- RULE-SET,ruleforge_DisneyPlus,🏰 DisneyPlus
+- RULE-SET,ruleforge_Google,🇬 Google
+- RULE-SET,ruleforge_GitHub,🐙 GitHub
+- DOMAIN,login.live.com,🚀 节点选择
+- DOMAIN,logincdn.msauth.net,🚀 节点选择
+- RULE-SET,ruleforge_Microsoft,🪟 Microsoft
+- RULE-SET,ruleforge_Apple,🍎 Apple
+- RULE-SET,ruleforge_Telegram,✈️ Telegram
+- RULE-SET,ruleforge_PayPal,💳 PayPal
+- RULE-SET,ruleforge_GlobalMedia,🎞️ 境外流媒体
+- RULE-SET,ruleforge_GlobalSites,🌐 境外网站
+- RULE-SET,ruleforge_Domestic,🇨🇳 国内应用
 - GEOIP,CN,DIRECT,no-resolve
-- MATCH,RF·🐟 漏网之鱼
+- MATCH,🐟 漏网之鱼

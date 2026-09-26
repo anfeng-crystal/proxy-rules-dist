@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.26",
+  "version": "2026.09.26-v2",
   "client": "Stash Android",
   "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules",
   "order_note": "Stash Android 显示最上方模块规则优先级最高；99-core 必须置底。",
@@ -117,20 +117,30 @@
       "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/60-domestic.stoverride"
     },
     {
-      "file": "90-chain.stoverride",
-      "name": "90 · 链式代理（可选）",
-      "default_enabled": false,
-      "required": false,
-      "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/90-chain.stoverride",
-      "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/90-chain.stoverride"
-    },
-    {
       "file": "99-core.stoverride",
-      "name": "99 · RuleForge Core（必须启用）",
+      "name": "99 · 基础策略组（必须启用）",
       "default_enabled": true,
       "required": true,
       "url": "https://anfeng-crystal.github.io/proxy-rules-dist/stash/modules/99-core.stoverride",
       "install_url": "https://link.stash.ws/install-override/anfeng-crystal.github.io/proxy-rules-dist/stash/modules/99-core.stoverride"
     }
+  ],
+  "mode": "strict",
+  "order": [
+    "10-gemini.stoverride",
+    "20-ai.stoverride",
+    "30-youtube.stoverride",
+    "31-netflix.stoverride",
+    "32-disneyplus.stoverride",
+    "40-google.stoverride",
+    "41-github.stoverride",
+    "42-microsoft.stoverride",
+    "43-apple.stoverride",
+    "44-telegram.stoverride",
+    "45-paypal.stoverride",
+    "50-global-media.stoverride",
+    "51-global-sites.stoverride",
+    "60-domestic.stoverride",
+    "99-core.stoverride"
   ]
 }

@@ -1,28 +1,17 @@
 name: '41 · GitHub'
 desc: |-
-  41 · GitHub 独立业务分流模块。
-  可单独启用/停用；依赖 99 · RuleForge Core。
+  独立业务分流模块。
+  关闭后对应规则停用，策略组仍由 99 · 基础策略组提供。
 author: 'RuleForge'
-version: '2026.09.26'
-
-proxy-groups:
-  - name: 'RF·🐙 GitHub'
-    type: select
-    proxies:
-      - 'RF·🇭🇰 香港'
-      - 'RF·🇯🇵 日本'
-      - 'RF·🇺🇸 美国'
-      - 'RF·🚀 节点选择'
-      - 'RF·⚡️ 自动选择'
-      - 'RF·🛟 故障转移'
+version: '2026.09.26-v2'
 
 rule-providers:
-  rf_GitHub:
+  ruleforge_GitHub:
     behavior: classical
     format: yaml
     url: 'https://anfeng-crystal.github.io/proxy-rules-dist/clash/GitHub/GitHub.yaml'
-    path: './rule-providers/rf_GitHub.yaml'
+    path: './rule-providers/ruleforge_GitHub.yaml'
     interval: 86400
 
 rules:
-  - 'RULE-SET,rf_GitHub,RF·🐙 GitHub'
+  - 'RULE-SET,ruleforge_GitHub,🐙 GitHub'
