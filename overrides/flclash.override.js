@@ -264,6 +264,20 @@ function main(config) {
     };
   }
 
+  function orderedPolicyChoices(proxies) {
+    const regionalMain = new Set(REGION_CONFIGS.map(([, mainName]) => mainName));
+    const regionalAuto = new Set(REGION_CONFIGS.map(([baseName]) => `${baseName}自动`));
+    const regionalFallback = new Set(REGION_CONFIGS.map(([baseName]) => `${baseName}故障转移`));
+    const regional = new Set([...regionalMain, ...regionalAuto, ...regionalFallback]);
+    return unique([
+      proxies[0], // Keep the configured default, including DIRECT or 节点选择.
+      ...proxies.filter(proxy => regionalMain.has(proxy)),
+      ...proxies.filter(proxy => regionalAuto.has(proxy)),
+      ...proxies.filter(proxy => regionalFallback.has(proxy)),
+      ...proxies.filter(proxy => !regional.has(proxy)),
+    ]);
+  }
+
   function buildGroups() {
     const regionMainNames = REGION_CONFIGS.map(([, mainName]) => mainName);
     const regionAutoNames = REGION_CONFIGS.map(([baseName]) => `${baseName}自动`);
@@ -272,7 +286,7 @@ function main(config) {
 
     // 1. Business routing groups.
     for (const [optionName, name, proxies] of POLICY_GROUPS) {
-      if (isOptionEnabled(optionName)) groups.push(selectGroup(name, proxies));
+      if (isOptionEnabled(optionName)) groups.push(selectGroup(name, orderedPolicyChoices(proxies)));
     }
 
     // 2. Regional manual groups: regional auto + failover + actual nodes.

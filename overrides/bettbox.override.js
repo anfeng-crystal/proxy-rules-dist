@@ -1,10 +1,10 @@
+const Compatible_With_Bettbox = { ruleOptionsEnable: true };
+
 // RuleForge Bettbox JavaScript override.
 // Bettbox >= v1.18.8 visual options compatible.
 // Keep subscription proxies and DNS in the client; rebuild groups, providers and rules.
 // Chain proxy support is opt-in and disabled by default.
 // Existing subscription chain dependencies are preserved automatically, even when chain mode is off.
-
-const Compatible_With_Bettbox = { ruleOptionsEnable: true };
 
 // V7: Domestic is visible with DIRECT only; GEOIP,CN remains literal DIRECT.
 // Bettbox visual switches. Bettbox will merge UI selections into this object before main() runs.
@@ -258,6 +258,20 @@ function main(config, profileName) {
     };
   }
 
+  function orderedPolicyChoices(proxies) {
+    const regionalMain = new Set(REGION_CONFIGS.map(([, mainName]) => mainName));
+    const regionalAuto = new Set(REGION_CONFIGS.map(([baseName]) => `${baseName}自动`));
+    const regionalFallback = new Set(REGION_CONFIGS.map(([baseName]) => `${baseName}故障转移`));
+    const regional = new Set([...regionalMain, ...regionalAuto, ...regionalFallback]);
+    return unique([
+      proxies[0], // Keep the configured default, including DIRECT or 节点选择.
+      ...proxies.filter(proxy => regionalMain.has(proxy)),
+      ...proxies.filter(proxy => regionalAuto.has(proxy)),
+      ...proxies.filter(proxy => regionalFallback.has(proxy)),
+      ...proxies.filter(proxy => !regional.has(proxy)),
+    ]);
+  }
+
   function buildGroups() {
     const regionMainNames = REGION_CONFIGS.map(([, mainName]) => mainName);
     const regionAutoNames = REGION_CONFIGS.map(([baseName]) => `${baseName}自动`);
@@ -266,7 +280,7 @@ function main(config, profileName) {
 
     // 1. Business routing groups.
     for (const [optionName, name, proxies] of POLICY_GROUPS) {
-      if (isOptionEnabled(optionName)) groups.push(selectGroup(name, proxies));
+      if (isOptionEnabled(optionName)) groups.push(selectGroup(name, orderedPolicyChoices(proxies)));
     }
 
     // 2. Regional manual groups: regional auto + failover + actual nodes.
