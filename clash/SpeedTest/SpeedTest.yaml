@@ -3331,6 +3331,7 @@ payload:
   - DOMAIN-SUFFIX,speedtest.civitanet.com
   - DOMAIN-SUFFIX,speedtest.clouvider.net
   - DOMAIN-SUFFIX,speedtest.cmcnetworks.net
+  - DOMAIN-SUFFIX,speedtest.co
   - DOMAIN-SUFFIX,speedtest.com.sg
   - DOMAIN-SUFFIX,speedtest.comnet.com.tr
   - DOMAIN-SUFFIX,speedtest.contabo.net
