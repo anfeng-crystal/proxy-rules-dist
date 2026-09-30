@@ -682,8 +682,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3406,
-      "source_count": 3406,
+      "rules": 3408,
+      "source_count": 3408,
       "manual_count": 0,
       "includes": [
         {
@@ -697,16 +697,16 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3404,
+      "mihomo_mrs_rules": 3406,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 37168
+      "mihomo_mrs_bytes": 37255
     },
     {
       "name": "Gemini",
       "policy": "Gemini",
       "description": "Google Gemini, AI Studio, and NotebookLM endpoints.",
-      "rules": 50,
-      "source_count": 48,
+      "rules": 53,
+      "source_count": 51,
       "manual_count": 2,
       "includes": [
         {
@@ -723,16 +723,16 @@
       "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
       "local_fallback": "gemini.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Gemini/Gemini.mrs",
-      "mihomo_mrs_rules": 47,
+      "mihomo_mrs_rules": 50,
       "mihomo_mrs_omitted": 3,
-      "mihomo_mrs_bytes": 551
+      "mihomo_mrs_bytes": 589
     },
     {
       "name": "AI",
       "policy": "AI",
       "description": "Overseas AI services only.",
-      "rules": 162,
-      "source_count": 102,
+      "rules": 165,
+      "source_count": 105,
       "manual_count": 60,
       "includes": [
         {
@@ -806,9 +806,9 @@
       "license": "unknown",
       "local_fallback": "global-ai.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/AI/AI.mrs",
-      "mihomo_mrs_rules": 156,
+      "mihomo_mrs_rules": 159,
       "mihomo_mrs_omitted": 6,
-      "mihomo_mrs_bytes": 1553
+      "mihomo_mrs_bytes": 1594
     },
     {
       "name": "Dev",
@@ -1734,11 +1734,11 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3406
+        "rules": 3408
       },
       {
         "name": "AI",
-        "rules": 162
+        "rules": 165
       },
       {
         "name": "Apple",
@@ -1905,22 +1905,22 @@
         "bytes": 271
       },
       "SpeedTest": {
-        "rules": 3404,
+        "rules": 3406,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 37168
+        "bytes": 37255
       },
       "Gemini": {
-        "rules": 47,
+        "rules": 50,
         "omitted": 3,
         "path": "mihomo-mrs/Gemini/Gemini.mrs",
-        "bytes": 551
+        "bytes": 589
       },
       "AI": {
-        "rules": 156,
+        "rules": 159,
         "omitted": 6,
         "path": "mihomo-mrs/AI/AI.mrs",
-        "bytes": 1553
+        "bytes": 1594
       },
       "Dev": {
         "rules": 55,

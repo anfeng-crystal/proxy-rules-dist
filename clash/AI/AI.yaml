@@ -37,6 +37,8 @@ payload:
   - DOMAIN,events.statsigapi.net
   - DOMAIN,files.oaiusercontent.com
   - DOMAIN,forwarder.workos.com
+  - DOMAIN,geminiweb-pa.clients.google.com
+  - DOMAIN,geminiweb-pa.clients6.google.com
   - DOMAIN,js.intercomcdn.com
   - DOMAIN,login.live.com
   - DOMAIN,makersuite.google.com
@@ -120,6 +122,7 @@ payload:
   - DOMAIN-SUFFIX,jules.google.com
   - DOMAIN-SUFFIX,labs.google
   - DOMAIN-SUFFIX,labs.google.com
+  - DOMAIN-SUFFIX,labstailwind.pa.googleapis.com
   - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN-SUFFIX,midjourney.com
