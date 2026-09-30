@@ -1,7 +1,7 @@
-name: RuleForge · Stash Android（全部启用 v7）
+name: RuleForge · Stash Android（全部启用 v8）
 desc: Domestic -> 国内应用(DIRECT only); GEOIP,CN -> DIRECT.
 author: RuleForge
-version: 2026.09.26-v7
+version: 2026.09.30-v8
 proxy-groups: #!replace
 - name: 🧠 Gemini
   type: select
@@ -276,93 +276,93 @@ proxy-groups: #!replace
   - 🇭🇰 香港自动
   - 🇭🇰 香港故障转移
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:香港|港澳|港区|hong ?kong|hongkong|🇭🇰|港服|港线|(^|[^a-z])(hkg|hk)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:香港|港澳|港区|hong ?kong|hongkong|🇭🇰|港服|港线|(^|[^a-z])(hkg|hk)($|[^a-z]))
 - name: 🇹🇼 台湾节点
   type: select
   proxies:
   - 🇹🇼 台湾自动
   - 🇹🇼 台湾故障转移
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))
 - name: 🇯🇵 日本节点
   type: select
   proxies:
   - 🇯🇵 日本自动
   - 🇯🇵 日本故障转移
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:日本|japan|tokyo|東京|osaka|大阪|🇯🇵|(^|[^a-z])(jp|tyo|nrt|hnd)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:日本|japan|tokyo|東京|osaka|大阪|🇯🇵|(^|[^a-z])(jp|tyo|nrt|hnd)($|[^a-z]))
 - name: 🇸🇬 新加坡节点
   type: select
   proxies:
   - 🇸🇬 新加坡自动
   - 🇸🇬 新加坡故障转移
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:新加坡|singapore|狮城|獅城|星洲|🇸🇬|(^|[^a-z])(sg|sin|sgp)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:新加坡|singapore|狮城|獅城|星洲|🇸🇬|(^|[^a-z])(sg|sin|sgp)($|[^a-z]))
 - name: 🇺🇸 美国节点
   type: select
   proxies:
   - 🇺🇸 美国自动
   - 🇺🇸 美国故障转移
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
 - name: 🇭🇰 香港自动
   type: url-test
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:香港|港澳|港区|hong ?kong|hongkong|🇭🇰|港服|港线|(^|[^a-z])(hkg|hk)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:香港|港澳|港区|hong ?kong|hongkong|🇭🇰|港服|港线|(^|[^a-z])(hkg|hk)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇹🇼 台湾自动
   type: url-test
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇯🇵 日本自动
   type: url-test
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:日本|japan|tokyo|東京|osaka|大阪|🇯🇵|(^|[^a-z])(jp|tyo|nrt|hnd)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:日本|japan|tokyo|東京|osaka|大阪|🇯🇵|(^|[^a-z])(jp|tyo|nrt|hnd)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇸🇬 新加坡自动
   type: url-test
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:新加坡|singapore|狮城|獅城|星洲|🇸🇬|(^|[^a-z])(sg|sin|sgp)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:新加坡|singapore|狮城|獅城|星洲|🇸🇬|(^|[^a-z])(sg|sin|sgp)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇺🇸 美国自动
   type: url-test
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇭🇰 香港故障转移
   type: fallback
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:香港|港澳|港区|hong ?kong|hongkong|🇭🇰|港服|港线|(^|[^a-z])(hkg|hk)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:香港|港澳|港区|hong ?kong|hongkong|🇭🇰|港服|港线|(^|[^a-z])(hkg|hk)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇹🇼 台湾故障转移
   type: fallback
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:台湾|臺灣|台灣|taiwan|taipei|台北|🇹🇼|formosa|(^|[^a-z])(tw|tpe)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇯🇵 日本故障转移
   type: fallback
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:日本|japan|tokyo|東京|osaka|大阪|🇯🇵|(^|[^a-z])(jp|tyo|nrt|hnd)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:日本|japan|tokyo|東京|osaka|大阪|🇯🇵|(^|[^a-z])(jp|tyo|nrt|hnd)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇸🇬 新加坡故障转移
   type: fallback
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:新加坡|singapore|狮城|獅城|星洲|🇸🇬|(^|[^a-z])(sg|sin|sgp)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:新加坡|singapore|狮城|獅城|星洲|🇸🇬|(^|[^a-z])(sg|sin|sgp)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🇺🇸 美国故障转移
   type: fallback
   include-all: true
-  filter: (?i)^(?!.*(?:落地|landing|exit|自建)).*(?:美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
+  filter: (?i)^(?!.*(?:落地|landing|exit|自建|流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*(?:美国|美國|united ?states|seattle|san ?jose|los ?angeles|new ?york|🇺🇸|(^|[^a-z])(usa|us|lax|sfo|sea|nyc|jfk|ord|dfw|atl|sjc)($|[^a-z]))
   interval: 600
   lazy: true
 - name: 🚀 节点选择
@@ -388,6 +388,7 @@ proxy-groups: #!replace
 - name: 🌍 全部节点
   type: select
   include-all: true
+  filter: '(?i)^(?!.*(?:流量|到期|过期|剩余|套餐|重置|官网|网址|订阅|群组|客服|工单|traffic|expire|reset|remain|quota|bandwidth|^\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*(\||/)\s*\d+(\.\d+)?\s*[kmgtpe](i?b)?\s*$)).*'
 - name: 🔗 链式中转
   type: select
   proxies:
@@ -534,3 +535,4 @@ rules: #!replace
 - RULE-SET,ruleforge_Domestic,🇨🇳 国内应用
 - GEOIP,CN,DIRECT,no-resolve
 - MATCH,🐟 漏网之鱼
+
