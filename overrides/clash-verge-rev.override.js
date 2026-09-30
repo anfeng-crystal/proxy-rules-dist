@@ -6,6 +6,7 @@
 // Uses Clash Verge Rev's main(config, profileName) script API. profileName is accepted for client compatibility but routing behavior stays profile-agnostic by default.
 
 const RULEFORGE_OPTIONS = {
+// Revision 2026.09.30: Preserve referenced dependencies and keep repeated overrides stable.
 // V7: Domestic is visible with DIRECT only; GEOIP,CN remains literal DIRECT.
   // Service routing switches
   Gemini: true,
@@ -165,8 +166,9 @@ function main(config, profileName) {
     applyChainDialerToInlineLandingNodes();
   }
 
-  config["proxy-groups"] = buildGroups();
+  const retainedRuleProviders = [];
   config["rule-providers"] = buildProviders();
+  config["proxy-groups"] = buildGroups();
   config.rules = buildRules();
 
   return config;
@@ -318,25 +320,22 @@ function main(config, profileName) {
 
     if (isOptionEnabled("链式代理")) groups.push(chainRelayGroup());
 
-    // Existing chain dependencies are kept before the final catch-all.
-    preserveRequiredOriginalGroups(groups);
-
-    // 6. Catch-all always last.
-    groups.push(
-      selectGroup("🐟 漏网之鱼", [
-        "🚀 节点选择",
-        ...regionMainNames,
-        ...regionAutoNames,
-        ...regionFallbackNames,
-        "🌍 全部节点",
-        "DIRECT",
-      ]),
-    );
+    // Reserve the catch-all before aliasing subscription dependencies, but keep it last.
+    const catchAll = selectGroup("🐟 漏网之鱼", [
+      "🚀 节点选择",
+      ...regionMainNames,
+      ...regionAutoNames,
+      ...regionFallbackNames,
+      "🌍 全部节点",
+      "DIRECT",
+    ]);
+    preserveRequiredOriginalGroups(groups, catchAll);
+    groups.push(catchAll);
 
     return dedupeGroups(groups);
   }
 
-  function preserveRequiredOriginalGroups(groups) {
+  function preserveRequiredOriginalGroups(groups, catchAll) {
     if (!ORIGINAL_PROXY_GROUPS.length) return;
 
     const originalByName = new Map();
@@ -346,42 +345,51 @@ function main(config, profileName) {
     }
     if (!originalByName.size) return;
 
+    const generatedByName = new Map([...groups, catchAll].map(group => [group.name, group]));
     const required = new Set();
+    const reusable = new Map();
+
+    function isGeneratedGroup(name, visiting = new Set()) {
+      if (reusable.has(name)) return reusable.get(name);
+      const original = originalByName.get(name);
+      if (!sameValue(original, generatedByName.get(name))) return false;
+      if (visiting.has(name)) return true;
+      visiting.add(name);
+      const references = Array.isArray(original.proxies) ? [...original.proxies] : [];
+      references.push(original["dialer-proxy"]);
+      const matches = references.every(
+        member => !originalByName.has(member) || isGeneratedGroup(member, visiting),
+      );
+      visiting.delete(name);
+      reusable.set(name, matches);
+      return matches;
+    }
 
     function collect(name) {
       if (typeof name !== "string" || !originalByName.has(name) || required.has(name)) return;
-      required.add(name);
-
       const group = originalByName.get(name);
+      // Reuse our generated graph on repeat runs, but preserve subscription groups
+      // if their contents or any original group they depend on differ.
+      if (isGeneratedGroup(name)) return;
+      required.add(name);
       if (Array.isArray(group.proxies)) {
         for (const member of group.proxies) collect(member);
       }
       collect(group["dialer-proxy"]);
     }
 
-    // Inline subscription/custom proxies may already have a chain dependency.
-    if (Array.isArray(config.proxies)) {
-      for (const proxy of config.proxies) {
-        if (!proxy || typeof proxy !== "object") continue;
-        collect(proxy["dialer-proxy"]);
-      }
-    }
-
-    // Proxy-provider overrides can also use dialer-proxy.
-    const proxyProviders = config["proxy-providers"];
-    if (proxyProviders && typeof proxyProviders === "object") {
-      for (const providerName of Object.keys(proxyProviders)) {
-        const provider = proxyProviders[providerName];
-        if (!provider || typeof provider !== "object") continue;
-        const override = provider.override;
-        if (override && typeof override === "object") collect(override["dialer-proxy"]);
-      }
-    }
+    mapExternalProxyReferences(name => {
+      collect(name);
+      return name;
+    });
 
     if (!required.size) return;
 
-    const generatedNames = new Set(groups.map(group => group && group.name).filter(Boolean));
-    const reservedNames = new Set([...generatedNames, ...originalByName.keys()]);
+    const generatedNames = new Set(generatedByName.keys());
+    const inlineNames = Array.isArray(config.proxies)
+      ? config.proxies.filter(proxy => proxy && typeof proxy.name === "string").map(proxy => proxy.name)
+      : [];
+    const reservedNames = new Set([...generatedNames, ...originalByName.keys(), ...inlineNames]);
     const aliasByName = new Map();
 
     for (const name of required) {
@@ -402,26 +410,8 @@ function main(config, profileName) {
       return typeof name === "string" && aliasByName.has(name) ? aliasByName.get(name) : name;
     }
 
-    // Rewrite roots that point at aliased original groups.
-    if (Array.isArray(config.proxies)) {
-      for (const proxy of config.proxies) {
-        if (!proxy || typeof proxy !== "object") continue;
-        if (typeof proxy["dialer-proxy"] === "string") {
-          proxy["dialer-proxy"] = remap(proxy["dialer-proxy"]);
-        }
-      }
-    }
-
-    if (proxyProviders && typeof proxyProviders === "object") {
-      for (const providerName of Object.keys(proxyProviders)) {
-        const provider = proxyProviders[providerName];
-        if (!provider || typeof provider !== "object") continue;
-        const override = provider.override;
-        if (override && typeof override === "object" && typeof override["dialer-proxy"] === "string") {
-          override["dialer-proxy"] = remap(override["dialer-proxy"]);
-        }
-      }
-    }
+    // Rewrite retained node, provider and DNS transport references together.
+    mapExternalProxyReferences(remap);
 
     // Keep original ordering where possible, but only append groups in the dependency closure.
     for (const original of ORIGINAL_PROXY_GROUPS) {
@@ -441,6 +431,135 @@ function main(config, profileName) {
     }
   }
 
+  function sameValue(left, right) {
+    if (left === right) return true;
+    if (!left || !right || typeof left !== "object" || typeof right !== "object") return false;
+    if (Array.isArray(left) !== Array.isArray(right)) return false;
+    const keys = Object.keys(left);
+    return keys.length === Object.keys(right).length && keys.every(
+      key => Object.prototype.hasOwnProperty.call(right, key) && sameValue(left[key], right[key]),
+    );
+  }
+
+  // Visit only schema-defined references that survive this override.
+  // The same visitor collects dependencies first, then rewrites aliases in place.
+  function mapExternalProxyReferences(transform) {
+    function field(object, key) {
+      if (object && typeof object[key] === "string") object[key] = transform(object[key]);
+    }
+    if (Array.isArray(config.proxies)) {
+      for (const proxy of config.proxies) field(proxy, "dialer-proxy");
+    }
+    for (const provider of Object.values(config["proxy-providers"] || {})) {
+      if (!provider || typeof provider !== "object") continue;
+      field(provider, "proxy");
+      field(provider, "dialer-proxy");
+      field(provider.override, "dialer-proxy");
+      if (Array.isArray(provider.payload)) {
+        for (const proxy of provider.payload) field(proxy, "dialer-proxy");
+      }
+    }
+    for (const provider of retainedRuleProviders) field(provider, "proxy");
+
+    const dns = config.dns;
+    if (!dns || typeof dns !== "object") return;
+    function server(value) {
+      if (typeof value !== "string") return value;
+      const hash = value.indexOf("#");
+      if (hash < 0) return value;
+      const raw = value.slice(hash + 1);
+      let decoded;
+      try { decoded = decodeURIComponent(raw); } catch (_) { return value; }
+      const parts = decoded.split("&");
+      // Mihomo uses the last bare fragment as the proxy/interface selector.
+      let target = -1;
+      for (let index = 0; index < parts.length; index++) {
+        if (!parts[index].includes("=")) target = index;
+      }
+      if (target < 0) return value;
+      const mapped = transform(parts[target]);
+      if (mapped === parts[target]) return value;
+      const rawParts = raw.split("&");
+      const encoded = rawParts.length === parts.length
+        ? rawParts
+        : parts.map(part => encodeURIComponent(part).replace(/%3D/gi, "="));
+      encoded[target] = encodeURIComponent(mapped);
+      return value.slice(0, hash + 1) + encoded.join("&");
+    }
+    for (const key of ["nameserver", "fallback", "default-nameserver", "proxy-server-nameserver", "direct-nameserver"]) {
+      if (Array.isArray(dns[key])) dns[key] = dns[key].map(server);
+    }
+    for (const key of ["nameserver-policy", "proxy-server-nameserver-policy"]) {
+      const policy = dns[key];
+      if (!policy || typeof policy !== "object") continue;
+      for (const domain of Object.keys(policy)) {
+        policy[domain] = Array.isArray(policy[domain]) ? policy[domain].map(server) : server(policy[domain]);
+      }
+    }
+  }
+
+  function mapRetainedRuleSetReferences(transform) {
+    function expression(value) {
+      if (typeof value !== "string") return value;
+      return value.replace(/^(rule-set:)([^:]*)(.*)$/i, (_, prefix, names, suffix) => (
+        prefix + names.split(",").map(transform).join(",") + suffix
+      ));
+    }
+    function list(object, key, mapper) {
+      if (object && Array.isArray(object[key])) object[key] = object[key].map(mapper);
+    }
+    const dns = config.dns;
+    if (dns && typeof dns === "object") {
+      for (const key of ["nameserver-policy", "proxy-server-nameserver-policy"]) {
+        const policy = dns[key];
+        if (!policy || typeof policy !== "object" || Array.isArray(policy)) continue;
+        const rewritten = Object.create(null);
+        for (const domain of Object.keys(policy)) rewritten[expression(domain)] = policy[domain];
+        dns[key] = rewritten;
+      }
+      list(dns, "fake-ip-filter", value => {
+        if (dns["fake-ip-filter-mode"] !== "rule" || typeof value !== "string") return expression(value);
+        return value.replace(/^(\s*RULE-SET\s*,\s*)([^,]+)(.*)$/i, (match, prefix, name, suffix) => {
+          const mapped = transform(name.trim());
+          return mapped === name.trim() ? match : prefix + mapped + suffix;
+        });
+      });
+    }
+    for (const key of ["route-address-set", "route-exclude-address-set"]) list(config.tun, key, transform);
+    for (const key of ["force-domain", "skip-domain", "skip-src-address", "skip-dst-address"]) {
+      list(config.sniffer, key, expression);
+    }
+  }
+
+  function preserveRequiredRuleProviders(providers) {
+    const originals = config["rule-providers"];
+    if (!originals || typeof originals !== "object") return;
+    const required = new Set();
+    mapRetainedRuleSetReferences(name => {
+      if (Object.prototype.hasOwnProperty.call(originals, name)) required.add(name);
+      return name;
+    });
+    const reserved = new Set([...Object.keys(providers), ...Object.keys(originals)]);
+    const aliases = new Map();
+    for (const name of required) {
+      const original = originals[name];
+      if (!original || typeof original !== "object") continue;
+      let alias = name;
+      if (Object.prototype.hasOwnProperty.call(providers, name) && !sameValue(original, providers[name])) {
+        const base = `🧩 机场规则·${name}`;
+        alias = base;
+        let index = 2;
+        while (reserved.has(alias)) alias = `${base} ${index++}`;
+      }
+      aliases.set(name, alias);
+      reserved.add(alias);
+      const cloned = deepClone(original);
+      providers[alias] = cloned;
+      retainedRuleProviders.push(cloned);
+    }
+    mapRetainedRuleSetReferences(name => aliases.has(name) ? aliases.get(name) : name);
+  }
+
   function deepClone(value) {
     return JSON.parse(JSON.stringify(value));
   }
@@ -456,7 +575,7 @@ function main(config, profileName) {
   }
 
   function buildProviders() {
-    const providers = {};
+    const providers = Object.create(null);
     const providerProxy = isOptionEnabled("规则集走代理") ? "🚀 节点选择" : "DIRECT";
 
     for (const [name] of RULE_BINDINGS) {
@@ -470,6 +589,35 @@ function main(config, profileName) {
         interval: RULE_INTERVAL,
         proxy: providerProxy,
       };
+    }
+    const generated = Object.entries(providers);
+    preserveRequiredRuleProviders(providers);
+
+    // Retained file/HTTP sources keep their paths. Move only generated HTTP caches
+    // when a retained source would otherwise share and overwrite the same file.
+    function pathKey(value) {
+      if (typeof value !== "string") return "";
+      const parts = [];
+      for (const part of value.replace(/\\/g, "/").split("/")) {
+        if (part === ".") continue;
+        if (part === ".." && parts.length && parts[parts.length - 1] !== "..") parts.pop();
+        else parts.push(part);
+      }
+      return parts.join("/").toLowerCase();
+    }
+    const occupied = new Set([
+      ...retainedRuleProviders,
+      ...Object.values(config["proxy-providers"] || {}),
+    ].filter(provider => provider && typeof provider.path === "string").map(provider => pathKey(provider.path)));
+    for (const [name, provider] of generated) {
+      if (providers[name] !== provider) continue;
+      const base = `./rule-providers/anfeng_${name}_ruleforge`;
+      let index = 2;
+      let candidate = provider.path;
+      if (occupied.has(pathKey(candidate))) candidate = `${base}.yaml`;
+      while (occupied.has(pathKey(candidate))) candidate = `${base}_${index++}.yaml`;
+      provider.path = candidate;
+      occupied.add(pathKey(candidate));
     }
     return providers;
   }
@@ -508,3 +656,4 @@ function main(config, profileName) {
     return Array.from(new Set(values.filter(value => typeof value !== "undefined" && value !== null && value !== "")));
   }
 }
+
