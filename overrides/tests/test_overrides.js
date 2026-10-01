@@ -119,6 +119,69 @@ const ordinaryFixtures = {
   },
 };
 
+test("bettbox: visual metadata groups existing business keys without changing defaults", () => {
+  const context = vm.createContext({});
+  const source = fs.readFileSync(path.join(ROOT, "bettbox.override.js"), "utf8");
+  vm.runInContext(`${source}\nmetadata = Compatible_With_Bettbox; options = ruleOptionsEnable;`, context);
+  const metadata = clone(context.metadata);
+  const options = clone(context.options);
+  const businessKeys = [
+    "Gemini", "AI", "YouTube", "Netflix", "DisneyPlus", "Google", "GitHub",
+    "Microsoft", "Apple", "Telegram", "PayPal", "GlobalMedia", "GlobalSites", "Domestic",
+  ];
+  assert.equal(metadata.ruleOptionsEnable, true);
+  assert.deepEqual(metadata.policyGroupOptions, businessKeys);
+  assert.deepEqual(Object.keys(options), [...businessKeys, "规则集走代理", "链式代理"]);
+  assert.ok(businessKeys.every(key => options[key] === true));
+  assert.equal(options["规则集走代理"], true);
+  assert.equal(options["链式代理"], false);
+  assert.deepEqual(Object.keys(options).filter(key => !metadata.policyGroupOptions.includes(key)), ["规则集走代理", "链式代理"]);
+});
+
+test("bettbox: NTP-only transport retains its dependency closure without DNS", () => {
+  const input = {
+    proxies: [node("upstream")],
+    ntp: { enable: true, server: "ntp.example.test", port: 123, interval: 30, "dialer-proxy": "ntp transport" },
+    "proxy-groups": [
+      { name: "ntp transport", type: "select", proxies: ["ntp nested"] },
+      { name: "ntp nested", type: "select", proxies: ["upstream"] },
+      { name: "unused", type: "select", proxies: ["DIRECT"] },
+    ],
+  };
+  const result = apply("bettbox", input);
+  assert.deepEqual(result.ntp, input.ntp);
+  assert.deepEqual(byName(result, result.ntp["dialer-proxy"]).proxies, ["ntp nested"]);
+  assert.deepEqual(byName(result, "ntp nested").proxies, ["upstream"]);
+  assert.ok(!result["proxy-groups"].some(group => group.name === "unused"));
+  assertDefaults(result);
+  assertRepeated("bettbox", result);
+});
+
+test("bettbox: NTP transport aliases generated-group collisions and reserves inline names", () => {
+  const alias = `🧩 机场·${CATCH_ALL}`;
+  const input = {
+    proxies: [node("upstream"), node(alias)],
+    ntp: { enable: true, server: "ntp.example.test", port: 123, interval: 30, "dialer-proxy": CATCH_ALL },
+    "proxy-groups": [{ name: CATCH_ALL, type: "select", proxies: ["upstream"] }],
+  };
+  const result = apply("bettbox", input);
+  assert.deepEqual(result.ntp, { ...input.ntp, "dialer-proxy": `${alias} 2` });
+  assert.deepEqual(byName(result, result.ntp["dialer-proxy"]).proxies, ["upstream"]);
+  assertDefaults(result);
+  assertRepeated("bettbox", result);
+});
+
+for (const target of ["DIRECT", "upstream", "🚀 节点选择"]) {
+  test(`bettbox: NTP existing target ${target} preserves ordinary routing`, () => {
+    const base = { proxies: [node("upstream")] };
+    const ntp = { enable: true, server: "ntp.example.test", port: 123, interval: 30, "dialer-proxy": target };
+    const result = apply("bettbox", { ...base, ntp });
+    assert.deepEqual(result, { ...apply("bettbox", base), ntp });
+    assertDefaults(result);
+    assertRepeated("bettbox", result);
+  });
+}
+
 for (const client of CLIENTS) {
   for (const [scenario, input] of Object.entries(ordinaryFixtures)) {
     test(`${client}: ${scenario}, defaults and client-owned fields`, () => {

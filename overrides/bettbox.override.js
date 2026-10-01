@@ -1,4 +1,12 @@
-const Compatible_With_Bettbox = { ruleOptionsEnable: true };
+const Compatible_With_Bettbox = {
+  ruleOptionsEnable: true,
+  // Bettbox >= v1.19.4: keep business switches on the main page.
+  // Names must match ruleOptionsEnable keys; other switches use Other Settings.
+  policyGroupOptions: [
+    "Gemini", "AI", "YouTube", "Netflix", "DisneyPlus", "Google", "GitHub",
+    "Microsoft", "Apple", "Telegram", "PayPal", "GlobalMedia", "GlobalSites", "Domestic",
+  ],
+};
 
 // RuleForge Bettbox JavaScript override.
 // Bettbox >= v1.18.8 visual options compatible.
@@ -6,7 +14,7 @@ const Compatible_With_Bettbox = { ruleOptionsEnable: true };
 // Chain proxy support is opt-in and disabled by default.
 // Existing subscription chain dependencies are preserved automatically, even when chain mode is off.
 
-// Revision 2026.09.30: Preserve referenced dependencies and keep repeated overrides stable.
+// Revision 2026.10.01: Group Bettbox options and preserve NTP proxy dependencies.
 // V7: Domestic is visible with DIRECT only; GEOIP,CN remains literal DIRECT.
 // Bettbox visual switches. Bettbox will merge UI selections into this object before main() runs.
 const ruleOptionsEnable = {
@@ -454,6 +462,8 @@ function main(config, profileName) {
       }
     }
     for (const provider of retainedRuleProviders) field(provider, "proxy");
+
+    field(config.ntp, "dialer-proxy");
 
     const dns = config.dns;
     if (!dns || typeof dns !== "object") return;
