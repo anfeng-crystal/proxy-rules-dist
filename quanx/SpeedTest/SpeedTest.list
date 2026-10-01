@@ -661,6 +661,7 @@ HOST,sp.yakshtel.com,SpeedTest
 HOST,sp01.rbfibra.net.br,SpeedTest
 HOST,sp1-de.delska.com,SpeedTest
 HOST,sp1-mum.youbroadband.in,SpeedTest
+HOST,sp1-nl.delska.com,SpeedTest
 HOST,sp1.adnbroadband.com,SpeedTest
 HOST,sp1.alcort.es,SpeedTest
 HOST,sp1.angelbroadband.com,SpeedTest
@@ -1349,6 +1350,7 @@ HOST,speedtest.antisatelecom.es,SpeedTest
 HOST,speedtest.aoter.net,SpeedTest
 HOST,speedtest.apexbroadband.in,SpeedTest
 HOST,speedtest.apnet-rr.com.br,SpeedTest
+HOST,speedtest.apnetbv.com.br,SpeedTest
 HOST,speedtest.apnic.net,SpeedTest
 HOST,speedtest.aquiss.net,SpeedTest
 HOST,speedtest.aquitelecom.tv.br,SpeedTest

@@ -3,7 +3,7 @@
 ## 规则数量 / Counts
 
 - AI: 165
-- Ads: 281069
+- Ads: 281718
 - Alibaba: 1320
 - Apple: 1876
 - Baidu: 259
@@ -24,7 +24,7 @@
 - Netflix: 1156
 - Payment: 252
 - Pinduoduo: 4
-- SpeedTest: 3408
+- SpeedTest: 3410
 - Spotify: 30
 - Telegram: 35
 - Tencent: 2524
@@ -131,7 +131,7 @@
 ## Mihomo MRS / Mihomo MRS
 
 - AI: 159 domain rules, 6 classical-only rules omitted, 1594 bytes
-- Ads: 280301 domain rules, 768 classical-only rules omitted, 2461415 bytes
+- Ads: 280950 domain rules, 768 classical-only rules omitted, 2466437 bytes
 - Alibaba: 1266 domain rules, 54 classical-only rules omitted, 7649 bytes
 - Apple: 1833 domain rules, 43 classical-only rules omitted, 18117 bytes
 - Baidu: 259 domain rules, 0 classical-only rules omitted, 2147 bytes
@@ -155,7 +155,7 @@
 - NetworkTest: 16 domain rules, 0 classical-only rules omitted, 271 bytes
 - Payment: 250 domain rules, 2 classical-only rules omitted, 2706 bytes
 - Pinduoduo: 4 domain rules, 0 classical-only rules omitted, 94 bytes
-- SpeedTest: 3406 domain rules, 2 classical-only rules omitted, 37255 bytes
+- SpeedTest: 3408 domain rules, 2 classical-only rules omitted, 37188 bytes
 - Spotify: 26 domain rules, 4 classical-only rules omitted, 400 bytes
 - Telegram: 24 domain rules, 11 classical-only rules omitted, 310 bytes
 - Tencent: 2499 domain rules, 25 classical-only rules omitted, 18001 bytes
