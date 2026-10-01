@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "sinaimg.cn",
+        "video.weibo.com",
+        "weibo.cn",
+        "weibo.com",
+        "weibocdn.com"
+      ],
+      "domain_keyword": [
+        "weibo"
+      ]
+    }
+  ]
+}

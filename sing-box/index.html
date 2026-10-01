@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RuleForge · sing-box / SFA</title>
+<style>body{font:16px/1.65 system-ui,sans-serif;max-width:900px;margin:36px auto;padding:0 20px;color:#172436;background:#f6f8fb}h1{line-height:1.2}a{color:#125ac6}code{overflow-wrap:anywhere}aside{border-left:4px solid #d28b18;padding:12px 18px;background:#fff5dc}ul{padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px}li{padding:12px;background:white;border:1px solid #dce3eb;border-radius:8px}li span{display:block;font-weight:600}li a{margin-right:12px}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#e9eef5;padding:16px;border-radius:8px}</style>
+<h1>RuleForge · sing-box / SFA</h1>
+<p>原生规则，分类路由与仅域名 DNS 规则分开发布。当前发布 39 / 39 个分类。</p>
+<aside>分类规则为 source 格式 JSON（版本 3），不是 SRS 二进制。示例配置使用 5 个 .invalid 节点及虚拟密码，不能直接连接。CNIP 单独引用 SagerNet 官方 SRS。</aside>
+<p><a href="generate_sfa.py">下载本地生成器</a> · <a href="sfa-template.json">示例配置</a> · <a href="README.txt">使用说明</a> · <a href="conversion-report.json">转换报告</a></p>
+<h2>生成本地配置</h2>
+<p>先取得原生 sing-box 节点 JSON，再用 Python 3 在自己的设备本地运行：</p>
+<pre>python3 generate_sfa.py nodes.json sfa.local.json --rule-base https://anfeng-crystal.github.io/proxy-rules-dist/sing-box</pre>
+<p>输出包含节点凭据，请勿上传或提交到公共仓库。默认启用 15 个分类，其余分类及广告拦截按需启用。静态检查不代表已通过 sing-box 核心校验或 SFA 实机测试。</p>
+<h2>分类下载</h2><ul><li><span>Bilibili</span> <a href="Bilibili/Bilibili.json">路由 JSON</a> <a href="Bilibili/Bilibili.dns.json">DNS JSON</a></li>
+<li><span>Douyin</span> <a href="Douyin/Douyin.json">路由 JSON</a> <a href="Douyin/Douyin.dns.json">DNS JSON</a></li>
+<li><span>WeChat</span> <a href="WeChat/WeChat.json">路由 JSON</a> <a href="WeChat/WeChat.dns.json">DNS JSON</a></li>
+<li><span>TencentVideo</span> <a href="TencentVideo/TencentVideo.json">路由 JSON</a> <a href="TencentVideo/TencentVideo.dns.json">DNS JSON</a></li>
+<li><span>iQIYI</span> <a href="iQIYI/iQIYI.json">路由 JSON</a> <a href="iQIYI/iQIYI.dns.json">DNS JSON</a></li>
+<li><span>Youku</span> <a href="Youku/Youku.json">路由 JSON</a> <a href="Youku/Youku.dns.json">DNS JSON</a></li>
+<li><span>NetEaseMusic</span> <a href="NetEaseMusic/NetEaseMusic.json">路由 JSON</a> <a href="NetEaseMusic/NetEaseMusic.dns.json">DNS JSON</a></li>
+<li><span>Weibo</span> <a href="Weibo/Weibo.json">路由 JSON</a> <a href="Weibo/Weibo.dns.json">DNS JSON</a></li>
+<li><span>Zhihu</span> <a href="Zhihu/Zhihu.json">路由 JSON</a> <a href="Zhihu/Zhihu.dns.json">DNS JSON</a></li>
+<li><span>Baidu</span> <a href="Baidu/Baidu.json">路由 JSON</a> <a href="Baidu/Baidu.dns.json">DNS JSON</a></li>
+<li><span>Alibaba</span> <a href="Alibaba/Alibaba.json">路由 JSON</a> <a href="Alibaba/Alibaba.dns.json">DNS JSON</a></li>
+<li><span>Tencent</span> <a href="Tencent/Tencent.json">路由 JSON</a> <a href="Tencent/Tencent.dns.json">DNS JSON</a></li>
+<li><span>JD</span> <a href="JD/JD.json">路由 JSON</a> <a href="JD/JD.dns.json">DNS JSON</a></li>
+<li><span>Meituan</span> <a href="Meituan/Meituan.json">路由 JSON</a> <a href="Meituan/Meituan.dns.json">DNS JSON</a></li>
+<li><span>Pinduoduo</span> <a href="Pinduoduo/Pinduoduo.json">路由 JSON</a> <a href="Pinduoduo/Pinduoduo.dns.json">DNS JSON</a></li>
+<li><span>Domestic</span> <a href="Domestic/Domestic.json">路由 JSON</a> <a href="Domestic/Domestic.dns.json">DNS JSON</a></li>
+<li><span>SpeedTest</span> <a href="SpeedTest/SpeedTest.json">路由 JSON</a> <a href="SpeedTest/SpeedTest.dns.json">DNS JSON</a></li>
+<li><span>Gemini</span> <a href="Gemini/Gemini.json">路由 JSON</a> <a href="Gemini/Gemini.dns.json">DNS JSON</a></li>
+<li><span>AI</span> <a href="AI/AI.json">路由 JSON</a> <a href="AI/AI.dns.json">DNS JSON</a></li>
+<li><span>Dev</span> <a href="Dev/Dev.json">路由 JSON</a> <a href="Dev/Dev.dns.json">DNS JSON</a></li>
+<li><span>Payment</span> <a href="Payment/Payment.json">路由 JSON</a> <a href="Payment/Payment.dns.json">DNS JSON</a></li>
+<li><span>Game</span> <a href="Game/Game.json">路由 JSON</a> <a href="Game/Game.dns.json">DNS JSON</a></li>
+<li><span>Telegram</span> <a href="Telegram/Telegram.json">路由 JSON</a> <a href="Telegram/Telegram.dns.json">DNS JSON</a></li>
+<li><span>YouTube</span> <a href="YouTube/YouTube.json">路由 JSON</a> <a href="YouTube/YouTube.dns.json">DNS JSON</a></li>
+<li><span>Netflix</span> <a href="Netflix/Netflix.json">路由 JSON</a> <a href="Netflix/Netflix.dns.json">DNS JSON</a></li>
+<li><span>DisneyPlus</span> <a href="DisneyPlus/DisneyPlus.json">路由 JSON</a> <a href="DisneyPlus/DisneyPlus.dns.json">DNS JSON</a></li>
+<li><span>Spotify</span> <a href="Spotify/Spotify.json">路由 JSON</a> <a href="Spotify/Spotify.dns.json">DNS JSON</a></li>
+<li><span>TikTok</span> <a href="TikTok/TikTok.json">路由 JSON</a> <a href="TikTok/TikTok.dns.json">DNS JSON</a></li>
+<li><span>Twitter</span> <a href="Twitter/Twitter.json">路由 JSON</a> <a href="Twitter/Twitter.dns.json">DNS JSON</a></li>
+<li><span>Facebook</span> <a href="Facebook/Facebook.json">路由 JSON</a> <a href="Facebook/Facebook.dns.json">DNS JSON</a></li>
+<li><span>Instagram</span> <a href="Instagram/Instagram.json">路由 JSON</a> <a href="Instagram/Instagram.dns.json">DNS JSON</a></li>
+<li><span>Apple</span> <a href="Apple/Apple.json">路由 JSON</a> <a href="Apple/Apple.dns.json">DNS JSON</a></li>
+<li><span>Microsoft</span> <a href="Microsoft/Microsoft.json">路由 JSON</a> <a href="Microsoft/Microsoft.dns.json">DNS JSON</a></li>
+<li><span>Google</span> <a href="Google/Google.json">路由 JSON</a> <a href="Google/Google.dns.json">DNS JSON</a></li>
+<li><span>GitHub</span> <a href="GitHub/GitHub.json">路由 JSON</a> <a href="GitHub/GitHub.dns.json">DNS JSON</a></li>
+<li><span>GlobalSites</span> <a href="GlobalSites/GlobalSites.json">路由 JSON</a> <a href="GlobalSites/GlobalSites.dns.json">DNS JSON</a></li>
+<li><span>Ads</span> <a href="Ads/Ads.json">路由 JSON</a> <a href="Ads/Ads.dns.json">DNS JSON</a></li>
+<li><span>PayPal</span> <a href="PayPal/PayPal.json">路由 JSON</a> <a href="PayPal/PayPal.dns.json">DNS JSON</a></li>
+<li><span>GlobalMedia</span> <a href="GlobalMedia/GlobalMedia.json">路由 JSON</a> <a href="GlobalMedia/GlobalMedia.dns.json">DNS JSON</a></li></ul>
+</html>

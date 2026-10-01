@@ -1,0 +1,2366 @@
+{
+  "format": "source",
+  "version": 3,
+  "base_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box",
+  "expected_category_count": 39,
+  "category_count": 39,
+  "nonempty_category_count": 39,
+  "missing_categories": [],
+  "categories": {
+    "Bilibili": {
+      "input_rules": 127,
+      "input_types": {
+        "domain": 53,
+        "domain_suffix": 62,
+        "ip_cidr": 8,
+        "user_agent": 4
+      },
+      "emitted_input_rules": 123,
+      "emitted_input_types": {
+        "domain": 53,
+        "domain_suffix": 62,
+        "ip_cidr": 8
+      },
+      "route_rules": 123,
+      "dns_rules": 115,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-bilibili-quanx": 127
+      },
+      "omitted_count": 4,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "*bili*",
+          "source": "blackmatrix7-bilibili-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Bilibili*",
+          "source": "blackmatrix7-bilibili-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "bili*",
+          "source": "blackmatrix7-bilibili-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "bili-inter*",
+          "source": "blackmatrix7-bilibili-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Bilibili/Bilibili.json",
+      "dns_path": "Bilibili/Bilibili.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Bilibili/Bilibili.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Bilibili/Bilibili.dns.json"
+    },
+    "Douyin": {
+      "input_rules": 15,
+      "input_types": {
+        "domain": 2,
+        "domain_suffix": 13
+      },
+      "emitted_input_rules": 15,
+      "emitted_input_types": {
+        "domain": 2,
+        "domain_suffix": 13
+      },
+      "route_rules": 15,
+      "dns_rules": 15,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-douyin-quanx": 13,
+        "override:Douyin.json": 2
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Douyin/Douyin.json",
+      "dns_path": "Douyin/Douyin.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Douyin/Douyin.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Douyin/Douyin.dns.json"
+    },
+    "WeChat": {
+      "input_rules": 44,
+      "input_types": {
+        "domain": 20,
+        "domain_suffix": 22,
+        "user_agent": 2
+      },
+      "emitted_input_rules": 42,
+      "emitted_input_types": {
+        "domain": 20,
+        "domain_suffix": 22
+      },
+      "route_rules": 42,
+      "dns_rules": 42,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-wechat-quanx": 42,
+        "override:WeChat.json": 2
+      },
+      "omitted_count": 2,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "MicroMessenger*",
+          "source": "blackmatrix7-wechat-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "WeChat*",
+          "source": "blackmatrix7-wechat-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "WeChat/WeChat.json",
+      "dns_path": "WeChat/WeChat.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/WeChat/WeChat.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/WeChat/WeChat.dns.json"
+    },
+    "TencentVideo": {
+      "input_rules": 51,
+      "input_types": {
+        "domain": 14,
+        "domain_suffix": 5,
+        "ip_cidr": 3,
+        "ip_cidr6": 29
+      },
+      "emitted_input_rules": 51,
+      "emitted_input_types": {
+        "domain": 14,
+        "domain_suffix": 5,
+        "ip_cidr": 3,
+        "ip_cidr6": 29
+      },
+      "route_rules": 51,
+      "dns_rules": 19,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-tencentvideo-quanx": 51
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "TencentVideo/TencentVideo.json",
+      "dns_path": "TencentVideo/TencentVideo.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/TencentVideo/TencentVideo.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/TencentVideo/TencentVideo.dns.json"
+    },
+    "iQIYI": {
+      "input_rules": 62,
+      "input_types": {
+        "domain_keyword": 1,
+        "domain_suffix": 34,
+        "ip_cidr": 21,
+        "user_agent": 6
+      },
+      "emitted_input_rules": 56,
+      "emitted_input_types": {
+        "domain_keyword": 1,
+        "domain_suffix": 34,
+        "ip_cidr": 21
+      },
+      "route_rules": 56,
+      "dns_rules": 35,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-iqiyi-quanx": 62
+      },
+      "omitted_count": 6,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "PPStream*",
+          "source": "blackmatrix7-iqiyi-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "QIYI*",
+          "source": "blackmatrix7-iqiyi-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "QYPlayer*",
+          "source": "blackmatrix7-iqiyi-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "iQIYI*",
+          "source": "blackmatrix7-iqiyi-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "iQiYi*",
+          "source": "blackmatrix7-iqiyi-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "iQiyi*",
+          "source": "blackmatrix7-iqiyi-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "iQIYI/iQIYI.json",
+      "dns_path": "iQIYI/iQIYI.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/iQIYI/iQIYI.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/iQIYI/iQIYI.dns.json"
+    },
+    "Youku": {
+      "input_rules": 37,
+      "input_types": {
+        "domain_suffix": 34,
+        "ip_cidr": 1,
+        "user_agent": 2
+      },
+      "emitted_input_rules": 35,
+      "emitted_input_types": {
+        "domain_suffix": 34,
+        "ip_cidr": 1
+      },
+      "route_rules": 35,
+      "dns_rules": 34,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-youku-quanx": 37
+      },
+      "omitted_count": 2,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "%E4%BC%98%E9%85%B7*",
+          "source": "blackmatrix7-youku-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Youku*",
+          "source": "blackmatrix7-youku-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Youku/Youku.json",
+      "dns_path": "Youku/Youku.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Youku/Youku.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Youku/Youku.dns.json"
+    },
+    "NetEaseMusic": {
+      "input_rules": 30,
+      "input_types": {
+        "domain": 1,
+        "domain_suffix": 9,
+        "ip_cidr": 18,
+        "user_agent": 2
+      },
+      "emitted_input_rules": 28,
+      "emitted_input_types": {
+        "domain": 1,
+        "domain_suffix": 9,
+        "ip_cidr": 18
+      },
+      "route_rules": 28,
+      "dns_rules": 10,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-neteasemusic-quanx": 30
+      },
+      "omitted_count": 2,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*",
+          "source": "blackmatrix7-neteasemusic-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "NeteaseMusic*",
+          "source": "blackmatrix7-neteasemusic-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "NetEaseMusic/NetEaseMusic.json",
+      "dns_path": "NetEaseMusic/NetEaseMusic.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/NetEaseMusic/NetEaseMusic.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/NetEaseMusic/NetEaseMusic.dns.json"
+    },
+    "Weibo": {
+      "input_rules": 6,
+      "input_types": {
+        "domain_keyword": 1,
+        "domain_suffix": 5
+      },
+      "emitted_input_rules": 6,
+      "emitted_input_types": {
+        "domain_keyword": 1,
+        "domain_suffix": 5
+      },
+      "route_rules": 6,
+      "dns_rules": 6,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-weibo-quanx": 4,
+        "override:WeiboMedia.json": 2
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Weibo/Weibo.json",
+      "dns_path": "Weibo/Weibo.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Weibo/Weibo.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Weibo/Weibo.dns.json"
+    },
+    "Zhihu": {
+      "input_rules": 9,
+      "input_types": {
+        "domain_suffix": 4,
+        "ip_cidr": 4,
+        "ip_cidr6": 1
+      },
+      "emitted_input_rules": 9,
+      "emitted_input_types": {
+        "domain_suffix": 4,
+        "ip_cidr": 4,
+        "ip_cidr6": 1
+      },
+      "route_rules": 9,
+      "dns_rules": 4,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-zhihu-quanx": 7,
+        "override:ZhihuContent.json": 2
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Zhihu/Zhihu.json",
+      "dns_path": "Zhihu/Zhihu.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Zhihu/Zhihu.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Zhihu/Zhihu.dns.json"
+    },
+    "Baidu": {
+      "input_rules": 259,
+      "input_types": {
+        "domain_suffix": 259
+      },
+      "emitted_input_rules": 259,
+      "emitted_input_types": {
+        "domain_suffix": 259
+      },
+      "route_rules": 259,
+      "dns_rules": 259,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-baidu-quanx": 251,
+        "override:BaiduPan.json": 3,
+        "override:BaiduSearchMaps.json": 2,
+        "override:BaiduTieba.json": 3
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Baidu/Baidu.json",
+      "dns_path": "Baidu/Baidu.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Baidu/Baidu.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Baidu/Baidu.dns.json"
+    },
+    "Alibaba": {
+      "input_rules": 1320,
+      "input_types": {
+        "domain_suffix": 1266,
+        "ip_cidr": 53,
+        "ip_cidr6": 1
+      },
+      "emitted_input_rules": 1320,
+      "emitted_input_types": {
+        "domain_suffix": 1266,
+        "ip_cidr": 53,
+        "ip_cidr6": 1
+      },
+      "route_rules": 1320,
+      "dns_rules": 1266,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-alibaba-quanx": 1320
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Alibaba/Alibaba.json",
+      "dns_path": "Alibaba/Alibaba.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Alibaba/Alibaba.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Alibaba/Alibaba.dns.json"
+    },
+    "Tencent": {
+      "input_rules": 2524,
+      "input_types": {
+        "domain_suffix": 2499,
+        "ip_cidr": 20,
+        "user_agent": 5
+      },
+      "emitted_input_rules": 2519,
+      "emitted_input_types": {
+        "domain_suffix": 2499,
+        "ip_cidr": 20
+      },
+      "route_rules": 2519,
+      "dns_rules": 2499,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-tencent-quanx": 2523,
+        "override:TencentMeeting.json": 1
+      },
+      "omitted_count": 5,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "MOO%E9%9F%B3%E4%B9%90*",
+          "source": "blackmatrix7-tencent-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "QQ%E9%9F%B3%E4%B9%90",
+          "source": "blackmatrix7-tencent-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "TencentMidasConnect*",
+          "source": "blackmatrix7-tencent-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "live4iphone*",
+          "source": "blackmatrix7-tencent-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "qqlive4iphone*",
+          "source": "blackmatrix7-tencent-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Tencent/Tencent.json",
+      "dns_path": "Tencent/Tencent.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Tencent/Tencent.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Tencent/Tencent.dns.json"
+    },
+    "JD": {
+      "input_rules": 249,
+      "input_types": {
+        "domain_suffix": 249
+      },
+      "emitted_input_rules": 249,
+      "emitted_input_types": {
+        "domain_suffix": 249
+      },
+      "route_rules": 249,
+      "dns_rules": 249,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-jingdong-quanx": 249
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "JD/JD.json",
+      "dns_path": "JD/JD.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/JD/JD.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/JD/JD.dns.json"
+    },
+    "Meituan": {
+      "input_rules": 8,
+      "input_types": {
+        "domain_suffix": 8
+      },
+      "emitted_input_rules": 8,
+      "emitted_input_types": {
+        "domain_suffix": 8
+      },
+      "route_rules": 8,
+      "dns_rules": 8,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-meituan-quanx": 7,
+        "override:Meituan.json": 1
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Meituan/Meituan.json",
+      "dns_path": "Meituan/Meituan.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Meituan/Meituan.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Meituan/Meituan.dns.json"
+    },
+    "Pinduoduo": {
+      "input_rules": 4,
+      "input_types": {
+        "domain_suffix": 4
+      },
+      "emitted_input_rules": 4,
+      "emitted_input_types": {
+        "domain_suffix": 4
+      },
+      "route_rules": 4,
+      "dns_rules": 4,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-pinduoduo-quanx": 3,
+        "override:Pinduoduo.json": 1
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Pinduoduo/Pinduoduo.json",
+      "dns_path": "Pinduoduo/Pinduoduo.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Pinduoduo/Pinduoduo.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Pinduoduo/Pinduoduo.dns.json"
+    },
+    "Domestic": {
+      "input_rules": 112784,
+      "input_types": {
+        "domain": 367,
+        "domain_keyword": 2,
+        "domain_suffix": 112231,
+        "geoip": 1,
+        "ip_cidr": 131,
+        "ip_cidr6": 31,
+        "user_agent": 21
+      },
+      "emitted_input_rules": 112762,
+      "emitted_input_types": {
+        "domain": 367,
+        "domain_keyword": 2,
+        "domain_suffix": 112231,
+        "ip_cidr": 131,
+        "ip_cidr6": 31
+      },
+      "route_rules": 112762,
+      "dns_rules": 112600,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-alibaba-quanx": 1318,
+        "blackmatrix7-baidu-quanx": 251,
+        "blackmatrix7-bilibili-quanx": 126,
+        "blackmatrix7-chinamax-domain-clash": 107987,
+        "blackmatrix7-douyin-quanx": 11,
+        "blackmatrix7-iqiyi-quanx": 62,
+        "blackmatrix7-jingdong-quanx": 249,
+        "blackmatrix7-meituan-quanx": 7,
+        "blackmatrix7-neteasemusic-quanx": 29,
+        "blackmatrix7-pinduoduo-quanx": 3,
+        "blackmatrix7-tencent-quanx": 2521,
+        "blackmatrix7-tencentvideo-quanx": 50,
+        "blackmatrix7-wechat-quanx": 31,
+        "blackmatrix7-weibo-quanx": 4,
+        "blackmatrix7-youku-quanx": 33,
+        "blackmatrix7-zhihu-quanx": 7,
+        "override:BaiduPan.json": 3,
+        "override:BaiduSearchMaps.json": 2,
+        "override:BaiduTieba.json": 3,
+        "override:BankingCN.json": 7,
+        "override:ByteDance.json": 5,
+        "override:ByteDanceDoubao.json": 2,
+        "override:China.json": 1,
+        "override:ChinaCloud.json": 3,
+        "override:ChinaMedia.json": 4,
+        "override:DeepSeek.json": 2,
+        "override:Direct.json": 5,
+        "override:Douyin.json": 2,
+        "override:EducationCN.json": 4,
+        "override:GovCN.json": 5,
+        "override:Huawei.json": 4,
+        "override:Meituan.json": 1,
+        "override:MiHoYoCN.json": 5,
+        "override:MoonshotKimi.json": 4,
+        "override:NetEase.json": 5,
+        "override:NetEaseGames.json": 2,
+        "override:NetEaseMail.json": 2,
+        "override:Pinduoduo.json": 1,
+        "override:Qwen.json": 3,
+        "override:Railway12306.json": 3,
+        "override:TabbitCN.json": 1,
+        "override:TencentGames.json": 3,
+        "override:TencentMeeting.json": 3,
+        "override:WeChat.json": 2,
+        "override:WeiboMedia.json": 2,
+        "override:Xiaomi.json": 4,
+        "override:ZhihuContent.json": 2
+      },
+      "omitted_count": 21,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "%E4%BC%98%E9%85%B7*",
+          "source": "blackmatrix7-youku-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*",
+          "source": "blackmatrix7-neteasemusic-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "*bili*",
+          "source": "blackmatrix7-bilibili-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Bilibili*",
+          "source": "blackmatrix7-bilibili-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "MOO%E9%9F%B3%E4%B9%90*",
+          "source": "blackmatrix7-tencent-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "MicroMessenger*",
+          "source": "blackmatrix7-wechat-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "NeteaseMusic*",
+          "source": "blackmatrix7-neteasemusic-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "PPStream*",
+          "source": "blackmatrix7-iqiyi-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "QIYI*",
+          "source": "blackmatrix7-iqiyi-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "QQ%E9%9F%B3%E4%B9%90",
+          "source": "blackmatrix7-tencent-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "QYPlayer*",
+          "source": "blackmatrix7-iqiyi-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "TencentMidasConnect*",
+          "source": "blackmatrix7-tencent-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "WeChat*",
+          "source": "blackmatrix7-wechat-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Youku*",
+          "source": "blackmatrix7-youku-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "bili*",
+          "source": "blackmatrix7-bilibili-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "bili-inter*",
+          "source": "blackmatrix7-bilibili-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "iQIYI*",
+          "source": "blackmatrix7-iqiyi-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "iQiYi*",
+          "source": "blackmatrix7-iqiyi-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "iQiyi*",
+          "source": "blackmatrix7-iqiyi-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "live4iphone*",
+          "source": "blackmatrix7-tencent-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "qqlive4iphone*",
+          "source": "blackmatrix7-tencent-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 1,
+      "moved": [
+        {
+          "type": "geoip",
+          "value": "CN",
+          "source": "override:China.json",
+          "reason": "Handled by the profile's external CNIP rule set after category matches"
+        }
+      ],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Domestic/Domestic.json",
+      "dns_path": "Domestic/Domestic.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Domestic/Domestic.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Domestic/Domestic.dns.json"
+    },
+    "SpeedTest": {
+      "input_rules": 3408,
+      "input_types": {
+        "domain": 3292,
+        "domain_keyword": 1,
+        "domain_suffix": 114,
+        "user_agent": 1
+      },
+      "emitted_input_rules": 3407,
+      "emitted_input_types": {
+        "domain": 3292,
+        "domain_keyword": 1,
+        "domain_suffix": 114
+      },
+      "route_rules": 3407,
+      "dns_rules": 3407,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-speedtest-quanx": 10,
+        "sukka-speedtest-domainset": 3398
+      },
+      "omitted_count": 1,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "SpeedTest*",
+          "source": "blackmatrix7-speedtest-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "SpeedTest/SpeedTest.json",
+      "dns_path": "SpeedTest/SpeedTest.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/SpeedTest/SpeedTest.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/SpeedTest/SpeedTest.dns.json"
+    },
+    "Gemini": {
+      "input_rules": 53,
+      "input_types": {
+        "domain": 14,
+        "domain_keyword": 3,
+        "domain_suffix": 36
+      },
+      "emitted_input_rules": 53,
+      "emitted_input_types": {
+        "domain": 14,
+        "domain_keyword": 3,
+        "domain_suffix": 36
+      },
+      "route_rules": 53,
+      "dns_rules": 53,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "acl4ssr-gemini-clash": 13,
+        "metacubex-google-gemini-geosite": 38,
+        "override:GoogleGemini.json": 2
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Gemini/Gemini.json",
+      "dns_path": "Gemini/Gemini.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Gemini/Gemini.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Gemini/Gemini.dns.json"
+    },
+    "AI": {
+      "input_rules": 165,
+      "input_types": {
+        "domain": 60,
+        "domain_keyword": 4,
+        "domain_suffix": 99,
+        "ip_cidr": 2
+      },
+      "emitted_input_rules": 165,
+      "emitted_input_types": {
+        "domain": 60,
+        "domain_keyword": 4,
+        "domain_suffix": 99,
+        "ip_cidr": 2
+      },
+      "route_rules": 165,
+      "dns_rules": 163,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "acl4ssr-claude-clash": 2,
+        "acl4ssr-gemini-clash": 13,
+        "acl4ssr-openai-clash": 2,
+        "blackmatrix7-openai-quanx": 34,
+        "metacubex-anthropic-geosite": 6,
+        "metacubex-google-gemini-geosite": 38,
+        "metacubex-openai-geosite": 10,
+        "override:AnthropicClaude.json": 1,
+        "override:Cursor.json": 3,
+        "override:GoogleGemini.json": 2,
+        "override:GrokXAI.json": 4,
+        "override:HuggingFace.json": 4,
+        "override:MicrosoftCopilot.json": 5,
+        "override:Midjourney.json": 2,
+        "override:MistralAI.json": 3,
+        "override:OpenAI.json": 15,
+        "override:Perplexity.json": 3,
+        "override:Poe.json": 3,
+        "override:Replicate.json": 3,
+        "override:Runway.json": 3,
+        "override:StabilityAI.json": 3,
+        "override:TabbitGlobal.json": 3,
+        "override:Windsurf.json": 3
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "AI/AI.json",
+      "dns_path": "AI/AI.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/AI/AI.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/AI/AI.dns.json"
+    },
+    "Dev": {
+      "input_rules": 55,
+      "input_types": {
+        "domain": 23,
+        "domain_suffix": 32
+      },
+      "emitted_input_rules": 55,
+      "emitted_input_types": {
+        "domain": 23,
+        "domain_suffix": 32
+      },
+      "route_rules": 55,
+      "dns_rules": 55,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "override:Docker.json": 5,
+        "override:GitLab.json": 3,
+        "override:Go.json": 5,
+        "override:Gradle.json": 4,
+        "override:Homebrew.json": 5,
+        "override:JetBrains.json": 4,
+        "override:Maven.json": 4,
+        "override:MicrosoftDev.json": 4,
+        "override:NPM.json": 3,
+        "override:Netlify.json": 2,
+        "override:PyPI.json": 3,
+        "override:RubyGems.json": 3,
+        "override:Rust.json": 4,
+        "override:VSCode.json": 4,
+        "override:Vercel.json": 2
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Dev/Dev.json",
+      "dns_path": "Dev/Dev.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Dev/Dev.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Dev/Dev.dns.json"
+    },
+    "Payment": {
+      "input_rules": 252,
+      "input_types": {
+        "domain": 2,
+        "domain_keyword": 1,
+        "domain_suffix": 248,
+        "user_agent": 1
+      },
+      "emitted_input_rules": 251,
+      "emitted_input_types": {
+        "domain": 2,
+        "domain_keyword": 1,
+        "domain_suffix": 248
+      },
+      "route_rules": 251,
+      "dns_rules": 251,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-paypal-quanx": 248,
+        "override:Stripe.json": 4
+      },
+      "omitted_count": 1,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "PayPal*",
+          "source": "blackmatrix7-paypal-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Payment/Payment.json",
+      "dns_path": "Payment/Payment.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Payment/Payment.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Payment/Payment.dns.json"
+    },
+    "Game": {
+      "input_rules": 34,
+      "input_types": {
+        "domain_suffix": 34
+      },
+      "emitted_input_rules": 34,
+      "emitted_input_types": {
+        "domain_suffix": 34
+      },
+      "route_rules": 34,
+      "dns_rules": 34,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "override:BattleNet.json": 4,
+        "override:EpicGames.json": 4,
+        "override:HoYoverse.json": 4,
+        "override:Nintendo.json": 4,
+        "override:PlayStation.json": 4,
+        "override:RiotGames.json": 4,
+        "override:Steam.json": 6,
+        "override:Xbox.json": 4
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Game/Game.json",
+      "dns_path": "Game/Game.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Game/Game.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Game/Game.dns.json"
+    },
+    "Telegram": {
+      "input_rules": 35,
+      "input_types": {
+        "domain": 2,
+        "domain_keyword": 1,
+        "domain_suffix": 22,
+        "ip_cidr": 6,
+        "ip_cidr6": 4
+      },
+      "emitted_input_rules": 35,
+      "emitted_input_types": {
+        "domain": 2,
+        "domain_keyword": 1,
+        "domain_suffix": 22,
+        "ip_cidr": 6,
+        "ip_cidr6": 4
+      },
+      "route_rules": 35,
+      "dns_rules": 25,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-telegram-quanx": 35
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Telegram/Telegram.json",
+      "dns_path": "Telegram/Telegram.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Telegram/Telegram.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Telegram/Telegram.dns.json"
+    },
+    "YouTube": {
+      "input_rules": 193,
+      "input_types": {
+        "domain": 3,
+        "domain_keyword": 1,
+        "domain_suffix": 179,
+        "ip_cidr": 2,
+        "ip_cidr6": 1,
+        "user_agent": 7
+      },
+      "emitted_input_rules": 186,
+      "emitted_input_types": {
+        "domain": 3,
+        "domain_keyword": 1,
+        "domain_suffix": 179,
+        "ip_cidr": 2,
+        "ip_cidr6": 1
+      },
+      "route_rules": 186,
+      "dns_rules": 183,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-youtube-quanx": 193
+      },
+      "omitted_count": 7,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "*YouTubeMusic*",
+          "source": "blackmatrix7-youtube-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "*com.google.ios.youtubemusic*",
+          "source": "blackmatrix7-youtube-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "*youtube*",
+          "source": "blackmatrix7-youtube-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "YouTube*",
+          "source": "blackmatrix7-youtube-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "YouTubeMusic*",
+          "source": "blackmatrix7-youtube-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "com.google.ios.youtube*",
+          "source": "blackmatrix7-youtube-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "com.google.ios.youtubemusic*",
+          "source": "blackmatrix7-youtube-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "YouTube/YouTube.json",
+      "dns_path": "YouTube/YouTube.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/YouTube/YouTube.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/YouTube/YouTube.dns.json"
+    },
+    "Netflix": {
+      "input_rules": 1156,
+      "input_types": {
+        "domain": 3,
+        "domain_keyword": 4,
+        "domain_suffix": 29,
+        "ip_cidr": 1115,
+        "ip_cidr6": 4,
+        "user_agent": 1
+      },
+      "emitted_input_rules": 1155,
+      "emitted_input_types": {
+        "domain": 3,
+        "domain_keyword": 4,
+        "domain_suffix": 29,
+        "ip_cidr": 1115,
+        "ip_cidr6": 4
+      },
+      "route_rules": 1155,
+      "dns_rules": 36,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-netflix-quanx": 1156
+      },
+      "omitted_count": 1,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "Argo*",
+          "source": "blackmatrix7-netflix-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Netflix/Netflix.json",
+      "dns_path": "Netflix/Netflix.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Netflix/Netflix.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Netflix/Netflix.dns.json"
+    },
+    "DisneyPlus": {
+      "input_rules": 5,
+      "input_types": {
+        "domain_suffix": 5
+      },
+      "emitted_input_rules": 5,
+      "emitted_input_types": {
+        "domain_suffix": 5
+      },
+      "route_rules": 5,
+      "dns_rules": 5,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "override:DisneyPlus.json": 5
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "DisneyPlus/DisneyPlus.json",
+      "dns_path": "DisneyPlus/DisneyPlus.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/DisneyPlus/DisneyPlus.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/DisneyPlus/DisneyPlus.dns.json"
+    },
+    "Spotify": {
+      "input_rules": 30,
+      "input_types": {
+        "domain": 6,
+        "domain_keyword": 1,
+        "domain_suffix": 20,
+        "ip_cidr": 2,
+        "user_agent": 1
+      },
+      "emitted_input_rules": 29,
+      "emitted_input_types": {
+        "domain": 6,
+        "domain_keyword": 1,
+        "domain_suffix": 20,
+        "ip_cidr": 2
+      },
+      "route_rules": 29,
+      "dns_rules": 27,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-spotify-quanx": 30
+      },
+      "omitted_count": 1,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "Spotify*",
+          "source": "blackmatrix7-spotify-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Spotify/Spotify.json",
+      "dns_path": "Spotify/Spotify.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Spotify/Spotify.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Spotify/Spotify.dns.json"
+    },
+    "TikTok": {
+      "input_rules": 32,
+      "input_types": {
+        "domain": 4,
+        "domain_keyword": 2,
+        "domain_suffix": 25,
+        "user_agent": 1
+      },
+      "emitted_input_rules": 31,
+      "emitted_input_types": {
+        "domain": 4,
+        "domain_keyword": 2,
+        "domain_suffix": 25
+      },
+      "route_rules": 31,
+      "dns_rules": 31,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-tiktok-quanx": 32
+      },
+      "omitted_count": 1,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "TikTok*",
+          "source": "blackmatrix7-tiktok-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "TikTok/TikTok.json",
+      "dns_path": "TikTok/TikTok.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/TikTok/TikTok.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/TikTok/TikTok.dns.json"
+    },
+    "Twitter": {
+      "input_rules": 33,
+      "input_types": {
+        "domain_keyword": 1,
+        "domain_suffix": 26,
+        "ip_cidr": 6
+      },
+      "emitted_input_rules": 33,
+      "emitted_input_types": {
+        "domain_keyword": 1,
+        "domain_suffix": 26,
+        "ip_cidr": 6
+      },
+      "route_rules": 33,
+      "dns_rules": 27,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-twitter-quanx": 33
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Twitter/Twitter.json",
+      "dns_path": "Twitter/Twitter.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Twitter/Twitter.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Twitter/Twitter.dns.json"
+    },
+    "Facebook": {
+      "input_rules": 569,
+      "input_types": {
+        "domain_keyword": 2,
+        "domain_suffix": 544,
+        "ip_cidr": 23
+      },
+      "emitted_input_rules": 569,
+      "emitted_input_types": {
+        "domain_keyword": 2,
+        "domain_suffix": 544,
+        "ip_cidr": 23
+      },
+      "route_rules": 569,
+      "dns_rules": 546,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-facebook-quanx": 569
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Facebook/Facebook.json",
+      "dns_path": "Facebook/Facebook.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Facebook/Facebook.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Facebook/Facebook.dns.json"
+    },
+    "Instagram": {
+      "input_rules": 4,
+      "input_types": {
+        "domain_keyword": 1,
+        "domain_suffix": 3
+      },
+      "emitted_input_rules": 4,
+      "emitted_input_types": {
+        "domain_keyword": 1,
+        "domain_suffix": 3
+      },
+      "route_rules": 4,
+      "dns_rules": 4,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-instagram-quanx": 4
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Instagram/Instagram.json",
+      "dns_path": "Instagram/Instagram.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Instagram/Instagram.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Instagram/Instagram.dns.json"
+    },
+    "Apple": {
+      "input_rules": 1876,
+      "input_types": {
+        "domain": 272,
+        "domain_keyword": 7,
+        "domain_suffix": 1561,
+        "ip_cidr": 10,
+        "ip_cidr6": 3,
+        "user_agent": 23
+      },
+      "emitted_input_rules": 1853,
+      "emitted_input_types": {
+        "domain": 272,
+        "domain_keyword": 7,
+        "domain_suffix": 1561,
+        "ip_cidr": 10,
+        "ip_cidr6": 3
+      },
+      "route_rules": 1853,
+      "dns_rules": 1840,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-apple-quanx": 1866,
+        "override:Apple.json": 1,
+        "override:AppleCDN.json": 2,
+        "override:AppleMedia.json": 3,
+        "override:ApplePush.json": 4
+      },
+      "omitted_count": 23,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "*FindMyiPhone?",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "*Music?",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "*WeatherFoundation*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "*com.apple.Maps?",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "*com.apple.mobileme.fmip1",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "AppleNews*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "AppleTV*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "FMDClient*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "FMFD*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "FindMyFriends*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "FindMyiPhone*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Maps*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Music*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Wallet*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "com.apple.Maps",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "com.apple.appstored*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "com.apple.news*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "com.apple.trustd*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "com.apple.tv*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "fmflocatord*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "geod*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "locationd*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "passd*",
+          "source": "blackmatrix7-apple-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Apple/Apple.json",
+      "dns_path": "Apple/Apple.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Apple/Apple.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Apple/Apple.dns.json"
+    },
+    "Microsoft": {
+      "input_rules": 713,
+      "input_types": {
+        "domain": 41,
+        "domain_keyword": 4,
+        "domain_suffix": 665,
+        "user_agent": 3
+      },
+      "emitted_input_rules": 710,
+      "emitted_input_types": {
+        "domain": 41,
+        "domain_keyword": 4,
+        "domain_suffix": 665
+      },
+      "route_rules": 710,
+      "dns_rules": 710,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-microsoft-quanx": 711,
+        "override:MicrosoftCloud.json": 2
+      },
+      "omitted_count": 3,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "Microsoft*",
+          "source": "blackmatrix7-microsoft-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "OneDrive*",
+          "source": "blackmatrix7-microsoft-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "OneDriveiOSApp*",
+          "source": "blackmatrix7-microsoft-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Microsoft/Microsoft.json",
+      "dns_path": "Microsoft/Microsoft.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Microsoft/Microsoft.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Microsoft/Microsoft.dns.json"
+    },
+    "Google": {
+      "input_rules": 711,
+      "input_types": {
+        "domain": 14,
+        "domain_keyword": 5,
+        "domain_suffix": 684,
+        "ip_cidr": 4,
+        "ip_cidr6": 1,
+        "user_agent": 3
+      },
+      "emitted_input_rules": 708,
+      "emitted_input_types": {
+        "domain": 14,
+        "domain_keyword": 5,
+        "domain_suffix": 684,
+        "ip_cidr": 4,
+        "ip_cidr6": 1
+      },
+      "route_rules": 708,
+      "dns_rules": 703,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-google-quanx": 711
+      },
+      "omitted_count": 3,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*",
+          "source": "blackmatrix7-google-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "*com.google.Drive*",
+          "source": "blackmatrix7-google-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Google.Drive*",
+          "source": "blackmatrix7-google-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Google/Google.json",
+      "dns_path": "Google/Google.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Google/Google.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Google/Google.dns.json"
+    },
+    "GitHub": {
+      "input_rules": 38,
+      "input_types": {
+        "domain": 7,
+        "domain_keyword": 1,
+        "domain_suffix": 30
+      },
+      "emitted_input_rules": 38,
+      "emitted_input_types": {
+        "domain": 7,
+        "domain_keyword": 1,
+        "domain_suffix": 30
+      },
+      "route_rules": 38,
+      "dns_rules": 38,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-github-quanx": 31,
+        "override:GitHub.json": 7
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "GitHub/GitHub.json",
+      "dns_path": "GitHub/GitHub.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GitHub/GitHub.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GitHub/GitHub.dns.json"
+    },
+    "GlobalSites": {
+      "input_rules": 7072,
+      "input_types": {
+        "domain": 8,
+        "domain_keyword": 26,
+        "domain_suffix": 6941,
+        "ip_cidr": 91,
+        "ip_cidr6": 4,
+        "user_agent": 2
+      },
+      "emitted_input_rules": 7070,
+      "emitted_input_types": {
+        "domain": 8,
+        "domain_keyword": 26,
+        "domain_suffix": 6941,
+        "ip_cidr": 91,
+        "ip_cidr6": 4
+      },
+      "route_rules": 7070,
+      "dns_rules": 6975,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "acl4ssr-global-clash": 6785,
+        "blackmatrix7-amazon-quanx": 204,
+        "blackmatrix7-discord-quanx": 29,
+        "blackmatrix7-reddit-quanx": 8,
+        "blackmatrix7-twitch-quanx": 21,
+        "override:Cloudflare.json": 5,
+        "override:Dropbox.json": 3,
+        "override:LinkedIn.json": 3,
+        "override:Messenger.json": 2,
+        "override:Notion.json": 4,
+        "override:Slack.json": 3,
+        "override:WhatsApp.json": 3,
+        "override:Zoom.json": 2
+      },
+      "omitted_count": 2,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "InstantVideo.US*",
+          "source": "blackmatrix7-amazon-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Prime%20Video*",
+          "source": "blackmatrix7-amazon-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 4,
+      "normalized_cidrs": [
+        {
+          "type": "ip_cidr",
+          "original": "108.168.174.0/16",
+          "canonical": "108.168.0.0/16",
+          "source": "acl4ssr-global-clash"
+        },
+        {
+          "type": "ip_cidr",
+          "original": "174.37.243.0/16",
+          "canonical": "174.37.0.0/16",
+          "source": "acl4ssr-global-clash"
+        },
+        {
+          "type": "ip_cidr",
+          "original": "69.171.235.0/16",
+          "canonical": "69.171.0.0/16",
+          "source": "acl4ssr-global-clash"
+        },
+        {
+          "type": "ip_cidr",
+          "original": "75.126.150.0/16",
+          "canonical": "75.126.0.0/16",
+          "source": "acl4ssr-global-clash"
+        }
+      ],
+      "route_path": "GlobalSites/GlobalSites.json",
+      "dns_path": "GlobalSites/GlobalSites.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalSites/GlobalSites.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalSites/GlobalSites.dns.json"
+    },
+    "Ads": {
+      "input_rules": 281069,
+      "input_types": {
+        "domain": 16427,
+        "domain_keyword": 278,
+        "domain_suffix": 263874,
+        "ip_cidr": 487,
+        "ip_cidr6": 3
+      },
+      "emitted_input_rules": 281069,
+      "emitted_input_types": {
+        "domain": 16427,
+        "domain_keyword": 278,
+        "domain_suffix": 263874,
+        "ip_cidr": 487,
+        "ip_cidr6": 3
+      },
+      "route_rules": 281069,
+      "dns_rules": 280579,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-advertising-quanx": 281060,
+        "override:Advertising.json": 3,
+        "override:Hijacking.json": 5,
+        "override:Privacy.json": 1
+      },
+      "omitted_count": 0,
+      "omitted": [],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "Ads/Ads.json",
+      "dns_path": "Ads/Ads.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Ads/Ads.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Ads/Ads.dns.json"
+    },
+    "PayPal": {
+      "input_rules": 248,
+      "input_types": {
+        "domain_keyword": 1,
+        "domain_suffix": 246,
+        "user_agent": 1
+      },
+      "emitted_input_rules": 247,
+      "emitted_input_types": {
+        "domain_keyword": 1,
+        "domain_suffix": 246
+      },
+      "route_rules": 247,
+      "dns_rules": 247,
+      "headless_route_rules": 1,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-paypal-quanx": 248
+      },
+      "omitted_count": 1,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "PayPal*",
+          "source": "blackmatrix7-paypal-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "PayPal/PayPal.json",
+      "dns_path": "PayPal/PayPal.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/PayPal/PayPal.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/PayPal/PayPal.dns.json"
+    },
+    "GlobalMedia": {
+      "input_rules": 2372,
+      "input_types": {
+        "domain": 37,
+        "domain_keyword": 26,
+        "domain_suffix": 1316,
+        "ip_cidr": 918,
+        "ip_cidr6": 6,
+        "user_agent": 69
+      },
+      "emitted_input_rules": 2303,
+      "emitted_input_types": {
+        "domain": 37,
+        "domain_keyword": 26,
+        "domain_suffix": 1316,
+        "ip_cidr": 918,
+        "ip_cidr6": 6
+      },
+      "route_rules": 2303,
+      "dns_rules": 1379,
+      "headless_route_rules": 2,
+      "headless_dns_rules": 1,
+      "source_labels": {
+        "blackmatrix7-globalmedia-quanx": 2331,
+        "override:GlobalMedia.json": 41
+      },
+      "omitted_count": 69,
+      "omitted": [
+        {
+          "type": "user_agent",
+          "value": "*Spotify*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "*YouTubeMusic*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "*com.google.ios.youtubemusic*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "*youtube*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "AbemaTV*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "All4*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Anime*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "AppleTV*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Argo*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "BBCiPlayer*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "DAZN*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "DPlus*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Deezer*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Disney*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Disney+*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "FOX%20NOW*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "FOXNOW*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "FOXPlus*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "HBO%20GO%20PROD%20HKG*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "HBO%20GO%20PROD*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "HBO%20NOW*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "HBO*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "HBOGOPRODHKG*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "HBOMAX*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "HBONOW*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "HWTVMobile*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Himalaya*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Hulu*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "ITV_Player*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "InstantVideo.US*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "JOOX*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "KKTV*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "LINE%20TV*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "LINE*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "LINETV*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Max*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "My5*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Naver%20TV*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "NaverTV*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Niconico*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Overcast*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "PBS*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "PPlus*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Pandora*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "PeacockMobile*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Prime%20Video*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "PrimeVideo*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "SoundCloud*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Spotify*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "TIDAL*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "TIDAL*dia",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "TVer-Release*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "TaiwanGood*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "TikTok*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "Viu*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "ViuTV*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "WeMusic*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "WeTV*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "YouTube*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "YouTubeMusic*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "app/bstar*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "com.apple.tv*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "com.google.ios.youtube*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "com.google.ios.youtubemusic*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "com.kktv*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "com.kktv.ios.kktv*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "discovery+*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "encoreTVB*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        },
+        {
+          "type": "user_agent",
+          "value": "mytv*",
+          "source": "blackmatrix7-globalmedia-quanx",
+          "reason": "No equivalent native sing-box headless rule; omitted without conversion"
+        }
+      ],
+      "moved_count": 0,
+      "moved": [],
+      "normalized_cidr_count": 0,
+      "normalized_cidrs": [],
+      "route_path": "GlobalMedia/GlobalMedia.json",
+      "dns_path": "GlobalMedia/GlobalMedia.dns.json",
+      "route_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.json",
+      "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json"
+    }
+  },
+  "input_rules": 417652,
+  "route_rules": 417496,
+  "dns_rules": 414483,
+  "omitted_count": 155,
+  "moved_count": 1,
+  "normalized_cidr_count": 4,
+  "profile_template": {
+    "available": true,
+    "path": "sfa-template.json",
+    "missing_core_categories": [],
+    "connectable": false
+  },
+  "cnip": {
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+    "format": "binary",
+    "external": true
+  },
+  "validation": "Static conversion/reference checks only; no sing-box core or Android runtime validation"
+}

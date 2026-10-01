@@ -203,3 +203,19 @@ If `dist/` contains `icons/`, Pages and Release snapshots pick it up automatical
 Pages is the latest subscription surface. Releases are the rollback snapshot layer. Use Pages for daily consumption and Releases when you need to restore or compare a specific build day.
 
 The CI gate sequence is: unit tests, `compileall`, offline build, public Pages build, then snapshot publication after a successful publish run. That keeps structural and output issues out of the release trail.
+
+
+## Official SFA and sing-box
+
+- Public source JSON rules: `https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/`
+- Credential-free placeholder profile: `sing-box/sfa-template.json`; local generator: `sing-box/generate_sfa.py`; instructions: `sing-box/README.txt`
+- SFA exports 39 categories, excludes NetworkTest, and enables SpeedTest by default. Other clients retain their existing categories.
+- `sing-box/<ID>/<ID>.json` contains routing rules; `<ID>.dns.json` contains domain-only DNS rules. These are source JSON, not compiled SRS. Non-equivalent rules are recorded in `sing-box/conversion-report.json`.
+- Uses native selectors and URLTest; no simulated ordered fallback. SFA imports complete profiles, not individual rule-set URLs.
+
+```bash
+python3 generate_sfa.py subscription.json sfa.json --rule-base https://anfeng-crystal.github.io/proxy-rules-dist/sing-box
+sing-box check -c sfa.json
+```
+
+The example uses `.invalid` placeholder nodes and cannot connect. Keep actual subscriptions and generated full profiles private, out of public repositories. Remote rules refresh independently; local node definitions do not. Targets sing-box 1.14.2; verify actual Android connectivity on device.

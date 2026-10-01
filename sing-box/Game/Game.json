@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "activision.com",
+        "akamaized.net",
+        "battle.net",
+        "blizzard.com",
+        "blizzardentertainment.com",
+        "epicgames.com",
+        "epicgames.dev",
+        "gamepass.com",
+        "genshinimpact.com",
+        "honkaiimpact3.com",
+        "hoyolab.com",
+        "hoyoverse.com",
+        "leagueoflegends.com",
+        "nintendo-europe.com",
+        "nintendo.com",
+        "nintendo.net",
+        "nintendowifi.net",
+        "playstation.com",
+        "playstation.net",
+        "riotcdn.net",
+        "riotgames.com",
+        "sony.com",
+        "sonyentertainmentnetwork.com",
+        "steam-chat.com",
+        "steamcommunity.com",
+        "steamcontent.com",
+        "steampowered.com",
+        "steamserver.net",
+        "steamstatic.com",
+        "unrealengine.com",
+        "valorant.com",
+        "xbox.com",
+        "xboxlive.com",
+        "xboxservices.com"
+      ]
+    }
+  ]
+}

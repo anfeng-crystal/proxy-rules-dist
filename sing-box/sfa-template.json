@@ -1,0 +1,1114 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "type": "udp",
+        "tag": "bootstrap",
+        "server": "223.5.5.5",
+        "server_port": 53,
+        "detour": "RF:DIRECT"
+      },
+      {
+        "type": "https",
+        "tag": "domestic",
+        "server": "dns.alidns.com",
+        "server_port": 443,
+        "path": "/dns-query",
+        "domain_resolver": "bootstrap",
+        "detour": "RF:DIRECT"
+      },
+      {
+        "type": "https",
+        "tag": "foreign",
+        "server": "1.1.1.1",
+        "server_port": 443,
+        "path": "/dns-query",
+        "detour": "RF:节点选择"
+      },
+      {
+        "type": "local",
+        "tag": "local"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "localhost"
+        ],
+        "domain_suffix": [
+          ".local",
+          ".lan",
+          ".home.arpa",
+          ".localdomain"
+        ],
+        "action": "route",
+        "server": "local"
+      },
+      {
+        "domain": [
+          "login.live.com",
+          "logincdn.msauth.net"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "SpeedTestDNS"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "GeminiDNS"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "AIDNS"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "YouTubeDNS"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "NetflixDNS"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "DisneyPlusDNS"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "GoogleDNS"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "GitHubDNS"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "MicrosoftDNS"
+        ],
+        "action": "route",
+        "server": "domestic"
+      },
+      {
+        "rule_set": [
+          "AppleDNS"
+        ],
+        "action": "route",
+        "server": "domestic"
+      },
+      {
+        "rule_set": [
+          "TelegramDNS"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "PayPalDNS"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "GlobalMediaDNS"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "GlobalSitesDNS"
+        ],
+        "action": "route",
+        "server": "foreign"
+      },
+      {
+        "rule_set": [
+          "DomesticDNS"
+        ],
+        "action": "route",
+        "server": "domestic"
+      }
+    ],
+    "final": "foreign",
+    "reverse_mapping": true
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "mtu": 1500,
+      "auto_route": true
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "RF:DIRECT"
+    },
+    {
+      "type": "trojan",
+      "tag": "HK SYNTHETIC EXAMPLE",
+      "server": "hk.example.invalid",
+      "server_port": 443,
+      "password": "DUMMY-NOT-A-REAL-PASSWORD",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.example.invalid"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "TW SYNTHETIC EXAMPLE",
+      "server": "tw.example.invalid",
+      "server_port": 443,
+      "password": "DUMMY-NOT-A-REAL-PASSWORD",
+      "tls": {
+        "enabled": true,
+        "server_name": "tw.example.invalid"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "JP SYNTHETIC EXAMPLE",
+      "server": "jp.example.invalid",
+      "server_port": 443,
+      "password": "DUMMY-NOT-A-REAL-PASSWORD",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp.example.invalid"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "SG SYNTHETIC EXAMPLE",
+      "server": "sg.example.invalid",
+      "server_port": 443,
+      "password": "DUMMY-NOT-A-REAL-PASSWORD",
+      "tls": {
+        "enabled": true,
+        "server_name": "sg.example.invalid"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "US SYNTHETIC EXAMPLE",
+      "server": "us.example.invalid",
+      "server_port": 443,
+      "password": "DUMMY-NOT-A-REAL-PASSWORD",
+      "tls": {
+        "enabled": true,
+        "server_name": "us.example.invalid"
+      }
+    },
+    {
+      "type": "urltest",
+      "tag": "RF:香港-自动测速",
+      "outbounds": [
+        "HK SYNTHETIC EXAMPLE"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "5m",
+      "tolerance": 50,
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:香港",
+      "outbounds": [
+        "RF:香港-自动测速",
+        "HK SYNTHETIC EXAMPLE"
+      ],
+      "default": "RF:香港-自动测速",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "urltest",
+      "tag": "RF:台湾-自动测速",
+      "outbounds": [
+        "TW SYNTHETIC EXAMPLE"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "5m",
+      "tolerance": 50,
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:台湾",
+      "outbounds": [
+        "RF:台湾-自动测速",
+        "TW SYNTHETIC EXAMPLE"
+      ],
+      "default": "RF:台湾-自动测速",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "urltest",
+      "tag": "RF:日本-自动测速",
+      "outbounds": [
+        "JP SYNTHETIC EXAMPLE"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "5m",
+      "tolerance": 50,
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:日本",
+      "outbounds": [
+        "RF:日本-自动测速",
+        "JP SYNTHETIC EXAMPLE"
+      ],
+      "default": "RF:日本-自动测速",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "urltest",
+      "tag": "RF:新加坡-自动测速",
+      "outbounds": [
+        "SG SYNTHETIC EXAMPLE"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "5m",
+      "tolerance": 50,
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:新加坡",
+      "outbounds": [
+        "RF:新加坡-自动测速",
+        "SG SYNTHETIC EXAMPLE"
+      ],
+      "default": "RF:新加坡-自动测速",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "urltest",
+      "tag": "RF:美国-自动测速",
+      "outbounds": [
+        "US SYNTHETIC EXAMPLE"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "5m",
+      "tolerance": 50,
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:美国",
+      "outbounds": [
+        "RF:美国-自动测速",
+        "US SYNTHETIC EXAMPLE"
+      ],
+      "default": "RF:美国-自动测速",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:全部节点",
+      "outbounds": [
+        "HK SYNTHETIC EXAMPLE",
+        "TW SYNTHETIC EXAMPLE",
+        "JP SYNTHETIC EXAMPLE",
+        "SG SYNTHETIC EXAMPLE",
+        "US SYNTHETIC EXAMPLE"
+      ],
+      "default": "HK SYNTHETIC EXAMPLE",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:节点选择",
+      "outbounds": [
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:香港",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:规则下载",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:DIRECT"
+      ],
+      "default": "RF:节点选择",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:SpeedTest",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:节点选择",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:Gemini",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:美国",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:AI",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:美国",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:YouTube",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:香港",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:Netflix",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:香港",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:DisneyPlus",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:香港",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:Google",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:香港",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:GitHub",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:香港",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:PayPal",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:香港",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:境外流媒体",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:香港",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:Telegram",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:新加坡",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:Microsoft",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:DIRECT",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:Apple",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:DIRECT",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:国内应用",
+      "outbounds": [
+        "RF:DIRECT"
+      ],
+      "default": "RF:DIRECT",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:境外网站",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:全部节点",
+        "RF:DIRECT"
+      ],
+      "default": "RF:节点选择",
+      "interrupt_exist_connections": false
+    },
+    {
+      "type": "selector",
+      "tag": "RF:漏网之鱼",
+      "outbounds": [
+        "RF:节点选择",
+        "RF:香港",
+        "RF:台湾",
+        "RF:日本",
+        "RF:新加坡",
+        "RF:美国",
+        "RF:DIRECT"
+      ],
+      "default": "RF:节点选择",
+      "interrupt_exist_connections": false
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "action": "sniff"
+      },
+      {
+        "type": "logical",
+        "mode": "or",
+        "rules": [
+          {
+            "protocol": "dns"
+          },
+          {
+            "port": 53
+          }
+        ],
+        "action": "hijack-dns"
+      },
+      {
+        "ip_is_private": true,
+        "action": "route",
+        "outbound": "RF:DIRECT"
+      },
+      {
+        "domain": [
+          "localhost"
+        ],
+        "domain_suffix": [
+          ".local",
+          ".lan",
+          ".home.arpa",
+          ".localdomain"
+        ],
+        "action": "route",
+        "outbound": "RF:DIRECT"
+      },
+      {
+        "domain": [
+          "login.live.com",
+          "logincdn.msauth.net"
+        ],
+        "action": "route",
+        "outbound": "RF:节点选择"
+      },
+      {
+        "rule_set": [
+          "SpeedTest"
+        ],
+        "action": "route",
+        "outbound": "RF:SpeedTest"
+      },
+      {
+        "rule_set": [
+          "Gemini"
+        ],
+        "action": "route",
+        "outbound": "RF:Gemini"
+      },
+      {
+        "rule_set": [
+          "AI"
+        ],
+        "action": "route",
+        "outbound": "RF:AI"
+      },
+      {
+        "rule_set": [
+          "YouTube"
+        ],
+        "action": "route",
+        "outbound": "RF:YouTube"
+      },
+      {
+        "rule_set": [
+          "Netflix"
+        ],
+        "action": "route",
+        "outbound": "RF:Netflix"
+      },
+      {
+        "rule_set": [
+          "DisneyPlus"
+        ],
+        "action": "route",
+        "outbound": "RF:DisneyPlus"
+      },
+      {
+        "rule_set": [
+          "Google"
+        ],
+        "action": "route",
+        "outbound": "RF:Google"
+      },
+      {
+        "rule_set": [
+          "GitHub"
+        ],
+        "action": "route",
+        "outbound": "RF:GitHub"
+      },
+      {
+        "rule_set": [
+          "Microsoft"
+        ],
+        "action": "route",
+        "outbound": "RF:Microsoft"
+      },
+      {
+        "rule_set": [
+          "Apple"
+        ],
+        "action": "route",
+        "outbound": "RF:Apple"
+      },
+      {
+        "rule_set": [
+          "Telegram"
+        ],
+        "action": "route",
+        "outbound": "RF:Telegram"
+      },
+      {
+        "rule_set": [
+          "PayPal"
+        ],
+        "action": "route",
+        "outbound": "RF:PayPal"
+      },
+      {
+        "rule_set": [
+          "GlobalMedia"
+        ],
+        "action": "route",
+        "outbound": "RF:境外流媒体"
+      },
+      {
+        "rule_set": [
+          "GlobalSites"
+        ],
+        "action": "route",
+        "outbound": "RF:境外网站"
+      },
+      {
+        "rule_set": [
+          "Domestic"
+        ],
+        "action": "route",
+        "outbound": "RF:国内应用"
+      },
+      {
+        "action": "resolve"
+      },
+      {
+        "rule_set": [
+          "CNIP"
+        ],
+        "action": "route",
+        "outbound": "RF:DIRECT"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "SpeedTest",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/SpeedTest/SpeedTest.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "SpeedTestDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/SpeedTest/SpeedTest.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "Gemini",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Gemini/Gemini.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "GeminiDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Gemini/Gemini.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "AI",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/AI/AI.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "AIDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/AI/AI.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "YouTube",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/YouTube/YouTube.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "YouTubeDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/YouTube/YouTube.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "Netflix",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Netflix/Netflix.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "NetflixDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Netflix/Netflix.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "DisneyPlus",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/DisneyPlus/DisneyPlus.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "DisneyPlusDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/DisneyPlus/DisneyPlus.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "Google",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Google/Google.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "GoogleDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Google/Google.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "GitHub",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GitHub/GitHub.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "GitHubDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GitHub/GitHub.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "Microsoft",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Microsoft/Microsoft.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "MicrosoftDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Microsoft/Microsoft.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "Apple",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Apple/Apple.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "AppleDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Apple/Apple.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "Telegram",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Telegram/Telegram.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "TelegramDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Telegram/Telegram.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "PayPal",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/PayPal/PayPal.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "PayPalDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/PayPal/PayPal.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "GlobalMedia",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "GlobalMediaDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "GlobalSites",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalSites/GlobalSites.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "GlobalSitesDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalSites/GlobalSites.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "Domestic",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Domestic/Domestic.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "DomesticDNS",
+        "format": "source",
+        "url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Domestic/Domestic.dns.json",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      },
+      {
+        "type": "remote",
+        "tag": "CNIP",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+        "update_interval": "1d",
+        "http_client": {
+          "detour": "RF:规则下载"
+        }
+      }
+    ],
+    "final": "RF:漏网之鱼",
+    "default_domain_resolver": "bootstrap"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "cache_id": "ruleforge-sfa",
+      "store_dns": true
+    }
+  }
+}

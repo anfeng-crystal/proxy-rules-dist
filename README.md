@@ -18,6 +18,7 @@
 - Loon
 - Clash
 - Mihomo
+- 官方 SFA / sing-box（原生 source JSON 规则与完整配置生成器）
 
 ## 规则结构
 
@@ -132,3 +133,20 @@ site/
 - 公开页面和发布快照使用同一路径，日常使用优先 Pages，归档和回滚优先 Releases。
 - `dist/quanx`、`dist/loon`、`dist/clash`、`dist/mihomo` 和 `dist/mihomo-mrs` 只发布公开 allowlist 文件。
 - Mihomo MRS 文件只承载 `domain` 行为可表达的域名规则；`DOMAIN-KEYWORD`、`USER-AGENT`、`IP-CIDR`、`GEOIP` 等 classical 规则会在 MRS rules 片段和完整模板中补到对应 `RULE-SET` 前面。
+
+
+## 官方 SFA 与 sing-box
+
+- 公开 source JSON 规则目录：`https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/`
+- 无凭据占位模板：`sing-box/sfa-template.json`；本地生成器：`sing-box/generate_sfa.py`；操作说明：`sing-box/README.txt`
+- SFA 专用导出保留 39 类，移除 NetworkTest；SpeedTest 默认启用。其他客户端分类不受影响。
+- 每类 `sing-box/<ID>/<ID>.json` 是路由规则，`<ID>.dns.json` 是纯域名 DNS 规则；格式为 sing-box source JSON，不是 SRS。无法等价表达的条目写入 `sing-box/conversion-report.json`。
+- 使用原生 `selector` 和 `urltest`，不模拟有序故障转移。官方 SFA 导入的是完整配置，单个规则集 URL 不是完整配置 URL。
+- 使用你的原生 sing-box 节点 JSON 在本地生成完整配置：
+
+```bash
+python3 generate_sfa.py subscription.json sfa.json --rule-base https://anfeng-crystal.github.io/proxy-rules-dist/sing-box
+sing-box check -c sfa.json
+```
+
+模板只含 `.invalid` 假节点，不能直接连接。真实订阅与生成的完整配置必须私有保存，不可提交到公开规则仓库。规则集可以独立自动更新；本地节点列表不会自动更新。目标内核为 1.14.2，Android 实际连通仍需在设备上验证。
