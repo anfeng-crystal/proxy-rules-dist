@@ -1045,6 +1045,7 @@ HOST,speedtest-dcy.ideatek.com,SpeedTest
 HOST,speedtest-de.pq.hosting,SpeedTest
 HOST,speedtest-de.unihost.com,SpeedTest
 HOST,speedtest-de.webdade.com,SpeedTest
+HOST,speedtest-de1.expresshost.cloud,SpeedTest
 HOST,speedtest-dfw.dish-wireless.com,SpeedTest
 HOST,speedtest-dsm.cowboyhosting.com,SpeedTest
 HOST,speedtest-east.eastlink.ca,SpeedTest
@@ -1384,6 +1385,7 @@ HOST,speedtest.auratelecom.com.br,SpeedTest
 HOST,speedtest.auriganet.in,SpeedTest
 HOST,speedtest.axclusive.com.sg,SpeedTest
 HOST,speedtest.b2.mhn.cloud,SpeedTest
+HOST,speedtest.b3online.es,SpeedTest
 HOST,speedtest.bainbridgefiber.com,SpeedTest
 HOST,speedtest.bakcom.in,SpeedTest
 HOST,speedtest.barcconnects.net,SpeedTest
@@ -3383,6 +3385,7 @@ HOST-SUFFIX,speedtest.sbcglobal.net,SpeedTest
 HOST-SUFFIX,speedtest.seattle.wa.limewave.net,SpeedTest
 HOST-SUFFIX,speedtest.secv.com,SpeedTest
 HOST-SUFFIX,speedtest.serverside.com,SpeedTest
+HOST-SUFFIX,speedtest.sg,SpeedTest
 HOST-SUFFIX,speedtest.shentel.net,SpeedTest
 HOST-SUFFIX,speedtest.singnet.com.sg,SpeedTest
 HOST-SUFFIX,speedtest.soraxus.com,SpeedTest

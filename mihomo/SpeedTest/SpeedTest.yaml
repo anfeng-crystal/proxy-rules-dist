@@ -1045,6 +1045,7 @@ payload:
   - DOMAIN,speedtest-de.pq.hosting
   - DOMAIN,speedtest-de.unihost.com
   - DOMAIN,speedtest-de.webdade.com
+  - DOMAIN,speedtest-de1.expresshost.cloud
   - DOMAIN,speedtest-dfw.dish-wireless.com
   - DOMAIN,speedtest-dsm.cowboyhosting.com
   - DOMAIN,speedtest-east.eastlink.ca
@@ -1384,6 +1385,7 @@ payload:
   - DOMAIN,speedtest.auriganet.in
   - DOMAIN,speedtest.axclusive.com.sg
   - DOMAIN,speedtest.b2.mhn.cloud
+  - DOMAIN,speedtest.b3online.es
   - DOMAIN,speedtest.bainbridgefiber.com
   - DOMAIN,speedtest.bakcom.in
   - DOMAIN,speedtest.barcconnects.net
@@ -3383,6 +3385,7 @@ payload:
   - DOMAIN-SUFFIX,speedtest.seattle.wa.limewave.net
   - DOMAIN-SUFFIX,speedtest.secv.com
   - DOMAIN-SUFFIX,speedtest.serverside.com
+  - DOMAIN-SUFFIX,speedtest.sg
   - DOMAIN-SUFFIX,speedtest.shentel.net
   - DOMAIN-SUFFIX,speedtest.singnet.com.sg
   - DOMAIN-SUFFIX,speedtest.soraxus.com
