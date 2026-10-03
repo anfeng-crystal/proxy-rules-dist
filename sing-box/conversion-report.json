@@ -814,26 +814,26 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Domestic/Domestic.dns.json"
     },
     "SpeedTest": {
-      "input_rules": 3413,
+      "input_rules": 3414,
       "input_types": {
-        "domain": 3296,
+        "domain": 3297,
         "domain_keyword": 1,
         "domain_suffix": 115,
         "user_agent": 1
       },
-      "emitted_input_rules": 3412,
+      "emitted_input_rules": 3413,
       "emitted_input_types": {
-        "domain": 3296,
+        "domain": 3297,
         "domain_keyword": 1,
         "domain_suffix": 115
       },
-      "route_rules": 3412,
-      "dns_rules": 3412,
+      "route_rules": 3413,
+      "dns_rules": 3413,
       "headless_route_rules": 1,
       "headless_dns_rules": 1,
       "source_labels": {
         "blackmatrix7-speedtest-quanx": 10,
-        "sukka-speedtest-domainset": 3403
+        "sukka-speedtest-domainset": 3404
       },
       "omitted_count": 1,
       "omitted": [
@@ -887,22 +887,22 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Gemini/Gemini.dns.json"
     },
     "AI": {
-      "input_rules": 165,
+      "input_rules": 166,
       "input_types": {
         "domain": 60,
         "domain_keyword": 4,
-        "domain_suffix": 99,
+        "domain_suffix": 100,
         "ip_cidr": 2
       },
-      "emitted_input_rules": 165,
+      "emitted_input_rules": 166,
       "emitted_input_types": {
         "domain": 60,
         "domain_keyword": 4,
-        "domain_suffix": 99,
+        "domain_suffix": 100,
         "ip_cidr": 2
       },
-      "route_rules": 165,
-      "dns_rules": 163,
+      "route_rules": 166,
+      "dns_rules": 164,
       "headless_route_rules": 2,
       "headless_dns_rules": 1,
       "source_labels": {
@@ -910,7 +910,7 @@
         "acl4ssr-gemini-clash": 13,
         "acl4ssr-openai-clash": 2,
         "blackmatrix7-openai-quanx": 34,
-        "metacubex-anthropic-geosite": 6,
+        "metacubex-anthropic-geosite": 7,
         "metacubex-google-gemini-geosite": 38,
         "metacubex-openai-geosite": 10,
         "override:AnthropicClaude.json": 1,
@@ -1818,28 +1818,28 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalSites/GlobalSites.dns.json"
     },
     "Ads": {
-      "input_rules": 281718,
+      "input_rules": 282384,
       "input_types": {
         "domain": 16427,
         "domain_keyword": 278,
-        "domain_suffix": 264523,
+        "domain_suffix": 265189,
         "ip_cidr": 487,
         "ip_cidr6": 3
       },
-      "emitted_input_rules": 281718,
+      "emitted_input_rules": 282384,
       "emitted_input_types": {
         "domain": 16427,
         "domain_keyword": 278,
-        "domain_suffix": 264523,
+        "domain_suffix": 265189,
         "ip_cidr": 487,
         "ip_cidr6": 3
       },
-      "route_rules": 281718,
-      "dns_rules": 281228,
+      "route_rules": 282384,
+      "dns_rules": 281894,
       "headless_route_rules": 2,
       "headless_dns_rules": 1,
       "source_labels": {
-        "blackmatrix7-advertising-quanx": 281709,
+        "blackmatrix7-advertising-quanx": 282375,
         "override:Advertising.json": 3,
         "override:Hijacking.json": 5,
         "override:Privacy.json": 1
@@ -2345,9 +2345,9 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json"
     }
   },
-  "input_rules": 418306,
-  "route_rules": 418150,
-  "dns_rules": 415137,
+  "input_rules": 418974,
+  "route_rules": 418818,
+  "dns_rules": 415805,
   "omitted_count": 155,
   "moved_count": 1,
   "normalized_cidr_count": 4,
