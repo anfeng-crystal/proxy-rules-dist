@@ -1098,8 +1098,8 @@
       "name": "TikTok",
       "policy": "TikTok",
       "description": "TikTok overseas app, web, and CDN endpoints.",
-      "rules": 32,
-      "source_count": 32,
+      "rules": 31,
+      "source_count": 31,
       "manual_count": 0,
       "includes": [
         {
@@ -1116,9 +1116,9 @@
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
       "local_fallback": "tiktok.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/TikTok/TikTok.mrs",
-      "mihomo_mrs_rules": 29,
+      "mihomo_mrs_rules": 28,
       "mihomo_mrs_omitted": 3,
-      "mihomo_mrs_bytes": 403
+      "mihomo_mrs_bytes": 404
     },
     {
       "name": "Twitter",
@@ -1783,22 +1783,14 @@
     ],
     "protected_reject_removals": [],
     "category_suppressions": [
+      "TikTok:domain_suffix:snssdk.com",
       "Netflix:domain_suffix:fast.com"
     ],
     "cross_category_conflicts": {
       "categories_scanned": 38,
-      "duplicate_keys": 1,
-      "duplicate_category_memberships": 2,
-      "examples": [
-        {
-          "rule": "domain_suffix:snssdk.com",
-          "count": 2,
-          "categories": [
-            "TikTok",
-            "Douyin"
-          ]
-        }
-      ]
+      "duplicate_keys": 0,
+      "duplicate_category_memberships": 0,
+      "examples": []
     },
     "mihomo_mrs": {
       "enabled": true,
@@ -1971,10 +1963,10 @@
         "bytes": 400
       },
       "TikTok": {
-        "rules": 29,
+        "rules": 28,
         "omitted": 3,
         "path": "mihomo-mrs/TikTok/TikTok.mrs",
-        "bytes": 403
+        "bytes": 404
       },
       "Twitter": {
         "rules": 26,

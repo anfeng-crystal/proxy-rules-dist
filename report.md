@@ -29,7 +29,7 @@
 - Telegram: 35
 - Tencent: 2524
 - TencentVideo: 51
-- TikTok: 32
+- TikTok: 31
 - Twitter: 33
 - WeChat: 44
 - Weibo: 6
@@ -44,10 +44,9 @@
 ## 跨分类重复 / Cross-Category Conflicts
 
 - categories scanned: 38
-- duplicate keys: 1
-- duplicate category memberships: 2
-- examples:
-  - domain_suffix:snssdk.com (2 categories): TikTok, Douyin
+- duplicate keys: 0
+- duplicate category memberships: 0
+- none
 
 ## 上游拉取结果 / Fetch Results
 
@@ -160,7 +159,7 @@
 - Telegram: 24 domain rules, 11 classical-only rules omitted, 310 bytes
 - Tencent: 2499 domain rules, 25 classical-only rules omitted, 18001 bytes
 - TencentVideo: 19 domain rules, 32 classical-only rules omitted, 368 bytes
-- TikTok: 29 domain rules, 3 classical-only rules omitted, 403 bytes
+- TikTok: 28 domain rules, 3 classical-only rules omitted, 404 bytes
 - Twitter: 26 domain rules, 7 classical-only rules omitted, 324 bytes
 - WeChat: 42 domain rules, 2 classical-only rules omitted, 418 bytes
 - Weibo: 5 domain rules, 1 classical-only rules omitted, 107 bytes
@@ -175,4 +174,5 @@
 
 ## 已从宽泛分类移除的重分类规则 / Category Suppressions
 
+- TikTok:domain_suffix:snssdk.com
 - Netflix:domain_suffix:fast.com
