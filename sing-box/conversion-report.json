@@ -597,33 +597,33 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Pinduoduo/Pinduoduo.dns.json"
     },
     "Domestic": {
-      "input_rules": 112784,
+      "input_rules": 112785,
       "input_types": {
         "domain": 367,
         "domain_keyword": 2,
-        "domain_suffix": 112231,
+        "domain_suffix": 112232,
         "geoip": 1,
         "ip_cidr": 131,
         "ip_cidr6": 31,
         "user_agent": 21
       },
-      "emitted_input_rules": 112762,
+      "emitted_input_rules": 112763,
       "emitted_input_types": {
         "domain": 367,
         "domain_keyword": 2,
-        "domain_suffix": 112231,
+        "domain_suffix": 112232,
         "ip_cidr": 131,
         "ip_cidr6": 31
       },
-      "route_rules": 112762,
-      "dns_rules": 112600,
+      "route_rules": 112763,
+      "dns_rules": 112601,
       "headless_route_rules": 2,
       "headless_dns_rules": 1,
       "source_labels": {
         "blackmatrix7-alibaba-quanx": 1318,
         "blackmatrix7-baidu-quanx": 251,
         "blackmatrix7-bilibili-quanx": 126,
-        "blackmatrix7-chinamax-domain-clash": 107987,
+        "blackmatrix7-chinamax-domain-clash": 107983,
         "blackmatrix7-douyin-quanx": 11,
         "blackmatrix7-iqiyi-quanx": 62,
         "blackmatrix7-jingdong-quanx": 249,
@@ -641,6 +641,7 @@
         "override:BaiduTieba.json": 3,
         "override:BankingCN.json": 7,
         "override:ByteDance.json": 5,
+        "override:ByteDanceCore.json": 5,
         "override:ByteDanceDoubao.json": 2,
         "override:China.json": 1,
         "override:ChinaCloud.json": 3,
@@ -2345,9 +2346,9 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json"
     }
   },
-  "input_rules": 419921,
-  "route_rules": 419765,
-  "dns_rules": 416752,
+  "input_rules": 419922,
+  "route_rules": 419766,
+  "dns_rules": 416753,
   "omitted_count": 155,
   "moved_count": 1,
   "normalized_cidr_count": 4,

@@ -412,9 +412,9 @@
       "name": "Domestic",
       "policy": "国内应用",
       "description": "Merged mainland China applications, domestic AI, domestic payment, finance, media, cloud, and direct fallbacks.",
-      "rules": 112784,
-      "source_count": 112689,
-      "manual_count": 95,
+      "rules": 112785,
+      "source_count": 112685,
+      "manual_count": 100,
       "includes": [
         {
           "name": "TencentMeeting",
@@ -647,9 +647,9 @@
       "license": "unknown",
       "local_fallback": "domestic-all.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs",
-      "mihomo_mrs_rules": 112598,
+      "mihomo_mrs_rules": 112599,
       "mihomo_mrs_omitted": 186,
-      "mihomo_mrs_bytes": 548122
+      "mihomo_mrs_bytes": 548104
     },
     {
       "name": "NetworkTest",
@@ -1726,7 +1726,7 @@
       },
       {
         "name": "Domestic",
-        "rules": 112784
+        "rules": 112785
       },
       {
         "name": "NetworkTest",
@@ -1885,10 +1885,10 @@
         "bytes": 94
       },
       "Domestic": {
-        "rules": 112598,
+        "rules": 112599,
         "omitted": 186,
         "path": "mihomo-mrs/Domestic/Domestic.mrs",
-        "bytes": 548122
+        "bytes": 548104
       },
       "NetworkTest": {
         "rules": 16,
