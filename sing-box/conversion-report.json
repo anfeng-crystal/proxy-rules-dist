@@ -814,26 +814,26 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Domestic/Domestic.dns.json"
     },
     "SpeedTest": {
-      "input_rules": 3415,
+      "input_rules": 3418,
       "input_types": {
-        "domain": 3298,
+        "domain": 3301,
         "domain_keyword": 1,
         "domain_suffix": 115,
         "user_agent": 1
       },
-      "emitted_input_rules": 3414,
+      "emitted_input_rules": 3417,
       "emitted_input_types": {
-        "domain": 3298,
+        "domain": 3301,
         "domain_keyword": 1,
         "domain_suffix": 115
       },
-      "route_rules": 3414,
-      "dns_rules": 3414,
+      "route_rules": 3417,
+      "dns_rules": 3417,
       "headless_route_rules": 1,
       "headless_dns_rules": 1,
       "source_labels": {
         "blackmatrix7-speedtest-quanx": 10,
-        "sukka-speedtest-domainset": 3405
+        "sukka-speedtest-domainset": 3408
       },
       "omitted_count": 1,
       "omitted": [
@@ -1818,28 +1818,28 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalSites/GlobalSites.dns.json"
     },
     "Ads": {
-      "input_rules": 282384,
+      "input_rules": 283329,
       "input_types": {
         "domain": 16427,
         "domain_keyword": 278,
-        "domain_suffix": 265189,
+        "domain_suffix": 266134,
         "ip_cidr": 487,
         "ip_cidr6": 3
       },
-      "emitted_input_rules": 282384,
+      "emitted_input_rules": 283329,
       "emitted_input_types": {
         "domain": 16427,
         "domain_keyword": 278,
-        "domain_suffix": 265189,
+        "domain_suffix": 266134,
         "ip_cidr": 487,
         "ip_cidr6": 3
       },
-      "route_rules": 282384,
-      "dns_rules": 281894,
+      "route_rules": 283329,
+      "dns_rules": 282839,
       "headless_route_rules": 2,
       "headless_dns_rules": 1,
       "source_labels": {
-        "blackmatrix7-advertising-quanx": 282375,
+        "blackmatrix7-advertising-quanx": 283320,
         "override:Advertising.json": 3,
         "override:Hijacking.json": 5,
         "override:Privacy.json": 1
@@ -2345,9 +2345,9 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json"
     }
   },
-  "input_rules": 418973,
-  "route_rules": 418817,
-  "dns_rules": 415804,
+  "input_rules": 419921,
+  "route_rules": 419765,
+  "dns_rules": 416752,
   "omitted_count": 155,
   "moved_count": 1,
   "normalized_cidr_count": 4,
