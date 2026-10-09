@@ -815,26 +815,26 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Domestic/Domestic.dns.json"
     },
     "SpeedTest": {
-      "input_rules": 3419,
+      "input_rules": 3424,
       "input_types": {
-        "domain": 3302,
+        "domain": 3307,
         "domain_keyword": 1,
         "domain_suffix": 115,
         "user_agent": 1
       },
-      "emitted_input_rules": 3418,
+      "emitted_input_rules": 3423,
       "emitted_input_types": {
-        "domain": 3302,
+        "domain": 3307,
         "domain_keyword": 1,
         "domain_suffix": 115
       },
-      "route_rules": 3418,
-      "dns_rules": 3418,
+      "route_rules": 3423,
+      "dns_rules": 3423,
       "headless_route_rules": 1,
       "headless_dns_rules": 1,
       "source_labels": {
         "blackmatrix7-speedtest-quanx": 10,
-        "sukka-speedtest-domainset": 3409
+        "sukka-speedtest-domainset": 3414
       },
       "omitted_count": 1,
       "omitted": [
@@ -2346,9 +2346,9 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json"
     }
   },
-  "input_rules": 420233,
-  "route_rules": 420077,
-  "dns_rules": 417064,
+  "input_rules": 420238,
+  "route_rules": 420082,
+  "dns_rules": 417069,
   "omitted_count": 155,
   "moved_count": 1,
   "normalized_cidr_count": 4,

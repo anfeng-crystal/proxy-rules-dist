@@ -682,8 +682,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3419,
-      "source_count": 3419,
+      "rules": 3424,
+      "source_count": 3424,
       "manual_count": 0,
       "includes": [
         {
@@ -697,9 +697,9 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3417,
+      "mihomo_mrs_rules": 3422,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 37113
+      "mihomo_mrs_bytes": 37353
     },
     {
       "name": "Gemini",
@@ -1734,7 +1734,7 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3419
+        "rules": 3424
       },
       {
         "name": "AI",
@@ -1897,10 +1897,10 @@
         "bytes": 271
       },
       "SpeedTest": {
-        "rules": 3417,
+        "rules": 3422,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 37113
+        "bytes": 37353
       },
       "Gemini": {
         "rules": 50,
