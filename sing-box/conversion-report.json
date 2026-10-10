@@ -597,33 +597,33 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Pinduoduo/Pinduoduo.dns.json"
     },
     "Domestic": {
-      "input_rules": 112785,
+      "input_rules": 113156,
       "input_types": {
         "domain": 367,
         "domain_keyword": 2,
-        "domain_suffix": 112232,
+        "domain_suffix": 112603,
         "geoip": 1,
         "ip_cidr": 131,
         "ip_cidr6": 31,
         "user_agent": 21
       },
-      "emitted_input_rules": 112763,
+      "emitted_input_rules": 113134,
       "emitted_input_types": {
         "domain": 367,
         "domain_keyword": 2,
-        "domain_suffix": 112232,
+        "domain_suffix": 112603,
         "ip_cidr": 131,
         "ip_cidr6": 31
       },
-      "route_rules": 112763,
-      "dns_rules": 112601,
+      "route_rules": 113134,
+      "dns_rules": 112972,
       "headless_route_rules": 2,
       "headless_dns_rules": 1,
       "source_labels": {
         "blackmatrix7-alibaba-quanx": 1318,
         "blackmatrix7-baidu-quanx": 251,
         "blackmatrix7-bilibili-quanx": 126,
-        "blackmatrix7-chinamax-domain-clash": 107983,
+        "blackmatrix7-chinamax-domain-clash": 108354,
         "blackmatrix7-douyin-quanx": 11,
         "blackmatrix7-iqiyi-quanx": 62,
         "blackmatrix7-jingdong-quanx": 249,
@@ -1819,28 +1819,28 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalSites/GlobalSites.dns.json"
     },
     "Ads": {
-      "input_rules": 283639,
+      "input_rules": 284255,
       "input_types": {
         "domain": 16427,
         "domain_keyword": 278,
-        "domain_suffix": 266444,
+        "domain_suffix": 267060,
         "ip_cidr": 487,
         "ip_cidr6": 3
       },
-      "emitted_input_rules": 283639,
+      "emitted_input_rules": 284255,
       "emitted_input_types": {
         "domain": 16427,
         "domain_keyword": 278,
-        "domain_suffix": 266444,
+        "domain_suffix": 267060,
         "ip_cidr": 487,
         "ip_cidr6": 3
       },
-      "route_rules": 283639,
-      "dns_rules": 283149,
+      "route_rules": 284255,
+      "dns_rules": 283765,
       "headless_route_rules": 2,
       "headless_dns_rules": 1,
       "source_labels": {
-        "blackmatrix7-advertising-quanx": 283630,
+        "blackmatrix7-advertising-quanx": 284246,
         "override:Advertising.json": 3,
         "override:Hijacking.json": 5,
         "override:Privacy.json": 1
@@ -2346,9 +2346,9 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json"
     }
   },
-  "input_rules": 420238,
-  "route_rules": 420082,
-  "dns_rules": 417069,
+  "input_rules": 421225,
+  "route_rules": 421069,
+  "dns_rules": 418056,
   "omitted_count": 155,
   "moved_count": 1,
   "normalized_cidr_count": 4,
