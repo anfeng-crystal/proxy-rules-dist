@@ -259,29 +259,92 @@ function main(config, profileName) {
     return group;
   }
 
-  // Keep the upstream auto-test independent from editable routing groups.
-  // All landing/exit nodes are excluded from this upstream candidate pool.
-  function chainUpstreamAutoGroup() {
+  // Only explicitly safe chain candidates; resolve transitive dialer paths.
+  function collectSafeChainSources() {
+    const inline = Array.isArray(config.proxies) ? config.proxies.filter(
+      p => p && typeof p.name === "string",
+    ) : [];
+    const providers = config["proxy-providers"] && typeof config["proxy-providers"] === "object"
+      ? config["proxy-providers"] : {};
+    const entries = Object.entries(providers).filter(([, p]) => p && typeof p === "object");
+    const originals = new Map(ORIGINAL_PROXY_GROUPS.map(g => [g.name, g]));
+    const nodes = new Map(inline.map(p => [p.name, p]));
+    for (const [, provider] of entries) {
+      for (const p of Array.isArray(provider.payload) ? provider.payload : []) {
+        if (p && typeof p.name === "string" && !nodes.has(p.name)) nodes.set(p.name, p);
+      }
+    }
+    const generated = new Set([
+      "🚀 节点选择", "🌍 全部节点", "🐟 漏网之鱼",
+      ...POLICY_GROUPS.map(([, name]) => name),
+      ...REGION_CONFIGS.flatMap(([base, main]) => [main, base + "自动", base + "故障转移"]),
+    ]);
+    const memo = new Map();
+    function reachesChain(name, stack = new Set()) {
+      if (typeof name !== "string" || !name) return false;
+      // Original same-name groups are aliased by the preservation pass.
+      if (name === CHAIN_GROUP || name === CHAIN_UPSTREAM_AUTO ||
+          name.startsWith("🧩 机场·" + CHAIN_GROUP) ||
+          name.startsWith("🧩 机场·" + CHAIN_UPSTREAM_AUTO)) return true;
+      if (name === "DIRECT" || name === "REJECT" || name === "REJECT-DROP") return false;
+      if (memo.has(name)) return memo.get(name);
+      if (stack.has(name)) return true;
+      stack.add(name);
+      let unsafe = generated.has(name);
+      const node = nodes.get(name);
+      if (node && reachesChain(node["dialer-proxy"], stack)) unsafe = true;
+      const group = originals.get(name);
+      if (group) {
+        if (reachesChain(group["dialer-proxy"], stack)) unsafe = true;
+        if (Array.isArray(group.proxies) && group.proxies.some(p => reachesChain(p, stack))) unsafe = true;
+        if (Array.isArray(group.use) && group.use.some(p => reachesChain(p, stack))) unsafe = true;
+        if (group["include-all"] && inline.some(p => p["dialer-proxy"] === CHAIN_GROUP)) unsafe = true;
+      }
+      const provider = providers[name];
+      if (provider && typeof provider === "object") {
+        for (const ref of [provider.proxy, provider["dialer-proxy"], provider.override?.["dialer-proxy"]]) {
+          if (reachesChain(ref, stack)) unsafe = true;
+        }
+        if (Array.isArray(provider.payload) && provider.payload.some(
+          p => p && reachesChain(p["dialer-proxy"], stack),
+        )) unsafe = true;
+      }
+      stack.delete(name);
+      memo.set(name, unsafe);
+      return unsafe;
+    }
+    const excluded = new RegExp(COMMON_EXCLUDE.replace(/^\(\?i\)/, ""), "i");
+    const safeNodes = unique(inline.filter(p =>
+      p.name !== CHAIN_GROUP && p.name !== CHAIN_UPSTREAM_AUTO &&
+      !excluded.test(p.name) && !CHAIN_LANDING_NAME_RE.test(p.name) &&
+      !reachesChain(p.name)
+    ).map(p => p.name));
+    const safeProviders = entries.filter(([name]) => !reachesChain(name)).map(([name]) => name);
+    return { nodes: safeNodes, providers: safeProviders };
+  }
+
+  function chainUpstreamAutoGroup(sources) {
     return {
       name: CHAIN_UPSTREAM_AUTO,
       type: "url-test",
+      proxies: sources.nodes.length ? sources.nodes : (sources.providers.length ? [] : ["DIRECT"]),
+      ...(sources.providers.length ? { use: sources.providers } : {}),
       url: TEST_URL,
       interval: TEST_INTERVAL,
       tolerance: TEST_TOLERANCE,
       lazy: true,
       hidden: true,
-      "include-all": true,
-      "exclude-filter": `${COMMON_EXCLUDE}|${CHAIN_LANDING_MIHOMO_FILTER}`,
+      "exclude-filter": COMMON_EXCLUDE + "|" + CHAIN_LANDING_MIHOMO_FILTER,
     };
   }
 
-  function chainRelayGroup() {
+  function chainRelayGroup(sources) {
     return {
       name: CHAIN_GROUP,
       type: "select",
-      proxies: [CHAIN_UPSTREAM_AUTO, "DIRECT"],
-      "include-all": true,
-      "exclude-filter": `${COMMON_EXCLUDE}|${CHAIN_LANDING_MIHOMO_FILTER}`,
+      proxies: unique([CHAIN_UPSTREAM_AUTO, ...sources.nodes, "DIRECT"]),
+      ...(sources.providers.length ? { use: sources.providers } : {}),
+      "exclude-filter": COMMON_EXCLUDE + "|" + CHAIN_LANDING_MIHOMO_FILTER,
     };
   }
 
@@ -337,7 +400,10 @@ function main(config, profileName) {
       allNodesGroup(),
     );
 
-    if (isOptionEnabled("链式代理")) groups.push(chainUpstreamAutoGroup(), chainRelayGroup());
+    if (isOptionEnabled("链式代理")) {
+      const safeSources = collectSafeChainSources();
+      groups.push(chainUpstreamAutoGroup(safeSources), chainRelayGroup(safeSources));
+    }
 
     // Reserve the catch-all before aliasing subscription dependencies, but keep it last.
     const catchAll = selectGroup("🐟 漏网之鱼", [
