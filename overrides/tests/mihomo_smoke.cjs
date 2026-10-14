@@ -8,7 +8,9 @@ const vm = require("node:vm");
 // Generate credential-free configurations; file-based rule sets avoid HTTP fetches.
 const root = path.resolve(__dirname, "..");
 const source = fs.readFileSync(path.join(root, "bettbox.override.js"), "utf8");
-const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "bettbox-mihomo-"));
+const safeRoot = process.env.MIHOMO_SMOKE_HOME || os.tmpdir();
+fs.mkdirSync(safeRoot, { recursive: true });
+const tmp = fs.mkdtempSync(path.join(safeRoot, "bettbox-mihomo-"));
 const node = name => ({
   name, type: "ss", server: "192.0.2.1", port: 443,
   cipher: "aes-128-gcm", password: "ci-only-password",
