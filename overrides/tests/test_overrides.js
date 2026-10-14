@@ -16,6 +16,7 @@ const AUTO = REGIONS.map(name => `${name}自动`);
 const FALLBACK = REGIONS.map(name => `${name}故障转移`);
 const CATCH_ALL = "🐟 漏网之鱼";
 const CHAIN = "🔗 链式中转";
+const CHAIN_UPSTREAM = "🔗 上游自动";
 const CATCH_CHOICES = ["🚀 节点选择", ...MAIN, ...AUTO, ...FALLBACK, "🌍 全部节点", "DIRECT"];
 const clone = value => JSON.parse(JSON.stringify(value));
 const node = (name, extra = {}) => ({
@@ -255,7 +256,7 @@ for (const client of CLIENTS) {
     const options = { "链式代理": true };
     const input = { proxies: [node("自建 US landing"), node("HK 01")] };
     const result = apply(client, input, options);
-    assert.equal(result["proxy-groups"].length, 33);
+    assert.equal(result["proxy-groups"].length, client === "bettbox" ? 34 : 33);
     assert.equal(result.proxies[0]["dialer-proxy"], CHAIN);
     assertDefaults(result);
     assertRepeated(client, result, options);
@@ -271,15 +272,16 @@ for (const client of CLIENTS) {
     const options = { "链式代理": true };
     const template = apply(client, {}, options);
     const parent = clone(byName(template, CHAIN));
+    const relatedName = client === "bettbox" ? CHAIN_UPSTREAM : MAIN[0];
     const input = {
       proxies: [node("custom exit", { "dialer-proxy": CHAIN }), node("upstream")],
-      "proxy-groups": [parent, { name: MAIN[0], type: "select", proxies: ["upstream"] }],
+      "proxy-groups": [parent, { name: relatedName, type: "select", proxies: ["upstream"] }],
     };
     const result = apply(client, input, options);
     const alias = result.proxies[0]["dialer-proxy"];
     assert.equal(alias, `🧩 机场·${CHAIN}`);
-    assert.equal(byName(result, alias).proxies[0], `🧩 机场·${MAIN[0]}`);
-    assert.deepEqual(byName(result, `🧩 机场·${MAIN[0]}`).proxies, ["upstream"]);
+    assert.equal(byName(result, alias).proxies[0], `🧩 机场·${relatedName}`);
+    assert.deepEqual(byName(result, `🧩 机场·${relatedName}`).proxies, ["upstream"]);
     assertDefaults(result);
     assertRepeated(client, result, options);
   });
@@ -541,4 +543,49 @@ test("clash-party: engine wrapper names cannot collide with existing inline node
   assert.deepEqual(byName(result, "uplink").proxies, ["uplink ·内核 2"]);
   assertGraph(result);
   assertRepeated("clash-party", result);
+});
+
+test("bettbox: chain upstream is an isolated hidden probe", () => {
+  const result = apply("bettbox", {
+    proxies: [node("自建 US landing"), node("HK 01")],
+  }, { "链式代理": true });
+  assert.deepEqual(byName(result, CHAIN).proxies, [CHAIN_UPSTREAM, "DIRECT"]);
+  assert.equal(byName(result, CHAIN_UPSTREAM).type, "url-test");
+  assert.equal(byName(result, CHAIN_UPSTREAM).hidden, true);
+  assert.match(byName(result, CHAIN_UPSTREAM)["exclude-filter"], /landing/);
+  assertDefaults(result);
+  assertRepeated("bettbox", result, { "链式代理": true });
+});
+
+test("bettbox: auto-created chain never aliases to a subscription group of the same name", () => {
+  const options = { "链式代理": true };
+  const input = {
+    proxies: [
+      node("自建 landing"), node("legacy chain", { "dialer-proxy": CHAIN }), node("upstream"),
+    ],
+    "proxy-groups": [{ name: CHAIN, type: "select", proxies: ["upstream"] }],
+  };
+  const result = apply("bettbox", input, options);
+  assert.equal(result.proxies[0]["dialer-proxy"], CHAIN);
+  assert.equal(result.proxies[1]["dialer-proxy"], `🧩 机场·${CHAIN}`);
+  assert.deepEqual(byName(result, `🧩 机场·${CHAIN}`).proxies, ["upstream"]);
+  assert.deepEqual(byName(result, CHAIN).proxies, [CHAIN_UPSTREAM, "DIRECT"]);
+  assertDefaults(result);
+  assertRepeated("bettbox", result, options);
+});
+
+test("bettbox: existing colliding upstream group is retained under an alias", () => {
+  const options = { "链式代理": true };
+  const input = {
+    proxies: [
+      node("自建 landing"), node("legacy upstream", { "dialer-proxy": CHAIN_UPSTREAM }), node("upstream"),
+    ],
+    "proxy-groups": [{ name: CHAIN_UPSTREAM, type: "select", proxies: ["upstream"] }],
+  };
+  const result = apply("bettbox", input, options);
+  assert.equal(result.proxies[0]["dialer-proxy"], CHAIN);
+  assert.equal(result.proxies[1]["dialer-proxy"], `🧩 机场·${CHAIN_UPSTREAM}`);
+  assert.deepEqual(byName(result, `🧩 机场·${CHAIN_UPSTREAM}`).proxies, ["upstream"]);
+  assertDefaults(result);
+  assertRepeated("bettbox", result, options);
 });

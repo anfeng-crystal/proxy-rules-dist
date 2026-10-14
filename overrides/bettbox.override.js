@@ -60,6 +60,10 @@ function main(config, profileName) {
   const CHAIN_LANDING_NAME_RE = /(落地|landing|exit|自建)/i;
   const CHAIN_LANDING_MIHOMO_FILTER = "(?i)(落地|landing|exit|自建)";
   const CHAIN_GROUP = "🔗 链式中转";
+  const CHAIN_UPSTREAM_AUTO = "🔗 上游自动";
+  // Mark only dialers added by this script. Subscription-origin dialers
+  // must still be collected and remapped if an original group name collides.
+  const AUTO_CHAIN_NODES = new Set();
 
   const MICROSOFT_LOGIN_PROXY_RULES = [
     "DOMAIN,login.live.com,🚀 节点选择",
@@ -255,14 +259,27 @@ function main(config, profileName) {
     return group;
   }
 
+  // Keep the upstream auto-test independent from editable routing groups.
+  // All landing/exit nodes are excluded from this upstream candidate pool.
+  function chainUpstreamAutoGroup() {
+    return {
+      name: CHAIN_UPSTREAM_AUTO,
+      type: "url-test",
+      url: TEST_URL,
+      interval: TEST_INTERVAL,
+      tolerance: TEST_TOLERANCE,
+      lazy: true,
+      hidden: true,
+      "include-all": true,
+      "exclude-filter": `${COMMON_EXCLUDE}|${CHAIN_LANDING_MIHOMO_FILTER}`,
+    };
+  }
+
   function chainRelayGroup() {
-    const regionMainNames = REGION_CONFIGS.map(([, mainName]) => mainName);
-    const regionAutoNames = REGION_CONFIGS.map(([baseName]) => `${baseName}自动`);
-    const regionFallbackNames = REGION_CONFIGS.map(([baseName]) => `${baseName}故障转移`);
     return {
       name: CHAIN_GROUP,
       type: "select",
-      proxies: [...regionMainNames, ...regionAutoNames, ...regionFallbackNames, "DIRECT"],
+      proxies: [CHAIN_UPSTREAM_AUTO, "DIRECT"],
       "include-all": true,
       "exclude-filter": `${COMMON_EXCLUDE}|${CHAIN_LANDING_MIHOMO_FILTER}`,
     };
@@ -320,7 +337,7 @@ function main(config, profileName) {
       allNodesGroup(),
     );
 
-    if (isOptionEnabled("链式代理")) groups.push(chainRelayGroup());
+    if (isOptionEnabled("链式代理")) groups.push(chainUpstreamAutoGroup(), chainRelayGroup());
 
     // Reserve the catch-all before aliasing subscription dependencies, but keep it last.
     const catchAll = selectGroup("🐟 漏网之鱼", [
@@ -450,7 +467,9 @@ function main(config, profileName) {
       if (object && typeof object[key] === "string") object[key] = transform(object[key]);
     }
     if (Array.isArray(config.proxies)) {
-      for (const proxy of config.proxies) field(proxy, "dialer-proxy");
+      for (const proxy of config.proxies) {
+        if (!AUTO_CHAIN_NODES.has(proxy)) field(proxy, "dialer-proxy");
+      }
     }
     for (const provider of Object.values(config["proxy-providers"] || {})) {
       if (!provider || typeof provider !== "object") continue;
@@ -652,7 +671,10 @@ function main(config, profileName) {
       if (proxy.type === "direct" || proxy.type === "reject") continue;
 
       // Respect subscription/custom definitions that already specify their own chain.
-      if (!proxy["dialer-proxy"]) proxy["dialer-proxy"] = CHAIN_GROUP;
+      if (!proxy["dialer-proxy"]) {
+        proxy["dialer-proxy"] = CHAIN_GROUP;
+        AUTO_CHAIN_NODES.add(proxy);
+      }
     }
   }
 
