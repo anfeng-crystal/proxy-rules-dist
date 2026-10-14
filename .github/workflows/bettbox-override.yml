@@ -1,0 +1,59 @@
+name: Bettbox override validation
+
+on:
+  pull_request:
+    paths:
+      - "overrides/bettbox.override.js"
+      - "overrides/tests/**"
+      - ".github/workflows/bettbox-override.yml"
+  push:
+    branches: [main]
+    paths:
+      - "overrides/bettbox.override.js"
+      - "overrides/tests/**"
+      - ".github/workflows/bettbox-override.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      MIHOMO_VERSION: v1.19.32
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: JavaScript syntax and full regression suite
+        run: |
+          node --check overrides/bettbox.override.js
+          node --check overrides/tests/test_overrides.js
+          node --check overrides/tests/mihomo_smoke.cjs
+          node --test overrides/tests/test_overrides.js
+      - name: Install official pinned Mihomo
+        shell: bash
+        run: |
+          set -euo pipefail
+          asset="mihomo-linux-amd64-compatible-$MIHOMO_VERSION.gz"
+          url="https://github.com/MetaCubeX/mihomo/releases/download/$MIHOMO_VERSION/$asset"
+          curl -fLsS --retry 3 --retry-all-errors --retry-delay 2 "$url" -o "$RUNNER_TEMP/mihomo.gz"
+          gzip -t "$RUNNER_TEMP/mihomo.gz"
+          gzip -dc "$RUNNER_TEMP/mihomo.gz" > "$RUNNER_TEMP/mihomo"
+          chmod +x "$RUNNER_TEMP/mihomo"
+          "$RUNNER_TEMP/mihomo" -v
+      - name: Parse real Mihomo configurations
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/mihomo-home"
+          node overrides/tests/mihomo_smoke.cjs > "$RUNNER_TEMP/fixture-list.txt"
+          test "$(wc -l < "$RUNNER_TEMP/fixture-list.txt")" -eq 3
+          while IFS= read -r config; do
+            echo "::group::Mihomo -t $config"
+            "$RUNNER_TEMP/mihomo" -t -d "$RUNNER_TEMP/mihomo-home" -f "$config"
+            echo "::endgroup::"
+          done < "$RUNNER_TEMP/fixture-list.txt"
