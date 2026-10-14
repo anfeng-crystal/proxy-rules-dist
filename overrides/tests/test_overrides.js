@@ -549,7 +549,7 @@ test("bettbox: chain upstream is an isolated hidden probe", () => {
   const result = apply("bettbox", {
     proxies: [node("自建 US landing"), node("HK 01")],
   }, { "链式代理": true });
-  assert.deepEqual(byName(result, CHAIN).proxies, [CHAIN_UPSTREAM, "DIRECT"]);
+  assert.deepEqual(byName(result, CHAIN).proxies, [CHAIN_UPSTREAM, "HK 01", "DIRECT"]);
   assert.equal(byName(result, CHAIN_UPSTREAM).type, "url-test");
   assert.equal(byName(result, CHAIN_UPSTREAM).hidden, true);
   assert.match(byName(result, CHAIN_UPSTREAM)["exclude-filter"], /landing/);
@@ -569,7 +569,7 @@ test("bettbox: auto-created chain never aliases to a subscription group of the s
   assert.equal(result.proxies[0]["dialer-proxy"], CHAIN);
   assert.equal(result.proxies[1]["dialer-proxy"], `🧩 机场·${CHAIN}`);
   assert.deepEqual(byName(result, `🧩 机场·${CHAIN}`).proxies, ["upstream"]);
-  assert.deepEqual(byName(result, CHAIN).proxies, [CHAIN_UPSTREAM, "DIRECT"]);
+  assert.deepEqual(byName(result, CHAIN).proxies, [CHAIN_UPSTREAM, "upstream", "DIRECT"]);
   assertDefaults(result);
   assertRepeated("bettbox", result, options);
 });
@@ -588,4 +588,66 @@ test("bettbox: existing colliding upstream group is retained under an alias", ()
   assert.deepEqual(byName(result, `🧩 机场·${CHAIN_UPSTREAM}`).proxies, ["upstream"]);
   assertDefaults(result);
   assertRepeated("bettbox", result, options);
+});
+
+test("bettbox: an untagged direct chain-dependent node is excluded", () => {
+  const result = apply("bettbox", {
+    proxies: [node("🇭🇰 香港01", { "dialer-proxy": CHAIN }), node("🇯🇵 日本02")],
+  }, { "链式代理": true });
+  assert.ok(!byName(result, CHAIN_UPSTREAM)["include-all"]);
+  assert.deepEqual(byName(result, CHAIN_UPSTREAM).proxies, ["🇯🇵 日本02"]);
+  assert.deepEqual(byName(result, CHAIN).proxies, [CHAIN_UPSTREAM, "🇯🇵 日本02", "DIRECT"]);
+  assertRepeated("bettbox", result, { "链式代理": true });
+});
+
+test("bettbox: transitive inline nodes and strategy-group dependencies are excluded", () => {
+  const result = apply("bettbox", {
+    proxies: [
+      node("🇭🇰 香港01", { "dialer-proxy": "uplink node" }),
+      node("uplink node", { "dialer-proxy": CHAIN }),
+      node("🇺🇸 美国02", { "dialer-proxy": "airport group" }),
+      node("🇯🇵 日本03"),
+    ],
+    "proxy-groups": [{ name: "airport group", type: "select", proxies: [CHAIN] }],
+  }, { "链式代理": true });
+  assert.deepEqual(byName(result, CHAIN_UPSTREAM).proxies, ["🇯🇵 日本03"]);
+  assertRepeated("bettbox", result, { "链式代理": true });
+});
+
+test("bettbox: chained providers are excluded while safe providers survive", () => {
+  const result = apply("bettbox", {
+    proxies: [node("🇯🇵 日本02")],
+    "proxy-providers": {
+      safe: { type: "file", path: "./safe.yaml" },
+      unsafe: { type: "file", path: "./unsafe.yaml", override: { "dialer-proxy": CHAIN } },
+      indirect: { type: "file", path: "./indirect.yaml", override: { "dialer-proxy": "airport group" } },
+      embedded: { type: "file", path: "./embedded.yaml", payload: [node("relay", { "dialer-proxy": CHAIN })] },
+    },
+    "proxy-groups": [{ name: "airport group", type: "select", proxies: [CHAIN] }],
+  }, { "链式代理": true });
+  assert.deepEqual(byName(result, CHAIN_UPSTREAM).use, ["safe"]);
+  assert.deepEqual(byName(result, CHAIN).use, ["safe"]);
+  assertRepeated("bettbox", result, { "链式代理": true });
+});
+
+test("bettbox: provider-only subscription retains safe upstream source", () => {
+  const result = apply("bettbox", {
+    "proxy-providers": { airport: { type: "file", path: "./airport.yaml" } },
+  }, { "链式代理": true });
+  assert.deepEqual(byName(result, CHAIN_UPSTREAM).proxies, []);
+  assert.deepEqual(byName(result, CHAIN_UPSTREAM).use, ["airport"]);
+  assertRepeated("bettbox", result, { "链式代理": true });
+});
+
+test("bettbox: empty upstream falls back to DIRECT without extra probes", () => {
+  const result = apply("bettbox", {
+    proxies: [node("自建 US landing"), node("🇭🇰 香港01", { "dialer-proxy": CHAIN })],
+  }, { "链式代理": true });
+  const upstream = byName(result, CHAIN_UPSTREAM);
+  assert.deepEqual(upstream.proxies, ["DIRECT"]);
+  assert.equal(upstream.interval, 600);
+  assert.equal(upstream.lazy, true);
+  assert.ok(!upstream["include-all"]);
+  assert.deepEqual(byName(result, CHAIN).proxies, [CHAIN_UPSTREAM, "DIRECT"]);
+  assertRepeated("bettbox", result, { "链式代理": true });
 });
