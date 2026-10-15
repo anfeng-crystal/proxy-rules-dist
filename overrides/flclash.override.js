@@ -1,12 +1,13 @@
 // RuleForge FlClash JavaScript override.
 // Generated from the same RuleForge policy model, maintained as a client-specific file.
-// Keep subscription proxies and DNS/TUN ownership in the client; rebuild groups, rule-providers and rules.
+// Keep subscription proxies and DNS/NTP/TUN/sniffer values; rebuild groups, rule-providers and rules.
 // Existing subscription dialer-proxy group dependencies are preserved automatically.
 // Gemini defaults to the US policy group.
-// Compatible with FlClash's QuickJS main(config) override engine. The script performs no fetch/timer/file I/O; remote rule-provider downloads are left to Mihomo.
+// Compatible with FlClash v0.9.0's QuickJS main(config) script extension for subscription profiles.
+// App-selected settings apply after this script. No fetch/timer/file I/O; Mihomo downloads rule providers.
 
 const RULEFORGE_OPTIONS = {
-// Revision 2026.09.30: Preserve referenced dependencies and keep repeated overrides stable.
+// Revision 2026.10.15: Preserve subscription NTP transport dependencies for FlClash v0.9.0.
 // V7: Domestic is visible with DIRECT only; GEOIP,CN remains literal DIRECT.
   // Service routing switches
   Gemini: true,
@@ -460,6 +461,8 @@ function main(config) {
       }
     }
     for (const provider of retainedRuleProviders) field(provider, "proxy");
+
+    field(config.ntp, "dialer-proxy");
 
     const dns = config.dns;
     if (!dns || typeof dns !== "object") return;

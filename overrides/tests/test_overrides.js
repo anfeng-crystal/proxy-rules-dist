@@ -183,6 +183,50 @@ for (const target of ["DIRECT", "upstream", "🚀 节点选择"]) {
   });
 }
 
+test("flclash: NTP-only transport retains its dependency closure without DNS", () => {
+  const input = {
+    proxies: [node("upstream")],
+    ntp: { enable: true, server: "ntp.example.test", port: 123, interval: 30, "dialer-proxy": "ntp transport" },
+    "proxy-groups": [
+      { name: "ntp transport", type: "select", proxies: ["ntp nested"] },
+      { name: "ntp nested", type: "select", proxies: ["upstream"] },
+      { name: "unused", type: "select", proxies: ["DIRECT"] },
+    ],
+  };
+  const result = apply("flclash", input);
+  assert.deepEqual(result.ntp, input.ntp);
+  assert.deepEqual(byName(result, result.ntp["dialer-proxy"]).proxies, ["ntp nested"]);
+  assert.deepEqual(byName(result, "ntp nested").proxies, ["upstream"]);
+  assert.ok(!result["proxy-groups"].some(group => group.name === "unused"));
+  assertDefaults(result);
+  assertRepeated("flclash", result);
+});
+
+test("flclash: NTP transport aliases generated-group collisions and reserves inline names", () => {
+  const alias = `🧩 机场·${CATCH_ALL}`;
+  const input = {
+    proxies: [node("upstream"), node(alias)],
+    ntp: { enable: true, server: "ntp.example.test", port: 123, interval: 30, "dialer-proxy": CATCH_ALL },
+    "proxy-groups": [{ name: CATCH_ALL, type: "select", proxies: ["upstream"] }],
+  };
+  const result = apply("flclash", input);
+  assert.deepEqual(result.ntp, { ...input.ntp, "dialer-proxy": `${alias} 2` });
+  assert.deepEqual(byName(result, result.ntp["dialer-proxy"]).proxies, ["upstream"]);
+  assertDefaults(result);
+  assertRepeated("flclash", result);
+});
+
+for (const target of ["DIRECT", "upstream", "🚀 节点选择"]) {
+  test(`flclash: NTP existing target ${target} preserves ordinary routing`, () => {
+    const base = { proxies: [node("upstream")] };
+    const ntp = { enable: true, server: "ntp.example.test", port: 123, interval: 30, "dialer-proxy": target };
+    const result = apply("flclash", { ...base, ntp });
+    assert.deepEqual(result, { ...apply("flclash", base), ntp });
+    assertDefaults(result);
+    assertRepeated("flclash", result);
+  });
+}
+
 for (const client of CLIENTS) {
   for (const [scenario, input] of Object.entries(ordinaryFixtures)) {
     test(`${client}: ${scenario}, defaults and client-owned fields`, () => {
