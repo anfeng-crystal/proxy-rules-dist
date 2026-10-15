@@ -412,8 +412,8 @@
       "name": "Domestic",
       "policy": "国内应用",
       "description": "Merged mainland China applications, domestic AI, domestic payment, finance, media, cloud, and direct fallbacks.",
-      "rules": 112383,
-      "source_count": 112283,
+      "rules": 112095,
+      "source_count": 111995,
       "manual_count": 100,
       "includes": [
         {
@@ -647,9 +647,9 @@
       "license": "unknown",
       "local_fallback": "domestic-all.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs",
-      "mihomo_mrs_rules": 112197,
+      "mihomo_mrs_rules": 111909,
       "mihomo_mrs_omitted": 186,
-      "mihomo_mrs_bytes": 545281
+      "mihomo_mrs_bytes": 543869
     },
     {
       "name": "NetworkTest",
@@ -682,8 +682,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3429,
-      "source_count": 3429,
+      "rules": 3431,
+      "source_count": 3431,
       "manual_count": 0,
       "includes": [
         {
@@ -697,9 +697,9 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3427,
+      "mihomo_mrs_rules": 3429,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 37274
+      "mihomo_mrs_bytes": 37380
     },
     {
       "name": "Gemini",
@@ -1098,8 +1098,8 @@
       "name": "TikTok",
       "policy": "TikTok",
       "description": "TikTok overseas app, web, and CDN endpoints.",
-      "rules": 31,
-      "source_count": 31,
+      "rules": 34,
+      "source_count": 34,
       "manual_count": 0,
       "includes": [
         {
@@ -1116,9 +1116,9 @@
       "license_url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
       "local_fallback": "tiktok.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/TikTok/TikTok.mrs",
-      "mihomo_mrs_rules": 28,
+      "mihomo_mrs_rules": 31,
       "mihomo_mrs_omitted": 3,
-      "mihomo_mrs_bytes": 404
+      "mihomo_mrs_bytes": 443
     },
     {
       "name": "Twitter",
@@ -1393,8 +1393,8 @@
       "name": "Ads",
       "policy": "Ads",
       "description": "Advertising, privacy, and hijacking reject bundle.",
-      "rules": 289200,
-      "source_count": 289191,
+      "rules": 289892,
+      "source_count": 289883,
       "manual_count": 9,
       "includes": [
         {
@@ -1416,9 +1416,9 @@
       "license": "unknown",
       "local_fallback": "reject.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs",
-      "mihomo_mrs_rules": 288432,
+      "mihomo_mrs_rules": 289124,
       "mihomo_mrs_omitted": 768,
-      "mihomo_mrs_bytes": 2536341
+      "mihomo_mrs_bytes": 2542551
     }
   ],
   "mihomo_mrs": {
@@ -1726,7 +1726,7 @@
       },
       {
         "name": "Domestic",
-        "rules": 112383
+        "rules": 112095
       },
       {
         "name": "NetworkTest",
@@ -1734,7 +1734,7 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3429
+        "rules": 3431
       },
       {
         "name": "AI",
@@ -1778,7 +1778,7 @@
       },
       {
         "name": "Ads",
-        "rules": 289200
+        "rules": 289892
       }
     ],
     "protected_reject_removals": [],
@@ -1885,10 +1885,10 @@
         "bytes": 94
       },
       "Domestic": {
-        "rules": 112197,
+        "rules": 111909,
         "omitted": 186,
         "path": "mihomo-mrs/Domestic/Domestic.mrs",
-        "bytes": 545281
+        "bytes": 543869
       },
       "NetworkTest": {
         "rules": 16,
@@ -1897,10 +1897,10 @@
         "bytes": 271
       },
       "SpeedTest": {
-        "rules": 3427,
+        "rules": 3429,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 37274
+        "bytes": 37380
       },
       "Gemini": {
         "rules": 50,
@@ -1963,10 +1963,10 @@
         "bytes": 400
       },
       "TikTok": {
-        "rules": 28,
+        "rules": 31,
         "omitted": 3,
         "path": "mihomo-mrs/TikTok/TikTok.mrs",
-        "bytes": 404
+        "bytes": 443
       },
       "Twitter": {
         "rules": 26,
@@ -2017,10 +2017,10 @@
         "bytes": 52043
       },
       "Ads": {
-        "rules": 288432,
+        "rules": 289124,
         "omitted": 768,
         "path": "mihomo-mrs/Ads/Ads.mrs",
-        "bytes": 2536341
+        "bytes": 2542551
       }
     }
   }
