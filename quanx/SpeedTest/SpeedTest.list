@@ -113,6 +113,7 @@ HOST,de-ffm1-ookla-01.wemacom.net,SpeedTest
 HOST,de-fra2-lg1.level66.network,SpeedTest
 HOST,de-lg.h2.nexus,SpeedTest
 HOST,de-speedtest.digitalexample.com,SpeedTest
+HOST,de.riospeed.com,SpeedTest
 HOST,de.st.spacecore.pro,SpeedTest
 HOST,debit.psrv.ch,SpeedTest
 HOST,dehradun.blueskynetwork.in,SpeedTest
@@ -422,6 +423,8 @@ HOST,ookla-atl.gigsouth.com,SpeedTest
 HOST,ookla-autazes.amazoniasat-isp.com.br,SpeedTest
 HOST,ookla-ber.evolushost.com,SpeedTest
 HOST,ookla-crw.wvnet.edu,SpeedTest
+HOST,ookla-dc3.services.proxad.net,SpeedTest
+HOST,ookla-dc5.services.proxad.net,SpeedTest
 HOST,ookla-dfw.gigsouth.com,SpeedTest
 HOST,ookla-estepona.aerioncloud.com,SpeedTest
 HOST,ookla-in.mercuryfiber.com,SpeedTest
@@ -430,12 +433,14 @@ HOST,ookla-ks.mercuryfiber.com,SpeedTest
 HOST,ookla-lax.extentit.com,SpeedTest
 HOST,ookla-london.briantbroadband.com,SpeedTest
 HOST,ookla-london01.tropicalgames.net,SpeedTest
+HOST,ookla-lyo.services.proxad.net,SpeedTest
 HOST,ookla-mgw.wvnet.edu,SpeedTest
 HOST,ookla-mi.tech.tiscali.it,SpeedTest
 HOST,ookla-mi01.nexim.it,SpeedTest
 HOST,ookla-mia.gigsouth.com,SpeedTest
 HOST,ookla-mil.seeweb.it,SpeedTest
 HOST,ookla-mispeed.rackgenius.com,SpeedTest
+HOST,ookla-mrs.services.proxad.net,SpeedTest
 HOST,ookla-rm.tech.tiscali.it,SpeedTest
 HOST,ookla-server.vim.web.tr,SpeedTest
 HOST,ookla-speedtest-central.hgconair.hgc.com.hk,SpeedTest
@@ -3313,6 +3318,7 @@ HOST,wybo-speedtest.northstate.net,SpeedTest
 HOST,yjl-speed.twmbroadband.com,SpeedTest
 HOST,yk-netspeed.nwtel.ca,SpeedTest
 HOST,yms-speed.kbro.com.tw,SpeedTest
+HOST,yyc-speedtest.xeronetworks.co.uk,SpeedTest
 HOST,yyc-speedtest.xplore.ca,SpeedTest
 HOST,yyc-speedtest02.xplore.ca,SpeedTest
 HOST,yyz-speedtest.xplore.ca,SpeedTest
