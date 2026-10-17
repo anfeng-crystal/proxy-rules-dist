@@ -413,8 +413,8 @@
       "policy": "国内应用",
       "description": "Merged mainland China applications, domestic AI, domestic payment, finance, media, cloud, and direct fallbacks.",
       "rules": 112095,
-      "source_count": 111995,
-      "manual_count": 100,
+      "source_count": 111988,
+      "manual_count": 107,
       "includes": [
         {
           "name": "TencentMeeting",
@@ -920,9 +920,9 @@
       "name": "Game",
       "policy": "Game",
       "description": "Overseas game platforms and publishers.",
-      "rules": 34,
+      "rules": 32,
       "source_count": 0,
-      "manual_count": 34,
+      "manual_count": 32,
       "includes": [
         {
           "name": "Steam",
@@ -963,9 +963,9 @@
       "license": "unknown",
       "local_fallback": "game.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Game/Game.mrs",
-      "mihomo_mrs_rules": 34,
+      "mihomo_mrs_rules": 32,
       "mihomo_mrs_omitted": 0,
-      "mihomo_mrs_bytes": 439
+      "mihomo_mrs_bytes": 432
     },
     {
       "name": "Telegram",
@@ -1762,7 +1762,7 @@
       },
       {
         "name": "Game",
-        "rules": 34
+        "rules": 32
       },
       {
         "name": "Twitter",
@@ -1927,10 +1927,10 @@
         "bytes": 2706
       },
       "Game": {
-        "rules": 34,
+        "rules": 32,
         "omitted": 0,
         "path": "mihomo-mrs/Game/Game.mrs",
-        "bytes": 439
+        "bytes": 432
       },
       "Telegram": {
         "rules": 24,

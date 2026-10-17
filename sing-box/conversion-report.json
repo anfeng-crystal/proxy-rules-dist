@@ -623,7 +623,7 @@
         "blackmatrix7-alibaba-quanx": 1318,
         "blackmatrix7-baidu-quanx": 251,
         "blackmatrix7-bilibili-quanx": 126,
-        "blackmatrix7-chinamax-domain-clash": 107293,
+        "blackmatrix7-chinamax-domain-clash": 107286,
         "blackmatrix7-douyin-quanx": 11,
         "blackmatrix7-iqiyi-quanx": 62,
         "blackmatrix7-jingdong-quanx": 249,
@@ -641,7 +641,7 @@
         "override:BaiduTieba.json": 3,
         "override:BankingCN.json": 7,
         "override:ByteDance.json": 5,
-        "override:ByteDanceCore.json": 5,
+        "override:ByteDanceCore.json": 12,
         "override:ByteDanceDoubao.json": 2,
         "override:China.json": 1,
         "override:ChinaCloud.json": 3,
@@ -1026,24 +1026,24 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Payment/Payment.dns.json"
     },
     "Game": {
-      "input_rules": 34,
+      "input_rules": 32,
       "input_types": {
-        "domain_suffix": 34
+        "domain_suffix": 32
       },
-      "emitted_input_rules": 34,
+      "emitted_input_rules": 32,
       "emitted_input_types": {
-        "domain_suffix": 34
+        "domain_suffix": 32
       },
-      "route_rules": 34,
-      "dns_rules": 34,
+      "route_rules": 32,
+      "dns_rules": 32,
       "headless_route_rules": 1,
       "headless_dns_rules": 1,
       "source_labels": {
         "override:BattleNet.json": 4,
-        "override:EpicGames.json": 4,
+        "override:EpicGames.json": 3,
         "override:HoYoverse.json": 4,
         "override:Nintendo.json": 4,
-        "override:PlayStation.json": 4,
+        "override:PlayStation.json": 3,
         "override:RiotGames.json": 4,
         "override:Steam.json": 6,
         "override:Xbox.json": 4
@@ -2346,9 +2346,9 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json"
     }
   },
-  "input_rules": 425814,
-  "route_rules": 425658,
-  "dns_rules": 422645,
+  "input_rules": 425812,
+  "route_rules": 425656,
+  "dns_rules": 422643,
   "omitted_count": 155,
   "moved_count": 1,
   "normalized_cidr_count": 4,

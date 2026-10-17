@@ -12,7 +12,7 @@
 - DisneyPlus: 5
 - Douyin: 15
 - Facebook: 569
-- Game: 34
+- Game: 32
 - GitHub: 38
 - Google: 711
 - Gemini: 53
@@ -140,7 +140,7 @@
 - Domestic: 111909 domain rules, 186 classical-only rules omitted, 543869 bytes
 - Douyin: 15 domain rules, 0 classical-only rules omitted, 217 bytes
 - Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
-- Game: 34 domain rules, 0 classical-only rules omitted, 439 bytes
+- Game: 32 domain rules, 0 classical-only rules omitted, 432 bytes
 - Gemini: 50 domain rules, 3 classical-only rules omitted, 589 bytes
 - GitHub: 37 domain rules, 1 classical-only rules omitted, 514 bytes
 - GlobalSites: 6949 domain rules, 123 classical-only rules omitted, 52043 bytes
