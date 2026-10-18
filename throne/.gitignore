@@ -1,0 +1,5 @@
+# Generated configs contain live airport credentials. Never commit them.
+*.local.json
+*.private.json
+*.secret.json
+__pycache__/

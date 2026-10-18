@@ -1,0 +1,48 @@
+name: Throne adapter validation
+on:
+  push:
+    paths:
+      - 'throne/**'
+      - 'sing-box/generate_sfa.py'
+      - '.github/workflows/throne-adapter.yml'
+  pull_request:
+    paths:
+      - 'throne/**'
+      - 'sing-box/generate_sfa.py'
+      - '.github/workflows/throne-adapter.yml'
+  workflow_dispatch:
+jobs:
+  adapter:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare parser dependencies
+        run: python -m pip install -r throne/requirements.txt
+      - name: Unit and policy integration regression
+        run: |
+          python -m unittest discover -s throne/tests -v
+          python -m compileall -q throne/adapter.py sing-box/generate_sfa.py
+      - name: Generate synthetic full configuration
+        run: |
+          python throne/adapter.py --input throne/tests/fixtures/native-demo.json --output "$RUNNER_TEMP/throne.local.json"
+          python -m json.tool "$RUNNER_TEMP/throne.local.json" >/dev/null
+      - name: Install pinned upstream sing-box for schema check
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 3 'https://github.com/SagerNet/sing-box/releases/download/v1.14.2/sing-box-1.14.2-linux-amd64-glibc.tar.gz' -o "$RUNNER_TEMP/sing-box.tar.gz"
+          echo '5c7bc18461827b28d0e5ee7e89d33b276d3ff7c818531104c8e8d26d85b0656e  '"$RUNNER_TEMP/sing-box.tar.gz" | sha256sum --check
+          tar -xzf "$RUNNER_TEMP/sing-box.tar.gz" -C "$RUNNER_TEMP"
+          find "$RUNNER_TEMP" -type f -name sing-box -perm /111 -exec '{}' version \;
+      - name: Real sing-box config validation (synthetic nodes)
+        shell: bash
+        run: |
+          set -euo pipefail
+          CORE="$(find "$RUNNER_TEMP" -type f -name sing-box -perm /111 | head -1)"
+          test -n "$CORE"
+          "$CORE" check -c "$RUNNER_TEMP/throne.local.json"

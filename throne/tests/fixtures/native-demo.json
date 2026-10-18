@@ -1,0 +1,7 @@
+{
+  "outbounds": [
+    {"type": "trojan", "tag": "HK synthetic 01", "server": "hk.example.invalid", "server_port": 443, "password": "DUMMY-NOT-REAL", "tls": {"enabled": true, "server_name": "hk.example.invalid"}},
+    {"type": "trojan", "tag": "US synthetic 01", "server": "us.example.invalid", "server_port": 443, "password": "DUMMY-NOT-REAL", "tls": {"enabled": true, "server_name": "us.example.invalid"}},
+    {"type": "trojan", "tag": "🇲🇴 澳门 synthetic", "server": "mo.example.invalid", "server_port": 443, "password": "DUMMY-NOT-REAL", "tls": {"enabled": true, "server_name": "mo.example.invalid"}}
+  ]
+}

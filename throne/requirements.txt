@@ -1,0 +1,2 @@
+# Optional for Clash/Mihomo YAML subscriptions; native sing-box JSON uses stdlib.
+PyYAML>=6.0.2,<7
