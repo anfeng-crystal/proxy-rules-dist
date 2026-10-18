@@ -19,18 +19,18 @@
 python3 -m pip install -r throne/requirements.txt
 
 # 本地 Clash YAML（无需网络获取机场节点）
-python3 throne/adapter.py --input ./airport.yaml --output ./throne.local.json
+python3 throne/adapter.py --input ./airport.yaml --output "$HOME/throne.local.json"
 
 # 使用一个或多个 HTTPS 机场订阅；URL 往往有密钥，不要公开命令历史
 python3 throne/adapter.py --subscription 'https://your-private-subscription.example/sub?token=SECRET' \
-  --output ./throne.local.json
+  --output "$HOME/throne.local.json"
 
 # 推荐使用私有环境变量避免在命令参数中重复记录订阅 URL；多行代表多个机场
 export THRONE_SUBSCRIPTION_URLS="$(cat /path/to/private-subscription-urls.txt)"
-python3 throne/adapter.py --output ./throne.local.json --force
+python3 throne/adapter.py --output "$HOME/throne.local.json" --force
 
 # 可选：保留附加分类、修改测速间隔、过滤节点名
-python3 throne/adapter.py --input ./airport.yaml --output ./throne.local.json --force \
+python3 throne/adapter.py --input ./airport.yaml --output "$HOME/throne.local.json" --force \
   --extra-category Douyin --extra-category WeChat --extra-category Game \
   --test-interval 600 --exclude '试用|剩余流量'
 ```
@@ -62,8 +62,8 @@ python3 throne/adapter.py --input ./airport.yaml --output ./throne.local.json --
 python3 -m unittest discover -s throne/tests -v
 python3 -m compileall -q throne/adapter.py sing-box/generate_sfa.py
 python3 throne/adapter.py --input throne/tests/fixtures/native-demo.json \
-  --output ./throne-demo.local.json
-sing-box check -c ./throne-demo.local.json
+  --output "$HOME/throne-demo.local.json"
+sing-box check -c "$HOME/throne-demo.local.json"
 ```
 
 演示节点使用 `.invalid` 地址和假凭据，只可做 JSON/内核静态检查，无法联网。静态检查不能证明 Android TUN、DNS 防泄漏、节点可用性或策略切换表现；部署后应测试 Gemini、YouTube、QQ/抖音/红果评论与头像等实际业务。
