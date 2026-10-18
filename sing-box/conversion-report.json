@@ -815,26 +815,26 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Domestic/Domestic.dns.json"
     },
     "SpeedTest": {
-      "input_rules": 3440,
+      "input_rules": 3441,
       "input_types": {
-        "domain": 3323,
+        "domain": 3324,
         "domain_keyword": 1,
         "domain_suffix": 115,
         "user_agent": 1
       },
-      "emitted_input_rules": 3439,
+      "emitted_input_rules": 3440,
       "emitted_input_types": {
-        "domain": 3323,
+        "domain": 3324,
         "domain_keyword": 1,
         "domain_suffix": 115
       },
-      "route_rules": 3439,
-      "dns_rules": 3439,
+      "route_rules": 3440,
+      "dns_rules": 3440,
       "headless_route_rules": 1,
       "headless_dns_rules": 1,
       "source_labels": {
         "blackmatrix7-speedtest-quanx": 10,
-        "sukka-speedtest-domainset": 3430
+        "sukka-speedtest-domainset": 3431
       },
       "omitted_count": 1,
       "omitted": [
@@ -888,22 +888,22 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Gemini/Gemini.dns.json"
     },
     "AI": {
-      "input_rules": 166,
+      "input_rules": 167,
       "input_types": {
         "domain": 60,
         "domain_keyword": 4,
-        "domain_suffix": 100,
+        "domain_suffix": 101,
         "ip_cidr": 2
       },
-      "emitted_input_rules": 166,
+      "emitted_input_rules": 167,
       "emitted_input_types": {
         "domain": 60,
         "domain_keyword": 4,
-        "domain_suffix": 100,
+        "domain_suffix": 101,
         "ip_cidr": 2
       },
-      "route_rules": 166,
-      "dns_rules": 164,
+      "route_rules": 167,
+      "dns_rules": 165,
       "headless_route_rules": 2,
       "headless_dns_rules": 1,
       "source_labels": {
@@ -913,7 +913,7 @@
         "blackmatrix7-openai-quanx": 34,
         "metacubex-anthropic-geosite": 7,
         "metacubex-google-gemini-geosite": 38,
-        "metacubex-openai-geosite": 10,
+        "metacubex-openai-geosite": 11,
         "override:AnthropicClaude.json": 1,
         "override:Cursor.json": 3,
         "override:GoogleGemini.json": 2,
@@ -2346,9 +2346,9 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json"
     }
   },
-  "input_rules": 426740,
-  "route_rules": 426584,
-  "dns_rules": 423571,
+  "input_rules": 426742,
+  "route_rules": 426586,
+  "dns_rules": 423573,
   "omitted_count": 155,
   "moved_count": 1,
   "normalized_cidr_count": 4,

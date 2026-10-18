@@ -140,6 +140,7 @@ HOST-SUFFIX,opal.google,AI
 HOST-SUFFIX,opal.google.com,AI
 HOST-SUFFIX,openai.com,AI
 HOST-SUFFIX,openai.com.cdn.cloudflare.net,AI
+HOST-SUFFIX,openai.org,AI
 HOST-SUFFIX,openaiapi-site.azureedge.net,AI
 HOST-SUFFIX,openaicom.imgix.net,AI
 HOST-SUFFIX,perplexity.ai,AI
