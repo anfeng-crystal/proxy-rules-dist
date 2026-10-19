@@ -589,6 +589,7 @@ HOST,puteaux3.d2m.c2d.liveservices.fr,SpeedTest
 HOST,qld-speedtest.spirit.com.au,SpeedTest
 HOST,qoeookla-mimi-01.sys.comcast.net,SpeedTest
 HOST,qoeookla-ncst-01.sys.comcast.net,SpeedTest
+HOST,qoeookla-rmnd-01.sys.comcast.net,SpeedTest
 HOST,qspt.technofiber.net,SpeedTest
 HOST,radnc-speedtest-ookla-01.st.charter.com,SpeedTest
 HOST,ran-r450-speedtest.metrocomm.com,SpeedTest
@@ -3103,6 +3104,7 @@ HOST,sulfur.burlingtontelecom.net,SpeedTest
 HOST,sunmobile.hkspeedtest.com,SpeedTest
 HOST,suntechspeedtest.com,SpeedTest
 HOST,sv-ookla.geolinks.com,SpeedTest
+HOST,syd.speedtest.pttnz.net,SpeedTest
 HOST,sydgs2speed4.wireline.com.au,SpeedTest
 HOST,sydspeedtest.rackdog.com,SpeedTest
 HOST,sydspeedtest.solitary.net.au,SpeedTest
