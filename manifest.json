@@ -731,8 +731,8 @@
       "name": "AI",
       "policy": "AI",
       "description": "Overseas AI services only.",
-      "rules": 167,
-      "source_count": 107,
+      "rules": 178,
+      "source_count": 118,
       "manual_count": 60,
       "includes": [
         {
@@ -806,9 +806,9 @@
       "license": "unknown",
       "local_fallback": "global-ai.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/AI/AI.mrs",
-      "mihomo_mrs_rules": 161,
+      "mihomo_mrs_rules": 172,
       "mihomo_mrs_omitted": 6,
-      "mihomo_mrs_bytes": 1591
+      "mihomo_mrs_bytes": 1714
     },
     {
       "name": "Dev",
@@ -1738,7 +1738,7 @@
       },
       {
         "name": "AI",
-        "rules": 167
+        "rules": 178
       },
       {
         "name": "Apple",
@@ -1909,10 +1909,10 @@
         "bytes": 589
       },
       "AI": {
-        "rules": 161,
+        "rules": 172,
         "omitted": 6,
         "path": "mihomo-mrs/AI/AI.mrs",
-        "bytes": 1591
+        "bytes": 1714
       },
       "Dev": {
         "rules": 55,

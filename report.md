@@ -2,7 +2,7 @@
 
 ## 规则数量 / Counts
 
-- AI: 167
+- AI: 178
 - Ads: 291590
 - Alibaba: 1320
 - Apple: 1876
@@ -129,7 +129,7 @@
 
 ## Mihomo MRS / Mihomo MRS
 
-- AI: 161 domain rules, 6 classical-only rules omitted, 1591 bytes
+- AI: 172 domain rules, 6 classical-only rules omitted, 1714 bytes
 - Ads: 290822 domain rules, 768 classical-only rules omitted, 2556708 bytes
 - Alibaba: 1266 domain rules, 54 classical-only rules omitted, 7649 bytes
 - Apple: 1833 domain rules, 43 classical-only rules omitted, 18117 bytes
