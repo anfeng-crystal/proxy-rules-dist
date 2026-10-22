@@ -455,6 +455,7 @@ HOST,ookla.a1.neptune.net.au,SpeedTest
 HOST,ookla.a56.as6453.net,SpeedTest
 HOST,ookla.aeq.as6453.net,SpeedTest
 HOST,ookla.alcloud.com.br,SpeedTest
+HOST,ookla.alida.it,SpeedTest
 HOST,ookla.amazoniasat-isp.com.br,SpeedTest
 HOST,ookla.ams.atharva.co.id,SpeedTest
 HOST,ookla.apuacom.it,SpeedTest
@@ -570,6 +571,7 @@ HOST,pathsalaspeedtest.ngcbroadband.com,SpeedTest
 HOST,pauseq4vost1.datamossa.cloud,SpeedTest
 HOST,perf-01.ixn.as42689.net,SpeedTest
 HOST,perf.keyyo.net,SpeedTest
+HOST,perf1.moji1.sapi.net,SpeedTest
 HOST,phc-speed.twmbroadband.com,SpeedTest
 HOST,phl01.screenshot.download,SpeedTest
 HOST,phlph0001speedtestserver02.wiline.com,SpeedTest
@@ -1163,6 +1165,7 @@ HOST,speedtest-mum.froze.in,SpeedTest
 HOST,speedtest-mumbai.scify.co.in,SpeedTest
 HOST,speedtest-naw.pr-link.at,SpeedTest
 HOST,speedtest-net-fra.dispaisy.systems,SpeedTest
+HOST,speedtest-net.hyprnode.de,SpeedTest
 HOST,speedtest-net.mk.de,SpeedTest
 HOST,speedtest-net.xjtlu.edu.cn,SpeedTest
 HOST,speedtest-newcastle.optusnet.com.au,SpeedTest
@@ -3223,6 +3226,7 @@ HOST,tsdvuspeedtest01p.allstream.com,SpeedTest
 HOST,tul-speedtest.onenet.net,SpeedTest
 HOST,turknet16.residential.tr,SpeedTest
 HOST,two.speed.airc.it,SpeedTest
+HOST,tx.speedtest.openinfra.com,SpeedTest
 HOST,txdllsspeedtest01.mybluepeak.net,SpeedTest
 HOST,txg-speedtest.infinirc.com,SpeedTest
 HOST,ty-bgp-speedtest.nearoute.io,SpeedTest
