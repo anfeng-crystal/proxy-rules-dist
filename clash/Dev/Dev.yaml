@@ -24,6 +24,7 @@ payload:
   - DOMAIN,services.gradle.org
   - DOMAIN,sum.golang.org
   - DOMAIN,update.code.visualstudio.com
+  - DOMAIN,vscode.download.prss.microsoft.com
   - DOMAIN-SUFFIX,bundler.io
   - DOMAIN-SUFFIX,crates.io
   - DOMAIN-SUFFIX,docker.com

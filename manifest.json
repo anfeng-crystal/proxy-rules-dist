@@ -814,9 +814,9 @@
       "name": "Dev",
       "policy": "Dev",
       "description": "Development tooling ecosystems other than the standalone GitHub bucket.",
-      "rules": 55,
+      "rules": 56,
       "source_count": 0,
-      "manual_count": 55,
+      "manual_count": 56,
       "includes": [
         {
           "name": "Vercel",
@@ -885,9 +885,9 @@
       "license": "unknown",
       "local_fallback": "developer.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Dev/Dev.mrs",
-      "mihomo_mrs_rules": 55,
+      "mihomo_mrs_rules": 56,
       "mihomo_mrs_omitted": 0,
-      "mihomo_mrs_bytes": 599
+      "mihomo_mrs_bytes": 619
     },
     {
       "name": "Payment",
@@ -1754,7 +1754,7 @@
       },
       {
         "name": "Dev",
-        "rules": 55
+        "rules": 56
       },
       {
         "name": "Payment",
@@ -1915,10 +1915,10 @@
         "bytes": 1714
       },
       "Dev": {
-        "rules": 55,
+        "rules": 56,
         "omitted": 0,
         "path": "mihomo-mrs/Dev/Dev.mrs",
-        "bytes": 599
+        "bytes": 619
       },
       "Payment": {
         "rules": 250,

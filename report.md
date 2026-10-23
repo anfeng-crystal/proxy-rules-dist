@@ -8,7 +8,7 @@
 - Apple: 1876
 - Baidu: 259
 - Bilibili: 127
-- Dev: 55
+- Dev: 56
 - DisneyPlus: 5
 - Douyin: 15
 - Facebook: 569
@@ -135,7 +135,7 @@
 - Apple: 1833 domain rules, 43 classical-only rules omitted, 18117 bytes
 - Baidu: 259 domain rules, 0 classical-only rules omitted, 2147 bytes
 - Bilibili: 115 domain rules, 12 classical-only rules omitted, 1477 bytes
-- Dev: 55 domain rules, 0 classical-only rules omitted, 599 bytes
+- Dev: 56 domain rules, 0 classical-only rules omitted, 619 bytes
 - DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
 - Domestic: 111822 domain rules, 186 classical-only rules omitted, 543426 bytes
 - Douyin: 15 domain rules, 0 classical-only rules omitted, 217 bytes

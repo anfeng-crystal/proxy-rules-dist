@@ -25,7 +25,8 @@
         "repo1.maven.org",
         "services.gradle.org",
         "sum.golang.org",
-        "update.code.visualstudio.com"
+        "update.code.visualstudio.com",
+        "vscode.download.prss.microsoft.com"
       ],
       "domain_suffix": [
         "bundler.io",

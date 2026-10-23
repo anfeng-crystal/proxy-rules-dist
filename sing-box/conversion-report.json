@@ -943,18 +943,18 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/AI/AI.dns.json"
     },
     "Dev": {
-      "input_rules": 55,
+      "input_rules": 56,
       "input_types": {
-        "domain": 23,
+        "domain": 24,
         "domain_suffix": 32
       },
-      "emitted_input_rules": 55,
+      "emitted_input_rules": 56,
       "emitted_input_types": {
-        "domain": 23,
+        "domain": 24,
         "domain_suffix": 32
       },
-      "route_rules": 55,
-      "dns_rules": 55,
+      "route_rules": 56,
+      "dns_rules": 56,
       "headless_route_rules": 1,
       "headless_dns_rules": 1,
       "source_labels": {
@@ -971,7 +971,7 @@
         "override:PyPI.json": 3,
         "override:RubyGems.json": 3,
         "override:Rust.json": 4,
-        "override:VSCode.json": 4,
+        "override:VSCode.json": 5,
         "override:Vercel.json": 2
       },
       "omitted_count": 0,
@@ -2346,9 +2346,9 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json"
     }
   },
-  "input_rules": 427449,
-  "route_rules": 427293,
-  "dns_rules": 424280,
+  "input_rules": 427450,
+  "route_rules": 427294,
+  "dns_rules": 424281,
   "omitted_count": 155,
   "moved_count": 1,
   "normalized_cidr_count": 4,

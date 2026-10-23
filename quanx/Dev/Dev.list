@@ -24,6 +24,7 @@ HOST,repo1.maven.org,Dev
 HOST,services.gradle.org,Dev
 HOST,sum.golang.org,Dev
 HOST,update.code.visualstudio.com,Dev
+HOST,vscode.download.prss.microsoft.com,Dev
 HOST-SUFFIX,bundler.io,Dev
 HOST-SUFFIX,crates.io,Dev
 HOST-SUFFIX,docker.com,Dev
