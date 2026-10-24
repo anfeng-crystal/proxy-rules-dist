@@ -495,6 +495,7 @@ HOST,ookla.kues-data.de,SpeedTest
 HOST,ookla.la.ca.sharktech.net,SpeedTest
 HOST,ookla.lanetcie.net,SpeedTest
 HOST,ookla.ldn.as6453.net,SpeedTest
+HOST,ookla.lodestarnetworks.co.uk,SpeedTest
 HOST,ookla.lunoxia.net,SpeedTest
 HOST,ookla.m3h.as6453.net,SpeedTest
 HOST,ookla.mbspeed.net,SpeedTest
@@ -800,6 +801,7 @@ HOST,speed-miss.systemlifeline.com,SpeedTest
 HOST,speed-mix.dimensione.com,SpeedTest
 HOST,speed-mix.dispaisy.systems,SpeedTest
 HOST,speed-oak.systemlifeline.com,SpeedTest
+HOST,speed-pd.dispaisy.systems,SpeedTest
 HOST,speed-rm.dimensione.com,SpeedTest
 HOST,speed-server1.summit-broadband.com,SpeedTest
 HOST,speed-server2.summit-broadband.com,SpeedTest
@@ -962,6 +964,7 @@ HOST,speed4.snap.net.nz,SpeedTest
 HOST,speedam.wsp.net.br,SpeedTest
 HOST,speedapi.race.com,SpeedTest
 HOST,speedash.phoenixnap.com,SpeedTest
+HOST,speedbng.n-tel.in,SpeedTest
 HOST,speedbodrum.fizynet.com.tr,SpeedTest
 HOST,speedbursa.lodosnet.com,SpeedTest
 HOST,speedcheck.liwest.at,SpeedTest
@@ -2275,6 +2278,7 @@ HOST,speedtest.thn.lon.network.as201838.net,SpeedTest
 HOST,speedtest.thn.uk.syntura.io,SpeedTest
 HOST,speedtest.three.com.hk,SpeedTest
 HOST,speedtest.thryve.com.au,SpeedTest
+HOST,speedtest.thyrakles.de,SpeedTest
 HOST,speedtest.tierpoint.net,SpeedTest
 HOST,speedtest.tigo.co.cr,SpeedTest
 HOST,speedtest.tigo.cr,SpeedTest
