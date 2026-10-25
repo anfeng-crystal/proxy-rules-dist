@@ -3,9 +3,9 @@
 ## 规则数量 / Counts
 
 - AI: 178
-- Ads: 296072
+- Ads: 296687
 - Alibaba: 1320
-- Apple: 1876
+- Apple: 1875
 - Baidu: 259
 - Bilibili: 127
 - Dev: 56
@@ -24,7 +24,7 @@
 - Netflix: 1156
 - Payment: 252
 - Pinduoduo: 4
-- SpeedTest: 3454
+- SpeedTest: 3455
 - Spotify: 30
 - Telegram: 35
 - Tencent: 2524
@@ -37,7 +37,7 @@
 - Youku: 37
 - Zhihu: 9
 - iQIYI: 62
-- Domestic: 112010
+- Domestic: 111738
 - GlobalSites: 7072
 - NetworkTest: 16
 
@@ -130,14 +130,14 @@
 ## Mihomo MRS / Mihomo MRS
 
 - AI: 172 domain rules, 6 classical-only rules omitted, 1714 bytes
-- Ads: 295304 domain rules, 768 classical-only rules omitted, 2600205 bytes
+- Ads: 295919 domain rules, 768 classical-only rules omitted, 2653909 bytes
 - Alibaba: 1266 domain rules, 54 classical-only rules omitted, 7649 bytes
-- Apple: 1833 domain rules, 43 classical-only rules omitted, 18117 bytes
+- Apple: 1832 domain rules, 43 classical-only rules omitted, 18099 bytes
 - Baidu: 259 domain rules, 0 classical-only rules omitted, 2147 bytes
 - Bilibili: 115 domain rules, 12 classical-only rules omitted, 1477 bytes
 - Dev: 56 domain rules, 0 classical-only rules omitted, 619 bytes
 - DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
-- Domestic: 111824 domain rules, 186 classical-only rules omitted, 543497 bytes
+- Domestic: 111552 domain rules, 186 classical-only rules omitted, 542059 bytes
 - Douyin: 15 domain rules, 0 classical-only rules omitted, 217 bytes
 - Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
 - Game: 32 domain rules, 0 classical-only rules omitted, 432 bytes
@@ -154,7 +154,7 @@
 - NetworkTest: 16 domain rules, 0 classical-only rules omitted, 271 bytes
 - Payment: 250 domain rules, 2 classical-only rules omitted, 2706 bytes
 - Pinduoduo: 4 domain rules, 0 classical-only rules omitted, 94 bytes
-- SpeedTest: 3452 domain rules, 2 classical-only rules omitted, 37784 bytes
+- SpeedTest: 3453 domain rules, 2 classical-only rules omitted, 37791 bytes
 - Spotify: 26 domain rules, 4 classical-only rules omitted, 400 bytes
 - Telegram: 24 domain rules, 11 classical-only rules omitted, 310 bytes
 - Tencent: 2499 domain rules, 25 classical-only rules omitted, 18001 bytes
