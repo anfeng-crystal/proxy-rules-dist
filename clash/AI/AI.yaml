@@ -17,6 +17,9 @@ payload:
   - DOMAIN,api.stability.ai
   - DOMAIN,api.windsurf.com
   - DOMAIN,api.x.ai
+  - DOMAIN,appsgenaiserver-pa.clients.google.com
+  - DOMAIN,appsgenaiserver-pa.clients6.google.com
+  - DOMAIN,appsgenaiserver-pa.googleapis.com
   - DOMAIN,auth0.openai.com
   - DOMAIN,browser-intake-datadoghq.com
   - DOMAIN,cdn-lfs.huggingface.co

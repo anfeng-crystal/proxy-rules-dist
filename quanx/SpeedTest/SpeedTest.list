@@ -1846,6 +1846,7 @@ HOST,speedtest.lazco.dev,SpeedTest
 HOST,speedtest.lazco.tw,SpeedTest
 HOST,speedtest.lcom.net,SpeedTest
 HOST,speedtest.ld7.fdcservers.net,SpeedTest
+HOST,speedtest.lecrintv.com,SpeedTest
 HOST,speedtest.leer.jonasdevries.de,SpeedTest
 HOST,speedtest.lekloud.net,SpeedTest
 HOST,speedtest.lhr1.uk.as61049.net,SpeedTest
@@ -2863,6 +2864,7 @@ HOST,srv-st04.arcolink.it,SpeedTest
 HOST,srv-st08.arcolink.it,SpeedTest
 HOST,srv-st10.arcolink.it,SpeedTest
 HOST,srv-st12.arcolink.it,SpeedTest
+HOST,srv01-speedtest-pa5.ptr.corenix.fr,SpeedTest
 HOST,srv02-sjdm.imj-wanklik.com,SpeedTest
 HOST,srv12.mtlcx03.fibrenoire.ca,SpeedTest
 HOST,srv1297868.hstgr.cloud,SpeedTest

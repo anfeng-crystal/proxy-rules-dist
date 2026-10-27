@@ -17,6 +17,9 @@ HOST,api.runwayml.com,AI
 HOST,api.stability.ai,AI
 HOST,api.windsurf.com,AI
 HOST,api.x.ai,AI
+HOST,appsgenaiserver-pa.clients.google.com,AI
+HOST,appsgenaiserver-pa.clients6.google.com,AI
+HOST,appsgenaiserver-pa.googleapis.com,AI
 HOST,auth0.openai.com,AI
 HOST,browser-intake-datadoghq.com,AI
 HOST,cdn-lfs.huggingface.co,AI

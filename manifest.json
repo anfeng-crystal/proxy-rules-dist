@@ -412,8 +412,8 @@
       "name": "Domestic",
       "policy": "国内应用",
       "description": "Merged mainland China applications, domestic AI, domestic payment, finance, media, cloud, and direct fallbacks.",
-      "rules": 111738,
-      "source_count": 111631,
+      "rules": 111740,
+      "source_count": 111633,
       "manual_count": 107,
       "includes": [
         {
@@ -647,9 +647,9 @@
       "license": "unknown",
       "local_fallback": "domestic-all.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs",
-      "mihomo_mrs_rules": 111552,
+      "mihomo_mrs_rules": 111554,
       "mihomo_mrs_omitted": 186,
-      "mihomo_mrs_bytes": 542059
+      "mihomo_mrs_bytes": 541946
     },
     {
       "name": "NetworkTest",
@@ -682,8 +682,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3456,
-      "source_count": 3456,
+      "rules": 3458,
+      "source_count": 3458,
       "manual_count": 0,
       "includes": [
         {
@@ -697,16 +697,16 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3454,
+      "mihomo_mrs_rules": 3456,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 37739
+      "mihomo_mrs_bytes": 37703
     },
     {
       "name": "Gemini",
       "policy": "Gemini",
       "description": "Google Gemini, AI Studio, and NotebookLM endpoints.",
-      "rules": 53,
-      "source_count": 51,
+      "rules": 56,
+      "source_count": 54,
       "manual_count": 2,
       "includes": [
         {
@@ -723,16 +723,16 @@
       "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
       "local_fallback": "gemini.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Gemini/Gemini.mrs",
-      "mihomo_mrs_rules": 50,
+      "mihomo_mrs_rules": 53,
       "mihomo_mrs_omitted": 3,
-      "mihomo_mrs_bytes": 589
+      "mihomo_mrs_bytes": 626
     },
     {
       "name": "AI",
       "policy": "AI",
       "description": "Overseas AI services only.",
-      "rules": 178,
-      "source_count": 118,
+      "rules": 181,
+      "source_count": 121,
       "manual_count": 60,
       "includes": [
         {
@@ -806,9 +806,9 @@
       "license": "unknown",
       "local_fallback": "global-ai.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/AI/AI.mrs",
-      "mihomo_mrs_rules": 172,
+      "mihomo_mrs_rules": 175,
       "mihomo_mrs_omitted": 6,
-      "mihomo_mrs_bytes": 1714
+      "mihomo_mrs_bytes": 1756
     },
     {
       "name": "Dev",
@@ -1393,8 +1393,8 @@
       "name": "Ads",
       "policy": "Ads",
       "description": "Advertising, privacy, and hijacking reject bundle.",
-      "rules": 296687,
-      "source_count": 296678,
+      "rules": 291041,
+      "source_count": 291032,
       "manual_count": 9,
       "includes": [
         {
@@ -1416,9 +1416,9 @@
       "license": "unknown",
       "local_fallback": "reject.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Ads/Ads.mrs",
-      "mihomo_mrs_rules": 295919,
+      "mihomo_mrs_rules": 290273,
       "mihomo_mrs_omitted": 768,
-      "mihomo_mrs_bytes": 2653909
+      "mihomo_mrs_bytes": 2564123
     }
   ],
   "mihomo_mrs": {
@@ -1726,7 +1726,7 @@
       },
       {
         "name": "Domestic",
-        "rules": 111738
+        "rules": 111740
       },
       {
         "name": "NetworkTest",
@@ -1734,11 +1734,11 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3456
+        "rules": 3458
       },
       {
         "name": "AI",
-        "rules": 178
+        "rules": 181
       },
       {
         "name": "Apple",
@@ -1778,7 +1778,7 @@
       },
       {
         "name": "Ads",
-        "rules": 296687
+        "rules": 291041
       }
     ],
     "protected_reject_removals": [],
@@ -1885,10 +1885,10 @@
         "bytes": 94
       },
       "Domestic": {
-        "rules": 111552,
+        "rules": 111554,
         "omitted": 186,
         "path": "mihomo-mrs/Domestic/Domestic.mrs",
-        "bytes": 542059
+        "bytes": 541946
       },
       "NetworkTest": {
         "rules": 16,
@@ -1897,22 +1897,22 @@
         "bytes": 271
       },
       "SpeedTest": {
-        "rules": 3454,
+        "rules": 3456,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 37739
+        "bytes": 37703
       },
       "Gemini": {
-        "rules": 50,
+        "rules": 53,
         "omitted": 3,
         "path": "mihomo-mrs/Gemini/Gemini.mrs",
-        "bytes": 589
+        "bytes": 626
       },
       "AI": {
-        "rules": 172,
+        "rules": 175,
         "omitted": 6,
         "path": "mihomo-mrs/AI/AI.mrs",
-        "bytes": 1714
+        "bytes": 1756
       },
       "Dev": {
         "rules": 56,
@@ -2017,10 +2017,10 @@
         "bytes": 52043
       },
       "Ads": {
-        "rules": 295919,
+        "rules": 290273,
         "omitted": 768,
         "path": "mihomo-mrs/Ads/Ads.mrs",
-        "bytes": 2653909
+        "bytes": 2564123
       }
     }
   }
