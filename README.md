@@ -41,6 +41,8 @@
 - `境外网站` 聚合未单独成桶的长尾境外服务，不吞并独立品牌桶。
 - `LocalNetwork` 只放入 QuanX/Loon 本地规则段和 Mihomo 前置本地 rules，不进入远程规则入口和策略组。
 
+JetBrains 的 `jetbrains.com`（含更新、插件市场和下载子域名）及 `jetbrains.cloud` 纳入 `Domestic`，不再由 `Dev` 匹配。将 `Domestic` 对应的策略设为直连，刷新规则订阅即可应用到各台设备；无需关闭系统 HTTP/HTTPS 代理或修改 IDEA 代理设置。
+
 ## 发布地址
 
 - 公开主页：`https://anfeng-crystal.github.io/proxy-rules-dist/`

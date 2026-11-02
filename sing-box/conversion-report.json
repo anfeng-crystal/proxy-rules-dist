@@ -597,26 +597,26 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Pinduoduo/Pinduoduo.dns.json"
     },
     "Domestic": {
-      "input_rules": 111740,
+      "input_rules": 111742,
       "input_types": {
         "domain": 370,
         "domain_keyword": 2,
-        "domain_suffix": 111184,
+        "domain_suffix": 111186,
         "geoip": 1,
         "ip_cidr": 131,
         "ip_cidr6": 31,
         "user_agent": 21
       },
-      "emitted_input_rules": 111718,
+      "emitted_input_rules": 111720,
       "emitted_input_types": {
         "domain": 370,
         "domain_keyword": 2,
-        "domain_suffix": 111184,
+        "domain_suffix": 111186,
         "ip_cidr": 131,
         "ip_cidr6": 31
       },
-      "route_rules": 111718,
-      "dns_rules": 111556,
+      "route_rules": 111720,
+      "dns_rules": 111558,
       "headless_route_rules": 2,
       "headless_dns_rules": 1,
       "source_labels": {
@@ -647,7 +647,7 @@
         "override:ChinaCloud.json": 3,
         "override:ChinaMedia.json": 4,
         "override:DeepSeek.json": 2,
-        "override:Direct.json": 5,
+        "override:Direct.json": 7,
         "override:Douyin.json": 2,
         "override:EducationCN.json": 4,
         "override:GovCN.json": 5,
@@ -943,18 +943,18 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/AI/AI.dns.json"
     },
     "Dev": {
-      "input_rules": 56,
+      "input_rules": 53,
       "input_types": {
-        "domain": 24,
-        "domain_suffix": 32
+        "domain": 22,
+        "domain_suffix": 31
       },
-      "emitted_input_rules": 56,
+      "emitted_input_rules": 53,
       "emitted_input_types": {
-        "domain": 24,
-        "domain_suffix": 32
+        "domain": 22,
+        "domain_suffix": 31
       },
-      "route_rules": 56,
-      "dns_rules": 56,
+      "route_rules": 53,
+      "dns_rules": 53,
       "headless_route_rules": 1,
       "headless_dns_rules": 1,
       "source_labels": {
@@ -963,7 +963,7 @@
         "override:Go.json": 5,
         "override:Gradle.json": 4,
         "override:Homebrew.json": 5,
-        "override:JetBrains.json": 4,
+        "override:JetBrains.json": 1,
         "override:Maven.json": 4,
         "override:MicrosoftDev.json": 4,
         "override:NPM.json": 3,
@@ -2346,9 +2346,9 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json"
     }
   },
-  "input_rules": 426653,
-  "route_rules": 426497,
-  "dns_rules": 423484,
+  "input_rules": 426652,
+  "route_rules": 426496,
+  "dns_rules": 423483,
   "omitted_count": 155,
   "moved_count": 1,
   "normalized_cidr_count": 4,

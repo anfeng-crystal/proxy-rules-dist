@@ -412,9 +412,9 @@
       "name": "Domestic",
       "policy": "国内应用",
       "description": "Merged mainland China applications, domestic AI, domestic payment, finance, media, cloud, and direct fallbacks.",
-      "rules": 111740,
+      "rules": 111742,
       "source_count": 111633,
-      "manual_count": 107,
+      "manual_count": 109,
       "includes": [
         {
           "name": "TencentMeeting",
@@ -647,9 +647,9 @@
       "license": "unknown",
       "local_fallback": "domestic-all.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Domestic/Domestic.mrs",
-      "mihomo_mrs_rules": 111554,
+      "mihomo_mrs_rules": 111556,
       "mihomo_mrs_omitted": 186,
-      "mihomo_mrs_bytes": 541946
+      "mihomo_mrs_bytes": 542051
     },
     {
       "name": "NetworkTest",
@@ -814,9 +814,9 @@
       "name": "Dev",
       "policy": "Dev",
       "description": "Development tooling ecosystems other than the standalone GitHub bucket.",
-      "rules": 56,
+      "rules": 53,
       "source_count": 0,
-      "manual_count": 56,
+      "manual_count": 53,
       "includes": [
         {
           "name": "Vercel",
@@ -885,9 +885,9 @@
       "license": "unknown",
       "local_fallback": "developer.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Dev/Dev.mrs",
-      "mihomo_mrs_rules": 56,
+      "mihomo_mrs_rules": 53,
       "mihomo_mrs_omitted": 0,
-      "mihomo_mrs_bytes": 619
+      "mihomo_mrs_bytes": 599
     },
     {
       "name": "Payment",
@@ -1726,7 +1726,7 @@
       },
       {
         "name": "Domestic",
-        "rules": 111740
+        "rules": 111742
       },
       {
         "name": "NetworkTest",
@@ -1754,7 +1754,7 @@
       },
       {
         "name": "Dev",
-        "rules": 56
+        "rules": 53
       },
       {
         "name": "Payment",
@@ -1885,10 +1885,10 @@
         "bytes": 94
       },
       "Domestic": {
-        "rules": 111554,
+        "rules": 111556,
         "omitted": 186,
         "path": "mihomo-mrs/Domestic/Domestic.mrs",
-        "bytes": 541946
+        "bytes": 542051
       },
       "NetworkTest": {
         "rules": 16,
@@ -1915,10 +1915,10 @@
         "bytes": 1756
       },
       "Dev": {
-        "rules": 56,
+        "rules": 53,
         "omitted": 0,
         "path": "mihomo-mrs/Dev/Dev.mrs",
-        "bytes": 619
+        "bytes": 599
       },
       "Payment": {
         "rules": 250,

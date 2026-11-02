@@ -8,7 +8,7 @@
 - Apple: 1875
 - Baidu: 259
 - Bilibili: 127
-- Dev: 56
+- Dev: 53
 - DisneyPlus: 5
 - Douyin: 15
 - Facebook: 569
@@ -37,7 +37,7 @@
 - Youku: 37
 - Zhihu: 9
 - iQIYI: 62
-- Domestic: 111740
+- Domestic: 111742
 - GlobalSites: 7072
 - NetworkTest: 16
 
@@ -135,9 +135,9 @@
 - Apple: 1832 domain rules, 43 classical-only rules omitted, 18099 bytes
 - Baidu: 259 domain rules, 0 classical-only rules omitted, 2147 bytes
 - Bilibili: 115 domain rules, 12 classical-only rules omitted, 1477 bytes
-- Dev: 56 domain rules, 0 classical-only rules omitted, 619 bytes
+- Dev: 53 domain rules, 0 classical-only rules omitted, 599 bytes
 - DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
-- Domestic: 111554 domain rules, 186 classical-only rules omitted, 541946 bytes
+- Domestic: 111556 domain rules, 186 classical-only rules omitted, 542051 bytes
 - Douyin: 15 domain rules, 0 classical-only rules omitted, 217 bytes
 - Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
 - Game: 32 domain rules, 0 classical-only rules omitted, 432 bytes

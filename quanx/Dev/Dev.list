@@ -3,7 +3,6 @@
 # 分类 / Category: Dev
 HOST,auth.docker.io,Dev
 HOST,brew.sh,Dev
-HOST,download.jetbrains.com,Dev
 HOST,files.pythonhosted.org,Dev
 HOST,formulae.brew.sh,Dev
 HOST,ghcr.io,Dev
@@ -12,7 +11,6 @@ HOST,packages.gitlab.com,Dev
 HOST,pkg-containers.githubusercontent.com,Dev
 HOST,pkg.go.dev,Dev
 HOST,plugins.gradle.org,Dev
-HOST,plugins.jetbrains.com,Dev
 HOST,production.cloudflare.docker.com,Dev
 HOST,proxy.golang.org,Dev
 HOST,registry-1.docker.io,Dev
@@ -34,7 +32,6 @@ HOST-SUFFIX,go.dev,Dev
 HOST-SUFFIX,golang.org,Dev
 HOST-SUFFIX,gradle.com,Dev
 HOST-SUFFIX,gradle.org,Dev
-HOST-SUFFIX,jetbrains.com,Dev
 HOST-SUFFIX,jetbrains.space,Dev
 HOST-SUFFIX,maven.org,Dev
 HOST-SUFFIX,netlify.app,Dev

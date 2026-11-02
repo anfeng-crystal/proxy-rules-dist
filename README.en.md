@@ -134,6 +134,7 @@ Public remote rule IDs are English and stable. Policy group display names stay i
 - `AI`: overseas AI only, including the Gemini rules retained as part of the complete AI aggregate.
 - `Apple`, `Microsoft`, `Google`, and `GitHub`: standalone brand buckets.
 - `Dev`: developer ecosystems other than the standalone GitHub bucket.
+- JetBrains `jetbrains.com` (including IDE update, plugin marketplace, and download subdomains) and `jetbrains.cloud` belong to `Domestic` and are excluded from `Dev`. Keep the policy bound to `Domestic` set to direct and refresh rule subscriptions on each device; system HTTP/HTTPS proxies and IDEA proxy settings can stay enabled and unchanged.
 - `Payment`: overseas payment and financial services only.
 - `Game`: overseas game services only.
 - `Telegram`, `YouTube`, `Netflix`, `DisneyPlus`, `Spotify`, `TikTok`, `Twitter`, `Facebook`, and `Instagram`: standalone media/social buckets.

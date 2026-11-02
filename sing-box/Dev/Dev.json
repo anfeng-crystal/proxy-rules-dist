@@ -5,7 +5,6 @@
       "domain": [
         "auth.docker.io",
         "brew.sh",
-        "download.jetbrains.com",
         "files.pythonhosted.org",
         "formulae.brew.sh",
         "ghcr.io",
@@ -14,7 +13,6 @@
         "pkg-containers.githubusercontent.com",
         "pkg.go.dev",
         "plugins.gradle.org",
-        "plugins.jetbrains.com",
         "production.cloudflare.docker.com",
         "proxy.golang.org",
         "registry-1.docker.io",
@@ -38,7 +36,6 @@
         "golang.org",
         "gradle.com",
         "gradle.org",
-        "jetbrains.com",
         "jetbrains.space",
         "maven.org",
         "netlify.app",

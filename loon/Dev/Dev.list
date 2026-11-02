@@ -3,7 +3,6 @@
 # 分类 / Category: Dev
 DOMAIN,auth.docker.io
 DOMAIN,brew.sh
-DOMAIN,download.jetbrains.com
 DOMAIN,files.pythonhosted.org
 DOMAIN,formulae.brew.sh
 DOMAIN,ghcr.io
@@ -12,7 +11,6 @@ DOMAIN,packages.gitlab.com
 DOMAIN,pkg-containers.githubusercontent.com
 DOMAIN,pkg.go.dev
 DOMAIN,plugins.gradle.org
-DOMAIN,plugins.jetbrains.com
 DOMAIN,production.cloudflare.docker.com
 DOMAIN,proxy.golang.org
 DOMAIN,registry-1.docker.io
@@ -34,7 +32,6 @@ DOMAIN-SUFFIX,go.dev
 DOMAIN-SUFFIX,golang.org
 DOMAIN-SUFFIX,gradle.com
 DOMAIN-SUFFIX,gradle.org
-DOMAIN-SUFFIX,jetbrains.com
 DOMAIN-SUFFIX,jetbrains.space
 DOMAIN-SUFFIX,maven.org
 DOMAIN-SUFFIX,netlify.app

@@ -52798,6 +52798,8 @@ payload:
   - DOMAIN-SUFFIX,jet-ego.com
   - DOMAIN-SUFFIX,jet-logistics.com
   - DOMAIN-SUFFIX,jet-ok.com
+  - DOMAIN-SUFFIX,jetbrains.cloud
+  - DOMAIN-SUFFIX,jetbrains.com
   - DOMAIN-SUFFIX,jetechtool.com
   - DOMAIN-SUFFIX,jetgroup-cn.com
   - DOMAIN-SUFFIX,jetgroup-nb.com
