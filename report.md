@@ -37,7 +37,7 @@
 - Youku: 37
 - Zhihu: 9
 - iQIYI: 62
-- Domestic: 111742
+- Domestic: 111741
 - GlobalSites: 7072
 - NetworkTest: 16
 
@@ -137,7 +137,7 @@
 - Bilibili: 115 domain rules, 12 classical-only rules omitted, 1477 bytes
 - Dev: 53 domain rules, 0 classical-only rules omitted, 599 bytes
 - DisneyPlus: 5 domain rules, 0 classical-only rules omitted, 137 bytes
-- Domestic: 111556 domain rules, 186 classical-only rules omitted, 542051 bytes
+- Domestic: 111555 domain rules, 186 classical-only rules omitted, 542041 bytes
 - Douyin: 15 domain rules, 0 classical-only rules omitted, 217 bytes
 - Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
 - Game: 32 domain rules, 0 classical-only rules omitted, 432 bytes
