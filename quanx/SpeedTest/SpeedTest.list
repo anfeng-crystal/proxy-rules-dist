@@ -167,6 +167,7 @@ HOST,fl.speedtest.openinfra.com,SpeedTest
 HOST,fla-st01.provenet.com.br,SpeedTest
 HOST,fla.brisanet.eu.org,SpeedTest
 HOST,fr-1.node.delton.ovh,SpeedTest
+HOST,fra-de-008.xvperf.net,SpeedTest
 HOST,fra-eq5-tptest1.31173.se,SpeedTest
 HOST,fra.speedtest.csgobans.com,SpeedTest
 HOST,fra1speedtest01.skylogic.com,SpeedTest
@@ -554,6 +555,7 @@ HOST,ookla2.mbspeed.net,SpeedTest
 HOST,ookla3.1und1-mobilfunk.de,SpeedTest
 HOST,ooklaserver.aryk.fr,SpeedTest
 HOST,ooklaserver1-del1.skymaxbroadband.com,SpeedTest
+HOST,ooklaspdtstsvr.zitel.com,SpeedTest
 HOST,ooklaspeed.statenet.in,SpeedTest
 HOST,ooklaspeed.ttron.eu,SpeedTest
 HOST,ooklaspeedtest-cdv.quebeccloud.com,SpeedTest
