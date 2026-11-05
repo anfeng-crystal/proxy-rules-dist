@@ -655,9 +655,9 @@
       "name": "NetworkTest",
       "policy": "网络检测",
       "description": "Connectivity checks, public IP checks, DNS leak tests, and browser fingerprint checks.",
-      "rules": 16,
+      "rules": 17,
       "source_count": 0,
-      "manual_count": 16,
+      "manual_count": 17,
       "includes": [
         {
           "name": "ConnectivityCheck",
@@ -674,9 +674,9 @@
       "license": "unknown",
       "local_fallback": "direct.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/NetworkTest/NetworkTest.mrs",
-      "mihomo_mrs_rules": 16,
+      "mihomo_mrs_rules": 17,
       "mihomo_mrs_omitted": 0,
-      "mihomo_mrs_bytes": 271
+      "mihomo_mrs_bytes": 276
     },
     {
       "name": "SpeedTest",
@@ -1730,7 +1730,7 @@
       },
       {
         "name": "NetworkTest",
-        "rules": 16
+        "rules": 17
       },
       {
         "name": "SpeedTest",
@@ -1891,10 +1891,10 @@
         "bytes": 542041
       },
       "NetworkTest": {
-        "rules": 16,
+        "rules": 17,
         "omitted": 0,
         "path": "mihomo-mrs/NetworkTest/NetworkTest.mrs",
-        "bytes": 271
+        "bytes": 276
       },
       "SpeedTest": {
         "rules": 3467,

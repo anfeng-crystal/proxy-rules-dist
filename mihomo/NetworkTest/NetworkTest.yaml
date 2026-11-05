@@ -16,4 +16,5 @@ payload:
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,ipinfo.io
   - DOMAIN-SUFFIX,ipleak.net
+  - DOMAIN-SUFFIX,net.coffee
   - DOMAIN-SUFFIX,test-ipv6.com

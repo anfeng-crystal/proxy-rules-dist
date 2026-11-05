@@ -39,7 +39,7 @@
 - iQIYI: 62
 - Domestic: 111741
 - GlobalSites: 7072
-- NetworkTest: 16
+- NetworkTest: 17
 
 ## 跨分类重复 / Cross-Category Conflicts
 
@@ -151,7 +151,7 @@
 - Microsoft: 706 domain rules, 7 classical-only rules omitted, 7198 bytes
 - NetEaseMusic: 10 domain rules, 20 classical-only rules omitted, 199 bytes
 - Netflix: 32 domain rules, 1124 classical-only rules omitted, 398 bytes
-- NetworkTest: 16 domain rules, 0 classical-only rules omitted, 271 bytes
+- NetworkTest: 17 domain rules, 0 classical-only rules omitted, 276 bytes
 - Payment: 250 domain rules, 2 classical-only rules omitted, 2706 bytes
 - Pinduoduo: 4 domain rules, 0 classical-only rules omitted, 94 bytes
 - SpeedTest: 3467 domain rules, 2 classical-only rules omitted, 37903 bytes
