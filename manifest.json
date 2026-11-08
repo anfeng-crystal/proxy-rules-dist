@@ -682,8 +682,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3480,
-      "source_count": 3480,
+      "rules": 3481,
+      "source_count": 3481,
       "manual_count": 0,
       "includes": [
         {
@@ -697,9 +697,9 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3478,
+      "mihomo_mrs_rules": 3479,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 38066
+      "mihomo_mrs_bytes": 38078
     },
     {
       "name": "Gemini",
@@ -731,8 +731,8 @@
       "name": "AI",
       "policy": "AI",
       "description": "Overseas AI services only.",
-      "rules": 181,
-      "source_count": 121,
+      "rules": 183,
+      "source_count": 123,
       "manual_count": 60,
       "includes": [
         {
@@ -806,9 +806,9 @@
       "license": "unknown",
       "local_fallback": "global-ai.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/AI/AI.mrs",
-      "mihomo_mrs_rules": 175,
+      "mihomo_mrs_rules": 177,
       "mihomo_mrs_omitted": 6,
-      "mihomo_mrs_bytes": 1756
+      "mihomo_mrs_bytes": 1790
     },
     {
       "name": "Dev",
@@ -1734,11 +1734,11 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3480
+        "rules": 3481
       },
       {
         "name": "AI",
-        "rules": 181
+        "rules": 183
       },
       {
         "name": "Apple",
@@ -1897,10 +1897,10 @@
         "bytes": 276
       },
       "SpeedTest": {
-        "rules": 3478,
+        "rules": 3479,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 38066
+        "bytes": 38078
       },
       "Gemini": {
         "rules": 53,
@@ -1909,10 +1909,10 @@
         "bytes": 626
       },
       "AI": {
-        "rules": 175,
+        "rules": 177,
         "omitted": 6,
         "path": "mihomo-mrs/AI/AI.mrs",
-        "bytes": 1756
+        "bytes": 1790
       },
       "Dev": {
         "rules": 53,
