@@ -215,6 +215,7 @@ HOST,hs13.aratwifi.com.tr,SpeedTest
 HOST,hs14.aratwifi.com.tr,SpeedTest
 HOST,hv1.juce.ca,SpeedTest
 HOST,iad-eqx10-ookla-1.99.network,SpeedTest
+HOST,ihgtelecom.brsserver.com.br,SpeedTest
 HOST,imrteixeira.brsserver.com.br,SpeedTest
 HOST,ind-nperf.verizon.net,SpeedTest
 HOST,inova.net.gegnet.com.br,SpeedTest
@@ -555,6 +556,7 @@ HOST,ookla2.mbspeed.net,SpeedTest
 HOST,ookla3.1und1-mobilfunk.de,SpeedTest
 HOST,ooklaserver.aryk.fr,SpeedTest
 HOST,ooklaserver.asbn.va.ogital.net,SpeedTest
+HOST,ooklaserver.atln.ga.ogital.net,SpeedTest
 HOST,ooklaserver.dlls.tx.ogital.net,SpeedTest
 HOST,ooklaserver1-del1.skymaxbroadband.com,SpeedTest
 HOST,ooklaspdtstsvr.zitel.com,SpeedTest
@@ -865,6 +867,7 @@ HOST,speed.haefeleconnect.com,SpeedTest
 HOST,speed.hamilton.net,SpeedTest
 HOST,speed.idnet.net.br,SpeedTest
 HOST,speed.inet-isp.com,SpeedTest
+HOST,speed.isrcomunicaciones.es,SpeedTest
 HOST,speed.jumpernet.com.br,SpeedTest
 HOST,speed.kansas.smishcraft.com,SpeedTest
 HOST,speed.ktk.de,SpeedTest
@@ -1218,6 +1221,7 @@ HOST,speedtest-perth.launtel.net.au,SpeedTest
 HOST,speedtest-perth.macquarietelecom.com,SpeedTest
 HOST,speedtest-perth.optusnet.com.au,SpeedTest
 HOST,speedtest-phl.dish-wireless.com,SpeedTest
+HOST,speedtest-phoenix.resoundnetworks.com,SpeedTest
 HOST,speedtest-phx.dish-wireless.com,SpeedTest
 HOST,speedtest-pit.omnifiber.com,SpeedTest
 HOST,speedtest-pl.the.hosting,SpeedTest
