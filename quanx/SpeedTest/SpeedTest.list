@@ -633,6 +633,7 @@ HOST,seawa00-speedtest.etstelco.com,SpeedTest
 HOST,secretspeedsterserver2364.cpe.nj.crnrstn.comcast.net,SpeedTest
 HOST,seednet-tc1.seed.net.tw,SpeedTest
 HOST,seednet-tn1.seed.net.tw,SpeedTest
+HOST,seednet-tp1.seed.net.tw,SpeedTest
 HOST,seednet-ty1.seed.net.tw,SpeedTest
 HOST,serv.qwistel.in,SpeedTest
 HOST,serv8.a2jnetwork.in,SpeedTest
@@ -2071,6 +2072,7 @@ HOST,speedtest.onetouchexpress.com,SpeedTest
 HOST,speedtest.ontarionet.net,SpeedTest
 HOST,speedtest.oopaya.com,SpeedTest
 HOST,speedtest.opennetfortaleza.com.br,SpeedTest
+HOST,speedtest.opiquad.it,SpeedTest
 HOST,speedtest.optic-communications.com,SpeedTest
 HOST,speedtest.optyxbroadband.com,SpeedTest
 HOST,speedtest.ord1.hivelocity.net,SpeedTest
