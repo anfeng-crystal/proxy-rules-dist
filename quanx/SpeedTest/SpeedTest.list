@@ -353,6 +353,7 @@ HOST,mobile.shunicomtest.com,SpeedTest
 HOST,montsouris3.d2m.c2d.liveservices.fr,SpeedTest
 HOST,mrutooklaspeed1.jioconnect.com,SpeedTest
 HOST,msk-speedtest2.corbina.net,SpeedTest
+HOST,msk.speedtest.reynard.cloud,SpeedTest
 HOST,msk3.companion.t2.ru,SpeedTest
 HOST,mspeedtest.linkceara.com.br,SpeedTest
 HOST,mtcspeedtest.catskill.net,SpeedTest
@@ -1608,6 +1609,7 @@ HOST,speedtest.ecfaccess.net,SpeedTest
 HOST,speedtest.echonet.co.in,SpeedTest
 HOST,speedtest.ecmnet.com.br,SpeedTest
 HOST,speedtest.ed.shawcable.net,SpeedTest
+HOST,speedtest.edgefox.net,SpeedTest
 HOST,speedtest.ediscom.net,SpeedTest
 HOST,speedtest.edv-kossmann.de,SpeedTest
 HOST,speedtest.ehv.vodafone.nl,SpeedTest

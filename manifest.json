@@ -682,8 +682,8 @@
       "name": "SpeedTest",
       "policy": "SpeedTest",
       "description": "Network throughput and speed test endpoints.",
-      "rules": 3501,
-      "source_count": 3501,
+      "rules": 3503,
+      "source_count": 3503,
       "manual_count": 0,
       "includes": [
         {
@@ -697,9 +697,9 @@
       "license": "unknown",
       "local_fallback": "speedtest.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/SpeedTest/SpeedTest.mrs",
-      "mihomo_mrs_rules": 3499,
+      "mihomo_mrs_rules": 3501,
       "mihomo_mrs_omitted": 2,
-      "mihomo_mrs_bytes": 38231
+      "mihomo_mrs_bytes": 38275
     },
     {
       "name": "Gemini",
@@ -1322,8 +1322,8 @@
       "name": "GlobalSites",
       "policy": "境外网站",
       "description": "Long-tail overseas websites and services not covered by standalone brand buckets.",
-      "rules": 7072,
-      "source_count": 7047,
+      "rules": 7424,
+      "source_count": 7399,
       "manual_count": 25,
       "includes": [
         {
@@ -1385,9 +1385,9 @@
       "license": "unknown",
       "local_fallback": "global.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/GlobalSites/GlobalSites.mrs",
-      "mihomo_mrs_rules": 6949,
-      "mihomo_mrs_omitted": 123,
-      "mihomo_mrs_bytes": 52043
+      "mihomo_mrs_rules": 7297,
+      "mihomo_mrs_omitted": 127,
+      "mihomo_mrs_bytes": 55013
     },
     {
       "name": "Ads",
@@ -1734,7 +1734,7 @@
       },
       {
         "name": "SpeedTest",
-        "rules": 3501
+        "rules": 3503
       },
       {
         "name": "AI",
@@ -1774,7 +1774,7 @@
       },
       {
         "name": "GlobalSites",
-        "rules": 7072
+        "rules": 7424
       },
       {
         "name": "Ads",
@@ -1897,10 +1897,10 @@
         "bytes": 276
       },
       "SpeedTest": {
-        "rules": 3499,
+        "rules": 3501,
         "omitted": 2,
         "path": "mihomo-mrs/SpeedTest/SpeedTest.mrs",
-        "bytes": 38231
+        "bytes": 38275
       },
       "Gemini": {
         "rules": 53,
@@ -2011,10 +2011,10 @@
         "bytes": 514
       },
       "GlobalSites": {
-        "rules": 6949,
-        "omitted": 123,
+        "rules": 7297,
+        "omitted": 127,
         "path": "mihomo-mrs/GlobalSites/GlobalSites.mrs",
-        "bytes": 52043
+        "bytes": 55013
       },
       "Ads": {
         "rules": 290273,

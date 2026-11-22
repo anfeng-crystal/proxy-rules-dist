@@ -815,26 +815,26 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Domestic/Domestic.dns.json"
     },
     "SpeedTest": {
-      "input_rules": 3501,
+      "input_rules": 3503,
       "input_types": {
-        "domain": 3384,
+        "domain": 3386,
         "domain_keyword": 1,
         "domain_suffix": 115,
         "user_agent": 1
       },
-      "emitted_input_rules": 3500,
+      "emitted_input_rules": 3502,
       "emitted_input_types": {
-        "domain": 3384,
+        "domain": 3386,
         "domain_keyword": 1,
         "domain_suffix": 115
       },
-      "route_rules": 3500,
-      "dns_rules": 3500,
+      "route_rules": 3502,
+      "dns_rules": 3502,
       "headless_route_rules": 1,
       "headless_dns_rules": 1,
       "source_labels": {
         "blackmatrix7-speedtest-quanx": 10,
-        "sukka-speedtest-domainset": 3491
+        "sukka-speedtest-domainset": 3493
       },
       "omitted_count": 1,
       "omitted": [
@@ -1733,29 +1733,29 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GitHub/GitHub.dns.json"
     },
     "GlobalSites": {
-      "input_rules": 7072,
+      "input_rules": 7424,
       "input_types": {
-        "domain": 8,
-        "domain_keyword": 26,
-        "domain_suffix": 6941,
+        "domain": 20,
+        "domain_keyword": 30,
+        "domain_suffix": 7277,
         "ip_cidr": 91,
         "ip_cidr6": 4,
         "user_agent": 2
       },
-      "emitted_input_rules": 7070,
+      "emitted_input_rules": 7422,
       "emitted_input_types": {
-        "domain": 8,
-        "domain_keyword": 26,
-        "domain_suffix": 6941,
+        "domain": 20,
+        "domain_keyword": 30,
+        "domain_suffix": 7277,
         "ip_cidr": 91,
         "ip_cidr6": 4
       },
-      "route_rules": 7070,
-      "dns_rules": 6975,
+      "route_rules": 7422,
+      "dns_rules": 7327,
       "headless_route_rules": 2,
       "headless_dns_rules": 1,
       "source_labels": {
-        "acl4ssr-global-clash": 6785,
+        "acl4ssr-global-clash": 7137,
         "blackmatrix7-amazon-quanx": 204,
         "blackmatrix7-discord-quanx": 29,
         "blackmatrix7-reddit-quanx": 8,
@@ -2346,9 +2346,9 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json"
     }
   },
-  "input_rules": 426691,
-  "route_rules": 426535,
-  "dns_rules": 423522,
+  "input_rules": 427045,
+  "route_rules": 426889,
+  "dns_rules": 423876,
   "omitted_count": 155,
   "moved_count": 1,
   "normalized_cidr_count": 4,

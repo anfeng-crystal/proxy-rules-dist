@@ -1687,11 +1687,14 @@ rules:
   - DOMAIN-KEYWORD,1drv,境外网站
   - DOMAIN-KEYWORD,1e100,境外网站
   - DOMAIN-KEYWORD,abema,境外网站
+  - DOMAIN-KEYWORD,anthropic,境外网站
+  - DOMAIN-KEYWORD,antigravity,境外网站
   - DOMAIN-KEYWORD,appledaily,境外网站
   - DOMAIN-KEYWORD,avoddashs,境外网站
   - DOMAIN-KEYWORD,avtb,境外网站
   - DOMAIN-KEYWORD,beetalk,境外网站
   - DOMAIN-KEYWORD,blogspot,境外网站
+  - DOMAIN-KEYWORD,claude,境外网站
   - DOMAIN-KEYWORD,dropbox,境外网站
   - DOMAIN-KEYWORD,facebook,境外网站
   - DOMAIN-KEYWORD,fbcdn,境外网站
@@ -1700,6 +1703,7 @@ rules:
   - DOMAIN-KEYWORD,google,境外网站
   - DOMAIN-KEYWORD,instagram,境外网站
   - DOMAIN-KEYWORD,onedrive,境外网站
+  - DOMAIN-KEYWORD,openai,境外网站
   - DOMAIN-KEYWORD,porn,境外网站
   - DOMAIN-KEYWORD,sci-hub,境外网站
   - DOMAIN-KEYWORD,skydrive,境外网站

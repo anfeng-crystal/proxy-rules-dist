@@ -24,7 +24,7 @@
 - Netflix: 1156
 - Payment: 252
 - Pinduoduo: 4
-- SpeedTest: 3501
+- SpeedTest: 3503
 - Spotify: 30
 - Telegram: 35
 - Tencent: 2524
@@ -38,7 +38,7 @@
 - Zhihu: 9
 - iQIYI: 62
 - Domestic: 111741
-- GlobalSites: 7072
+- GlobalSites: 7424
 - NetworkTest: 17
 
 ## 跨分类重复 / Cross-Category Conflicts
@@ -143,7 +143,7 @@
 - Game: 32 domain rules, 0 classical-only rules omitted, 432 bytes
 - Gemini: 53 domain rules, 3 classical-only rules omitted, 626 bytes
 - GitHub: 37 domain rules, 1 classical-only rules omitted, 514 bytes
-- GlobalSites: 6949 domain rules, 123 classical-only rules omitted, 52043 bytes
+- GlobalSites: 7297 domain rules, 127 classical-only rules omitted, 55013 bytes
 - Google: 698 domain rules, 13 classical-only rules omitted, 6196 bytes
 - Instagram: 3 domain rules, 1 classical-only rules omitted, 81 bytes
 - JD: 249 domain rules, 0 classical-only rules omitted, 2144 bytes
@@ -154,7 +154,7 @@
 - NetworkTest: 17 domain rules, 0 classical-only rules omitted, 276 bytes
 - Payment: 250 domain rules, 2 classical-only rules omitted, 2706 bytes
 - Pinduoduo: 4 domain rules, 0 classical-only rules omitted, 94 bytes
-- SpeedTest: 3499 domain rules, 2 classical-only rules omitted, 38231 bytes
+- SpeedTest: 3501 domain rules, 2 classical-only rules omitted, 38275 bytes
 - Spotify: 26 domain rules, 4 classical-only rules omitted, 400 bytes
 - Telegram: 24 domain rules, 11 classical-only rules omitted, 310 bytes
 - Tencent: 2499 domain rules, 25 classical-only rules omitted, 18001 bytes
