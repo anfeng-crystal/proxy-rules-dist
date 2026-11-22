@@ -705,9 +705,9 @@
       "name": "Gemini",
       "policy": "Gemini",
       "description": "Google Gemini, AI Studio, and NotebookLM endpoints.",
-      "rules": 56,
+      "rules": 58,
       "source_count": 54,
-      "manual_count": 2,
+      "manual_count": 4,
       "includes": [
         {
           "name": "GoogleGemini",
@@ -723,7 +723,7 @@
       "license_url": "https://github.com/lobehub/lobe-icons/blob/main/LICENSE",
       "local_fallback": "gemini.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/Gemini/Gemini.mrs",
-      "mihomo_mrs_rules": 53,
+      "mihomo_mrs_rules": 55,
       "mihomo_mrs_omitted": 3,
       "mihomo_mrs_bytes": 626
     },
@@ -731,9 +731,9 @@
       "name": "AI",
       "policy": "AI",
       "description": "Overseas AI services only.",
-      "rules": 183,
+      "rules": 185,
       "source_count": 123,
-      "manual_count": 60,
+      "manual_count": 62,
       "includes": [
         {
           "name": "OpenAI",
@@ -806,7 +806,7 @@
       "license": "unknown",
       "local_fallback": "global-ai.svg",
       "mihomo_mrs_url": "https://anfeng-crystal.github.io/proxy-rules-dist/mihomo-mrs/AI/AI.mrs",
-      "mihomo_mrs_rules": 177,
+      "mihomo_mrs_rules": 179,
       "mihomo_mrs_omitted": 6,
       "mihomo_mrs_bytes": 1790
     },
@@ -1738,7 +1738,7 @@
       },
       {
         "name": "AI",
-        "rules": 183
+        "rules": 185
       },
       {
         "name": "Apple",
@@ -1903,13 +1903,13 @@
         "bytes": 38275
       },
       "Gemini": {
-        "rules": 53,
+        "rules": 55,
         "omitted": 3,
         "path": "mihomo-mrs/Gemini/Gemini.mrs",
         "bytes": 626
       },
       "AI": {
-        "rules": 177,
+        "rules": 179,
         "omitted": 6,
         "path": "mihomo-mrs/AI/AI.mrs",
         "bytes": 1790

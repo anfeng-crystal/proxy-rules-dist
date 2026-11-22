@@ -21,6 +21,7 @@ HOST,appsgenaiserver-pa.clients.google.com,AI
 HOST,appsgenaiserver-pa.clients6.google.com,AI
 HOST,appsgenaiserver-pa.googleapis.com,AI
 HOST,auth0.openai.com,AI
+HOST,bard.google.com,AI
 HOST,browser-intake-datadoghq.com,AI
 HOST,cdn-lfs.huggingface.co,AI
 HOST,cdn.midjourney.com,AI
@@ -42,6 +43,7 @@ HOST,files.oaiusercontent.com,AI
 HOST,forwarder.workos.com,AI
 HOST,geminiweb-pa.clients.google.com,AI
 HOST,geminiweb-pa.clients6.google.com,AI
+HOST,generativelanguage.googleapis.com,AI
 HOST,http-intake.logs.us5.datadoghq.com,AI
 HOST,js.intercomcdn.com,AI
 HOST,login.live.com,AI

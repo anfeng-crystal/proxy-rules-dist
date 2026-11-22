@@ -2,7 +2,7 @@
 
 ## 规则数量 / Counts
 
-- AI: 183
+- AI: 185
 - Ads: 291041
 - Alibaba: 1320
 - Apple: 1875
@@ -15,7 +15,7 @@
 - Game: 32
 - GitHub: 38
 - Google: 711
-- Gemini: 56
+- Gemini: 58
 - Instagram: 4
 - JD: 249
 - Meituan: 8
@@ -129,7 +129,7 @@
 
 ## Mihomo MRS / Mihomo MRS
 
-- AI: 177 domain rules, 6 classical-only rules omitted, 1790 bytes
+- AI: 179 domain rules, 6 classical-only rules omitted, 1790 bytes
 - Ads: 290273 domain rules, 768 classical-only rules omitted, 2564123 bytes
 - Alibaba: 1266 domain rules, 54 classical-only rules omitted, 7649 bytes
 - Apple: 1832 domain rules, 43 classical-only rules omitted, 18099 bytes
@@ -141,7 +141,7 @@
 - Douyin: 15 domain rules, 0 classical-only rules omitted, 217 bytes
 - Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
 - Game: 32 domain rules, 0 classical-only rules omitted, 432 bytes
-- Gemini: 53 domain rules, 3 classical-only rules omitted, 626 bytes
+- Gemini: 55 domain rules, 3 classical-only rules omitted, 626 bytes
 - GitHub: 37 domain rules, 1 classical-only rules omitted, 514 bytes
 - GlobalSites: 7297 domain rules, 127 classical-only rules omitted, 55013 bytes
 - Google: 698 domain rules, 13 classical-only rules omitted, 6196 bytes

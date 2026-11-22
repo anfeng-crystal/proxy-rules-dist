@@ -855,26 +855,26 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/SpeedTest/SpeedTest.dns.json"
     },
     "Gemini": {
-      "input_rules": 56,
+      "input_rules": 58,
       "input_types": {
-        "domain": 17,
+        "domain": 19,
         "domain_keyword": 3,
         "domain_suffix": 36
       },
-      "emitted_input_rules": 56,
+      "emitted_input_rules": 58,
       "emitted_input_types": {
-        "domain": 17,
+        "domain": 19,
         "domain_keyword": 3,
         "domain_suffix": 36
       },
-      "route_rules": 56,
-      "dns_rules": 56,
+      "route_rules": 58,
+      "dns_rules": 58,
       "headless_route_rules": 1,
       "headless_dns_rules": 1,
       "source_labels": {
         "acl4ssr-gemini-clash": 13,
         "metacubex-google-gemini-geosite": 41,
-        "override:GoogleGemini.json": 2
+        "override:GoogleGemini.json": 4
       },
       "omitted_count": 0,
       "omitted": [],
@@ -888,22 +888,22 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/Gemini/Gemini.dns.json"
     },
     "AI": {
-      "input_rules": 183,
+      "input_rules": 185,
       "input_types": {
-        "domain": 66,
+        "domain": 68,
         "domain_keyword": 4,
         "domain_suffix": 111,
         "ip_cidr": 2
       },
-      "emitted_input_rules": 183,
+      "emitted_input_rules": 185,
       "emitted_input_types": {
-        "domain": 66,
+        "domain": 68,
         "domain_keyword": 4,
         "domain_suffix": 111,
         "ip_cidr": 2
       },
-      "route_rules": 183,
-      "dns_rules": 181,
+      "route_rules": 185,
+      "dns_rules": 183,
       "headless_route_rules": 2,
       "headless_dns_rules": 1,
       "source_labels": {
@@ -916,7 +916,7 @@
         "metacubex-openai-geosite": 12,
         "override:AnthropicClaude.json": 1,
         "override:Cursor.json": 3,
-        "override:GoogleGemini.json": 2,
+        "override:GoogleGemini.json": 4,
         "override:GrokXAI.json": 4,
         "override:HuggingFace.json": 4,
         "override:MicrosoftCopilot.json": 5,
@@ -2346,9 +2346,9 @@
       "dns_url": "https://anfeng-crystal.github.io/proxy-rules-dist/sing-box/GlobalMedia/GlobalMedia.dns.json"
     }
   },
-  "input_rules": 427045,
-  "route_rules": 426889,
-  "dns_rules": 423876,
+  "input_rules": 427049,
+  "route_rules": 426893,
+  "dns_rules": 423880,
   "omitted_count": 155,
   "moved_count": 1,
   "normalized_cidr_count": 4,
