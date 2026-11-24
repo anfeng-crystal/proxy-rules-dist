@@ -155,6 +155,7 @@ HOST,falcon.its.utoronto.ca,SpeedTest
 HOST,fast.blackbearfiber.com,SpeedTest
 HOST,fast.kabi.tk,SpeedTest
 HOST,fastme.ir,SpeedTest
+HOST,fetdl2.seed.net.tw,SpeedTest
 HOST,fetkt1.seed.net.tw,SpeedTest
 HOST,fetml1.seed.net.tw,SpeedTest
 HOST,fetnt1.seed.net.tw,SpeedTest
@@ -304,6 +305,7 @@ HOST,lg-vie.fdcservers.net,SpeedTest
 HOST,lg-war.fdcservers.net,SpeedTest
 HOST,lg.bcn1.es.everywan.com,SpeedTest
 HOST,lg.mia.plasmarack.com,SpeedTest
+HOST,lhr.speedtest.rustbanned.net,SpeedTest
 HOST,librarian.comstar.ru,SpeedTest
 HOST,librespeed-dtw.rackgenius.com,SpeedTest
 HOST,librespeed-rs.ir,SpeedTest
@@ -1036,6 +1038,7 @@ HOST,speedtest-adelaide.optusnet.com.au,SpeedTest
 HOST,speedtest-adl.optusnet.com.au,SpeedTest
 HOST,speedtest-adl.sa.au.hostuniversal.com.au,SpeedTest
 HOST,speedtest-albany.greenlightnetworks.com,SpeedTest
+HOST,speedtest-albuquerque.resoundnetworks.com,SpeedTest
 HOST,speedtest-alm-nl.as215248.net,SpeedTest
 HOST,speedtest-altavilla.wifiweb.it,SpeedTest
 HOST,speedtest-ams-nl.as215248.net,SpeedTest
@@ -1776,6 +1779,7 @@ HOST,speedtest.iftecnologia.net.br,SpeedTest
 HOST,speedtest.igennetworks.in,SpeedTest
 HOST,speedtest.ihrtelecom.com,SpeedTest
 HOST,speedtest.il.mycci.net,SpeedTest
+HOST,speedtest.ilitha.com,SpeedTest
 HOST,speedtest.image1tech.net,SpeedTest
 HOST,speedtest.imais.com.br,SpeedTest
 HOST,speedtest.imcloud.tw,SpeedTest
