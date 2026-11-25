@@ -2,7 +2,7 @@
 
 ## 规则数量 / Counts
 
-- AI: 185
+- AI: 186
 - Ads: 291041
 - Alibaba: 1320
 - Apple: 1875
@@ -15,7 +15,7 @@
 - Game: 32
 - GitHub: 38
 - Google: 711
-- Gemini: 58
+- Gemini: 59
 - Instagram: 4
 - JD: 249
 - Meituan: 8
@@ -24,7 +24,7 @@
 - Netflix: 1156
 - Payment: 252
 - Pinduoduo: 4
-- SpeedTest: 3508
+- SpeedTest: 3509
 - Spotify: 30
 - Telegram: 35
 - Tencent: 2524
@@ -129,7 +129,7 @@
 
 ## Mihomo MRS / Mihomo MRS
 
-- AI: 179 domain rules, 6 classical-only rules omitted, 1790 bytes
+- AI: 180 domain rules, 6 classical-only rules omitted, 1798 bytes
 - Ads: 290273 domain rules, 768 classical-only rules omitted, 2564123 bytes
 - Alibaba: 1266 domain rules, 54 classical-only rules omitted, 7649 bytes
 - Apple: 1832 domain rules, 43 classical-only rules omitted, 18099 bytes
@@ -141,7 +141,7 @@
 - Douyin: 15 domain rules, 0 classical-only rules omitted, 217 bytes
 - Facebook: 544 domain rules, 25 classical-only rules omitted, 4912 bytes
 - Game: 32 domain rules, 0 classical-only rules omitted, 432 bytes
-- Gemini: 55 domain rules, 3 classical-only rules omitted, 626 bytes
+- Gemini: 56 domain rules, 3 classical-only rules omitted, 640 bytes
 - GitHub: 37 domain rules, 1 classical-only rules omitted, 514 bytes
 - GlobalSites: 7297 domain rules, 127 classical-only rules omitted, 55013 bytes
 - Google: 698 domain rules, 13 classical-only rules omitted, 6196 bytes
@@ -154,7 +154,7 @@
 - NetworkTest: 17 domain rules, 0 classical-only rules omitted, 276 bytes
 - Payment: 250 domain rules, 2 classical-only rules omitted, 2706 bytes
 - Pinduoduo: 4 domain rules, 0 classical-only rules omitted, 94 bytes
-- SpeedTest: 3506 domain rules, 2 classical-only rules omitted, 38358 bytes
+- SpeedTest: 3507 domain rules, 2 classical-only rules omitted, 38390 bytes
 - Spotify: 26 domain rules, 4 classical-only rules omitted, 400 bytes
 - Telegram: 24 domain rules, 11 classical-only rules omitted, 310 bytes
 - Tencent: 2499 domain rules, 25 classical-only rules omitted, 18001 bytes
