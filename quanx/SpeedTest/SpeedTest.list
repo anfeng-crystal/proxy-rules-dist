@@ -813,6 +813,7 @@ HOST,speed-ams.bouwhuisit.nl,SpeedTest
 HOST,speed-bhm2.cspirefiber.com,SpeedTest
 HOST,speed-br2.gigacomm.net.au,SpeedTest
 HOST,speed-ens.bouwhuisit.nl,SpeedTest
+HOST,speed-fra.laudat.org,SpeedTest
 HOST,speed-ist.veganet.com.tr,SpeedTest
 HOST,speed-mel.gigacomm.net.au,SpeedTest
 HOST,speed-miss.systemlifeline.com,SpeedTest
@@ -2255,6 +2256,7 @@ HOST,speedtest.spectra.co,SpeedTest
 HOST,speedtest.spectrumvoip.com,SpeedTest
 HOST,speedtest.speedcom.in,SpeedTest
 HOST,speedtest.speedfi.xyz,SpeedTest
+HOST,speedtest.speednetmacapa.com.br,SpeedTest
 HOST,speedtest.spl.vodafone.nl,SpeedTest
 HOST,speedtest.springcom.com,SpeedTest
 HOST,speedtest.springo.it,SpeedTest
