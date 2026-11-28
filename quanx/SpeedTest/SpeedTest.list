@@ -27,6 +27,7 @@ HOST,altoonaspeedtest.crowsnestbb.net,SpeedTest
 HOST,alzenspeedtest.duckdns.org,SpeedTest
 HOST,ams-eq6-tptest1.31173.se,SpeedTest
 HOST,ams-speedtest.isp.htb.systems,SpeedTest
+HOST,ams.speedtest.rustbanned.net,SpeedTest
 HOST,amsspeed.sharktech.net,SpeedTest
 HOST,amsterdam.getstreamhosting.com,SpeedTest
 HOST,ant1speedtest.turktelekom.com.tr,SpeedTest
@@ -545,6 +546,7 @@ HOST,ookla.snt.utwente.nl,SpeedTest
 HOST,ookla.soc.atharva.co.id,SpeedTest
 HOST,ookla.speedking.in,SpeedTest
 HOST,ookla.speedtest.cnix.cn,SpeedTest
+HOST,ookla.speedtest.freethought-internet.co.uk,SpeedTest
 HOST,ookla.surnet.com.tr,SpeedTest
 HOST,ookla.svw.as6453.net,SpeedTest
 HOST,ookla.sy1.neptune.net.au,SpeedTest
@@ -1281,6 +1283,7 @@ HOST,speedtest-sjc.dish-wireless.com,SpeedTest
 HOST,speedtest-sjc.sectrify.com,SpeedTest
 HOST,speedtest-sjdm.newworld.ph,SpeedTest
 HOST,speedtest-sossano.wifiweb.it,SpeedTest
+HOST,speedtest-spo.fibranort.com.br,SpeedTest
 HOST,speedtest-srv-a.homeworks.org,SpeedTest
 HOST,speedtest-srv01.tut.net,SpeedTest
 HOST,speedtest-stf.megafon.ru,SpeedTest
@@ -1333,6 +1336,7 @@ HOST,speedtest-zion.fireflyva.com,SpeedTest
 HOST,speedtest-zl-1.zoominternet.net,SpeedTest
 HOST,speedtest.0dayhost.com,SpeedTest
 HOST,speedtest.100g.macarne.com,SpeedTest
+HOST,speedtest.10gtelecomindia.com,SpeedTest
 HOST,speedtest.139play.com,SpeedTest
 HOST,speedtest.15.com.tw,SpeedTest
 HOST,speedtest.23m.com,SpeedTest
